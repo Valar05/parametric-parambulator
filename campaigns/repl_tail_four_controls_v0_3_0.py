@@ -398,13 +398,12 @@ def validate_real_skin(doc, binary, base, by_name,
                 p1 = base.deform_vertex(
                     positions[i], newj[i], neww[i], matrices)
                 max_mane = max(max_mane, math.dist(p0, p1))
-            for i in tail_indices:
+            for i, rest_point in zip(tail_indices, rest_tail):
                 p = base.deform_vertex(
                     positions[i], newj[i], neww[i], matrices)
                 require(all(math.isfinite(v) for v in p),
                         "NONFINITE_TAIL_GEOMETRY")
-                max_tail = max(max_tail, math.dist(rest_tail[
-                    tail_indices.index(i)], p))
+                max_tail = max(max_tail, math.dist(rest_point, p))
             sample_counts += 1
         require(max_body < 1e-6 and max_hoof < 1e-6,
                 "TAIL_CLIP_MOVED_BODY_OR_HOOF")
@@ -489,6 +488,7 @@ const grid=new THREE.GridHelper(4,20,0x999999,0xb8b8b8);
 grid.position.y=-.012;scene.add(grid);
 const mixerClock=new THREE.Clock();
 let mixer=null,root=null,gltf=null,currentAction=null,paused=false;
+const restBoneRotations=new Map();
 function resize(){
   const w=canvas.clientWidth||800,h=canvas.clientHeight||600;
   renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();
@@ -497,6 +497,7 @@ new ResizeObserver(resize).observe(canvas);resize();
 function selectClip(){
   if(!mixer||!gltf)return;
   mixer.stopAllAction();
+  for(const [bone,rotation] of restBoneRotations) bone.quaternion.copy(rotation);
   const tail=gltf.animations.find(c=>c.name.includes('TAIL_FOUR_BONE'));
   const neck=gltf.animations.find(c=>c.name.includes('NECK_REVIEW'));
   currentAction=mixer.clipAction(document.querySelector('#clip').value==='tail'?
@@ -540,7 +541,8 @@ try{
   const bytes=Uint8Array.from(atob(encoded),v=>v.charCodeAt(0));
   new GLTFLoader().parse(bytes.buffer,'',model=>{
     gltf=model;root=model.scene;scene.add(root);
-    root.traverse(o=>{if(o.isMesh){o.frustumCulled=false;}});
+    root.traverse(o=>{if(o.isMesh){o.frustumCulled=false;}
+      if(o.isBone)restBoneRotations.set(o,o.quaternion.clone());});
     mixer=new THREE.AnimationMixer(root);
     cameraPreset();selectClip();
     status.textContent='Real textured GLB loaded: '+gltf.animations.length+
