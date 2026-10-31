@@ -1,0 +1,92 @@
+{
+  "schema": "parametric-parambulator-campaign-contract-v1",
+  "id": "REPL_HAIR_AXIAL_BIND",
+  "version": "0.1.0",
+  "user_mission": "Automatically bind Repl's existing mane and tail to EXISTING axial bones; animate only neck/head to inspect deformation while all four hooves remain still.",
+  "input": {
+    "name": "Repl.glb",
+    "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "bodyVertices": 6082,
+    "hairVertices": 1819,
+    "triangles": 1207,
+    "skinJoints": 43,
+    "sourcePersistence": "never overwrite"
+  },
+  "preserve": [
+    "Repl.blend",
+    "source Repl.glb",
+    "body POSITION/NORMAL/TEXCOORD/JOINTS_0/WEIGHTS_0",
+    "body topology/materials/textures",
+    "all original nodes/joints and parent relationships",
+    "mane and tail geometry/UVs/materials",
+    "four world-fixed hooves",
+    "no existing animations removed"
+  ],
+  "mutable": [
+    "derived GLB hair primitive JOINTS_0 and WEIGHTS_0",
+    "derived GLB hair mesh node skin=0",
+    "derived GLB one neck/head-only rotation clip",
+    "derived versioned output reports and offline review HTML"
+  ],
+  "forbidden": [
+    "new bones",
+    "manual weight painting",
+    "leg bones animated",
+    "hoof lift",
+    "root translation",
+    "walking",
+    "wind/shader",
+    "cloth and hair physics",
+    "source model overwritten",
+    "unapproved Git writes from runner"
+  ],
+  "spineInfluences": [
+    "Bone_001",
+    "Bone_002",
+    "Bone_003",
+    "Bone_004",
+    "Bone_005",
+    "Bone_006",
+    "Bone_007",
+    "Bone_008",
+    "Bone_009",
+    "Bone_010"
+  ],
+  "neckTestBones": [
+    "Bone_010",
+    "Bone_009",
+    "Bone_008",
+    "Bone_007"
+  ],
+  "legInfluencesOnHairAllowed": false,
+  "guards": {
+    "sourceHashMustMatch": true,
+    "exactInputCounts": true,
+    "allHairVerticesCovered": true,
+    "maxWeightInfluences": 4,
+    "weightSumTolerance": 0.00001,
+    "restPoseDriftMax": 0.0003,
+    "hoofVertexDriftMax": 0.0003,
+    "hoofBoneDriftMax": 0.000001,
+    "minimumHairDisplacement": 0.004,
+    "maximumHairDisplacement": 0.35
+  },
+  "files": {
+    "runner": "campaigns/repl_hair_bind_v0_1_0.py",
+    "contract": "campaigns/REPL_HAIR_BIND_V0_1_0_CONTRACT.json",
+    "README": "campaigns/REPL_HAIR_BIND_V0_1_0_README.md"
+  },
+  "outputs": [
+    "Repl_HairBind_v0.1.0.glb",
+    "Repl_HairBind_v0.1.0_report.json",
+    "Repl_HairBind_v0.1.0_preview.html",
+    "RECEIPT_v0.1.0.json"
+  ],
+  "status": "CODE_COMMITTED_NOT_PHYSICALLY_EXECUTED",
+  "humanAcceptance": "PENDING",
+  "authority": {
+    "etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+    "pose3d": "https://docs.google.com/document/d/1BNXVfowZWQSSA0Nk0OK4jP7_K-ysHnM5vTPV_EB8EWU/edit",
+    "etiquetteRevision": "AHj4eMTv1e9_6UE5_mM35bdNDOMWOHgI3o-sbIJfINApmNwtgEXVdCw4qvhg-bJc_rnvBXBmCDR5LeIYuln4Jz9WdM4gQna1C0blvSmS6nA"
+  }
+}
