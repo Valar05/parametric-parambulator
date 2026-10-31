@@ -4,7 +4,7 @@ A clean, independent home for Repl's procedural 3D movement, rig and animation d
 
 ## One model, one authoritative path
 
-The sole live Repl model belongs at `assets/repl/Repl.glb`. **It has not yet been imported.** The intended original source is hash-locked in `assets/repl/CANONICAL_MODEL.json`. No campaign result is integrated until that actual GitHub file exists, can be read back and has the correct digest.
+The sole live Repl model belongs at `assets/repl/Repl.glb`. **The original 43-joint source baseline is committed here; later accepted mane/tail weighting is not yet integrated.** The intended original source is hash-locked in `assets/repl/CANONICAL_MODEL.json`. No campaign result is integrated until that actual GitHub file exists, can be read back and has the correct digest.
 
 After the one-time initial import, each approved bone-weight, pivot or motion change must update **the same GLB path** in this repository. Git commits carry the history and rollback. Scripts, rendered evidence, reports and viewers may be versioned; new GLBs for each experiment may not. Temporary candidate models are not deliverables.
 
