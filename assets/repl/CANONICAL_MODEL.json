@@ -1,4 +1,19 @@
 {
+  "active_model": {
+    "animations": 3,
+    "bones": 50,
+    "campaign": "REPL_TAIL_CANONICAL_STRAIGHTEN",
+    "git_blob_sha1": "35dfb120cb9518f3ccd8ca51514c8c8c2f0f0c3a",
+    "gizmo": "optional_in_textured_viewer_off_by_default",
+    "human_visual_acceptance": "PENDING",
+    "mane_weights": "from_original_v0.2_hair_candidate",
+    "path": "assets/repl/Repl.glb",
+    "preview_sha256": "64233771a8bdd92c082fa207b5c3a4bd45af9303ba674b2bfd05fba3d7715c78",
+    "sha256": "d44da2839ba05a4c520066e0d76cdb95339c2917456ee46fb27a02a7693c2d7a",
+    "tail_bones": 4,
+    "tail_motion": "14s_slow_straighten",
+    "version": "0.5.1"
+  },
   "canonical_glb_path": "assets/repl/Repl.glb",
   "initial_import": {
     "contains_accepted_hair_weights": false,
@@ -21,5 +36,12 @@
   ],
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
-  "status": "ORIGINAL_SOURCE_BASELINE_IMPORTED__LATER_HAIR_UPDATES_NOT_MIGRATED"
+  "single_canonical_glb_count": 1,
+  "source_baseline": {
+    "commit": "0b388f2a7a16f199ae337d21bd1b7507bb4c2e11",
+    "git_blob_sha1": "02840305b7a71356839294e376c6c166ae98a9fc",
+    "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "source_regression": "NONE"
+  },
+  "status": "FOUR_BONE_TAIL_STRAIGHTEN_V0_5_0__HUMAN_VISUAL_PENDING"
 }

@@ -17,3 +17,7 @@ The owner has visually approved the mane-weighting direction and later tail resu
 Source identity, remote commit, same-path GitHub asset readback, actual visible textured evidence, and the owner's visual verdict are separate completion stages. Never treat a launcher, test result, GitHub link or local scratch model as the final model.
 
 Campaign Etiquette: https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit
+
+## Current canonical motion candidate
+
+The single `assets/repl/Repl.glb` model is updated in place with the 3-control mane, 4-control tapering tail, preserved body/hooves, and 14-second tail straightening clip. Full-textured review includes an optional, non-mutating tail pivot gizmo, off by default. Version v0.5.1 is a candidate awaiting owner visual verdict, not automatic aesthetic acceptance. Git history preserves prior model.
