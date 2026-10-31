@@ -66,9 +66,13 @@ assert json.dumps(doc["nodes"][43:46],sort_keys=True)==original_mane
 assert [r["name"] for r in manifest]==list(engine.TAIL_NAMES[2:])
 assert 51 in doc["nodes"][47]["children"] and 52 in doc["nodes"][51]["children"]
 assert all(ibms[i] == prev.matrix_from_glb_mat4(identity) for i in range(48))
+worlds=base.world_matrices(doc,{})
 for name,pivot in zip(engine.TAIL_NAMES[2:],engine.TAIL_PIVOTS[2:]):
     i,n=idxmap[name]
-    assert all(abs(a-b)<1e-6 for a,b in zip(doc["nodes"][n]["translation"],pivot))
+    world_point=tuple(worlds[n][k] for k in (3,7,11))
+    assert all(abs(a-b)<1e-6 for a,b in zip(world_point,pivot)), (
+        name,world_point,pivot
+    )
 
 # The generated second clip touches only the four declared tail controls.
 doc["animations"]=[{"name":"locked-neck-clip","samplers":[],"channels":[]}]
