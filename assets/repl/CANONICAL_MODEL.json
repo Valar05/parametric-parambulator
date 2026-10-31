@@ -1,0 +1,18 @@
+{
+  "project": "Repl procedural motion",
+  "repository": "Valar05/parametric-parambulator",
+  "canonical_glb_path": "assets/repl/Repl.glb",
+  "status": "INITIAL_IMPORT_BLOCKED__NO_GLB_COMMITTED",
+  "intended_initial_source_sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+  "intended_initial_git_blob_sha": "02840305b7a71356839294e376c6c166ae98a9fc",
+  "intended_initial_file_bytes": 6352596,
+  "later_hair_motion_results_in_repo": false,
+  "owner_rules": [
+    "Exactly one canonical GLB at the fixed path",
+    "After initial import update the same path through Git history",
+    "Do not deliver a new GLB for each campaign",
+    "Preserve accepted mane and tail state",
+    "Pose Lab is historical reference only, never this project's workspace",
+    "No completion claim without actual binary committed and read back"
+  ]
+}
