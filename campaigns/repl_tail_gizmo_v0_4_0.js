@@ -39,7 +39,7 @@ function installTailPivotGizmo({scene,camera,canvas,orbit,renderer,root,THREE,Tr
   transform.addEventListener('objectChange',updateFields);
   let enabled=false, ghost=false, wire=false;
   const bodies=[];
-  root.traverse(o=>{if(o.isSkinnedMesh){bodies.push({
+  root.traverse(o=>{if(o.isSkinnedMesh && o.geometry?.attributes?.position?.count > 5000){bodies.push({
     mesh:o, material:o.material
   });}});
   function updateBody() {
@@ -51,7 +51,7 @@ function installTailPivotGizmo({scene,camera,canvas,orbit,renderer,root,THREE,Tr
       }
       if (enabled && (ghost||wire)) {
         const clone = m => {
-          const c=m.clone();c.transparent=true;c.opacity=ghost?.21:1;
+          const c=m.clone();c.transparent=true;c.opacity=ghost ? 0.21 : 1;
           c.depthWrite=!ghost;c.side=THREE.DoubleSide;c.wireframe=wire;
           return c;
         };
