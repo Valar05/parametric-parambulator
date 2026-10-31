@@ -47,7 +47,17 @@ for k,mat in enumerate(mats[43:]):
     parent_name=new.CONTROLS[k][1]
     parent=next(i for i,n in enumerate(doc["nodes"]) if n["name"]==parent_name)
     assert 46+k in doc["nodes"][parent]["children"]
-    world=new.translation_matrix(node["translation"])
+    # The nested tail-tip control inherits its tail-base parent's
+    # transform. This is a real hierarchical bind, not a root sibling.
+    local=new.translation_matrix(node["translation"])
+    if parent>=46:
+        grandparent=new.CONTROLS[parent-46][1]
+        ancestral=next(k for k,n in enumerate(doc["nodes"]) if n["name"]==grandparent)
+        # Synthetic old ancestors are identities.
+        ancestor_world=new.translation_matrix(doc["nodes"][parent]["translation"])
+        world=base.matrix_mult(ancestor_world,local)
+    else:
+        world=local
     result=base.matrix_mult(world,mat)
     assert max(abs(result[i]-I[i]) for i in range(16))<1e-6
 
