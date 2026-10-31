@@ -1,0 +1,54 @@
+{
+  "branch": "main",
+  "campaign": "REPL_TAIL_PIVOT_ANCHOR",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "canonical_repository": "Valar05/parametric-parambulator",
+  "corrected_root_xyz": [
+    0,
+    1.204,
+    -0.889
+  ],
+  "expected_output_blob": "5fe7b6bdf6ffe4201e331d1db52ea0d24cad9002",
+  "expected_output_sha256": "55bca4c3406f46bd5c6475127158554a823f8aa36bfd7a6c969d9fb2806ccc7b",
+  "forbid": [
+    "second GLB in repo",
+    "Pose Lab as workspace",
+    "direct ChatGPT GitHub mutation",
+    "movement of body or hooves",
+    "unverified visual acceptance"
+  ],
+  "locked_parent": "bc7fc1db9bd14d8408010def35a8ec6e67670986",
+  "maximum_live_glbs": 1,
+  "operator": "Termux Android bash",
+  "preserve": [
+    "accepted mane joints and weights",
+    "tail vertex weights",
+    "first two clips",
+    "body and hooves",
+    "material images and vertex positions",
+    "all previously committed Git history"
+  ],
+  "previous_wrong_root_xyz": [
+    0,
+    1.05,
+    -0.93
+  ],
+  "scope": [
+    "rebase 4 tail rest pivots without moving 3 distal rest points",
+    "recompute tail-only IBM entries",
+    "rekey 14 second slow-straighten clip only",
+    "full textured review and optional gizmo",
+    "commit same canonical GLB path in Termux"
+  ],
+  "sha256_payloads": {
+    "README.md": "4c2813157ab7067ca90523450e1ed3b570b7927e92954994f91fd0a4e1a7e843",
+    "campaign/blender_review.py": "40faa5c7d4e9fa29583ecf3b9600a086a1632056a0801608f4a89711b4fed5c2",
+    "campaign/driver.py": "0ec9c8884ce02259ce8c9f113bbadb9282d93656add19d60aef88aaba2ba3a64",
+    "campaign/model.py": "7a215158dfad085b594902622df07a7b575e885125da5f176e234fe1e0e89360",
+    "campaign/run-termux.sh": "e67efdebe86a73b287978de7b902ac65e09a4db606c70ab44cdfcc324c235b89"
+  },
+  "socket_measurement": "source body/tail mesh dominant intersecting arc; owner can refine with gizmo",
+  "source_git_blob": "35dfb120cb9518f3ccd8ca51514c8c8c2f0f0c3a",
+  "source_sha256": "d44da2839ba05a4c520066e0d76cdb95339c2917456ee46fb27a02a7693c2d7a",
+  "version": "0.5.2"
+}

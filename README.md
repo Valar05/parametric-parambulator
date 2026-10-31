@@ -21,3 +21,7 @@ Campaign Etiquette: https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQml
 ## Current canonical motion candidate
 
 The single `assets/repl/Repl.glb` model is updated in place with the 3-control mane, 4-control tapering tail, preserved body/hooves, and 14-second tail straightening clip. Full-textured review includes an optional, non-mutating tail pivot gizmo, off by default. Version v0.5.1 is a candidate awaiting owner visual verdict, not automatic aesthetic acceptance. Git history preserves prior model.
+
+## Tail attachment repair v0.5.2
+
+The v0.5.1 root pivot was too low for the actual rump/tail attachment. The single canonical Repl.glb now uses a root at (0, 1.204, -0.889) derived from the measured body/tail intersection arc, while preserving the resting positions of the other three tail controls, unchanged original skin weights, original mane and materials. The 14-second straighten keys were recalculated against the corrected rest skeleton, reaching approximately -8 degrees across all three tail spans. No other GLB was created in the repository. The textured review includes the optional non-mutating root gizmo (off by default). The owner visual acceptance is pending. The earlier v0.5.1 commit remains available through Git history.
