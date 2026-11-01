@@ -3,8 +3,17 @@
     "accepted_mane_weights": "UNCHANGED",
     "all_previous_animations": "PRESERVED",
     "animations": 6,
-    "campaign": "REPL_FORWARD_IK_WALK",
-    "git_blob_sha1": "61166671f2512d2167429f269b756fffcefa834a",
+    "campaign": "REPL_FORELEG_ANATOMICAL_IK_REPAIR",
+    "foreleg_carpus_hinge": "BACKWARD_POLE_-Z",
+    "foreleg_elbow_hinge": "FORWARD_POLE_+Z",
+    "foreleg_hinge_pole_metrics": {
+      "carpus_max": -0.11133485264079576,
+      "elbow_min": 0.024402927625764237
+    },
+    "foreleg_ik_target_error": 0.003483295707347514,
+    "foreleg_review_html_sha256": "e5623b161f2d3976707b5d888f434ea61e8d2855aef5343b85f62bfd6750569c",
+    "git_blob_sha1": "e6dbf6b45dae5726e94d7bcb75e5229118cd7486",
+    "hindleg_tracks": "UNCHANGED_FROM_v0.6.0",
     "hoof_plant_test": {
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
         "evaluated_stance_intervals": 14,
@@ -51,10 +60,11 @@
     "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
     "node_count": 53,
     "path": "assets/repl/Repl.glb",
-    "sha256": "edbe9c647839b3c37b627519e8a7477d7fa8720138913ed3b6524d4613212518",
+    "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
+    "sha256": "af261c92bbfeca49a1fc064df4fa31d355f8df16c13b79ec056951822a4be78d",
     "stride_duration": 1.28,
-    "tail_pivot": "UNCHANGED_FROM_APPROVED_V052",
-    "version": "0.6.0",
+    "tail_pivot": "UNCHANGED_FROM_APPROVED_v0.5.2",
+    "version": "0.6.1",
     "walk_clip_names": [
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
       "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
@@ -89,14 +99,18 @@
     "No completion claim without actual binary committed and read back",
     "Forward travel walk ONLY; never bake or ship an in-place/treadmill walk",
     "Four real skinned-leg IK and hoof-mesh stance slip required",
-    "No separate GLB for a review stage; three clips in the same canonical asset"
+    "No separate GLB for a review stage; three clips in the same canonical asset",
+    "Opposite foreleg IK pole constraints: elbow forward and carpus backward",
+    "Hindleg and stance tracks must be exact unchanged during foreleg-only repairs",
+    "No in-place gait variant, keep real root travel and one GLB in repository"
   ],
   "previous_model": {
-    "git_blob_sha1": "5fe7b6bdf6ffe4201e331d1db52ea0d24cad9002",
-    "owner_visual_acceptance": "TAIL_PIVOT_APPROVED_IN_CHAT",
-    "sha256": "55bca4c3406f46bd5c6475127158554a823f8aa36bfd7a6c969d9fb2806ccc7b",
+    "git_blob_sha1": "61166671f2512d2167429f269b756fffcefa834a",
+    "hindleg_notes": "BETTER_BUT_VISUALLY_UNSETTLED",
+    "owner_visual_acceptance": "REJECTED_INVERTED_FRONT_LEG_BENDS",
+    "sha256": "edbe9c647839b3c37b627519e8a7477d7fa8720138913ed3b6524d4613212518",
     "source_regression": "NONE",
-    "version": "0.5.2"
+    "version": "0.6.0"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -107,5 +121,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "FORWARD_FOUR_BEAT_IK_WALK_v0.6.0__HUMAN_VISUAL_PENDING"
+  "status": "FORELEG_ANATOMICAL_IK_REPAIR_v0.6.1__HUMAN_VISUAL_PENDING"
 }

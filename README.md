@@ -29,3 +29,7 @@ The v0.5.1 root pivot was too low for the actual rump/tail attachment. The singl
 ## Repl: moving four-beat IK walk v0.6.0
 
 The one canonical `assets/repl/Repl.glb` now contains three additional forward-traveling four-beat horse walk review clips (legs, body, integration). Each advances the original skeletal root in world +Z. There is no in-place walk variant. Four distinct stance/swing sequences are solved using the actual foreleg/hindleg chains, with mesh-hoof groundedness tests. The earlier mane, corrected tail pivot, tail straightening and previous clips are unchanged. The owner's visual verdict is pending; Git numerical checks alone are not acceptance.
+
+## Repl forelimb anatomical hinge correction v0.6.1
+
+The single canonical `assets/repl/Repl.glb` retains all six clips. The three forward-traveling walking clips now constrain elbow protrusion toward the horse’s head (+Z), and carpal flexion toward the rear (-Z). Four real skinned front-leg chains have separate joint limits, a grounded hoof target, and an anatomy/pole validator. The better-performing hindlegs, existing three mane/tail clips, body/hooves stance tracks, 50-joint skeleton, original textures and approved v0.5.2 tail pivot remain unchanged. Each walk travels 0.96 model units forward; no in-place version. The full-textured viewer shows optional elbow/carpus markers and the optional, non-mutating tail pivot gizmo. Actual owner visual approval is still pending.

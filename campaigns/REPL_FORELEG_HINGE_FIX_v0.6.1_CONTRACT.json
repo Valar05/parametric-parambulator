@@ -1,0 +1,35 @@
+{
+  "schema": "parametric-parambulator.single-canonical-glb.v1",
+  "campaign": "REPL_FORELEG_ANATOMICAL_IK_REPAIR",
+  "version": "0.6.1",
+  "authorized_execution": "One Termux shell launcher inside one downloaded ZIP; Git commits and pushes from Termux only",
+  "canonical_repository": "Valar05/parametric-parambulator",
+  "canonical_path": "assets/repl/Repl.glb",
+  "source_version": "0.6.0",
+  "source_sha256": "edbe9c647839b3c37b627519e8a7477d7fa8720138913ed3b6524d4613212518",
+  "source_git_blob_sha1": "61166671f2512d2167429f269b756fffcefa834a",
+  "owner_visual_issue": "Both front legs fold in the wrong direction: upper elbow must bend forward, front knee/carpus backward; hind legs comparatively better but not approved as perfect",
+  "approved_scope": [
+    "Replace only the foreleg rotational animation samples of the three existing forward-travel walk clips",
+    "Use independent pole constraints and bounded joint rotations for each foreleg elbow and carpus",
+    "Preserve original root translation and four-beat timing",
+    "Restore hoof orientation with a terminal correction",
+    "Verify anatomy with real skinned joint positions and no planted-hoof changes",
+    "Integrate one full-textured viewer with optional foreleg joint markers, off by default",
+    "Commit one updated canonical GLB to the same path, with hash-verifiable remote readback"
+  ],
+  "protected": [
+    "Original 50-joint rest rig and 53 nodes",
+    "All body, mane, tail and hindleg skin weights",
+    "All original materials, textures and mesh positions",
+    "The corrected buried tail pivot and all four tail controls",
+    "Original 3 mane/tail review clips",
+    "Original 3 world-space moving root tracks",
+    "All hindleg animation tracks",
+    "All planted foreleg animation keys",
+    "No in-place walk or second GLB"
+  ],
+  "physical_review": "OWNER_PENDING",
+  "host_real_model_reference_sha256": "af261c92bbfeca49a1fc064df4fa31d355f8df16c13b79ec056951822a4be78d",
+  "notes": "Host result checksum is informative. Runtime must compute its own valid output digest; microscopic platform-specific trigonometric rounding may differ. Functional gates and remote hash readback remain mandatory."
+}
