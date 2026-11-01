@@ -1,0 +1,15 @@
+{
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "sha256": {
+    "README.md": "8c3e83e21782544f51ae3cb90e9d1cefb5b7610d39bf50fbf58ecd6ece077956",
+    "campaign/blender_review.py": "0a0c493f8711e238f8ee82d60839328ce3fa7c78875e48ac5afd4375e9300b3d",
+    "campaign/contract.json": "8375a958e68d3a56bb8c34b917fb2d825e3e13d25909938062fd8b175d1441a4",
+    "campaign/driver.py": "394d5fa9ce6164ad2e822085f369b93e3704e862084cf82891bc335832acb50c",
+    "campaign/model.py": "ff2180fe9163d4c100271bb380e435a0773b7efd5b69774d63a03c0e45b7a7c7",
+    "campaign/regression.py": "e53d9261d87ecd813f6c0e1ce39357746bc8071f4dd94e6c0ca709690316ce6f",
+    "campaign/run-termux.sh": "874a8d32dd82bf5369df718f2bf3f2cf11e2e0da10221c5e0b8096fa093c1485",
+    "campaign/selftest.py": "928fe67a9f4186c4e2ba076c9e0ffe3e1eeb7177dc67d17d5f4c86ef3bc84340",
+    "campaign/viewer.html.in": "a76f23d2fe3654e8aedf293d56b7eb431b717422bf3d37ae86cf50306bb6c386"
+  },
+  "version": "0.6.10"
+}
