@@ -3,25 +3,23 @@
     "accepted_mane_weights": "UNCHANGED",
     "all_previous_animations": "PRESERVED",
     "animations": 6,
-    "campaign": "REPL_FORELEG_CHAIN_SHIFT",
-    "foreleg_carpus_hinge": "BACKWARD_POLE_-Z",
-    "foreleg_elbow_hinge": "FORWARD_POLE_+Z",
+    "campaign": "REPL_FORELEG_BEND_REVERSAL",
     "foreleg_hinge_pole_metrics": {
       "carpus_max": -0.11133485264079576,
       "elbow_min": 0.024402927625764237
     },
     "foreleg_ik_target_error": 0.003483295707347514,
-    "foreleg_lower_backward_joints": {
+    "foreleg_lower_forward_joints": {
       "LF": "Bone_013",
       "RF": "Bone_019"
     },
-    "foreleg_review_html_sha256": "d8060656dfa2b0a834f5ad57f1f48994a4259fa19a9d7f625225afc89e68f91c",
-    "foreleg_upper_forward_joints": {
+    "foreleg_review_html_sha256": "51f29bb2ebdba9610e05f86c0f70b5491a56e98983cd2cd5ef0f299cdd4dbf48",
+    "foreleg_upper_backward_joints": {
       "LF": "Bone_014",
       "RF": "Bone_020"
     },
-    "git_blob_sha1": "6078f4f74069891bf4140e7925fe3e53e66569fa",
-    "hindleg_tracks": "UNCHANGED_FROM_v0.6.1",
+    "git_blob_sha1": "8e3afd9118f827f1592499300e511e5d90a16d45",
+    "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
     "hoof_plant_test": {
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
         "evaluated_stance_intervals": 14,
@@ -67,24 +65,24 @@
     "joint_count": 50,
     "max_skinned_stance_hoof_delta": 0.0,
     "max_stance_toe_marker_deviation": 0.0,
-    "max_swing_toe_marker_deviation": 0.0031830375851922047,
+    "max_swing_toe_marker_deviation": 0.000904730057173512,
     "min_swing_hoof_surface_y": {
-      "LF": -0.041145478979329964,
-      "RF": -0.018217822812644623
+      "LF": -0.00871039870746502,
+      "RF": -0.0032139945981562775
     },
     "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
     "node_count": 53,
     "path": "assets/repl/Repl.glb",
     "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
-    "sha256": "6a519d49d21dae6048553edc0aa09b340b8ca13979750a4abc1631a48e5c019f",
+    "sha256": "29bc09491f8d42bd272c2a03142252323d147a8bcc90b3aa7c75ed127a31be84",
     "shifted_hinge_pole_metrics": {
-      "lower_backward_max": -0.06195995330630555,
-      "upper_forward_min": 0.026082261014531927
+      "lower_forward_min": 0.05239894600143369,
+      "upper_backward_max": -0.10687132019058843
     },
     "stride_duration": 1.28,
     "swing_hoof_surface_visual_review": "REQUIRED",
     "tail_pivot": "UNCHANGED_FROM_APPROVED_v0.5.2",
-    "version": "0.6.2",
+    "version": "0.6.3",
     "walk_clip_names": [
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
       "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
@@ -126,15 +124,17 @@
     "Front upper bend shifts to Bone_014/020 and lower reverse bend to Bone_013/019",
     "Do not restore rejected Bone_015/021 and Bone_014/020 pole pair",
     "All hindleg, foreleg stance, mane/tail, root/world travel tracks must stay exact",
-    "No in-place walk and exactly one GLB in repository"
+    "No in-place walk and exactly one GLB in repository",
+    "Correct foreleg upper Bone_014/020 bends backward, lower Bone_013/019 bends forward",
+    "Do not revert v0.6.3 directions and do not move the correct v0.6.2 bone levels"
   ],
   "previous_model": {
-    "git_blob_sha1": "e6dbf6b45dae5726e94d7bcb75e5229118cd7486",
+    "git_blob_sha1": "6078f4f74069891bf4140e7925fe3e53e66569fa",
     "hindleg_notes": "BETTER_BUT_NOT_YET_HUMAN_APPROVED",
-    "owner_visual_acceptance": "REJECTED__BOTH_FORELEG_HINGES_ONE_JOINT_TOO_HIGH",
-    "sha256": "af261c92bbfeca49a1fc064df4fa31d355f8df16c13b79ec056951822a4be78d",
+    "owner_visual_acceptance": "REJECTED__v0.6.2_FORELEG_BEND_DIRECTIONS_REVERSED",
+    "sha256": "6a519d49d21dae6048553edc0aa09b340b8ca13979750a4abc1631a48e5c019f",
     "source_regression": "NONE",
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -145,5 +145,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "FORELEG_CHAIN_SHIFT_v0.6.2__HUMAN_VISUAL_PENDING"
+  "status": "FORELEG_CHAIN_SHIFT_v0.6.3__HUMAN_VISUAL_PENDING"
 }
