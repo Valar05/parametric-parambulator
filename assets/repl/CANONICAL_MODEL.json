@@ -3,22 +3,47 @@
     "accepted_mane_weights": "UNCHANGED",
     "all_previous_animations": "PRESERVED",
     "animations": 6,
-    "campaign": "REPL_FORELEG_BEND_REVERSAL",
-    "foreleg_hinge_pole_metrics": {
-      "carpus_max": -0.11133485264079576,
-      "elbow_min": 0.024402927625764237
+    "campaign": "REPL_LOWER_LIMB_ARC_FIX",
+    "corrected_existing_forehoof_tracks": [
+      "Bone_012",
+      "Bone_018"
+    ],
+    "existing_hind_hoof_tracks_before_correction": {
+      "STAGE_1": [
+        "Bone_023",
+        "Bone_028"
+      ],
+      "STAGE_2": [
+        "Bone_023",
+        "Bone_028"
+      ],
+      "STAGE_3": [
+        "Bone_023",
+        "Bone_028"
+      ]
     },
     "foreleg_ik_target_error": 0.003483295707347514,
-    "foreleg_lower_forward_joints": {
-      "LF": "Bone_013",
-      "RF": "Bone_019"
-    },
     "foreleg_review_html_sha256": "51f29bb2ebdba9610e05f86c0f70b5491a56e98983cd2cd5ef0f299cdd4dbf48",
-    "foreleg_upper_backward_joints": {
-      "LF": "Bone_014",
-      "RF": "Bone_020"
+    "four_distal_cannon_hoof_pairs": {
+      "LF": [
+        "Bone_013",
+        "Bone_012"
+      ],
+      "LH": [
+        "Bone_024",
+        "Bone_023"
+      ],
+      "RF": [
+        "Bone_019",
+        "Bone_018"
+      ],
+      "RH": [
+        "Bone_029",
+        "Bone_028"
+      ]
     },
-    "git_blob_sha1": "8e3afd9118f827f1592499300e511e5d90a16d45",
+    "gait_phasing": "PRESERVED",
+    "git_blob_sha1": "c59179a61f742838e124cc4e21b846f878e3150c",
     "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
     "hoof_plant_test": {
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
@@ -61,28 +86,44 @@
         }
       }
     },
+    "hoof_tracks_created_per_clip": {
+      "STAGE_1": [],
+      "STAGE_2": [],
+      "STAGE_3": []
+    },
     "human_visual_acceptance": "PENDING",
     "joint_count": 50,
     "max_skinned_stance_hoof_delta": 0.0,
     "max_stance_toe_marker_deviation": 0.0,
+    "max_swing_hoof_marker_delta": 0.002233251164380438,
     "max_swing_toe_marker_deviation": 0.000904730057173512,
     "min_swing_hoof_surface_y": {
       "LF": -0.00871039870746502,
       "RF": -0.0032139945981562775
     },
     "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
+    "new_explicit_hoof_rotation_tracks": [],
     "node_count": 53,
     "path": "assets/repl/Repl.glb",
+    "review_html_sha256": "3c574340639ddd2a02798b88a43ef054cb1f2eb4c8f23156f1c1764c890e7dc4",
+    "root_forward_travel": 0.96,
     "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
-    "sha256": "29bc09491f8d42bd272c2a03142252323d147a8bcc90b3aa7c75ed127a31be84",
-    "shifted_hinge_pole_metrics": {
-      "lower_forward_min": 0.05239894600143369,
-      "upper_backward_max": -0.10687132019058843
-    },
+    "sha256": "b6b5df58df8eeee79ffc2f3beabd1de15af6186988dd97e98610c4badaa48604",
     "stride_duration": 1.28,
+    "swing_hoof_ground_visual_review": "REQUIRED",
     "swing_hoof_surface_visual_review": "REQUIRED",
-    "tail_pivot": "UNCHANGED_FROM_APPROVED_v0.5.2",
-    "version": "0.6.3",
+    "swing_surface_min_y": {
+      "STAGE_1_LF": -0.004896412828426939,
+      "STAGE_1_LH": 0.0019858098878166724,
+      "STAGE_1_RF": -0.0034464298880700146,
+      "STAGE_1_RH": 0.0017695086408931518,
+      "STAGE_2_LF": -0.009026858709907094,
+      "STAGE_2_LH": 0.001958011494961062,
+      "STAGE_2_RF": -0.0013899936017343513,
+      "STAGE_2_RH": 0.0016265449296589912
+    },
+    "tail_pivot": "APPROVED_v0.5.2_PRESERVED",
+    "version": "0.6.4.1",
     "walk_clip_names": [
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
       "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
@@ -126,15 +167,20 @@
     "All hindleg, foreleg stance, mane/tail, root/world travel tracks must stay exact",
     "No in-place walk and exactly one GLB in repository",
     "Correct foreleg upper Bone_014/020 bends backward, lower Bone_013/019 bends forward",
-    "Do not revert v0.6.3 directions and do not move the correct v0.6.2 bone levels"
+    "Do not revert v0.6.3 directions and do not move the correct v0.6.2 bone levels",
+    "All four lower cannon+hoof joints curl backward in swing; prove actual hoof bone animation",
+    "Retain four-beat forward travel, never synthesize in-place copy",
+    "All stance contacts, torso, mane, tail, approved tail root and first three clips preserved",
+    "Exactly one canonical assets/repl/Repl.glb; Git history provides rollback",
+    "Owner visual acceptance separate from numerical tests"
   ],
   "previous_model": {
-    "git_blob_sha1": "6078f4f74069891bf4140e7925fe3e53e66569fa",
-    "hindleg_notes": "BETTER_BUT_NOT_YET_HUMAN_APPROVED",
-    "owner_visual_acceptance": "REJECTED__v0.6.2_FORELEG_BEND_DIRECTIONS_REVERSED",
-    "sha256": "6a519d49d21dae6048553edc0aa09b340b8ca13979750a4abc1631a48e5c019f",
+    "git_blob_sha1": "8e3afd9118f827f1592499300e511e5d90a16d45",
+    "owner_visual_acceptance": "REJECTED_DISTAL_FOOT_BEND_v0.6.3",
+    "reason": "forehoof and next joint must form backward arc; hind distal hoof also backward",
+    "sha256": "29bc09491f8d42bd272c2a03142252323d147a8bcc90b3aa7c75ed127a31be84",
     "source_regression": "NONE",
-    "version": "0.6.2"
+    "version": "0.6.3"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -145,5 +191,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "FORELEG_CHAIN_SHIFT_v0.6.3__HUMAN_VISUAL_PENDING"
+  "status": "LOWER_LIMB_ARC_v0.6.4.1__HUMAN_VISUAL_PENDING"
 }

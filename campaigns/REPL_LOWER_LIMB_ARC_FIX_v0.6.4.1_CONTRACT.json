@@ -1,0 +1,69 @@
+{
+  "campaign": "REPL_LOWER_LIMB_ARC_FIX",
+  "version": "0.6.4.1",
+  "authorized_entrypoint": "Termux / Android bash, contained inside this ZIP",
+  "git_mutation_lane": "Termux Git only",
+  "repository": "Valar05/parametric-parambulator",
+  "pinned_source_commit": "77148fbe2855112906fb24801df2d8ee28e8a51a",
+  "source_sha256": "29bc09491f8d42bd272c2a03142252323d147a8bcc90b3aa7c75ed127a31be84",
+  "source_git_blob": "8e3afd9118f827f1592499300e511e5d90a16d45",
+  "single_canonical_glb": "assets/repl/Repl.glb",
+  "owner_approved_preservation": [
+    "all 50 original skin joints and original mesh geometry",
+    "three historical accepted clips including corrected tail socket",
+    "all mane and tail weights, pivots, textures and materials",
+    "existing horse 4-beat timing, unchanged 0.96-unit forward root travel",
+    "preserved planted hoof surfaces and frame-phase timing"
+  ],
+  "commissioned_change": {
+    "fore": {
+      "LF": [
+        "Bone_013",
+        "Bone_012"
+      ],
+      "RF": [
+        "Bone_019",
+        "Bone_018"
+      ]
+    },
+    "hind": {
+      "LH": [
+        "Bone_024",
+        "Bone_023"
+      ],
+      "RH": [
+        "Bone_029",
+        "Bone_028"
+      ]
+    },
+    "key_actual_hoof_bones": [
+      "Bone_012",
+      "Bone_018",
+      "Bone_023",
+      "Bone_028"
+    ],
+    "contact_strategy": "unchanged stance, distinct rearward-curl swing arc with both cannon targets calibrated by skinned-vertex signs and world target compensation",
+    "new_in_place_animation": false,
+    "new_model_path": false,
+    "owner_visual_verdict": "PENDING",
+    "corrected_existing_forehoof_bones": [
+      "Bone_012",
+      "Bone_018"
+    ],
+    "rear_hoof_track_policy": "Auto-detect each clip: update existing Bone_023/Bone_028 tracks, create only if absent; planted frames must match actual prior data."
+  },
+  "release_gates": [
+    "source commit SHA, source binary SHA256 and Git blob identity",
+    "exact five-tier fore/hind joint ancestry checks",
+    "quantitative mid-swing cannon and hoof rotation directions plus signed rearward skinned hoof surface delta (not joint angles alone)",
+    "verify two rear hoof articulation tracks after run, with correct existing-versus-new classification for each clip",
+    "all old animation channel arrays unchanged except intended leg rotations",
+    "no new animation clips and exactly one canonical GLB",
+    "Git push via Termux and independent readback of remote model SHA",
+    "full-textured user-visible HTML and optional Blender still frames",
+    "human review required: no automatic aesthetic acceptance"
+  ],
+  "campaign_etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+  "test_source_note": "Offline host sample reconstructs v0.6.3 clips from historical engines but is NOT byte-identical to live v0.6.3; production generator validates exact pinned canonical model inside Termux before any commit",
+  "known_failure_fixed": "v0.6.4 rejected pre-existing Bone_023 despite real production already animating it"
+}
