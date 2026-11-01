@@ -25,3 +25,7 @@ The single `assets/repl/Repl.glb` model is updated in place with the 3-control m
 ## Tail attachment repair v0.5.2
 
 The v0.5.1 root pivot was too low for the actual rump/tail attachment. The single canonical Repl.glb now uses a root at (0, 1.204, -0.889) derived from the measured body/tail intersection arc, while preserving the resting positions of the other three tail controls, unchanged original skin weights, original mane and materials. The 14-second straighten keys were recalculated against the corrected rest skeleton, reaching approximately -8 degrees across all three tail spans. No other GLB was created in the repository. The textured review includes the optional non-mutating root gizmo (off by default). The owner visual acceptance is pending. The earlier v0.5.1 commit remains available through Git history.
+
+## Repl: moving four-beat IK walk v0.6.0
+
+The one canonical `assets/repl/Repl.glb` now contains three additional forward-traveling four-beat horse walk review clips (legs, body, integration). Each advances the original skeletal root in world +Z. There is no in-place walk variant. Four distinct stance/swing sequences are solved using the actual foreleg/hindleg chains, with mesh-hoof groundedness tests. The earlier mane, corrected tail pivot, tail straightening and previous clips are unchanged. The owner's visual verdict is pending; Git numerical checks alone are not acceptance.

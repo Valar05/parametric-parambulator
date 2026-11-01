@@ -1,33 +1,72 @@
 {
   "active_model": {
-    "animations": 3,
-    "bones": 50,
-    "campaign": "REPL_TAIL_PIVOT_ANCHOR",
-    "first_two_animation_clips": "EXACT_UNCHANGED_V051",
-    "git_blob_sha1": "5fe7b6bdf6ffe4201e331d1db52ea0d24cad9002",
-    "gizmo": "optional_in_textured_viewer_off_by_default",
+    "accepted_mane_weights": "UNCHANGED",
+    "all_previous_animations": "PRESERVED",
+    "animations": 6,
+    "campaign": "REPL_FORWARD_IK_WALK",
+    "git_blob_sha1": "61166671f2512d2167429f269b756fffcefa834a",
+    "hoof_plant_test": {
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.009628280175216325,
+        "max_physical_hoof_mesh_x_spread": 1.1907037456015956e-07,
+        "max_physical_hoof_mesh_y_spread": 0.008473043809826157,
+        "max_physical_hoof_mesh_z_spread": 0.004745217299089832,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      },
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
+        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
+        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
+        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      },
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
+        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
+        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
+        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      }
+    },
     "human_visual_acceptance": "PENDING",
-    "mane_weights": "EXACT_UNCHANGED_V051",
-    "old_pivot_world": [
-      0.0,
-      1.05,
-      -0.93
-    ],
+    "joint_count": 50,
+    "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
+    "node_count": 53,
     "path": "assets/repl/Repl.glb",
-    "preview_sha256": "e5d4bf7a70c4b97c98d2390b37364ccb45c30600605c598d3e1c50477ce300ae",
-    "root_center_source": "measured tail/body intersection arc (estimated)",
-    "root_pivot_world": [
-      0.0,
-      1.204,
-      -0.889
+    "sha256": "edbe9c647839b3c37b627519e8a7477d7fa8720138913ed3b6524d4613212518",
+    "stride_duration": 1.28,
+    "tail_pivot": "UNCHANGED_FROM_APPROVED_V052",
+    "version": "0.6.0",
+    "walk_clip_names": [
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
     ],
-    "sha256": "55bca4c3406f46bd5c6475127158554a823f8aa36bfd7a6c969d9fb2806ccc7b",
-    "tail_bones": 4,
-    "tail_motion": "same 14-second straighten, corrected root and full-extension FK",
-    "tail_weights": "EXACT_UNCHANGED_V051",
-    "test_broad_root_fixed_forward": 0.010228091361260813,
-    "test_broad_root_prior_forward": 0.07668114897068332,
-    "version": "0.5.2"
+    "walk_direction_world": "+Z",
+    "walk_review_clips": [
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
+    ],
+    "world_root_travel_z": 0.96
   },
   "canonical_glb_path": "assets/repl/Repl.glb",
   "initial_import": {
@@ -40,21 +79,24 @@
   "intended_initial_file_bytes": 6352596,
   "intended_initial_git_blob_sha": "02840305b7a71356839294e376c6c166ae98a9fc",
   "intended_initial_source_sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
-  "later_hair_motion_results_in_repo": false,
+  "later_hair_motion_results_in_repo": true,
   "owner_rules": [
     "Exactly one canonical GLB at the fixed path",
     "After initial import update the same path through Git history",
     "Do not deliver a new GLB for each campaign",
     "Preserve accepted mane and tail state",
     "Pose Lab is historical reference only, never this project's workspace",
-    "No completion claim without actual binary committed and read back"
+    "No completion claim without actual binary committed and read back",
+    "Forward travel walk ONLY; never bake or ship an in-place/treadmill walk",
+    "Four real skinned-leg IK and hoof-mesh stance slip required",
+    "No separate GLB for a review stage; three clips in the same canonical asset"
   ],
   "previous_model": {
-    "commit": "bc7fc1db9bd14d8408010def35a8ec6e67670986",
-    "git_blob_sha1": "35dfb120cb9518f3ccd8ca51514c8c8c2f0f0c3a",
-    "owner_acceptance": "REJECTED_ROOT_ATTACHMENT__RETAINED_IN_GIT_HISTORY",
-    "sha256": "d44da2839ba05a4c520066e0d76cdb95339c2917456ee46fb27a02a7693c2d7a",
-    "visual_issue": "tail base pivot misplaced, tail folds into rump on lift"
+    "git_blob_sha1": "5fe7b6bdf6ffe4201e331d1db52ea0d24cad9002",
+    "owner_visual_acceptance": "TAIL_PIVOT_APPROVED_IN_CHAT",
+    "sha256": "55bca4c3406f46bd5c6475127158554a823f8aa36bfd7a6c969d9fb2806ccc7b",
+    "source_regression": "NONE",
+    "version": "0.5.2"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -65,5 +107,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "TAIL_ROOT_SOCKET_REANCHORED_v0.5.2__HUMAN_VISUAL_PENDING"
+  "status": "FORWARD_FOUR_BEAT_IK_WALK_v0.6.0__HUMAN_VISUAL_PENDING"
 }
