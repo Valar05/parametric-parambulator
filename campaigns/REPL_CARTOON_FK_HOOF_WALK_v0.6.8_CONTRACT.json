@@ -1,0 +1,75 @@
+{
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "version": "0.6.8",
+  "execution_lane": "Termux user-invoked Git, no direct connector writes",
+  "repo": "Valar05/parametric-parambulator",
+  "pinned_parent": "aa447cc39b3a4664b2d05d71fdbb41d150c43131",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "source_sha256": "c3209b404b5c50842591cfa654142d2f0d84d27eb1acf7779b8d4d504d4508af",
+  "source_blob_sha1": "d5b57ffc1a491f96faa5b6ed4e16dd1a3a3477c1",
+  "one_glb_only": true,
+  "forward_world_travel_z": 0.96,
+  "source_pose_reference": "REPL_POSE_REF_v0.6.6_3840ms.json; owner diagnostic NOT target keyframe",
+  "front_middle_joints_untouched": [
+    "Bone_014",
+    "Bone_020"
+  ],
+  "front_animated_drivers": {
+    "Bone_013": 52,
+    "Bone_019": 52
+  },
+  "hind_animated_drivers": {
+    "Bone_026": 12,
+    "Bone_025": -14,
+    "Bone_024": 38,
+    "Bone_031": 12,
+    "Bone_030": -14,
+    "Bone_029": 38
+  },
+  "local_FK_frozen_hoof_mass": [
+    "Bone_012",
+    "Bone_018",
+    "Bone_023",
+    "Bone_028"
+  ],
+  "rear_hoof_deformation_branches": [
+    "Bone_034",
+    "Bone_033",
+    "Bone_037",
+    "Bone_036",
+    "Bone_035",
+    "Bone_039",
+    "Bone_038",
+    "Bone_042",
+    "Bone_041",
+    "Bone_040"
+  ],
+  "protected": [
+    "same mesh, nodes, skins and weights",
+    "accepted mane and tail clips",
+    "all unrelated animation tracks",
+    "four-beat footfall timing",
+    "root forward travel"
+  ],
+  "acceptance_gates": [
+    "zip and payload SHA",
+    "exact live canonical source and rig",
+    "actual skinned pose verification",
+    "only allowlisted Git paths",
+    "remote SHA readback",
+    "phone visual acceptance pending"
+  ],
+  "contact_guard": "relative pose difference is not slip; measure planted mesh trajectory and reference drift",
+  "recovery_profiles": "bounded (0,12,24,36) degree stance-only existing distal driver compensation; no world pin, no tip rotation",
+  "pose_diagnostic": "Owner 0.6.6 pose is an axis/influence diagnostic, not a keyframe target",
+  "approved_local_axis_reference": {
+    "Bone_020": 29.858,
+    "Bone_019": 91.967,
+    "Bone_018": 10.657,
+    "Bone_017": -24.449,
+    "Bone_031": 27.22,
+    "Bone_030": -21.378,
+    "Bone_029": 42.819
+  },
+  "nonnegotiable": "Never relax 0.019 added physical drift gate, never change front middle, skin, bone hierarchy, toe FK rest, or clip timing"
+}

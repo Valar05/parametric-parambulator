@@ -1,0 +1,251 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Repl · visible four-leg swing shape v0.6.5</title>
+<style>
+:root{color-scheme:dark;background:#161b25;color:#f5f5f7;font:16px/1.5 system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0}main{max-width:1360px;margin:auto;padding:12px}
+h1{font-size:1.4rem;margin:0 0 4px}h2{font-size:1.05rem}p{margin:6px 0 12px;color:#ced1dc}
+button,select,input{font:inherit}button,select{padding:8px;color:#f3f7fa;background:#29374b;
+border:1px solid #8293ac;border-radius:8px;min-height:42px}button:focus-visible,select:focus-visible,
+input:focus-visible{outline:3px solid #78ddd0}label{display:inline-flex;align-items:center;gap:7px}
+.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:10px 0}
+#stage{display:block;width:100%;height:70vh;min-height:430px;background:#d8dbdf;border:1px solid #6e7584;
+border-radius:12px;touch-action:none}#status{color:#a9f6dd;font-weight:600;min-height:24px}
+#timeline{flex:1;min-width:150px}#gizmo-panel{background:#253044;border:1px solid #78859b;
+border-radius:10px;padding:12px;margin:10px 0}#gizmo-panel[hidden]{display:none}
+.gizmo-fields{display:grid;grid-template-columns:repeat(3,minmax(75px,1fr));gap:10px}
+.gizmo-fields label{flex-direction:column;align-items:stretch}.gizmo-fields input,
+#gizmo-coordinates{width:100%;padding:8px;border:1px solid #8396a8;border-radius:5px;background:#111a29;color:white}
+.gizmo-rows{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin:10px 0}
+#footfall{border:1px solid #516079;border-radius:8px;padding:8px;margin:8px 0;
+font-variant-numeric:tabular-nums;white-space:normal}small{color:#c3cbda}
+</style>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+"three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}
+</script></head><body><main>
+<h1>Repl · visible four-leg bend correction (forward travel)</h1>
+<p>Cartoon horse walk v0.6.8: the front lower-leg hinges swing far backward,
+the rear legs swing in a readable arc, and all hoof-shaping/toe bones remain fixed
+in LOCAL FK orientation instead of rotating upward or squashing the hoof.
+The approved middle front joints, grounded stance rhythm, forward +Z travel,
+mane and tail are preserved. All three traveling review stages remain available;
+Pose Lab controls permit non-destructive inspection. Human visual acceptance remains pending.</p>
+<div id="status" role="status" aria-live="polite">Loading the genuine skinned/textured GLB…</div>
+<div class="controls">
+<label>Stage <select id="clip">
+<option value="5" selected>3 · Forward walk + secondary motion</option>
+<option value="3">1 · Cartoon leg arc + FK hoof mass</option>
+<option value="4">2 · Traveling body compensation</option>
+<option value="2">Original corrected tail straightening (historical)</option>
+</select></label>
+<label>View <select id="view">
+<option value="side" selected>Side</option><option value="three">Three-quarter</option>
+<option value="front">Front</option><option value="rear">Rear</option>
+<option value="top">Top</option></select></label>
+<label>Speed <select id="speed"><option value=".25">¼</option><option value=".5">½</option>
+<option value="1" selected>1×</option><option value="1.5">1½×</option></select></label>
+<button id="play">Pause</button><button id="replay">Replay from first step</button>
+</div>
+<div class="controls"><label for="timeline">Travel timeline</label>
+<input id="timeline" type="range" min="0" max="3.84" value="0" step=".01">
+<span id="time" aria-live="off">0.00 s</span>
+<label><input type="checkbox" id="follow" checked>Camera follows forward travel</label></div>
+<canvas id="stage" role="img" aria-label="Interactive real-textured 3D Repl, traveling through world space on a four-beat cartoon walk with FK-attached hoof mass"></canvas>
+<div id="footfall" aria-live="off">Hoof contacts: loading…</div>
+<div class="controls">
+<button id="save-frame">Save current full-resolution PNG</button>
+<button id="save-sheet">Save 3-camera × 4-time contact sheet</button>
+<label><input type="checkbox" id="show-contacts" checked>Fixed touchdown markers</label>
+<label><input type="checkbox" id="show-hinges">Show actual cannon / pastern / hoof hinge markers (amber/cyan), fore and hind</label>
+<label><input type="checkbox" id="gizmo-enable">Optional pivot gizmo (off by default)</label>
+</div>
+<section id="gizmo-panel" hidden aria-label="Optional uncommitted tail pivot guide">
+<h2>Tail pivot measurement, original GLB world coordinates</h2>
+<p>This is only a 3-axis draggable marker, never a rig update. Enabling it pauses movement
+and resets to the model's rest attachment for accurate measurement.</p>
+<div class="gizmo-fields"><label>X<input id="pivotX" type="number" step=".001"></label>
+<label>Y<input id="pivotY" type="number" step=".001"></label>
+<label>Z<input id="pivotZ" type="number" step=".001"></label></div>
+<div class="gizmo-rows"><button id="gizmo-original">Current approved tail socket</button>
+<button id="gizmo-arc-estimate">Measured socket estimate</button>
+<button id="gizmo-focus">Focus on rump</button>
+<button id="gizmo-reset-camera">Whole horse</button></div>
+<div class="gizmo-rows"><label><input id="gizmo-xray" type="checkbox" checked>Translucent body</label>
+<label><input id="gizmo-wire" type="checkbox">Body wireframe</label>
+<label><input id="gizmo-ring" type="checkbox" checked>Guide ring</label>
+<label><input id="gizmo-show-original" type="checkbox" checked>Orange older marker</label></div>
+<div class="gizmo-rows"><label>Ring radius <span id="gizmo-radius-value">.027</span>
+<input id="gizmo-radius" type="range" min=".005" max=".08" step=".001" value=".027"></label>
+<label>Ring tilt <span id="gizmo-tilt-value">-38</span>°
+<input id="gizmo-tilt" type="range" min="-85" max="85" value="-38"></label></div>
+<input id="gizmo-coordinates" readonly aria-label="Selected pivot coordinates">
+<p id="gizmo-status" aria-live="polite"></p><div class="gizmo-rows">
+<button id="gizmo-copy">Copy XYZ</button><button id="gizmo-export">Save pivot JSON</button></div>
+</section>
+<p><small>Touch to orbit, pinch to zoom. The visible colored touchdown markers stay fixed
+in WORLD space; Repl moves across them. The full textured HTML embeds the same corrected canonical GLB and loads
+pinned Three.js libraries from the public CDN. The GLB remains one canonical file
+in the repository. You can export PNG evidence directly from the viewer.</small></p>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {TransformControls} from 'three/addons/controls/TransformControls.js';
+__GIZMO_JS__
+const get=id=>document.getElementById(id);
+const canvas=get('stage'), status=get('status');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));
+renderer.outputColorSpace=THREE.SRGBColorSpace;
+renderer.toneMapping=THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure=1.24;
+const scene=new THREE.Scene();scene.background=new THREE.Color(0xdadce0);
+scene.add(new THREE.HemisphereLight(0xffffff,0x767b88,2.4));
+const key=new THREE.DirectionalLight(0xfff0e8,3.0);key.position.set(5,8,6);scene.add(key);
+const back=new THREE.DirectionalLight(0xdbe7ff,1.4);back.position.set(-4,6,-5);scene.add(back);
+const grid=new THREE.GridHelper(8,40,0x919aa3,0xc2c8ce);grid.position.y=-.008;scene.add(grid);
+const camera=new THREE.PerspectiveCamera(39,1,.01,100);
+const orbit=new OrbitControls(camera,canvas);orbit.enableDamping=true;orbit.enablePan=true;
+const clock=new THREE.Clock();
+let root=null,gltf=null,mixer=null,action=null,gizmo=null,paused=false,duration=3.84;
+let neckRoot=null,neckWorld0=null,lastTravel=0;
+const restRotations=new Map(),contactMarkers=new THREE.Group();scene.add(contactMarkers);
+const hingeMarkers=new THREE.Group();scene.add(hingeMarkers);
+const hingeSockets=[];
+function addHinge(name,color){
+ const sphere=new THREE.Mesh(new THREE.SphereGeometry(.018,14,10),
+   new THREE.MeshBasicMaterial({color,depthTest:false}));
+ sphere.renderOrder=998;hingeMarkers.add(sphere);
+ hingeSockets.push({name,object:sphere,bone:null});
+}
+// Show the exact formerly unkeyed hoof/fetlock joints, not only upper poles.
+for(const name of ['Bone_013','Bone_019','Bone_024','Bone_029'])addHinge(name,0xffb347);
+for(const name of ['Bone_012','Bone_018','Bone_023','Bone_028'])addHinge(name,0x00e6ed);
+hingeMarkers.visible=false;
+function updateHinges(){if(!root||!hingeMarkers.visible)return;
+ root.updateMatrixWorld(true);
+ for(const obj of hingeSockets){
+  if(!obj.bone)obj.bone=root.getObjectByName(obj.name);
+  if(obj.bone)obj.bone.getWorldPosition(obj.object.position);
+ }}
+function resize(){let w=canvas.clientWidth||700,h=canvas.clientHeight||500;
+renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();}
+new ResizeObserver(resize).observe(canvas);resize();
+function framePreset(){
+ if(!root)return;
+ const saved=action?action.time:0;
+ const b=new THREE.Box3().setFromObject(root),c=b.getCenter(new THREE.Vector3());
+ const r=Math.max(b.getSize(new THREE.Vector3()).length()*.68,1.5);
+ const offsets={side:[1.7,.22,.10],three:[1,.45,1.1],front:[0,.20,1.9],
+ rear:[0,.20,-1.9],top:[.08,2.1,.15]};
+ const o=offsets[get('view').value]||offsets.side;
+ orbit.target.copy(c);camera.position.set(c.x+o[0]*r,c.y+o[1]*r,c.z+o[2]*r);
+ lastTravel=0;camera.lookAt(orbit.target);orbit.update();
+}
+function syncCamera(){
+ if(!neckRoot||!neckWorld0)return;
+ const actual=neckRoot.getWorldPosition(new THREE.Vector3());
+ const dz=actual.z-neckWorld0.z;
+ if(get('follow').checked){const diff=dz-lastTravel;
+  camera.position.z+=diff;orbit.target.z+=diff;}
+ lastTravel=dz;
+}
+function selectClip(){
+ if(!gltf||!mixer)return;
+ mixer.stopAllAction();
+ for(const [bone,q] of restRotations)bone.quaternion.copy(q);
+ if(neckRoot)neckRoot.position.copy(neckRoot.userData.replOriginalTranslation);
+ const index=Number(get('clip').value);
+ const clip=gltf.animations[index];if(!clip){status.textContent='Missing requested clip';return;}
+ action=mixer.clipAction(clip);action.reset();action.setLoop(THREE.LoopOnce,1);
+ action.clampWhenFinished=true;action.play();duration=clip.duration;
+ get('timeline').max=String(duration);get('timeline').value=0;
+ mixer.setTime(0);lastTravel=0;paused=false;get('play').textContent='Pause';
+ framePreset();status.textContent='Traveling clip: '+clip.name+'. Visual verdict pending.';
+}
+function reportFootfalls(){
+ if(!action)return;
+ const t=action.time;
+ const phases=[['LH',0],['LF',.25],['RH',.5],['RF',.75]];
+ const support=phases.filter(([name,offset])=>{
+  const u=((t/1.28-offset)%1+1)%1;return u<.62;}).map(x=>x[0]);
+ get('footfall').textContent='Forward travel '+(t*.25).toFixed(3)+' model units | '+
+   support.length+' hooves planted: '+support.join(', ')+' | '+
+   (duration-t).toFixed(2)+' s remaining';
+}
+get('clip').addEventListener('change',selectClip);
+get('view').addEventListener('change',framePreset);
+get('play').addEventListener('click',()=>{
+ if(gizmo?.enabled){status.textContent='Disable pivot gizmo to resume walk.';return;}
+ if(action&&action.time>=duration-.001){selectClip();return;}
+ paused=!paused;get('play').textContent=paused?'Play':'Pause';});
+get('replay').addEventListener('click',()=>{
+ if(gizmo?.enabled){status.textContent='Disable gizmo first';return;}
+ selectClip();});
+get('timeline').addEventListener('input',event=>{
+ if(!mixer)return;paused=true;get('play').textContent='Play';
+ mixer.setTime(Number(event.target.value));syncCamera();reportFootfalls();});
+function downloadPNG(name,url){const a=document.createElement('a');a.href=url;
+a.download=name;document.body.append(a);a.click();a.remove();}
+get('save-frame').addEventListener('click',()=>{renderer.render(scene,camera);
+downloadPNG('Repl_LEG_SILHOUETTE_v0.6.5_frame.png',canvas.toDataURL('image/png'));});
+get('save-sheet').addEventListener('click',()=>{
+ if(!mixer||!action)return;
+ const wasPaused=paused,when=action.time,view=get('view').value;
+ const cam=camera.position.clone(),tar=orbit.target.clone();
+ const sheet=document.createElement('canvas');sheet.width=canvas.width*3;
+ sheet.height=canvas.height*4;const ctx=sheet.getContext('2d');
+ const times=[.35,.95,1.85,3.45].map(t=>Math.min(duration,t));
+ const views=['side','three','rear'];
+ for(let j=0;j<times.length;j++){
+  mixer.setTime(times[j]);lastTravel=0;
+  for(let i=0;i<views.length;i++){
+   get('view').value=views[i];framePreset();syncCamera();orbit.update();
+   renderer.render(scene,camera);ctx.drawImage(canvas,i*canvas.width,j*canvas.height);
+  }
+ }
+ mixer.setTime(when);get('view').value=view;
+ camera.position.copy(cam);orbit.target.copy(tar);orbit.update();syncCamera();
+ paused=wasPaused;downloadPNG('Repl_LEG_SILHOUETTE_v0.6.5_12-frame_contact_sheet.png',sheet.toDataURL('image/png'));
+});
+get('show-contacts').addEventListener('change',e=>{contactMarkers.visible=e.target.checked;});
+get('show-hinges').addEventListener('change',e=>{hingeMarkers.visible=e.target.checked;updateHinges();});
+get('gizmo-enable').addEventListener('change',()=>{
+ if(get('gizmo-enable').checked && mixer){paused=true;get('play').textContent='Play';
+ mixer.setTime(0);lastTravel=0;framePreset();}
+});
+function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.05);
+ if(mixer&&!paused&&action){mixer.update(dt*Number(get('speed').value));
+  if(action.time>=duration-.001){paused=true;get('play').textContent='Replay';
+   status.textContent='Travel complete. No invisible teleport or in-place loop. Replay when ready.';}}
+ if(action){get('timeline').value=String(action.time);get('time').textContent=action.time.toFixed(2)+' s';}
+ syncCamera();reportFootfalls();updateHinges();orbit.update();renderer.render(scene,camera);}
+animate();
+try{
+ const encoded='__EMBEDDED_GLB_BASE64__';
+ const bytes=Uint8Array.from(atob(encoded),v=>v.charCodeAt(0));
+ new GLTFLoader().parse(bytes.buffer,'',model=>{
+  gltf=model;root=model.scene;scene.add(root);
+  root.traverse(o=>{if(o.isMesh)o.frustumCulled=false;
+   if(o.isBone)restRotations.set(o,o.quaternion.clone());});
+  mixer=new THREE.AnimationMixer(root);
+  neckRoot=root.getObjectByName('Bone_000');
+  if(!neckRoot)throw Error('actual Bone_000 root missing');
+  neckRoot.userData.replOriginalTranslation=neckRoot.position.clone();
+  root.updateMatrixWorld(true);neckWorld0=neckRoot.getWorldPosition(new THREE.Vector3());
+  gizmo=installTailPivotGizmo({scene,camera,canvas,orbit,renderer,root,THREE,TransformControls,status});
+  // Fixed world-space touchdown markers for 4 limbs, many future strides.
+  const markers=[[-.144,.25,'#4ab5b9'],[-.152,.25,'#6b8ed9'],[.152,.25,'#d19e4f'],[.15,.25,'#c47790']];
+  const labels=['LH','LF','RH','RF'];const zorig=[-.8513,.2426,-.8348,.2426];
+  for(let i=0;i<4;i++){for(let k=0;k<4;k++){
+   const t=(k+[0,.25,.5,.75][i])*1.28;
+   const marker=new THREE.Mesh(new THREE.CircleGeometry(.032,22),
+    new THREE.MeshBasicMaterial({color:markers[i][2],side:THREE.DoubleSide}));
+   marker.rotation.x=-Math.PI/2;
+   marker.position.set(markers[i][0],.002,zorig[i]+t*.25+.5*.62*.32);
+   contactMarkers.add(marker);}}
+  selectClip();
+ },error=>{status.textContent='Unable to load true skinned GLB: '+String(error);});
+}catch(error){status.textContent='Viewer error: '+String(error);}
+</script></main></body></html>
