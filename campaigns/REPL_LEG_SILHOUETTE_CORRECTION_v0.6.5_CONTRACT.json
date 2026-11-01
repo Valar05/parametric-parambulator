@@ -1,0 +1,26 @@
+{
+  "campaign": "REPL_LEG_SILHOUETTE_CORRECTION",
+  "version": "0.6.5",
+  "authorized_entrypoint": "one Bash script bundled in ZIP and launched from Termux",
+  "git_mutation_lane": "Termux Git only",
+  "repository": "Valar05/parametric-parambulator",
+  "pinned_source_commit": "bd0528afaf2640dcf3272b61b000f42442c6bc47",
+  "source_sha256": "b6b5df58df8eeee79ffc2f3beabd1de15af6186988dd97e98610c4badaa48604",
+  "source_git_blob": "c59179a61f742838e124cc4e21b846f878e3150c",
+  "single_canonical_glb": "assets/repl/Repl.glb",
+  "no_in_place_animation": true,
+  "human_visual_acceptance": "PENDING",
+  "commissioned_repair": "Owner rejects v0.6.4.1 forward-swing foreleg polarity and stiff forehoof; hind toe flex too subtle",
+  "validation": [
+    "real world-space sagittal carpus/fetlock geometry, not misleading median vertex displacement",
+    "fore knee forward lead and both below segments backward fold",
+    "increase front toe pitch and rear swing arc visibly",
+    "bitwise preservation of all planted frames and all non-leg animation channels",
+    "all three forward-motion walk stages, no in-place clip",
+    "all old mane/tail materials, weights, approved v0.5.2 socket unchanged",
+    "one canonical Repl.glb in project, Git commit and remote binary readback",
+    "visual review owner PENDING"
+  ],
+  "known_limit": "Only structurally equivalent prior model available for preflight in ChatGPT runtime; exact v0.6.4.1 model verified by Termux campaign before any commit",
+  "campaign_etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit"
+}

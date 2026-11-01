@@ -1,0 +1,17 @@
+{
+  "authoritative_repo": "Valar05/parametric-parambulator",
+  "campaign": "REPL_LEG_SILHOUETTE_CORRECTION",
+  "sha256": {
+    "README.md": "f071a3d715d2ab978ddd3a3d210af0f0f97f12857c957ff74a1869ddfb1e7543",
+    "campaign/blender_review.py": "ecb0f1c013d01b8feb0d98ef84a7f9b97e05789e05f384536f993906a30dad97",
+    "campaign/contract.json": "de70ecfda2cd9f533e02362b1ee6fdc94c65d72f8da83da791ab9df880376131",
+    "campaign/driver.py": "02ab270734c655fc85024a4b0cb935ac7389bed8223f7228041a67507326811c",
+    "campaign/model.py": "a2c35274e1521baa81b437744144e53d418a258577c9645ac708693b926e25df",
+    "campaign/run-termux.sh": "89b4b05880550e7e5cf3592b150ae6301d5b6ccc19c0c2a9e0dc76a331b0e01c",
+    "campaign/selftest.py": "dac6bcee69dea148724fba20911fea60c58524a490d0f1540d18337e39292b63",
+    "campaign/viewer.html.in": "862a5390d9fbdf32dc256d43fa2e966f28136d0ce593f91b721a6aa4e1399733"
+  },
+  "source_canonical_sha256": "b6b5df58df8eeee79ffc2f3beabd1de15af6186988dd97e98610c4badaa48604",
+  "source_git_commit": "bd0528afaf2640dcf3272b61b000f42442c6bc47",
+  "version": "0.6.5"
+}
