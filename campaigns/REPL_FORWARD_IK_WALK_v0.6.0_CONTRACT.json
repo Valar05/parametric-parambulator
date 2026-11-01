@@ -1,0 +1,39 @@
+{
+  "contract_version": "repl_forward_ik_v060",
+  "owner_repository": "Valar05/parametric-parambulator",
+  "version": "0.6.0",
+  "lane": "one_zip_one_termux_shell_entrypoint_with_termux_git_push",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "canonical_source_sha256": "55bca4c3406f46bd5c6475127158554a823f8aa36bfd7a6c969d9fb2806ccc7b",
+  "canonical_source_git_blob_sha1": "5fe7b6bdf6ffe4201e331d1db52ea0d24cad9002",
+  "canonical_joints": 50,
+  "canonical_nodes": 53,
+  "starting_animations": 3,
+  "result_animations": 6,
+  "owner_authorized_advance": "moving four-beat walk with IK, body compensation, secondary motion, and ONE committed model",
+  "no_in_place_walk": true,
+  "root_motion": {"node": "Bone_000", "axis": "+Z", "distance_glb_units": 0.96, "one_shot_without_teleport": true},
+  "gait": {"order": ["LH", "LF", "RH", "RF"], "touchdown_offsets": [0, 0.25, 0.5, 0.75], "duty": 0.62, "stride_seconds": 1.28, "cycles": 3, "frames": 97},
+  "phases": [
+    "forward_kinematic_four_leg_ik",
+    "world_fixed_hoof_stance_and_swing",
+    "body_weight_transfer_with_ik_resolve",
+    "hair_follow_through_preserving_accepted_rig",
+    "full_textured_user_review_and_git_readback"
+  ],
+  "must_not_change": ["old three animations", "50 joint rest transforms", "hair and body mesh vertices and skins", "accepted tail pivot", "original textures/materials", "any historical source GLB", "Pose Lab"],
+  "release_gates": [
+    "actual canonical SHA lock",
+    "2-to-3 hoof supports",
+    "all four limb IK residual below 0.025 model units",
+    "physical skinned hoof stance forward slip below 0.018 model units",
+    "old animation JSON unchanged",
+    "old binary buffer prefix unchanged",
+    "one and only one canonical GLB in remote tree",
+    "remote commit and exact binary SHA readback",
+    "owner visual acceptance PENDING until owner inspects textured review"
+  ],
+  "visual_report": "Android Downloads / REPL_FORWARD_IK_WALK_v0.6.0_TEXTURERENDER.html",
+  "visual_tools": ["original GLB textures and triangle geometry", "five cameras", "slow speed and scrub", "fixed contact markers", "12-frame contact sheet PNG", "pivot gizmo optional and off by default"],
+  "human_visual_verdict": "PENDING"
+}

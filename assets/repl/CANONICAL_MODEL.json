@@ -1,0 +1,400 @@
+{
+  "active_model": {
+    "accepted_mane_weights": "UNCHANGED",
+    "all_previous_animations": "PRESERVED",
+    "animations": 6,
+    "campaign": "REPL_LEG_SILHOUETTE_CORRECTION",
+    "corrected_existing_forehoof_tracks": [
+      "Bone_012",
+      "Bone_018"
+    ],
+    "existing_hind_hoof_tracks_before_correction": {
+      "STAGE_1": [
+        "Bone_023",
+        "Bone_028"
+      ],
+      "STAGE_2": [
+        "Bone_023",
+        "Bone_028"
+      ],
+      "STAGE_3": [
+        "Bone_023",
+        "Bone_028"
+      ]
+    },
+    "foreleg_review_html_sha256": "51f29bb2ebdba9610e05f86c0f70b5491a56e98983cd2cd5ef0f299cdd4dbf48",
+    "four_distal_cannon_hoof_pairs": {
+      "LF": [
+        "Bone_013",
+        "Bone_012"
+      ],
+      "LH": [
+        "Bone_024",
+        "Bone_023"
+      ],
+      "RF": [
+        "Bone_019",
+        "Bone_018"
+      ],
+      "RH": [
+        "Bone_029",
+        "Bone_028"
+      ]
+    },
+    "gait_phasing": "PRESERVED",
+    "git_blob_sha1": "d5b57ffc1a491f96faa5b6ed4e16dd1a3a3477c1",
+    "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
+    "hoof_plant_test": {
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.009628280175216325,
+        "max_physical_hoof_mesh_x_spread": 1.1907037456015956e-07,
+        "max_physical_hoof_mesh_y_spread": 0.008473043809826157,
+        "max_physical_hoof_mesh_z_spread": 0.004745217299089832,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      },
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
+        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
+        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
+        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      },
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED": {
+        "evaluated_stance_intervals": 14,
+        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
+        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
+        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
+        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
+        "per_hoof_mesh_witness_count": {
+          "LF": 147,
+          "LH": 133,
+          "RF": 139,
+          "RH": 137
+        }
+      }
+    },
+    "hoof_tracks_created_per_clip": {
+      "STAGE_1": [],
+      "STAGE_2": [],
+      "STAGE_3": []
+    },
+    "human_visual_acceptance": "PENDING",
+    "joint_count": 50,
+    "max_adjacent_joint_rotation_change": 34.86581105421836,
+    "max_skinned_stance_hoof_delta": 0.0,
+    "max_stance_toe_marker_deviation": 0.0,
+    "max_swing_hoof_marker_delta": 0.002233251164380438,
+    "max_swing_toe_marker_deviation": 0.000904730057173512,
+    "min_swing_hoof_surface_y": {
+      "LF": -0.00871039870746502,
+      "RF": -0.0032139945981562775
+    },
+    "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
+    "new_explicit_hoof_rotation_tracks": [],
+    "node_count": 53,
+    "observed_mid_swing_joint_angles": {
+      "1_LF_1": {
+        "Bone_012": 144.088,
+        "Bone_013": -22.08,
+        "Bone_014": -18.635,
+        "Bone_015": 10.537
+      },
+      "1_LF_2": {
+        "Bone_012": 144.994,
+        "Bone_013": -22.992,
+        "Bone_014": -19.989,
+        "Bone_015": 11.989
+      },
+      "1_LF_3": {
+        "Bone_012": 143.92,
+        "Bone_013": -21.561,
+        "Bone_014": -17.939,
+        "Bone_015": 10.177
+      },
+      "1_LH_25": {
+        "Bone_024": -15.306,
+        "Bone_025": -9.389
+      },
+      "1_LH_26": {
+        "Bone_024": -15.995,
+        "Bone_025": -9.995
+      },
+      "1_LH_27": {
+        "Bone_024": -14.874,
+        "Bone_025": -9.013
+      },
+      "1_RF_17": {
+        "Bone_018": 144.068,
+        "Bone_019": -22.103,
+        "Bone_020": -18.658,
+        "Bone_021": 10.587
+      },
+      "1_RF_18": {
+        "Bone_018": 144.994,
+        "Bone_019": -22.992,
+        "Bone_020": -19.989,
+        "Bone_021": 11.989
+      },
+      "1_RF_19": {
+        "Bone_018": 143.887,
+        "Bone_019": -21.599,
+        "Bone_020": -17.977,
+        "Bone_021": 10.255
+      },
+      "1_RH_10": {
+        "Bone_029": -15.993,
+        "Bone_030": -9.995
+      },
+      "1_RH_11": {
+        "Bone_029": -14.528,
+        "Bone_030": -8.956
+      },
+      "1_RH_9": {
+        "Bone_029": -15.066,
+        "Bone_030": -9.359
+      },
+      "2_LF_1": {
+        "Bone_012": 144.098,
+        "Bone_013": -22.069,
+        "Bone_014": -18.624,
+        "Bone_015": 10.532
+      },
+      "2_LF_2": {
+        "Bone_012": 144.994,
+        "Bone_013": -22.992,
+        "Bone_014": -19.989,
+        "Bone_015": 11.989
+      },
+      "2_LF_3": {
+        "Bone_012": 143.971,
+        "Bone_013": -21.509,
+        "Bone_014": -17.888,
+        "Bone_015": 10.147
+      },
+      "2_LH_25": {
+        "Bone_024": -15.276,
+        "Bone_025": -9.363
+      },
+      "2_LH_26": {
+        "Bone_024": -15.994,
+        "Bone_025": -9.995
+      },
+      "2_LH_27": {
+        "Bone_024": -14.84,
+        "Bone_025": -8.984
+      },
+      "2_RF_17": {
+        "Bone_018": 144.062,
+        "Bone_019": -22.109,
+        "Bone_020": -18.663,
+        "Bone_021": 10.589
+      },
+      "2_RF_18": {
+        "Bone_018": 144.994,
+        "Bone_019": -22.992,
+        "Bone_020": -19.989,
+        "Bone_021": 11.989
+      },
+      "2_RF_19": {
+        "Bone_018": 143.892,
+        "Bone_019": -21.595,
+        "Bone_020": -17.972,
+        "Bone_021": 10.248
+      },
+      "2_RH_10": {
+        "Bone_029": -15.993,
+        "Bone_030": -9.995
+      },
+      "2_RH_11": {
+        "Bone_029": -14.534,
+        "Bone_030": -8.963
+      },
+      "2_RH_9": {
+        "Bone_029": -15.054,
+        "Bone_030": -9.349
+      },
+      "3_LF_1": {
+        "Bone_012": 144.098,
+        "Bone_013": -22.069,
+        "Bone_014": -18.624,
+        "Bone_015": 10.532
+      },
+      "3_LF_2": {
+        "Bone_012": 144.994,
+        "Bone_013": -22.992,
+        "Bone_014": -19.989,
+        "Bone_015": 11.989
+      },
+      "3_LF_3": {
+        "Bone_012": 143.971,
+        "Bone_013": -21.509,
+        "Bone_014": -17.888,
+        "Bone_015": 10.147
+      },
+      "3_LH_25": {
+        "Bone_024": -15.276,
+        "Bone_025": -9.363
+      },
+      "3_LH_26": {
+        "Bone_024": -15.994,
+        "Bone_025": -9.995
+      },
+      "3_LH_27": {
+        "Bone_024": -14.84,
+        "Bone_025": -8.984
+      },
+      "3_RF_17": {
+        "Bone_018": 144.062,
+        "Bone_019": -22.109,
+        "Bone_020": -18.663,
+        "Bone_021": 10.589
+      },
+      "3_RF_18": {
+        "Bone_018": 144.994,
+        "Bone_019": -22.992,
+        "Bone_020": -19.989,
+        "Bone_021": 11.989
+      },
+      "3_RF_19": {
+        "Bone_018": 143.892,
+        "Bone_019": -21.595,
+        "Bone_020": -17.972,
+        "Bone_021": 10.248
+      },
+      "3_RH_10": {
+        "Bone_029": -15.993,
+        "Bone_030": -9.995
+      },
+      "3_RH_11": {
+        "Bone_029": -14.534,
+        "Bone_030": -8.963
+      },
+      "3_RH_9": {
+        "Bone_029": -15.054,
+        "Bone_030": -9.349
+      }
+    },
+    "path": "assets/repl/Repl.glb",
+    "peak_swing_distal_displacement": {
+      "1_LF": 0.13231798239895762,
+      "1_LH": 0.20461160078305143,
+      "1_RF": 0.13767853459925092,
+      "1_RH": 0.23341077775627037,
+      "2_LF": 0.13784916522430754,
+      "2_LH": 0.21063125287027373,
+      "2_RF": 0.13772116984709012,
+      "2_RH": 0.2320547768669274,
+      "3_LF": 0.13784916522430754,
+      "3_LH": 0.21063125287027373,
+      "3_RF": 0.13772116984709012,
+      "3_RH": 0.2320547768669274
+    },
+    "review_html_sha256": "5ddc84e0b24d9aca5164621ff1487ba00d417db29f81284834682085145e5d75",
+    "root_forward_travel": 0.96,
+    "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
+    "sha256": "c3209b404b5c50842591cfa654142d2f0d84d27eb1acf7779b8d4d504d4508af",
+    "stride_duration": 1.28,
+    "swing_hoof_ground_visual_review": "REQUIRED",
+    "swing_hoof_surface_visual_review": "REQUIRED",
+    "swing_surface_min_y": {
+      "1_LF": -0.006526534555622153,
+      "1_LH": 0.0011450099037781266,
+      "1_RF": -0.005803122959735631,
+      "1_RH": -0.0073440048876130554,
+      "2_LF": -0.022670026631723354,
+      "2_LH": 0.0008502700631681713,
+      "2_RF": -0.012240846592987811,
+      "2_RH": -0.0072109435609619375,
+      "3_LF": -0.022670026631723354,
+      "3_LH": 0.0008502700631681713,
+      "3_RF": -0.012240846592987811,
+      "3_RH": -0.0072109435609619375
+    },
+    "tail_pivot": "APPROVED_v0.5.2_PRESERVED",
+    "version": "0.6.5",
+    "visible_sagittal_arc_in_world_space": true,
+    "walk_clip_names": [
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
+    ],
+    "walk_direction_world": "+Z",
+    "walk_review_clips": [
+      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
+      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
+      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
+    ],
+    "world_root_travel_z": 0.96
+  },
+  "canonical_glb_path": "assets/repl/Repl.glb",
+  "initial_import": {
+    "contains_accepted_hair_weights": false,
+    "git_blob_sha1": "02840305b7a71356839294e376c6c166ae98a9fc",
+    "next_step": "Reconcile owner-accepted mane/tail into SAME canonical path",
+    "source_sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "source_size_bytes": 6352596
+  },
+  "intended_initial_file_bytes": 6352596,
+  "intended_initial_git_blob_sha": "02840305b7a71356839294e376c6c166ae98a9fc",
+  "intended_initial_source_sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+  "later_hair_motion_results_in_repo": true,
+  "owner_rules": [
+    "Exactly one canonical GLB at the fixed path",
+    "After initial import update the same path through Git history",
+    "Do not deliver a new GLB for each campaign",
+    "Preserve accepted mane and tail state",
+    "Pose Lab is historical reference only, never this project's workspace",
+    "No completion claim without actual binary committed and read back",
+    "Forward travel walk ONLY; never bake or ship an in-place/treadmill walk",
+    "Four real skinned-leg IK and hoof-mesh stance slip required",
+    "No separate GLB for a review stage; three clips in the same canonical asset",
+    "Opposite foreleg IK pole constraints: elbow forward and carpus backward",
+    "Hindleg and stance tracks must be exact unchanged during foreleg-only repairs",
+    "No in-place gait variant, keep real root travel and one GLB in repository",
+    "Front upper bend shifts to Bone_014/020 and lower reverse bend to Bone_013/019",
+    "Do not restore rejected Bone_015/021 and Bone_014/020 pole pair",
+    "All hindleg, foreleg stance, mane/tail, root/world travel tracks must stay exact",
+    "No in-place walk and exactly one GLB in repository",
+    "Correct foreleg upper Bone_014/020 bends backward, lower Bone_013/019 bends forward",
+    "Do not revert v0.6.3 directions and do not move the correct v0.6.2 bone levels",
+    "All four lower cannon+hoof joints curl backward in swing; prove actual hoof bone animation",
+    "Retain four-beat forward travel, never synthesize in-place copy",
+    "All stance contacts, torso, mane, tail, approved tail root and first three clips preserved",
+    "Exactly one canonical assets/repl/Repl.glb; Git history provides rollback",
+    "Owner visual acceptance separate from numerical tests",
+    "v0.6.4.1 lower-limb motion REJECTED: forelegs bend opposite requested shape and hoof lift is stiff",
+    "Judge actual visible joint segment angles and real skinned movement, not median vertex translation alone",
+    "Correct front carpus fold and both backward lower links; stronger rear fetlock swing",
+    "Keep all planted frames and all non-leg tracks unchanged; preserve accepted tail/mane",
+    "Forward travel only and one assets/repl/Repl.glb; visual acceptance still pending"
+  ],
+  "previous_model": {
+    "git_blob_sha1": "c59179a61f742838e124cc4e21b846f878e3150c",
+    "owner_visual_acceptance": "REJECTED_v0.6.4.1_WRONG_FRONT_HINGE_POLARITY_STIFF_FEET_AND_SUBTLE_REAR",
+    "sha256": "b6b5df58df8eeee79ffc2f3beabd1de15af6186988dd97e98610c4badaa48604",
+    "source_regression": "NONE",
+    "version": "0.6.4.1"
+  },
+  "project": "Repl procedural motion",
+  "repository": "Valar05/parametric-parambulator",
+  "single_canonical_glb_count": 1,
+  "source_baseline": {
+    "commit": "0b388f2a7a16f199ae337d21bd1b7507bb4c2e11",
+    "git_blob_sha1": "02840305b7a71356839294e376c6c166ae98a9fc",
+    "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "source_regression": "NONE"
+  },
+  "status": "LEG_SILHOUETTE_v0.6.5__HUMAN_VISUAL_PENDING"
+}

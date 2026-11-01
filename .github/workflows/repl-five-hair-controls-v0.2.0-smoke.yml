@@ -1,0 +1,24 @@
+name: Repl five hair-only bones v0.2.0 source tests
+on:
+  push:
+    paths:
+      - "campaigns/repl_hair_five_controls_v0_2_0.py"
+      - "campaigns/REPL_HAIR_FIVE_CONTROLS_V0_2_0_CONTRACT.json"
+      - "campaigns/repl_hair_bind_v0_1_0.py"
+      - "tests/test_repl_hair_five_controls_v0_2_0.py"
+      - ".github/workflows/repl-five-hair-controls-v0.2.0-smoke.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  deterministic-source-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Compile both source versions and test five-control skin construction
+        run: |
+          python3 -m py_compile campaigns/repl_hair_bind_v0_1_0.py campaigns/repl_hair_five_controls_v0_2_0.py
+          python3 tests/test_repl_hair_five_controls_v0_2_0.py

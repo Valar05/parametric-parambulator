@@ -1,0 +1,52 @@
+{
+  "schema": "parametric-parambulator.single-canonical-glb.v1",
+  "campaign": "REPL_FORELEG_CHAIN_SHIFT",
+  "version": "0.6.2",
+  "execution": "Termux one zip single command; Git push from Termux only; no direct GitHub mutation",
+  "repository": "Valar05/parametric-parambulator",
+  "canonical": "assets/repl/Repl.glb",
+  "source_version": "0.6.1",
+  "source_sha256": "af261c92bbfeca49a1fc064df4fa31d355f8df16c13b79ec056951822a4be78d",
+  "source_git_blob_sha1": "e6dbf6b45dae5726e94d7bcb75e5229118cd7486",
+  "owner_criticism": "Both constrained foreleg bends are too high in the chain; move down one level for BOTH front limbs.",
+  "corrected_forelegs": {
+    "LF": {
+      "upper_forward": "Bone_014",
+      "lower_back": "Bone_013"
+    },
+    "RF": {
+      "upper_forward": "Bone_020",
+      "lower_back": "Bone_019"
+    }
+  },
+  "old_rejected_mapping": {
+    "LF": {
+      "upper_forward": "Bone_015",
+      "lower_back": "Bone_014"
+    },
+    "RF": {
+      "upper_forward": "Bone_021",
+      "lower_back": "Bone_020"
+    }
+  },
+  "preserve": [
+    "50 original joints, 53 nodes and exact skin weights",
+    "original textured geometry",
+    "3 preceding mane/tail clips including approved tail socket",
+    "unchanged hindlegs, torso, root and 4-beat schedule",
+    "all foreleg stance rotations and world-fixed hooves",
+    "no in-place walk; +0.96 forward root travel",
+    "exactly one GLB in repository"
+  ],
+  "review": "full textured viewer with upper/lower markers and optional existing tail pivot gizmo; no human approval assumed",
+  "host_test_real_model_sha256": "0e7c7400ed8b58ee9c87b12a6d068894e37f55a7fc6c3fa79ff798de31dc6bbf",
+  "acceptance": "Human-visible review distinct from algorithm tests, Git commit and remote readback.",
+  "known_ground_clearance_risk": {
+    "sampled_lowest_swing_mesh_y": {
+      "LF": -0.041145478979329964,
+      "RF": -0.018217822812644623
+    },
+    "ground_plane": "approximate Y=0",
+    "requires": "human visible inspection; not automatic clearance approval"
+  }
+}

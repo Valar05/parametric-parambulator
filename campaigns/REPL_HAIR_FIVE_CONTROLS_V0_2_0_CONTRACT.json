@@ -1,0 +1,73 @@
+{
+  "schema": "parametric-parambulator-campaign-v2",
+  "id": "REPL_HAIR_FIVE_CONTROLS",
+  "version": "0.2.0",
+  "predecessor": {
+    "version": "0.1.0",
+    "path": "campaigns/repl_hair_bind_v0_1_0.py",
+    "gitBlobSHA": "33ca93660f3d5858d4496027902b9b7a7e44d800",
+    "readOnly": true
+  },
+  "authority": {
+    "campaignEtiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+    "ownerAssetFolder": "https://drive.google.com/drive/folders/1opV8L2iTpcbKtpXKtUqDQUYt63A2t6qT"
+  },
+  "source": {
+    "name": "Repl.glb",
+    "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "skinJoints": 43,
+    "nodes": 46,
+    "bodyVertices": 6082,
+    "hairVertices": 1819,
+    "hairTriangles": 1207
+  },
+  "commissionedObjective": "Create 5 hair-only child bones (three mane, two tail), automatically attach mane and tail using the prior axial weight propagation, move only neck/head in a gentle review, hold all four hooves fixed.",
+  "allow": [
+    "derived GLB 5 new node children under existing anatomical axial bones",
+    "derived skin joint count 48 and extended inverseBind accessor",
+    "derived hair primitive joints/weights assigned only to the 5 new controls",
+    "one neck/head-only 3 second clip from predecessor",
+    "versioned report, offline preview and hash receipt"
+  ],
+  "disallow": [
+    "source Repl.glb/Blend edits",
+    "body weights/topology/UV/material changes",
+    "existing bone rest transforms altered",
+    "new leg/hoof/root animation",
+    "dedicated hair bone animation in this first test",
+    "wind shader or cloth",
+    "remote asset transport without authorization",
+    "source overwrite"
+  ],
+  "joints": [
+    "REPL_MANE_REAR",
+    "REPL_MANE_MIDDLE",
+    "REPL_MANE_FRONT",
+    "REPL_TAIL_BASE",
+    "REPL_TAIL_TIP"
+  ],
+  "neutralMode": true,
+  "limits": {
+    "restHairDeviationMax": 0.0003,
+    "hoofNodeDriftMax": 0.000001,
+    "hoofVertexDriftMax": 0.0003,
+    "minHairMovement": 0.004,
+    "maxHairMovement": 0.35,
+    "newBoneCount": 5,
+    "influencesPerHairVertex": 4
+  },
+  "requiredProofs": [
+    "exact source sha",
+    "unchanged original body buffers",
+    "all 1819 hair vertices with finite normalized weights",
+    "no leg-bone influences on hair",
+    "UV seam continuity",
+    "5 hair-only bone rest transform neutrality",
+    "actual static hooves",
+    "visible moving hair preview",
+    "hash-verified derived GLB receipt",
+    "explicit owner visual verdict"
+  ],
+  "status": "SOURCE_COMMITTED__EXECUTION_PENDING",
+  "handOff": "The actual versioned runnable .sh attachment must be delivered in ChatGPT; GitHub URL is not a valid file handoff."
+}

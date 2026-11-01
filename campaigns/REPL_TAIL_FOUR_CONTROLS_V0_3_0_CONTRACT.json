@@ -1,0 +1,114 @@
+{
+  "schema": "parametric-parambulator-campaign-contract-v1",
+  "identity": {
+    "campaign": "REPL_TAIL_TAPERED_FOUR_CONTROLS",
+    "version": "0.3.0",
+    "predecessor": "REPL_HAIR_FIVE_CONTROLS v0.2.0",
+    "status": "GIT_SOURCE_AUTHORED_ONLY_VISUAL_PENDING"
+  },
+  "mission": "Preserve owner-accepted 3-control mane exactly; refine only tail from 2 controls to 4 via two descendants with monotonically shrinking segment lengths, and render true textured mesh in a separate tail-only articulation test. No hoof motion.",
+  "input": {
+    "name": "Repl.glb",
+    "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
+    "exactRequired": true,
+    "presentInPublicRepo": false
+  },
+  "predecessor": {
+    "filename": "campaigns/repl_hair_five_controls_v0_2_0.py",
+    "lockedGitBlob": "287567d6baf8e8fa415580dc57ee86600772f797"
+  },
+  "acceptedLocks": [
+    "Existing 3 mane bones and all weights unmodified",
+    "Existing 2 tail control rest transforms and joint IDs preserved",
+    "Original 43-joint body skeleton preserved",
+    "Original body mesh/weights/materials/texture payloads unchanged",
+    "Original Repl GLB/Blender source untouched",
+    "Original neck/mane review clip unchanged",
+    "No leg/hoof animation or physics"
+  ],
+  "authorizedMutable": [
+    "Append two tail-only descendant bone nodes/joints and inverse-bind matrices",
+    "Replace hair JOINTS_0/WEIGHTS_0 accessor references for tail vertices, preserving mane tuples",
+    "Append independent tail-only expressive 4-control clip",
+    "New versioned GLB, actual textured glTF viewer HTML, JSON report and immutable SHA receipt"
+  ],
+  "forbidden": [
+    "Reweight or rerig mane",
+    "Change existing body/hoof or horn",
+    "Alter original GLB/Blender file",
+    "Replace v0.1/v0.2 or accepted mane visuals",
+    "Wind shader/cloth physics",
+    "Point-dot preview as primary review",
+    "New source files or unrelated repository edits"
+  ],
+  "tailControls": [
+    {
+      "name": "REPL_TAIL_BASE",
+      "parent": "Bone_004",
+      "worldPivot": [
+        0,
+        1.05,
+        -0.93
+      ],
+      "status": "existing v0.2"
+    },
+    {
+      "name": "REPL_TAIL_TIP",
+      "parent": "REPL_TAIL_BASE",
+      "worldPivot": [
+        0,
+        0.8,
+        -1.27
+      ],
+      "status": "existing v0.2 name retained for compatibility"
+    },
+    {
+      "name": "REPL_TAIL_NEAR_TIP",
+      "parent": "REPL_TAIL_TIP",
+      "worldPivot": [
+        0,
+        0.62,
+        -1.43
+      ],
+      "status": "appended v0.3"
+    },
+    {
+      "name": "REPL_TAIL_TERMINAL",
+      "parent": "REPL_TAIL_NEAR_TIP",
+      "worldPivot": [
+        0,
+        0.51,
+        -1.54
+      ],
+      "status": "appended v0.3"
+    }
+  ],
+  "output": {
+    "dirname": "Repl_TailFourControls_v0.3.0",
+    "files": [
+      "Repl_TailFourControls_v0.3.0.glb",
+      "Repl_TailFourControls_v0.3.0_TEXTURERENDER.html",
+      "Repl_TailFourControls_v0.3.0_report.json",
+      "RECEIPT_v0.3.0.json"
+    ]
+  },
+  "validation": {
+    "expectedSkeletonJoints": 50,
+    "expectedGLTFNodes": 53,
+    "tailLengthStrictlyDecreasing": true,
+    "maneJointWeightTuplesMustMatch": true,
+    "bodyDriftMax": 0.000001,
+    "hoofDriftMax": 0.000001,
+    "maneDriftTailClipMax": 0.000001,
+    "tailRestDriftMax": 0.0003,
+    "tailAnimationMoveMin": 0.01,
+    "tailAnimationMoveMax": 0.35,
+    "materialsPreserved": true,
+    "ownerVisualVerdict": "PENDING"
+  },
+  "reference": {
+    "campaignEtiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+    "docRevisionRead": "AHj4eMSHYiOeQgmJF4cJFmdVDrjGUDsWN1aw_UjIfDmN85eGyzPXw3xmFAXMWs_xFTUc96T9F5a0JrilDXZYmOLIUvj1cbMw1usk8QJfkRA",
+    "pose3d": "https://docs.google.com/document/d/1BNXVfowZWQSSA0Nk0OK4jP7_K-ysHnM5vTPV_EB8EWU/edit"
+  }
+}

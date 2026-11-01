@@ -1,0 +1,48 @@
+name: Repl hair bind v0.1.0 source smoke
+on:
+  push:
+    paths:
+      - "campaigns/repl_hair_bind_v0_1_0.py"
+      - "campaigns/REPL_HAIR_BIND_V0_1_0_CONTRACT.json"
+      - ".github/workflows/repl-hair-bind-v0.1.0-smoke.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-and-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Compile source and verify campaign's immutable scope
+        run: |
+          python -m py_compile campaigns/repl_hair_bind_v0_1_0.py
+          python - <<'PY'
+          import importlib.util, json, pathlib
+          p=pathlib.Path("campaigns/repl_hair_bind_v0_1_0.py")
+          spec=importlib.util.spec_from_file_location("repl_hair",p)
+          m=importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(m)
+          c=json.loads(pathlib.Path("campaigns/REPL_HAIR_BIND_V0_1_0_CONTRACT.json").read_text())
+          assert m.VERSION == c["version"] == "0.1.0"
+          assert m.SOURCE_SHA256 == c["input"]["sha256"]
+          assert m.EXPECTED_BODY_VERTICES == c["input"]["bodyVertices"]
+          assert m.EXPECTED_HAIR_VERTICES == c["input"]["hairVertices"]
+          assert m.EXPECTED_JOINTS == c["input"]["skinJoints"]
+          assert len(m.MOTION_BONES) == 4
+          assert not any(x in m.MOTION_BONES for x in (
+              "Bone_011","Bone_017","Bone_033","Bone_038"))
+          assert m.normalize({1:4,2:4}) == {1:.5,2:.5}
+          pts,indices,graph=m.hair_graph(
+              [(0,0,0),(1,0,0),(0,1,0),(0,0,0)],
+              [0,1,2])
+          assert len(pts)==3 and indices[3]==indices[0]
+          assert abs(m.distance((0,0,0),(1,0,0))-1)<1e-9
+          assert c["humanAcceptance"] == "PENDING"
+          print("GIT_SOURCE_SMOKE=PASS")
+          print("SOURCE_GLB_PRESENT_IN_CI=NO")
+          print("REAL_ASSET_BIND_RUN=NOT_EXECUTED")
+          print("PHYSICAL_VISUAL_ACCEPTANCE=PENDING")
+          PY

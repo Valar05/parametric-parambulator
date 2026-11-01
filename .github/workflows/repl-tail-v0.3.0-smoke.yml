@@ -1,0 +1,24 @@
+name: Repl v0.3.0 tapered tail synthetic checks
+on:
+  push:
+    paths:
+      - "campaigns/repl_tail_four_controls_v0_3_0.py"
+      - "campaigns/test_repl_tail_v0_3_0.py"
+      - ".github/workflows/repl-tail-v0.3.0-smoke.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic-tail-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Python compile
+        run: |
+          python -m py_compile campaigns/repl_tail_four_controls_v0_3_0.py
+          python -m py_compile campaigns/test_repl_tail_v0_3_0.py
+      - name: Synthetic joint and contract tests (no private GLB)
+        run: python campaigns/test_repl_tail_v0_3_0.py

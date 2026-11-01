@@ -1,0 +1,44 @@
+{
+  "schema": "parametric-parambulator.single-canonical-glb.v1",
+  "campaign": "REPL_FORELEG_BEND_REVERSAL",
+  "version": "0.6.3",
+  "execution": "Termux-only ZIP, single entrypoint, no direct ChatGPT GitHub mutation",
+  "repository": "Valar05/parametric-parambulator",
+  "canonical": "assets/repl/Repl.glb",
+  "source_version": "0.6.2",
+  "source_sha256": "6a519d49d21dae6048553edc0aa09b340b8ca13979750a4abc1631a48e5c019f",
+  "source_git_blob_sha1": "6078f4f74069891bf4140e7925fe3e53e66569fa",
+  "source_main_head": "dac0d5ed854562096d8c8da919bc85bc431601bc",
+  "owner_correction": "The forehoof bends FORWARD. v0.6.2 forward/back poles were reversed. Correct signs, KEEP joint level.",
+  "corrected_forelegs": {
+    "LF": {
+      "upper_backward": "Bone_014",
+      "lower_forward": "Bone_013"
+    },
+    "RF": {
+      "upper_backward": "Bone_020",
+      "lower_forward": "Bone_019"
+    }
+  },
+  "rejected_polarity": {
+    "upper_forward": [
+      "Bone_014",
+      "Bone_020"
+    ],
+    "lower_backward": [
+      "Bone_013",
+      "Bone_019"
+    ]
+  },
+  "preserve": [
+    "exact nodes, skin weights, bind matrices, materials, textures",
+    "original 3 tail/mane animation clips",
+    "hind legs and other torso/secondary tracks",
+    "all foreleg stance rotations and world-fixed hooves",
+    "3 forward-travel-only clips; 0.96 model-unit root travel",
+    "only one GLB in Git repository"
+  ],
+  "host_validation": "Local equivalent v0.6.2 source candidate passed all three stage tests. Production v0.6.2 exact sha is required and full run occurs on Termux.",
+  "visual_acceptance": "PENDING",
+  "known_risk": "Original v0.6.2 surface-to-ground issues are not declared solved until visual review"
+}
