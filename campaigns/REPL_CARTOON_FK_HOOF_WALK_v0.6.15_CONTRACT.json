@@ -1,0 +1,71 @@
+{
+  "body_controls": [
+    "Bone_000 (rotation stage 2/3)",
+    "Bone_000 (vertical translation stage 2/3)"
+  ],
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "campaign_etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "checkout_recovery": "versioned private worktree; reuse verified prior committed source without touching originals, or bounded shallow partial Git fetch (with retry); no full clone; fail closed on inconsistent state",
+  "entrypoint": "campaign/run-termux.sh",
+  "evidence": [
+    "exact v0.6.10 SHA and original inverse-bind-pose equality",
+    "precomputed real skinned-mesh trajectory, exact JSON hash",
+    "97 frames x 3 stages x 4 hooves real Termux mesh checks",
+    "protected original binary prefix and track-by-track equality",
+    "measured body support-side direction and stance vertex displacement",
+    "Termux Git commit, push and remote readback separate from human visual approval"
+  ],
+  "execution_lane": "TERMUX_GIT_ONLY",
+  "expected_test_case": "Production v0.6.10 GLB was decoded and exact corrected geometry evaluated all 97 frames per clip prior to campaign ZIP creation",
+  "expected_visual_goal": "Front hoof peak swing clearance 25%-33% of v0.6.10 with visible curvature, plus subtle phase-locked loaded-side body sag",
+  "failure_strategy": "bounded body profiles, immutable model on failed validation, durable JSON diagnostic; never loosen physical constraints",
+  "geometry_solver": "REAL_SOURCE_GLTF_PRECOMPUTED_VERTEX_CONSTRAINED_SAG_TRAJECTORY; runtime validates exact GLB rather than guessing",
+  "history_reference_blob": "NOT_REQUIRED",
+  "history_reference_commit": "NOT_REQUIRED",
+  "history_reference_sha256": "NOT_REQUIRED",
+  "host_measured_candidate_verification": {
+    "maximum_front_joint_step_degrees": 24.781609,
+    "maximum_stance_vertex_delta": 0.007269,
+    "peak_lift_ratios": {
+      "1_LF": 0.285692,
+      "1_RF": 0.293651,
+      "2_LF": 0.282521,
+      "2_RF": 0.2921,
+      "3_LF": 0.282521,
+      "3_RF": 0.2921
+    },
+    "physical_frame_hoof_pairs": 1164,
+    "production_runtime_measured": "LOCAL_SOURCE_TEST_ONLY_NOT_TERMUX_GIT",
+    "real_source_sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
+    "support_side_drop": 0.002304,
+    "swing_min_world_y": 0.005521
+  },
+  "human_approval": "REQUIRED_AFTER_TERMUX_SUCCESS",
+  "joint_controls": [
+    "Bone_015",
+    "Bone_014",
+    "Bone_021",
+    "Bone_020"
+  ],
+  "model_integration": "unchanged geometry validation and Termux Git same canonical path; no direct GitHub mutations",
+  "no_unsafe_threshold_relaxation": true,
+  "protected": [
+    "full geometry/materials/skins/node rest",
+    "6 existing animations",
+    "3 original nonwalk clips",
+    "rear leg local rotation tracks",
+    "front distal and toe rotation tracks",
+    "front stance local rotations",
+    "root world XZ/0.96 travel",
+    "original mane and tail"
+  ],
+  "recovery_algorithm": "bounded independent shoulder+middle quaternion factors, actual skinned patch measurement, temporal dynamic optimization, real-GLB verify, preserves protected distal/toe/hind channels",
+  "recovery_incident": "v0.6.14 two-joint solver incorrectly used a planted anchor at early swing and was never run against exact production GLB before handoff",
+  "repository": "Valar05/parametric-parambulator",
+  "source_contract": "Pinned v0.6.10 canonical only; measured trajectory is shipped as immutable JSON; no historical reference binary required",
+  "source_git_blob": "e839cdab19e82f3c68471c80bfee9d730f1948a4",
+  "source_head": "f0927b29e3525018999a223f219c38866dc9b9c0",
+  "source_sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
+  "version": "0.6.15"
+}

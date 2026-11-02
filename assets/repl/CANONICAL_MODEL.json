@@ -3,6 +3,11 @@
     "accepted_mane_weights": "UNCHANGED",
     "all_previous_animations": "PRESERVED",
     "animations": 6,
+    "body_profile": {
+      "body_roll_degrees": 0.3,
+      "body_settle": 0.0016,
+      "roll_sign": -1.0
+    },
     "campaign": "REPL_CARTOON_FK_HOOF_WALK",
     "cartoon_swing_driver_degrees": {
       "LF": {
@@ -22,7 +27,16 @@
         "Bone_031": 12
       }
     },
+    "controlled_body_bones": [
+      "Bone_000"
+    ],
     "controlled_bones": [
+      "Bone_014",
+      "Bone_015",
+      "Bone_020",
+      "Bone_021"
+    ],
+    "controlled_front_bones": [
       "Bone_014",
       "Bone_015",
       "Bone_020",
@@ -46,6 +60,10 @@
         "Bone_028"
       ]
     },
+    "forehoof_clearance_ratio_goal": [
+      0.25,
+      0.33
+    ],
     "foreleg_review_html_sha256": "51f29bb2ebdba9610e05f86c0f70b5491a56e98983cd2cd5ef0f299cdd4dbf48",
     "four_distal_cannon_hoof_pairs": {
       "LF": [
@@ -65,12 +83,8 @@
         "Bone_028"
       ]
     },
-    "front_swing_profile": {
-      "middle_back_deg": 42,
-      "shoulder_forward_deg": 26
-    },
-    "gait_phasing": "UNCHANGED_V068",
-    "git_blob_sha1": "e839cdab19e82f3c68471c80bfee9d730f1948a4",
+    "gait_phasing": "UNCHANGED",
+    "git_blob_sha1": "79ac66bf4e0801fbbba5047d0b31969a78ccc0e9",
     "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
     "hoof_plant_test": {
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
@@ -120,133 +134,71 @@
     },
     "human_visual_acceptance": "PENDING",
     "joint_count": 50,
-    "max_keyframe_rotation_step_deg": 24.781600802882163,
+    "mane_tail_and_nonwalk_clips": "UNCHANGED",
     "max_skinned_stance_hoof_delta": 0.0,
+    "max_stance_hoof_movement": 0.00726821883446942,
     "max_stance_toe_marker_deviation": 0.0,
     "max_swing_hoof_marker_delta": 0.002233251164380438,
     "max_swing_toe_marker_deviation": 0.000904730057173512,
-    "measured_front_hoof_clearance": {
+    "measured_hoof_clearance": {
       "1_LF": {
-        "max_baseline_mid_clearance": 0.011653528916064112,
-        "min_early_clearance": 0.045738,
-        "min_mid_clearance": 0.266668,
-        "reference_ground_y": -0.01037,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.296843,
+        "min_swing": 0.005567,
+        "verified_peak": 0.084806,
+        "verified_ratio": 0.285692
       },
       "1_RF": {
-        "max_baseline_mid_clearance": -0.01951528533343043,
-        "min_early_clearance": 0.016396,
-        "min_mid_clearance": 0.24088,
-        "reference_ground_y": 0.00127,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.283559,
+        "min_swing": 0.007839,
+        "verified_peak": 0.083267,
+        "verified_ratio": 0.293651
       },
       "2_LF": {
-        "max_baseline_mid_clearance": 0.015112561903048835,
-        "min_early_clearance": 0.035593,
-        "min_mid_clearance": 0.266951,
-        "reference_ground_y": -0.01766,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.293018,
+        "min_swing": 0.00763,
+        "verified_peak": 0.082784,
+        "verified_ratio": 0.282521
       },
       "2_RF": {
-        "max_baseline_mid_clearance": -0.01900405342532604,
-        "min_early_clearance": 0.010312,
-        "min_mid_clearance": 0.240125,
-        "reference_ground_y": 0.00116,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.283964,
+        "min_swing": 0.005521,
+        "verified_peak": 0.082946,
+        "verified_ratio": 0.292101
       },
       "3_LF": {
-        "max_baseline_mid_clearance": 0.015112561903048835,
-        "min_early_clearance": 0.035593,
-        "min_mid_clearance": 0.266951,
-        "reference_ground_y": -0.01766,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.293018,
+        "min_swing": 0.00763,
+        "verified_peak": 0.082784,
+        "verified_ratio": 0.282521
       },
       "3_RF": {
-        "max_baseline_mid_clearance": -0.01900405342532604,
-        "min_early_clearance": 0.010312,
-        "min_mid_clearance": 0.240125,
-        "reference_ground_y": 0.00116,
-        "tested_early_frames": 4,
-        "tested_mid_frames": 3
+        "baseline_peak": 0.283964,
+        "min_swing": 0.005521,
+        "verified_peak": 0.082946,
+        "verified_ratio": 0.292101
       }
     },
-    "measured_front_swing_angles": {
-      "1_LF_1": {
-        "middle_backward_deg": 40.555,
-        "shoulder_forward_deg": 25.183
+    "measured_rig_audit": {
+      "edited_front_bones": [
+        "Bone_014",
+        "Bone_015",
+        "Bone_020",
+        "Bone_021"
+      ],
+      "ground_reference_y": 0.0,
+      "joint_count": 50,
+      "node_count": 53
+    },
+    "measured_support_side_sag": {
+      "2": {
+        "differential_y": 0.001406,
+        "frame": 18,
+        "supported_side_drop_y": 0.002304
       },
-      "1_LF_2": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "1_LF_3": {
-        "middle_backward_deg": 40.057,
-        "shoulder_forward_deg": 24.883
-      },
-      "1_RF_17": {
-        "middle_backward_deg": 40.557,
-        "shoulder_forward_deg": 25.183
-      },
-      "1_RF_18": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "1_RF_19": {
-        "middle_backward_deg": 40.058,
-        "shoulder_forward_deg": 24.883
-      },
-      "2_LF_1": {
-        "middle_backward_deg": 40.555,
-        "shoulder_forward_deg": 25.183
-      },
-      "2_LF_2": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "2_LF_3": {
-        "middle_backward_deg": 40.055,
-        "shoulder_forward_deg": 24.883
-      },
-      "2_RF_17": {
-        "middle_backward_deg": 40.557,
-        "shoulder_forward_deg": 25.183
-      },
-      "2_RF_18": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "2_RF_19": {
-        "middle_backward_deg": 40.058,
-        "shoulder_forward_deg": 24.883
-      },
-      "3_LF_1": {
-        "middle_backward_deg": 40.555,
-        "shoulder_forward_deg": 25.183
-      },
-      "3_LF_2": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "3_LF_3": {
-        "middle_backward_deg": 40.055,
-        "shoulder_forward_deg": 24.883
-      },
-      "3_RF_17": {
-        "middle_backward_deg": 40.557,
-        "shoulder_forward_deg": 25.183
-      },
-      "3_RF_18": {
-        "middle_backward_deg": 41.885,
-        "shoulder_forward_deg": 25.979
-      },
-      "3_RF_19": {
-        "middle_backward_deg": 40.058,
-        "shoulder_forward_deg": 24.883
+      "3": {
+        "differential_y": 0.001406,
+        "frame": 18,
+        "supported_side_drop_y": 0.002304
       }
     },
     "measured_swing_driver_angles": {
@@ -421,15 +373,15 @@
         "before": -15.05
       }
     },
-    "minimum_early_swing_clearance": 0.010312,
-    "minimum_mid_swing_clearance": 0.240125,
-    "mode": "FRONT_SWING_LIFT_ON_CANONICAL_V068",
+    "mode": "LOW_FOREHOOF_ARC_AND_SUBTLE_CORNER_SAG",
     "new_explicit_hoof_rotation_tracks": [],
     "node_count": 53,
-    "owner_visual_goal": "Front hoof clears ground, shoulder moves 20-30 deg forward, middle folds backward visibly",
     "path": "assets/repl/Repl.glb",
+    "precomputed_measured_trajectory_sha256": "94ad6d5de7acd1920181a0c54cd7fc4ee76160f0bc8fb77a961906b7c7bcf2f1",
     "preserved_distal_front_drivers": "Bone_013,Bone_019 identical to v0.6.8",
+    "preserved_front_distal_tracks": "IDENTICAL_TO_v0.6.10",
     "preserved_hind_leg_channels": "IDENTICAL_TO_V068",
+    "preserved_hind_leg_tracks": "IDENTICAL_TO_v0.6.10",
     "preserved_hoof_masses": "Bone_012,Bone_018,Bone_023,Bone_028 local FK rest unchanged",
     "protected_front_middle_joints": [
       "Bone_014",
@@ -441,10 +393,10 @@
       "Bone_023",
       "Bone_028"
     ],
-    "review_html_sha256": "abf0c6e786f3fdfc487f640ecf0618b3eb720b523d69246371009ed7c7ae9eec",
+    "review_html_sha256": "90bad76568e4f4b4aeadb510bbab346ea221e252bb8557355fc1bd9d47f906f3",
     "root_forward_travel": 0.96,
     "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
-    "sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
+    "sha256": "713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85",
     "stance_contact_verification": "TRAJECTORY_OF_STABLE_MESH_PATCH__NOT_OLD_TO_NEW_POSE_DELTA",
     "stride_duration": 1.28,
     "swing_hoof_ground_visual_review": "REQUIRED",
@@ -464,8 +416,9 @@
       "3_RH": 0.07262547725870512
     },
     "tail_pivot": "APPROVED_v0.5.2_PRESERVED",
+    "tested_real_mesh_frame_pairs": 1164,
     "toe_masses": "LOCAL_FK_REST__NO_WORLD_PIN__NO_ANIMATED_TIP_DEFORMERS",
-    "version": "0.6.10",
+    "version": "0.6.15",
     "walk_clip_names": [
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
       "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
@@ -531,14 +484,20 @@
     "Foreleg middle joint must fold more rearward, producing visibly greater curvature than hindlegs",
     "v0.6.8 front middle lock superseded ONLY by requested front middle folding change",
     "Do not change rear legs, front distal drivers, hoof-mass orientation, stance, timing, root travel, approved mane/tail",
-    "Compare skinned hoof underside to planted same-foot surface across swing; human visual verdict remains necessary"
+    "Compare skinned hoof underside to planted same-foot surface across swing; human visual verdict remains necessary",
+    "Owner sees v0.6.10 front-hoof prance; target one quarter to one third current clearance",
+    "Actual reference horse barely clears ground despite significant front joint arc",
+    "Keep real rig unusual toe bones, upper and middle leg curvature, rear local bone animations",
+    "Add small support-side roll/vertical settle in stage 2 and 3 while guarding contact",
+    "No cosmetic threshold bypass; actual skinned vertices, not screenshot pixels, govern clearance",
+    "One canonical GLB, forward travel and existing mane/tail unchanged; human verdict pending"
   ],
   "previous_model": {
-    "git_blob_sha1": "ee68428d9edf305c22e1bd4aa1fca7ad61e993e1",
-    "owner_next_correction": "Front hoof drags/rotates through ground; increase shoulder forward lead and middle backward fold",
-    "owner_visual_acceptance": "PARTIAL_v0.6.8_JOINT_DIRECTIONS_CORRECT_REAR_LEGS_REASONABLE",
-    "sha256": "eff0c604ca56ba58543c7a477bffc0e22e3c23f1d5da00bdbf1ea62369f27509",
-    "version": "0.6.8"
+    "git_blob_sha1": "e839cdab19e82f3c68471c80bfee9d730f1948a4",
+    "owner_next_correction": "Bring peak front clearance to 25-33 percent and include subtle loaded-corner settle",
+    "owner_visual_acceptance": "PARTIAL_v0.6.10_CORRECT_JOINTS_BUT_PRANCING",
+    "sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
+    "version": "0.6.10"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -549,5 +508,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "FRONT_SWING_CLEARANCE_v0.6.10__HUMAN_VISUAL_PENDING"
+  "status": "MEASURED_GLTF_LOW_FOREHOOF_v0.6.15__HUMAN_VISUAL_PENDING"
 }
