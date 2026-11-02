@@ -6,7 +6,7 @@
     "body_profile": {
       "body_roll_degrees": 0.3,
       "body_settle": 0.0016,
-      "roll_sign": -1.0
+      "motion": "UNCHANGED_FROM_V0615"
     },
     "campaign": "REPL_CARTOON_FK_HOOF_WALK",
     "cartoon_swing_driver_degrees": {
@@ -27,9 +27,7 @@
         "Bone_031": 12
       }
     },
-    "controlled_body_bones": [
-      "Bone_000"
-    ],
+    "controlled_body_bones": [],
     "controlled_bones": [
       "Bone_014",
       "Bone_015",
@@ -60,6 +58,10 @@
         "Bone_028"
       ]
     },
+    "forehoof_clearance_absolute_goal_units": [
+      0.056,
+      0.101
+    ],
     "forehoof_clearance_ratio_goal": [
       0.25,
       0.33
@@ -84,7 +86,7 @@
       ]
     },
     "gait_phasing": "UNCHANGED",
-    "git_blob_sha1": "79ac66bf4e0801fbbba5047d0b31969a78ccc0e9",
+    "git_blob_sha1": "532ee6b18bf4a412fe0a674311ddef3c9ae46001",
     "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
     "hoof_plant_test": {
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
@@ -136,58 +138,57 @@
     "joint_count": 50,
     "mane_tail_and_nonwalk_clips": "UNCHANGED",
     "max_skinned_stance_hoof_delta": 0.0,
-    "max_stance_hoof_movement": 0.00726821883446942,
+    "max_stance_hoof_movement": 0.007620057695527316,
     "max_stance_toe_marker_deviation": 0.0,
     "max_swing_hoof_marker_delta": 0.002233251164380438,
     "max_swing_toe_marker_deviation": 0.000904730057173512,
     "measured_hoof_clearance": {
       "1_LF": {
-        "baseline_peak": 0.296843,
-        "min_swing": 0.005567,
-        "verified_peak": 0.084806,
-        "verified_ratio": 0.285692
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.007725,
+        "verified_peak": 0.074015
       },
       "1_RF": {
-        "baseline_peak": 0.283559,
-        "min_swing": 0.007839,
-        "verified_peak": 0.083267,
-        "verified_ratio": 0.293651
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.010249,
+        "verified_peak": 0.073993
       },
       "2_LF": {
-        "baseline_peak": 0.293018,
-        "min_swing": 0.00763,
-        "verified_peak": 0.082784,
-        "verified_ratio": 0.282521
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.004909,
+        "verified_peak": 0.075384
       },
       "2_RF": {
-        "baseline_peak": 0.283964,
-        "min_swing": 0.005521,
-        "verified_peak": 0.082946,
-        "verified_ratio": 0.292101
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.009944,
+        "verified_peak": 0.075293
       },
       "3_LF": {
-        "baseline_peak": 0.293018,
-        "min_swing": 0.00763,
-        "verified_peak": 0.082784,
-        "verified_ratio": 0.282521
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.004909,
+        "verified_peak": 0.075384
       },
       "3_RF": {
-        "baseline_peak": 0.283964,
-        "min_swing": 0.005521,
-        "verified_peak": 0.082946,
-        "verified_ratio": 0.292101
+        "forward_reversal_limit": -0.006,
+        "max_step_limit": 0.06,
+        "min_swing": 0.009944,
+        "verified_peak": 0.075293
       }
     },
     "measured_rig_audit": {
-      "edited_front_bones": [
+      "joint_count": 50,
+      "node_count": 53,
+      "only_edited_bones": [
         "Bone_014",
         "Bone_015",
         "Bone_020",
         "Bone_021"
-      ],
-      "ground_reference_y": 0.0,
-      "joint_count": 50,
-      "node_count": 53
+      ]
     },
     "measured_support_side_sag": {
       "2": {
@@ -373,16 +374,20 @@
         "before": -15.05
       }
     },
-    "mode": "LOW_FOREHOOF_ARC_AND_SUBTLE_CORNER_SAG",
+    "mode": "FULL_GROUND_RELATIVE_FOUR_BEAT_FRONT_HOOF",
     "new_explicit_hoof_rotation_tracks": [],
     "node_count": 53,
     "path": "assets/repl/Repl.glb",
-    "precomputed_measured_trajectory_sha256": "94ad6d5de7acd1920181a0c54cd7fc4ee76160f0bc8fb77a961906b7c7bcf2f1",
+    "precomputed_measured_trajectory_sha256": "8c3d8e4364c12b76549ceffab565e9f680de6ddbfda7d075496420efb4404117",
     "preserved_distal_front_drivers": "Bone_013,Bone_019 identical to v0.6.8",
-    "preserved_front_distal_tracks": "IDENTICAL_TO_v0.6.10",
+    "preserved_front_distal_tracks": "IDENTICAL_TO_v0.6.15",
     "preserved_hind_leg_channels": "IDENTICAL_TO_V068",
-    "preserved_hind_leg_tracks": "IDENTICAL_TO_v0.6.10",
+    "preserved_hind_leg_tracks": "IDENTICAL_TO_v0.6.15",
     "preserved_hoof_masses": "Bone_012,Bone_018,Bone_023,Bone_028 local FK rest unchanged",
+    "preserved_support_side_sag": {
+      "2": "PRESERVED_V0615",
+      "3": "PRESERVED_V0615"
+    },
     "protected_front_middle_joints": [
       "Bone_014",
       "Bone_020"
@@ -393,10 +398,10 @@
       "Bone_023",
       "Bone_028"
     ],
-    "review_html_sha256": "90bad76568e4f4b4aeadb510bbab346ea221e252bb8557355fc1bd9d47f906f3",
+    "review_html_sha256": "f780108c3ba4a03be40d25e09c9afa183ee2c06124e134e828917f94f5d6d626",
     "root_forward_travel": 0.96,
     "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
-    "sha256": "713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85",
+    "sha256": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1",
     "stance_contact_verification": "TRAJECTORY_OF_STABLE_MESH_PATCH__NOT_OLD_TO_NEW_POSE_DELTA",
     "stride_duration": 1.28,
     "swing_hoof_ground_visual_review": "REQUIRED",
@@ -418,7 +423,7 @@
     "tail_pivot": "APPROVED_v0.5.2_PRESERVED",
     "tested_real_mesh_frame_pairs": 1164,
     "toe_masses": "LOCAL_FK_REST__NO_WORLD_PIN__NO_ANIMATED_TIP_DEFORMERS",
-    "version": "0.6.15",
+    "version": "0.6.17",
     "walk_clip_names": [
       "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
       "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
@@ -490,14 +495,20 @@
     "Keep real rig unusual toe bones, upper and middle leg curvature, rear local bone animations",
     "Add small support-side roll/vertical settle in stage 2 and 3 while guarding contact",
     "No cosmetic threshold bypass; actual skinned vertices, not screenshot pixels, govern clearance",
-    "One canonical GLB, forward travel and existing mane/tail unchanged; human verdict pending"
+    "One canonical GLB, forward travel and existing mane/tail unchanged; human verdict pending",
+    "Rejected v0.6.15: forehoof darts ahead and performs visible kick unrelated to ground contact",
+    "Full front-stance world-Z contact lock and no significant reverse or instantaneous forward kick",
+    "Front swing arc remains low but moves monotonically forward in world space",
+    "Only four front shoulder/middle rotation channels are mutable; distal/hoof/toe and rear locked",
+    "Preserve existing v0.6.15 body sag and roll without re-editing any root channel",
+    "One canonical GLB, no alternate rig, human visual acceptance is independent of numeric checks"
   ],
   "previous_model": {
-    "git_blob_sha1": "e839cdab19e82f3c68471c80bfee9d730f1948a4",
-    "owner_next_correction": "Bring peak front clearance to 25-33 percent and include subtle loaded-corner settle",
-    "owner_visual_acceptance": "PARTIAL_v0.6.10_CORRECT_JOINTS_BUT_PRANCING",
-    "sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
-    "version": "0.6.10"
+    "git_blob_sha1": "79ac66bf4e0801fbbba5047d0b31969a78ccc0e9",
+    "owner_next_correction": "Bring peak front contact and continuous hoof trajectory with no kicking",
+    "owner_visual_acceptance": "REJECTED_V0615_FRONT_HOOF_KICKING",
+    "sha256": "713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85",
+    "version": "0.6.15"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -508,5 +519,5 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "MEASURED_GLTF_LOW_FOREHOOF_v0.6.15__HUMAN_VISUAL_PENDING"
+  "status": "MEASURED_GLTF_LOW_FOREHOOF_v0.6.17__HUMAN_VISUAL_PENDING"
 }
