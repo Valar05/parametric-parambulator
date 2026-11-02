@@ -31,3 +31,23 @@ If either required read cannot be performed, disclose `RULES_READ_BLOCKED`; neve
 ## Mandatory per-turn checklist
 
 Read root AGENTS and live Campaign Etiquette; determine requested goal/owner/lane; inspect exact remote main HEAD and canonical hash; review existing owner visual verdict and failure ledger; ensure unique destination names; prove source and physical tests; ensure execution receipts and remote readback; request final visual acceptance. On any missing evidence, block at that boundary. No invented completion claims.
+
+## 2026-11-02 — Repl stance and breakover: owner correction and mandatory physical gates
+
+Owner visual verdict: v0.6.17 is the BEST YET and ALMOST ACCEPTABLE, **NOT APPROVED**. Preserve its low airborne hoof arc, four-beat cadence, traveling root, existing secondary body motion, rear tracks, mane/tail, mesh and all original assets. Current commissioned issues: front knees never appear straight during support, and hooves need to travel farther underneath the forequarters before lift-off.
+
+Read and measure the EXACT current canonical GLB, not just its geometric replay, script parameters, or an earlier version. Distinguish source hash, published binary, and derivative. For each front foot measure at all 97 frames AND half-frames: true skinned sole Y; lowest toe and heel vertices; stable patch world Z; shoulder-to-hoof relative Z at touch-down and last support frame; upper-to-lower segment knee flexion (0 degrees straight); source-to-candidate changes; joint quaternion step; and toe-off/swing/touchdown continuity. Add per-leg and per-clip receipts. Screen captures and angle offsets alone are not motion evidence.
+
+A stance-only straightening solution is NOT VALID if the return to swing causes hoof penetration, a jump, premature heel roll, prancing, or implausible late swing. Test the connected cyclic trajectory under the ground plane, not separately acceptable poses. Stance hoof must remain supported without world-space sliding while Repl advances over it; forward swing remains smooth and natural. Numeric passes are not human visual acceptance.
+
+Only the four existing approved front shoulder/middle rotation channels (Bone_015, Bone_014, Bone_021, Bone_020) may be modified without new owner consent. Front distal/hoof/toe joints, root and body, rear channels, timing, skeleton and weights stay locked. Do not quietly 'fix' degrees-of-freedom limitations by changing locked channels or shortening stance. If constrained geometry is infeasible, publish the EXACT identified boundary and propose a separately approved distal-joint pilot; do NOT weaken physical gates or commit an invalid GLB.
+
+Source and policy must be committed by the user's authorized Termux Git lane with exact remote readback, not direct ChatGPT Git writes; preserve all previous policy text. A new campaign script may commit itself and this additive doctrine without changing the model if the physics gate blocks, but must report MODEL_UNCHANGED and never label the requested animation completed. One invocation, verified hashes, no repeated manual diagnostic commands, no stale destination filenames, no force push, no dirty-tree overwrite.
+
+## 2026-11-02 — Repl v0.6.18 Python shadow import regression and owner-run cost
+
+FIELD FAILURE: v0.6.18 terminated during verified Git checkout because `main()` contained `import os,tempfile` AFTER a use of `os`. Python marks a name imported inside a function as local for the function's entire scope, so the earlier `os.chdir` raised `UnboundLocalError`. The campaign's static AST-parse self-test did not exercise `main()`. This was a code defect, not a rig or network failure.
+
+MANDATORY: No nested imports in campaign entrypoint `main()` for globals already imported at module scope. Run an AST/symbol-table scope regression AND exercise the actual driver through checkout, first source/AGENTS publication, blocked physical gate, and successful physical gate with disposable test Git fixtures; do not rely on `py_compile` or source greps alone. A mock success-path pass is not physical GLB evidence; pin and independently recheck the actual canonical model on Termux.
+
+When a requested gait repair is already known to fail the available numerical profiles, report that boundary before sending the owner another campaign. Publishing the source/policy may be valuable but is not the same as achieving a visibly improved walk. Preserve all original v0.6.17 locks and prior addendum; avoid repeated phone invocations just to discover pretestable Python errors.

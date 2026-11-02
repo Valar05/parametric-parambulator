@@ -1,0 +1,48 @@
+{
+  "authorized_animation_channels": [
+    "Bone_015.rotation",
+    "Bone_014.rotation",
+    "Bone_021.rotation",
+    "Bone_020.rotation"
+  ],
+  "authorized_lane": "TERMUX_GIT_ONLY",
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "candidate_source": "v0.6.17 geometric replay; never counted as exact v0.6.17 binary success",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "expected_source_version": "0.6.17",
+  "failure_policy": "If every allowed two-joint profile fails, do NOT modify the GLB or change gait phasing, protected distal bones or model locks. Retain the additive AGENTS and source Git commit and publish a machine-readable diagnosis. Do not claim the walk fixed.",
+  "hard_gates": [
+    "source SHA and Git blob",
+    "one canonical GLB",
+    "complete 1164 skinned frame checks",
+    "576 half-frame checks",
+    "front swing/stance continuity and no forward kick",
+    "world planted support, no toe penetration",
+    "middle-stance knee extension and trailing reach gain",
+    "preserve every unapproved track",
+    "human visual acceptance remains pending"
+  ],
+  "immutable_channels": [
+    "hind legs",
+    "front distal, hoof and toe",
+    "root translations and rotations",
+    "tail and mane",
+    "materials and meshes",
+    "all nonwalk animations"
+  ],
+  "new_version": "0.6.19",
+  "publication_plan": "Commit unique campaign source and additive AGENTS first through Termux Git. Then physically validate each candidate on the exact real source GLB. Commit canonical model only on full-cycle pass; otherwise leave model untouched and return a diagnostic.",
+  "required_rules": [
+    "live Campaign Etiquette freshly read",
+    "fresh root AGENTS.md from canonical Git revision"
+  ],
+  "revision_purpose": "Transport/runtime recovery from v0.6.18 UnboundLocalError; no additional anatomical channels authorized; unchanged solver objectives.",
+  "source_driver_regressions": [
+    "Python main() os/tempfile global binding",
+    "checkout/AGENTS publication with fixtures",
+    "blocked model path preserves canonical",
+    "success path writes/publishes only verified candidate"
+  ],
+  "source_git_commit": "a18fa83d9bc4f4ed2368c497df3f9fd28102080f",
+  "source_model_sha256": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1"
+}
