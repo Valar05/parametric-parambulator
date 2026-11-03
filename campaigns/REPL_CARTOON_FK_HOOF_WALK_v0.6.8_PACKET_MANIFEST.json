@@ -1,0 +1,18 @@
+{
+  "authoritative_repo": "Valar05/parametric-parambulator",
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "original_packet_sha256": "a0755237101affbef4efb74cf693befda5d1b2353299966142ab50f050765232",
+  "sha256": {
+    "README.md": "67e98845211b6fec99aba23dfc236d1ea499f94d4392b657469723964b7de00e",
+    "campaign/blender_review.py": "68730c3d4429f587fc089197e5e7f04c4235b249ed3c2d18b35c717282c15d3c",
+    "campaign/contract.json": "b453ce6df4de86b81e6db0a67f9882193db42fb3cb904d0124802cd9bfdca88b",
+    "campaign/driver.py": "576f7e0d2d13dd8f646650264248d45f23b26a5172d7c168742f24a2bc79abc4",
+    "campaign/model.py": "9d13cfa023662585c897d6b472f04f11d59fcf8f8ae5335738f582a8791fdd87",
+    "campaign/run-termux.sh": "8070e637c7fbb649dbfb23edebba1e4693a3525cf0f7a10f9cacb5f2dc13f160",
+    "campaign/selftest.py": "e89ecaa4e336414ffb2aa92225f9fec7b26de6c56336d79d9f0f31e66105cb2d",
+    "campaign/viewer.html.in": "f133a7eb4b9923491abd11444bcb903fcfa3f37ec9610cf96585a03ca48c186f"
+  },
+  "source_git_commit": "aa447cc39b3a4664b2d05d71fdbb41d150c43131",
+  "source_sha256": "c3209b404b5c50842591cfa654142d2f0d84d27eb1acf7779b8d4d504d4508af",
+  "version": "0.6.8"
+}

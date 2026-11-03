@@ -1,0 +1,74 @@
+{
+  "allowed_changed_animation_channels": [
+    "Bone_015.rotation",
+    "Bone_014.rotation",
+    "Bone_021.rotation",
+    "Bone_020.rotation"
+  ],
+  "branch": "main",
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "campaign_etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "evidence_boundaries": [
+    "local source-approximate geometry preflight",
+    "Termux source hash recheck",
+    "Termux exact deformed mesh validation",
+    "Termux Git commit/push/remote readback",
+    "human visual approval"
+  ],
+  "execution_lane": "TERMUX_GIT_ONLY",
+  "failure_handling": "NO_CHANGE on validation failure; preserve private candidate and print classified diagnostic. Never loosen contact, hoof velocity, world-space slip, or joint continuity thresholds to force a green result.",
+  "note": "The owner rejected v0.6.15 because ground relative motion was wrong: forward kick on each step. Fix changes front leg stance and swing while preserving all other channels. No new GLB files and no direct connector Git mutations.",
+  "physical_gates": {
+    "all_frames_all_four_hooves": 1164,
+    "front_joint_max_step_degrees": 18.25,
+    "front_swing_clearance_range": [
+      0.0012,
+      0.105
+    ],
+    "hind_hoof_physical_delta_max": 4e-05,
+    "midframe_hooves_evaluated": 576,
+    "midframe_sole_ground_range": [
+      -0.0065,
+      0.106
+    ],
+    "midframe_z_overshoot_max": 0.007,
+    "peak_swing_range": [
+      0.056,
+      0.101
+    ],
+    "source_binary_prefix_exact": true,
+    "stance_sole_height_range": [
+      -0.006,
+      0.023
+    ],
+    "support_world_z_drift_max": 0.014,
+    "swing_world_z_step_range": [
+      -0.006,
+      0.06
+    ]
+  },
+  "protected": [
+    "all geometry",
+    "mesh skinning",
+    "materials",
+    "mane and tail joints/weights",
+    "all first three animations",
+    "all hind channels",
+    "front hoof/toe/distal channels",
+    "all root channels",
+    "root X/Z travel and loaded-corner sag"
+  ],
+  "reference_sha256": "976d8f2b3da32a01bb99c5dfbce00bc28df2db702836a0ec8337eda1573137ab",
+  "required_publication_preflight": "all destination paths absent before touching canonical asset; root AGENTS created exclusively and remote read back",
+  "retained_model_count": 1,
+  "rules_read_policy": "AGENTS.md must be read at every repository-related agent turn; packet read_gate runs for every Termux invocation",
+  "scope_note": "publication-only recovery of v0.6.16 production-verified candidate; do not change solver, trajectory or physical gate thresholds",
+  "single_entrypoint": "campaign/run-termux.sh",
+  "solver_version": "0.6.16",
+  "source_commit": "6156c8cd21e7c3f5aca82de0dba7082c211eeb5a",
+  "source_model_output_sha256_v0616": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1",
+  "source_sha256": "713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85",
+  "version": "0.6.17",
+  "visual_result": "Full textured pose viewer in Downloads; HUMAN_VISUAL_ACCEPTANCE=PENDING until owner inspects"
+}

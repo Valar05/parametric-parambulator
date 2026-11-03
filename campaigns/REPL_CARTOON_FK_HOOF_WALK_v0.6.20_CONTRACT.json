@@ -1,0 +1,43 @@
+{
+  "allowed_repo_files": [
+    "AGENTS.md",
+    "README.md",
+    "assets/repl/Repl.glb",
+    "assets/repl/CANONICAL_MODEL.json",
+    "campaigns/REPL_CARTOON_FK_HOOF_WALK_v0.6.20*",
+    "campaigns/repl_cartoon_fk_hoof_*_v0_6_20*"
+  ],
+  "authorized_lane": "TERMUX_GIT_ONLY",
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "canonical_glb": "assets/repl/Repl.glb",
+  "explicit_boundary": "Never unlock distal or root changes, force push, or relax contact gates merely for passing tests",
+  "human_visual_acceptance": "PENDING",
+  "mutable_channels": [
+    "Bone_015.rotation",
+    "Bone_014.rotation",
+    "Bone_021.rotation",
+    "Bone_020.rotation"
+  ],
+  "owner_goal": "front foreleg extension and farther trailing support; no kick, ground slip or penetration",
+  "protected": [
+    "all other animation channels, timings, roots, mesh, skin, mane, tail, rear",
+    "all other clips",
+    "no extra canonical models"
+  ],
+  "rules": [
+    "fresh live Campaign Etiquette via Home Center",
+    "fresh current repository AGENTS.md"
+  ],
+  "solver": [
+    "bounded spatial exploration",
+    "deterministic discrete beam trajectory planning",
+    "feedback-driven varied contact anchor knee and smoothing",
+    "full published 97-frame and 576-midframe skinned contact verifier",
+    "source-locked and unique filename publication",
+    "resume and remote readback"
+  ],
+  "source_git_commit": "af576184ab956cc3b07de2e49f9db9eebeb4049b",
+  "source_model_git_blob": "532ee6b18bf4a412fe0a674311ddef3c9ae46001",
+  "source_model_sha256": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1",
+  "version": "0.6.20"
+}

@@ -1,0 +1,47 @@
+{
+  "authorized_entrypoint": "Versioned ZIP, one Bash entrypoint in Android Termux, Git mutations only from Termux Git",
+  "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+  "campaign_etiquette": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+  "failure_contract": "Programmer defects emit durable BLOCKED JSON and do not trigger blind profile retries; bounded real clearance profiles retried automatically",
+  "forward_axis": "+Z",
+  "joint_control": "Calibrated actual world-angle response to +/- local X, no anatomical polarity guesses",
+  "new_source_files": [
+    "campaigns/repl_cartoon_fk_hoof_regression_v0_6_10.py"
+  ],
+  "only_edited_rotation_tracks": [
+    "Bone_015",
+    "Bone_014",
+    "Bone_021",
+    "Bone_020"
+  ],
+  "outputs": [
+    "same canonical GLB via Termux Git commit and remote binary readback",
+    "embedded textured interactive HTML with pose controls",
+    "report JSON",
+    "operator log",
+    "receipt",
+    "optional Blender review"
+  ],
+  "owner_verdict_v068": "Leg joint bending directions correct; rear legs reasonable; front lower hooves drag and rotate through ground. Front needs larger curvature; shoulder directly above middle should lead 20-30 degrees forward while middle folds more backward.",
+  "owner_visual_acceptance": "PENDING",
+  "packet_generation": "No GitHub direct writes. The Termux runner commits this source and one canonical GLB only after verified candidate and owner review pending.",
+  "pinned_parent_commit": "859a74c72cf0d8c35e54b4128119603976f8daa9",
+  "pinned_source_git_blob": "ee68428d9edf305c22e1bd4aa1fca7ad61e993e1",
+  "pinned_source_model": "assets/repl/Repl.glb",
+  "pinned_source_sha256": "eff0c604ca56ba58543c7a477bffc0e22e3c23f1d5da00bdbf1ea62369f27509",
+  "recovery": "Bounded shoulder/middle amplitude profiles, no threshold relaxation; preserve canonical on failure; diagnostic receipt",
+  "regression_coverage": "End-to-end synthetic candidate generation + both clearance pass/fail + unmodified hind/stance/root tracks; real source remains mandatory for release",
+  "repository": "Valar05/parametric-parambulator",
+  "required_physical_validation": "Source-matched skinned hoof underside compared against its own planted underside; central swing must visibly clear, early/late swing may only approach ground within tolerance",
+  "single_canonical_glb": true,
+  "superseded_protection": "v0.6.8 front-middle joints Bone_014 and Bone_020 were locked; owner now explicitly commissions their swing-only editing.",
+  "unchanged_front_distal_drivers": true,
+  "unchanged_gait_phasing": true,
+  "unchanged_hind_walk_tracks": true,
+  "unchanged_hoof_mass_and_toe_branches": true,
+  "unchanged_other_three_animations": true,
+  "unchanged_rest_geometry_skins": true,
+  "unchanged_root_world_travel": 0.96,
+  "unchanged_stance_keyframes": true,
+  "version": "0.6.10"
+}

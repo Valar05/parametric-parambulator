@@ -1,0 +1,13 @@
+# Repl v0.6.17 | Publication-only repair + mandatory AGENTS.md boot law
+
+**Task:** Publish the **same** physically validated v0.6.16 ground-relative walk through the authorized Termux Git lane. Its v0.6.16 model solver (`model.py`) and 32-frame per-leg trajectory (`trajectory.json`) are byte-for-byte unchanged. The exact successful Termux output SHA-256 is pinned to `c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1`. A mismatch blocks mutation.
+
+**Why v0.6.16 failed:** the driver still mapped seven generated scripts to occupied v0.6.15 filenames and checked for collisions only after writing the candidate into a private checkout. v0.6.17 publishes every generated source under unique v0.6.17 names and checks the *whole* destination set **before** modifying `assets/repl/Repl.glb`. The original corrupted isolated v0.6.16 checkout is not reused; cache code seeks verified pinned immutable repository inputs. Any unexpected preexisting source file is preserved and raises a classified preflight error.
+
+**New AGENTS policy:** `campaign/agents_gate.py` is included, invoked automatically by the existing one-step Termux launcher, and committed to Git as `campaigns/repl_cartoon_fk_hoof_agents_gate_v0_6_17.py`. It reads the new root `AGENTS.md` + campaign contract before any repo operation, verifies mandatory rules, does not overwrite an existing unrelated AGENTS.md, creates the file exclusively, and verifies its Git remote SHA after the push. `AGENTS.md` explicitly requires fresh reads of itself and the live Campaign Etiquette on **every repository-related agent turn**, and includes the incident ledger with regression-specific guards. This is an instruction and executable campaign gate, not a claim that a future unrelated ChatGPT conversation automatically accesses the repo.
+
+**Scope:** Exactly one canonical `assets/repl/Repl.glb`. The v0.6.16 numerical gait and all its source hash, joint, skin, contact, midframe, forward-kick, stance, hind, root, and mane/tail preservation gates remain unchanged. Human visual approval still separate.
+
+**Authority and source:** `Valar05/parametric-parambulator` main `6156c8cd21e7c3f5aca82de0dba7082c211eeb5a`, v0.6.15 canonical GLB SHA `713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85`; owner-authorized Termux Git only, no direct GitHub connector mutation.
+
+**Handoff:** Download this SHA-verified ZIP into Android Downloads and invoke its one-paste Termux launcher. The script revalidates the real pinned GLB, reads its rules, checks all destinations, publishes a new commit, pushes and verifies GLB + AGENTS remote readback, and saves visual review and logs to Downloads. Packet/local test success is *not* remote execution or owner approval.

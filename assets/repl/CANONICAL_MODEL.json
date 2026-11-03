@@ -1,342 +1,30 @@
 {
   "active_model": {
-    "accepted_mane_weights": "UNCHANGED",
-    "all_previous_animations": "PRESERVED",
+    "version": "0.6.21",
+    "path": "assets/repl/Repl.glb",
+    "campaign": "REPL_CARTOON_FK_HOOF_WALK",
+    "sha256": "50d26053027296895fd8853e7337a1fcbfba8e77a63aea095680b19b3d113dd4",
+    "source_sha256": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1",
+    "git_blob_sha1": "92b7cd8b9e8385372ccd1b0121a5a948a5fceabd",
     "animations": 6,
-    "campaign": "REPL_LEG_SILHOUETTE_CORRECTION",
-    "corrected_existing_forehoof_tracks": [
+    "joint_count": 50,
+    "node_count": 53,
+    "controlled_bones": [
+      "Bone_013",
+      "Bone_014",
+      "Bone_015",
+      "Bone_019",
+      "Bone_020",
+      "Bone_021"
+    ],
+    "preserved_hoof_end_bones": [
       "Bone_012",
       "Bone_018"
     ],
-    "existing_hind_hoof_tracks_before_correction": {
-      "STAGE_1": [
-        "Bone_023",
-        "Bone_028"
-      ],
-      "STAGE_2": [
-        "Bone_023",
-        "Bone_028"
-      ],
-      "STAGE_3": [
-        "Bone_023",
-        "Bone_028"
-      ]
-    },
-    "foreleg_review_html_sha256": "51f29bb2ebdba9610e05f86c0f70b5491a56e98983cd2cd5ef0f299cdd4dbf48",
-    "four_distal_cannon_hoof_pairs": {
-      "LF": [
-        "Bone_013",
-        "Bone_012"
-      ],
-      "LH": [
-        "Bone_024",
-        "Bone_023"
-      ],
-      "RF": [
-        "Bone_019",
-        "Bone_018"
-      ],
-      "RH": [
-        "Bone_029",
-        "Bone_028"
-      ]
-    },
-    "gait_phasing": "PRESERVED",
-    "git_blob_sha1": "d5b57ffc1a491f96faa5b6ed4e16dd1a3a3477c1",
-    "hindleg_tracks": "UNCHANGED_FROM_v0.6.2",
-    "hoof_plant_test": {
-      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK": {
-        "evaluated_stance_intervals": 14,
-        "lowest_contact_hoof_vertex_y": -0.009628280175216325,
-        "max_physical_hoof_mesh_x_spread": 1.1907037456015956e-07,
-        "max_physical_hoof_mesh_y_spread": 0.008473043809826157,
-        "max_physical_hoof_mesh_z_spread": 0.004745217299089832,
-        "per_hoof_mesh_witness_count": {
-          "LF": 147,
-          "LH": 133,
-          "RF": 139,
-          "RH": 137
-        }
-      },
-      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER": {
-        "evaluated_stance_intervals": 14,
-        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
-        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
-        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
-        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
-        "per_hoof_mesh_witness_count": {
-          "LF": 147,
-          "LH": 133,
-          "RF": 139,
-          "RH": 137
-        }
-      },
-      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED": {
-        "evaluated_stance_intervals": 14,
-        "lowest_contact_hoof_vertex_y": -0.01647981121466813,
-        "max_physical_hoof_mesh_x_spread": 0.008735262508729996,
-        "max_physical_hoof_mesh_y_spread": 0.008862311382152085,
-        "max_physical_hoof_mesh_z_spread": 0.004079138588488407,
-        "per_hoof_mesh_witness_count": {
-          "LF": 147,
-          "LH": 133,
-          "RF": 139,
-          "RH": 137
-        }
-      }
-    },
-    "hoof_tracks_created_per_clip": {
-      "STAGE_1": [],
-      "STAGE_2": [],
-      "STAGE_3": []
-    },
-    "human_visual_acceptance": "PENDING",
-    "joint_count": 50,
-    "max_adjacent_joint_rotation_change": 34.86581105421836,
-    "max_skinned_stance_hoof_delta": 0.0,
-    "max_stance_toe_marker_deviation": 0.0,
-    "max_swing_hoof_marker_delta": 0.002233251164380438,
-    "max_swing_toe_marker_deviation": 0.000904730057173512,
-    "min_swing_hoof_surface_y": {
-      "LF": -0.00871039870746502,
-      "RF": -0.0032139945981562775
-    },
-    "mode": "FORWARD_TRAVEL_ONLY_NO_IN_PLACE",
-    "new_explicit_hoof_rotation_tracks": [],
-    "node_count": 53,
-    "observed_mid_swing_joint_angles": {
-      "1_LF_1": {
-        "Bone_012": 144.088,
-        "Bone_013": -22.08,
-        "Bone_014": -18.635,
-        "Bone_015": 10.537
-      },
-      "1_LF_2": {
-        "Bone_012": 144.994,
-        "Bone_013": -22.992,
-        "Bone_014": -19.989,
-        "Bone_015": 11.989
-      },
-      "1_LF_3": {
-        "Bone_012": 143.92,
-        "Bone_013": -21.561,
-        "Bone_014": -17.939,
-        "Bone_015": 10.177
-      },
-      "1_LH_25": {
-        "Bone_024": -15.306,
-        "Bone_025": -9.389
-      },
-      "1_LH_26": {
-        "Bone_024": -15.995,
-        "Bone_025": -9.995
-      },
-      "1_LH_27": {
-        "Bone_024": -14.874,
-        "Bone_025": -9.013
-      },
-      "1_RF_17": {
-        "Bone_018": 144.068,
-        "Bone_019": -22.103,
-        "Bone_020": -18.658,
-        "Bone_021": 10.587
-      },
-      "1_RF_18": {
-        "Bone_018": 144.994,
-        "Bone_019": -22.992,
-        "Bone_020": -19.989,
-        "Bone_021": 11.989
-      },
-      "1_RF_19": {
-        "Bone_018": 143.887,
-        "Bone_019": -21.599,
-        "Bone_020": -17.977,
-        "Bone_021": 10.255
-      },
-      "1_RH_10": {
-        "Bone_029": -15.993,
-        "Bone_030": -9.995
-      },
-      "1_RH_11": {
-        "Bone_029": -14.528,
-        "Bone_030": -8.956
-      },
-      "1_RH_9": {
-        "Bone_029": -15.066,
-        "Bone_030": -9.359
-      },
-      "2_LF_1": {
-        "Bone_012": 144.098,
-        "Bone_013": -22.069,
-        "Bone_014": -18.624,
-        "Bone_015": 10.532
-      },
-      "2_LF_2": {
-        "Bone_012": 144.994,
-        "Bone_013": -22.992,
-        "Bone_014": -19.989,
-        "Bone_015": 11.989
-      },
-      "2_LF_3": {
-        "Bone_012": 143.971,
-        "Bone_013": -21.509,
-        "Bone_014": -17.888,
-        "Bone_015": 10.147
-      },
-      "2_LH_25": {
-        "Bone_024": -15.276,
-        "Bone_025": -9.363
-      },
-      "2_LH_26": {
-        "Bone_024": -15.994,
-        "Bone_025": -9.995
-      },
-      "2_LH_27": {
-        "Bone_024": -14.84,
-        "Bone_025": -8.984
-      },
-      "2_RF_17": {
-        "Bone_018": 144.062,
-        "Bone_019": -22.109,
-        "Bone_020": -18.663,
-        "Bone_021": 10.589
-      },
-      "2_RF_18": {
-        "Bone_018": 144.994,
-        "Bone_019": -22.992,
-        "Bone_020": -19.989,
-        "Bone_021": 11.989
-      },
-      "2_RF_19": {
-        "Bone_018": 143.892,
-        "Bone_019": -21.595,
-        "Bone_020": -17.972,
-        "Bone_021": 10.248
-      },
-      "2_RH_10": {
-        "Bone_029": -15.993,
-        "Bone_030": -9.995
-      },
-      "2_RH_11": {
-        "Bone_029": -14.534,
-        "Bone_030": -8.963
-      },
-      "2_RH_9": {
-        "Bone_029": -15.054,
-        "Bone_030": -9.349
-      },
-      "3_LF_1": {
-        "Bone_012": 144.098,
-        "Bone_013": -22.069,
-        "Bone_014": -18.624,
-        "Bone_015": 10.532
-      },
-      "3_LF_2": {
-        "Bone_012": 144.994,
-        "Bone_013": -22.992,
-        "Bone_014": -19.989,
-        "Bone_015": 11.989
-      },
-      "3_LF_3": {
-        "Bone_012": 143.971,
-        "Bone_013": -21.509,
-        "Bone_014": -17.888,
-        "Bone_015": 10.147
-      },
-      "3_LH_25": {
-        "Bone_024": -15.276,
-        "Bone_025": -9.363
-      },
-      "3_LH_26": {
-        "Bone_024": -15.994,
-        "Bone_025": -9.995
-      },
-      "3_LH_27": {
-        "Bone_024": -14.84,
-        "Bone_025": -8.984
-      },
-      "3_RF_17": {
-        "Bone_018": 144.062,
-        "Bone_019": -22.109,
-        "Bone_020": -18.663,
-        "Bone_021": 10.589
-      },
-      "3_RF_18": {
-        "Bone_018": 144.994,
-        "Bone_019": -22.992,
-        "Bone_020": -19.989,
-        "Bone_021": 11.989
-      },
-      "3_RF_19": {
-        "Bone_018": 143.892,
-        "Bone_019": -21.595,
-        "Bone_020": -17.972,
-        "Bone_021": 10.248
-      },
-      "3_RH_10": {
-        "Bone_029": -15.993,
-        "Bone_030": -9.995
-      },
-      "3_RH_11": {
-        "Bone_029": -14.534,
-        "Bone_030": -8.963
-      },
-      "3_RH_9": {
-        "Bone_029": -15.054,
-        "Bone_030": -9.349
-      }
-    },
-    "path": "assets/repl/Repl.glb",
-    "peak_swing_distal_displacement": {
-      "1_LF": 0.13231798239895762,
-      "1_LH": 0.20461160078305143,
-      "1_RF": 0.13767853459925092,
-      "1_RH": 0.23341077775627037,
-      "2_LF": 0.13784916522430754,
-      "2_LH": 0.21063125287027373,
-      "2_RF": 0.13772116984709012,
-      "2_RH": 0.2320547768669274,
-      "3_LF": 0.13784916522430754,
-      "3_LH": 0.21063125287027373,
-      "3_RF": 0.13772116984709012,
-      "3_RH": 0.2320547768669274
-    },
-    "review_html_sha256": "5ddc84e0b24d9aca5164621ff1487ba00d417db29f81284834682085145e5d75",
-    "root_forward_travel": 0.96,
-    "root_travel": "UNCHANGED_0.96_MODEL_UNITS",
-    "sha256": "c3209b404b5c50842591cfa654142d2f0d84d27eb1acf7779b8d4d504d4508af",
-    "stride_duration": 1.28,
-    "swing_hoof_ground_visual_review": "REQUIRED",
-    "swing_hoof_surface_visual_review": "REQUIRED",
-    "swing_surface_min_y": {
-      "1_LF": -0.006526534555622153,
-      "1_LH": 0.0011450099037781266,
-      "1_RF": -0.005803122959735631,
-      "1_RH": -0.0073440048876130554,
-      "2_LF": -0.022670026631723354,
-      "2_LH": 0.0008502700631681713,
-      "2_RF": -0.012240846592987811,
-      "2_RH": -0.0072109435609619375,
-      "3_LF": -0.022670026631723354,
-      "3_LH": 0.0008502700631681713,
-      "3_RF": -0.012240846592987811,
-      "3_RH": -0.0072109435609619375
-    },
-    "tail_pivot": "APPROVED_v0.5.2_PRESERVED",
-    "version": "0.6.5",
-    "visible_sagittal_arc_in_world_space": true,
-    "walk_clip_names": [
-      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
-      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
-      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
-    ],
-    "walk_direction_world": "+Z",
-    "walk_review_clips": [
-      "REPL_WALK_01_FORWARD_FOUR_BEAT_IK",
-      "REPL_WALK_02_FORWARD_BODY_WEIGHT_TRANSFER",
-      "REPL_WALK_03_FORWARD_SECONDARY_INTEGRATED"
-    ],
-    "world_root_travel_z": 0.96
+    "all_non_walk_tracks": "BYTE_IDENTICAL_TO_v0.6.17",
+    "root_hindlegs_mane_tail_skin_mesh": "UNCHANGED_FROM_v0.6.17",
+    "physical_check": "FULL_SKINNED_HALF_FRAME_VERIFIED_ON_EXACT_SOURCE_AND_CANDIDATE",
+    "owner_visual_acceptance": "PENDING"
   },
   "canonical_glb_path": "assets/repl/Repl.glb",
   "initial_import": {
@@ -378,14 +66,38 @@
     "Judge actual visible joint segment angles and real skinned movement, not median vertex translation alone",
     "Correct front carpus fold and both backward lower links; stronger rear fetlock swing",
     "Keep all planted frames and all non-leg tracks unchanged; preserve accepted tail/mane",
-    "Forward travel only and one assets/repl/Repl.glb; visual acceptance still pending"
+    "Forward travel only and one assets/repl/Repl.glb; visual acceptance still pending",
+    "Owner observed v0.6.5 hoof-tip bones squash/rotate incorrectly despite middle forejoint working",
+    "v0.6.6 Pose Lab diagnostic demonstrates usable ankle and leg signs, NOT intended keyframe values",
+    "Do not rotate hoof-mass/toe deformation bones as swing IK targets. Keep local FK rest orientation",
+    "Protect approved front middle-joint channels and existing four-beat root travel/mane/tail",
+    "Make visibly exaggerated cartoon hoof swing with independently checked four-leg skinned result",
+    "Only one canonical assets/repl/Repl.glb; owner visual acceptance still required",
+    "Owner at v0.6.8: current joint directions correct; rear legs reasonable; front hooves drag through ground",
+    "Target shoulder directly above foreleg middle joint 20-30 degrees forward during swing",
+    "Foreleg middle joint must fold more rearward, producing visibly greater curvature than hindlegs",
+    "v0.6.8 front middle lock superseded ONLY by requested front middle folding change",
+    "Do not change rear legs, front distal drivers, hoof-mass orientation, stance, timing, root travel, approved mane/tail",
+    "Compare skinned hoof underside to planted same-foot surface across swing; human visual verdict remains necessary",
+    "Owner sees v0.6.10 front-hoof prance; target one quarter to one third current clearance",
+    "Actual reference horse barely clears ground despite significant front joint arc",
+    "Keep real rig unusual toe bones, upper and middle leg curvature, rear local bone animations",
+    "Add small support-side roll/vertical settle in stage 2 and 3 while guarding contact",
+    "No cosmetic threshold bypass; actual skinned vertices, not screenshot pixels, govern clearance",
+    "One canonical GLB, forward travel and existing mane/tail unchanged; human verdict pending",
+    "Rejected v0.6.15: forehoof darts ahead and performs visible kick unrelated to ground contact",
+    "Full front-stance world-Z contact lock and no significant reverse or instantaneous forward kick",
+    "Front swing arc remains low but moves monotonically forward in world space",
+    "Only four front shoulder/middle rotation channels are mutable; distal/hoof/toe and rear locked",
+    "Preserve existing v0.6.15 body sag and roll without re-editing any root channel",
+    "One canonical GLB, no alternate rig, human visual acceptance is independent of numeric checks"
   ],
   "previous_model": {
-    "git_blob_sha1": "c59179a61f742838e124cc4e21b846f878e3150c",
-    "owner_visual_acceptance": "REJECTED_v0.6.4.1_WRONG_FRONT_HINGE_POLARITY_STIFF_FEET_AND_SUBTLE_REAR",
-    "sha256": "b6b5df58df8eeee79ffc2f3beabd1de15af6186988dd97e98610c4badaa48604",
-    "source_regression": "NONE",
-    "version": "0.6.4.1"
+    "git_blob_sha1": "79ac66bf4e0801fbbba5047d0b31969a78ccc0e9",
+    "owner_next_correction": "Bring peak front contact and continuous hoof trajectory with no kicking",
+    "owner_visual_acceptance": "REJECTED_V0615_FRONT_HOOF_KICKING",
+    "sha256": "713a172ef697e04511ef1df625a67436a127e2e7dc8b5c98983a7ccb67f24a85",
+    "version": "0.6.15"
   },
   "project": "Repl procedural motion",
   "repository": "Valar05/parametric-parambulator",
@@ -396,5 +108,11 @@
     "sha256": "d28a8b4537ea6396839dc8e3b1f94127d97f93b3308f0d75d8c371d1c139bd9f",
     "source_regression": "NONE"
   },
-  "status": "LEG_SILHOUETTE_v0.6.5__HUMAN_VISUAL_PENDING"
+  "status": "MODEL_PUBLISHED_PENDING_OWNER_VISUAL_ACCEPTANCE",
+  "prior_accepted_motion_snapshot": {
+    "version": "0.6.17",
+    "sha256": "c6dc250356248e5860e5919568e4103d6c1d2cb6e071e7bb9a0f7ce1f42ee4c1",
+    "git_blob_sha1": "532ee6b18bf4a412fe0a674311ddef3c9ae46001",
+    "review": "BEST_YET_NOT_VISUALLY_APPROVED"
+  }
 }
