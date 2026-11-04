@@ -1,0 +1,28 @@
+{
+  "campaign": "OBSIDIANTI_IDLE_CANONICAL_v1.0.0",
+  "canonicalModelPath": "assets/obsidianti/Obsidianti.glb",
+  "executionAuthority": "Termux Git only",
+  "files": {
+    "campaigns/OBSIDIANTI_IDLE_CANONICAL_v1.0.0.sh": "08a596e1e943c6042e127cdcbd97a5c1b93b3f74fd5f7e576dc71ed6150dd0c9",
+    "campaigns/OBSIDIANTI_IDLE_RUN_v1.0.0.py": "6d8b25a534986ba1f4807071e3900906bb9782994de86e7f9ff8f950124528a3",
+    "campaigns/OBSIDIANTI_IDLE_VERIFY_v1_0_0.py": "04c798cee97605420ba6bea05b3db223ace7f0ae60775dfb1b0bb337878f8d3a",
+    "docs/obsidianti/IDLE_TRANSFER_v1.0.0.md": "143c42c8ce061d2889553d1799078e14e13b5e32ba3b37499d36ebdd3117bc47",
+    "payload/LionheartLancer.blend": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+    "payload/Obsidianti.IdleComparison.png": "ebab1b9a97434eff9af0a93a4bc50aa733427bf7d6f4c639823450e806e77bd3",
+    "payload/Obsidianti.blend": "68f7b29cfa76e0cc300d72fc37062ba786c1d6c75841f0b3a9c1ae78dbd33ce1",
+    "payload/Obsidianti.idle-candidate.glb": "27f943ddf1ba1f72169026a2cb4750662f00b053f78e4346f43b3888c744e95b",
+    "payload/Obsidianti.original.glb": "171d6d9d92fde6c65c0ed2eefc6a5a1fa86d2b0e48a9c3395582658610a9093a",
+    "review/obsidianti.html": "60cf632af8746ae167780913102aa679664589e3ac6ca0fccc6054c177eb332f"
+  },
+  "notAccepted": "user visually liked preview, but rigged animated GLB playback not yet proved in phone review",
+  "repositoryHeadObserved": "c2bc73b416feef05a8d6391ddf6261cc009922af",
+  "rulesRead": {
+    "agentsGitBlobSha": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "authoringReadComplete": true,
+    "campaignEtiquetteDocumentId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "repository": "Valar05/parametric-parambulator",
+    "source": "Home Center authenticated reads"
+  },
+  "schema": "obsidianti-idle-packet-v1",
+  "targetRepository": "Valar05/parametric-parambulator"
+}
