@@ -1,0 +1,17 @@
+{
+  "schema":"obsidianti-full-animation-v1",
+  "campaign":"OBSIDIANTI_FULL_LIBRARY_v1.1.0",
+  "repository":"Valar05/parametric-parambulator",
+  "authorizedExecution":"Termux Git only",
+  "canonicalModel":"assets/obsidianti/Obsidianti.glb",
+  "expectedInputModelSha256":"27f943ddf1ba1f72169026a2cb4750662f00b053f78e4346f43b3888c744e95b",
+  "allowedModelChange":"append actual evaluated source Actions and authored breathing Idle; small isolated idle hip ground drop",
+  "sourceActions":["Cast","Heavy1","Heavy2","Heavy3","Kick","Light1","Light2","Light3","SpringAttack","Stomp"],
+  "sourceIdle":"native Lionheart frame -1, one pose only",
+  "authoredIdle":"ObsidiantiIdle 3 second original loop, review candidate",
+  "aresLowerBody":["StepForward","StepBack","StepLeft","StepRight","StepForwardLeft","StepForwardRight","StepBackLeft","StepBackRight"],
+  "aresFullBody":["AxeKick"],
+  "protected":["assets/repl/Repl.glb","assets/obsidianti/source/Obsidianti.blend","assets/obsidianti/source/LionheartLancer.blend","all original model BIN bytes","all original skin and mesh and joint data","Walking and Running and original Idle clip bytes","all existing repo campaign files"],
+  "evidenceRequired":["source SHA","Blender evaluated IK samples","full 23 clip inventory","strict unchanged original glTF BIN payload","one canonical GLB path","new versioned scripts committed to repo","git push and exact remote HEAD and LFS pointer readback","actual skinned GLB phone playback","owner visual verdict"],
+  "status":"source-built-and-off-device-schema-tested; not deployed; human visual pending"
+}
