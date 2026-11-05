@@ -1,0 +1,48 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lionheart / Obsidianti multi-action IK review v1.7.0</title>
+<style>:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#10151d;color:#edf5ff;font:14px system-ui;min-height:100dvh;display:flex;flex-direction:column}header{padding:10px 13px;background:#1b2633}h1{font-size:18px;margin:0 0 3px}#status,#identity{font-size:11px;color:#b6c7d7;overflow-wrap:anywhere}#stage{display:grid;grid-template-columns:1fr 1fr;flex:1;min-height:260px}section{position:relative;min-width:0;border-right:1px solid #445365;min-height:260px}section canvas{width:100%;height:100%;display:block}section strong{position:absolute;left:8px;top:8px;background:#151d2bc9;border-radius:5px;padding:5px;z-index:1;font-size:12px}footer{background:#1b2633;padding:10px;display:flex;flex-direction:column;gap:9px}button,select,input{font:inherit;color:#eef;background:#304359;border:1px solid #7c95b0;border-radius:7px;padding:8px;min-height:40px}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #f0c86e}.buttons{display:flex;gap:6px;align-items:center;flex-wrap:wrap}#scrub{width:100%;min-height:35px;touch-action:pan-y}.note{font-size:12px;color:#bed0e2}.bad{color:#ffb59b}#frame{font-variant-numeric:tabular-nums;min-width:120px;text-align:center}@media(max-width:650px){#stage{min-height:50vh}.buttons{gap:4px}button{padding:7px}}</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.181.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/"}}</script></head><body>
+<header><h1>Lionheart / Obsidianti multi-action IK REVIEW v1.7.0</h1><div id="status" role="status" aria-live="polite">Loading verified models…</div><div id="identity">Run identity pending</div></header>
+<div id="stage"><section><strong>ORIGINAL LIONHEART · Blender source</strong><canvas id="original"></canvas></section><section><strong>OBSIDIANTI · v1.5.6 BASE + UNAPPROVED IK CANDIDATES</strong><canvas id="target"></canvas></section></div>
+<footer><div class="buttons"><label for="sourceClip">Lionheart animation</label><select id="sourceClip"></select><label for="targetClip">Obsidianti animation</label><select id="targetClip"></select><button id="previous" aria-label="Previous half-frame">◀ ½ frame</button><button id="play">Play</button><button id="next" aria-label="Next half-frame">½ frame ▶</button><button id="restart">Restart</button><output id="frame">0.0%</output></div><input id="scrub" aria-label="Animation time" type="range" min="0" max="1" step="0.0001" value="0"/><div class="buttons"><label for="rate">Speed</label><select id="rate"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="2">2×</option></select><label><input type="checkbox" id="loop" checked/> Loop</label><label><input type="checkbox" id="wire"/> Mesh wireframe</label><span class="note">Drag to orbit · pinch to zoom · each animation independently selectable · shared normalized timeline · model identities verified · no canonical changes</span></div></footer>
+<script type="module">
+import * as THREE from 'three';import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';import {OrbitControls} from 'three/addons/controls/OrbitControls.js';import {clone as cloneSkeleton} from 'three/addons/utils/SkeletonUtils.js';
+const run=new URLSearchParams(location.search).get('run')||'UNVERIFIED'; const status=document.querySelector('#status');const el=id=>document.getElementById(id);
+const manifest=await fetch('manifest.json?run='+encodeURIComponent(run),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest HTTP '+r.status);return r.json()});
+if(manifest.run!==run)throw Error('Wrong run identity: '+manifest.run);
+el('identity').textContent='RUN '+run+' | SOURCE BLEND '+manifest.sourceBlendSHA256+' | REVIEW '+manifest.obsidiantiSha256;
+const pairs=['original','target'].map(id=>{const canvas=el(id);const scene=new THREE.Scene();scene.background=new THREE.Color(0x141d29);const renderer=new THREE.WebGLRenderer({canvas,antialias:true});renderer.outputColorSpace=THREE.SRGBColorSpace; const camera=new THREE.PerspectiveCamera(42,1,0.01,1000);camera.position.set(1.8,1.2,3.5);const controls=new OrbitControls(camera,canvas);controls.enableDamping=true;scene.add(new THREE.HemisphereLight(0xffffff,0x59687e,2));const light=new THREE.DirectionalLight(0xffffff,2.6);light.position.set(3,6,4);scene.add(light);const grid=new THREE.GridHelper(8,16,0x536e84,0x324457);scene.add(grid);return {id,scene,renderer,camera,controls,root:null,mixer:null,clip:null,grid}});
+const loader=new GLTFLoader();
+async function loadChecked(name,sha){const r=await fetch(name+'?hash='+sha,{cache:'no-store'});if(!r.ok)throw Error(name+': HTTP '+r.status);const b=await r.arrayBuffer();const digest=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');if(digest!==sha)throw Error(name+' SHA mismatch '+digest);return await new Promise((resolve,reject)=>loader.parse(b,location.href,resolve,reject))}
+const donor=await loadChecked(manifest.source.file,manifest.source.sha256);
+const target=await loadChecked('Obsidianti.glb',manifest.obsidiantiSha256);
+const sourceNames=donor.animations.map(a=>a.name),targetNames=target.animations.map(a=>a.name);
+if(!sourceNames.length||!targetNames.length)throw Error('Missing source or target animations');
+for(const name of sourceNames){const o=document.createElement('option');o.value=name;o.textContent=name;el('sourceClip').append(o)}
+for(const name of targetNames){const o=document.createElement('option');o.value=name;o.textContent=name;el('targetClip').append(o)}
+el('sourceClip').value=sourceNames.find(s=>s==='Heavy1'||s.endsWith('_Heavy1'))||sourceNames[0];
+el('targetClip').value=targetNames.includes('Lionheart_Heavy1')?'Lionheart_Heavy1':targetNames[0];
+function mount(p,g,name){if(p.root)p.scene.remove(p.root);p.root=cloneSkeleton(g.scene);p.scene.add(p.root);p.mixer=new THREE.AnimationMixer(p.root);const action=g.animations.find(x=>x.name===name);if(!action)throw Error(p.id+' missing exact animation '+name);p.clip=action;p.mixer.clipAction(action).play(); // Both models are framed independently, WITHOUT altering source assets.
+const box=new THREE.Box3().setFromObject(p.root);const size=box.getSize(new THREE.Vector3());const center=box.getCenter(new THREE.Vector3());const h=Math.max(.01,size.y);const scale=1.65/h;p.root.scale.multiplyScalar(scale);p.root.position.addScaledVector(center,-scale);p.root.position.y+=size.y*scale*.5; p.controls.target.set(0,.8,0);p.camera.position.set(2.4,1.5,3.6);p.controls.update();p.scene.updateMatrixWorld(true);p.grid.position.y=0;}
+let time=0,playing=false,last=performance.now(),duration=1;
+function choose(){
+ const sourceName=el('sourceClip').value,targetName=el('targetClip').value;
+ playing=false;el('play').textContent='Play';status.textContent='Loading '+sourceName+' / '+targetName+'…';
+ try{
+  mount(pairs[0],donor,sourceName);
+  mount(pairs[1],target,targetName);
+  duration=Math.max(pairs[0].clip.duration,pairs[1].clip.duration);
+  if(duration<=0)throw Error('Empty selected animation');
+  time=0;update();
+  status.textContent='Lionheart: '+sourceName+' ('+pairs[0].clip.name+') · Obsidianti: '+targetName+' · independently selected · shared normalized scrub · UNAPPROVED IK REVIEW';
+ }catch(e){status.classList.add('bad');status.textContent='BLOCKED: '+e}
+}
+function update(){
+ const fraction=duration?time/duration:0;
+ for(const p of pairs)if(p.mixer&&p.clip)p.mixer.setTime(Math.min(p.clip.duration,Math.max(0,fraction*p.clip.duration)));
+ el('scrub').value=fraction.toString();
+ el('frame').textContent=(fraction*100).toFixed(1)+'% · source '+((pairs[0].clip?.duration||0)*fraction).toFixed(3)+'s / target '+((pairs[1].clip?.duration||0)*fraction).toFixed(3)+'s';
+}
+function render(now){const dt=Math.min(.1,(now-last)/1000);last=now;if(playing){time+=dt*Number(el('rate').value);if(time>=duration){if(el('loop').checked)time%=duration;else{time=duration;playing=false;el('play').textContent='Play'}}update();}for(const p of pairs){const w=p.renderer.domElement.clientWidth,h=p.renderer.domElement.clientHeight;p.renderer.setSize(w,h,false);p.camera.aspect=w/h;p.camera.updateProjectionMatrix();p.controls.update();p.renderer.render(p.scene,p.camera);}requestAnimationFrame(render)}
+el('sourceClip').addEventListener('change',choose);el('targetClip').addEventListener('change',choose);el('play').addEventListener('click',()=>{playing=!playing;el('play').textContent=playing?'Pause':'Play'});el('restart').addEventListener('click',()=>{time=0;playing=false;el('play').textContent='Play';update()});el('previous').addEventListener('click',()=>{time=Math.max(0,time-duration/60);playing=false;el('play').textContent='Play';update()});el('next').addEventListener('click',()=>{time=Math.min(duration,time+duration/60);playing=false;el('play').textContent='Play';update()});el('scrub').addEventListener('input',()=>{time=Number(el('scrub').value)*duration;playing=false;el('play').textContent='Play';update()});el('wire').addEventListener('change',()=>{for(let p of pairs)p.root.traverse(o=>{if(o.isMesh)o.material=Array.isArray(o.material)?o.material.map(x=>{let m=x.clone();m.wireframe=el('wire').checked;return m}):(o.material.clone());if(o.isMesh&&!Array.isArray(o.material))o.material.wireframe=el('wire').checked})});
+choose();requestAnimationFrame(render)
+</script></body></html>
