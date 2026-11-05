@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Repl | True Parametric Walk v0.6.51 | __BUILD_TOKEN__</title>
+<style>:root{font-family:system-ui;color-scheme:dark;background:#101a22;color:#edf1f7}*{box-sizing:border-box}body{margin:0}header,.controls,footer{padding:12px}h1{font-size:1.2rem;margin:0 0 6px}p{margin:4px 0;color:#c0d2e0}canvas{display:block;width:100%;height:60vh;min-height:360px;touch-action:none;background:#dce4ec}.controls{display:flex;flex-wrap:wrap;gap:9px;align-items:center}label{display:flex;gap:5px;align-items:center}button,select,input{font:inherit;min-height:42px}button,select{background:#30495d;color:white;border:1px solid #8aa4ba;border-radius:6px;padding:5px}.mono{font-family:monospace;overflow-wrap:anywhere}#status{color:#9bf1cf}input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #ffcb6a}</style>
+<script type="importmap">{"imports":{"three":"./vendor/build/three.module.js?v=__BUILD_TOKEN__","three/addons/":"./vendor/examples/jsm/"}}</script></head>
+<body><header><h1>Repl: TRUE PARAMETRIC WALK v0.6.51</h1><p id="identity" class="mono">BUILD __BUILD_TOKEN__ | RUN __RUN_ID__</p><p>EXPERIMENTAL: New trajectory-generated walk. No baked animation playback. Independent parameter controls; original approved animation is a separate optional comparison, not a gait input.</p><div id="status" aria-live="polite" role="status">Loading and verifying real Repl GLB...</div></header>
+<div class="controls">
+<label>Stride (m) <input id="stride" type="range" min="0.07" max="0.48" step="0.01" value="0.24"><output id="strideVal">0.24</output></label>
+<label>Cadence (cycles/s) <input id="frequency" type="range" min="0.35" max="2.4" step="0.05" value="1.15"><output id="frequencyVal">1.15</output></label>
+<label>Stance duty <input id="duty" type="range" min="0.53" max="0.83" step="0.01" value="0.68"><output id="dutyVal">0.68</output></label>
+<label>Hoof lift (m) <input id="clearance" type="range" min="0.015" max="0.14" step="0.005" value="0.07"><output id="clearanceVal">0.070</output></label>
+<label>Body movement (m) <input id="bodyBob" type="range" min="0" max="0.032" step="0.002" value="0.009"><output id="bodyBobVal">0.009</output></label>
+<label>Camera <select id="camera"><option value="side">Side</option><option value="three">Three-quarter</option><option value="front">Front</option></select></label>
+<button id="toggle">Pause</button><button id="restart">Restart</button><button id="capture">Save image</button>
+</div>
+<canvas id="scene" aria-label="Animated horse Repl walking. Drag to orbit the camera, pinch to zoom."></canvas>
+<footer><p id="metrics" class="mono">BOOTSTRAP_CLASSIC_PENDING: waiting for module execution</p><p class="mono" id="provenance"></p><p>Experimental walk is generated from five independent parameters. No gait transitions, no trot, and no terrain adaptation. IK residuals remain visible warnings. The canonical GLB and approved walk are not modified.</p></footer>
+<script>
+// Classic-script watchdog works even if the module parser never starts.
+// Both header and footer show the current stage, never an indefinite static placeholder.
+window.__replBoot={stage:'CLASSIC_READY',since:Date.now(),done:false,failed:false};
+window.__replStage=function(name){const b=window.__replBoot;if(b.failed)return;b.stage=name;b.since=Date.now();
+ document.getElementById('status').textContent='LOADING: '+name;
+ document.getElementById('metrics').textContent='BOOT_STAGE='+name+'; elapsed=0s';
+ try{navigator.sendBeacon('./telemetry?build=__BUILD_TOKEN__&run=__RUN_ID__',JSON.stringify({stage:name,when:Date.now(),url:location.href}));}catch(e){}
+};
+window.__replFail=function(code,details){const b=window.__replBoot;b.failed=true;
+ const msg='BLOCKED_'+code+': '+String(details||'see runtime_log.jsonl').slice(0,350);
+ document.getElementById('status').textContent=msg;
+ document.getElementById('metrics').textContent='BOOT_STAGE='+b.stage+'; '+msg;
+ try{navigator.sendBeacon('./telemetry?build=__BUILD_TOKEN__&run=__RUN_ID__',JSON.stringify({stage:b.stage,error:msg,when:Date.now(),url:location.href}));}catch(e){}
+};
+window.__replStage('CLASSIC_LOADED_WAITING_FOR_MODULE');
+setInterval(()=>{const b=window.__replBoot;if(b.done||b.failed)return;
+ const seconds=Math.floor((Date.now()-b.since)/1000);
+ document.getElementById('metrics').textContent='BOOT_STAGE='+b.stage+'; elapsed='+seconds+'s';
+ if(seconds>24)window.__replFail('STAGE_TIMEOUT',b.stage+' did not complete within 24s; module imports or server may be stalled');
+},1000);
+window.addEventListener('error',e=>window.__replFail('SCRIPT_ERROR',e.message||'unknown script failure'));
+window.addEventListener('unhandledrejection',e=>window.__replFail('PROMISE_REJECTION',String(e.reason)));</script>
+<script type="module">
+window.__replStage('MODULE_SCRIPT_STARTED');
+(async()=>{try{
+window.__replStage('IMPORT_THREE');const THREE=await import('three');
+window.__replStage('IMPORT_GLTF_LOADER');const {GLTFLoader}=await import('three/addons/loaders/GLTFLoader.js');
+window.__replStage('IMPORT_ORBIT_CONTROLS');const {OrbitControls}=await import('three/addons/controls/OrbitControls.js');
+window.__replStage('IMPORT_CONTROLLER');const {ReplParametricWalk,MODE}=await import('./controller.js?v=__BUILD_TOKEN__');
+const $=id=>document.getElementById(id),tag='__BUILD_TOKEN__',run='__RUN_ID__',canvas=$('scene');
+const digest=async b=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');
+async function load(name){const r=await fetch('./'+name+'?v='+tag,{cache:'no-store'});if(!r.ok)throw Error('FETCH_'+name+'_'+r.status);if(r.headers.get('X-Repl-Build')!==tag)throw Error('STALE_SERVER:'+name);return r.arrayBuffer()}
+let ctl,renderer,scene,camera,orbit,camZ=0,last=performance.now();
+function resize(){const w=Math.max(2,canvas.clientWidth),h=Math.max(2,canvas.clientHeight);renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
+function reposition(){if(!ctl)return;const z=ctl.bones.Bone_000.getWorldPosition(new THREE.Vector3()).z;const s={side:[3.3,1.25,0],three:[2.65,1.45,2.45],front:[0,1.2,3.5]}[$('camera').value];orbit.target.set(0,.78,z);camera.position.set(s[0],s[1],s[2]+z);camZ=z;orbit.update()}
+const sliders=['stride','frequency','duty','clearance','bodyBob'];
+function params(){const p={};for(const k of sliders){p[k]=Number($(k).value);$(k+'Val').textContent=p[k].toFixed(k==='frequency'?2:3)}return p}
+function draw(t){requestAnimationFrame(draw);if(!ctl)return;
+ const dt=Math.min(.055,Math.max(0,(t-last)/1000));last=t;ctl.setParams(params());
+ const s=ctl.update(dt);const z=ctl.bones.Bone_000.getWorldPosition(new THREE.Vector3()).z;const dz=z-camZ;camZ=z;orbit.target.z+=dz;camera.position.z+=dz;orbit.update();renderer.render(scene,camera);
+ $('metrics').textContent=`MODE=${s.mode} · stride=${s.stride.toFixed(3)}m · frequency=${s.frequency.toFixed(2)}/s · speed=${s.speed.toFixed(3)}m/s · contacts=${s.contacts} · hoof error=${s.maxError.toFixed(3)}m · stance error=${s.maxStanceDrift.toFixed(3)}m · imperfect=${s.imperfect}`;
+ $('status').textContent=s.imperfect?'EXPERIMENTAL VIEW: '+s.imperfect+' IK targets outside tolerance; rendering continues':'EXPERIMENTAL PARAMETRIC WALK: visual review; no animation tracks drive motion';
+}
+window.__replStage('FETCH_RECEIPT');const receipt=JSON.parse(new TextDecoder().decode(await load('receipt.json')));
+if(receipt.campaign!=='REPL_TRUE_PARAMETRIC_WALK_v0.6.51')throw Error('WRONG_CAMPAIGN_RECEIPT:'+receipt.campaign);
+if(receipt.build_token!==tag||receipt.run_id!==run)throw Error('STALE_RECEIPT_IDENTITY');
+window.__replStage('VERIFY_CODE');const code=await load('controller.js');if(await digest(code)!==receipt.files['controller.js'])throw Error('CODE_HASH_MISMATCH');
+window.__replStage('VERIFY_MODEL');const model=await load('Repl_approved_walk.glb');const hash=await digest(model);if(hash!==receipt.source_sha256||hash!=='a2c9e4f1474349aed9d0de08a4a7155578d69f123f5a3f31919a4e09de427969')throw Error('MODEL_HASH_MISMATCH');
+window.__replStage('PARSE_GLB');const gltf=await new GLTFLoader().parseAsync(model,'./');
+window.__replStage('CREATE_WEBGL');renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+scene=new THREE.Scene();scene.background=new THREE.Color(0xdce4ec);scene.add(new THREE.HemisphereLight(0xffffff,0x788b9a,2.3));const sun=new THREE.DirectionalLight(0xffeedb,2.7);sun.position.set(3,6,4);scene.add(sun);
+camera=new THREE.PerspectiveCamera(40,1,.02,200);orbit=new OrbitControls(camera,canvas);orbit.enableDamping=true;orbit.minDistance=.6;orbit.maxDistance=10;
+scene.add(gltf.scene);gltf.scene.traverse(o=>{if(o.isMesh)o.frustumCulled=false});
+const geo=new THREE.PlaneGeometry(150,150);geo.rotateX(-Math.PI/2);const floor=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x94a7b1,roughness:.92,side:THREE.DoubleSide}));floor.position.y=-.035;scene.add(floor);
+window.__replStage('START_PARAMETRIC_WALK');ctl=new ReplParametricWalk(gltf);window.__replController=ctl;params();
+$('provenance').textContent=`BUILD=${tag} RUN=${run} MODEL_SHA=${hash} SCRIPT_SHA=${receipt.entry_sha256} GIT_HEAD=${receipt.source_git_head} MODE=${MODE}`;
+$('camera').onchange=reposition;$('toggle').onclick=()=>{ctl.paused=!ctl.paused;$('toggle').textContent=ctl.paused?'Resume':'Pause'};
+$('restart').onclick=()=>{ctl.seek(0);reposition()};
+$('capture').onclick=()=>{const a=document.createElement('a');a.download='Repl_True_Parametric_Walk_v0.6.51_'+tag+'.png';a.href=canvas.toDataURL('image/png');a.click()};
+new ResizeObserver(resize).observe(canvas);resize();reposition();renderer.render(scene,camera);requestAnimationFrame(draw);window.__replBoot.done=true;
+try{navigator.sendBeacon('./telemetry?build='+tag+'&run='+run,JSON.stringify({stage:'FIRST_FRAME',mode:MODE,when:Date.now()}))}catch(_){}
+}catch(e){window.__replFail('RUNTIME',e?.stack||String(e));console.error(e)}})();
+</script></body></html>
