@@ -1,0 +1,501 @@
+{
+  "modelUnchanged": true,
+  "profiles": [
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-native-combined-1_0.glb",
+      "evaluatedSamplesSHA256": "5b0e87b4922f9903b70f747d55059298c840e1986f468995a8d748f140929fd4",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.771850275088922e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.60926739564096,
+        "maxNativeControllerMiss_m": 4.703829181735376e-06,
+        "maxQuarterFootStep_m": 0.21379747608994357,
+        "maxQuarterKneeDirectionStep_deg": 16.971677454255,
+        "maxSkinnedHoverAboveGround_m": 0.10544703298317884,
+        "maxSkinnedPenetration_m": 0.1429189823307124,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "native",
+      "tag": "native-combined-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-idle-combined-1_0.glb",
+      "evaluatedSamplesSHA256": "6623c9de69f7d2d2eb06b7cafce12afc1f3891270652295778f88d211d7076cb",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.771850275088922e-06,
+        "maxHalfFrameJointRotationStep_deg": 40.81418209471478,
+        "maxNativeControllerMiss_m": 4.703829181735376e-06,
+        "maxQuarterFootStep_m": 0.22940643771263255,
+        "maxQuarterKneeDirectionStep_deg": 16.971677454255,
+        "maxSkinnedHoverAboveGround_m": 0.019915177020423478,
+        "maxSkinnedPenetration_m": 0.14350760395033613,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "idle",
+      "tag": "idle-combined-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-local-combined-1_0.glb",
+      "evaluatedSamplesSHA256": "5c3bb7eda1b4369b28bce423d1a27d6b75cf2fe32e6253feda35a5d76c7cdd3f",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.771850275088922e-06,
+        "maxHalfFrameJointRotationStep_deg": 49.221691426681815,
+        "maxNativeControllerMiss_m": 4.703829181735376e-06,
+        "maxQuarterFootStep_m": 0.2640808922433578,
+        "maxQuarterKneeDirectionStep_deg": 16.971677454255,
+        "maxSkinnedHoverAboveGround_m": 0.11673554994056522,
+        "maxSkinnedPenetration_m": 0.11490386764845495,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "local",
+      "tag": "local-combined-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-native-thigh-1_0.glb",
+      "evaluatedSamplesSHA256": "87e5544bea8c1c655c6736103d5805280731aa4cbe82fa8d8ac8994e716aaac4",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "thigh",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.792616406790431e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.637620026567596,
+        "maxNativeControllerMiss_m": 4.786026398184629e-06,
+        "maxQuarterFootStep_m": 0.21382935245849632,
+        "maxQuarterKneeDirectionStep_deg": 16.914525210781665,
+        "maxSkinnedHoverAboveGround_m": 0.10277444406924166,
+        "maxSkinnedPenetration_m": 0.14484450611138927,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "native",
+      "tag": "native-thigh-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-idle-thigh-1_0.glb",
+      "evaluatedSamplesSHA256": "7c000394c43d7425cc04b06f36c7939452e34d254ba37690e9b580b666a00f47",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "thigh",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.792616406790431e-06,
+        "maxHalfFrameJointRotationStep_deg": 40.73017697145621,
+        "maxNativeControllerMiss_m": 4.786026398184629e-06,
+        "maxQuarterFootStep_m": 0.22942572023114555,
+        "maxQuarterKneeDirectionStep_deg": 16.914525210781665,
+        "maxSkinnedHoverAboveGround_m": 0.01696593293402325,
+        "maxSkinnedPenetration_m": 0.1454331211512805,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "idle",
+      "tag": "idle-thigh-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-local-thigh-1_0.glb",
+      "evaluatedSamplesSHA256": "9142086832e7ff95c5898cd7e03765b97a5c01e9d25312b21b5974d50d8d23fd",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "thigh",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.792616406790431e-06,
+        "maxHalfFrameJointRotationStep_deg": 49.186815557824204,
+        "maxNativeControllerMiss_m": 4.786026398184629e-06,
+        "maxQuarterFootStep_m": 0.2641014604239928,
+        "maxQuarterKneeDirectionStep_deg": 16.914525210781665,
+        "maxSkinnedHoverAboveGround_m": 0.11342570228769114,
+        "maxSkinnedPenetration_m": 0.1160976234570312,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "local",
+      "tag": "local-thigh-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-native-shin-1_0.glb",
+      "evaluatedSamplesSHA256": "70c3a93c375deefb12a2cb37bc5f0e64706ea5bee69202d5844965b986f50933",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "shin",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.779962389762703e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.58234806268243,
+        "maxNativeControllerMiss_m": 4.7237123554053605e-06,
+        "maxQuarterFootStep_m": 0.2137674577721633,
+        "maxQuarterKneeDirectionStep_deg": 17.025737330912847,
+        "maxSkinnedHoverAboveGround_m": 0.10798071933151476,
+        "maxSkinnedPenetration_m": 0.14108182853787388,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "native",
+      "tag": "native-shin-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-idle-shin-1_0.glb",
+      "evaluatedSamplesSHA256": "96ec789d304a2df192b52a0b0288269456f9062e534802137a73dc5beb468cf4",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "shin",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.779962389762703e-06,
+        "maxHalfFrameJointRotationStep_deg": 40.894423552962316,
+        "maxNativeControllerMiss_m": 4.7237123554053605e-06,
+        "maxQuarterFootStep_m": 0.22938812692292868,
+        "maxQuarterKneeDirectionStep_deg": 17.025737330912847,
+        "maxSkinnedHoverAboveGround_m": 0.02271124968266613,
+        "maxSkinnedPenetration_m": 0.14167044927288747,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "idle",
+      "tag": "idle-shin-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-local-shin-1_0.glb",
+      "evaluatedSamplesSHA256": "35ec1e37a07759f1d09ce632e1d879f2f8b6b4d9e3bde4e5d8ed5ff734a279dc",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "shin",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.779962389762703e-06,
+        "maxHalfFrameJointRotationStep_deg": 49.25465301375336,
+        "maxNativeControllerMiss_m": 4.7237123554053605e-06,
+        "maxQuarterFootStep_m": 0.2640612747408612,
+        "maxQuarterKneeDirectionStep_deg": 17.025737330912847,
+        "maxSkinnedHoverAboveGround_m": 0.11987168349695655,
+        "maxSkinnedPenetration_m": 0.11376491720035571,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "local",
+      "tag": "local-shin-1_0"
+    },
+    {
+      "amplitude": 0.9,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-idle-combined-0_9.glb",
+      "evaluatedSamplesSHA256": "24bd5fbc44f209072830c3c17b0a8b14e4e1c4463e376b50319fefd45484cd62",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.820568745766007e-06,
+        "maxHalfFrameJointRotationStep_deg": 40.55066310916831,
+        "maxNativeControllerMiss_m": 4.737009772975951e-06,
+        "maxQuarterFootStep_m": 0.22946682535155963,
+        "maxQuarterKneeDirectionStep_deg": 16.78475889214422,
+        "maxSkinnedHoverAboveGround_m": 0.010593736251906459,
+        "maxSkinnedPenetration_m": 0.1497403270796843,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "idle",
+      "tag": "idle-combined-0_9"
+    },
+    {
+      "amplitude": 1.08,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-idle-combined-1_08.glb",
+      "evaluatedSamplesSHA256": "6de7a0611b7f5a0412c46ae16616af1f49deb3e05211609b7a0af63f8403aa3b",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.827793820135633e-06,
+        "maxHalfFrameJointRotationStep_deg": 41.02941064016174,
+        "maxNativeControllerMiss_m": 4.7881219846993825e-06,
+        "maxQuarterFootStep_m": 0.22935736332739382,
+        "maxQuarterKneeDirectionStep_deg": 17.117448137712007,
+        "maxSkinnedHoverAboveGround_m": 0.02737247137733627,
+        "maxSkinnedPenetration_m": 0.1391949326077474,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "idle",
+      "tag": "idle-combined-1_08"
+    },
+    {
+      "amplitude": 0.9,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-local-combined-0_9.glb",
+      "evaluatedSamplesSHA256": "1c446294489dfbf23fe32094c25bb84cd4666af24c2cf393e61757f2d01bd4d5",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.820568745766007e-06,
+        "maxHalfFrameJointRotationStep_deg": 49.11093894791821,
+        "maxNativeControllerMiss_m": 4.737009772975951e-06,
+        "maxQuarterFootStep_m": 0.2641452746349182,
+        "maxQuarterKneeDirectionStep_deg": 16.78475889214422,
+        "maxSkinnedHoverAboveGround_m": 0.1062673402091914,
+        "maxSkinnedPenetration_m": 0.11876790264908708,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "local",
+      "tag": "local-combined-0_9"
+    },
+    {
+      "amplitude": 0.9,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.4/20261105T111319Z-bfe8fcd/quarantined-heavy1-native-combined-0_9.glb",
+      "evaluatedSamplesSHA256": "a856234d47a9c16662f0de34b4682639b62a93c603877d11eab0541e4e967f0f",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "legRatio": "combined",
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.820568745766007e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.6986714516733,
+        "maxNativeControllerMiss_m": 4.737009772975951e-06,
+        "maxQuarterFootStep_m": 0.21389870299102973,
+        "maxQuarterKneeDirectionStep_deg": 16.78475889214422,
+        "maxSkinnedHoverAboveGround_m": 0.09699998693008327,
+        "maxSkinnedPenetration_m": 0.14915171153691342,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE",
+      "strategy": "native",
+      "tag": "native-combined-0_9"
+    }
+  ],
+  "reason": "NO_FULLY_VALID_HEAVY1_BLENDER_IK_SOLVE_VISUAL_QUARANTINED",
+  "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+}
