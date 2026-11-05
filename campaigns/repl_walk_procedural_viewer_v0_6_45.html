@@ -1,0 +1,78 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Repl | Procedural Walk v0.6.45 | __BUILD_TOKEN__</title>
+<style>:root{font-family:system-ui;color-scheme:dark;background:#101a22;color:#edf1f7}*{box-sizing:border-box}body{margin:0}header,.controls,footer{padding:12px}h1{font-size:1.2rem;margin:0 0 6px}p{margin:4px 0;color:#c0d2e0}canvas{display:block;width:100%;height:60vh;min-height:360px;touch-action:none;background:#dce4ec}.controls{display:flex;flex-wrap:wrap;gap:9px;align-items:center}label{display:flex;gap:5px;align-items:center}button,select,input{font:inherit;min-height:42px}button,select{background:#30495d;color:white;border:1px solid #8aa4ba;border-radius:6px;padding:5px}.mono{font-family:monospace;overflow-wrap:anywhere}#status{color:#9bf1cf}input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #ffcb6a}</style>
+<script type="importmap">{"imports":{"three":"./vendor/build/three.module.js?v=__BUILD_TOKEN__","three/addons/":"./vendor/examples/jsm/"}}</script></head>
+<body><header><h1>Repl: procedural reference-driven walk v0.6.45</h1><p id="identity" class="mono">BUILD __BUILD_TOKEN__ | RUN __RUN_ID__</p><p>Approved joint motion is the immutable flat-ground reference. Procedural phase, contacts and bounded terrain IK are active runtime systems. Trot is excluded.</p><div id="status" aria-live="polite" role="status">Loading and verifying real Repl GLB...</div></header>
+<div class="controls"><label>Speed <input id="rate" type="range" min="0.4" max="1.6" step="0.05" value="1"><output id="ratevalue">1.00×</output></label><label>Terrain <select id="terrain"><option value="flat">Flat approved baseline</option><option value="rolling">Rolling ground</option><option value="slope">Gentle incline</option></select></label><label>Terrain IK <input id="adapt" type="range" min="0" max="1" step="0.1" value="0"><output id="adaptvalue">0.0</output></label><label>Camera <select id="camera"><option value="side">Side</option><option value="three">Three-quarter</option><option value="front">Front</option></select></label><button id="toggle">Pause</button><button id="restart">Restart</button><button id="capture">Save image</button></div>
+<canvas id="scene" aria-label="Animated horse Repl walking. Drag to orbit the camera, pinch to zoom."></canvas>
+<footer><p id="metrics" class="mono">Bootstrap loaded; checking local modules...</p><p class="mono" id="provenance"></p><p>FLAT baseline must match the approved reference mathematically. Non-flat terrain is a bounded, review-only procedural adaptation. Rejected IK adjustments are reported and never silently committed to the GLB.</p></footer>
+<script>
+document.getElementById('status').textContent='CLASSIC_BOOTSTRAP_LOADED: Starting local modules';
+setTimeout(()=>{const s=document.getElementById('status');if(/BOOTSTRAP|Loading and verifying/.test(s.textContent)){s.textContent='BLOCKED_BOOTSTRAP_TIMEOUT: JS module stalled; check local vendor assets and browser console';}},18000);
+addEventListener('error',e=>document.getElementById('status').textContent='ERROR '+e.message);addEventListener('unhandledrejection',e=>document.getElementById('status').textContent='ERROR '+e.reason);</script>
+<script type="module">
+// Imports are deliberately INSIDE try, because a static failed import prevents
+// the entire script from executing and leaves a permanent white canvas.
+const statusEl=document.getElementById('status');
+statusEl.textContent='BOOTSTRAP_STARTED: Loading local Three.js modules';
+(async()=>{try{
+const THREE=await import('three');
+const {GLTFLoader}=await import('three/addons/loaders/GLTFLoader.js');
+const {OrbitControls}=await import('three/addons/controls/OrbitControls.js');
+const {clone}=await import('three/addons/utils/SkeletonUtils.js');
+const {ReplProceduralWalk,APPROVED_WALK_REFERENCE}=await import('./controller.js?v=__BUILD_TOKEN__');
+statusEl.textContent='LOCAL_MODULES_READY: Checking runtime integrity';
+const $=id=>document.getElementById(id),tag='__BUILD_TOKEN__',run='__RUN_ID__',canvas=$('scene');
+const digest=async b=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');
+const load=async(name)=>{const res=await fetch('./'+name+'?v='+tag,{cache:'no-store'});if(!res.ok)throw Error('HTTP_'+name+'_'+res.status);if(res.headers.get('X-Repl-Build')!==tag)throw Error('STALE_SERVER_BUILD_HEADER:'+name);return res.arrayBuffer()};
+let c,gl,orbit,renderer,scene,camera,terrain,camZ=0,last=performance.now();
+function resize(){const width=Math.max(2,canvas.clientWidth),height=Math.max(2,canvas.clientHeight);renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix()}
+function reposition(){if(!c)return;const root=c.bones.Bone_000.getWorldPosition(new THREE.Vector3());const s={side:[3.3,1.25,0],three:[2.65,1.45,2.45],front:[0,1.2,3.5]}[$('camera').value];orbit.target.set(0,.78,root.z);camera.position.set(s[0],s[1],s[2]+root.z);camZ=root.z;orbit.update()}
+function buildTerrain(){if(terrain)scene.remove(terrain);const geo=new THREE.PlaneGeometry(150,150,80,80);geo.rotateX(-Math.PI/2);const pos=geo.getAttribute('position');for(let i=0;i<pos.count;i++)pos.setY(i,c.terrainHeight(pos.getX(i),pos.getZ(i))-.035);pos.needsUpdate=true;geo.computeVertexNormals();terrain=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x94a7b1,roughness:.92,side:THREE.DoubleSide}));scene.add(terrain)}
+function baselineParity(gltf,ctl){
+ const ghost=clone(gltf.scene),mixer=new THREE.AnimationMixer(ghost),action=mixer.clipAction(ctl.clip);action.play();const a={},b={};
+ ghost.traverse(o=>{if(o.name&&o.position&&o.quaternion)a[o.name]=o});ctl.model.traverse(o=>{if(o.name&&o.position&&o.quaternion)b[o.name]=o});
+ let maxRot=0,maxPos=0,samples=0;
+ for(let i=0;i<41;i++){
+  const t=(i+.125)/41*ctl.clip.duration;
+  mixer.setTime(t);ghost.updateMatrixWorld(true);ctl.seek(t);
+  for(const n of Object.keys(a)){
+   if(!b[n])throw Error('PARITY_BONE_MISSING:'+n);
+   maxRot=Math.max(maxRot,a[n].quaternion.angleTo(b[n].quaternion));maxPos=Math.max(maxPos,a[n].position.distanceTo(b[n].position));samples++;
+  }
+ }
+ ctl.seek(0);mixer.stopAllAction();
+ if(maxRot>1e-4||maxPos>1e-4)throw Error('APPROVED_WALK_PARITY_FAILED:ROT='+maxRot+',POS='+maxPos);
+ return {maxRot,maxPos,samples};
+}
+function draw(time){requestAnimationFrame(draw);const dt=Math.max(0,Math.min(.055,(time-last)/1000));last=time;if(!c)return;
+ c.setRate($('rate').value);const s=c.update(dt),root=c.bones.Bone_000.getWorldPosition(new THREE.Vector3());const dz=root.z-camZ;camZ=root.z;orbit.target.z+=dz;camera.position.z+=dz;orbit.update();renderer.render(scene,camera);
+ $('metrics').textContent=`MODE=${s.mode} · Phase=${s.phase.toFixed(3)} · Supports=${s.contacts} · Speed=${s.rate.toFixed(2)}× · Terrain=${s.terrain} · IK rejections=${s.blocked} · max target error=${s.maxError.toFixed(4)}m`;
+ if(s.blocked>0)$('status').textContent='REVIEW: '+s.blocked+' TERRAIN CORRECTIONS REJECTED; approved poses retained';
+ else if(!$('status').textContent.startsWith('PASS'))$('status').textContent='PASS: APPROVED WALK PARITY; PROCEDURAL PHASE ACTIVE';
+}
+try{
+ const receipt=JSON.parse(new TextDecoder().decode(await load('receipt.json')));
+ if(receipt.campaign!=='REPL_WALK_PROCEDURAL_BOOTSTRAP_v0.6.45'||receipt.build_token!==tag||receipt.run_id!==run)throw Error('WRONG_CAMPAIGN_RECEIPT');
+ const ctrlBytes=await load('controller.js');if(await digest(ctrlBytes)!==receipt.files['controller.js'])throw Error('CONTROLLER_ASSET_HASH_MISMATCH');
+ const modelBytes=await load('Repl_approved_walk.glb');const modelHash=await digest(modelBytes);
+ if(modelHash!==receipt.source_sha256||modelHash!=='a2c9e4f1474349aed9d0de08a4a7155578d69f123f5a3f31919a4e09de427969')throw Error('APPROVED_MODEL_HASH_MISMATCH');
+ const gltf=await new GLTFLoader().parseAsync(modelBytes,'./');gl=gltf;
+ renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+ scene=new THREE.Scene();scene.background=new THREE.Color(0xdce4ec);scene.add(new THREE.HemisphereLight(0xffffff,0x788b9a,2.3));const sun=new THREE.DirectionalLight(0xffeedb,2.7);sun.position.set(3,6,4);scene.add(sun);
+ camera=new THREE.PerspectiveCamera(40,1,.02,200);orbit=new OrbitControls(camera,canvas);orbit.enableDamping=true;orbit.minDistance=.6;orbit.maxDistance=10;
+ scene.add(gltf.scene);gltf.scene.traverse(o=>{if(o.isMesh)o.frustumCulled=false});
+ c=new ReplProceduralWalk(gltf);const proof=baselineParity(gltf,c);window.__replWalk=c;
+ $('provenance').textContent=`BUILD=${tag} RUN=${run} MODEL_SHA=${modelHash} SCRIPT_SHA=${receipt.entry_sha256} GIT_HEAD=${receipt.source_git_head} · parity probes=${proof.samples} maxΔquat=${proof.maxRot} maxΔpos=${proof.maxPos}`;
+ $('status').textContent='PASS: APPROVED WALK PARITY; PROCEDURAL PHASE ACTIVE';
+ $('terrain').onchange=()=>{c.setTerrain($('terrain').value);buildTerrain();$('adapt').value='0';c.setAdaptation(0);$('adaptvalue').textContent='0.0'};
+ $('adapt').oninput=()=>{c.setAdaptation($('adapt').value);$('adaptvalue').textContent=Number($('adapt').value).toFixed(1)};
+ $('rate').oninput=()=>$('ratevalue').textContent=Number($('rate').value).toFixed(2)+'×';
+ $('camera').onchange=reposition;
+ $('toggle').onclick=()=>{c.paused=!c.paused;$('toggle').textContent=c.paused?'Resume':'Pause'};
+ $('restart').onclick=()=>{c.seek(0);reposition()};
+ $('capture').onclick=()=>{const a=document.createElement('a');a.download='Repl_ProceduralWalk_v0.6.45_'+tag+'.png';a.href=canvas.toDataURL('image/png');a.click()};
+ new ResizeObserver(resize).observe(canvas);resize();buildTerrain();reposition();requestAnimationFrame(draw);
+}catch(e){$('status').textContent='BLOCKED_RUNTIME: '+String(e);console.error(e)}
+}catch(e){statusEl.textContent='BLOCKED_MODULE_IMPORT: '+String(e);document.getElementById('metrics').textContent='LOCAL_THREE_MODULE_LOAD_FAILED: Check campaign receipt vendor evidence';console.error(e)}})();
+</script></body></html>
