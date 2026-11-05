@@ -1,0 +1,1331 @@
+{
+  "actions": [
+    {
+      "durationSeconds": 0.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374101,
+            -0.68434225,
+            0.527411262
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115287,
+            -0.690860763,
+            -0.419305464
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 1,
+      "name": "Idle",
+      "sourceFrameRange": [
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "durationSeconds": 0.966666667,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374101,
+            -0.68434225,
+            0.527411262
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.0,
+            0.0,
+            0.03051668
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            0.0,
+            0.0,
+            -0.14043734
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115287,
+            -0.690860763,
+            -0.419305464
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.0,
+            0.0,
+            0.03051668
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            0.0,
+            0.0,
+            -0.14043734
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 59,
+      "name": "Cast",
+      "sourceFrameRange": [
+        0.0,
+        29.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.21103806,
+            0.24742655,
+            0.24670822
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            1e-08,
+            0.0,
+            -0.1118354
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.20946021,
+            0.23138308,
+            0.16415641
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            3e-08,
+            7e-08,
+            -0.26202215
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Heavy1",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.02094363,
+            0.075164347,
+            -0.110846798
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.280317731,
+            -0.609177903,
+            0.416564464
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.12014022,
+            0.27757715,
+            3e-08
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.29994269,
+            0.0,
+            -0.88756178
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.020943585,
+            0.170229151,
+            -0.262022148
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.178171702,
+            -0.520631612,
+            -0.681327612
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.13229917,
+            0.17891254,
+            0.4581935
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            3e-08,
+            -0.05263509,
+            -0.26202215
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Heavy2",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.120140221,
+            0.052108124,
+            -0.115229199
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.379514322,
+            -0.632234126,
+            0.412182063
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.12014022,
+            0.11068995,
+            3e-08
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.49421829,
+            0.0,
+            -0.16153414
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.028505708,
+            0.178912535,
+            -0.192903438
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.170609579,
+            -0.511948228,
+            -0.612208902
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.57601413,
+            0.23749436,
+            0.15382147
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            3e-08,
+            7e-08,
+            -0.19290344
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Heavy3",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.10265395,
+            1.2722079,
+            0.18303324
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            0.0,
+            0.0,
+            -0.0243182
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.04404002,
+            0.24509725,
+            0.80552824
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.00327124,
+            0.0,
+            -0.27341761
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Kick",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            1e-08,
+            0.0,
+            0.11226162
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            1e-08,
+            -6e-08,
+            -0.28641234
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            4e-08,
+            0.09359135,
+            0.11226159
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -6e-08,
+            7e-08,
+            -0.23081205
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Light1",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.02607609,
+            0.1941482,
+            0.23131346
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            1e-08,
+            -6e-08,
+            -0.30549092
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.00250412,
+            0.09731348,
+            0.40508588
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.00163199,
+            7e-08,
+            -0.23690013
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Light2",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    },
+    {
+      "durationSeconds": 1.166666667,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            1e-08,
+            0.47219841,
+            3e-08
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.83360155,
+            0.0,
+            -1.14039079
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.1007156,
+            0.16871686,
+            0.80411837
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.03511173,
+            7e-08,
+            -0.0
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 71,
+      "name": "Light3",
+      "sourceFrameRange": [
+        0.0,
+        35.0
+      ]
+    },
+    {
+      "durationSeconds": 1.1,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            -0.608911354,
+            0.026903108,
+            -0.213613453
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.349537253,
+            -0.657439142,
+            0.313797809
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.17108415,
+            0.28750695,
+            3e-08
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.62143833,
+            0.0,
+            -1.23266065
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            0.234595921,
+            7.4e-08,
+            0.250631218
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.035480634,
+            -0.690860689,
+            -0.168674246
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            0.3523802,
+            0.27264933,
+            0.75902267
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            3e-08,
+            7e-08,
+            -0.05176781
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 67,
+      "name": "SpringAttack",
+      "sourceFrameRange": [
+        1.0,
+        34.0
+      ]
+    },
+    {
+      "durationSeconds": 1.0,
+      "feet": [
+        {
+          "firstControllerFromNativeIdleMetres": [
+            1.5e-08,
+            0.0,
+            2.8e-08
+          ],
+          "firstControllerRelativePelvisMetres": [
+            0.259374116,
+            -0.68434225,
+            0.52741129
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            1e-08,
+            0.64622496,
+            0.07486832
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -0.17227931,
+            0.0,
+            -0.03032138
+          ],
+          "side": "Left"
+        },
+        {
+          "firstControllerFromNativeIdleMetres": [
+            3e-08,
+            7.4e-08,
+            -2e-09
+          ],
+          "firstControllerRelativePelvisMetres": [
+            -0.199115257,
+            -0.690860689,
+            -0.419305466
+          ],
+          "relativeFootControllerDeltaMaxMetres": [
+            8.853e-05,
+            0.08627878,
+            0.25138925
+          ],
+          "relativeFootControllerDeltaMinMetres": [
+            -3e-08,
+            -0.19378479,
+            -0.12772517
+          ],
+          "side": "Right"
+        }
+      ],
+      "framesEvaluated": 61,
+      "name": "Stomp",
+      "sourceFrameRange": [
+        0.0,
+        30.0
+      ]
+    }
+  ],
+  "legRatios": {
+    "Left": {
+      "combinedRatio": 0.87253927,
+      "donorShinMetres": 0.430214109,
+      "donorThighMetres": 0.410445395,
+      "shinRatio": 0.89825704,
+      "targetShinMetres": 0.38644285411236357,
+      "targetThighMetres": 0.34706557744919014,
+      "thighRatio": 0.84558283
+    },
+    "Right": {
+      "combinedRatio": 0.86749764,
+      "donorShinMetres": 0.432181082,
+      "donorThighMetres": 0.409714384,
+      "shinRatio": 0.89351829,
+      "targetShinMetres": 0.3861617002746429,
+      "targetThighMetres": 0.3441806309158958,
+      "thighRatio": 0.84005015
+    }
+  },
+  "limits": [
+    "Source Foot.IK controllers are not ankle/sole skin points",
+    "Offsets provisional until target actor facing/basis is calibrated",
+    "Skinned donor/target sole contact not measured by this diagnostic",
+    "No new GLB or IK animation produced"
+  ],
+  "modelSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "nativeSourceSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "schema": "obsidianti-native-lionheart-ik-calibration-v1",
+  "sourceIdleControllerToTargetApprovedIdle": {
+    "Left": {
+      "coordinateOrientationValidity": "UNVERIFIED_SOURCE_TO_TARGET_FACING_BASIS",
+      "donorEvaluatedAnkleMinusControllerMetres": [
+        8.9e-08,
+        3e-08,
+        0.0
+      ],
+      "donorEvaluatedAnkleRelativePelvisMetres": [
+        0.25937419,
+        -0.68434222,
+        0.527411262
+      ],
+      "donorFootIKRelativePelvisMetres": [
+        0.259374101,
+        -0.68434225,
+        0.527411262
+      ],
+      "provisionalScaledControllerToTargetAnkleOffsetMetres": [
+        -0.164158737,
+        -0.035116515,
+        -0.02647833
+      ],
+      "rawWorldQuaternionController": [
+        0.011185869,
+        -0.423429281,
+        -0.901281178,
+        0.090966515
+      ],
+      "targetApprovedAnkleRelativePelvisMetres": [
+        0.062155352,
+        -0.632232004,
+        0.433708709
+      ]
+    },
+    "Right": {
+      "coordinateOrientationValidity": "UNVERIFIED_SOURCE_TO_TARGET_FACING_BASIS",
+      "donorEvaluatedAnkleMinusControllerMetres": [
+        4.262e-06,
+        -2.101e-06,
+        2.205e-06
+      ],
+      "donorEvaluatedAnkleRelativePelvisMetres": [
+        -0.199111025,
+        -0.690862864,
+        -0.419303259
+      ],
+      "donorFootIKRelativePelvisMetres": [
+        -0.199115287,
+        -0.690860763,
+        -0.419305464
+      ],
+      "provisionalScaledControllerToTargetAnkleOffsetMetres": [
+        0.055205195,
+        -0.053927964,
+        -0.09576599
+      ],
+      "rawWorldQuaternionController": [
+        -0.726236761,
+        0.165961429,
+        0.536898792,
+        0.395950407
+      ],
+      "targetApprovedAnkleRelativePelvisMetres": [
+        -0.117526847,
+        -0.653248047,
+        -0.459512491
+      ]
+    }
+  },
+  "sourceObjectToMetres": "source blender armature scale from evaluated matrix; glTF Y-up conversion applied",
+  "targetApprovedCombatIdle": {
+    "mixamorig:Hips": {
+      "worldMatrixRowMajor": [
+        [
+          0.451247221,
+          -0.228966208,
+          -0.862525551,
+          0.003320298
+        ],
+        [
+          -0.010474044,
+          0.96509912,
+          -0.26167511,
+          0.843555808
+        ],
+        [
+          0.892337515,
+          0.127114297,
+          0.433100094,
+          0.008278716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.003320298,
+        0.843555808,
+        0.008278716
+      ]
+    },
+    "mixamorig:LeftFoot": {
+      "worldMatrixRowMajor": [
+        [
+          0.801446869,
+          -0.229922486,
+          0.55210463,
+          0.06547565
+        ],
+        [
+          0.085676422,
+          -0.869488861,
+          -0.486466014,
+          0.211323804
+        ],
+        [
+          0.591898099,
+          0.437178326,
+          -0.677149875,
+          0.441987425
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.06547565,
+        0.211323804,
+        0.441987425
+      ]
+    },
+    "mixamorig:LeftLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.781517515,
+          0.176385629,
+          0.598430814,
+          -0.002687358
+        ],
+        [
+          0.239671191,
+          -0.970480221,
+          -0.026951265,
+          0.586358985
+        ],
+        [
+          0.576011323,
+          0.164489023,
+          -0.800721249,
+          0.378421788
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.002687358,
+        0.586358985,
+        0.378421788
+      ]
+    },
+    "mixamorig:LeftToeBase": {
+      "worldMatrixRowMajor": [
+        [
+          -0.412094068,
+          0.890777169,
+          0.191561241,
+          0.032060582
+        ],
+        [
+          0.118295212,
+          -0.156156525,
+          0.980623338,
+          0.084959297
+        ],
+        [
+          0.903429721,
+          0.426769601,
+          -0.041023014,
+          0.505523419
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.032060582,
+        0.084959297,
+        0.505523419
+      ]
+    },
+    "mixamorig:LeftUpLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.895139754,
+          -0.134174424,
+          0.42511537,
+          0.043879996
+        ],
+        [
+          0.313307901,
+          -0.489025838,
+          -0.814059284,
+          0.756083036
+        ],
+        [
+          0.317118446,
+          0.861887983,
+          -0.39570853,
+          0.079290128
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.043879996,
+        0.756083036,
+        0.079290128
+      ]
+    },
+    "mixamorig:RightFoot": {
+      "worldMatrixRowMajor": [
+        [
+          -0.089729199,
+          -0.624743292,
+          0.775648832,
+          -0.114206549
+        ],
+        [
+          -0.094220374,
+          -0.769978434,
+          -0.631068824,
+          0.190307761
+        ],
+        [
+          0.99149236,
+          -0.129714539,
+          0.010225164,
+          -0.451233775
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.114206549,
+        0.190307761,
+        -0.451233775
+      ]
+    },
+    "mixamorig:RightLeg": {
+      "worldMatrixRowMajor": [
+        [
+          -0.000924611,
+          0.189324628,
+          0.981907447,
+          -0.187316484
+        ],
+        [
+          -0.565678115,
+          -0.809805526,
+          0.155613992,
+          0.503023686
+        ],
+        [
+          0.824615689,
+          -0.555306007,
+          0.107850483,
+          -0.236795802
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.187316484,
+        0.503023686,
+        -0.236795802
+      ]
+    },
+    "mixamorig:RightToeBase": {
+      "worldMatrixRowMajor": [
+        [
+          0.856518274,
+          0.374850576,
+          0.354753839,
+          -0.204746247
+        ],
+        [
+          -0.260323888,
+          -0.27972222,
+          0.924109895,
+          0.078720142
+        ],
+        [
+          0.445639238,
+          -0.883871959,
+          -0.141998566,
+          -0.470032425
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.204746247,
+        0.078720142,
+        -0.470032425
+      ]
+    },
+    "mixamorig:RightUpLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.004806754,
+          -0.454876985,
+          0.890533822,
+          -0.030756587
+        ],
+        [
+          -0.5529893,
+          -0.743199627,
+          -0.376629022,
+          0.758818691
+        ],
+        [
+          0.833164657,
+          -0.490653334,
+          -0.255114495,
+          -0.0679224
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.030756587,
+        0.758818691,
+        -0.0679224
+      ]
+    }
+  },
+  "targetApprovedIdleAction": "LionheartIdle_UNREVIEWED",
+  "targetBind": {
+    "mixamorig:Hips": {
+      "worldMatrixRowMajor": [
+        [
+          1.0,
+          -0.0,
+          4.5e-08,
+          0.003320298
+        ],
+        [
+          6e-09,
+          0.991010154,
+          -0.133786229,
+          1.002572656
+        ],
+        [
+          -4.4e-08,
+          0.133786229,
+          0.991010154,
+          0.008278716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.003320298,
+        1.002572656,
+        0.008278716
+      ]
+    },
+    "mixamorig:LeftFoot": {
+      "worldMatrixRowMajor": [
+        [
+          0.987767347,
+          0.075780013,
+          0.136286901,
+          0.145043126
+        ],
+        [
+          0.13627225,
+          -0.844348679,
+          -0.518174637,
+          0.185356389
+        ],
+        [
+          0.075806397,
+          0.530408139,
+          -0.844346748,
+          0.005920251
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.145043126,
+        0.185356389,
+        0.005920251
+      ]
+    },
+    "mixamorig:LeftLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.995145877,
+          0.069323745,
+          0.069856729,
+          0.118253415
+        ],
+        [
+          0.069808417,
+          -0.997550076,
+          -0.00451699,
+          0.57085253
+        ],
+        [
+          0.069372466,
+          0.009371686,
+          -0.997547226,
+          0.002298628
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.118253415,
+        0.57085253,
+        0.002298628
+      ]
+    },
+    "mixamorig:LeftToeBase": {
+      "worldMatrixRowMajor": [
+        [
+          0.187759304,
+          0.974675062,
+          0.121475376,
+          0.156056404
+        ],
+        [
+          0.12146683,
+          -0.145766597,
+          0.981833957,
+          0.062645555
+        ],
+        [
+          0.974676009,
+          -0.16959319,
+          -0.145759739,
+          0.083005504
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.156056404,
+        0.062645555,
+        0.083005504
+      ]
+    },
+    "mixamorig:LeftUpLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.991625923,
+          0.093205303,
+          0.089397875,
+          0.08590509
+        ],
+        [
+          0.08934637,
+          -0.994926317,
+          0.046246532,
+          0.91615723
+        ],
+        [
+          0.093254732,
+          -0.037871844,
+          -0.994922165,
+          0.015442641
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        0.08590509,
+        0.91615723,
+        0.015442641
+      ]
+    },
+    "mixamorig:RightFoot": {
+      "worldMatrixRowMajor": [
+        [
+          0.986038663,
+          -0.078983412,
+          -0.146537302,
+          -0.144596177
+        ],
+        [
+          -0.146543549,
+          -0.829446396,
+          -0.539020245,
+          0.190029818
+        ],
+        [
+          -0.078971248,
+          0.552968436,
+          -0.829441228,
+          0.002807524
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.144596177,
+        0.190029818,
+        0.002807524
+      ]
+    },
+    "mixamorig:RightLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.992770459,
+          -0.084957735,
+          -0.084692448,
+          -0.111788723
+        ],
+        [
+          -0.084732026,
+          -0.996383894,
+          0.006252623,
+          0.574795188
+        ],
+        [
+          -0.084917409,
+          0.000968134,
+          -0.99637928,
+          0.002433666
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.111788723,
+        0.574795188,
+        0.002433666
+      ]
+    },
+    "mixamorig:RightToeBase": {
+      "worldMatrixRowMajor": [
+        [
+          0.305882487,
+          -0.939700894,
+          -0.152911614,
+          -0.156042717
+        ],
+        [
+          -0.152927128,
+          -0.207022415,
+          0.966309567,
+          0.069823922
+        ],
+        [
+          -0.939698453,
+          -0.272193029,
+          -0.207029664,
+          0.082945395
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.156042717,
+        0.069823922,
+        0.082945395
+      ]
+    },
+    "mixamorig:RightUpLeg": {
+      "worldMatrixRowMajor": [
+        [
+          0.99133998,
+          -0.094782684,
+          -0.090802508,
+          -0.079166375
+        ],
+        [
+          -0.090844727,
+          -0.994775556,
+          0.046562496,
+          0.917177771
+        ],
+        [
+          -0.094741468,
+          -0.03791095,
+          -0.994771406,
+          0.015481883
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "worldPositionMetres": [
+        -0.079166375,
+        0.917177771,
+        0.015481883
+      ]
+    }
+  },
+  "version": "OBSIDIANTI_ALL_ACTION_IK_v1.4.0"
+}

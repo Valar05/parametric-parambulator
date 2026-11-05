@@ -1,0 +1,41 @@
+{
+  "actionNames": [
+    "Idle",
+    "Cast",
+    "Heavy1",
+    "Heavy2",
+    "Heavy3",
+    "Kick",
+    "Light1",
+    "Light2",
+    "Light3",
+    "SpringAttack",
+    "Stomp"
+  ],
+  "artifactHashes": {
+    "actions/Cast.json": "e3fae785a56db64215fd6c0ff429b3d1e4994d9ea062af6b289e921e585c3181",
+    "actions/Heavy1.json": "a14304e455f978fcdbb0607f187a175310e034fdfed7f83176402fd7eb9f1fd4",
+    "actions/Heavy2.json": "9358a50241d21d93a174bebb176cd609b0a4dfb32cac16346ce4031c3272a74b",
+    "actions/Heavy3.json": "b28ee45c28b60fd10209dcc51f31e0926a308f34b9dd559b964d5baf09439260",
+    "actions/Idle.json": "ec42ab879507236ef2734007bb6816af9be1f27a1f8d7b98361b0f389c255c1f",
+    "actions/Kick.json": "f6891be5565daf3928d62e595b68262bb1f4894c47c13557ca0cf054ebbef9a8",
+    "actions/Light1.json": "c1d88ed9267a8c4a5cc6452e2bbfaa2e825bec93bbaea04d2e8c06f0b84e5ba3",
+    "actions/Light2.json": "198e97feadf6c10d5ef480939ec5ce3c45b31658b1ab218e45dd8c84058b9087",
+    "actions/Light3.json": "69be7a56143c4f3431e1b841819f73a9066824f8cd095e3967d8fa85adeb296e",
+    "actions/SpringAttack.json": "0e578f662d8729db23671145489e925c2ed81cd782a7aadfe56f1bbd2000d519",
+    "actions/Stomp.json": "46bb04f7b2c914118b67a659841d6add385f8739f95f366ca5dcd8664fee3f68",
+    "calibration.json": "b6d23f49c67df7816124362f4b1ee540db5c16a672fbc8c435a7f503ca123336",
+    "source-rig.json": "b74eaabeb2a70954d94596c4225c5a4a39d630e8483f4745697b52cc77501dba",
+    "target-reference.json": "4d8b1fb0f25e96150a1241a33ed74d46ea63eca7993afcc4cd7ef6a03dde795a"
+  },
+  "donorBlendSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "executionLane": "Android Termux Git",
+  "groundContactPhysics": "NOT_PROVEN_BY_CONTROLLER_POSITION",
+  "noModelWrite": true,
+  "ownerVisualVerdict": "NOT_REQUESTED_FOR_READ_ONLY_AUDIT",
+  "repoSourceMainHead": "d4838564fdf7fdd4577965080fd799192f92abd8",
+  "schema": "obsidianti-all-action-ik-audit-publication",
+  "sourceGitAgentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "sourceModelSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "version": "OBSIDIANTI_ALL_ACTION_IK_v1.4.0"
+}
