@@ -1,0 +1,114 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Repl | Procedural Walk + Trot v0.6.49 | __BUILD_TOKEN__</title>
+<style>:root{font-family:system-ui;color-scheme:dark;background:#101a22;color:#edf1f7}*{box-sizing:border-box}body{margin:0}header,.controls,footer{padding:12px}h1{font-size:1.2rem;margin:0 0 6px}p{margin:4px 0;color:#c0d2e0}canvas{display:block;width:100%;height:60vh;min-height:360px;touch-action:none;background:#dce4ec}.controls{display:flex;flex-wrap:wrap;gap:9px;align-items:center}label{display:flex;gap:5px;align-items:center}button,select,input{font:inherit;min-height:42px}button,select{background:#30495d;color:white;border:1px solid #8aa4ba;border-radius:6px;padding:5px}.mono{font-family:monospace;overflow-wrap:anywhere}#status{color:#9bf1cf}input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #ffcb6a}</style>
+<script type="importmap">{"imports":{"three":"./vendor/build/three.module.js?v=__BUILD_TOKEN__","three/addons/":"./vendor/examples/jsm/"}}</script></head>
+<body><header><h1>Repl: procedural reference-driven walk v0.6.49</h1><p id="identity" class="mono">BUILD __BUILD_TOKEN__ | RUN __RUN_ID__</p><p>Approved joint motion is the immutable flat-ground reference. Procedural phase, contacts and bounded terrain IK are active runtime systems. Trot is a separate experimental gait at fixed speed; no walk/trot transitions.</p><div id="status" aria-live="polite" role="status">Loading and verifying real Repl GLB...</div></header>
+<div class="controls"><label>Gait <select id="gait"><option value="walk">Approved walk</option><option value="trot">Experimental procedural trot (fixed)</option></select></label><label>Speed <input id="rate" type="range" min="0.4" max="1.6" step="0.05" value="1"><output id="ratevalue">1.00×</output></label><label>Terrain <select id="terrain"><option value="flat">Flat approved baseline</option><option value="rolling">Rolling ground</option><option value="slope">Gentle incline</option></select></label><label>Terrain IK <input id="adapt" type="range" min="0" max="1" step="0.1" value="0"><output id="adaptvalue">0.0</output></label><label>Camera <select id="camera"><option value="side">Side</option><option value="three">Three-quarter</option><option value="front">Front</option></select></label><button id="toggle">Pause</button><button id="restart">Restart</button><button id="capture">Save image</button></div>
+<canvas id="scene" aria-label="Animated horse Repl walking. Drag to orbit the camera, pinch to zoom."></canvas>
+<footer><p id="metrics" class="mono">BOOTSTRAP_CLASSIC_PENDING: waiting for module execution</p><p class="mono" id="provenance"></p><p>Approved walk remains a visually accepted reference; trot is independently generated and pending review. Trot has flat ground and a fixed review cadence only. Rejected IK adjustments are reported and never silently committed to the GLB.</p></footer>
+<script>
+// Classic-script watchdog works even if the module parser never starts.
+// Both header and footer show the current stage, never an indefinite static placeholder.
+window.__replBoot={stage:'CLASSIC_READY',since:Date.now(),done:false,failed:false};
+window.__replStage=function(name){const b=window.__replBoot;if(b.failed)return;b.stage=name;b.since=Date.now();
+ document.getElementById('status').textContent='LOADING: '+name;
+ document.getElementById('metrics').textContent='BOOT_STAGE='+name+'; elapsed=0s';
+ try{navigator.sendBeacon('./telemetry?build=__BUILD_TOKEN__&run=__RUN_ID__',JSON.stringify({stage:name,when:Date.now(),url:location.href}));}catch(e){}
+};
+window.__replFail=function(code,details){const b=window.__replBoot;b.failed=true;
+ const msg='BLOCKED_'+code+': '+String(details||'see runtime_log.jsonl').slice(0,350);
+ document.getElementById('status').textContent=msg;
+ document.getElementById('metrics').textContent='BOOT_STAGE='+b.stage+'; '+msg;
+ try{navigator.sendBeacon('./telemetry?build=__BUILD_TOKEN__&run=__RUN_ID__',JSON.stringify({stage:b.stage,error:msg,when:Date.now(),url:location.href}));}catch(e){}
+};
+window.__replStage('CLASSIC_LOADED_WAITING_FOR_MODULE');
+setInterval(()=>{const b=window.__replBoot;if(b.done||b.failed)return;
+ const seconds=Math.floor((Date.now()-b.since)/1000);
+ document.getElementById('metrics').textContent='BOOT_STAGE='+b.stage+'; elapsed='+seconds+'s';
+ if(seconds>24)window.__replFail('STAGE_TIMEOUT',b.stage+' did not complete within 24s; module imports or server may be stalled');
+},1000);
+window.addEventListener('error',e=>window.__replFail('SCRIPT_ERROR',e.message||'unknown script failure'));
+window.addEventListener('unhandledrejection',e=>window.__replFail('PROMISE_REJECTION',String(e.reason)));</script>
+<script type="module">
+// Imports are deliberately INSIDE try, because a static failed import prevents
+// the entire script from executing and leaves a permanent white canvas.
+const statusEl=document.getElementById('status');
+window.__replStage('MODULE_SCRIPT_STARTED');
+(async()=>{try{
+window.__replStage('IMPORT_THREE');const THREE=await import('three');
+window.__replStage('IMPORT_GLTF_LOADER');const {GLTFLoader}=await import('three/addons/loaders/GLTFLoader.js');
+window.__replStage('IMPORT_ORBIT_CONTROLS');const {OrbitControls}=await import('three/addons/controls/OrbitControls.js');
+window.__replStage('IMPORT_SKELETON_UTILS');const {clone}=await import('three/addons/utils/SkeletonUtils.js');
+window.__replStage('IMPORT_PROCEDURAL_CONTROLLER');const {ReplProceduralWalk,ReplProceduralTrot,APPROVED_WALK_REFERENCE,TROT_MODE}=await import('./controller.js?v=__BUILD_TOKEN__');
+window.__replStage('MODULES_READY_BEGIN_ASSET_INTEGRITY');
+const $=id=>document.getElementById(id),tag='__BUILD_TOKEN__',run='__RUN_ID__',canvas=$('scene');
+const digest=async b=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');
+const load=async(name)=>{const res=await fetch('./'+name+'?v='+tag,{cache:'no-store'});if(!res.ok)throw Error('HTTP_'+name+'_'+res.status);if(res.headers.get('X-Repl-Build')!==tag)throw Error('STALE_SERVER_BUILD_HEADER:'+name);return res.arrayBuffer()};
+let c,walkCtl,trotCtl,gl,orbit,renderer,scene,camera,terrain,camZ=0,last=performance.now(),parityNotice='';
+function resize(){const width=Math.max(2,canvas.clientWidth),height=Math.max(2,canvas.clientHeight);renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix()}
+function reposition(){if(!c)return;const root=c.bones.Bone_000.getWorldPosition(new THREE.Vector3());const s={side:[3.3,1.25,0],three:[2.65,1.45,2.45],front:[0,1.2,3.5]}[$('camera').value];orbit.target.set(0,.78,root.z);camera.position.set(s[0],s[1],s[2]+root.z);camZ=root.z;orbit.update()}
+function buildTerrain(){if(terrain)scene.remove(terrain);const geo=new THREE.PlaneGeometry(150,150,80,80);geo.rotateX(-Math.PI/2);const pos=geo.getAttribute('position');for(let i=0;i<pos.count;i++)pos.setY(i,c.terrainHeight(pos.getX(i),pos.getZ(i))-.035);pos.needsUpdate=true;geo.computeVertexNormals();terrain=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x94a7b1,roughness:.92,side:THREE.DoubleSide}));scene.add(terrain)}
+function baselineParity(gltf,ctl){
+ const ghost=clone(gltf.scene),mixer=new THREE.AnimationMixer(ghost),action=mixer.clipAction(ctl.clip);action.play();const a={},b={};
+ ghost.traverse(o=>{if(o.name&&o.position&&o.quaternion)a[o.name]=o});ctl.model.traverse(o=>{if(o.name&&o.position&&o.quaternion)b[o.name]=o});
+ let maxRot=0,maxPos=0,samples=0,maxRotNode='',maxPosNode='',maxRotTime=0,maxPosTime=0;
+ for(let i=0;i<41;i++){
+  const t=(i+.125)/41*ctl.clip.duration;
+  mixer.setTime(t);ghost.updateMatrixWorld(true);ctl.seek(t);
+  for(const n of Object.keys(a)){
+   if(!b[n])throw Error('PARITY_BONE_MISSING:'+n);
+   const rot=a[n].quaternion.angleTo(b[n].quaternion),pos=a[n].position.distanceTo(b[n].position);if(rot>maxRot){maxRot=rot;maxRotNode=n;maxRotTime=t}if(pos>maxPos){maxPos=pos;maxPosNode=n;maxPosTime=t}samples++;
+  }
+ }
+ ctl.seek(0);mixer.stopAllAction();
+ return {maxRot,maxPos,samples,maxRotNode,maxPosNode,maxRotTime,maxPosTime};
+}
+function draw(time){requestAnimationFrame(draw);const dt=Math.max(0,Math.min(.055,(time-last)/1000));last=time;if(!c)return;
+ c.setRate($('rate').value);const s=c.update(dt),root=c.bones.Bone_000.getWorldPosition(new THREE.Vector3());const dz=root.z-camZ;camZ=root.z;orbit.target.z+=dz;camera.position.z+=dz;orbit.update();renderer.render(scene,camera);
+ $('metrics').textContent= s.mode.startsWith('PROCEDURAL_DIAGONAL_TROT') ? `MODE=${s.mode} · Phase=${s.phase.toFixed(3)} · Diagonal supports=${s.contacts} · Hoof target error=${s.maxError.toFixed(3)}m · Stance drift=${s.maxDrift.toFixed(3)}m · Review=${s.review}` : `MODE=${s.mode} · Phase=${s.phase.toFixed(3)} · Supports=${s.contacts} · Speed=${s.rate.toFixed(2)}× · Terrain=${s.terrain} · IK rejections=${s.blocked} · max target error=${s.maxError.toFixed(4)}m`;
+ if($('gait').value==='trot')$('status').textContent='EXPERIMENTAL DIAGONAL TROT · fixed cadence · visual review; residual errors are warnings';
+ else if(parityNotice)$('status').textContent=parityNotice;
+ else if(s.blocked>0)$('status').textContent='REVIEW: '+s.blocked+' TERRAIN CORRECTIONS REJECTED; approved poses retained';
+ else $('status').textContent='VIEWING: PROCEDURAL WALK; parity diagnostic pending or passed';
+}
+try{
+ window.__replStage('FETCH_RECEIPT');const receipt=JSON.parse(new TextDecoder().decode(await load('receipt.json')));
+ if(receipt.campaign!=='REPL_PROCEDURAL_TROT_FIXED_v0.6.49')throw Error('RECEIPT_CAMPAIGN_MISMATCH:expected=REPL_PROCEDURAL_TROT_FIXED_v0.6.49;got='+String(receipt.campaign));
+ if(receipt.build_token!==tag||receipt.run_id!==run)throw Error('STALE_VIEWER_RECEIPT_IDENTITY:expected='+tag+'/'+run+';got='+receipt.build_token+'/'+receipt.run_id);
+ window.__replStage('VERIFY_CONTROLLER_SHA');const ctrlBytes=await load('controller.js');if(await digest(ctrlBytes)!==receipt.files['controller.js'])throw Error('CONTROLLER_ASSET_HASH_MISMATCH');
+ window.__replStage('VERIFY_APPROVED_GLB_SHA');const modelBytes=await load('Repl_approved_walk.glb');const modelHash=await digest(modelBytes);
+ if(modelHash!==receipt.source_sha256||modelHash!=='a2c9e4f1474349aed9d0de08a4a7155578d69f123f5a3f31919a4e09de427969')throw Error('APPROVED_MODEL_HASH_MISMATCH');
+ window.__replStage('PARSE_APPROVED_GLB');const gltf=await new GLTFLoader().parseAsync(modelBytes,'./');gl=gltf;
+ window.__replStage('CREATE_WEBGL_RENDERER');renderer=new THREE.WebGLRenderer({canvas,antialias:true,preserveDrawingBuffer:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;
+ scene=new THREE.Scene();scene.background=new THREE.Color(0xdce4ec);scene.add(new THREE.HemisphereLight(0xffffff,0x788b9a,2.3));const sun=new THREE.DirectionalLight(0xffeedb,2.7);sun.position.set(3,6,4);scene.add(sun);
+ camera=new THREE.PerspectiveCamera(40,1,.02,200);orbit=new OrbitControls(camera,canvas);orbit.enableDamping=true;orbit.minDistance=.6;orbit.maxDistance=10;
+ scene.add(gltf.scene);gltf.scene.traverse(o=>{if(o.isMesh)o.frustumCulled=false});
+ window.__replStage('START_VIEWER_BEFORE_DIAGNOSTICS');walkCtl=new ReplProceduralWalk(gltf);c=walkCtl;window.__replWalk=walkCtl;window.__replController=c;
+ $('provenance').textContent=`BUILD=${tag} RUN=${run} MODEL_SHA=${modelHash} SCRIPT_SHA=${receipt.entry_sha256} GIT_HEAD=${receipt.source_git_head}`;
+ $('status').textContent='VIEWING: PROCEDURAL WALK; parity review runs after first frame';
+ $('gait').onchange=()=>{
+  if($('gait').value==='trot'){try{if(!trotCtl){trotCtl=new ReplProceduralTrot(gltf);trotCtl.initial=walkCtl.initial;}c=trotCtl;c.seekTrot(0);$('rate').disabled=true;$('terrain').disabled=true;$('adapt').disabled=true;$('ratevalue').textContent='Fixed trot';}catch(e){$('gait').value='walk';c=walkCtl;c.seek(0);$('status').textContent='TROT REVIEW ERROR: '+String(e)+'; approved walk remains viewable';console.warn(e);}}
+  else{c=walkCtl;c.seek(0);$('rate').disabled=false;$('terrain').disabled=false;$('adapt').disabled=false;$('ratevalue').textContent=Number($('rate').value).toFixed(2)+'×';}
+  window.__replController=c;buildTerrain();reposition();};
+ $('terrain').onchange=()=>{c.setTerrain($('terrain').value);buildTerrain();$('adapt').value='0';c.setAdaptation(0);$('adaptvalue').textContent='0.0'};
+ $('adapt').oninput=()=>{c.setAdaptation($('adapt').value);$('adaptvalue').textContent=Number($('adapt').value).toFixed(1)};
+ $('rate').oninput=()=>$('ratevalue').textContent=Number($('rate').value).toFixed(2)+'×';
+ $('camera').onchange=reposition;
+ $('toggle').onclick=()=>{c.paused=!c.paused;$('toggle').textContent=c.paused?'Resume':'Pause'};
+ $('restart').onclick=()=>{if($('gait').value==='trot')c.seekTrot(0);else c.seek(0);reposition()};
+ $('capture').onclick=()=>{const a=document.createElement('a');a.download='Repl_Procedural_'+$('gait').value+'_v0.6.49_'+tag+'.png';a.href=canvas.toDataURL('image/png');a.click()};
+ new ResizeObserver(resize).observe(canvas);resize();buildTerrain();reposition();renderer.render(scene,camera);requestAnimationFrame(draw);window.__replBoot.done=true;
+ // Numeric parity is advisory, not a gate. The first frame and controls are available FIRST.
+ setTimeout(()=>{let result;try{
+   result=baselineParity(gltf,walkCtl);
+   const minor=result.maxRot<=0.02&&result.maxPos<=0.01;
+   const mismatch=result.maxRot>1e-4||result.maxPos>1e-4;
+   const severity=!mismatch?'PASS':(minor?'NOTICE':'WARNING');
+   parityNotice=mismatch?`${severity}: PARITY Δrot=${(result.maxRot*180/Math.PI).toFixed(4)}° Δpos=${result.maxPos.toExponential(3)}m; procedural view remains ACTIVE` : '';
+   $('provenance').textContent+=` · PARITY=${severity} samples=${result.samples} maxΔrot=${result.maxRot}rad at ${result.maxRotNode} t=${result.maxRotTime}s maxΔpos=${result.maxPos}m at ${result.maxPosNode} t=${result.maxPosTime}s`;
+ }catch(err){parityNotice='WARNING: PARITY_DIAGNOSTIC_ERROR: '+String(err).slice(0,220)+'; rendering continues';console.warn(err)}
+ try{navigator.sendBeacon('./telemetry?build='+tag+'&run='+run,JSON.stringify({stage:'PARITY_ADVISORY',notice:parityNotice,proof:result||null,when:Date.now()}))}catch(_){}
+ },100);
+}catch(e){window.__replFail('RUNTIME',e?.stack||String(e));console.error(e)}
+}catch(e){window.__replFail('MODULE_IMPORT',e?.stack||String(e));console.error(e)}})();
+</script></body></html>
