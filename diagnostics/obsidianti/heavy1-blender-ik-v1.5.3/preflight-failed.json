@@ -1,0 +1,381 @@
+{
+  "modelUnchanged": true,
+  "profiles": [
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "ea2dedcc8c74e0436a543cdc173963acbe797c434010b4ef09318bea96f5ba5f",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.771850275088922e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.60926739564096,
+        "maxNativeControllerMiss_m": 4.703829181735376e-06,
+        "maxQuarterFootStep_m": 0.21379747608994357,
+        "maxQuarterKneeDirectionStep_deg": 16.971677454255,
+        "maxSkinnedHoverAboveGround_m": 0.10544703298317884,
+        "maxSkinnedPenetration_m": 0.1429189823307124,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.97,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "e4456cef1d7c9df89d94436ce4e4832199592590bd8c0ec3b56ef1e6c25b1388",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.702853616333577e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.636116120725895,
+        "maxNativeControllerMiss_m": 4.725951997805859e-06,
+        "maxQuarterFootStep_m": 0.2138276612705007,
+        "maxQuarterKneeDirectionStep_deg": 16.916189841683394,
+        "maxSkinnedHoverAboveGround_m": 0.10291292224006303,
+        "maxSkinnedPenetration_m": 0.14478873974356526,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 1.03,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "a06a26efd9560155847e48051c65f216fe5c52dc64dd2cc9d2bee28b3992d4c7",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.728282339340082e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.58235470571818,
+        "maxNativeControllerMiss_m": 4.679601035188017e-06,
+        "maxQuarterFootStep_m": 0.21376742967663973,
+        "maxQuarterKneeDirectionStep_deg": 17.026698719493822,
+        "maxSkinnedHoverAboveGround_m": 0.10798115927211295,
+        "maxSkinnedPenetration_m": 0.14104914618824266,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.94,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "1c4b78bb717f8abe8d5d40a2a51cc9ea4245a90e814cd5938ec1c0ac06efdcf0",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.740024964521844e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.662988175194855,
+        "maxNativeControllerMiss_m": 4.737428755582208e-06,
+        "maxQuarterFootStep_m": 0.21385799087143578,
+        "maxQuarterKneeDirectionStep_deg": 16.86020164452972,
+        "maxSkinnedHoverAboveGround_m": 0.10037885339378652,
+        "maxSkinnedPenetration_m": 0.14665856665361784,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.91,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "a6015e46de7fd469e8735798db0445bf740284df10a1f427bf3673e9dc26d889",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.746065082133083e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.689718572385864,
+        "maxNativeControllerMiss_m": 4.742965661548624e-06,
+        "maxQuarterFootStep_m": 0.21388853407771874,
+        "maxQuarterKneeDirectionStep_deg": 16.803707351264336,
+        "maxSkinnedHoverAboveGround_m": 0.0978447356284764,
+        "maxSkinnedPenetration_m": 0.14852837537142885,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.88,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "55a75188c3dc4046403fabeae6bdcb02b77e0a8db410c0c8b91ca1ddae46b511",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.86707183806036e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.716495834066876,
+        "maxNativeControllerMiss_m": 4.862168135801158e-06,
+        "maxQuarterFootStep_m": 0.21391916812621728,
+        "maxQuarterKneeDirectionStep_deg": 16.746662508216726,
+        "maxSkinnedHoverAboveGround_m": 0.09531051930938012,
+        "maxSkinnedPenetration_m": 0.1503982018606731,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.85,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "e86e3521ba51e7e79384d76989ae4655878b6c09a87708ee8842dd78c61a776a",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.889476959558986e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.74320948419905,
+        "maxNativeControllerMiss_m": 4.8391379951188555e-06,
+        "maxQuarterFootStep_m": 0.2139500351556628,
+        "maxQuarterKneeDirectionStep_deg": 16.6890542005743,
+        "maxSkinnedHoverAboveGround_m": 0.09277648589044032,
+        "maxSkinnedPenetration_m": 0.1522680557415123,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.82,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "2a448ed5cff02922383a2c55da373d52a3e5b43546ccf5987e112470d8f2547f",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.694428321840091e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.76989128327772,
+        "maxNativeControllerMiss_m": 4.714838829021951e-06,
+        "maxQuarterFootStep_m": 0.2139810116669033,
+        "maxQuarterKneeDirectionStep_deg": 16.630842896245206,
+        "maxSkinnedHoverAboveGround_m": 0.0902423306524614,
+        "maxSkinnedPenetration_m": 0.15414938518604784,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 0.8,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "3cec0c99c29a7ef6ee5dc60e7fd2afb6dc976f8f3fba2ce61fd3f7a0543c1591",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.8048228825254015e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.787678056945005,
+        "maxNativeControllerMiss_m": 4.8305523249174115e-06,
+        "maxQuarterFootStep_m": 0.2140017938275315,
+        "maxQuarterKneeDirectionStep_deg": 16.591695279415802,
+        "maxSkinnedHoverAboveGround_m": 0.08855294267083794,
+        "maxSkinnedPenetration_m": 0.15549419984406287,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 1.05,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "af2a694bed17168237a6362e4d4763c11296d8dbc99e10264301a0b9ecbbd33b",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.778723545255832e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.564389304519686,
+        "maxNativeControllerMiss_m": 4.704913454817337e-06,
+        "maxQuarterFootStep_m": 0.21374748333687613,
+        "maxQuarterKneeDirectionStep_deg": 17.063143263041482,
+        "maxSkinnedHoverAboveGround_m": 0.10967060501557606,
+        "maxSkinnedPenetration_m": 0.13992757941145878,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    },
+    {
+      "amplitude": 1.08,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "evaluatedSamplesSHA256": "0d55ed819273764f2bc8d93c47d0272396d36ed1c39ee2dca080ff41f2193b10",
+      "failures": [
+        "FOOT_DISCONTINUITY",
+        "JOINT_ROTATION_DISCONTINUITY",
+        "SKINNED_WEDGE_PENETRATION"
+      ],
+      "metrics": {
+        "expectedBackwardsRelativePelvisVerified": null,
+        "maxAnkleMismatchVsBlender_m": 5.827793820135633e-06,
+        "maxHalfFrameJointRotationStep_deg": 45.537371039168136,
+        "maxNativeControllerMiss_m": 4.7881219846993825e-06,
+        "maxQuarterFootStep_m": 0.21371774682217579,
+        "maxQuarterKneeDirectionStep_deg": 17.117448137712007,
+        "maxSkinnedHoverAboveGround_m": 0.11220464619232506,
+        "maxSkinnedPenetration_m": 0.1387683642097598,
+        "sourceControllerNetDisplacement_m": {
+          "Left": 0.0,
+          "Right": 0.0
+        },
+        "sourceControllerPeakStep_m": {
+          "Left": 0.06209552650656291,
+          "Right": 0.030604556000000005
+        },
+        "sourceControllerTotalTravel_m": {
+          "Left": 0.4669032947676056,
+          "Right": 0.2942253593508789
+        }
+      },
+      "physicalProbeCount": 121,
+      "physicalStatus": "PHYSICAL_PREFLIGHT_FAILED_NO_MODEL_CHANGE"
+    }
+  ],
+  "reason": "NO_FULLY_VALID_HEAVY1_BLENDER_IK_SOLVE",
+  "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+}
