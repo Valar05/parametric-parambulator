@@ -1,0 +1,95 @@
+{
+  "modelUnchanged": true,
+  "profiles": [
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "e67d3beb40feaa89d35a313f817c4fdf3f7fb2e81d50fa36eec75b781e403c82",
+      "legRatio": "combined",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "native",
+      "tag": "native-combined-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "694cdbf723ad2c4ec96c4333860dd4da175fab4c81c6b8acd5881c6be20bcfbd",
+      "legRatio": "combined",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "local",
+      "tag": "local-combined-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "0d1d2d1aa4afb547e50ce6886e9bda5653dc35da15af77cd017bad4165e1f365",
+      "legRatio": "thigh",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "native",
+      "tag": "native-thigh-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "54cebcc45b0aba7a7e6e9804e4612f0e94fd71319aca42e643b94bea618bb8fa",
+      "legRatio": "thigh",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "local",
+      "tag": "local-thigh-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "75fa916070e242b5b8ab5172344ccca12c7a3a0c9dc40f3f44b205ac0d589518",
+      "legRatio": "shin",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "native",
+      "tag": "native-shin-1_0"
+    },
+    {
+      "amplitude": 1.0,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "cd3f093700a14168ab5612db545c86115c8d17b1222f1608494dab9b37e8755d",
+      "legRatio": "shin",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "local",
+      "tag": "local-shin-1_0"
+    },
+    {
+      "amplitude": 0.92,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "d2ed1dfc6a477a80d01e86ed864a529a8900cc9c627bb2a1a2fac71bd1ab07ac",
+      "legRatio": "combined",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "native",
+      "tag": "native-combined-0_92"
+    },
+    {
+      "amplitude": 1.06,
+      "blenderStatus": "NATIVE_BLENDER_CONSTRAINTS_EVALUATED",
+      "candidatePath": null,
+      "error": "Traceback (most recent call last):\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 198, in <module>\n    if __name__=='__main__':sys.exit(main())\n                                     ~~~~^^\n  File \"/data/data/com.termux/files/home/.local/state/OBSIDIANTI_HEAVY1_BLENDER_IK_v1.5.5/20261105T114142Z-46d4330/repo/campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py\", line 46, in main\n    raise RuntimeError('SAMPLES_NOT_ACTUAL_BLENDER_IK')\nRuntimeError: SAMPLES_NOT_ACTUAL_BLENDER_IK\n",
+      "evaluatedSamplesSHA256": "f6e81f4177b622011a75cfd3c0f32f89981e9b0171a4179ef931ce25baa7ff0c",
+      "legRatio": "combined",
+      "physicalStatus": "APPLY_FAILED_BEFORE_REPORT",
+      "strategy": "native",
+      "tag": "native-combined-1_06"
+    }
+  ],
+  "reason": "NO_FULLY_VALID_HEAVY1_BLENDER_IK_SOLVE_VISUAL_QUARANTINED",
+  "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+}
