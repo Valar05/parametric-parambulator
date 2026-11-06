@@ -1,0 +1,24 @@
+{
+  "schema": "obsidianti-mwni-documented-viewer-v1.4.7",
+  "sourceCommit": "0f6b0cb3ad23d12dff7e49311110b761600ee166",
+  "runId": "20261106T205439Z-97230b05",
+  "url": "http://127.0.0.1:9181/index.html?run=20261106T205439Z-97230b05&build=4e152b88f3fe821522fa5f5d",
+  "buildToken": "4e152b88f3fe821522fa5f5d",
+  "serverPid": 9893,
+  "serverPort": 9181,
+  "viewerMode": "ONLY_REJECTED_DIAGNOSTIC",
+  "motionGatePassedClips": [],
+  "rejectedDiagnosticClips": [
+    "Light1"
+  ],
+  "modelHashes": {
+    "candidateLight1": "34d532656239cd2ecbf12b229062b77c92ecefa7af7f742131631fc4fa701d70",
+    "canonical": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4"
+  },
+  "browserIntentSent": true,
+  "HTTPIdentity": "VERIFIED",
+  "browserRender": "UNVERIFIED",
+  "ownerVisualAcceptance": "PENDING",
+  "canonicalModelUnchanged": true,
+  "launcherSHA256": "b02ed78768c2e991dad1e615364308b1e280327bf1e591e1734b6617f53a2569"
+}
