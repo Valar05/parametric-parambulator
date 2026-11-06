@@ -1,0 +1,22 @@
+{
+  "schema": "obsidianti-bilateral-research-commit-evidence-v1.2.0",
+  "authority": "Termux Git only",
+  "sourceHead": "5218472cf5c680ebe4d0a767a9d52b0f0e64565d",
+  "sourceBlenderSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "historicalTargetGLBSHA256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+  "sourceSampleSHA256": "77d749333c9896b1d96f8a702b669d6d44d1d4cd9f5005954d8b76375ce146d5",
+  "analysisMetricsSHA256": "e5a13fc3c77785fa0af569b7dbf1d62af7c58ea77a85e1e469024cd92649f4d6",
+  "researchMarkdownSHA256": "fa2398673eab9ee9fbdeb414d7a90e4627d82708cb11db262ef0495ec8e4ed70",
+  "archaeologyIndexSHA256": "f3abb9f66d8713f7e028f99621a3f057ca81e14ce654f15f8b8f35549efe7f9e",
+  "rulesRead": {
+    "agentsBlobSHA": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteReadAtAuthoring": "2026-11-06 HomeCenter live"
+  },
+  "execution": "ACTUAL_SOURCE_EVALUATED_HISTORICAL_GLB_EVALUATED",
+  "immutableCanonicalAssets": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "ownerVisualVerdict": "NOT_APPLICABLE_NO_MODEL_MUTATION",
+  "interpretation": "Measured left-right bone movement discrepancy and provenance. No repair proposed as executed."
+}

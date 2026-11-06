@@ -1,0 +1,1665 @@
+{
+  "schema": "obsidianti-existing-research-index-v1.2.0",
+  "gitHead": "b20b76138f99930c20a1ff54c85730f2cc3cfe0b",
+  "repository": "Valar05/parametric-parambulator",
+  "numberOfRelevantTrackedFiles": 205,
+  "priorArtifacts": [
+    {
+      "path": "campaigns/LIONHEART_COMPARE_EXPORT_v1.6.0.py",
+      "sizeBytes": 3035,
+      "SHA256": "570b372523967a3298697aa5ba8c4114ee93587fd10dfb38a1e8148952b31185"
+    },
+    {
+      "path": "campaigns/LIONHEART_COMPARE_EXPORT_v1.6.1.py",
+      "sizeBytes": 2413,
+      "SHA256": "2e0137f91d93c34961f3f11d02ddfde4c86aabc8550347145692041cb2e37e8e"
+    },
+    {
+      "path": "campaigns/LIONHEART_COMPARE_RUN_v1.6.0.py",
+      "sizeBytes": 10242,
+      "SHA256": "c504f3e352cd086d78da8fb258970b17b09a541fcc8aa7cad92b5dcadc754a15"
+    },
+    {
+      "path": "campaigns/LIONHEART_COMPARE_RUN_v1.6.1.py",
+      "sizeBytes": 10148,
+      "SHA256": "806639e7e1741d912a10d860f16b7e4a6692e0907a3f2cc9cff85a923ca244f7"
+    },
+    {
+      "path": "campaigns/LIONHEART_SIDE_BY_SIDE_v1.6.0_LAUNCH.sh",
+      "sizeBytes": 411,
+      "SHA256": "22e4e11458a71dfdcb4ea634c0b8fb340cdbd29ca20ce1cf24f66714d7f7cc7b"
+    },
+    {
+      "path": "campaigns/LIONHEART_SIDE_BY_SIDE_v1.6.1_LAUNCH.sh",
+      "sizeBytes": 411,
+      "SHA256": "a0c60b29e7275f8e16cf1ced838f88285422ffb3d02164f36ca6a2f696d9ebf6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ALL_ACTION_IK_ANALYZE_v1.4.0.py",
+      "sizeBytes": 9124,
+      "SHA256": "c0470ec4229ea57e02f4cfd6b990b5d25268497ae950f0f63dd61cf828e6719f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ALL_ACTION_IK_BLENDER_v1.4.0.py",
+      "sizeBytes": 7378,
+      "SHA256": "e72a0b54d7e685fc0710f0c4da159df6e6e40bec75408cf87718761304a714fd"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ALL_ACTION_IK_RUN_v1.4.0.py",
+      "sizeBytes": 14732,
+      "SHA256": "1e72533696db1225ce6ed6814f10ba1855bdb685059745db7c52cb87751dc137"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ARES_FK_REBASE_APPLY_v1.0.1.py",
+      "sizeBytes": 6640,
+      "SHA256": "65848911d1cea93c6210dbbc4b15413d2f499819c41d3a619d143561a745117d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ARES_FK_REBASE_RUN_v1.0.1.py",
+      "sizeBytes": 12446,
+      "SHA256": "575fb6f7a7c7856b1c06e518f406833847bbf68b8a4725e9e3828825ae24c9dc"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ARES_FK_VIEWER_RECOVERY_v1.0.0.sh",
+      "sizeBytes": 18769,
+      "SHA256": "5b50f5d39f03cb9a04a734c00319927d45182797b053c4582ea24a69c004a89a"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_ARES_FK_VIEWER_RECOVERY_v1.0.1.sh",
+      "sizeBytes": 19530,
+      "SHA256": "beca9b265d8910e999b497de1108a41f298dc0fd0d3195040ae70c4b06cc53a8"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_BILATERAL_RETARGET_RESEARCH_v1.2.0_LAUNCH.sh",
+      "sizeBytes": 19284,
+      "SHA256": "5222a339600a098057d45733de9062440f4a2bf4ca88a9042322fcf039c1c2be"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_BILATERAL_RETARGET_RESEARCH_v1.2.0_analyze.py",
+      "sizeBytes": 10870,
+      "SHA256": "2a65eb50bb1c23a66d7882083d3a70e864ab80ddd1407bd4d07e4f7b822ecef9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_BILATERAL_RETARGET_RESEARCH_v1.2.0_archaeology.py",
+      "sizeBytes": 3928,
+      "SHA256": "ffea752fa7c7cd7efeb7b6f30f771c507a86796844bdf56da5b8816bc906aafb"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_BILATERAL_RETARGET_RESEARCH_v1.2.0_driver.py",
+      "sizeBytes": 14130,
+      "SHA256": "e8b88ad28a7f6700b6437a042c386b93675a30dd42c01282249c82528c96c727"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_BILATERAL_RETARGET_RESEARCH_v1.2.0_summarize.py",
+      "sizeBytes": 6153,
+      "SHA256": "4663cbc2e8633cd24f49068e045c6e6926728a25f1861e0971b1a4c7684a87e6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_RUN_v1.3.0.py",
+      "sizeBytes": 16687,
+      "SHA256": "10449f9db5c470cb5069a75d24c15410e40e6706636dca796eb60add566e889c"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_RUN_v1.3.1.py",
+      "sizeBytes": 18765,
+      "SHA256": "e7c42a300e911a42a2bae4b86dcf9aa077d65ca8daa6570dfb6ca315d7d7bb1d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_RUN_v1.3.2.py",
+      "sizeBytes": 20345,
+      "SHA256": "bde06ed60c09f6c2736e1e22be001f07af19cd7b9e443cf200f64d020b462f51"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_SOLVE_v1.3.0.py",
+      "sizeBytes": 24727,
+      "SHA256": "d6e7b88880f9c7c79d93d5ce04289b518a7ca51c4d265c65e5f8cbe4f739c7b6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_SOLVE_v1.3.1.py",
+      "sizeBytes": 32245,
+      "SHA256": "0c8b4637a6552f1f30f22100079b8b435718679f76645d80090965b36ec3e328"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_SOLVE_v1.3.2.py",
+      "sizeBytes": 37508,
+      "SHA256": "f1e27eee77f29798f2a8bc56136546cc3a67d7e9af1f7ebdf77b6f381f2a8af9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_v1.3.0.sh",
+      "sizeBytes": 390,
+      "SHA256": "553d00fefb3ae7b41a0a763f52b61a6e39dd2c1266bfa892c39b0a71a4025ff4"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_v1.3.1.sh",
+      "sizeBytes": 390,
+      "SHA256": "2c2ec5ca32b35f595ce5fc2d5d26f36c992c5625145c96df756ed2ebbf465897"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_CONTACT_IK_v1.3.2.sh",
+      "sizeBytes": 390,
+      "SHA256": "ebc60c044d4996cf31ca7682b08f5eb6744b0ac9816a1c894490d2f2aa185c6d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_BASELINE_v1.10.1.py",
+      "sizeBytes": 3056,
+      "SHA256": "572cc11cffc20ce7e7eebfc1b7cacc9938e240ad1f19ca7a8563decb80f9399d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_BUILD_v1.10.1.py",
+      "sizeBytes": 11677,
+      "SHA256": "80983895bae040832fd863fb50ef6a83a26b4994c2a15df57cd5b7b216de0d3e"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_BUILD_v1.10.2.py",
+      "sizeBytes": 16592,
+      "SHA256": "a24eccbab189d7fe3c30080d15d687d099028beb7c9f6c92e5a239c23e0bdcb2"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_BUILD_v1.10.3.py",
+      "sizeBytes": 18402,
+      "SHA256": "06a64bd23c0e92a6a212edf21070dac2dbf7e78a74594a51d49ce0ae42bd08d9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_RUN_v1.10.1.py",
+      "sizeBytes": 12778,
+      "SHA256": "d66b159cb388d7f30f6dc07b105818c01dfad8dc04d824234e0fa3f494ab2b57"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_RUN_v1.10.2.py",
+      "sizeBytes": 12663,
+      "SHA256": "9b47206541ef5590deeeb4a4ba4c50394ac97b3c5331a98bd5baf05a3cf124b2"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FK_AUTHORITY_IK_RUN_v1.10.3.py",
+      "sizeBytes": 12678,
+      "SHA256": "55576ecfeb32c1ef9c5537299a0585409136ad898869b28fdc7c33e65d652694"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FOOT_STABILIZATION_RUN_v1.11.0.py",
+      "sizeBytes": 15412,
+      "SHA256": "cf00893debd15a626db7ce3b7788a0b9bc935f373ec74abe09e44835fda89276"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FOOT_STABILIZATION_SERVER_v1.11.0.py",
+      "sizeBytes": 623,
+      "SHA256": "b52420c861e2d567f8925f96646b4ff7df4cf25f2b2ef9097343dea22cdb9d42"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FOOT_STABILIZATION_SOLVER_v1.11.0.py",
+      "sizeBytes": 11919,
+      "SHA256": "9bf6e8705eb5f713c35be5d62014e9aeed6a44b26b37c30d139eb8c32bbb25de"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FULL_LIBRARY_RUN_v1.1.0.py",
+      "sizeBytes": 17541,
+      "SHA256": "8010502bef097eec178863a70e88e132d401245befe7d655f346982e7aca7c7b"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FULL_LIBRARY_v1.1.0.contract.json",
+      "sizeBytes": 1590,
+      "SHA256": "6dedc8073791d639de6319082dd1e080845dc13b224f599e724a4a0a8fc7e364",
+      "lines": 17,
+      "topLevelKeys": [
+        "allowedModelChange",
+        "aresFullBody",
+        "aresLowerBody",
+        "authoredIdle",
+        "authorizedExecution",
+        "campaign",
+        "canonicalModel",
+        "evidenceRequired",
+        "expectedInputModelSha256",
+        "protected",
+        "repository",
+        "schema",
+        "sourceActions",
+        "sourceIdle",
+        "status"
+      ],
+      "status": "source-built-and-off-device-schema-tested; not deployed; human visual pending"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_FULL_LIBRARY_v1.1.0.sh",
+      "sizeBytes": 477,
+      "SHA256": "fabfcdc347f3caba2ef12a58ac31d4d58657f5bba7e0384122bb290cb7ae73ed"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_LAUNCH.sh",
+      "sizeBytes": 20197,
+      "SHA256": "3aa2b18722b7a0a29b1089072ed00eeefc9099982e5bf951963185828fa9591f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_compare.py",
+      "sizeBytes": 1674,
+      "SHA256": "bd01e313ee3f6bcb8152fd1c9c1d6214b425ea504ef055adf9c3c2ff7c4bd2f0"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_export.py",
+      "sizeBytes": 1809,
+      "SHA256": "a81b7d3618a98bf5716c698faccdf7fe056f28bdd8a74b66a35edb6a29fd1bdb"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_patch.py",
+      "sizeBytes": 3689,
+      "SHA256": "c9867337ee089bf6d450cf3a9bc37b0ed69945d338506e443a12e37927476581"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_sampler.py",
+      "sizeBytes": 3416,
+      "SHA256": "c88caa3ffb99d168e8cd431608e40f8c219cd050c9fb2596c4d43cbf8a916def"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLB_FIRST_RETARGET_v1.0.0_server.py",
+      "sizeBytes": 1173,
+      "SHA256": "a327381c135dbdfec5cf477e01c0f4e80c800b31407c427a558fd610b0eb4169"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_GLTF_LIBRARY_v1.1.0.py",
+      "sizeBytes": 15512,
+      "SHA256": "ec378cf4b3c00f25e072e00747b4e36efa83e147d3347d43dc93110a7b39395f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.1.py",
+      "sizeBytes": 10861,
+      "SHA256": "824f28058efcb6564c3fa8e6c326156b2336661f9254a216af35ec2b72f19f8b"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.3.py",
+      "sizeBytes": 11244,
+      "SHA256": "4c90bd77bdd4902536a9bcddd2f8d650de42a1b2a798d0a51c504066a5e369f6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.4.py",
+      "sizeBytes": 12348,
+      "SHA256": "04e224cd432bf0c0043c8649e953a20727727c022fcb538c0d8311f1dbe61d3f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.5.py",
+      "sizeBytes": 12627,
+      "SHA256": "ce4c251da4cda10dc7c7e1bb3e753f5e8470d07545bd00e7cf4d820bb9f4bfe0"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_APPLY_v1.5.6.py",
+      "sizeBytes": 12639,
+      "SHA256": "a8f00b1fa31f84cd763aac45132fc41f827adf3a8a1348513d9dca95108b8fa6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_EVAL_v1.5.1.py",
+      "sizeBytes": 15723,
+      "SHA256": "65b766d88c4ff9da1f2d2d85b54280693dc16211f8510808113da8b4be3ad39f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_EVAL_v1.5.3.py",
+      "sizeBytes": 16006,
+      "SHA256": "beeeb77ba5c698fa4ad87b74c007cd568c153eaaa2f1c30275935a9a7de0d7fa"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_EVAL_v1.5.4.py",
+      "sizeBytes": 16861,
+      "SHA256": "0fcba807b9641f22470eb20a78dd1b0e7a82aa6312bc00ff3ec6b1e525491030"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_EVAL_v1.5.5.py",
+      "sizeBytes": 18542,
+      "SHA256": "8b92e08afdb78d57708e4eb990db31aa6d9e0ae0e89d21f2caa5374813f0fe8b"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_EVAL_v1.5.6.py",
+      "sizeBytes": 18542,
+      "SHA256": "1df426c060c688275f7413ebbd19e8e03750ca0e090a31b9d58861f787eccaf0"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RECOVERY_v1.5.2_LAUNCH.sh",
+      "sizeBytes": 6460,
+      "SHA256": "eed184a25ce295e8cb3bfe018bf797f49d0452d8ee338a7323041f65586a7f7f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RUN_v1.5.1.py",
+      "sizeBytes": 21332,
+      "SHA256": "ea3d89262fd1b78a9dc1a1dcc968bd0e691110ffd6c5d921c2b5e47ca5d250d9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RUN_v1.5.3.py",
+      "sizeBytes": 22231,
+      "SHA256": "9d07a2ca69f4770fd1feebaf8972b65b6ff0529ded61e740dbeefda35cb915d8"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RUN_v1.5.4.py",
+      "sizeBytes": 27330,
+      "SHA256": "49eb0d351607398b0d77e0c45820de46f4f33f347173dd3657ddd49f6b9cde05"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RUN_v1.5.5.py",
+      "sizeBytes": 27255,
+      "SHA256": "aad5f1d6546b174b5e71b8c6d1c78c0ff17919d9b92bb25aa5658d2b4be8efd9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_BLENDER_IK_RUN_v1.5.6.py",
+      "sizeBytes": 27255,
+      "SHA256": "56bcf94d2f431555cd895439e2d80e2873bff132f0da0ba331220fd1fdff97ed"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_COMBINED_DIAGNOSTIC_v1.5.4_LAUNCH.sh",
+      "sizeBytes": 21202,
+      "SHA256": "ff858826b787798128e53d82a7420e7d3185bf6b5faf134769453eeffd445acc"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_NATIVE_IK_RUN_v1.5.0.py",
+      "sizeBytes": 21943,
+      "SHA256": "d4f00a52408e45d528b853eccd5aa6639a0b7fd921e0a0a88b30368d0e082ca8"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_NATIVE_IK_SOLVE_v1.5.0.py",
+      "sizeBytes": 20757,
+      "SHA256": "c0a64f532eec7f9654e779231275df45f927cef5612cdcc8d2ee051ec7835e67"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_SOURCE_IK_v1.5.5_LAUNCH.sh",
+      "sizeBytes": 17750,
+      "SHA256": "04fac3fc79596fa4d82c2c7c1b9bb6aa12b170378ff5f18210c42d1334329846"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_VALIDATOR_REPAIR_v1.5.6_LAUNCH.sh",
+      "sizeBytes": 11155,
+      "SHA256": "b238a23faed41ead4e6ecb9017d7f77625e0488ee14ce113cc0569c89e0098c6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_HEAVY1_WORLDSPACE_IK_v1.5.3_LAUNCH.sh",
+      "sizeBytes": 19203,
+      "SHA256": "4246a219c304b8e7ad9023be7a0dfb94bf8f488f6a1ba73ea74d1acafefe28c0"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IDLE_CANONICAL_v1.0.0.sh",
+      "sizeBytes": 958,
+      "SHA256": "08a596e1e943c6042e127cdcbd97a5c1b93b3f74fd5f7e576dc71ed6150dd0c9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IDLE_PACKET_MANIFEST_v1.0.0.json",
+      "sizeBytes": 1870,
+      "SHA256": "3bb7e2d7212daf47920e385614e9261b8c669c2fcf4b4d8dc4bb2c558c02b6dd",
+      "lines": 28,
+      "topLevelKeys": [
+        "campaign",
+        "canonicalModelPath",
+        "executionAuthority",
+        "files",
+        "notAccepted",
+        "repositoryHeadObserved",
+        "rulesRead",
+        "schema",
+        "targetRepository"
+      ]
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IDLE_RUN_v1.0.0.py",
+      "sizeBytes": 16617,
+      "SHA256": "6d8b25a534986ba1f4807071e3900906bb9782994de86e7f9ff8f950124528a3"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IDLE_VERIFY_v1_0_0.py",
+      "sizeBytes": 7210,
+      "SHA256": "04c798cee97605420ba6bea05b3db223ace7f0ae60775dfb1b0bb337878f8d3a"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.0.py",
+      "sizeBytes": 13569,
+      "SHA256": "fada344fe68ba861387477e3a6099dc39a6b0a9001d2c6161566258227bdfe01"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.1.py",
+      "sizeBytes": 16103,
+      "SHA256": "c856b93f27c87fa1018bd76b0e458bcfd57b09d155a9f2e81a66bbff6fd21715"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.2.py",
+      "sizeBytes": 16103,
+      "SHA256": "31f3bd0e975cca9b25d637967b56633c0045daa18b62a73ecc3d8265576b4ef2"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.3.py",
+      "sizeBytes": 16104,
+      "SHA256": "78845952eb1478db52675528849f27232ae541a4cd3669b5c995189f0cefe5ad"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.4.py",
+      "sizeBytes": 15958,
+      "SHA256": "96c6d8458871381f7834ce46b341f04bef759c209a3aaa5f4c8639d923218b65"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_BUILD_v1.9.5.py",
+      "sizeBytes": 17712,
+      "SHA256": "27e19c1ce4ae414f38335e43f7c059efad7fdc7e27c6e5519be08c61532a06b5"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.0.py",
+      "sizeBytes": 11519,
+      "SHA256": "cd40241bb9a9f3dbcea25e260d2a95797da3df50c2d05fb2ead29a332acbcf2a"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.1.py",
+      "sizeBytes": 11519,
+      "SHA256": "7c9cd0b3b0468d4bde27488bd6d98a8964f0f1a390258d70aa17e459b1cf5b97"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.2.py",
+      "sizeBytes": 13420,
+      "SHA256": "45449444544219bd937c58a8cac9ec875ec6facfe6867ebf8ce483318993bf0d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.3.py",
+      "sizeBytes": 13666,
+      "SHA256": "fae2ab58dbe808e7c45f19fc9aad10d0883348543f21d730969e211598885ab7"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.4.py",
+      "sizeBytes": 14678,
+      "SHA256": "6b6d5dee66838f088437167ed70e96988991c0a02df938ec8f96b877ffea766a"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_RUN_v1.9.5.py",
+      "sizeBytes": 14678,
+      "SHA256": "40ee995e839ddd698733770bf193595197dac3e4714783b46bb1bc1716de7dda"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.0.py",
+      "sizeBytes": 2833,
+      "SHA256": "9cbdca7afdc69100197da631ae2c083226085d8e805bbe0ceb3bc95d5f03e99c"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.1.py",
+      "sizeBytes": 3184,
+      "SHA256": "108e410a6d0d66d2c7927dcac3c7ea4f0df5cde44a8c9f0b9c230e833d6f7036"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.2.py",
+      "sizeBytes": 3184,
+      "SHA256": "108e410a6d0d66d2c7927dcac3c7ea4f0df5cde44a8c9f0b9c230e833d6f7036"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.3.py",
+      "sizeBytes": 3184,
+      "SHA256": "108e410a6d0d66d2c7927dcac3c7ea4f0df5cde44a8c9f0b9c230e833d6f7036"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.4.py",
+      "sizeBytes": 3566,
+      "SHA256": "59cdb88805e4b2c1110b7f6e1fa147eeb57b837306b350843c752b74027ed35e"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_IK_AUTHORING_VERIFY_v1.9.5.py",
+      "sizeBytes": 3736,
+      "SHA256": "c992aed02c89c84a8fccf0988a981f24c84c345a3828f3e31399dba90e74f1a9"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_ANALYZE_v1.0.0.py",
+      "sizeBytes": 8263,
+      "SHA256": "220403c44d4064df990b14c0b2c126ffad3fe282df29656755c62a6da1c30baf"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_ANALYZE_v1.0.1.py",
+      "sizeBytes": 8263,
+      "SHA256": "220403c44d4064df990b14c0b2c126ffad3fe282df29656755c62a6da1c30baf"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_BLENDER_v1.0.0.py",
+      "sizeBytes": 10714,
+      "SHA256": "1c311c9c5824a948c850060bd63b75bd99a0e2771962957ea5b841f6d23aba83"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_BLENDER_v1.0.1.py",
+      "sizeBytes": 10716,
+      "SHA256": "50ecaf5b1cb4f04a9314075281cf0e5642c73c8dc067be6b458ca7fdb17a3c61"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_RUN_v1.0.0.py",
+      "sizeBytes": 12069,
+      "SHA256": "459b56b05f9e499a1a89de1b9e9906778331b6bec594f7695dd6dca826adbf52"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MOTION_MEASURE_RUN_v1.0.1.py",
+      "sizeBytes": 12469,
+      "SHA256": "4c5c675d899651fd6f5a1171bf6b680801724b47a437c82e0aea4ef62b8e81b7"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MULTI_ACTION_IK_APPLY_v1.7.0.py",
+      "sizeBytes": 12749,
+      "SHA256": "2f6c9dac44f43008a55d1ce4648d47e4d3a338892436c1679a0c7e3aa8d7e092"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MULTI_ACTION_IK_EVAL_v1.7.0.py",
+      "sizeBytes": 18591,
+      "SHA256": "0c3fc3605980d5c6adb8161d025e5dd860f92cd2775e96d4d3d1cc0e7a13372e"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MULTI_ACTION_IK_RUN_v1.7.0.py",
+      "sizeBytes": 22925,
+      "SHA256": "d2088ae4c99d13145fceeb0d041df0afe5fc134459d56ba6e4c56fcf2f05de96"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_MULTI_ACTION_SOURCE_EXPORT_v1.7.0.py",
+      "sizeBytes": 2444,
+      "SHA256": "01cbf58eb12a3b62ffee05602f2aa5b5a75c67f96660858e002f292a472f672e"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_PELVIS_WEAPON_RECOVER_RUN_v1.2.2.py",
+      "sizeBytes": 18426,
+      "SHA256": "1cecad763d7c9cb6bfb84535ec4d7f0bb65b45e03e457ca4789020b87ea12f65"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_PELVIS_WEAPON_RECOVER_v1.2.2.sh",
+      "sizeBytes": 515,
+      "SHA256": "f76543cfdf7cdb6cbf8d841f59a969c2b25cad227075eacac83c967065a7b831"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_PELVIS_WEAPON_RUN_v1.2.1.py",
+      "sizeBytes": 15022,
+      "SHA256": "4629cb60dbaf619e50ae1cafe21596a00c48c0cfe41a6133600279ef5d74e523"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_PELVIS_WEAPON_SOLVE_v1.2.1.py",
+      "sizeBytes": 19991,
+      "SHA256": "dc19a766ce41950c8040a81339d488573f70151910aa3ebf479ab8296484851f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_PELVIS_WEAPON_v1.2.1.sh",
+      "sizeBytes": 480,
+      "SHA256": "769c4747af72079343c0536e742d465a4b441331dcb2e0d60e753ff43b3861b3"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SOURCE_RIG_FORENSICS_v1.0.0_ANALYZE.py",
+      "sizeBytes": 6143,
+      "SHA256": "66c10d644650142e0cd5bf18b1356fd76eef9099dce5271812922512cefd5e01"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SOURCE_RIG_FORENSICS_v1.0.0_RUN.py",
+      "sizeBytes": 9914,
+      "SHA256": "619dfd46d1ccc487d56f24057d63405b03cfafffa008c498d71621a9f19db7f6"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SOURCE_SAMPLER_v1.1.0.py",
+      "sizeBytes": 5099,
+      "SHA256": "17df84b3d87e052652d73a604b42f71d17efd24b78a23b53009405f34bfef21f"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SPARSE_FK_BUILD_v1.10.4.py",
+      "sizeBytes": 10594,
+      "SHA256": "e8e1d58154d7ef9b1d5f83466a78294009169e203b2e53919bb763d21bfb8558"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SPARSE_FK_EXPORT_v1.10.5.py",
+      "sizeBytes": 3849,
+      "SHA256": "bbcf305bae989742edb4143b6c11e106cf1dfcbac262ea63ea6bef407be0dbce"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SPARSE_FK_REVIEW_RUN_v1.10.5.py",
+      "sizeBytes": 13823,
+      "SHA256": "0fbfe7a2d5d2a8b795f76ee30e4934fa3e037da4b92f884cb97414a295e1527e"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SPARSE_FK_RUN_v1.10.4.py",
+      "sizeBytes": 10135,
+      "SHA256": "3ad2b83247695a9229902eac9d4a1b9f9c16ca54018079acc56c3f648542f45d"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_SPARSE_FK_VIEW_SERVER_v1.10.5.py",
+      "sizeBytes": 623,
+      "SHA256": "b52420c861e2d567f8925f96646b4ff7df4cf25f2b2ef9097343dea22cdb9d42"
+    },
+    {
+      "path": "campaigns/OBSIDIANTI_THREE_VERSION_VIEW_RUN_v1.8.0.py",
+      "sizeBytes": 14097,
+      "SHA256": "fd4e0d52de815e059cae8688eedcdc23305d1797165991d84b737b74081bfdf0"
+    },
+    {
+      "path": "diagnostics/obsidianti/ares-fk-rebase-v1.0.1/RESULT.json",
+      "sizeBytes": 6853,
+      "SHA256": "e52e3d3017fdd73834ca76534aeb238f172a5558060346959f7eb1b0653b0abd",
+      "lines": 221,
+      "topLevelKeys": [
+        "algorithm",
+        "anatomicalAsymmetryNote",
+        "candidateSha256",
+        "canonicalMutation",
+        "changedClips",
+        "limits",
+        "motionSource",
+        "protectedOtherClips",
+        "ratioLeft",
+        "ratioRight",
+        "scaleApplied",
+        "schema",
+        "sourceSha256",
+        "status"
+      ],
+      "status": "UNAPPROVED_REVIEW_CANDIDATE",
+      "sourceSha256": "5fa8773736cf4fd28eae13e13368246642642a1802d76e47ed7e14faf70d04c0",
+      "candidateSha256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+      "algorithm": "EXACT_ARES_PELVIS_DELTA_SCALE_WITH_FK_LEG_ROTATIONS_PRESERVED"
+    },
+    {
+      "path": "diagnostics/obsidianti/ares-fk-rebase-v1.0.1/RESULT.md",
+      "sizeBytes": 814,
+      "SHA256": "bb7dc1b9c1f823a848da5c7867dc23c8847f05223e1c8ec3105f834eb32b8ea5",
+      "lines": 15,
+      "headings": [
+        "# Obsidianti pre-contact FK + Ares-style pelvis scale"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.1/FK_BASELINE.json",
+      "sizeBytes": 4326,
+      "SHA256": "fe1c85c1d99ff73fda47e794671e1167800a435cdc13d92c7533378e8934c0c6",
+      "lines": 150,
+      "topLevelKeys": [
+        "actionCount",
+        "blenderVersion",
+        "nlaAssociations",
+        "outputSHA256",
+        "schema",
+        "sourceActions",
+        "sourceSHA256",
+        "status"
+      ],
+      "status": "FK_BASELINE_SAVED"
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.1/PARITY.json",
+      "sizeBytes": 36404,
+      "SHA256": "93b8a3061c2d41d21544299c82b3f3336e5c883354a3b34196fa031ec240a981",
+      "lines": 1484,
+      "topLevelKeys": [
+        "authority",
+        "blendSha256",
+        "calibration",
+        "clips",
+        "fkUnchanged",
+        "issues",
+        "limits",
+        "parity",
+        "schema",
+        "shinTailToAnkleMax_m",
+        "status"
+      ],
+      "status": "PARITY_FAIL_DIAGNOSTIC_ONLY"
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.1/REPORT.md",
+      "sizeBytes": 329,
+      "SHA256": "85a68943d85db78a5da50dd2356b961d8c8221c9601030a379358ca515730996",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti FK-authority IK reconstruction"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.2/PARITY.json",
+      "sizeBytes": 39012,
+      "SHA256": "8124cbe1f97bcc8a8fe3a120518552773f92b7ef3aaa1f5c9a975604dfa45c4d",
+      "lines": 1473,
+      "topLevelKeys": [
+        "authority",
+        "blendSha256",
+        "calibration",
+        "clips",
+        "fkUnchanged",
+        "holdoutParity",
+        "issues",
+        "limits",
+        "parity",
+        "perSampleKneePoleRefinement",
+        "poleParentage",
+        "schema",
+        "shinTailToAnkleMax_m",
+        "status"
+      ],
+      "status": "PARITY_FAIL_DIAGNOSTIC_ONLY"
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.2/REPORT.md",
+      "sizeBytes": 348,
+      "SHA256": "3263068248128070c106be6bf38ed1b216b7d5a4517414de0461317871e1a8c1",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti FK-authority IK pole parenting and reconstruction"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.3/PARITY.json",
+      "sizeBytes": 40515,
+      "SHA256": "74b58291c28396276e6a7e449705caf86ffd4d2bdaea6c7f6670b238d2c17628",
+      "lines": 1538,
+      "topLevelKeys": [
+        "authority",
+        "blendSha256",
+        "calibration",
+        "clips",
+        "denseKeying",
+        "fkUnchanged",
+        "holdoutParity",
+        "issues",
+        "limits",
+        "parity",
+        "perSampleKneePoleRefinement",
+        "poleParentage",
+        "polePhaseOutliers",
+        "schema",
+        "shinTailToAnkleMax_m",
+        "status"
+      ],
+      "status": "PARITY_FAIL_DIAGNOSTIC_ONLY"
+    },
+    {
+      "path": "diagnostics/obsidianti/fk-authority-ik-v1.10.3/REPORT.md",
+      "sizeBytes": 368,
+      "SHA256": "e3c158e6ef4d6996bc52267a32bf9db64db01f260f498459f6373ad7f4695f3a",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti FK-authority IK dense FK-sampled IK reconstruction"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/foot-stabilization-v1.11.0/REPORT.json",
+      "sizeBytes": 4274,
+      "SHA256": "5bb188d48ecbdfa8a36359f0eb3127d8dbc7439014587a444ef681ad95160646",
+      "lines": 147,
+      "topLevelKeys": [
+        "blenderReport",
+        "canonicalGLBModified",
+        "gitSourceCommit",
+        "launcherSHA256",
+        "originalFKPreserved",
+        "sourceBlendSHA256",
+        "status",
+        "validation"
+      ],
+      "status": "REVIEW_EXPORTED_UNAPPROVED",
+      "sourceBlendSHA256": "e740668656c20bd8ea375d5bdeeec49e5719585f7670667e7c232fb2cc34fad4"
+    },
+    {
+      "path": "diagnostics/obsidianti/foot-stabilization-v1.11.0/REPORT.md",
+      "sizeBytes": 317,
+      "SHA256": "8d213edd4d5e7c2eb56a8f74ea31b94018f8ce8c1050be0d47ca2dfb5cf8319b",
+      "lines": 7,
+      "headings": [
+        "# Obsidianti foot stabilization v1.11.0"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/glb-first-retarget-v1.0.0/EXPORT_COMPARISON.json",
+      "sizeBytes": 3911,
+      "SHA256": "f698c167a1bb3c11d75371cd7b762f6116640045868781993f81e922d51e22b5",
+      "lines": 158,
+      "topLevelKeys": [
+        "clips",
+        "comparison",
+        "maxFootError_m",
+        "note",
+        "source"
+      ],
+      "maxFootError_m": 0.7792792936152364
+    },
+    {
+      "path": "diagnostics/obsidianti/glb-first-retarget-v1.0.0/PROVENANCE.md",
+      "sizeBytes": 424,
+      "SHA256": "d590d79e603ddd314bf3c0d9c16e9b268680d8e14bd5f2ac48a1cebdc0bf6ed1",
+      "lines": 6,
+      "headings": [
+        "# GLB-first Lionheart retarget proof v1.0.0"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/glb-first-retarget-v1.0.0/REPORT.json",
+      "sizeBytes": 2236,
+      "SHA256": "4eca76c3c19d15f86ca82621c1b5d1a0938973aa8166f747fdb4378207f9175e",
+      "lines": 74,
+      "topLevelKeys": [
+        "candidateClips",
+        "candidateSha256",
+        "canonicalUnchanged",
+        "changedSkeleton",
+        "donorSampleSha256",
+        "method",
+        "originalBinaryPrefixUnchanged",
+        "originalSourceSha256",
+        "preservedClips",
+        "scaleRatio",
+        "status"
+      ],
+      "status": "REVIEW_CANDIDATE_NOT_CANONICAL",
+      "candidateSha256": "78086cb69bd01301ae0e8b92ebbc84ea764502f476b1a8d3ee8e297932b8afc3"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-blender-ik-v1.5.1/preflight-failed.json",
+      "sizeBytes": 6625,
+      "SHA256": "74f67227a5e40163dfa1d0085046ac6606da49a9edef8a7b7eb495dde415afc3",
+      "lines": 169,
+      "topLevelKeys": [
+        "modelUnchanged",
+        "profiles",
+        "reason",
+        "status"
+      ],
+      "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-blender-ik-v1.5.3/preflight-failed.json",
+      "sizeBytes": 14512,
+      "SHA256": "b01169ebc697e44f2d90ddc7b238c14d78d51504c46f84f25c626be44679f005",
+      "lines": 381,
+      "topLevelKeys": [
+        "modelUnchanged",
+        "profiles",
+        "reason",
+        "status"
+      ],
+      "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-blender-ik-v1.5.4/preflight-failed.json",
+      "sizeBytes": 20528,
+      "SHA256": "38e168c1c9213cb46d746ae6a235e80f58dbe3da487125f90fe64226ffdb6c72",
+      "lines": 501,
+      "topLevelKeys": [
+        "modelUnchanged",
+        "profiles",
+        "reason",
+        "status"
+      ],
+      "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-blender-ik-v1.5.5/preflight-failed.json",
+      "sizeBytes": 8349,
+      "SHA256": "555e972ea2497412c287a427135a4820364565d81cd33a71a918fd4b1f240b2d",
+      "lines": 95,
+      "topLevelKeys": [
+        "modelUnchanged",
+        "profiles",
+        "reason",
+        "status"
+      ],
+      "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-blender-ik-v1.5.6/preflight-failed.json",
+      "sizeBytes": 13168,
+      "SHA256": "689bc89b7246102e21d7ecea6bab17a9c08490e45ea3bf6bbdf0dcc623a7377e",
+      "lines": 319,
+      "topLevelKeys": [
+        "modelUnchanged",
+        "profiles",
+        "reason",
+        "status"
+      ],
+      "status": "BLOCKED_TRUE_BLENDER_IK_OR_SKIN_PREFLIGHT_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/heavy1-native-ik-v1.5.0/preflight-failed.json",
+      "sizeBytes": 8656,
+      "SHA256": "37db2ea50ed81c926840f8f861134e391603950161f2c40dd36f1603af5f3949",
+      "lines": 242,
+      "topLevelKeys": [
+        "nativeHeavy1Sha256",
+        "protectedClips",
+        "rulesMathHelperSha256",
+        "schema",
+        "searchProfilesEvaluated",
+        "searchTop12",
+        "selectedProfile",
+        "sourceModelSha256",
+        "sourceSamples",
+        "status",
+        "unmodifiedModel",
+        "version"
+      ],
+      "status": "PHYSICAL_PREFLIGHT_FAILED_MODEL_UNCHANGED"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Cast.json",
+      "sizeBytes": 673266,
+      "SHA256": "e3fae785a56db64215fd6c0ff429b3d1e4994d9ea062af6b289e921e585c3181"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Heavy1.json",
+      "sizeBytes": 696936,
+      "SHA256": "a14304e455f978fcdbb0607f187a175310e034fdfed7f83176402fd7eb9f1fd4"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Heavy2.json",
+      "sizeBytes": 697022,
+      "SHA256": "9358a50241d21d93a174bebb176cd609b0a4dfb32cac16346ce4031c3272a74b"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Heavy3.json",
+      "sizeBytes": 698420,
+      "SHA256": "b28ee45c28b60fd10209dcc51f31e0926a308f34b9dd559b964d5baf09439260"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Idle.json",
+      "sizeBytes": 11551,
+      "SHA256": "ec42ab879507236ef2734007bb6816af9be1f27a1f8d7b98361b0f389c255c1f",
+      "lines": 1,
+      "topLevelKeys": [
+        "action",
+        "durationSeconds",
+        "frameCount",
+        "frames",
+        "sourceAction",
+        "sourceFPS",
+        "sourceFrameRange"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Kick.json",
+      "sizeBytes": 698498,
+      "SHA256": "f6891be5565daf3928d62e595b68262bb1f4894c47c13557ca0cf054ebbef9a8"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Light1.json",
+      "sizeBytes": 695782,
+      "SHA256": "c1d88ed9267a8c4a5cc6452e2bbfaa2e825bec93bbaea04d2e8c06f0b84e5ba3"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Light2.json",
+      "sizeBytes": 696183,
+      "SHA256": "198e97feadf6c10d5ef480939ec5ce3c45b31658b1ab218e45dd8c84058b9087"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Light3.json",
+      "sizeBytes": 810939,
+      "SHA256": "69be7a56143c4f3431e1b841819f73a9066824f8cd095e3967d8fa85adeb296e"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/SpringAttack.json",
+      "sizeBytes": 764471,
+      "SHA256": "0e578f662d8729db23671145489e925c2ed81cd782a7aadfe56f1bbd2000d519"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/actions/Stomp.json",
+      "sizeBytes": 696893,
+      "SHA256": "46bb04f7b2c914118b67a659841d6add385f8739f95f366ca5dcd8664fee3f68"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/calibration.json",
+      "sizeBytes": 28380,
+      "SHA256": "b6d23f49c67df7816124362f4b1ee540db5c16a672fbc8c435a7f503ca123336",
+      "lines": 1331,
+      "topLevelKeys": [
+        "actions",
+        "legRatios",
+        "limits",
+        "modelSha256",
+        "nativeSourceSha256",
+        "schema",
+        "sourceIdleControllerToTargetApprovedIdle",
+        "sourceObjectToMetres",
+        "targetApprovedCombatIdle",
+        "targetApprovedIdleAction",
+        "targetBind",
+        "version"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/manifest.json",
+      "sizeBytes": 2142,
+      "SHA256": "926dc7c988244bf2774e700fd2f72feb24af79981731c0f154177dbc73859d14",
+      "lines": 41,
+      "topLevelKeys": [
+        "actionNames",
+        "artifactHashes",
+        "donorBlendSha256",
+        "executionLane",
+        "groundContactPhysics",
+        "noModelWrite",
+        "ownerVisualVerdict",
+        "repoSourceMainHead",
+        "schema",
+        "sourceGitAgentsBlob",
+        "sourceModelSha256",
+        "version"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/source-rig.json",
+      "sizeBytes": 14265,
+      "SHA256": "b74eaabeb2a70954d94596c4225c5a4a39d630e8483f4745697b52cc77501dba",
+      "lines": 1,
+      "topLevelKeys": [
+        "actionNames",
+        "blenderVersion",
+        "controllerToSoleContactValidated",
+        "fps",
+        "objectTransformWorldRowMajor",
+        "restPose",
+        "samplePhase",
+        "schema",
+        "sourceAxis",
+        "sourceGeometryEvaluated",
+        "sourceSha256",
+        "units",
+        "version"
+      ],
+      "sourceSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4"
+    },
+    {
+      "path": "diagnostics/obsidianti/lionheart-ik-all-v1.4.0/target-reference.json",
+      "sizeBytes": 10929,
+      "SHA256": "4d8b1fb0f25e96150a1241a33ed74d46ea63eca7993afcc4cd7ef6a03dde795a",
+      "lines": 603,
+      "topLevelKeys": [
+        "approvedActionFrame0",
+        "sourceModelSha256",
+        "targetApprovedAction",
+        "targetBind",
+        "targetName"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/motion-measurement-v1.0.1/MEASUREMENT_REPORT.md",
+      "sizeBytes": 3339,
+      "SHA256": "1c44f189f5091768c772412134c5b7c9722c91df370a19eee9a6002f44ea3358",
+      "lines": 45,
+      "headings": [
+        "# Obsidianti/Lionheart native measured motion",
+        "## Scope and source protection",
+        "## Summary: distance in meters, ratios unitless",
+        "## Important cautions",
+        "## Contact and snapping diagnostics",
+        "## Limitations"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/motion-measurement-v1.0.1/MEASUREMENT_SUMMARY.json",
+      "sizeBytes": 32111,
+      "SHA256": "b058929c262578c8cbef52d42e5ac714f15db715a171c3689c5c0532408695b3",
+      "lines": 684,
+      "topLevelKeys": [
+        "authority",
+        "clips",
+        "limitations",
+        "method",
+        "schema",
+        "sources"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/source-rig-forensics-v1.0.0/ARES.json",
+      "sizeBytes": 229547,
+      "SHA256": "55833c4c033b29cc4d1c57c8f0d65cc8145a5a17d771d758ac4d83766bee7c27"
+    },
+    {
+      "path": "diagnostics/obsidianti/source-rig-forensics-v1.0.0/COMPARISON.json",
+      "sizeBytes": 14043,
+      "SHA256": "13add18d6bd62b6e6484bf392acd1d5b6a55b5ea445d0bcb79799c53ff5474fc",
+      "lines": 427,
+      "topLevelKeys": [
+        "ares",
+        "authorRulesRead",
+        "lionheart",
+        "originalSources",
+        "schema",
+        "status"
+      ],
+      "status": "EVIDENCE_COLLECTED_NOT_CAUSAL_PROOF"
+    },
+    {
+      "path": "diagnostics/obsidianti/source-rig-forensics-v1.0.0/FINDINGS.md",
+      "sizeBytes": 2620,
+      "SHA256": "2713a40d7b0a8b99291c0cc2b0d01dcd78bd4faceaa6810a15174e168a5a06d6",
+      "lines": 30,
+      "headings": [
+        "# Ares vs Lionheart source rig forensics",
+        "## Ares",
+        "## Lionheart",
+        "## Interpretation gate"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/source-rig-forensics-v1.0.0/LIONHEART.json",
+      "sizeBytes": 756836,
+      "SHA256": "f39de142b7b46758d8733b1ee049f67f544ed0fdd1cfc84b72eb4c8621e85161"
+    },
+    {
+      "path": "diagnostics/obsidianti/sparse-fk-review-v1.10.5/REPORT.json",
+      "sizeBytes": 3306,
+      "SHA256": "cf53f2898069b2bf0419093ad5f0f8f89b38a8ce769dd498a4c9c58c4cd1de16",
+      "lines": 131,
+      "topLevelKeys": [
+        "blenderReport",
+        "canonicalGLBModified",
+        "gitSourceCommit",
+        "launcherSHA256",
+        "originalFKPreserved",
+        "sourceBlendSHA256",
+        "status",
+        "validation"
+      ],
+      "status": "EXPORTED_UNAPPROVED",
+      "sourceBlendSHA256": "3ba6ab2356dd0034a76f710bcfef669ad9f998d942c73f8bfe9c5cf5a0fb7447"
+    },
+    {
+      "path": "diagnostics/obsidianti/sparse-fk-review-v1.10.5/REPORT.md",
+      "sizeBytes": 309,
+      "SHA256": "1828c9685bc0b938d3877bc4b79bb22d1e9b98ef02aafa216e3ae45f7fe4bd2c",
+      "lines": 7,
+      "headings": [
+        "# Obsidianti sparse FK viewer v1.10.5"
+      ]
+    },
+    {
+      "path": "diagnostics/obsidianti/sparse-fk-v1.10.4/REPORT.json",
+      "sizeBytes": 17816,
+      "SHA256": "86a5d4208ac21578eb4a9c78fa9eb5dbda7bde5a30529a6fb702daca135bca9c",
+      "lines": 681,
+      "topLevelKeys": [
+        "actions",
+        "authority",
+        "errors",
+        "ikConstraintsIntroduced",
+        "limits",
+        "originalActionsProtected",
+        "outputBlend",
+        "reductionFraction",
+        "schema",
+        "status",
+        "totalOriginalLegKeyGroups",
+        "totalSparseLegKeyGroups"
+      ],
+      "status": "SPARSE_FK_PARITY_PASS_UNAPPROVED_FOR_VISUAL_REVIEW"
+    },
+    {
+      "path": "diagnostics/obsidianti/sparse-fk-v1.10.4/REPORT.md",
+      "sizeBytes": 399,
+      "SHA256": "43f5eacd21e7232801883f86b21db3a9987796801c923f7e5bcd7a86de52e12e",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti sparse FK authoring v1.10.4"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/ALL_ACTION_IK_AUDIT_v1.4.0.md",
+      "sizeBytes": 3703,
+      "SHA256": "080235137d6220128fd5adeb8bb07f37c76f5141613709aced60d8e62e5fdbbc",
+      "lines": 19,
+      "headings": [
+        "# Lionheart 11-action native IK diagnostic | v1.4.0",
+        "## Purpose and scope",
+        "## Binary and repository authority",
+        "## Measurements and limitations"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/ARES_FK_REBASE_v1.0.1.md",
+      "sizeBytes": 2606,
+      "SHA256": "9ae1d64d69f4ce4beb6869961fcde0de7d29b33b32e2971d01128cdb2778f087",
+      "lines": 16,
+      "headings": [
+        "# Obsidianti Ares FK Rebase v1.0.1",
+        "## v1.0.1 transport correction"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/CONTACT_IK_v1.3.0.md",
+      "sizeBytes": 6259,
+      "SHA256": "3123ccb53627affbfcc2e27137c1b585cf86f0237b8391bd0fab68a164bf0e90",
+      "lines": 32,
+      "headings": [
+        "# Obsidianti Lionheart Contact-IK Recovery, v1.3.0",
+        "## Owner mandate and authoritative lane",
+        "## Actual transform changes, exactly",
+        "## Protected, verification and deployment gates",
+        "## Known scope limits and stop boundaries",
+        "## Off-device regression fixture"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/CONTACT_IK_v1.3.1.md",
+      "sizeBytes": 4418,
+      "SHA256": "5cea03244cb4cf0573f34d01ac14e8d0a05000d4adc553543172cc0e45efddbe",
+      "lines": 29,
+      "headings": [
+        "# Obsidianti v1.3.1: source velocity + scale-aware retargeted pelvis and target IK",
+        "## Owner review and recovery locks",
+        "## Evidence boundaries"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/CONTACT_IK_v1.3.2.md",
+      "sizeBytes": 3023,
+      "SHA256": "d6d26c32317ce1044a674f0018310677af9f4d8e55cf0dd029c849c6a6ebc18c",
+      "lines": 22,
+      "headings": [
+        "# v1.3.2: source-grounded IK with reachable stance anchors and owner priorities",
+        "## Owner scope and verdict",
+        "## Anchor fitting",
+        "## Deployment and evidence"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/FK_AUTHORITY_IK_v1.10.1.md",
+      "sizeBytes": 1317,
+      "SHA256": "aeca3545e78f8882d0b5927322983ca2d34c5265262a10215606a6526eb79c75",
+      "lines": 10,
+      "headings": [
+        "# Obsidianti FK-authoritative Blender baseline + gated IK authoring v1.10.1"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/FK_AUTHORITY_IK_v1.10.2.md",
+      "sizeBytes": 1406,
+      "SHA256": "340aabec2321a1208cb8f30d525bfc013f3f128a3a4c26ff791b9049a320ab27",
+      "lines": 11,
+      "headings": [
+        "# Obsidianti FK-authoritative knee pole recovery v1.10.2"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/FK_AUTHORITY_IK_v1.10.3.md",
+      "sizeBytes": 1728,
+      "SHA256": "b72be1b3d44fe2e3703a77f18c51b8a9992992071137ec98336bdafa0c2593d9",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti dense FK-to-IK v1.10.3"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/FOOT_STABILIZATION_v1.11.0.md",
+      "sizeBytes": 1821,
+      "SHA256": "a41358f9a80f16811852ebafb9d329f8614c895357e0ac95bd2401683fe5954e",
+      "lines": 9,
+      "headings": [
+        "# OBSIDIANTI_FOOT_STABILIZATION_v1.11.0"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/FULL_LIBRARY_v1.1.0.md",
+      "sizeBytes": 4225,
+      "SHA256": "f053b8cbac40e721b3bd4b080458ff39a557e6a2cd64e1e3554f1f5ba0b6307f",
+      "lines": 33,
+      "headings": [
+        "# Obsidianti full animated-action library v1.1.0",
+        "## Authority",
+        "## User-visible goal",
+        "## Runner",
+        "## Known verification boundary"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_BLENDER_IK_v1.5.1.md",
+      "sizeBytes": 6402,
+      "SHA256": "6d2e9fc484a1cb662388aff9ef0f9afb4a488e735894565aab02a5af88663f74",
+      "lines": 25,
+      "headings": [
+        "# Obsidianti Heavy1: true Blender constraint IK transfer, v1.5.1",
+        "## Commission and authority",
+        "## Exact allowed edits",
+        "## Actual Blender IK authoring",
+        "## Evidence and limitations"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_BLENDER_IK_v1.5.3.md",
+      "sizeBytes": 7465,
+      "SHA256": "e151672dae4e731f5670b6b2c051d4981df8ac836fae6f8dde935bf8e219aa97",
+      "lines": 42,
+      "headings": [
+        "# Obsidianti Heavy1: true Blender constraint IK transfer, v1.5.3",
+        "## Commission and authority",
+        "## Exact allowed edits",
+        "## Actual Blender IK authoring",
+        "## Evidence and limitations",
+        "## v1.5.3 source-world trajectory correction"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_BLENDER_IK_v1.5.4.md",
+      "sizeBytes": 8146,
+      "SHA256": "c4a466529ab267d54537365c2e6467f416880e28ccf8d550094c233bdc07bc29",
+      "lines": 53,
+      "headings": [
+        "# Obsidianti Heavy1: true Blender constraint IK transfer, v1.5.4",
+        "## Commission and authority",
+        "## Exact allowed edits",
+        "## Actual Blender IK authoring",
+        "## Evidence and limitations",
+        "## v1.5.4 source-world trajectory correction",
+        "## v1.5.4 Combined diagnostics and physical preview"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_BLENDER_IK_v1.5.5.md",
+      "sizeBytes": 9221,
+      "SHA256": "09c3f47ab515c365efbb72eb861653092d2118fd2077538b1d69a230374e4a28",
+      "lines": 69,
+      "headings": [
+        "# Obsidianti Heavy1: true Blender constraint IK transfer, v1.5.5",
+        "## Commission and authority",
+        "## Exact allowed edits",
+        "## Actual Blender IK authoring",
+        "## Evidence and limitations",
+        "## v1.5.5 source-world trajectory correction",
+        "## v1.5.5 Combined diagnostics and physical preview",
+        "## v1.5.5 source-driven hip-independent IK targets"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_BLENDER_IK_v1.5.6.md",
+      "sizeBytes": 9886,
+      "SHA256": "c692af9675401d52f22983eb7dce0df1b24b2d2e417c86b61366608e25cf7481",
+      "lines": 80,
+      "headings": [
+        "# Obsidianti Heavy1: true Blender constraint IK transfer, v1.5.6",
+        "## Commission and authority",
+        "## Exact allowed edits",
+        "## Actual Blender IK authoring",
+        "## Evidence and limitations",
+        "## v1.5.6 source-world trajectory correction",
+        "## v1.5.6 Combined diagnostics and physical preview",
+        "## v1.5.6 source-driven hip-independent IK targets",
+        "## v1.5.6 metadata contract correction"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/HEAVY1_NATIVE_IK_v1.5.0.md",
+      "sizeBytes": 6999,
+      "SHA256": "51aaa630e6da10ec242999e4d6aeb9f11179ca8c055c9fa6ae06e27174efb4d1",
+      "lines": 46,
+      "headings": [
+        "# Obsidianti Heavy1: native Lionheart Foot.IK retarget candidate v1.5.0",
+        "## Commission and exact mutation lane",
+        "## Pinned real inputs",
+        "## Permitted and forbidden edits",
+        "## Method",
+        "## Acceptance observations",
+        "## Blockers and explicit limits"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IDLE_TRANSFER_v1.0.0.md",
+      "sizeBytes": 4849,
+      "SHA256": "143c42c8ce061d2889553d1799078e14e13b5e32ba3b37499d36ebdd3117bc47",
+      "lines": 33,
+      "headings": [
+        "# Obsidianti: Lionheart Idle intake v1.0.0",
+        "## Intake packet: immutable binary sources",
+        "## Stage, execution and review boundaries",
+        "## Next work after this intake",
+        "## Reusing the canonical path"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.0.md",
+      "sizeBytes": 3361,
+      "SHA256": "9bdab65b92fb925a109068b91550007e5a2c1e8cac7384c4d079aca1e011d06c",
+      "lines": 21,
+      "headings": [
+        "# Obsidianti sparse-key IK Blender authoring campaign v1.9.0",
+        "## Mission and authority",
+        "## Inspection gates",
+        "## Editable output",
+        "## Gates and proof"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.1.md",
+      "sizeBytes": 4133,
+      "SHA256": "97d17f1575c51cd2f719c23d8e0c0e664e214e80b665a932235bb6e02f5ae803",
+      "lines": 24,
+      "headings": [
+        "# Obsidianti sparse-key IK Blender authoring campaign v1.9.1",
+        "## Mission and authority",
+        "## Inspection gates",
+        "## Editable output",
+        "## Gates and proof",
+        "## v1.9.1 field repair and action identity"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.2.md",
+      "sizeBytes": 5204,
+      "SHA256": "9757c1ae61f9d3d37b82514b0299c4b04803311d3957d39c5359769266566967",
+      "lines": 30,
+      "headings": [
+        "# Obsidianti sparse-key IK Blender authoring campaign v1.9.2",
+        "## Mission and authority",
+        "## Inspection gates",
+        "## Editable output",
+        "## Gates and proof",
+        "## v1.9.2 field repair and action identity",
+        "## v1.9.2 field repair: compressed native BLEND output"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.3.md",
+      "sizeBytes": 6020,
+      "SHA256": "ae7d68181573f7d1aa2590ee6cea5202307e8242e3500f729ce7ceee767aec38",
+      "lines": 34,
+      "headings": [
+        "# Obsidianti sparse-key IK Blender authoring campaign v1.9.3",
+        "## Mission and authority",
+        "## Inspection gates",
+        "## Editable output",
+        "## Gates and proof",
+        "## v1.9.3 field repair and action identity",
+        "## v1.9.3 field repair: compressed native BLEND output",
+        "## v1.9.3 field repair: Zstandard format and recovery"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.4.md",
+      "sizeBytes": 3532,
+      "SHA256": "b03c82f341a53fad7b40e17dbbf3679a39645d9b7a3b6434056a40fca86bc069",
+      "lines": 18,
+      "headings": [
+        "# Obsidianti native FK-to-IK edit conversion v1.9.4",
+        "## Commission and authority",
+        "## Native authoring construction",
+        "## Output"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/IK_AUTHORING_v1.9.5.md",
+      "sizeBytes": 3967,
+      "SHA256": "1e1b0eb82930473d382b57294420b5d77a804d225e97b1f107e28e3b4df7fdd9",
+      "lines": 22,
+      "headings": [
+        "# Obsidianti native FK-to-IK edit conversion v1.9.5",
+        "## Commission and authority",
+        "## Native authoring construction",
+        "## Output",
+        "## v1.9.5 owner fixes"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/MOTION_MEASUREMENT_v1.0.0.md",
+      "sizeBytes": 3571,
+      "SHA256": "1f22e8f6904a48c6aae8e9ac561c6814273a8c46ab21a1fd98104315ad25fcbf",
+      "lines": 29,
+      "headings": [
+        "# Obsidianti Native Motion Measurement v1.0.0",
+        "## Mission and authority",
+        "## Inputs",
+        "## Method",
+        "## Evidence/limitations",
+        "## Output paths"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/MOTION_MEASUREMENT_v1.0.1.md",
+      "sizeBytes": 4165,
+      "SHA256": "a76de3f01b9ca2333461e41e11d9a70e52b1148ed9f30916e7e1602784d17179",
+      "lines": 33,
+      "headings": [
+        "# Obsidianti Native Motion Measurement v1.0.1",
+        "## Mission and authority",
+        "## Inputs",
+        "## Method",
+        "## Evidence/limitations",
+        "## Output paths",
+        "## v1.0.1 field correction"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/MULTI_ACTION_IK_REVIEW_v1.7.0.md",
+      "sizeBytes": 3434,
+      "SHA256": "0230ebb71ecb48d883b0eca4a4f94bcd0ce549a5e9a779376e05042dd445cf13",
+      "lines": 27,
+      "headings": [
+        "# Obsidianti multi-action native Blender IK visual candidate, v1.7.0",
+        "## User commission",
+        "## Authority",
+        "## Inputs",
+        "## Implementation and review boundaries"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/PELVIS_WEAPON_RECOVER_v1.2.2.md",
+      "sizeBytes": 3211,
+      "SHA256": "330f7702cc46a659cb908de303adab92e24ad6ef608c4cf50644cde4381a1edb",
+      "lines": 31,
+      "headings": [
+        "# Obsidianti v1.2.2: recover previously committed pelvis + weapon fix",
+        "## Commission and precise failure",
+        "## Authorization and locks",
+        "## End-to-end evidence",
+        "### Prior verified references",
+        "## Status"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/PELVIS_WEAPON_v1.2.1.md",
+      "sizeBytes": 4771,
+      "SHA256": "f210317d0b62c8c63b9375a8d1979fa513c709c82c663e7bf89d7d93d989769a",
+      "lines": 40,
+      "headings": [
+        "# Obsidianti: Lionheart pelvis and weapon translations v1.2.1",
+        "## Problem, diagnosis, and surgical correction",
+        "## Evidence and limitations",
+        "## v1.2.1 recovery from verified v1.2.0 field failure"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/SOURCE_RIG_FORENSICS_v1.0.0.md",
+      "sizeBytes": 725,
+      "SHA256": "88bfb6c2d2e8e9f7bf1fb47a8b317f3e808c936ca1296f3742d1f79c249ad34d",
+      "lines": 3,
+      "headings": [
+        "# Obsidianti source-rig forensics v1.0.0"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/SPARSE_FK_AUTHORING_v1.10.4.md",
+      "sizeBytes": 1651,
+      "SHA256": "b5defaf04275f4243019e0f7fc76c1fdfbf8a441ddd326c7e44d436f94650425",
+      "lines": 11,
+      "headings": [
+        "# Obsidianti sparse FK-only authoring v1.10.4"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/SPARSE_FK_REVIEW_v1.10.5.md",
+      "sizeBytes": 1189,
+      "SHA256": "4ab8448af226bce46a6925e13e4b7bf9f6d8e9a19ce0cf1ed09f0b2226d4cb12",
+      "lines": 9,
+      "headings": [
+        "# Obsidianti Sparse FK review v1.10.5"
+      ]
+    },
+    {
+      "path": "docs/obsidianti/THREE_VERSION_VIEW_v1.8.0.md",
+      "sizeBytes": 2159,
+      "SHA256": "18991ff2504e6a6468ae437284c1633a3afad9d2561e5f05a04a5f9f0762800e",
+      "lines": 15,
+      "headings": [
+        "# Obsidianti three-version comparison viewer v1.8.0",
+        "## Commission",
+        "## Evidence and authority",
+        "## UI and regression requirements"
+      ]
+    },
+    {
+      "path": "tests/OBSIDIANTI_ALL_ACTION_IK_TEST_v1.4.0.py",
+      "sizeBytes": 1169,
+      "SHA256": "f76ed880eb141e0c8fe661711ecba92d100222c8ecae113ca2a18506b50431b8"
+    },
+    {
+      "path": "tests/OBSIDIANTI_CONTACT_IK_TEST_v1.3.0.py",
+      "sizeBytes": 7743,
+      "SHA256": "cfa3907909a055d0b950136e1e41ce18b74842e590c211f29c1e1209d5472ff2"
+    },
+    {
+      "path": "tests/OBSIDIANTI_CONTACT_IK_TEST_v1.3.1.py",
+      "sizeBytes": 10985,
+      "SHA256": "144d0ebbc2f9715263edd4eba459a2f304a28280bc9945ecc95c74150ca489bf"
+    },
+    {
+      "path": "tests/OBSIDIANTI_CONTACT_IK_TEST_v1.3.2.py",
+      "sizeBytes": 12209,
+      "SHA256": "39a3e6a3ddc21a4a1cf8817fd0eef329401c45e250fec1c40ee37a6156091f04"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_BLENDER_IK_TEST_v1.5.1.py",
+      "sizeBytes": 6489,
+      "SHA256": "fc336cd379c12bf4fc71bb2c8434af628a1fca27e8f27ef80a8a3a1318ffd7b6"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_BLENDER_IK_TEST_v1.5.3.py",
+      "sizeBytes": 6845,
+      "SHA256": "85d6d22ad7440fb19bc01908a10ae38c4aa787c384e0b245def944628685021e"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_BLENDER_IK_TEST_v1.5.4.py",
+      "sizeBytes": 7092,
+      "SHA256": "39177a2f96ff5e39dbdd9b2eb42481d14070388b6b8f75b011ba96312ca460d1"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_BLENDER_IK_TEST_v1.5.5.py",
+      "sizeBytes": 7298,
+      "SHA256": "82e666aad753cb99666f9cc0d0bff4fa2c58d4f5d36c922cf8dc479f310526c3"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_BLENDER_IK_TEST_v1.5.6.py",
+      "sizeBytes": 7644,
+      "SHA256": "1cd9da871edbc1bceecc693ea4c4e8f4fafc1b6d6ba8aae25fbd355e2e65212c"
+    },
+    {
+      "path": "tests/OBSIDIANTI_HEAVY1_NATIVE_IK_TEST_v1.5.0.py",
+      "sizeBytes": 8196,
+      "SHA256": "a3bbf26a9c950880e6878afd5c154672619053f9a829aad70d8eb17d08adddba"
+    },
+    {
+      "path": "tests/OBSIDIANTI_PELVIS_WEAPON_RECOVER_TEST_v1.2.2.py",
+      "sizeBytes": 8441,
+      "SHA256": "351cfa29e6c88e590cd9ba592dc3ebcfcc07e50120a62cca5fd96cc63550fa06"
+    },
+    {
+      "path": "tests/OBSIDIANTI_PELVIS_WEAPON_TEST_v1.2.1.py",
+      "sizeBytes": 4403,
+      "SHA256": "d7ce1f5f1a20cc19275e9ec200ff447fa65a6cc7480de70f0cbf38a86b11e702"
+    },
+    {
+      "path": "tests/OBSIDIANTI_RULES_GATE_TEST_v1.2.1.py",
+      "sizeBytes": 2606,
+      "SHA256": "50f489fbed9aa329ca3d68b3ede88fc886d6113d0783392ef37f4de04edd1724"
+    }
+  ],
+  "recentCampaignHistory": [
+    "b20b761|2026-11-06|Obsidianti: source-first bilateral retarget archaeology and measurement campaign",
+    "5218472|2026-11-06|Obsidianti: investigate blend vs GLB importer and publish GLB-first retarget review"
+  ],
+  "originalImportProvenance": {
+    "script": "campaigns/OBSIDIANTI_SOURCE_SAMPLER_v1.1.0.py",
+    "lionheart": "BLEND_OPEN_MAINFILE",
+    "ares": "GLTF_IMPORT",
+    "evaluatedPoseSampling": "pb.matrix in Blender depsgraph",
+    "restPoseMapping": "campaigns/OBSIDIANTI_GLTF_LIBRARY_v1.1.0.py",
+    "sourceToApprovedIdleQuatRebase": "offset = approved_target_idle * inverse(mapped_source_idle); output = offset * mapped_source_pose",
+    "pelvisTransfer": "source hip world-space delta added to approved target hip, with a single global translation, without per-foot world-space lock",
+    "glbRotations": "LINEAR interpolation at sampled source action frames"
+  },
+  "cautions": [
+    "Historic script explicitly evaluated source IK; merely changing the Lionheart file format does not repair geometry-dependent retarget error.",
+    "The source and target may have different rest poses; local rotations matching do not establish equal world-space foot placement.",
+    "This index is repository archaeology, not evidence that any past visual report was accepted."
+  ]
+}
