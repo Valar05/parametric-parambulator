@@ -1,0 +1,681 @@
+{
+  "actions": {
+    "Cast": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Cast",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 30,
+          "sparseTimes": 11
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 30,
+          "sparseTimes": 12
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 30,
+          "sparseTimes": 10
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 30,
+          "sparseTimes": 11
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 30,
+          "sparseTimes": 12
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 30,
+          "sparseTimes": 11
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0023735319400669907,
+        "foot_deg": 0.2741122200199929,
+        "hip_m": 0.0,
+        "joint_deg": 0.27124185970172154,
+        "knee_m": 0.001213088552464834
+      },
+      "originalAction": "Lionheart_Cast_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 117,
+      "sourceKeyGroups": 180,
+      "sparseKeyGroups": 67,
+      "worst": {
+        "ankle_m": {
+          "bone": "Right_Foot",
+          "error": 0.0023735319400669907,
+          "time": 11.200001
+        },
+        "foot_deg": {
+          "bone": "Right_Foot",
+          "error": 0.2741122200199929,
+          "time": 10.4
+        },
+        "joint_deg": {
+          "bone": "Right_Leg",
+          "error": 0.27124185970172154,
+          "time": 10.4
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.001213088552464834,
+          "time": 22.399998
+        }
+      }
+    },
+    "Heavy1": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Heavy1",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 18
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 13
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 23
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 27
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 24
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 29
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0022530539546688267,
+        "foot_deg": 0.34717880899643905,
+        "hip_m": 0.0,
+        "joint_deg": 0.32385099157734804,
+        "knee_m": 0.0019225451904108033
+      },
+      "originalAction": "Lionheart_Heavy1_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 134,
+      "worst": {
+        "ankle_m": {
+          "bone": "Left_Foot",
+          "error": 0.0022530539546688267,
+          "time": 17.599998
+        },
+        "foot_deg": {
+          "bone": "Left_Foot",
+          "error": 0.34717880899643905,
+          "time": 23.200001
+        },
+        "joint_deg": {
+          "bone": "Left_UpLeg",
+          "error": 0.32385099157734804,
+          "time": 17.599998
+        },
+        "knee_m": {
+          "bone": "Left_Leg",
+          "error": 0.0019225451904108033,
+          "time": 17.599998
+        }
+      }
+    },
+    "Heavy2": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Heavy2",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 17
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 17
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 23
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 25
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 20
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 31
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.001488894415058252,
+        "foot_deg": 0.22028686090485455,
+        "hip_m": 0.0,
+        "joint_deg": 0.22381166540340428,
+        "knee_m": 0.001218790861772425
+      },
+      "originalAction": "Lionheart_Heavy2_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 133,
+      "worst": {
+        "ankle_m": {
+          "bone": "Left_Foot",
+          "error": 0.001488894415058252,
+          "time": 20.0
+        },
+        "foot_deg": {
+          "bone": "Left_Foot",
+          "error": 0.22028686090485455,
+          "time": 20.0
+        },
+        "joint_deg": {
+          "bone": "Left_Leg",
+          "error": 0.22381166540340428,
+          "time": 20.0
+        },
+        "knee_m": {
+          "bone": "Left_Leg",
+          "error": 0.001218790861772425,
+          "time": 18.400002
+        }
+      }
+    },
+    "Heavy3": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Heavy3",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 27
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 23
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 29
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 26
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 21
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 28
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.002504726623455007,
+        "foot_deg": 0.4187134612472453,
+        "hip_m": 0.0,
+        "joint_deg": 0.2797646284450016,
+        "knee_m": 0.0012128804509934363
+      },
+      "originalAction": "Lionheart_Heavy3_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 154,
+      "worst": {
+        "ankle_m": {
+          "bone": "Left_Foot",
+          "error": 0.002504726623455007,
+          "time": 2.4
+        },
+        "foot_deg": {
+          "bone": "Right_Foot",
+          "error": 0.4187134612472453,
+          "time": 15.2
+        },
+        "joint_deg": {
+          "bone": "Left_Leg",
+          "error": 0.2797646284450016,
+          "time": 20.0
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.0012128804509934363,
+          "time": 4.8
+        }
+      }
+    },
+    "Kick": {
+      "attemptTolerance_deg": 0.15,
+      "editableAction": "SPARSE_FK_Kick",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 24
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 24
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 27
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 31
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 27
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 31
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0010495965950639093,
+        "foot_deg": 0.16785874238244658,
+        "hip_m": 0.0,
+        "joint_deg": 0.14265250287968312,
+        "knee_m": 0.000399399304552243
+      },
+      "originalAction": "Lionheart_Kick_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 164,
+      "worst": {
+        "ankle_m": {
+          "bone": "Left_Foot",
+          "error": 0.0010495965950639093,
+          "time": 19.200001
+        },
+        "foot_deg": {
+          "bone": "Left_Foot",
+          "error": 0.16785874238244658,
+          "time": 22.399998
+        },
+        "joint_deg": {
+          "bone": "Left_Leg",
+          "error": 0.14265250287968312,
+          "time": 3.199999
+        },
+        "knee_m": {
+          "bone": "Left_Leg",
+          "error": 0.000399399304552243,
+          "time": 19.200001
+        }
+      }
+    },
+    "Light1": {
+      "attemptTolerance_deg": 0.15,
+      "editableAction": "SPARSE_FK_Light1",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 18
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 17
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 24
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 25
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 21
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 25
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0016359361527692236,
+        "foot_deg": 0.13705608332957003,
+        "hip_m": 0.0,
+        "joint_deg": 0.13705608332957003,
+        "knee_m": 0.0007954599497243977
+      },
+      "originalAction": "Lionheart_Light1_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 130,
+      "worst": {
+        "ankle_m": {
+          "bone": "Right_Foot",
+          "error": 0.0016359361527692236,
+          "time": 1.600001
+        },
+        "foot_deg": {
+          "bone": "Right_Foot",
+          "error": 0.13705608332957003,
+          "time": 1.600001
+        },
+        "joint_deg": {
+          "bone": "Right_Leg",
+          "error": 0.13705608332957003,
+          "time": 20.799999
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.0007954599497243977,
+          "time": 1.600001
+        }
+      }
+    },
+    "Light2": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Light2",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 16
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 15
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 20
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 20
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 19
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 23
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0027735234639061097,
+        "foot_deg": 0.4352117565069847,
+        "hip_m": 0.0,
+        "joint_deg": 0.34034837970258824,
+        "knee_m": 0.0020104157752598483
+      },
+      "originalAction": "Lionheart_Light2_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 113,
+      "worst": {
+        "ankle_m": {
+          "bone": "Left_Foot",
+          "error": 0.0027735234639061097,
+          "time": 4.000001
+        },
+        "foot_deg": {
+          "bone": "Left_Foot",
+          "error": 0.4352117565069847,
+          "time": 4.000001
+        },
+        "joint_deg": {
+          "bone": "Left_Leg",
+          "error": 0.34034837970258824,
+          "time": 16.0
+        },
+        "knee_m": {
+          "bone": "Left_Leg",
+          "error": 0.0020104157752598483,
+          "time": 16.0
+        }
+      }
+    },
+    "Light3": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_Light3",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 36,
+          "sparseTimes": 27
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 36,
+          "sparseTimes": 26
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 36,
+          "sparseTimes": 31
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 36,
+          "sparseTimes": 27
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 36,
+          "sparseTimes": 21
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 36,
+          "sparseTimes": 30
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0021434989953336807,
+        "foot_deg": 0.33337806493288447,
+        "hip_m": 0.0,
+        "joint_deg": 0.3165175562037229,
+        "knee_m": 0.0013866662218708383
+      },
+      "originalAction": "Lionheart_Light3_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 141,
+      "sourceKeyGroups": 216,
+      "sparseKeyGroups": 162,
+      "worst": {
+        "ankle_m": {
+          "bone": "Right_Foot",
+          "error": 0.0021434989953336807,
+          "time": 26.400002
+        },
+        "foot_deg": {
+          "bone": "Left_Foot",
+          "error": 0.33337806493288447,
+          "time": 24.0
+        },
+        "joint_deg": {
+          "bone": "Right_UpLeg",
+          "error": 0.3165175562037229,
+          "time": 19.200001
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.0013866662218708383,
+          "time": 19.200001
+        }
+      }
+    },
+    "SpringAttack": {
+      "attemptTolerance_deg": 0.35,
+      "editableAction": "SPARSE_FK_SpringAttack",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 34,
+          "sparseTimes": 28
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 34,
+          "sparseTimes": 27
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 34,
+          "sparseTimes": 28
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 34,
+          "sparseTimes": 28
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 34,
+          "sparseTimes": 24
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 34,
+          "sparseTimes": 29
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.00226888963883947,
+        "foot_deg": 0.33337806493288447,
+        "hip_m": 0.0,
+        "joint_deg": 0.33337806493288447,
+        "knee_m": 0.0007409548065521876
+      },
+      "originalAction": "Lionheart_SpringAttack_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 133,
+      "sourceKeyGroups": 204,
+      "sparseKeyGroups": 164,
+      "worst": {
+        "ankle_m": {
+          "bone": "Right_Foot",
+          "error": 0.00226888963883947,
+          "time": 18.400002
+        },
+        "foot_deg": {
+          "bone": "Right_Foot",
+          "error": 0.33337806493288447,
+          "time": 18.400002
+        },
+        "joint_deg": {
+          "bone": "Right_Leg",
+          "error": 0.33337806493288447,
+          "time": 18.400002
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.0007409548065521876,
+          "time": 8.0
+        }
+      }
+    },
+    "Stomp": {
+      "attemptTolerance_deg": 0.15,
+      "editableAction": "SPARSE_FK_Stomp",
+      "editableFCurves": 117,
+      "groups": {
+        "mixamorig:LeftFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 19
+        },
+        "mixamorig:LeftLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 21
+        },
+        "mixamorig:LeftUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 24
+        },
+        "mixamorig:RightFoot": {
+          "sourceTimes": 31,
+          "sparseTimes": 27
+        },
+        "mixamorig:RightLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 17
+        },
+        "mixamorig:RightUpLeg": {
+          "sourceTimes": 31,
+          "sparseTimes": 26
+        }
+      },
+      "limitsPassed": true,
+      "maxError": {
+        "ankle_m": 0.0015161693185085973,
+        "foot_deg": 0.16312936999074168,
+        "hip_m": 0.0,
+        "joint_deg": 0.1312212074681015,
+        "knee_m": 0.0006926984257728103
+      },
+      "originalAction": "Lionheart_Stomp_SmartRigArmature",
+      "originalFCurves": 117,
+      "samples": 121,
+      "sourceKeyGroups": 186,
+      "sparseKeyGroups": 134,
+      "worst": {
+        "ankle_m": {
+          "bone": "Right_Foot",
+          "error": 0.0015161693185085973,
+          "time": 12.799999
+        },
+        "foot_deg": {
+          "bone": "Right_Foot",
+          "error": 0.16312936999074168,
+          "time": 17.599998
+        },
+        "joint_deg": {
+          "bone": "Left_Leg",
+          "error": 0.1312212074681015,
+          "time": 6.400001
+        },
+        "knee_m": {
+          "bone": "Right_Leg",
+          "error": 0.0006926984257728103,
+          "time": 12.799999
+        }
+      }
+    }
+  },
+  "authority": "EXACT_VERIFIED_V1.10.1_FK_BLENDER_BASELINE",
+  "errors": [],
+  "ikConstraintsIntroduced": false,
+  "limits": {
+    "ankle_m": 0.003,
+    "foot_deg": 0.5,
+    "hip_m": 0.0005,
+    "joint_deg": 0.5,
+    "knee_m": 0.003
+  },
+  "originalActionsProtected": true,
+  "outputBlend": "/mnt/obs-work/SPARSE_FK_EDITABLE_UNAPPROVED.blend",
+  "reductionFraction": 0.287592,
+  "schema": "obsidianti-sparse-fk-v1.10.4",
+  "status": "SPARSE_FK_PARITY_PASS_UNAPPROVED_FOR_VISUAL_REVIEW",
+  "totalOriginalLegKeyGroups": 1902,
+  "totalSparseLegKeyGroups": 1355
+}
