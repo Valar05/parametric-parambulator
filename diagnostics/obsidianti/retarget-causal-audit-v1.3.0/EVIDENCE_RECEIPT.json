@@ -1,0 +1,24 @@
+{
+  "schema": "obsidianti-v1.3.0-evidence-receipt",
+  "sourceGitRevision": "a1c6df9d76c223b08fe5209af41d34c6fbb32419",
+  "originalLionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "historicalGLBSHA256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+  "sourceEvaluatedSHA256": "70ee2fbc44c2d52964e7c11f66cf145b386d50be809830613ed0ad04733a9b04",
+  "analysisJSONSHA256": "81735055da2d2932544822239a2a49762affb6128f86c218b63c9e6f077ba36b",
+  "canonicalAnalysisJSONSHA256": "dd33e0df2ad5351c2aec5e34756fc651cf3d1b7ba92ba0eb7ada2a308178515a",
+  "summaryMarkdownSHA256": "b9ab444deeb1806ed7a564fb65045ea421f67b137a34087e9b3b14c1748cc7f9",
+  "agentsBlobSHA": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "authorLiveCampaignEtiquette": "2026-11-06",
+  "canonGitTreeBlobs": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "sourceSampler": {
+    "samplerSHA256": "98770b93d856aef0d594f72108f4c723ba418eed23fb1d72539b224194ad64df",
+    "actualEvaluatedSourceSHA256": "70ee2fbc44c2d52964e7c11f66cf145b386d50be809830613ed0ad04733a9b04",
+    "actionCount": 11,
+    "blenderVersion": "4.3.2"
+  },
+  "canonicalModified": false,
+  "status": "NO_MODEL_REPAIR_PROVEN_DIAGNOSIS_ONLY"
+}
