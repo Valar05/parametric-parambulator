@@ -1,0 +1,9 @@
+# OBSIDIANTI_FOOT_STABILIZATION_v1.11.0
+
+Authorized lane: isolated Termux Git only. User edited source: `SPARSE_FK_EDITABLE_UNAPPROVED.blend`, SHA-256 `e740668656c20bd8ea375d5bdeeec49e5719585f7670667e7c232fb2cc34fad4`. Read mandatory repository `AGENTS.md` and live Campaign Etiquette before generating. No canonical GLB mutation, no overwriting original edited actions, no direct GitHub connector writes.
+
+Scope: Heavy1, Heavy2, Heavy3, principally right leg. Classify actual world-space contacts from the user's FK poses. For grounded intervals, choose a median foot anchor, use temporary non-stretch two-bone IK with pole based on the original knee plane to construct local corrections and bake to FK rotation keys. Reject frames with >1 cm target error or >8.5 cm knee displacement; require at least 60% contact frame coverage and measured improvement in planted-foot drift. If no confident planted segments or measurable improvement, preserve the exact edited clip as a visibly labeled fallback. Preserve other actions and the left leg. Do not claim stabilization succeeded when only fallback exported.
+
+Publish campaign sources first through Termux Git. Deliver exactly six source-before/candidate-or-fallback clips in SHA-identified GLB with phone review URL; editable `.blend` in `assets/obsidianti/`, original source remains intact. Require SHA-verified export, GLB structure, skin and six clips; Git LFS remote readback; no-cache unique localhost URL and working server. Human visual approval is separate and required. Preflight unique Git paths and source SHA. Persist logs/receipts and print URL even if Android open fails.
+
+Note: Automatic contact classification can fail; bounded fallback uses original edited animation for comparison. No guarantees of visual quality before the user reviews actual export.
