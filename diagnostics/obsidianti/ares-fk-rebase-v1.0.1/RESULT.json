@@ -1,0 +1,221 @@
+{
+  "schema": "obsidianti-ares-scaled-fk-review-v1",
+  "status": "UNAPPROVED_REVIEW_CANDIDATE",
+  "algorithm": "EXACT_ARES_PELVIS_DELTA_SCALE_WITH_FK_LEG_ROTATIONS_PRESERVED",
+  "motionSource": "HISTORICAL_PRECONTACT_IK_FK_MODEL_NOT_LATEST_V156",
+  "sourceSha256": "5fa8773736cf4fd28eae13e13368246642642a1802d76e47ed7e14faf70d04c0",
+  "candidateSha256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+  "ratioLeft": 0.87253935749254,
+  "ratioRight": 0.8674977912933128,
+  "scaleApplied": 0.8700185743929264,
+  "anatomicalAsymmetryNote": "Mean bilateral leg ratio for common pelvis; foot controls not independently translated",
+  "protectedOtherClips": [
+    "Running",
+    "Walking",
+    "LionheartIdle_UNREVIEWED",
+    "ObsidiantiIdle",
+    "Ares_StepForward_Lower",
+    "Ares_StepBack_Lower",
+    "Ares_StepLeft_Lower",
+    "Ares_StepRight_Lower",
+    "Ares_StepForwardLeft_Lower",
+    "Ares_StepForwardRight_Lower",
+    "Ares_StepBackLeft_Lower",
+    "Ares_StepBackRight_Lower",
+    "Ares_AxeKick_Full"
+  ],
+  "changedClips": [
+    {
+      "clip": "Cast",
+      "count": 30,
+      "fpsIndependentDurationSeconds": 0.9666666984558105,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        0.00827871635556221
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        0.00827871635556221
+      ],
+      "maxHipCorrectionMeters": 0.01832076685397902,
+      "originalMaxTravelFromIdle_m": 0.14094911460166348,
+      "correctedMaxTravelFromIdle_m": 0.12262834774768447,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Heavy1",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.04339436581603566,
+      "originalMaxTravelFromIdle_m": 0.333850514512853,
+      "correctedMaxTravelFromIdle_m": 0.29045614869681735,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Heavy2",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        -0.01762331835925579,
+        0.7687325477600098,
+        0.25443920493125916
+      ],
+      "firstHipAfter": [
+        -0.014901037257286476,
+        0.7784581818033234,
+        0.2224429136980563
+      ],
+      "maxHipCorrectionMeters": 0.06672249438063524,
+      "originalMaxTravelFromIdle_m": 0.5133233003793444,
+      "correctedMaxTravelFromIdle_m": 0.44660080599870916,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Heavy3",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        -0.10494371503591537,
+        0.7674996852874756,
+        0.2994120717048645
+      ],
+      "firstHipAfter": [
+        -0.09087140428933868,
+        0.7773855685525466,
+        0.26157014313479143
+      ],
+      "maxHipCorrectionMeters": 0.04156647898946146,
+      "originalMaxTravelFromIdle_m": 0.31978783734157945,
+      "correctedMaxTravelFromIdle_m": 0.278221358352118,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Kick",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.10521900981444426,
+      "originalMaxTravelFromIdle_m": 0.8094926588396967,
+      "correctedMaxTravelFromIdle_m": 0.7042736490252525,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Light1",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.03501245921733643,
+      "originalMaxTravelFromIdle_m": 0.26936509623441957,
+      "correctedMaxTravelFromIdle_m": 0.23435263701708317,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Light2",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.054926381416701524,
+      "originalMaxTravelFromIdle_m": 0.42257100320426416,
+      "correctedMaxTravelFromIdle_m": 0.3676446217875627,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Light3",
+      "count": 36,
+      "fpsIndependentDurationSeconds": 1.1666667461395264,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.04449144463214206,
+      "originalMaxTravelFromIdle_m": 0.3422907882749119,
+      "correctedMaxTravelFromIdle_m": 0.2977993436427698,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "SpringAttack",
+      "count": 34,
+      "fpsIndependentDurationSeconds": 1.100000023841858,
+      "firstHipBefore": [
+        -0.23127558827400208,
+        0.8315557837486267,
+        -0.25966718792915344
+      ],
+      "firstHipAfter": [
+        -0.20078248054432676,
+        0.8331155640168902,
+        -0.2248391973046496
+      ],
+      "maxHipCorrectionMeters": 0.07101987139319048,
+      "originalMaxTravelFromIdle_m": 0.5463847704508139,
+      "correctedMaxTravelFromIdle_m": 0.47536489905762347,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    },
+    {
+      "clip": "Stomp",
+      "count": 31,
+      "fpsIndependentDurationSeconds": 1.0,
+      "firstHipBefore": [
+        0.0033202979248017073,
+        0.8315557837486267,
+        -0.009035984985530376
+      ],
+      "firstHipAfter": [
+        0.0033202979248017073,
+        0.8331155640168902,
+        -0.006785395421254453
+      ],
+      "maxHipCorrectionMeters": 0.057459306813414435,
+      "originalMaxTravelFromIdle_m": 0.4420578289940488,
+      "correctedMaxTravelFromIdle_m": 0.38459852218063434,
+      "rotationsAndNonHipChannels": "UNCHANGED"
+    }
+  ],
+  "canonicalMutation": false,
+  "limits": "Does not solve contact; user must compare geometry and skinned floor before acceptance."
+}
