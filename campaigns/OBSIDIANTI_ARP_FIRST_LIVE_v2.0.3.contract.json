@@ -1,0 +1,28 @@
+{
+  "campaign": "OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Privately install purchased Auto-Rig Pro 3.79.17 from Android Downloads; verify real Blender 4.3.2 headless operator registration; retarget exact Ares AxeKick where source is available and native Lionheart Heavy1 to canonical Obsidianti; render direct Blender side-view GIF and save editable Blender scene; publish evidence to original Git repo via user's Termux only. Do not implement custom retarget solver.",
+  "pinnedGitBase": "10c14a39812144f0ea4b961516186e5260197df2",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "sourceLionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "sourceAresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "vendorZipBasename": "auto_rig_pro_3.79.17.zip",
+  "vendorCodeMustStayPrivate": true,
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3.contract.json",
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_blender_probe.py",
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_blender_trial.py",
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_driver.py",
+    "campaigns/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_gif_writer.py",
+    "tests/OBSIDIANTI_ARP_FIRST_LIVE_v2.0.3_TEST.py"
+  ],
+  "diagnosticEvidencePathPrefix": "diagnostics/obsidianti/arp-first-live-v2.0.3/runs/",
+  "lockedModelPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "originalModelsMutable": false,
+  "ownerVisualAcceptanceRequired": true
+}
