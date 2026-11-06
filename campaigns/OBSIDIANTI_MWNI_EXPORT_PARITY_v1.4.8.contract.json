@@ -1,0 +1,26 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Use exact SHA-locked already baked Mwni v1.4.7 artifacts. Diagnose glTF keyframe values, explicitly bind glTF-imported armature action, and, if needed, test Blender ACTIONS/NLA_TRACKS/SCENE/ACTIVE_ACTIONS export variants. Do not rerun retargeting. Produce actual articulated ground-valid GLB viewer or clearly rejected diagnostic, plus exact Git evidence.",
+  "lockedDonorBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "vendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "pinnedPriorGitRevision": "32d751466f940a0ad3d9caffae5a43db409ea7d0",
+  "rulesGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "protectedAssets": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb"],
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_driver.py",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_glb_scan.py",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_glb_verify.py",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_export_variants.py",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_server.py",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_viewer.html",
+    "campaigns/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8.contract.json",
+    "tests/OBSIDIANTI_MWNI_EXPORT_PARITY_v1.4.8_TEST.py"
+  ],
+  "diagnosticEvidencePathPrefix": "diagnostics/obsidianti/mwni-export-parity-v1.4.8/runs/",
+  "ownerVisualAcceptanceRequired": true,
+  "sourcePreflight": "Exact v1.4.7 Blender scene snapshot SHA and GLB SHA for Kick and Light1, latest remote AGENTS blob and original canonical pointer must match",
+  "noCanonicalMutation": true
+}
