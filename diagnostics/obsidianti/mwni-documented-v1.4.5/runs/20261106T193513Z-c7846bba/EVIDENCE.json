@@ -1,0 +1,27 @@
+{
+  "schema": "mwni-documented-v1.4.5",
+  "status": "NO_PHYSICALLY_VALID_CANDIDATE",
+  "runId": "20261106T193513Z-c7846bba",
+  "sourceCommit": "6a348680a30d207ced8cae2322bf413a83382e9e",
+  "originalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "pluginVendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "allBlenderTrials": {
+    "attempts": {},
+    "clips": {},
+    "error": "SOURCE_ACTION_NOT_EXACTLY_FOUND_LionheartIdle_UNREVIEWED",
+    "pluginVendorSha": "8c91ff4f4d898bab835b3587f17585487056b60b",
+    "schema": "obsidianti-mwni-documented-retarget-v1.4.5",
+    "sourceSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+    "status": "BLOCKED",
+    "targetSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+    "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 316, in main\n    src.animation_data.action=get_action('Idle');tgt.animation_data.action=get_action('LionheartIdle_UNREVIEWED')\n                                                                           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/obs-work/blender_trial.py\", line 148, in get_action\n    if len(r)!=1:raise RuntimeError('SOURCE_ACTION_NOT_EXACTLY_FOUND_'+label)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SOURCE_ACTION_NOT_EXACTLY_FOUND_LionheartIdle_UNREVIEWED\n"
+  },
+  "reimportVerified": {},
+  "reimportFailures": {},
+  "canonicalModified": false,
+  "ownerVisualVerdict": "PENDING",
+  "launcherSHA256": "1e662ef605649afcb6562bf1f5ce24f20cfbe91b2bb5817bcbd0336f80efd805",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "documentation": "upstream README target unit scale, one-to-one mapping, rest alignment, driver and IK setup, visual-keyed bake"
+}
