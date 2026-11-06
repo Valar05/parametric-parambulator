@@ -1,0 +1,50 @@
+{
+  "campaign": "OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0",
+  "mission": "Prove exactly how Lionheart's independent IK foot constraints cease to be represented after proportional, bone-wise FK retargeting; distinguish shared-hip displacement from side-specific limb deformation.",
+  "authority": "ANDROID_TERMUX_GIT_ONLY",
+  "sourceRepository": "Valar05/parametric-parambulator",
+  "startingEvidenceCommit": "9c2529c309f79e8f6342a0850be3b61127b8b999",
+  "originalLionheartBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "historicalPreContactGLBSHA256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+  "protectedCanonicalObsidiantiGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "rules": {
+    "requiredRootAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteUrl": "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+    "scope": "read-only evaluation plus versioned source and evidence commits; no canonical model changes"
+  },
+  "lockedPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "mutablePaths": [
+    "campaigns/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0_driver.py",
+    "campaigns/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0_analyze.py",
+    "campaigns/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0_summarize.py",
+    "tests/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0_TEST.py",
+    "campaigns/OBSIDIANTI_RETARGET_CAUSAL_AUDIT_v1.3.0.contract.json",
+    "docs/obsidianti/RETARGET_CAUSAL_AUDIT_v1.3.0.md",
+    "diagnostics/obsidianti/retarget-causal-audit-v1.3.0/CAUSAL_AUDIT.json",
+    "diagnostics/obsidianti/retarget-causal-audit-v1.3.0/CAUSAL_AUDIT_CANONICAL.json",
+    "diagnostics/obsidianti/retarget-causal-audit-v1.3.0/CAUSE_REPORT.md",
+    "diagnostics/obsidianti/retarget-causal-audit-v1.3.0/EVIDENCE_RECEIPT.json"
+  ],
+  "tests": [
+    "exact packet member SHA",
+    "source script syntax and formula unit tests",
+    "same original Blender donor by SHA",
+    "half-frame Blender constraint evaluation",
+    "real historical GLB LFS binary by SHA",
+    "actual current canonical GLB LFS binary by SHA, evaluated independently",
+    "same-time actual FK world matrices",
+    "root translation invariance",
+    "rest basis rebase quaternion parity",
+    "true skinned shoe witnesses with uncertainty explicitly noted",
+    "all 10 attack clips, both sides",
+    "immutable canonical git tree before/after",
+    "source-first and evidence-second Git commit",
+    "exact non-forced remote readback"
+  ],
+  "finalStatus": "RESEARCH_COMMITTED_REMOTE_VERIFIED_MEANS_DIAGNOSIS_ONLY_NOT_MODEL_FIX",
+  "humanVisualApproval": "NOT_REQUESTED_FOR_READ_ONLY_DIAGNOSIS"
+}
