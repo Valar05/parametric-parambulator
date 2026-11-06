@@ -1,0 +1,29 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Continue documented Mwni retarget: resolve v1.4.6 global 0.9 m skin-sole offset by bounded scene-placement search without changing plugin or canonical; independently validate hip-relative limbs, actual skinned ground contact, GLB reimport; always present visibly labeled REJECTED diagnostic preview if only floor gate fails.",
+  "originalBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "pinnedVendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "upstreamDocumentation": "https://github.com/Mwni/blender-animation-retargeting/blob/8c91ff4f4d898bab835b3587f17585487056b60b/README.md",
+  "sourceGitRevision": "00d75d2ea608e1f5c3b01aa37a3f905ed0ca10f0",
+  "rulesGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "protectedAssets": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "outputs": "Android Downloads unapproved or clearly REJECTED diagnostic model, SHA-locked local model viewer with precise acceptance boundary, versioned Git evidence; original files unchanged",
+  "humanVisualReviewRequired": true,
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_driver.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_server.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_blender_trial.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_glb_verify.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_viewer.html",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7.contract.json",
+    "tests/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7_TEST.py"
+  ],
+  "diagnosticEvidencePathPrefix": "diagnostics/obsidianti/mwni-documented-v1.4.7/runs/",
+  "previousBlocker": "v1.4.6 right and left skinned wedge soles about 0.85\u20130.92m above target rest-floor after plugin retarget; full-body bone motion present."
+}
