@@ -1,0 +1,35 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_VIEWER_v1.4.4",
+  "mission": "Open actual SHA-verified Mwni Heavy1 and Light2 outputs in a phone browser with a real GLB animation viewer and visual playback controls",
+  "ownerAuthority": "ANDROID_TERMUX_GIT_ONLY",
+  "targetRepository": "Valar05/parametric-parambulator",
+  "latestAuthorReviewedGitHEAD": "45ee7b2fc7b06a66bfce17ebf7687e300666eabc",
+  "upstreamAddon": "Mwni/blender-animation-retargeting@8c91ff4f4d898bab835b3587f17585487056b60b",
+  "modelSources": {
+    "Heavy1": "793ab2378e59d065308b80949d5352f5e2472d94ce93d4e63fc27aa5ed63fec1",
+    "Light2": "10bdf5dcbf0a7a9f3e746620cc88bc4bdb4e94bd4a512395a03d33aa2a1bfa82"
+  },
+  "canonicalModelSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "policy": {"agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca", "campaignEtiquetteRead": "2026-11-06"},
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_driver.py",
+    "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_server.py",
+    "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_viewer.html",
+    "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4.contract.json",
+    "tests/OBSIDIANTI_MWNI_VIEWER_v1.4.4_TEST.py"
+  ],
+  "evidenceMutablePathPrefix": "diagnostics/obsidianti/mwni-viewer-v1.4.4/runs/<uniqueRunId>/",
+  "protectedPaths": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb"],
+  "acceptance": [
+    "Exact real Heavy1 and Light2 GLB SHA verified on device",
+    "Both GLBs have skinned meshes and actual animation clips",
+    "Unique live localhost HTTP server and correct run/build identity",
+    "True GLB bytes served with no-store and hashes checked again in browser",
+    "Playback, pause, seek, replay, speed, camera orbit and zoom, camera presets",
+    "Attempt native browser launch and expose complete tested localhost URL",
+    "Git source and evidence published via Termux with exact remote readback",
+    "Owner visually reviews without any original or canonical model changes"
+  ],
+  "forbidden": ["canonical GLB modification", "plugin retarget rerun", "source Blender overwrite", "direct ChatGPT GitHub write", "false claim of owner visual approval"]
+}
