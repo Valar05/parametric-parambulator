@@ -1,0 +1,23 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Render exactly the saved Mwni Heavy1 target action from the SHA-locked editable .blend using real Blender scene geometry, orthographic world +X side profile, fixed Z=0 reference line, 24 frames, publish GIF and frame evidence. Never use the inert exported GLB or rerun retargeting.",
+  "sourceBlendSHA256": "cb4ce023b885072ecbc5e58cb0a255bdbf20bcef56cf0bb787314778cb87514d",
+  "sourceBlendName": "MWNI_Heavy1_UNAPPROVED.blend",
+  "expectedAction": "SmartRigArmature|Heavy1",
+  "pinnedGitBaseline": "20f57127429c59740b9f408cd0af196d8152aa15",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "rulesGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "protectedPaths": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb"],
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9.contract.json",
+    "campaigns/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9_driver.py",
+    "campaigns/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9_gif.py",
+    "campaigns/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9_render.py",
+    "tests/OBSIDIANTI_MWNI_HEAVY1_SIDE_GIF_v1.4.9_TEST.py"
+  ],
+  "evidencePathPrefix": "diagnostics/obsidianti/mwni-heavy1-sidegif-v1.4.9/runs/",
+  "noCanonicalMutation": true,
+  "gifOwnerVisualAcceptanceRequired": true
+}
