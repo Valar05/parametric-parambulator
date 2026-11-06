@@ -1,0 +1,158 @@
+{
+  "source": "BLENDER_EVALUATED_IK",
+  "comparison": "EXPORTED_GLB_IMPORTED_AS_ARES",
+  "maxFootError_m": 0.7792792936152364,
+  "clips": [
+    {
+      "name": "Cast",
+      "sourceDuration": 0.9666667,
+      "exportDuration": 0.9666666,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.0019752904512948294,
+          "meanError_m": 0.00020278462530834524
+        },
+        "Right": {
+          "maxError_m": 0.0017511623556400974,
+          "meanError_m": 0.00018054508980668875
+        }
+      }
+    },
+    {
+      "name": "Heavy1",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.052238200498242786,
+          "meanError_m": 0.00697754804922677
+        },
+        "Right": {
+          "maxError_m": 0.024457642782267287,
+          "meanError_m": 0.0044221434452074845
+        }
+      }
+    },
+    {
+      "name": "Heavy2",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.23755827419366138,
+          "meanError_m": 0.04934029862239149
+        },
+        "Right": {
+          "maxError_m": 0.03214451304041313,
+          "meanError_m": 0.006337369628425923
+        }
+      }
+    },
+    {
+      "name": "Heavy3",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.07536008671074354,
+          "meanError_m": 0.011721838844565746
+        },
+        "Right": {
+          "maxError_m": 0.07382647015863388,
+          "meanError_m": 0.006882738913229183
+        }
+      }
+    },
+    {
+      "name": "Kick",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.11538097178399626,
+          "meanError_m": 0.013821054427226996
+        },
+        "Right": {
+          "maxError_m": 0.02371137551706239,
+          "meanError_m": 0.00699370141990301
+        }
+      }
+    },
+    {
+      "name": "Light1",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.001907300441499149,
+          "meanError_m": 0.00020606259657858568
+        },
+        "Right": {
+          "maxError_m": 0.0034789562207330365,
+          "meanError_m": 0.0010218275652653446
+        }
+      }
+    },
+    {
+      "name": "Light2",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.10419741463405267,
+          "meanError_m": 0.009906666773149185
+        },
+        "Right": {
+          "maxError_m": 0.18016870920659336,
+          "meanError_m": 0.017672852015593987
+        }
+      }
+    },
+    {
+      "name": "Light3",
+      "sourceDuration": 1.1666667,
+      "exportDuration": 1.1666667,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.48596438252685425,
+          "meanError_m": 0.05224673036206009
+        },
+        "Right": {
+          "maxError_m": 0.25006319954848977,
+          "meanError_m": 0.036599647542727425
+        }
+      }
+    },
+    {
+      "name": "SpringAttack",
+      "sourceDuration": 1.1,
+      "exportDuration": 1.1,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.6270752180151312,
+          "meanError_m": 0.07013326870368372
+        },
+        "Right": {
+          "maxError_m": 0.7792792936152364,
+          "meanError_m": 0.07613196134365595
+        }
+      }
+    },
+    {
+      "name": "Stomp",
+      "sourceDuration": 1.0,
+      "exportDuration": 1.0,
+      "feet": {
+        "Left": {
+          "maxError_m": 0.033771824064231744,
+          "meanError_m": 0.004054768462905002
+        },
+        "Right": {
+          "maxError_m": 0.00863976195495394,
+          "meanError_m": 0.0026642856072749623
+        }
+      }
+    }
+  ],
+  "note": "Normalized-time samples; differences can include source/export timebase and skeleton scale; not yet proof of retarget contact."
+}

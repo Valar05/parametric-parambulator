@@ -1,0 +1,74 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_CANONICAL",
+  "method": "ARES_V1_1_REST_POSE_REBASE_ON_EXPORTED_GLTF_DONOR",
+  "originalSourceSha256": "955e424172da09cbff1182f260c7053389d2fa623657a62a4d03dd78f5fa1b32",
+  "candidateSha256": "78086cb69bd01301ae0e8b92ebbc84ea764502f476b1a8d3ee8e297932b8afc3",
+  "donorSampleSha256": "660b2114937df57cce5cc149949fec994800e648bfa943a6469a9b1bd8777890",
+  "scaleRatio": 0.8700185743929264,
+  "preservedClips": 23,
+  "candidateClips": [
+    {
+      "name": "LionheartGLBBake_Cast",
+      "samples": 25,
+      "duration": 0.9666666,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Heavy1",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Heavy2",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Heavy3",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Kick",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Light1",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Light2",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Light3",
+      "samples": 29,
+      "duration": 1.1666667,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_SpringAttack",
+      "samples": 28,
+      "duration": 1.1,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    },
+    {
+      "name": "LionheartGLBBake_Stomp",
+      "samples": 25,
+      "duration": 1.0,
+      "source": "NATIVE_LIONHEART_EXPORTED_GLB_REIMPORTED_AS_ARES"
+    }
+  ],
+  "canonicalUnchanged": true,
+  "originalBinaryPrefixUnchanged": true,
+  "changedSkeleton": false
+}
