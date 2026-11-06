@@ -1,0 +1,27 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3",
+  "mission": "Recover the four actual Blender exports from already completed Mwni tests; repair v1.4.2 compressed-.blend misidentification by accepting Zstd format from Blender 4.3.2, without rerunning Blender or modifying source/canonical models.",
+  "repository": "Valar05/parametric-parambulator",
+  "authority": "ANDROID_TERMUX_GIT_ONLY",
+  "upstreamPlugin": "Mwni/blender-animation-retargeting",
+  "pinnedUpstreamCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "previousCampaign": "OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0",
+  "previousRun": "20261106T172615Z-6d53cfaf",
+  "previousEvidenceCommit": "8f3485133c8ce5f616e396aab2fbf83636412334",
+  "previousResultsSHA256": "a04700e59b86a617c7fa66fc0921bae79ee07c282f7ff3418642c270ca51e981",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "lockedPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "mutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_driver.py",
+    "tests/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_TEST.py",
+    "campaigns/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3.contract.json",
+    "diagnostics/obsidianti/mwni-recovery-v1.4.3/RECOVERY_REPORT.md",
+    "diagnostics/obsidianti/mwni-recovery-v1.4.3/RECOVERY_RECEIPT.json"
+  ],
+  "successCriteria": "All four review files must match exact Git-recorded SHA-256 and byte length; recognize GLB2 and raw/gzip/Zstandard BLEND signatures (optional full Zstd stream test if zstd installed); publish to Android Downloads with readback; source/evidence committed and remote Git-readback verified; no source/canonical mutation."
+}
