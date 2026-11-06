@@ -1,4 +1,3 @@
-
 # 3D models
 *.glb filter=lfs diff=lfs merge=lfs -text
 *.gltf filter=lfs diff=lfs merge=lfs -text
@@ -6,18 +5,15 @@
 *.fbx filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
 *.stl filter=lfs diff=lfs merge=lfs -text
-
 # Animation and binary caches
 *.abc filter=lfs diff=lfs merge=lfs -text
 *.bvh filter=lfs diff=lfs merge=lfs -text
-
 # Large textures
 *.exr filter=lfs diff=lfs merge=lfs -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
-
 # Packed archives
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.7z filter=lfs diff=lfs merge=lfs -text
-
+diagnostics/obsidianti/sparse-fk-review-v1.10.5/*.glb filter=lfs diff=lfs merge=lfs -text
