@@ -1,0 +1,147 @@
+{
+  "blenderReport": {
+    "actions": {
+      "Heavy1": {
+        "contact": {
+          "groundEstimate": 0.12763242423534393,
+          "heightThreshold": 0.14444845855236055,
+          "horizontalThresholdPerFrame": 0.05279162089761624,
+          "ranges": []
+        },
+        "editedLeg": "Right",
+        "frameRange": [
+          0,
+          24
+        ],
+        "frames": 25,
+        "sourceAction": "SPARSE_FK_Heavy1",
+        "sourceReferenceRetained": true,
+        "status": "NO_CONFIDENT_CONTACT_WINDOWS_NO_SYNTHETIC_FIX"
+      },
+      "Heavy2": {
+        "contact": {
+          "groundEstimate": 0.17190054059028625,
+          "heightThreshold": 0.20885727167129517,
+          "horizontalThresholdPerFrame": 0.065,
+          "ranges": [
+            [
+              19,
+              24
+            ]
+          ]
+        },
+        "contactCandidateFrames": 6,
+        "editedLeg": "Right",
+        "frameRange": [
+          0,
+          24
+        ],
+        "frames": 25,
+        "samples": [
+          {
+            "accepted": false,
+            "footTargetError_m": 0.004788,
+            "frame": 19,
+            "kneeChange_m": 0.139835
+          },
+          {
+            "accepted": false,
+            "footTargetError_m": 5e-06,
+            "frame": 20,
+            "kneeChange_m": 0.152376
+          },
+          {
+            "accepted": false,
+            "footTargetError_m": 6e-06,
+            "frame": 21,
+            "kneeChange_m": 0.166946
+          },
+          {
+            "accepted": false,
+            "footTargetError_m": 6e-06,
+            "frame": 22,
+            "kneeChange_m": 0.180181
+          },
+          {
+            "accepted": false,
+            "footTargetError_m": 6e-06,
+            "frame": 23,
+            "kneeChange_m": 0.195074
+          },
+          {
+            "accepted": false,
+            "footTargetError_m": 5e-06,
+            "frame": 24,
+            "kneeChange_m": 0.214401
+          }
+        ],
+        "solvedFrames": 0,
+        "sourceAction": "SPARSE_FK_Heavy2",
+        "sourceReferenceRetained": true,
+        "status": "IK_GEOMETRY_REJECTED"
+      },
+      "Heavy3": {
+        "contact": {
+          "groundEstimate": 0.16086708009243011,
+          "heightThreshold": 0.1749974426627159,
+          "horizontalThresholdPerFrame": 0.065,
+          "ranges": []
+        },
+        "editedLeg": "Right",
+        "frameRange": [
+          0,
+          24
+        ],
+        "frames": 25,
+        "sourceAction": "SPARSE_FK_Heavy3",
+        "sourceReferenceRetained": true,
+        "status": "NO_CONFIDENT_CONTACT_WINDOWS_NO_SYNTHETIC_FIX"
+      }
+    },
+    "approved": false,
+    "candidateCount": 0,
+    "exportBlend": "/mnt/obs-work/FOOT_STABILIZATION_REVIEW_UNAPPROVED.blend",
+    "exportGLB": "/mnt/obs-work/FOOT_STABILIZATION_REVIEW_UNAPPROVED.glb",
+    "method": "TEMPORARY_TWO_BONE_IK_FK_BAKE",
+    "reviewClips": [
+      "BEFORE_EDITED_Heavy1",
+      "FALLBACK_UNCHANGED_Heavy1",
+      "BEFORE_EDITED_Heavy2",
+      "FALLBACK_UNCHANGED_Heavy2",
+      "BEFORE_EDITED_Heavy3",
+      "FALLBACK_UNCHANGED_Heavy3"
+    ],
+    "source": "/mnt/obs-downloads/SPARSE_FK_EDITABLE_UNAPPROVED.blend",
+    "sourceUnchanged": true,
+    "status": "REVIEW_READY_UNAPPROVED"
+  },
+  "canonicalGLBModified": false,
+  "gitSourceCommit": "3488c00b16c4d292d0267950978b8e2c41c2a77f",
+  "launcherSHA256": "64d0ba2a14a6d47b3aaeac08423e4d3cdea6ae834820d9ff1b15acc07446d2c8",
+  "originalFKPreserved": true,
+  "sourceBlendSHA256": "e740668656c20bd8ea375d5bdeeec49e5719585f7670667e7c232fb2cc34fad4",
+  "status": "REVIEW_EXPORTED_UNAPPROVED",
+  "validation": {
+    "animationChannelCounts": {
+      "BEFORE_EDITED_Heavy1": 219,
+      "BEFORE_EDITED_Heavy2": 219,
+      "BEFORE_EDITED_Heavy3": 219,
+      "FALLBACK_UNCHANGED_Heavy1": 219,
+      "FALLBACK_UNCHANGED_Heavy2": 219,
+      "FALLBACK_UNCHANGED_Heavy3": 219
+    },
+    "animationNames": [
+      "BEFORE_EDITED_Heavy1",
+      "FALLBACK_UNCHANGED_Heavy1",
+      "BEFORE_EDITED_Heavy2",
+      "FALLBACK_UNCHANGED_Heavy2",
+      "BEFORE_EDITED_Heavy3",
+      "FALLBACK_UNCHANGED_Heavy3"
+    ],
+    "fileBytes": 13519876,
+    "fileSHA256": "defa05bc7c15e1356abdd7a2e3f8eccff527bb091af04c9e35048ad454b1dd47",
+    "meshes": 4,
+    "nodes": 78,
+    "skins": 1
+  }
+}
