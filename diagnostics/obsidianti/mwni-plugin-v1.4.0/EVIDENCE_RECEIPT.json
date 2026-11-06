@@ -1,0 +1,40 @@
+{
+  "schema": "OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0-receipt",
+  "sourceCommit": "57887917861935874ec5e7dd1fda8b7617aa6941",
+  "inputHead": "d07e2adc17186df87a1689e8e2f82f37f4dc972a",
+  "sourceBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "vendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "vendorScriptHashes": {
+    "__init__.py": "50f326912751ba5f1725a83f98effa4c7f5dfed96016592852afda8f8b91d945",
+    "alignment.py": "f119cde4332311b0366ff28cd8ce0adf9c4a696eea93488a35336ac1cfa271e7",
+    "baking.py": "032ec12ddd623524fcc897b45ccfdd2228e28bcf81c98db8b83a1a76eb440f18",
+    "context.py": "cacbc055fd5f7898dbfa664b796bac6b2aebda89adae424362d6d2743451fe68",
+    "corrections.py": "7d2948aae467f9688a3da7723920cde7631bb4949d86db7efbd37d3d84cdb4f2",
+    "drivers.py": "29fda9f02b7911a3bec0053819b1d6b7d6b9059419f8c8f2b49d42b21bac31b5",
+    "ik.py": "3db375b57a9f85638a9c7c5c83c0d33219c4ee04553b5aca44402af938bf9f89",
+    "log.py": "88a4f975c07d011a5b38bbf6ed59d2981986bdc4d1b4193dbeb1a74562e4fce3",
+    "main.py": "a43d61278096e1efc7806d2639ea751a646b84c1f2ca0d73807c0978e7df4979",
+    "mapping.py": "08d3cf17921d3b85be56c4c311b3420059d80fd7baed24ef0fe8bb3eff1eb487",
+    "savefile.py": "5e7994be70fdcc2667d0d1f72b0dfe2bcd6561ae23b09463fe694168baf79903",
+    "util.py": "fbb10e017ccccbbf7c3457dc34f0443f1ac1c1d07cf7ac472276a6ee3980117c"
+  },
+  "agentsBlobSHA": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "liveCampaignEtiquetteReadAtAuthoring": "2026-11-06",
+  "resultsSHA256": "a04700e59b86a617c7fa66fc0921bae79ee07c282f7ff3418642c270ca51e981",
+  "reportSHA256": "63cc95e7c7a44b6d2b8e2102de2b6b8bc2d17e2ac96a912d5844cacc775bc708",
+  "testClipsSucceeded": [
+    "Heavy1",
+    "Light2"
+  ],
+  "canonicalGitTreeBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "canonicalGitTreeAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "canonicalModified": false,
+  "ownerReviewRequired": true
+}
