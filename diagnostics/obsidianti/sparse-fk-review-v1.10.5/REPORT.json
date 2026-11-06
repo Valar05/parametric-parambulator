@@ -1,0 +1,131 @@
+{
+  "blenderReport": {
+    "exportOptions": {
+      "export_animation_mode": "NLA_TRACKS",
+      "export_animations": true,
+      "export_apply": false,
+      "export_cameras": false,
+      "export_force_sampling": true,
+      "export_format": "GLB",
+      "export_frame_step": 1,
+      "export_lights": false,
+      "export_nla_strips": true,
+      "export_yup": true,
+      "filepath": "/mnt/obs-work/SPARSE_FK_REVIEW_UNAPPROVED.glb",
+      "use_selection": true
+    },
+    "output": "/mnt/obs-work/SPARSE_FK_REVIEW_UNAPPROVED.glb",
+    "requested": [
+      "Cast",
+      "Heavy1",
+      "Heavy2",
+      "Heavy3",
+      "Kick",
+      "Light1",
+      "Light2",
+      "Light3",
+      "SpringAttack",
+      "Stomp"
+    ],
+    "selectedObjects": [
+      "OBSIDIANTI_SPARSE_FK_EDITABLE_UNAPPROVED",
+      "SPARSE_EDIT_geometry_0",
+      "SPARSE_EDIT_geometry_0.002",
+      "SPARSE_EDIT_geometry_0.003",
+      "SPARSE_EDIT_geometry_0.004"
+    ],
+    "sourceActionFrames": {
+      "SPARSE_FK_Cast": [
+        0.0,
+        23.200000762939453
+      ],
+      "SPARSE_FK_Heavy1": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Heavy2": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Heavy3": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Kick": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Light1": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Light2": [
+        0.0,
+        24.0
+      ],
+      "SPARSE_FK_Light3": [
+        0.0,
+        28.000001907348633
+      ],
+      "SPARSE_FK_SpringAttack": [
+        0.0,
+        26.400001525878906
+      ],
+      "SPARSE_FK_Stomp": [
+        0.0,
+        24.0
+      ]
+    },
+    "sourceActions": [
+      "SPARSE_FK_Cast",
+      "SPARSE_FK_Heavy1",
+      "SPARSE_FK_Heavy2",
+      "SPARSE_FK_Heavy3",
+      "SPARSE_FK_Kick",
+      "SPARSE_FK_Light1",
+      "SPARSE_FK_Light2",
+      "SPARSE_FK_Light3",
+      "SPARSE_FK_SpringAttack",
+      "SPARSE_FK_Stomp"
+    ],
+    "sourceBlend": "/mnt/obs-downloads/OBSIDIANTI_SPARSE_FK_AUTHORING_v1.10.4_20261106T123422Z_SPARSE_FK_EDITABLE_UNAPPROVED.blend",
+    "status": "EXPORTED_PENDING_INDEPENDENT_GLB_VALIDATION"
+  },
+  "canonicalGLBModified": false,
+  "gitSourceCommit": "92e27076126ad4693ea739d3f78966b3bb113b14",
+  "launcherSHA256": "90b375d9d8667ffbfd4b1f92bf26a472caec7336af92d888b324f22aa56bc639",
+  "originalFKPreserved": true,
+  "sourceBlendSHA256": "3ba6ab2356dd0034a76f710bcfef669ad9f998d942c73f8bfe9c5cf5a0fb7447",
+  "status": "EXPORTED_UNAPPROVED",
+  "validation": {
+    "animationChannelCounts": {
+      "SPARSE_FK_Cast": 219,
+      "SPARSE_FK_Heavy1": 219,
+      "SPARSE_FK_Heavy2": 219,
+      "SPARSE_FK_Heavy3": 219,
+      "SPARSE_FK_Kick": 219,
+      "SPARSE_FK_Light1": 219,
+      "SPARSE_FK_Light2": 219,
+      "SPARSE_FK_Light3": 219,
+      "SPARSE_FK_SpringAttack": 219,
+      "SPARSE_FK_Stomp": 219
+    },
+    "animationNames": [
+      "SPARSE_FK_Cast",
+      "SPARSE_FK_Heavy1",
+      "SPARSE_FK_Heavy2",
+      "SPARSE_FK_Heavy3",
+      "SPARSE_FK_Kick",
+      "SPARSE_FK_Light1",
+      "SPARSE_FK_Light2",
+      "SPARSE_FK_Light3",
+      "SPARSE_FK_SpringAttack",
+      "SPARSE_FK_Stomp"
+    ],
+    "fileBytes": 13769868,
+    "fileSHA256": "3d3d80f1d4952554b91e72510543835a56e78371ce1c6584f906b0e677a812c9",
+    "meshes": 4,
+    "nodes": 78,
+    "skins": 1
+  }
+}
