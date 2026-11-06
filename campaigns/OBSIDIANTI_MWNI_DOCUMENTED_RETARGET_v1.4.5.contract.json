@@ -1,0 +1,28 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Use upstream pinned Mwni Blender plugin with documented target unit-scale, one-to-one bone mapping and genuine rest-pose alignment on original Lionheart donor; measure live full-body joints, skinned shoes, explicitly reject hip-only, bake only if physical passes; fresh-GLB reimport and exact local Three.js viewer",
+  "originalBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "pinnedVendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "upstreamDocumentation": "https://github.com/Mwni/blender-animation-retargeting/blob/8c91ff4f4d898bab835b3587f17585487056b60b/README.md",
+  "sourceGitRevision": "92634ab857183cda3595d7626048e9c87c4cf712",
+  "rulesGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "protectedAssets": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "outputs": "versioned isolated diagnostics, Android Downloads unapproved candidate models, live http://127.0.0.1:<verified-port>/index.html?run=...&build=... only if Blender and GLB reimport physical gates pass",
+  "humanVisualReviewRequired": true,
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_driver.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_server.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_blender_trial.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_glb_verify.py",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_viewer.html",
+    "campaigns/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5.contract.json",
+    "tests/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.5_TEST.py"
+  ],
+  "diagnosticEvidencePathPrefix": "diagnostics/obsidianti/mwni-documented-v1.4.5/runs/"
+}
