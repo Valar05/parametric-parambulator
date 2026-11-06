@@ -1,0 +1,1128 @@
+{
+  "schema": "mwni-documented-v1.4.6",
+  "status": "NO_PHYSICALLY_VALID_CANDIDATE",
+  "runId": "20261106T194433Z-07f9ebe2",
+  "sourceCommit": "3ea6ba70944033460271a186719fb6632b586583",
+  "originalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "pluginVendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "allBlenderTrials": {
+    "actionInventory": {
+      "allActions": [
+        "Ares_AxeKick_Full_SmartRigArmature",
+        "Ares_StepBackLeft_Lower_SmartRigArmature",
+        "Ares_StepBackRight_Lower_SmartRigArmature",
+        "Ares_StepBack_Lower_SmartRigArmature",
+        "Ares_StepForwardLeft_Lower_SmartRigArmature",
+        "Ares_StepForwardRight_Lower_SmartRigArmature",
+        "Ares_StepForward_Lower_SmartRigArmature",
+        "Ares_StepLeft_Lower_SmartRigArmature",
+        "Ares_StepRight_Lower_SmartRigArmature",
+        "Cast",
+        "Heavy1",
+        "Heavy2",
+        "Heavy3",
+        "Idle",
+        "Kick",
+        "Light1",
+        "Light2",
+        "Light3",
+        "LionheartIdle_UNREVIEWED_SmartRigArmature",
+        "Lionheart_Cast_SmartRigArmature",
+        "Lionheart_Heavy1_SmartRigArmature",
+        "Lionheart_Heavy2_SmartRigArmature",
+        "Lionheart_Heavy3_SmartRigArmature",
+        "Lionheart_Kick_SmartRigArmature",
+        "Lionheart_Light1_SmartRigArmature",
+        "Lionheart_Light2_SmartRigArmature",
+        "Lionheart_Light3_SmartRigArmature",
+        "Lionheart_SpringAttack_SmartRigArmature",
+        "Lionheart_Stomp_SmartRigArmature",
+        "ObsidiantiIdle_SmartRigArmature",
+        "Running_SmartRigArmature",
+        "SpringAttack",
+        "Stomp",
+        "Walking_SmartRigArmature"
+      ],
+      "sourceInitialAction": "Cast",
+      "sourceRequired": [
+        "Idle",
+        "Kick",
+        "Light1"
+      ],
+      "targetIdleMatches": [],
+      "targetInitialAction": "Running_SmartRigArmature",
+      "targetNLA": [
+        {
+          "name": "Ares_AxeKick_Full",
+          "strips": [
+            "Ares_AxeKick_Full_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBackRight_Lower",
+          "strips": [
+            "Ares_StepBackRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBackLeft_Lower",
+          "strips": [
+            "Ares_StepBackLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForwardRight_Lower",
+          "strips": [
+            "Ares_StepForwardRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForwardLeft_Lower",
+          "strips": [
+            "Ares_StepForwardLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepRight_Lower",
+          "strips": [
+            "Ares_StepRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepLeft_Lower",
+          "strips": [
+            "Ares_StepLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBack_Lower",
+          "strips": [
+            "Ares_StepBack_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForward_Lower",
+          "strips": [
+            "Ares_StepForward_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Stomp",
+          "strips": [
+            "Lionheart_Stomp_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_SpringAttack",
+          "strips": [
+            "Lionheart_SpringAttack_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light3",
+          "strips": [
+            "Lionheart_Light3_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light2",
+          "strips": [
+            "Lionheart_Light2_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light1",
+          "strips": [
+            "Lionheart_Light1_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Kick",
+          "strips": [
+            "Lionheart_Kick_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy3",
+          "strips": [
+            "Lionheart_Heavy3_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy2",
+          "strips": [
+            "Lionheart_Heavy2_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy1",
+          "strips": [
+            "Lionheart_Heavy1_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Cast",
+          "strips": [
+            "Lionheart_Cast_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "ObsidiantiIdle",
+          "strips": [
+            "ObsidiantiIdle_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "LionheartIdle_UNREVIEWED",
+          "strips": [
+            "LionheartIdle_UNREVIEWED_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Walking",
+          "strips": [
+            "Walking_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Running",
+          "strips": [
+            "Running_SmartRigArmature"
+          ]
+        }
+      ]
+    },
+    "attempts": {
+      "Kick": [
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "full_rest_orientation",
+            "restOffsetPrevious": 22
+          },
+          "clip": "Kick",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK",
+          "error": "PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']",
+          "mode": "full_rest_orientation",
+          "physicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.87529,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03806,
+                "maxAbsoluteFootWorldError_m": 0.07695,
+                "soleRange_m": 1.26544,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.10863
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.91496,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03314,
+                "maxAbsoluteFootWorldError_m": 0.06586,
+                "soleRange_m": 0.04258,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.68394
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.1029,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.363,
+              "RightArm": 0.0,
+              "RightFoot": 74.132,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.52027,
+              1.60736
+            ]
+          },
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "status": "FAILED_VALIDATION",
+          "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 254, in run_clip\n    if fail:raise RuntimeError('PRE_BAKE_PHYSICAL_GATE_'+repr(fail))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']\n",
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.89533,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.0774,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92074,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.0801,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.07719,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 63.19,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 57.071,
+              "LeftUpLeg": 88.974,
+              "RightArm": 0.0,
+              "RightFoot": 71.938,
+              "RightForeArm": 0.0,
+              "RightLeg": 62.161,
+              "RightUpLeg": 311.358,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.47034,
+              1.61471
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ]
+        },
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "bone_axis_no_roll",
+            "restOffsetPrevious": 22
+          },
+          "clip": "Kick",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK",
+          "error": "PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']",
+          "mode": "bone_axis_no_roll",
+          "physicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.81603,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03802,
+                "maxAbsoluteFootWorldError_m": 0.07713,
+                "soleRange_m": 1.28594,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.10856
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.85449,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03311,
+                "maxAbsoluteFootWorldError_m": 0.06572,
+                "soleRange_m": 0.04523,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.68412
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.10302,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.132,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 86.86,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.51932,
+              1.60716
+            ]
+          },
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "status": "FAILED_VALIDATION",
+          "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 254, in run_clip\n    if fail:raise RuntimeError('PRE_BAKE_PHYSICAL_GATE_'+repr(fail))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']\n",
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.83616,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02476,
+                "maxAbsoluteFootWorldError_m": 0.07783,
+                "soleRange_m": 1.26222,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09326
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.86021,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0305,
+                "maxAbsoluteFootWorldError_m": 0.07982,
+                "soleRange_m": 0.05159,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.7151
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.0773,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 63.168,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 57.068,
+              "LeftUpLeg": 88.966,
+              "RightArm": 0.0,
+              "RightFoot": 71.928,
+              "RightForeArm": 0.0,
+              "RightLeg": 62.096,
+              "RightUpLeg": 89.612,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.47058,
+              1.61461
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ]
+        }
+      ],
+      "Light1": [
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "full_rest_orientation",
+            "restOffsetPrevious": 22
+          },
+          "clip": "Light1",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK",
+          "error": "PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']",
+          "mode": "full_rest_orientation",
+          "physicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.91781,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0371,
+                "maxAbsoluteFootWorldError_m": 0.06973,
+                "soleRange_m": 0.00326,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.21681
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.91473,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0339,
+                "maxAbsoluteFootWorldError_m": 0.06586,
+                "soleRange_m": 0.02949,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.24484
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.10186,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.178,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.80642,
+              0.81868
+            ]
+          },
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "status": "FAILED_VALIDATION",
+          "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 254, in run_clip\n    if fail:raise RuntimeError('PRE_BAKE_PHYSICAL_GATE_'+repr(fail))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']\n",
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.92374,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02087,
+                "maxAbsoluteFootWorldError_m": 0.0629,
+                "soleRange_m": 0.01517,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92073,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06044,
+                "soleRange_m": 0.02376,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.05124,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 31.301,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 36.209,
+              "LeftUpLeg": 55.582,
+              "RightArm": 65.208,
+              "RightFoot": 30.676,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.845,
+              "RightUpLeg": 262.378,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.83683,
+              0.87803
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ]
+        },
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "bone_axis_no_roll",
+            "restOffsetPrevious": 22
+          },
+          "clip": "Light1",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK",
+          "error": "PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']",
+          "mode": "bone_axis_no_roll",
+          "physicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.85921,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03728,
+                "maxAbsoluteFootWorldError_m": 0.06989,
+                "soleRange_m": 0.00326,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.21643
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.85427,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03382,
+                "maxAbsoluteFootWorldError_m": 0.06572,
+                "soleRange_m": 0.06246,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.24498
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.10184,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.178,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 304.516,
+              "Spine": 14.511,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.80677,
+              0.81865
+            ]
+          },
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "status": "FAILED_VALIDATION",
+          "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 254, in run_clip\n    if fail:raise RuntimeError('PRE_BAKE_PHYSICAL_GATE_'+repr(fail))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right']\n",
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.86521,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.06311,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.8602,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06022,
+                "soleRange_m": 0.05673,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.0505,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 31.386,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 36.031,
+              "LeftUpLeg": 55.609,
+              "RightArm": 65.208,
+              "RightFoot": 30.678,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.822,
+              "RightUpLeg": 304.691,
+              "Spine": 14.511,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.83776,
+              0.87898
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right"
+          ]
+        }
+      ]
+    },
+    "clips": {},
+    "error": "ALL_DOCUMENTED_RETARGET_STRATEGIES_FAILED_NO_VALID_MODEL",
+    "mappedBones": [
+      "mixamorig:Hips",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase"
+    ],
+    "pluginVendorSha": "8c91ff4f4d898bab835b3587f17585487056b60b",
+    "scenePreflight": {
+      "sourceLegLengths": {
+        "Left": 0.8406595077540759,
+        "Right": 0.8418954690195216
+      },
+      "sourceScaleFactor": 0.8700165898859603,
+      "targetLegLengths": {
+        "Left": 0.73350842767549,
+        "Right": 0.7303423155127267
+      },
+      "targetUnitScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "yawRadians": 0.006150303197963132
+    },
+    "schema": "obsidianti-mwni-documented-retarget-v1.4.6",
+    "sourceSetup": {
+      "alignmentReference": "REST_POSE_BOTH_ARMATURES",
+      "targetActionCleared": true,
+      "targetIdleExactLookupSkipped": true,
+      "targetIdlePolicy": "GLTF_IMPORTER_NAME_NOT_REQUIRED"
+    },
+    "sourceSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+    "status": "BLOCKED",
+    "targetSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+    "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 365, in main\n    if not receipt['clips']:raise RuntimeError('ALL_DOCUMENTED_RETARGET_STRATEGIES_FAILED_NO_VALID_MODEL')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: ALL_DOCUMENTED_RETARGET_STRATEGIES_FAILED_NO_VALID_MODEL\n",
+    "unmappedSourceBones": [
+      "Root",
+      "mixamorig:HeadTop_End",
+      "Weapon.L",
+      "Weapon.R",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightToe_End",
+      "LeftFoot.IK",
+      "LeftKnee.IK",
+      "RightFoot.IK",
+      "RightKnee.IK"
+    ],
+    "unmappedTargetBones": [
+      "mixamorig:HeadTop_End",
+      "headfront",
+      "mixamorig:HeadCrest.001",
+      "mixamorig:HeadCrest.002",
+      "mixamorig:HeadCrest.003",
+      "mixamorig:HeadCrest.005",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftWeapon.L",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightWeapon.R",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightToe_End",
+      "neutral_bone"
+    ],
+    "weaponAuxiliaryMappings": []
+  },
+  "reimportVerified": {},
+  "reimportFailures": {},
+  "canonicalModified": false,
+  "ownerVisualVerdict": "PENDING",
+  "launcherSHA256": "028182a4bee9a78ac6ec463806561f00e379407b79c7a847184584c53c8d64f6",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "documentation": "upstream README target unit scale, one-to-one mapping, rest alignment, driver and IK setup, visual-keyed bake",
+  "preflightActionInventory": {
+    "allActions": [
+      "Ares_AxeKick_Full_SmartRigArmature",
+      "Ares_StepBackLeft_Lower_SmartRigArmature",
+      "Ares_StepBackRight_Lower_SmartRigArmature",
+      "Ares_StepBack_Lower_SmartRigArmature",
+      "Ares_StepForwardLeft_Lower_SmartRigArmature",
+      "Ares_StepForwardRight_Lower_SmartRigArmature",
+      "Ares_StepForward_Lower_SmartRigArmature",
+      "Ares_StepLeft_Lower_SmartRigArmature",
+      "Ares_StepRight_Lower_SmartRigArmature",
+      "Cast",
+      "Heavy1",
+      "Heavy2",
+      "Heavy3",
+      "Idle",
+      "Kick",
+      "Light1",
+      "Light2",
+      "Light3",
+      "LionheartIdle_UNREVIEWED_SmartRigArmature",
+      "Lionheart_Cast_SmartRigArmature",
+      "Lionheart_Heavy1_SmartRigArmature",
+      "Lionheart_Heavy2_SmartRigArmature",
+      "Lionheart_Heavy3_SmartRigArmature",
+      "Lionheart_Kick_SmartRigArmature",
+      "Lionheart_Light1_SmartRigArmature",
+      "Lionheart_Light2_SmartRigArmature",
+      "Lionheart_Light3_SmartRigArmature",
+      "Lionheart_SpringAttack_SmartRigArmature",
+      "Lionheart_Stomp_SmartRigArmature",
+      "ObsidiantiIdle_SmartRigArmature",
+      "Running_SmartRigArmature",
+      "SpringAttack",
+      "Stomp",
+      "Walking_SmartRigArmature"
+    ],
+    "sourceInitialAction": "Cast",
+    "sourceRequired": [
+      "Idle",
+      "Kick",
+      "Light1"
+    ],
+    "targetIdleMatches": [],
+    "targetInitialAction": "Running_SmartRigArmature",
+    "targetNLA": [
+      {
+        "name": "Ares_AxeKick_Full",
+        "strips": [
+          "Ares_AxeKick_Full_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBackRight_Lower",
+        "strips": [
+          "Ares_StepBackRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBackLeft_Lower",
+        "strips": [
+          "Ares_StepBackLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForwardRight_Lower",
+        "strips": [
+          "Ares_StepForwardRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForwardLeft_Lower",
+        "strips": [
+          "Ares_StepForwardLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepRight_Lower",
+        "strips": [
+          "Ares_StepRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepLeft_Lower",
+        "strips": [
+          "Ares_StepLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBack_Lower",
+        "strips": [
+          "Ares_StepBack_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForward_Lower",
+        "strips": [
+          "Ares_StepForward_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Stomp",
+        "strips": [
+          "Lionheart_Stomp_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_SpringAttack",
+        "strips": [
+          "Lionheart_SpringAttack_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light3",
+        "strips": [
+          "Lionheart_Light3_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light2",
+        "strips": [
+          "Lionheart_Light2_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light1",
+        "strips": [
+          "Lionheart_Light1_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Kick",
+        "strips": [
+          "Lionheart_Kick_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy3",
+        "strips": [
+          "Lionheart_Heavy3_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy2",
+        "strips": [
+          "Lionheart_Heavy2_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy1",
+        "strips": [
+          "Lionheart_Heavy1_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Cast",
+        "strips": [
+          "Lionheart_Cast_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "ObsidiantiIdle",
+        "strips": [
+          "ObsidiantiIdle_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "LionheartIdle_UNREVIEWED",
+        "strips": [
+          "LionheartIdle_UNREVIEWED_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Walking",
+        "strips": [
+          "Walking_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Running",
+        "strips": [
+          "Running_SmartRigArmature"
+        ]
+      }
+    ]
+  },
+  "sourceSetup": {
+    "alignmentReference": "REST_POSE_BOTH_ARMATURES",
+    "targetActionCleared": true,
+    "targetIdleExactLookupSkipped": true,
+    "targetIdlePolicy": "GLTF_IMPORTER_NAME_NOT_REQUIRED"
+  },
+  "previousV145Blocker": "SOURCE_ACTION_NOT_EXACTLY_FOUND_LionheartIdle_UNREVIEWED"
+}
