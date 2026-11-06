@@ -1,0 +1,427 @@
+{
+  "ares": {
+    "actions": [
+      {
+        "action": "AxeKick",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      },
+      {
+        "action": "AxleKick",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      },
+      {
+        "action": "CurbStomp",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.002171684592359539,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0015465701864774977,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      },
+      {
+        "action": "FrontKick",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      },
+      {
+        "action": "LowBackKick",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      },
+      {
+        "action": "SpinningHighKick",
+        "activeConstraintsCount": 0,
+        "activeIKConstraintsCount": 0,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.0,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0,
+            "meanConstraintPositionDelta_m": 0.0,
+            "samplesAffectedOver1mm": 0
+          }
+        }
+      }
+    ],
+    "rigs": [
+      {
+        "IKControlCandidates": [],
+        "boneCount": 42,
+        "constraintCounts": {},
+        "name": "Armature"
+      }
+    ],
+    "warnings": []
+  },
+  "authorRulesRead": "AGENTS.md and Campaign Etiquette",
+  "lionheart": {
+    "actions": [
+      {
+        "action": "Cast",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.1890807,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 5.473008058132814e-07,
+            "meanConstraintPositionDelta_m": 0.0841401,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.2040645,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 1.1987796641062954e-06,
+            "meanConstraintPositionDelta_m": 0.117991,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Heavy1",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.7513371,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.0710594721114351,
+            "meanConstraintPositionDelta_m": 0.4231112,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.7519826,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.028601407546812403,
+            "meanConstraintPositionDelta_m": 0.4905613,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Heavy2",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.6576149,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.22399159972650698,
+            "meanConstraintPositionDelta_m": 0.3674684,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.7291766,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.031122186219063132,
+            "meanConstraintPositionDelta_m": 0.5045598,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Heavy3",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.750041,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.15795036716926864,
+            "meanConstraintPositionDelta_m": 0.5191209,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.816658,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.1507721096141504,
+            "meanConstraintPositionDelta_m": 0.5164629,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Kick",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 1.0268366,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.7080632035142116,
+            "meanConstraintPositionDelta_m": 0.4761154,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 1.1666034,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.10182041470851713,
+            "meanConstraintPositionDelta_m": 0.5483972,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Light1",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.2574336,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 4.535855703011133e-06,
+            "meanConstraintPositionDelta_m": 0.1637954,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.4867813,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.049723862333898104,
+            "meanConstraintPositionDelta_m": 0.3040579,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Light2",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.3467065,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.13808993627725138,
+            "meanConstraintPositionDelta_m": 0.2358896,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.5933336,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.05719922603104257,
+            "meanConstraintPositionDelta_m": 0.3336171,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Light3",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.5983723,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.44260179392391935,
+            "meanConstraintPositionDelta_m": 0.2712515,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.6224798,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.29539882006647483,
+            "meanConstraintPositionDelta_m": 0.3993674,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "SpringAttack",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.4531382,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.4288889510885399,
+            "meanConstraintPositionDelta_m": 0.3006195,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.9234397,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.42672684403549604,
+            "meanConstraintPositionDelta_m": 0.5694612,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      },
+      {
+        "action": "Stomp",
+        "activeConstraintsCount": 4,
+        "activeIKConstraintsCount": 2,
+        "rig": "Armature",
+        "stats": {
+          "L": {
+            "footBone": "mixamorig:LeftFoot",
+            "maxConstraintPositionDelta_m": 0.4327941,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.4895284212714373,
+            "meanConstraintPositionDelta_m": 0.1527761,
+            "samplesAffectedOver1mm": 81
+          },
+          "R": {
+            "footBone": "mixamorig:RightFoot",
+            "maxConstraintPositionDelta_m": 0.4096848,
+            "maxConstraintRotationDelta_deg": 0.0,
+            "maxFootStep_m": 0.04234576193677533,
+            "meanConstraintPositionDelta_m": 0.2295782,
+            "samplesAffectedOver1mm": 81
+          }
+        }
+      }
+    ],
+    "rigs": [
+      {
+        "IKControlCandidates": [
+          "LeftFoot.IK",
+          "LeftKnee.IK",
+          "RightFoot.IK",
+          "RightKnee.IK"
+        ],
+        "boneCount": 32,
+        "constraintCounts": {
+          "COPY_ROTATION": 2,
+          "IK": 2
+        },
+        "name": "Armature"
+      }
+    ],
+    "warnings": []
+  },
+  "originalSources": {
+    "Ares.blend": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+    "LionheartLancer (2).blend": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4"
+  },
+  "schema": "obsidianti-source-rig-forensics-v1.0.0",
+  "status": "EVIDENCE_COLLECTED_NOT_CAUSAL_PROOF"
+}
