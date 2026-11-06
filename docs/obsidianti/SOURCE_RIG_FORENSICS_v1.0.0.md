@@ -1,0 +1,3 @@
+# Obsidianti source-rig forensics v1.0.0
+
+Read-only Ares versus Lionheart Blender source inspection. Requires exact uploaded original Ares.blend and LionheartLancer (2).blend on phone (Downloads or Documents). SHA-gated; no substitute source. Only Termux Git writes to Valar05/parametric-parambulator. Source commits then computed comparison evidence. Model assets are untouched. Analyzer quantifies original rig constraints and source foot transforms with IK on/off for attack actions. Results: complete JSON, synopsis, concise findings, persistent receipt, Git evidence, handoff in Downloads. Does not claim historical import causality without matching source-to-retarget tests. No GLB or viewer needed for forensic stage.
