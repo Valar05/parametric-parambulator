@@ -1,0 +1,86 @@
+{
+  "schema": "obsidianti-mwni-review-recovery-v1.4.3",
+  "campaign": "OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3",
+  "originalRunId": "20261106T172615Z-6d53cfaf",
+  "priorSourceCommit": "57887917861935874ec5e7dd1fda8b7617aa6941",
+  "priorEvidenceCommit": "8f3485133c8ce5f616e396aab2fbf83636412334",
+  "resultsSHA256": "a04700e59b86a617c7fa66fc0921bae79ee07c282f7ff3418642c270ca51e981",
+  "canonGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "sourceCommit": "129db7ee962ab93f679c44acb5d8565364d331b4",
+  "files": [
+    {
+      "format": {
+        "encoding": "GLB2",
+        "bytes": 14707568,
+        "structureCheck": "GLTF2_HEADER_AND_LENGTH"
+      },
+      "clip": "Heavy1",
+      "kind": "candidateGLB",
+      "priorSHA256": "793ab2378e59d065308b80949d5352f5e2472d94ce93d4e63fc27aa5ed63fec1",
+      "androidSharedPath": "/data/data/com.termux/files/home/storage/downloads/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_20261106T172615Z-6d53cfaf_MWNI_Heavy1_UNAPPROVED.glb",
+      "sha256Readback": "793ab2378e59d065308b80949d5352f5e2472d94ce93d4e63fc27aa5ed63fec1",
+      "bytes": 14707568,
+      "state": "COPIED_SHA_VERIFIED"
+    },
+    {
+      "format": {
+        "encoding": "BLEND_ZSTD",
+        "bytes": 26758008,
+        "zstdFrameMagic": "28b52ffd",
+        "structureCheck": "ZSTD_FULL_STREAM_OK_AND_AUTHORITATIVE_SHA"
+      },
+      "clip": "Heavy1",
+      "kind": "editableBlend",
+      "priorSHA256": "cb4ce023b885072ecbc5e58cb0a255bdbf20bcef56cf0bb787314778cb87514d",
+      "androidSharedPath": "/data/data/com.termux/files/home/storage/downloads/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_20261106T172615Z-6d53cfaf_MWNI_Heavy1_UNAPPROVED.blend",
+      "sha256Readback": "cb4ce023b885072ecbc5e58cb0a255bdbf20bcef56cf0bb787314778cb87514d",
+      "bytes": 26758008,
+      "state": "COPIED_SHA_VERIFIED"
+    },
+    {
+      "format": {
+        "encoding": "GLB2",
+        "bytes": 14708772,
+        "structureCheck": "GLTF2_HEADER_AND_LENGTH"
+      },
+      "clip": "Light2",
+      "kind": "candidateGLB",
+      "priorSHA256": "10bdf5dcbf0a7a9f3e746620cc88bc4bdb4e94bd4a512395a03d33aa2a1bfa82",
+      "androidSharedPath": "/data/data/com.termux/files/home/storage/downloads/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_20261106T172615Z-6d53cfaf_MWNI_Light2_UNAPPROVED.glb",
+      "sha256Readback": "10bdf5dcbf0a7a9f3e746620cc88bc4bdb4e94bd4a512395a03d33aa2a1bfa82",
+      "bytes": 14708772,
+      "state": "COPIED_SHA_VERIFIED"
+    },
+    {
+      "format": {
+        "encoding": "BLEND_ZSTD",
+        "bytes": 26764063,
+        "zstdFrameMagic": "28b52ffd",
+        "structureCheck": "ZSTD_FULL_STREAM_OK_AND_AUTHORITATIVE_SHA"
+      },
+      "clip": "Light2",
+      "kind": "editableBlend",
+      "priorSHA256": "c31f7b8d11385b73d94c97fd24424279bfe37e926bb6a7e48646f23a5dbad54c",
+      "androidSharedPath": "/data/data/com.termux/files/home/storage/downloads/OBSIDIANTI_MWNI_REVIEW_RECOVERY_v1.4.3_20261106T172615Z-6d53cfaf_MWNI_Light2_UNAPPROVED.blend",
+      "sha256Readback": "c31f7b8d11385b73d94c97fd24424279bfe37e926bb6a7e48646f23a5dbad54c",
+      "bytes": 26764063,
+      "state": "COPIED_SHA_VERIFIED"
+    }
+  ],
+  "lockedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "lockedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "canonicalModified": false,
+  "originalBlendModified": false,
+  "ownerVisualAcceptance": "PENDING",
+  "reportSHA256": "70a9cce51a0ae0f69d762d063f1c45a49a171414192db188a9823ca5b093659e",
+  "authorRules": {
+    "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "etiquetteRead": "2026-11-06 live"
+  }
+}
