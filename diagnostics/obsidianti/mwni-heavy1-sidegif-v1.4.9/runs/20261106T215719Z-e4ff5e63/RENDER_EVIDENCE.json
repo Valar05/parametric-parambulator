@@ -1,0 +1,937 @@
+{
+  "schema": "obsidianti-mwni-heavy1-saved-blend-gif-v1.4.9",
+  "runId": "20261106T215719Z-e4ff5e63",
+  "sourceCommit": "8b2295f5f4fc1a2d24758ffebf60d09af6b45eac",
+  "sourceBlendSHA256": "cb4ce023b885072ecbc5e58cb0a255bdbf20bcef56cf0bb787314778cb87514d",
+  "originalDonorBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalGLBNotUsed": true,
+  "retargetRerun": false,
+  "gif": {
+    "encoder": "PIL_GLOBAL_PALETTE",
+    "frames": 24,
+    "bytes": 461527,
+    "sha256": "b5fff4e573f0bf768df90266dd3d6f2c8f6048460f491c1dfa3d944e9ad8d2b6",
+    "width": 512,
+    "height": 512
+  },
+  "distinctFrameHashes": 24,
+  "render": {
+    "status": "SIDE_PROFILE_FRAMES_RENDERED_FROM_SAVED_BLEND",
+    "source": "/mnt/obs-heavy1-input/MWNI_Heavy1_UNAPPROVED.blend",
+    "action": "SmartRigArmature|Heavy1",
+    "render": "EXACT_SAVED_BLENDER_SCENE_SIDE_ON_NOT_GLB",
+    "samples": [
+      {
+        "index": 0,
+        "frame": 0.0,
+        "file": "frame_000.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.05623,
+            -0.73631,
+            1.13021
+          ],
+          "RightFoot": [
+            -0.04036,
+            0.6872,
+            1.0589
+          ],
+          "Hips": [
+            -0.00473,
+            0.01267,
+            1.5006
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 0.0,
+          "LeftLeg": 0.0,
+          "LeftFoot": 0.0,
+          "RightUpLeg": 0.0,
+          "RightLeg": 0.0,
+          "RightFoot": 0.0,
+          "LeftArm": 0.0,
+          "LeftForeArm": 0.0,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 0.0
+        }
+      },
+      {
+        "index": 1,
+        "frame": 1.30435,
+        "file": "frame_001.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.00941,
+            -0.65668,
+            1.14241
+          ],
+          "RightFoot": [
+            -0.05086,
+            0.75775,
+            1.03984
+          ],
+          "Hips": [
+            -0.10709,
+            0.09188,
+            1.4159
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 326.023,
+          "LeftLeg": 0.354,
+          "LeftFoot": 12.521,
+          "RightUpLeg": 32.541,
+          "RightLeg": 20.37,
+          "RightFoot": 19.132,
+          "LeftArm": 34.902,
+          "LeftForeArm": 20.484,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 3.095
+        }
+      },
+      {
+        "index": 2,
+        "frame": 2.6087,
+        "file": "frame_002.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            -0.03197,
+            -0.60077,
+            1.15572
+          ],
+          "RightFoot": [
+            -0.0545,
+            0.76195,
+            1.05132
+          ],
+          "Hips": [
+            -0.16567,
+            0.13721,
+            1.36744
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 306.929,
+          "LeftLeg": 2.547,
+          "LeftFoot": 20.236,
+          "RightUpLeg": 61.562,
+          "RightLeg": 44.706,
+          "RightFoot": 38.94,
+          "LeftArm": 55.814,
+          "LeftForeArm": 36.773,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 6.169
+        }
+      },
+      {
+        "index": 3,
+        "frame": 3.91304,
+        "file": "frame_003.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            -0.0401,
+            -0.59291,
+            1.15968
+          ],
+          "RightFoot": [
+            -0.05459,
+            0.76173,
+            1.05523
+          ],
+          "Hips": [
+            -0.1742,
+            0.14381,
+            1.36038
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 304.383,
+          "LeftLeg": 2.433,
+          "LeftFoot": 21.283,
+          "RightUpLeg": 65.843,
+          "RightLeg": 47.598,
+          "RightFoot": 42.19,
+          "LeftArm": 57.368,
+          "LeftForeArm": 39.225,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 6.866
+        }
+      },
+      {
+        "index": 4,
+        "frame": 5.21739,
+        "file": "frame_004.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            -0.04818,
+            -0.58468,
+            1.16225
+          ],
+          "RightFoot": [
+            -0.05448,
+            0.76188,
+            1.05845
+          ],
+          "Hips": [
+            -0.18273,
+            0.15041,
+            1.35332
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 301.895,
+          "LeftLeg": 2.334,
+          "LeftFoot": 22.277,
+          "RightUpLeg": 69.457,
+          "RightLeg": 50.023,
+          "RightFoot": 44.955,
+          "LeftArm": 57.799,
+          "LeftForeArm": 40.947,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 7.363
+        }
+      },
+      {
+        "index": 5,
+        "frame": 6.52174,
+        "file": "frame_005.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            -0.00726,
+            -0.66464,
+            1.15005
+          ],
+          "RightFoot": [
+            -0.03386,
+            0.73019,
+            1.01466
+          ],
+          "Hips": [
+            -0.1447,
+            0.09654,
+            1.38709
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 332.888,
+          "LeftLeg": 1.152,
+          "LeftFoot": 14.466,
+          "RightUpLeg": 70.425,
+          "RightLeg": 42.916,
+          "RightFoot": 50.271,
+          "LeftArm": 50.461,
+          "LeftForeArm": 54.333,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 11.028
+        }
+      },
+      {
+        "index": 6,
+        "frame": 7.82609,
+        "file": "frame_006.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.03201,
+            -0.92285,
+            1.13169
+          ],
+          "RightFoot": [
+            -0.05307,
+            0.59877,
+            1.09536
+          ],
+          "Hips": [
+            -0.03609,
+            -0.17141,
+            1.44176
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 63.552,
+          "LeftLeg": 10.29,
+          "LeftFoot": 27.679,
+          "RightUpLeg": 256.209,
+          "RightLeg": 7.926,
+          "RightFoot": 67.343,
+          "LeftArm": 22.463,
+          "LeftForeArm": 87.72,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 16.267
+        }
+      },
+      {
+        "index": 7,
+        "frame": 9.13043,
+        "file": "frame_007.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07665,
+            -0.9419,
+            1.10331
+          ],
+          "RightFoot": [
+            -0.05648,
+            0.57139,
+            1.16201
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21697,
+            1.44594
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 75.134,
+          "LeftLeg": 11.85,
+          "LeftFoot": 33.609,
+          "RightUpLeg": 248.571,
+          "RightLeg": 8.796,
+          "RightFoot": 70.302,
+          "LeftArm": 26.604,
+          "LeftForeArm": 94.428,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 25.041
+        }
+      },
+      {
+        "index": 8,
+        "frame": 10.43478,
+        "file": "frame_008.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07681,
+            -0.94029,
+            1.10378
+          ],
+          "RightFoot": [
+            -0.05685,
+            0.56905,
+            1.15878
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21722,
+            1.44596
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 76.765,
+          "LeftLeg": 12.062,
+          "LeftFoot": 34.801,
+          "RightUpLeg": 248.671,
+          "RightLeg": 8.943,
+          "RightFoot": 70.548,
+          "LeftArm": 26.694,
+          "LeftForeArm": 94.948,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 28.982
+        }
+      },
+      {
+        "index": 9,
+        "frame": 11.73913,
+        "file": "frame_009.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07689,
+            -0.93924,
+            1.10411
+          ],
+          "RightFoot": [
+            -0.05672,
+            0.56757,
+            1.15702
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21739,
+            1.446
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 77.808,
+          "LeftLeg": 12.188,
+          "LeftFoot": 35.562,
+          "RightUpLeg": 249.061,
+          "RightLeg": 9.381,
+          "RightFoot": 70.729,
+          "LeftArm": 26.771,
+          "LeftForeArm": 95.23,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 31.514
+        }
+      },
+      {
+        "index": 10,
+        "frame": 13.04348,
+        "file": "frame_010.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07694,
+            -0.93863,
+            1.10431
+          ],
+          "RightFoot": [
+            -0.05642,
+            0.56674,
+            1.15616
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21748,
+            1.44608
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 78.385,
+          "LeftLeg": 12.251,
+          "LeftFoot": 35.983,
+          "RightUpLeg": 249.341,
+          "RightLeg": 9.727,
+          "RightFoot": 70.857,
+          "LeftArm": 26.832,
+          "LeftForeArm": 95.27,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 32.924
+        }
+      },
+      {
+        "index": 11,
+        "frame": 14.34783,
+        "file": "frame_011.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07696,
+            -0.93837,
+            1.10441
+          ],
+          "RightFoot": [
+            -0.05638,
+            0.56623,
+            1.1554
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21751,
+            1.44623
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 78.603,
+          "LeftLeg": 12.266,
+          "LeftFoot": 36.141,
+          "RightUpLeg": 249.568,
+          "RightLeg": 9.949,
+          "RightFoot": 70.885,
+          "LeftArm": 26.871,
+          "LeftForeArm": 95.051,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 33.466
+        }
+      },
+      {
+        "index": 12,
+        "frame": 15.65217,
+        "file": "frame_012.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07696,
+            -0.93827,
+            1.10448
+          ],
+          "RightFoot": [
+            -0.0569,
+            0.56569,
+            1.15409
+          ],
+          "Hips": [
+            -0.02154,
+            -0.21752,
+            1.44645
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 78.653,
+          "LeftLeg": 12.257,
+          "LeftFoot": 36.178,
+          "RightUpLeg": 249.761,
+          "RightLeg": 10.06,
+          "RightFoot": 70.824,
+          "LeftArm": 26.89,
+          "LeftForeArm": 94.632,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 33.599
+        }
+      },
+      {
+        "index": 13,
+        "frame": 16.95652,
+        "file": "frame_013.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07687,
+            -0.93601,
+            1.10468
+          ],
+          "RightFoot": [
+            -0.05756,
+            0.56822,
+            1.1508
+          ],
+          "Hips": [
+            -0.02131,
+            -0.21431,
+            1.44744
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 77.65,
+          "LeftLeg": 12.049,
+          "LeftFoot": 35.724,
+          "RightUpLeg": 250.937,
+          "RightLeg": 10.052,
+          "RightFoot": 70.027,
+          "LeftArm": 26.521,
+          "LeftForeArm": 92.957,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 33.135
+        }
+      },
+      {
+        "index": 14,
+        "frame": 18.26087,
+        "file": "frame_014.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07665,
+            -0.92677,
+            1.10522
+          ],
+          "RightFoot": [
+            -0.05656,
+            0.58021,
+            1.14227
+          ],
+          "Hips": [
+            -0.02033,
+            -0.20101,
+            1.45073
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 73.411,
+          "LeftLeg": 11.252,
+          "LeftFoot": 33.809,
+          "RightUpLeg": 255.477,
+          "RightLeg": 9.78,
+          "RightFoot": 66.859,
+          "LeftArm": 24.977,
+          "LeftForeArm": 87.6,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 31.205
+        }
+      },
+      {
+        "index": 15,
+        "frame": 19.56522,
+        "file": "frame_015.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07624,
+            -0.91191,
+            1.1062
+          ],
+          "RightFoot": [
+            -0.05464,
+            0.5982,
+            1.13009
+          ],
+          "Hips": [
+            -0.01879,
+            -0.17991,
+            1.45577
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 66.452,
+          "LeftLeg": 10.02,
+          "LeftFoot": 30.712,
+          "RightUpLeg": 263.416,
+          "RightLeg": 8.964,
+          "RightFoot": 61.431,
+          "LeftArm": 22.522,
+          "LeftForeArm": 79.13,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 28.137
+        }
+      },
+      {
+        "index": 16,
+        "frame": 20.86957,
+        "file": "frame_016.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07478,
+            -0.89247,
+            1.1079
+          ],
+          "RightFoot": [
+            -0.05298,
+            0.61922,
+            1.11776
+          ],
+          "Hips": [
+            -0.01685,
+            -0.15321,
+            1.46207
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 57.348,
+          "LeftLeg": 8.495,
+          "LeftFoot": 26.667,
+          "RightUpLeg": 85.112,
+          "RightLeg": 7.329,
+          "RightFoot": 53.691,
+          "LeftArm": 19.402,
+          "LeftForeArm": 68.125,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 24.238
+        }
+      },
+      {
+        "index": 17,
+        "frame": 22.17391,
+        "file": "frame_017.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.07331,
+            -0.86894,
+            1.1109
+          ],
+          "RightFoot": [
+            -0.0527,
+            0.63753,
+            1.10071
+          ],
+          "Hips": [
+            -0.01461,
+            -0.12266,
+            1.46921
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 46.569,
+          "LeftLeg": 6.792,
+          "LeftFoot": 21.861,
+          "RightUpLeg": 69.664,
+          "RightLeg": 4.798,
+          "RightFoot": 43.645,
+          "LeftArm": 15.822,
+          "LeftForeArm": 55.16,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 19.757
+        }
+      },
+      {
+        "index": 18,
+        "frame": 23.47826,
+        "file": "frame_018.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.06908,
+            -0.84066,
+            1.11149
+          ],
+          "RightFoot": [
+            -0.05643,
+            0.65245,
+            1.08613
+          ],
+          "Hips": [
+            -0.01228,
+            -0.09071,
+            1.47665
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 35.286,
+          "LeftLeg": 5.065,
+          "LeftFoot": 16.699,
+          "RightUpLeg": 51.71,
+          "RightLeg": 2.106,
+          "RightFoot": 32.367,
+          "LeftArm": 12.074,
+          "LeftForeArm": 41.461,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 15.064
+        }
+      },
+      {
+        "index": 19,
+        "frame": 24.78261,
+        "file": "frame_019.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.06524,
+            -0.81289,
+            1.11793
+          ],
+          "RightFoot": [
+            -0.05078,
+            0.66566,
+            1.07668
+          ],
+          "Hips": [
+            -0.01001,
+            -0.05954,
+            1.48389
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 24.206,
+          "LeftLeg": 3.443,
+          "LeftFoot": 11.612,
+          "RightUpLeg": 34.593,
+          "RightLeg": 0.172,
+          "RightFoot": 21.436,
+          "LeftArm": 8.419,
+          "LeftForeArm": 28.269,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 10.492
+        }
+      },
+      {
+        "index": 20,
+        "frame": 26.08696,
+        "file": "frame_020.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.06206,
+            -0.78433,
+            1.12201
+          ],
+          "RightFoot": [
+            -0.04382,
+            0.6765,
+            1.07075
+          ],
+          "Hips": [
+            -0.00795,
+            -0.03136,
+            1.49042
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 14.383,
+          "LeftLeg": 2.044,
+          "LeftFoot": 7.021,
+          "RightUpLeg": 20.021,
+          "RightLeg": 0.552,
+          "RightFoot": 12.208,
+          "LeftArm": 5.121,
+          "LeftForeArm": 16.741,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 6.374
+        }
+      },
+      {
+        "index": 21,
+        "frame": 27.3913,
+        "file": "frame_021.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.05912,
+            -0.76032,
+            1.12604
+          ],
+          "RightFoot": [
+            -0.04216,
+            0.6818,
+            1.06367
+          ],
+          "Hips": [
+            -0.00631,
+            -0.00886,
+            1.49562
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 6.897,
+          "LeftLeg": 0.979,
+          "LeftFoot": 3.405,
+          "RightUpLeg": 9.286,
+          "RightLeg": 0.636,
+          "RightFoot": 5.653,
+          "LeftArm": 2.5,
+          "LeftForeArm": 7.989,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 3.107
+        }
+      },
+      {
+        "index": 22,
+        "frame": 28.69565,
+        "file": "frame_022.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.05707,
+            -0.74333,
+            1.12897
+          ],
+          "RightFoot": [
+            -0.04084,
+            0.68567,
+            1.06019
+          ],
+          "Hips": [
+            -0.00519,
+            0.00646,
+            1.49916
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 1.962,
+          "LeftLeg": 0.277,
+          "LeftFoot": 0.974,
+          "RightUpLeg": 2.573,
+          "RightLeg": 0.277,
+          "RightFoot": 1.555,
+          "LeftArm": 0.719,
+          "LeftForeArm": 2.263,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 0.894
+        }
+      },
+      {
+        "index": 23,
+        "frame": 30.0,
+        "file": "frame_023.bmp",
+        "feetAndHipsWorld": {
+          "LeftFoot": [
+            0.05623,
+            -0.73631,
+            1.13021
+          ],
+          "RightFoot": [
+            -0.04036,
+            0.6872,
+            1.0589
+          ],
+          "Hips": [
+            -0.00473,
+            0.01267,
+            1.5006
+          ]
+        },
+        "localExcursionDeg": {
+          "LeftUpLeg": 0.0,
+          "LeftLeg": 0.0,
+          "LeftFoot": 0.0,
+          "RightUpLeg": 0.0,
+          "RightLeg": 0.0,
+          "RightFoot": 0.0,
+          "LeftArm": 0.0,
+          "LeftForeArm": 0.0,
+          "RightArm": 0.0,
+          "RightForeArm": 0.0,
+          "Spine2": 0.0
+        }
+      }
+    ],
+    "targetArmature": "SmartRigArmature",
+    "targetMeshes": [
+      "geometry_0",
+      "geometry_0.002",
+      "geometry_0.003",
+      "geometry_0.004"
+    ],
+    "blenderVersion": "4.3.2",
+    "actionFrames": [
+      0,
+      30
+    ],
+    "bakedFcurveCount": 708,
+    "camera": "WORLD_POSITIVE_X_SIDE_PROFILE",
+    "framesRequested": 24,
+    "frameFiles": [
+      "frame_000.bmp",
+      "frame_001.bmp",
+      "frame_002.bmp",
+      "frame_003.bmp",
+      "frame_004.bmp",
+      "frame_005.bmp",
+      "frame_006.bmp",
+      "frame_007.bmp",
+      "frame_008.bmp",
+      "frame_009.bmp",
+      "frame_010.bmp",
+      "frame_011.bmp",
+      "frame_012.bmp",
+      "frame_013.bmp",
+      "frame_014.bmp",
+      "frame_015.bmp",
+      "frame_016.bmp",
+      "frame_017.bmp",
+      "frame_018.bmp",
+      "frame_019.bmp",
+      "frame_020.bmp",
+      "frame_021.bmp",
+      "frame_022.bmp",
+      "frame_023.bmp"
+    ],
+    "maxJointExcursionsDeg": {
+      "LeftUpLeg": 332.888,
+      "LeftLeg": 12.266,
+      "LeftFoot": 36.178,
+      "RightUpLeg": 263.416,
+      "RightLeg": 50.023,
+      "RightFoot": 70.885,
+      "LeftArm": 57.799,
+      "LeftForeArm": 95.27,
+      "RightArm": 0.0,
+      "RightForeArm": 0.0,
+      "Spine2": 33.599
+    },
+    "framing": {
+      "horizontalWorldAxis": "Y",
+      "verticalWorldAxis": "Z",
+      "fixedFloorZ": 0,
+      "orthographicScale": 3.1604947875976563,
+      "worldYBounds": [
+        -1.0697492361068726,
+        1.3160113096237183
+      ],
+      "worldZBounds": [
+        -0.08,
+        2.389136552810669
+      ]
+    }
+  },
+  "ownerVisualAcceptance": "PENDING",
+  "canonicalModelModified": false
+}
