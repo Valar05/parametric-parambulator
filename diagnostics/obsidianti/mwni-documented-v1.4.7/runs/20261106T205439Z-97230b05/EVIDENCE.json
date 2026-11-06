@@ -1,0 +1,4968 @@
+{
+  "schema": "mwni-documented-v1.4.7",
+  "status": "NO_PHYSICALLY_VALID_CANDIDATE",
+  "runId": "20261106T205439Z-97230b05",
+  "sourceCommit": "0f6b0cb3ad23d12dff7e49311110b761600ee166",
+  "originalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalBlendSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "pluginVendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "allBlenderTrials": {
+    "actionInventory": {
+      "allActions": [
+        "Ares_AxeKick_Full_SmartRigArmature",
+        "Ares_StepBackLeft_Lower_SmartRigArmature",
+        "Ares_StepBackRight_Lower_SmartRigArmature",
+        "Ares_StepBack_Lower_SmartRigArmature",
+        "Ares_StepForwardLeft_Lower_SmartRigArmature",
+        "Ares_StepForwardRight_Lower_SmartRigArmature",
+        "Ares_StepForward_Lower_SmartRigArmature",
+        "Ares_StepLeft_Lower_SmartRigArmature",
+        "Ares_StepRight_Lower_SmartRigArmature",
+        "Cast",
+        "Heavy1",
+        "Heavy2",
+        "Heavy3",
+        "Idle",
+        "Kick",
+        "Light1",
+        "Light2",
+        "Light3",
+        "LionheartIdle_UNREVIEWED_SmartRigArmature",
+        "Lionheart_Cast_SmartRigArmature",
+        "Lionheart_Heavy1_SmartRigArmature",
+        "Lionheart_Heavy2_SmartRigArmature",
+        "Lionheart_Heavy3_SmartRigArmature",
+        "Lionheart_Kick_SmartRigArmature",
+        "Lionheart_Light1_SmartRigArmature",
+        "Lionheart_Light2_SmartRigArmature",
+        "Lionheart_Light3_SmartRigArmature",
+        "Lionheart_SpringAttack_SmartRigArmature",
+        "Lionheart_Stomp_SmartRigArmature",
+        "ObsidiantiIdle_SmartRigArmature",
+        "Running_SmartRigArmature",
+        "SpringAttack",
+        "Stomp",
+        "Walking_SmartRigArmature"
+      ],
+      "sourceInitialAction": "Cast",
+      "sourceRequired": [
+        "Idle",
+        "Kick",
+        "Light1"
+      ],
+      "targetIdleMatches": [],
+      "targetInitialAction": "Running_SmartRigArmature",
+      "targetNLA": [
+        {
+          "name": "Ares_AxeKick_Full",
+          "strips": [
+            "Ares_AxeKick_Full_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBackRight_Lower",
+          "strips": [
+            "Ares_StepBackRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBackLeft_Lower",
+          "strips": [
+            "Ares_StepBackLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForwardRight_Lower",
+          "strips": [
+            "Ares_StepForwardRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForwardLeft_Lower",
+          "strips": [
+            "Ares_StepForwardLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepRight_Lower",
+          "strips": [
+            "Ares_StepRight_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepLeft_Lower",
+          "strips": [
+            "Ares_StepLeft_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepBack_Lower",
+          "strips": [
+            "Ares_StepBack_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Ares_StepForward_Lower",
+          "strips": [
+            "Ares_StepForward_Lower_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Stomp",
+          "strips": [
+            "Lionheart_Stomp_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_SpringAttack",
+          "strips": [
+            "Lionheart_SpringAttack_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light3",
+          "strips": [
+            "Lionheart_Light3_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light2",
+          "strips": [
+            "Lionheart_Light2_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Light1",
+          "strips": [
+            "Lionheart_Light1_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Kick",
+          "strips": [
+            "Lionheart_Kick_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy3",
+          "strips": [
+            "Lionheart_Heavy3_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy2",
+          "strips": [
+            "Lionheart_Heavy2_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Heavy1",
+          "strips": [
+            "Lionheart_Heavy1_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Lionheart_Cast",
+          "strips": [
+            "Lionheart_Cast_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "ObsidiantiIdle",
+          "strips": [
+            "ObsidiantiIdle_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "LionheartIdle_UNREVIEWED",
+          "strips": [
+            "LionheartIdle_UNREVIEWED_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Walking",
+          "strips": [
+            "Walking_SmartRigArmature"
+          ]
+        },
+        {
+          "name": "Running",
+          "strips": [
+            "Running_SmartRigArmature"
+          ]
+        }
+      ]
+    },
+    "attempts": {
+      "Kick": [
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "full_rest_orientation",
+            "restOffsetPrevious": 22
+          },
+          "baked": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.07802,
+                "contactFramesWithin8cm": 3,
+                "hipRelativeMotionErrorMax_m": 0.04681,
+                "maxAbsoluteFootWorldError_m": 0.07738,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+                "minSkinnedSoleZ": 0.01819,
+                "soleRange_m": 1.2419,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09373,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.08065,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.04564,
+                "maxAbsoluteFootWorldError_m": 0.08212,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.01723,
+                "soleRange_m": 0.07367,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.07719,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 63.19,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 57.07,
+              "LeftUpLeg": 88.978,
+              "RightArm": 0.0,
+              "RightFoot": 71.938,
+              "RightForeArm": 0.0,
+              "RightLeg": 62.161,
+              "RightUpLeg": 311.357,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.47035,
+              1.61471
+            ]
+          },
+          "bakedAction": "SmartRigArmature|Kick",
+          "clip": "Kick",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK__SCENE_REST_FLOOR_PLACEMENT_group_world",
+          "floorBiasMeasuredFromActualSkin": {
+            "bias_m": 0.908035,
+            "perSideLowestP10Z": {
+              "Left": 0.8962,
+              "Right": 0.92161
+            },
+            "sideDifference_m": 0.025410000000000044
+          },
+          "ikSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.92462,
+              "right": 0.92161
+            },
+            {
+              "frame": 0.5,
+              "left": 0.97947,
+              "right": 0.92499
+            },
+            {
+              "frame": 1.0,
+              "left": 1.10157,
+              "right": 0.93295
+            },
+            {
+              "frame": 2.0,
+              "left": 1.28768,
+              "right": 0.93417
+            },
+            {
+              "frame": 3.0,
+              "left": 1.30497,
+              "right": 0.94249
+            },
+            {
+              "frame": 4.0,
+              "left": 1.32669,
+              "right": 0.94518
+            },
+            {
+              "frame": 5.0,
+              "left": 1.3489,
+              "right": 0.97242
+            },
+            {
+              "frame": 6.0,
+              "left": 2.12968,
+              "right": 0.92325
+            },
+            {
+              "frame": 7.0,
+              "left": 2.13162,
+              "right": 0.93011
+            },
+            {
+              "frame": 8.0,
+              "left": 2.13378,
+              "right": 0.93217
+            },
+            {
+              "frame": 9.0,
+              "left": 2.13586,
+              "right": 0.93254
+            },
+            {
+              "frame": 10.0,
+              "left": 2.13742,
+              "right": 0.93422
+            },
+            {
+              "frame": 11.0,
+              "left": 2.13797,
+              "right": 0.9402
+            },
+            {
+              "frame": 12.0,
+              "left": 2.07648,
+              "right": 0.93775
+            },
+            {
+              "frame": 13.0,
+              "left": 1.86231,
+              "right": 0.92162
+            },
+            {
+              "frame": 14.0,
+              "left": 1.57885,
+              "right": 0.92162
+            },
+            {
+              "frame": 15.0,
+              "left": 1.2733,
+              "right": 0.92162
+            },
+            {
+              "frame": 16.0,
+              "left": 1.03013,
+              "right": 0.92162
+            },
+            {
+              "frame": 17.0,
+              "left": 0.92168,
+              "right": 0.92162
+            },
+            {
+              "frame": 18.0,
+              "left": 0.91008,
+              "right": 0.92162
+            },
+            {
+              "frame": 19.0,
+              "left": 0.90231,
+              "right": 0.92162
+            },
+            {
+              "frame": 20.0,
+              "left": 0.89785,
+              "right": 0.92162
+            },
+            {
+              "frame": 21.0,
+              "left": 0.8962,
+              "right": 0.92161
+            },
+            {
+              "frame": 22.0,
+              "left": 0.89687,
+              "right": 0.92161
+            },
+            {
+              "frame": 23.0,
+              "left": 0.89936,
+              "right": 0.92161
+            },
+            {
+              "frame": 24.0,
+              "left": 0.90315,
+              "right": 0.92161
+            },
+            {
+              "frame": 25.0,
+              "left": 0.90776,
+              "right": 0.92161
+            },
+            {
+              "frame": 26.0,
+              "left": 0.91249,
+              "right": 0.92161
+            },
+            {
+              "frame": 27.0,
+              "left": 0.91691,
+              "right": 0.92161
+            },
+            {
+              "frame": 28.0,
+              "left": 0.92078,
+              "right": 0.92161
+            },
+            {
+              "frame": 29.0,
+              "left": 0.92357,
+              "right": 0.92161
+            },
+            {
+              "frame": 29.5,
+              "left": 0.92434,
+              "right": 0.92161
+            },
+            {
+              "frame": 30.0,
+              "left": 0.92461,
+              "right": 0.92161
+            }
+          ],
+          "mode": "full_rest_orientation",
+          "outputBlend": {
+            "bytes": 26722750,
+            "path": "/mnt/obs-work/Kick/MWNI147_Kick_UNAPPROVED.blend",
+            "sha256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c"
+          },
+          "outputGLB": {
+            "bytes": 14705756,
+            "path": "/mnt/obs-work/Kick/MWNI147_Kick_UNAPPROVED.glb",
+            "sha256": "7812f8adc9ea7d957e1bdb1486d5da57fa52b026d0deb80c245d0d51afc48601"
+          },
+          "physicalFailures": [],
+          "placementAcceptedForBake": {
+            "failures": [],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0781,
+                "contactFramesWithin8cm": 3,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.0774,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+                "minSkinnedSoleZ": 0.01828,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.10351,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.0801,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.0438,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.09080500000000001,
+              "perSideLowestP10Z": {
+                "Left": 0.07897,
+                "Right": 0.10438
+              },
+              "sideDifference_m": 0.025410000000000002
+            },
+            "placement": "group_world",
+            "shiftZ_m": -0.81723
+          },
+          "placementExploration": [
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "KICK_NO_GROUNDED_SUPPORT_FOOT"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.89533,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02423,
+                  "maxAbsoluteFootWorldError_m": 0.86829,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.83551,
+                  "soleRange_m": 1.24177,
+                  "sourceHipRelativeExcursion_m": 1.11216,
+                  "targetHipRelativeExcursion_m": 1.09366,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92074,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.03048,
+                  "maxAbsoluteFootWorldError_m": 0.8933,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.05081,
+                  "sourceHipRelativeExcursion_m": 0.69661,
+                  "targetHipRelativeExcursion_m": 0.71511,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.908035,
+                "perSideLowestP10Z": {
+                  "Left": 0.8962,
+                  "Right": 0.92161
+                },
+                "sideDifference_m": 0.025410000000000044
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.90804
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "KICK_NO_GROUNDED_SUPPORT_FOOT"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.89533,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02423,
+                  "maxAbsoluteFootWorldError_m": 0.77764,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.83551,
+                  "soleRange_m": 1.24177,
+                  "sourceHipRelativeExcursion_m": 1.11216,
+                  "targetHipRelativeExcursion_m": 1.09366,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92074,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.03048,
+                  "maxAbsoluteFootWorldError_m": 0.80274,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.05081,
+                  "sourceHipRelativeExcursion_m": 0.69661,
+                  "targetHipRelativeExcursion_m": 0.71511,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.908035,
+                "perSideLowestP10Z": {
+                  "Left": 0.8962,
+                  "Right": 0.92161
+                },
+                "sideDifference_m": 0.025410000000000044
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.81723
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "KICK_NO_GROUNDED_SUPPORT_FOOT"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.89533,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02423,
+                  "maxAbsoluteFootWorldError_m": 0.95897,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.83551,
+                  "soleRange_m": 1.24177,
+                  "sourceHipRelativeExcursion_m": 1.11216,
+                  "targetHipRelativeExcursion_m": 1.09366,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92074,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.03048,
+                  "maxAbsoluteFootWorldError_m": 0.98391,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.05081,
+                  "sourceHipRelativeExcursion_m": 0.69661,
+                  "targetHipRelativeExcursion_m": 0.71511,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.908035,
+                "perSideLowestP10Z": {
+                  "Left": 0.8962,
+                  "Right": 0.92161
+                },
+                "sideDifference_m": 0.025410000000000044
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.99884
+            },
+            {
+              "failures": [
+                "SHOE_PENETRATES_REST_FLOOR_Left"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.00115,
+                  "contactFramesWithin8cm": 17,
+                  "hipRelativeMotionErrorMax_m": 0.02423,
+                  "maxAbsoluteFootWorldError_m": 0.0774,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.10795,
+                  "minSkinnedSoleZ": -0.07253,
+                  "soleRange_m": 1.24177,
+                  "sourceHipRelativeExcursion_m": 1.11216,
+                  "targetHipRelativeExcursion_m": 1.09366,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.01271,
+                  "contactFramesWithin8cm": 33,
+                  "hipRelativeMotionErrorMax_m": 0.03048,
+                  "maxAbsoluteFootWorldError_m": 0.0801,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.16371,
+                  "minSkinnedSoleZ": -0.04701,
+                  "soleRange_m": 0.0508,
+                  "sourceHipRelativeExcursion_m": 0.69661,
+                  "targetHipRelativeExcursion_m": 0.71511,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 4.999999999999905e-06,
+                "perSideLowestP10Z": {
+                  "Left": -0.01183,
+                  "Right": 0.01358
+                },
+                "sideDifference_m": 0.025410000000000002
+              },
+              "placement": "group_world",
+              "shiftZ_m": -0.90804
+            },
+            {
+              "failures": [],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.0781,
+                  "contactFramesWithin8cm": 3,
+                  "hipRelativeMotionErrorMax_m": 0.02423,
+                  "maxAbsoluteFootWorldError_m": 0.0774,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+                  "minSkinnedSoleZ": 0.01828,
+                  "soleRange_m": 1.24177,
+                  "sourceHipRelativeExcursion_m": 1.11216,
+                  "targetHipRelativeExcursion_m": 1.09366,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.10351,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.03048,
+                  "maxAbsoluteFootWorldError_m": 0.0801,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.0438,
+                  "soleRange_m": 0.05081,
+                  "sourceHipRelativeExcursion_m": 0.69661,
+                  "targetHipRelativeExcursion_m": 0.71511,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.09080500000000001,
+                "perSideLowestP10Z": {
+                  "Left": 0.07897,
+                  "Right": 0.10438
+                },
+                "sideDifference_m": 0.025410000000000002
+              },
+              "placement": "group_world",
+              "shiftZ_m": -0.81723
+            }
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.87529,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03806,
+                "maxAbsoluteFootWorldError_m": 0.07695,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.81547,
+                "soleRange_m": 1.26544,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.10863,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.91496,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03314,
+                "maxAbsoluteFootWorldError_m": 0.06586,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.85524,
+                "soleRange_m": 0.04258,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.68394,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.1029,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.363,
+              "RightArm": 0.0,
+              "RightFoot": 74.132,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.52027,
+              1.60736
+            ]
+          },
+          "plainSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.91912,
+              "right": 0.91583
+            },
+            {
+              "frame": 0.5,
+              "left": 0.9738,
+              "right": 0.91714
+            },
+            {
+              "frame": 1.0,
+              "left": 1.09636,
+              "right": 0.92071
+            },
+            {
+              "frame": 2.0,
+              "left": 1.28414,
+              "right": 0.94361
+            },
+            {
+              "frame": 3.0,
+              "left": 1.30091,
+              "right": 0.95164
+            },
+            {
+              "frame": 4.0,
+              "left": 1.32204,
+              "right": 0.95426
+            },
+            {
+              "frame": 5.0,
+              "left": 1.34397,
+              "right": 0.95841
+            },
+            {
+              "frame": 6.0,
+              "left": 2.12543,
+              "right": 0.93917
+            },
+            {
+              "frame": 7.0,
+              "left": 2.13494,
+              "right": 0.93908
+            },
+            {
+              "frame": 8.0,
+              "left": 2.13721,
+              "right": 0.93906
+            },
+            {
+              "frame": 9.0,
+              "left": 2.13938,
+              "right": 0.93905
+            },
+            {
+              "frame": 10.0,
+              "left": 2.14101,
+              "right": 0.93903
+            },
+            {
+              "frame": 11.0,
+              "left": 2.1416,
+              "right": 0.93897
+            },
+            {
+              "frame": 12.0,
+              "left": 2.05698,
+              "right": 0.93919
+            },
+            {
+              "frame": 13.0,
+              "left": 1.83685,
+              "right": 0.93959
+            },
+            {
+              "frame": 14.0,
+              "left": 1.54829,
+              "right": 0.93984
+            },
+            {
+              "frame": 15.0,
+              "left": 1.24326,
+              "right": 0.93983
+            },
+            {
+              "frame": 16.0,
+              "left": 1.00404,
+              "right": 0.93968
+            },
+            {
+              "frame": 17.0,
+              "left": 0.89763,
+              "right": 0.93965
+            },
+            {
+              "frame": 18.0,
+              "left": 0.8866,
+              "right": 0.93947
+            },
+            {
+              "frame": 19.0,
+              "left": 0.8797,
+              "right": 0.93868
+            },
+            {
+              "frame": 20.0,
+              "left": 0.87639,
+              "right": 0.93728
+            },
+            {
+              "frame": 21.0,
+              "left": 0.87616,
+              "right": 0.93526
+            },
+            {
+              "frame": 22.0,
+              "left": 0.8785,
+              "right": 0.9327
+            },
+            {
+              "frame": 23.0,
+              "left": 0.88288,
+              "right": 0.92975
+            },
+            {
+              "frame": 24.0,
+              "left": 0.88873,
+              "right": 0.92666
+            },
+            {
+              "frame": 25.0,
+              "left": 0.89545,
+              "right": 0.92367
+            },
+            {
+              "frame": 26.0,
+              "left": 0.90224,
+              "right": 0.92101
+            },
+            {
+              "frame": 27.0,
+              "left": 0.90853,
+              "right": 0.91882
+            },
+            {
+              "frame": 28.0,
+              "left": 0.9139,
+              "right": 0.91719
+            },
+            {
+              "frame": 29.0,
+              "left": 0.91771,
+              "right": 0.91618
+            },
+            {
+              "frame": 29.5,
+              "left": 0.91875,
+              "right": 0.91592
+            },
+            {
+              "frame": 30.0,
+              "left": 0.91912,
+              "right": 0.91583
+            }
+          ],
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "restFootBoneWorld": {
+            "Left": [
+              0.14504311978816986,
+              -0.005920175928622484,
+              0.18535640835762024
+            ],
+            "Right": [
+              -0.1445961445569992,
+              -0.002807541051879525,
+              0.1900297999382019
+            ]
+          },
+          "sourceBaseMatrix": [
+            [
+              0.008700000122189522,
+              -5.9080492234575566e-12,
+              5.350781430024654e-05,
+              0.003734381403774023
+            ],
+            [
+              5.350781430024654e-05,
+              1.6939806224414156e-09,
+              -0.008700000122189522,
+              0.02384297549724579
+            ],
+            [
+              -4.510392927203899e-12,
+              0.008700165897607803,
+              1.6939846192443042e-09,
+              0.9199831485748291
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "status": "BLENDER_IK_BAKE_AND_MOTION_GATES_PASSED_UNAPPROVED",
+          "targetBaseMatrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0781,
+                "contactFramesWithin8cm": 3,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.0774,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+                "minSkinnedSoleZ": 0.01828,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.10351,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.0801,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.0438,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.07719,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 61.308,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 54.763,
+              "LeftUpLeg": 91.362,
+              "RightArm": 0.0,
+              "RightFoot": 74.133,
+              "RightForeArm": 0.0,
+              "RightLeg": 63.619,
+              "RightUpLeg": 313.354,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "sourceFootSeparationRange_m": [
+              0.54709,
+              1.6919
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 40.435,
+              "LeftFoot": 63.191,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 57.071,
+              "LeftUpLeg": 88.974,
+              "RightArm": 0.0,
+              "RightFoot": 71.938,
+              "RightForeArm": 0.0,
+              "RightLeg": 62.161,
+              "RightUpLeg": 311.358,
+              "Spine": 0.0,
+              "Spine2": 11.841
+            },
+            "targetFootSeparationRange_m": [
+              0.47034,
+              1.61471
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+            "KICK_NO_GROUNDED_SUPPORT_FOOT"
+          ]
+        }
+      ],
+      "Light1": [
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "full_rest_orientation",
+            "restOffsetPrevious": 22
+          },
+          "clip": "Light1",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK",
+          "diagnosticPreviewExport": {
+            "bytes": 14757404,
+            "path": "/mnt/obs-work/Light1/diagnostic/MWNI147_Light1_REJECTED_DIAGNOSTIC.glb",
+            "sha256": "34d532656239cd2ecbf12b229062b77c92ecefa7af7f742131631fc4fa701d70"
+          },
+          "error": "PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right', 'LIGHT1_STANDING_FEET_NOT_PLANTED']",
+          "floorBiasMeasuredFromActualSkin": {
+            "bias_m": 0.922235,
+            "perSideLowestP10Z": {
+              "Left": 0.92461,
+              "Right": 0.9216
+            },
+            "sideDifference_m": 0.003010000000000068
+          },
+          "ikSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.92462,
+              "right": 0.92161
+            },
+            {
+              "frame": 0.5,
+              "left": 0.92462,
+              "right": 0.92161
+            },
+            {
+              "frame": 1.0,
+              "left": 0.92462,
+              "right": 0.92161
+            },
+            {
+              "frame": 2.0,
+              "left": 0.92461,
+              "right": 0.92161
+            },
+            {
+              "frame": 3.0,
+              "left": 0.93978,
+              "right": 0.9216
+            },
+            {
+              "frame": 4.0,
+              "left": 0.93307,
+              "right": 0.92164
+            },
+            {
+              "frame": 5.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 6.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 7.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 8.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 9.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 10.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 11.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 12.0,
+              "left": 0.92461,
+              "right": 0.94536
+            },
+            {
+              "frame": 13.0,
+              "left": 0.92461,
+              "right": 0.94511
+            },
+            {
+              "frame": 14.0,
+              "left": 0.92461,
+              "right": 0.94449
+            },
+            {
+              "frame": 15.0,
+              "left": 0.92461,
+              "right": 0.94373
+            },
+            {
+              "frame": 16.0,
+              "left": 0.92461,
+              "right": 0.94233
+            },
+            {
+              "frame": 17.0,
+              "left": 0.92461,
+              "right": 0.94218
+            },
+            {
+              "frame": 18.0,
+              "left": 0.92461,
+              "right": 0.94231
+            },
+            {
+              "frame": 19.0,
+              "left": 0.92461,
+              "right": 0.94008
+            },
+            {
+              "frame": 20.0,
+              "left": 0.92461,
+              "right": 0.93887
+            },
+            {
+              "frame": 21.0,
+              "left": 0.92461,
+              "right": 0.93979
+            },
+            {
+              "frame": 22.0,
+              "left": 0.92461,
+              "right": 0.94005
+            },
+            {
+              "frame": 23.0,
+              "left": 0.92461,
+              "right": 0.9389
+            },
+            {
+              "frame": 24.0,
+              "left": 0.92461,
+              "right": 0.93596
+            },
+            {
+              "frame": 25.0,
+              "left": 0.92461,
+              "right": 0.93273
+            },
+            {
+              "frame": 26.0,
+              "left": 0.92461,
+              "right": 0.92945
+            },
+            {
+              "frame": 27.0,
+              "left": 0.92461,
+              "right": 0.9264
+            },
+            {
+              "frame": 28.0,
+              "left": 0.92461,
+              "right": 0.92389
+            },
+            {
+              "frame": 29.0,
+              "left": 0.92462,
+              "right": 0.92222
+            },
+            {
+              "frame": 29.5,
+              "left": 0.92462,
+              "right": 0.92177
+            },
+            {
+              "frame": 30.0,
+              "left": 0.92462,
+              "right": 0.92161
+            }
+          ],
+          "mode": "full_rest_orientation",
+          "physicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+            "LIGHT1_STANDING_FEET_NOT_PLANTED"
+          ],
+          "placementExploration": [
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.92374,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.8978,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86357,
+                  "soleRange_m": 0.01517,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92073,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.88777,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.922235,
+                "perSideLowestP10Z": {
+                  "Left": 0.92461,
+                  "Right": 0.9216
+                },
+                "sideDifference_m": 0.003010000000000068
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.92224
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.92374,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.80573,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86357,
+                  "soleRange_m": 0.01517,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92073,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.7957,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.922235,
+                "perSideLowestP10Z": {
+                  "Left": 0.92461,
+                  "Right": 0.9216
+                },
+                "sideDifference_m": 0.003010000000000068
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.83001
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.92374,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.98989,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86357,
+                  "soleRange_m": 0.01517,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.92073,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.97987,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.86103,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.922235,
+                "perSideLowestP10Z": {
+                  "Left": 0.92461,
+                  "Right": 0.9216
+                },
+                "sideDifference_m": 0.003010000000000068
+              },
+              "placement": "source_only",
+              "shiftZ_m": -1.01446
+            },
+            {
+              "failures": [
+                "SHOE_PENETRATES_REST_FLOOR_Left",
+                "SHOE_PENETRATES_REST_FLOOR_Right"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.00151,
+                  "contactFramesWithin8cm": 33,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.0629,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.01425,
+                  "minSkinnedSoleZ": -0.05867,
+                  "soleRange_m": 0.01516,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.00079,
+                  "contactFramesWithin8cm": 33,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.06044,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                  "minSkinnedSoleZ": -0.06121,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 5.0000000000001215e-06,
+                "perSideLowestP10Z": {
+                  "Left": 0.00238,
+                  "Right": -0.00063
+                },
+                "sideDifference_m": 0.00301
+              },
+              "placement": "group_world",
+              "shiftZ_m": -0.92224
+            },
+            {
+              "failures": [
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.09373,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.0629,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.03356,
+                  "soleRange_m": 0.01516,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.09072,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.06044,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.03102,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.09222500000000002,
+                "perSideLowestP10Z": {
+                  "Left": 0.0946,
+                  "Right": 0.09159
+                },
+                "sideDifference_m": 0.003009999999999999
+              },
+              "placement": "group_world",
+              "shiftZ_m": -0.83001
+            },
+            {
+              "failures": [
+                "SHOE_PENETRATES_REST_FLOOR_Left",
+                "SHOE_PENETRATES_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.07555,
+                  "contactFramesWithin8cm": 1,
+                  "hipRelativeMotionErrorMax_m": 0.02087,
+                  "maxAbsoluteFootWorldError_m": 0.0629,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": -0.15089,
+                  "soleRange_m": 0.01517,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.06997,
+                  "contactFramesWithin8cm": 20,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.06044,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.00401,
+                  "minSkinnedSoleZ": -0.15343,
+                  "soleRange_m": 0.02376,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": -0.09222499999999999,
+                "perSideLowestP10Z": {
+                  "Left": -0.08985,
+                  "Right": -0.09286
+                },
+                "sideDifference_m": 0.003009999999999999
+              },
+              "placement": "group_world",
+              "shiftZ_m": -1.01446
+            }
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.91781,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0371,
+                "maxAbsoluteFootWorldError_m": 0.06973,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.85763,
+                "soleRange_m": 0.00326,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.21681,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.91473,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0339,
+                "maxAbsoluteFootWorldError_m": 0.06586,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.85504,
+                "soleRange_m": 0.02949,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.24484,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.10186,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.178,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.80642,
+              0.81868
+            ]
+          },
+          "plainSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.91912,
+              "right": 0.91583
+            },
+            {
+              "frame": 0.5,
+              "left": 0.91931,
+              "right": 0.91579
+            },
+            {
+              "frame": 1.0,
+              "left": 0.91957,
+              "right": 0.91575
+            },
+            {
+              "frame": 2.0,
+              "left": 0.92037,
+              "right": 0.91568
+            },
+            {
+              "frame": 3.0,
+              "left": 0.92194,
+              "right": 0.9156
+            },
+            {
+              "frame": 4.0,
+              "left": 0.92107,
+              "right": 0.91566
+            },
+            {
+              "frame": 5.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 6.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 7.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 8.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 9.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 10.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 11.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 12.0,
+              "left": 0.91938,
+              "right": 0.94509
+            },
+            {
+              "frame": 13.0,
+              "left": 0.91936,
+              "right": 0.94504
+            },
+            {
+              "frame": 14.0,
+              "left": 0.91931,
+              "right": 0.9449
+            },
+            {
+              "frame": 15.0,
+              "left": 0.91924,
+              "right": 0.94476
+            },
+            {
+              "frame": 16.0,
+              "left": 0.91915,
+              "right": 0.94395
+            },
+            {
+              "frame": 17.0,
+              "left": 0.91905,
+              "right": 0.9442
+            },
+            {
+              "frame": 18.0,
+              "left": 0.91895,
+              "right": 0.9444
+            },
+            {
+              "frame": 19.0,
+              "left": 0.91886,
+              "right": 0.94185
+            },
+            {
+              "frame": 20.0,
+              "left": 0.91878,
+              "right": 0.93995
+            },
+            {
+              "frame": 21.0,
+              "left": 0.91872,
+              "right": 0.93993
+            },
+            {
+              "frame": 22.0,
+              "left": 0.91868,
+              "right": 0.93911
+            },
+            {
+              "frame": 23.0,
+              "left": 0.91868,
+              "right": 0.93686
+            },
+            {
+              "frame": 24.0,
+              "left": 0.91871,
+              "right": 0.93291
+            },
+            {
+              "frame": 25.0,
+              "left": 0.91876,
+              "right": 0.92881
+            },
+            {
+              "frame": 26.0,
+              "left": 0.91884,
+              "right": 0.92482
+            },
+            {
+              "frame": 27.0,
+              "left": 0.91894,
+              "right": 0.92125
+            },
+            {
+              "frame": 28.0,
+              "left": 0.91903,
+              "right": 0.91838
+            },
+            {
+              "frame": 29.0,
+              "left": 0.91909,
+              "right": 0.9165
+            },
+            {
+              "frame": 29.5,
+              "left": 0.91911,
+              "right": 0.916
+            },
+            {
+              "frame": 30.0,
+              "left": 0.91912,
+              "right": 0.91583
+            }
+          ],
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "restFootBoneWorld": {
+            "Left": [
+              0.14504311978816986,
+              -0.005920175928622484,
+              0.18535640835762024
+            ],
+            "Right": [
+              -0.1445961445569992,
+              -0.002807541051879525,
+              0.1900297999382019
+            ]
+          },
+          "sourceBaseMatrix": [
+            [
+              0.008700000122189522,
+              -5.9080492234575566e-12,
+              5.350781430024654e-05,
+              0.003734381403774023
+            ],
+            [
+              5.350781430024654e-05,
+              1.6939806224414156e-09,
+              -0.008700000122189522,
+              0.02384297549724579
+            ],
+            [
+              -4.510392927203899e-12,
+              0.008700165897607803,
+              1.6939846192443042e-09,
+              0.9199831485748291
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "status": "FAILED_VALIDATION",
+          "targetBaseMatrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/blender_trial.py\", line 363, in run_clip\n    if fail:raise RuntimeError('PRE_BAKE_PHYSICAL_GATE_'+repr(fail))\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: PRE_BAKE_PHYSICAL_GATE_['SHOE_NEVER_NEAR_REST_FLOOR_Left', 'SHOE_NEVER_NEAR_REST_FLOOR_Right', 'LIGHT1_STANDING_FEET_NOT_PLANTED']\n",
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.92374,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02087,
+                "maxAbsoluteFootWorldError_m": 0.0629,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.86357,
+                "soleRange_m": 0.01517,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92073,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06044,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.86103,
+                "soleRange_m": 0.02376,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.05124,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 31.301,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 36.209,
+              "LeftUpLeg": 55.582,
+              "RightArm": 65.208,
+              "RightFoot": 30.676,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.845,
+              "RightUpLeg": 262.378,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.83683,
+              0.87803
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+            "LIGHT1_STANDING_FEET_NOT_PLANTED"
+          ]
+        },
+        {
+          "alignment": {
+            "changedBoneCount": 22,
+            "mode": "bone_axis_no_roll",
+            "restOffsetPrevious": 22
+          },
+          "baked": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.00182,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.06354,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01429,
+                "minSkinnedSoleZ": -0.04391,
+                "soleRange_m": 0.01606,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24915,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.00067,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.00046,
+                "maxAbsoluteFootWorldError_m": 0.06038,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                "minSkinnedSoleZ": -0.03583,
+                "soleRange_m": 0.05699,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.05054,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 31.386,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 36.031,
+              "LeftUpLeg": 55.608,
+              "RightArm": 65.208,
+              "RightFoot": 30.678,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.823,
+              "RightUpLeg": 304.691,
+              "Spine": 14.511,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.83777,
+              0.87966
+            ]
+          },
+          "bakedAction": "SmartRigArmature|Light1",
+          "clip": "Light1",
+          "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK__SCENE_REST_FLOOR_PLACEMENT_group_world",
+          "floorBiasMeasuredFromActualSkin": {
+            "bias_m": 0.8627049999999999,
+            "perSideLowestP10Z": {
+              "Left": 0.86608,
+              "Right": 0.86107
+            },
+            "sideDifference_m": 0.005009999999999959
+          },
+          "ikSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.86608,
+              "right": 0.86108
+            },
+            {
+              "frame": 0.5,
+              "left": 0.86608,
+              "right": 0.86108
+            },
+            {
+              "frame": 1.0,
+              "left": 0.86609,
+              "right": 0.86108
+            },
+            {
+              "frame": 2.0,
+              "left": 0.86629,
+              "right": 0.86108
+            },
+            {
+              "frame": 3.0,
+              "left": 0.88151,
+              "right": 0.86107
+            },
+            {
+              "frame": 4.0,
+              "left": 0.87477,
+              "right": 0.8611
+            },
+            {
+              "frame": 5.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 6.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 7.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 8.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 9.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 10.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 11.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 12.0,
+              "left": 0.86608,
+              "right": 0.9178
+            },
+            {
+              "frame": 13.0,
+              "left": 0.86608,
+              "right": 0.9171
+            },
+            {
+              "frame": 14.0,
+              "left": 0.86608,
+              "right": 0.91613
+            },
+            {
+              "frame": 15.0,
+              "left": 0.86608,
+              "right": 0.91487
+            },
+            {
+              "frame": 16.0,
+              "left": 0.86608,
+              "right": 0.91338
+            },
+            {
+              "frame": 17.0,
+              "left": 0.86608,
+              "right": 0.91181
+            },
+            {
+              "frame": 18.0,
+              "left": 0.86608,
+              "right": 0.91023
+            },
+            {
+              "frame": 19.0,
+              "left": 0.86608,
+              "right": 0.90721
+            },
+            {
+              "frame": 20.0,
+              "left": 0.86608,
+              "right": 0.90303
+            },
+            {
+              "frame": 21.0,
+              "left": 0.86608,
+              "right": 0.89699
+            },
+            {
+              "frame": 22.0,
+              "left": 0.86608,
+              "right": 0.89143
+            },
+            {
+              "frame": 23.0,
+              "left": 0.86608,
+              "right": 0.88801
+            },
+            {
+              "frame": 24.0,
+              "left": 0.86608,
+              "right": 0.87984
+            },
+            {
+              "frame": 25.0,
+              "left": 0.86608,
+              "right": 0.87425
+            },
+            {
+              "frame": 26.0,
+              "left": 0.86608,
+              "right": 0.86913
+            },
+            {
+              "frame": 27.0,
+              "left": 0.86608,
+              "right": 0.86497
+            },
+            {
+              "frame": 28.0,
+              "left": 0.86608,
+              "right": 0.86291
+            },
+            {
+              "frame": 29.0,
+              "left": 0.86608,
+              "right": 0.86156
+            },
+            {
+              "frame": 29.5,
+              "left": 0.86608,
+              "right": 0.8612
+            },
+            {
+              "frame": 30.0,
+              "left": 0.86608,
+              "right": 0.86108
+            }
+          ],
+          "mode": "bone_axis_no_roll",
+          "outputBlend": {
+            "bytes": 26885938,
+            "path": "/mnt/obs-work/Light1/MWNI147_Light1_UNAPPROVED.blend",
+            "sha256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19"
+          },
+          "outputGLB": {
+            "bytes": 14757432,
+            "path": "/mnt/obs-work/Light1/MWNI147_Light1_UNAPPROVED.glb",
+            "sha256": "1f7852abd5e51c514d4856b91344c23ba8f1364c4366903f45fbd61eb9d51a99"
+          },
+          "physicalFailures": [],
+          "placementAcceptedForBake": {
+            "failures": [],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0025,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.06311,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+                "minSkinnedSoleZ": -0.0434,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.00067,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06022,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                "minSkinnedSoleZ": -0.03583,
+                "soleRange_m": 0.05672,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 1.0842021724855044e-19,
+              "perSideLowestP10Z": {
+                "Left": 0.00337,
+                "Right": -0.00163
+              },
+              "sideDifference_m": 0.005
+            },
+            "placement": "group_world",
+            "shiftZ_m": -0.8627
+          },
+          "placementExploration": [
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.86521,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02117,
+                  "maxAbsoluteFootWorldError_m": 0.83859,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.81931,
+                  "soleRange_m": 0.01543,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.8602,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.82832,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.82687,
+                  "soleRange_m": 0.05673,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.8627049999999999,
+                "perSideLowestP10Z": {
+                  "Left": 0.86608,
+                  "Right": 0.86107
+                },
+                "sideDifference_m": 0.005009999999999959
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.8627
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.86521,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02117,
+                  "maxAbsoluteFootWorldError_m": 0.75249,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.81931,
+                  "soleRange_m": 0.01543,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.8602,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.74222,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.82687,
+                  "soleRange_m": 0.05673,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.8627049999999999,
+                "perSideLowestP10Z": {
+                  "Left": 0.86608,
+                  "Right": 0.86107
+                },
+                "sideDifference_m": 0.005009999999999959
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.77643
+            },
+            {
+              "failures": [
+                "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+                "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+                "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+                "LIGHT1_STANDING_FEET_NOT_PLANTED"
+              ],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.86521,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.02117,
+                  "maxAbsoluteFootWorldError_m": 0.92472,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.81931,
+                  "soleRange_m": 0.01543,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.8602,
+                  "contactFramesWithin8cm": 0,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.91446,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                  "minSkinnedSoleZ": 0.82687,
+                  "soleRange_m": 0.05673,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 0.8627049999999999,
+                "perSideLowestP10Z": {
+                  "Left": 0.86608,
+                  "Right": 0.86107
+                },
+                "sideDifference_m": 0.005009999999999959
+              },
+              "placement": "source_only",
+              "shiftZ_m": -0.94898
+            },
+            {
+              "failures": [],
+              "footMotion": {
+                "Left": {
+                  "bestSoleContactDistance_m": 0.0025,
+                  "contactFramesWithin8cm": 33,
+                  "hipRelativeMotionErrorMax_m": 0.02117,
+                  "maxAbsoluteFootWorldError_m": 0.06311,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+                  "minSkinnedSoleZ": -0.0434,
+                  "soleRange_m": 0.01543,
+                  "sourceHipRelativeExcursion_m": 0.24918,
+                  "targetHipRelativeExcursion_m": 0.24918,
+                  "totalFrames": 33
+                },
+                "Right": {
+                  "bestSoleContactDistance_m": 0.00067,
+                  "contactFramesWithin8cm": 33,
+                  "hipRelativeMotionErrorMax_m": 0.0,
+                  "maxAbsoluteFootWorldError_m": 0.06022,
+                  "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                  "minSkinnedSoleZ": -0.03583,
+                  "soleRange_m": 0.05672,
+                  "sourceHipRelativeExcursion_m": 0.21669,
+                  "targetHipRelativeExcursion_m": 0.21669,
+                  "totalFrames": 33
+                }
+              },
+              "measuredSkinFloorBias": {
+                "bias_m": 1.0842021724855044e-19,
+                "perSideLowestP10Z": {
+                  "Left": 0.00337,
+                  "Right": -0.00163
+                },
+                "sideDifference_m": 0.005
+              },
+              "placement": "group_world",
+              "shiftZ_m": -0.8627
+            }
+          ],
+          "plain": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.85921,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03728,
+                "maxAbsoluteFootWorldError_m": 0.06989,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.81544,
+                "soleRange_m": 0.00326,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.21643,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.85427,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03382,
+                "maxAbsoluteFootWorldError_m": 0.06572,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.82039,
+                "soleRange_m": 0.06246,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.24498,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.10184,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.178,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 304.516,
+              "Spine": 14.511,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.80677,
+              0.81865
+            ]
+          },
+          "plainSoleSample": [
+            {
+              "frame": 0.0,
+              "left": 0.86052,
+              "right": 0.85536
+            },
+            {
+              "frame": 0.5,
+              "left": 0.86071,
+              "right": 0.85533
+            },
+            {
+              "frame": 1.0,
+              "left": 0.86097,
+              "right": 0.85529
+            },
+            {
+              "frame": 2.0,
+              "left": 0.86177,
+              "right": 0.85522
+            },
+            {
+              "frame": 3.0,
+              "left": 0.86334,
+              "right": 0.85514
+            },
+            {
+              "frame": 4.0,
+              "left": 0.86247,
+              "right": 0.85519
+            },
+            {
+              "frame": 5.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 6.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 7.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 8.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 9.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 10.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 11.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 12.0,
+              "left": 0.86078,
+              "right": 0.9176
+            },
+            {
+              "frame": 13.0,
+              "left": 0.86076,
+              "right": 0.91709
+            },
+            {
+              "frame": 14.0,
+              "left": 0.86071,
+              "right": 0.91661
+            },
+            {
+              "frame": 15.0,
+              "left": 0.86064,
+              "right": 0.91597
+            },
+            {
+              "frame": 16.0,
+              "left": 0.86055,
+              "right": 0.91507
+            },
+            {
+              "frame": 17.0,
+              "left": 0.86045,
+              "right": 0.91389
+            },
+            {
+              "frame": 18.0,
+              "left": 0.86035,
+              "right": 0.91238
+            },
+            {
+              "frame": 19.0,
+              "left": 0.86026,
+              "right": 0.90904
+            },
+            {
+              "frame": 20.0,
+              "left": 0.86018,
+              "right": 0.90419
+            },
+            {
+              "frame": 21.0,
+              "left": 0.86012,
+              "right": 0.8972
+            },
+            {
+              "frame": 22.0,
+              "left": 0.86008,
+              "right": 0.89055
+            },
+            {
+              "frame": 23.0,
+              "left": 0.86008,
+              "right": 0.88604
+            },
+            {
+              "frame": 24.0,
+              "left": 0.86011,
+              "right": 0.87686
+            },
+            {
+              "frame": 25.0,
+              "left": 0.86016,
+              "right": 0.87039
+            },
+            {
+              "frame": 26.0,
+              "left": 0.86024,
+              "right": 0.86457
+            },
+            {
+              "frame": 27.0,
+              "left": 0.86034,
+              "right": 0.85989
+            },
+            {
+              "frame": 28.0,
+              "left": 0.86043,
+              "right": 0.85747
+            },
+            {
+              "frame": 29.0,
+              "left": 0.86049,
+              "right": 0.85591
+            },
+            {
+              "frame": 29.5,
+              "left": 0.86051,
+              "right": 0.8555
+            },
+            {
+              "frame": 30.0,
+              "left": 0.86052,
+              "right": 0.85536
+            }
+          ],
+          "referenceRestSoles": {
+            "Left": {
+              "minZ": 0.0,
+              "p10Z": 0.00262
+            },
+            "Right": {
+              "minZ": -0.0,
+              "p10Z": 0.00087
+            }
+          },
+          "restFootBoneWorld": {
+            "Left": [
+              0.14504311978816986,
+              -0.005920175928622484,
+              0.18535640835762024
+            ],
+            "Right": [
+              -0.1445961445569992,
+              -0.002807541051879525,
+              0.1900297999382019
+            ]
+          },
+          "sourceBaseMatrix": [
+            [
+              0.008700000122189522,
+              -5.9080492234575566e-12,
+              5.350781430024654e-05,
+              0.003734381403774023
+            ],
+            [
+              5.350781430024654e-05,
+              1.6939806224414156e-09,
+              -0.008700000122189522,
+              0.02384297549724579
+            ],
+            [
+              -4.510392927203899e-12,
+              0.008700165897607803,
+              1.6939846192443042e-09,
+              0.9199831485748291
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "status": "BLENDER_IK_BAKE_AND_MOTION_GATES_PASSED_UNAPPROVED",
+          "targetBaseMatrix": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "withIK": {
+            "foot": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0025,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.06311,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+                "minSkinnedSoleZ": -0.0434,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.00067,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06022,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                "minSkinnedSoleZ": -0.03583,
+                "soleRange_m": 0.05672,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "maxAbsoluteFootSeparationMismatch_m": 0.0505,
+            "referenceSoleFloorZ": 0.00087,
+            "sourceExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 25.374,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 31.752,
+              "LeftUpLeg": 55.961,
+              "RightArm": 65.208,
+              "RightFoot": 28.177,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.36,
+              "RightUpLeg": 261.761,
+              "Spine": 14.512,
+              "Spine2": 20.611
+            },
+            "sourceFootSeparationRange_m": [
+              0.87517,
+              0.91518
+            ],
+            "targetExcursionDegrees": {
+              "LeftArm": 18.158,
+              "LeftFoot": 31.386,
+              "LeftForeArm": 0.0,
+              "LeftLeg": 36.031,
+              "LeftUpLeg": 55.609,
+              "RightArm": 65.208,
+              "RightFoot": 30.678,
+              "RightForeArm": 89.835,
+              "RightLeg": 42.823,
+              "RightUpLeg": 304.691,
+              "Spine": 14.511,
+              "Spine2": 20.611
+            },
+            "targetFootSeparationRange_m": [
+              0.83776,
+              0.87898
+            ]
+          },
+          "withoutIKPhysicalFailures": [
+            "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+            "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+            "LIGHT1_STANDING_FEET_NOT_PLANTED"
+          ]
+        }
+      ]
+    },
+    "clips": {
+      "Kick": {
+        "alignment": {
+          "changedBoneCount": 22,
+          "mode": "full_rest_orientation",
+          "restOffsetPrevious": 22
+        },
+        "baked": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.07802,
+              "contactFramesWithin8cm": 3,
+              "hipRelativeMotionErrorMax_m": 0.04681,
+              "maxAbsoluteFootWorldError_m": 0.07738,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+              "minSkinnedSoleZ": 0.01819,
+              "soleRange_m": 1.2419,
+              "sourceHipRelativeExcursion_m": 1.11216,
+              "targetHipRelativeExcursion_m": 1.09373,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.08065,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.04564,
+              "maxAbsoluteFootWorldError_m": 0.08212,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.01723,
+              "soleRange_m": 0.07367,
+              "sourceHipRelativeExcursion_m": 0.69661,
+              "targetHipRelativeExcursion_m": 0.71511,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.07719,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 61.308,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 54.763,
+            "LeftUpLeg": 91.362,
+            "RightArm": 0.0,
+            "RightFoot": 74.133,
+            "RightForeArm": 0.0,
+            "RightLeg": 63.619,
+            "RightUpLeg": 313.354,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "sourceFootSeparationRange_m": [
+            0.54709,
+            1.6919
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 63.19,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 57.07,
+            "LeftUpLeg": 88.978,
+            "RightArm": 0.0,
+            "RightFoot": 71.938,
+            "RightForeArm": 0.0,
+            "RightLeg": 62.161,
+            "RightUpLeg": 311.357,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "targetFootSeparationRange_m": [
+            0.47035,
+            1.61471
+          ]
+        },
+        "bakedAction": "SmartRigArmature|Kick",
+        "clip": "Kick",
+        "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK__SCENE_REST_FLOOR_PLACEMENT_group_world",
+        "floorBiasMeasuredFromActualSkin": {
+          "bias_m": 0.908035,
+          "perSideLowestP10Z": {
+            "Left": 0.8962,
+            "Right": 0.92161
+          },
+          "sideDifference_m": 0.025410000000000044
+        },
+        "ikSoleSample": [
+          {
+            "frame": 0.0,
+            "left": 0.92462,
+            "right": 0.92161
+          },
+          {
+            "frame": 0.5,
+            "left": 0.97947,
+            "right": 0.92499
+          },
+          {
+            "frame": 1.0,
+            "left": 1.10157,
+            "right": 0.93295
+          },
+          {
+            "frame": 2.0,
+            "left": 1.28768,
+            "right": 0.93417
+          },
+          {
+            "frame": 3.0,
+            "left": 1.30497,
+            "right": 0.94249
+          },
+          {
+            "frame": 4.0,
+            "left": 1.32669,
+            "right": 0.94518
+          },
+          {
+            "frame": 5.0,
+            "left": 1.3489,
+            "right": 0.97242
+          },
+          {
+            "frame": 6.0,
+            "left": 2.12968,
+            "right": 0.92325
+          },
+          {
+            "frame": 7.0,
+            "left": 2.13162,
+            "right": 0.93011
+          },
+          {
+            "frame": 8.0,
+            "left": 2.13378,
+            "right": 0.93217
+          },
+          {
+            "frame": 9.0,
+            "left": 2.13586,
+            "right": 0.93254
+          },
+          {
+            "frame": 10.0,
+            "left": 2.13742,
+            "right": 0.93422
+          },
+          {
+            "frame": 11.0,
+            "left": 2.13797,
+            "right": 0.9402
+          },
+          {
+            "frame": 12.0,
+            "left": 2.07648,
+            "right": 0.93775
+          },
+          {
+            "frame": 13.0,
+            "left": 1.86231,
+            "right": 0.92162
+          },
+          {
+            "frame": 14.0,
+            "left": 1.57885,
+            "right": 0.92162
+          },
+          {
+            "frame": 15.0,
+            "left": 1.2733,
+            "right": 0.92162
+          },
+          {
+            "frame": 16.0,
+            "left": 1.03013,
+            "right": 0.92162
+          },
+          {
+            "frame": 17.0,
+            "left": 0.92168,
+            "right": 0.92162
+          },
+          {
+            "frame": 18.0,
+            "left": 0.91008,
+            "right": 0.92162
+          },
+          {
+            "frame": 19.0,
+            "left": 0.90231,
+            "right": 0.92162
+          },
+          {
+            "frame": 20.0,
+            "left": 0.89785,
+            "right": 0.92162
+          },
+          {
+            "frame": 21.0,
+            "left": 0.8962,
+            "right": 0.92161
+          },
+          {
+            "frame": 22.0,
+            "left": 0.89687,
+            "right": 0.92161
+          },
+          {
+            "frame": 23.0,
+            "left": 0.89936,
+            "right": 0.92161
+          },
+          {
+            "frame": 24.0,
+            "left": 0.90315,
+            "right": 0.92161
+          },
+          {
+            "frame": 25.0,
+            "left": 0.90776,
+            "right": 0.92161
+          },
+          {
+            "frame": 26.0,
+            "left": 0.91249,
+            "right": 0.92161
+          },
+          {
+            "frame": 27.0,
+            "left": 0.91691,
+            "right": 0.92161
+          },
+          {
+            "frame": 28.0,
+            "left": 0.92078,
+            "right": 0.92161
+          },
+          {
+            "frame": 29.0,
+            "left": 0.92357,
+            "right": 0.92161
+          },
+          {
+            "frame": 29.5,
+            "left": 0.92434,
+            "right": 0.92161
+          },
+          {
+            "frame": 30.0,
+            "left": 0.92461,
+            "right": 0.92161
+          }
+        ],
+        "mode": "full_rest_orientation",
+        "outputBlend": {
+          "bytes": 26722750,
+          "path": "/mnt/obs-work/Kick/MWNI147_Kick_UNAPPROVED.blend",
+          "sha256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c"
+        },
+        "outputGLB": {
+          "bytes": 14705756,
+          "path": "/mnt/obs-work/Kick/MWNI147_Kick_UNAPPROVED.glb",
+          "sha256": "7812f8adc9ea7d957e1bdb1486d5da57fa52b026d0deb80c245d0d51afc48601"
+        },
+        "physicalFailures": [],
+        "placementAcceptedForBake": {
+          "failures": [],
+          "footMotion": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.0781,
+              "contactFramesWithin8cm": 3,
+              "hipRelativeMotionErrorMax_m": 0.02423,
+              "maxAbsoluteFootWorldError_m": 0.0774,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+              "minSkinnedSoleZ": 0.01828,
+              "soleRange_m": 1.24177,
+              "sourceHipRelativeExcursion_m": 1.11216,
+              "targetHipRelativeExcursion_m": 1.09366,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.10351,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03048,
+              "maxAbsoluteFootWorldError_m": 0.0801,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.0438,
+              "soleRange_m": 0.05081,
+              "sourceHipRelativeExcursion_m": 0.69661,
+              "targetHipRelativeExcursion_m": 0.71511,
+              "totalFrames": 33
+            }
+          },
+          "measuredSkinFloorBias": {
+            "bias_m": 0.09080500000000001,
+            "perSideLowestP10Z": {
+              "Left": 0.07897,
+              "Right": 0.10438
+            },
+            "sideDifference_m": 0.025410000000000002
+          },
+          "placement": "group_world",
+          "shiftZ_m": -0.81723
+        },
+        "placementExploration": [
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "KICK_NO_GROUNDED_SUPPORT_FOOT"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.89533,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.86829,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.83551,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92074,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.8933,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.86103,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.908035,
+              "perSideLowestP10Z": {
+                "Left": 0.8962,
+                "Right": 0.92161
+              },
+              "sideDifference_m": 0.025410000000000044
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.90804
+          },
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "KICK_NO_GROUNDED_SUPPORT_FOOT"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.89533,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.77764,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.83551,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92074,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.80274,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.86103,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.908035,
+              "perSideLowestP10Z": {
+                "Left": 0.8962,
+                "Right": 0.92161
+              },
+              "sideDifference_m": 0.025410000000000044
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.81723
+          },
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "KICK_NO_GROUNDED_SUPPORT_FOOT"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.89533,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.95897,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.83551,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.92074,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.98391,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.86103,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.908035,
+              "perSideLowestP10Z": {
+                "Left": 0.8962,
+                "Right": 0.92161
+              },
+              "sideDifference_m": 0.025410000000000044
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.99884
+          },
+          {
+            "failures": [
+              "SHOE_PENETRATES_REST_FLOOR_Left"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.00115,
+                "contactFramesWithin8cm": 17,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.0774,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.10795,
+                "minSkinnedSoleZ": -0.07253,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.01271,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.0801,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.16371,
+                "minSkinnedSoleZ": -0.04701,
+                "soleRange_m": 0.0508,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 4.999999999999905e-06,
+              "perSideLowestP10Z": {
+                "Left": -0.01183,
+                "Right": 0.01358
+              },
+              "sideDifference_m": 0.025410000000000002
+            },
+            "placement": "group_world",
+            "shiftZ_m": -0.90804
+          },
+          {
+            "failures": [],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0781,
+                "contactFramesWithin8cm": 3,
+                "hipRelativeMotionErrorMax_m": 0.02423,
+                "maxAbsoluteFootWorldError_m": 0.0774,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+                "minSkinnedSoleZ": 0.01828,
+                "soleRange_m": 1.24177,
+                "sourceHipRelativeExcursion_m": 1.11216,
+                "targetHipRelativeExcursion_m": 1.09366,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.10351,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.03048,
+                "maxAbsoluteFootWorldError_m": 0.0801,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.0438,
+                "soleRange_m": 0.05081,
+                "sourceHipRelativeExcursion_m": 0.69661,
+                "targetHipRelativeExcursion_m": 0.71511,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.09080500000000001,
+              "perSideLowestP10Z": {
+                "Left": 0.07897,
+                "Right": 0.10438
+              },
+              "sideDifference_m": 0.025410000000000002
+            },
+            "placement": "group_world",
+            "shiftZ_m": -0.81723
+          }
+        ],
+        "plain": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.87529,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03806,
+              "maxAbsoluteFootWorldError_m": 0.07695,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.81547,
+              "soleRange_m": 1.26544,
+              "sourceHipRelativeExcursion_m": 1.11216,
+              "targetHipRelativeExcursion_m": 1.10863,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.91496,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03314,
+              "maxAbsoluteFootWorldError_m": 0.06586,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.85524,
+              "soleRange_m": 0.04258,
+              "sourceHipRelativeExcursion_m": 0.69661,
+              "targetHipRelativeExcursion_m": 0.68394,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.1029,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 61.308,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 54.763,
+            "LeftUpLeg": 91.362,
+            "RightArm": 0.0,
+            "RightFoot": 74.133,
+            "RightForeArm": 0.0,
+            "RightLeg": 63.619,
+            "RightUpLeg": 313.354,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "sourceFootSeparationRange_m": [
+            0.54709,
+            1.6919
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 61.308,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 54.763,
+            "LeftUpLeg": 91.363,
+            "RightArm": 0.0,
+            "RightFoot": 74.132,
+            "RightForeArm": 0.0,
+            "RightLeg": 63.619,
+            "RightUpLeg": 313.354,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "targetFootSeparationRange_m": [
+            0.52027,
+            1.60736
+          ]
+        },
+        "plainSoleSample": [
+          {
+            "frame": 0.0,
+            "left": 0.91912,
+            "right": 0.91583
+          },
+          {
+            "frame": 0.5,
+            "left": 0.9738,
+            "right": 0.91714
+          },
+          {
+            "frame": 1.0,
+            "left": 1.09636,
+            "right": 0.92071
+          },
+          {
+            "frame": 2.0,
+            "left": 1.28414,
+            "right": 0.94361
+          },
+          {
+            "frame": 3.0,
+            "left": 1.30091,
+            "right": 0.95164
+          },
+          {
+            "frame": 4.0,
+            "left": 1.32204,
+            "right": 0.95426
+          },
+          {
+            "frame": 5.0,
+            "left": 1.34397,
+            "right": 0.95841
+          },
+          {
+            "frame": 6.0,
+            "left": 2.12543,
+            "right": 0.93917
+          },
+          {
+            "frame": 7.0,
+            "left": 2.13494,
+            "right": 0.93908
+          },
+          {
+            "frame": 8.0,
+            "left": 2.13721,
+            "right": 0.93906
+          },
+          {
+            "frame": 9.0,
+            "left": 2.13938,
+            "right": 0.93905
+          },
+          {
+            "frame": 10.0,
+            "left": 2.14101,
+            "right": 0.93903
+          },
+          {
+            "frame": 11.0,
+            "left": 2.1416,
+            "right": 0.93897
+          },
+          {
+            "frame": 12.0,
+            "left": 2.05698,
+            "right": 0.93919
+          },
+          {
+            "frame": 13.0,
+            "left": 1.83685,
+            "right": 0.93959
+          },
+          {
+            "frame": 14.0,
+            "left": 1.54829,
+            "right": 0.93984
+          },
+          {
+            "frame": 15.0,
+            "left": 1.24326,
+            "right": 0.93983
+          },
+          {
+            "frame": 16.0,
+            "left": 1.00404,
+            "right": 0.93968
+          },
+          {
+            "frame": 17.0,
+            "left": 0.89763,
+            "right": 0.93965
+          },
+          {
+            "frame": 18.0,
+            "left": 0.8866,
+            "right": 0.93947
+          },
+          {
+            "frame": 19.0,
+            "left": 0.8797,
+            "right": 0.93868
+          },
+          {
+            "frame": 20.0,
+            "left": 0.87639,
+            "right": 0.93728
+          },
+          {
+            "frame": 21.0,
+            "left": 0.87616,
+            "right": 0.93526
+          },
+          {
+            "frame": 22.0,
+            "left": 0.8785,
+            "right": 0.9327
+          },
+          {
+            "frame": 23.0,
+            "left": 0.88288,
+            "right": 0.92975
+          },
+          {
+            "frame": 24.0,
+            "left": 0.88873,
+            "right": 0.92666
+          },
+          {
+            "frame": 25.0,
+            "left": 0.89545,
+            "right": 0.92367
+          },
+          {
+            "frame": 26.0,
+            "left": 0.90224,
+            "right": 0.92101
+          },
+          {
+            "frame": 27.0,
+            "left": 0.90853,
+            "right": 0.91882
+          },
+          {
+            "frame": 28.0,
+            "left": 0.9139,
+            "right": 0.91719
+          },
+          {
+            "frame": 29.0,
+            "left": 0.91771,
+            "right": 0.91618
+          },
+          {
+            "frame": 29.5,
+            "left": 0.91875,
+            "right": 0.91592
+          },
+          {
+            "frame": 30.0,
+            "left": 0.91912,
+            "right": 0.91583
+          }
+        ],
+        "referenceRestSoles": {
+          "Left": {
+            "minZ": 0.0,
+            "p10Z": 0.00262
+          },
+          "Right": {
+            "minZ": -0.0,
+            "p10Z": 0.00087
+          }
+        },
+        "restFootBoneWorld": {
+          "Left": [
+            0.14504311978816986,
+            -0.005920175928622484,
+            0.18535640835762024
+          ],
+          "Right": [
+            -0.1445961445569992,
+            -0.002807541051879525,
+            0.1900297999382019
+          ]
+        },
+        "sourceBaseMatrix": [
+          [
+            0.008700000122189522,
+            -5.9080492234575566e-12,
+            5.350781430024654e-05,
+            0.003734381403774023
+          ],
+          [
+            5.350781430024654e-05,
+            1.6939806224414156e-09,
+            -0.008700000122189522,
+            0.02384297549724579
+          ],
+          [
+            -4.510392927203899e-12,
+            0.008700165897607803,
+            1.6939846192443042e-09,
+            0.9199831485748291
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "status": "BLENDER_IK_BAKE_AND_MOTION_GATES_PASSED_UNAPPROVED",
+        "targetBaseMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "withIK": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.0781,
+              "contactFramesWithin8cm": 3,
+              "hipRelativeMotionErrorMax_m": 0.02423,
+              "maxAbsoluteFootWorldError_m": 0.0774,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01702,
+              "minSkinnedSoleZ": 0.01828,
+              "soleRange_m": 1.24177,
+              "sourceHipRelativeExcursion_m": 1.11216,
+              "targetHipRelativeExcursion_m": 1.09366,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.10351,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03048,
+              "maxAbsoluteFootWorldError_m": 0.0801,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.0438,
+              "soleRange_m": 0.05081,
+              "sourceHipRelativeExcursion_m": 0.69661,
+              "targetHipRelativeExcursion_m": 0.71511,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.07719,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 61.308,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 54.763,
+            "LeftUpLeg": 91.362,
+            "RightArm": 0.0,
+            "RightFoot": 74.133,
+            "RightForeArm": 0.0,
+            "RightLeg": 63.619,
+            "RightUpLeg": 313.354,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "sourceFootSeparationRange_m": [
+            0.54709,
+            1.6919
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 40.435,
+            "LeftFoot": 63.191,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 57.071,
+            "LeftUpLeg": 88.974,
+            "RightArm": 0.0,
+            "RightFoot": 71.938,
+            "RightForeArm": 0.0,
+            "RightLeg": 62.161,
+            "RightUpLeg": 311.358,
+            "Spine": 0.0,
+            "Spine2": 11.841
+          },
+          "targetFootSeparationRange_m": [
+            0.47034,
+            1.61471
+          ]
+        },
+        "withoutIKPhysicalFailures": [
+          "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+          "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+          "KICK_NO_GROUNDED_SUPPORT_FOOT"
+        ]
+      },
+      "Light1": {
+        "alignment": {
+          "changedBoneCount": 22,
+          "mode": "bone_axis_no_roll",
+          "restOffsetPrevious": 22
+        },
+        "baked": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.00182,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.02117,
+              "maxAbsoluteFootWorldError_m": 0.06354,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01429,
+              "minSkinnedSoleZ": -0.04391,
+              "soleRange_m": 0.01606,
+              "sourceHipRelativeExcursion_m": 0.24918,
+              "targetHipRelativeExcursion_m": 0.24915,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.00067,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.00046,
+              "maxAbsoluteFootWorldError_m": 0.06038,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+              "minSkinnedSoleZ": -0.03583,
+              "soleRange_m": 0.05699,
+              "sourceHipRelativeExcursion_m": 0.21669,
+              "targetHipRelativeExcursion_m": 0.21669,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.05054,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 25.374,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 31.752,
+            "LeftUpLeg": 55.961,
+            "RightArm": 65.208,
+            "RightFoot": 28.177,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.36,
+            "RightUpLeg": 261.761,
+            "Spine": 14.512,
+            "Spine2": 20.611
+          },
+          "sourceFootSeparationRange_m": [
+            0.87517,
+            0.91518
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 31.386,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 36.031,
+            "LeftUpLeg": 55.608,
+            "RightArm": 65.208,
+            "RightFoot": 30.678,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.823,
+            "RightUpLeg": 304.691,
+            "Spine": 14.511,
+            "Spine2": 20.611
+          },
+          "targetFootSeparationRange_m": [
+            0.83777,
+            0.87966
+          ]
+        },
+        "bakedAction": "SmartRigArmature|Light1",
+        "clip": "Light1",
+        "correctionMode": "PLUGIN_OPTIONAL_BILATERAL_FOOT_IK__SCENE_REST_FLOOR_PLACEMENT_group_world",
+        "floorBiasMeasuredFromActualSkin": {
+          "bias_m": 0.8627049999999999,
+          "perSideLowestP10Z": {
+            "Left": 0.86608,
+            "Right": 0.86107
+          },
+          "sideDifference_m": 0.005009999999999959
+        },
+        "ikSoleSample": [
+          {
+            "frame": 0.0,
+            "left": 0.86608,
+            "right": 0.86108
+          },
+          {
+            "frame": 0.5,
+            "left": 0.86608,
+            "right": 0.86108
+          },
+          {
+            "frame": 1.0,
+            "left": 0.86609,
+            "right": 0.86108
+          },
+          {
+            "frame": 2.0,
+            "left": 0.86629,
+            "right": 0.86108
+          },
+          {
+            "frame": 3.0,
+            "left": 0.88151,
+            "right": 0.86107
+          },
+          {
+            "frame": 4.0,
+            "left": 0.87477,
+            "right": 0.8611
+          },
+          {
+            "frame": 5.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 6.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 7.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 8.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 9.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 10.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 11.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 12.0,
+            "left": 0.86608,
+            "right": 0.9178
+          },
+          {
+            "frame": 13.0,
+            "left": 0.86608,
+            "right": 0.9171
+          },
+          {
+            "frame": 14.0,
+            "left": 0.86608,
+            "right": 0.91613
+          },
+          {
+            "frame": 15.0,
+            "left": 0.86608,
+            "right": 0.91487
+          },
+          {
+            "frame": 16.0,
+            "left": 0.86608,
+            "right": 0.91338
+          },
+          {
+            "frame": 17.0,
+            "left": 0.86608,
+            "right": 0.91181
+          },
+          {
+            "frame": 18.0,
+            "left": 0.86608,
+            "right": 0.91023
+          },
+          {
+            "frame": 19.0,
+            "left": 0.86608,
+            "right": 0.90721
+          },
+          {
+            "frame": 20.0,
+            "left": 0.86608,
+            "right": 0.90303
+          },
+          {
+            "frame": 21.0,
+            "left": 0.86608,
+            "right": 0.89699
+          },
+          {
+            "frame": 22.0,
+            "left": 0.86608,
+            "right": 0.89143
+          },
+          {
+            "frame": 23.0,
+            "left": 0.86608,
+            "right": 0.88801
+          },
+          {
+            "frame": 24.0,
+            "left": 0.86608,
+            "right": 0.87984
+          },
+          {
+            "frame": 25.0,
+            "left": 0.86608,
+            "right": 0.87425
+          },
+          {
+            "frame": 26.0,
+            "left": 0.86608,
+            "right": 0.86913
+          },
+          {
+            "frame": 27.0,
+            "left": 0.86608,
+            "right": 0.86497
+          },
+          {
+            "frame": 28.0,
+            "left": 0.86608,
+            "right": 0.86291
+          },
+          {
+            "frame": 29.0,
+            "left": 0.86608,
+            "right": 0.86156
+          },
+          {
+            "frame": 29.5,
+            "left": 0.86608,
+            "right": 0.8612
+          },
+          {
+            "frame": 30.0,
+            "left": 0.86608,
+            "right": 0.86108
+          }
+        ],
+        "mode": "bone_axis_no_roll",
+        "outputBlend": {
+          "bytes": 26885938,
+          "path": "/mnt/obs-work/Light1/MWNI147_Light1_UNAPPROVED.blend",
+          "sha256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19"
+        },
+        "outputGLB": {
+          "bytes": 14757432,
+          "path": "/mnt/obs-work/Light1/MWNI147_Light1_UNAPPROVED.glb",
+          "sha256": "1f7852abd5e51c514d4856b91344c23ba8f1364c4366903f45fbd61eb9d51a99"
+        },
+        "physicalFailures": [],
+        "placementAcceptedForBake": {
+          "failures": [],
+          "footMotion": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.0025,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.02117,
+              "maxAbsoluteFootWorldError_m": 0.06311,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+              "minSkinnedSoleZ": -0.0434,
+              "soleRange_m": 0.01543,
+              "sourceHipRelativeExcursion_m": 0.24918,
+              "targetHipRelativeExcursion_m": 0.24918,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.00067,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.0,
+              "maxAbsoluteFootWorldError_m": 0.06022,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+              "minSkinnedSoleZ": -0.03583,
+              "soleRange_m": 0.05672,
+              "sourceHipRelativeExcursion_m": 0.21669,
+              "targetHipRelativeExcursion_m": 0.21669,
+              "totalFrames": 33
+            }
+          },
+          "measuredSkinFloorBias": {
+            "bias_m": 1.0842021724855044e-19,
+            "perSideLowestP10Z": {
+              "Left": 0.00337,
+              "Right": -0.00163
+            },
+            "sideDifference_m": 0.005
+          },
+          "placement": "group_world",
+          "shiftZ_m": -0.8627
+        },
+        "placementExploration": [
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "LIGHT1_STANDING_FEET_NOT_PLANTED"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.86521,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.83859,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.81931,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.8602,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.82832,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.82687,
+                "soleRange_m": 0.05673,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.8627049999999999,
+              "perSideLowestP10Z": {
+                "Left": 0.86608,
+                "Right": 0.86107
+              },
+              "sideDifference_m": 0.005009999999999959
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.8627
+          },
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "LIGHT1_STANDING_FEET_NOT_PLANTED"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.86521,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.75249,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.81931,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.8602,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.74222,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.82687,
+                "soleRange_m": 0.05673,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.8627049999999999,
+              "perSideLowestP10Z": {
+                "Left": 0.86608,
+                "Right": 0.86107
+              },
+              "sideDifference_m": 0.005009999999999959
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.77643
+          },
+          {
+            "failures": [
+              "FOOT_WORLD_POSITION_NOT_REACHED_Left",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+              "FOOT_WORLD_POSITION_NOT_REACHED_Right",
+              "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+              "LIGHT1_STANDING_FEET_NOT_PLANTED"
+            ],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.86521,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.92472,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.81931,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.8602,
+                "contactFramesWithin8cm": 0,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.91446,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+                "minSkinnedSoleZ": 0.82687,
+                "soleRange_m": 0.05673,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 0.8627049999999999,
+              "perSideLowestP10Z": {
+                "Left": 0.86608,
+                "Right": 0.86107
+              },
+              "sideDifference_m": 0.005009999999999959
+            },
+            "placement": "source_only",
+            "shiftZ_m": -0.94898
+          },
+          {
+            "failures": [],
+            "footMotion": {
+              "Left": {
+                "bestSoleContactDistance_m": 0.0025,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.02117,
+                "maxAbsoluteFootWorldError_m": 0.06311,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+                "minSkinnedSoleZ": -0.0434,
+                "soleRange_m": 0.01543,
+                "sourceHipRelativeExcursion_m": 0.24918,
+                "targetHipRelativeExcursion_m": 0.24918,
+                "totalFrames": 33
+              },
+              "Right": {
+                "bestSoleContactDistance_m": 0.00067,
+                "contactFramesWithin8cm": 33,
+                "hipRelativeMotionErrorMax_m": 0.0,
+                "maxAbsoluteFootWorldError_m": 0.06022,
+                "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+                "minSkinnedSoleZ": -0.03583,
+                "soleRange_m": 0.05672,
+                "sourceHipRelativeExcursion_m": 0.21669,
+                "targetHipRelativeExcursion_m": 0.21669,
+                "totalFrames": 33
+              }
+            },
+            "measuredSkinFloorBias": {
+              "bias_m": 1.0842021724855044e-19,
+              "perSideLowestP10Z": {
+                "Left": 0.00337,
+                "Right": -0.00163
+              },
+              "sideDifference_m": 0.005
+            },
+            "placement": "group_world",
+            "shiftZ_m": -0.8627
+          }
+        ],
+        "plain": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.85921,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03728,
+              "maxAbsoluteFootWorldError_m": 0.06989,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.81544,
+              "soleRange_m": 0.00326,
+              "sourceHipRelativeExcursion_m": 0.24918,
+              "targetHipRelativeExcursion_m": 0.21643,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.85427,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.03382,
+              "maxAbsoluteFootWorldError_m": 0.06572,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.82039,
+              "soleRange_m": 0.06246,
+              "sourceHipRelativeExcursion_m": 0.21669,
+              "targetHipRelativeExcursion_m": 0.24498,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.10184,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 25.374,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 31.752,
+            "LeftUpLeg": 55.961,
+            "RightArm": 65.208,
+            "RightFoot": 28.177,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.36,
+            "RightUpLeg": 261.761,
+            "Spine": 14.512,
+            "Spine2": 20.611
+          },
+          "sourceFootSeparationRange_m": [
+            0.87517,
+            0.91518
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 25.374,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 31.752,
+            "LeftUpLeg": 55.961,
+            "RightArm": 65.208,
+            "RightFoot": 28.178,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.36,
+            "RightUpLeg": 304.516,
+            "Spine": 14.511,
+            "Spine2": 20.611
+          },
+          "targetFootSeparationRange_m": [
+            0.80677,
+            0.81865
+          ]
+        },
+        "plainSoleSample": [
+          {
+            "frame": 0.0,
+            "left": 0.86052,
+            "right": 0.85536
+          },
+          {
+            "frame": 0.5,
+            "left": 0.86071,
+            "right": 0.85533
+          },
+          {
+            "frame": 1.0,
+            "left": 0.86097,
+            "right": 0.85529
+          },
+          {
+            "frame": 2.0,
+            "left": 0.86177,
+            "right": 0.85522
+          },
+          {
+            "frame": 3.0,
+            "left": 0.86334,
+            "right": 0.85514
+          },
+          {
+            "frame": 4.0,
+            "left": 0.86247,
+            "right": 0.85519
+          },
+          {
+            "frame": 5.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 6.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 7.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 8.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 9.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 10.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 11.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 12.0,
+            "left": 0.86078,
+            "right": 0.9176
+          },
+          {
+            "frame": 13.0,
+            "left": 0.86076,
+            "right": 0.91709
+          },
+          {
+            "frame": 14.0,
+            "left": 0.86071,
+            "right": 0.91661
+          },
+          {
+            "frame": 15.0,
+            "left": 0.86064,
+            "right": 0.91597
+          },
+          {
+            "frame": 16.0,
+            "left": 0.86055,
+            "right": 0.91507
+          },
+          {
+            "frame": 17.0,
+            "left": 0.86045,
+            "right": 0.91389
+          },
+          {
+            "frame": 18.0,
+            "left": 0.86035,
+            "right": 0.91238
+          },
+          {
+            "frame": 19.0,
+            "left": 0.86026,
+            "right": 0.90904
+          },
+          {
+            "frame": 20.0,
+            "left": 0.86018,
+            "right": 0.90419
+          },
+          {
+            "frame": 21.0,
+            "left": 0.86012,
+            "right": 0.8972
+          },
+          {
+            "frame": 22.0,
+            "left": 0.86008,
+            "right": 0.89055
+          },
+          {
+            "frame": 23.0,
+            "left": 0.86008,
+            "right": 0.88604
+          },
+          {
+            "frame": 24.0,
+            "left": 0.86011,
+            "right": 0.87686
+          },
+          {
+            "frame": 25.0,
+            "left": 0.86016,
+            "right": 0.87039
+          },
+          {
+            "frame": 26.0,
+            "left": 0.86024,
+            "right": 0.86457
+          },
+          {
+            "frame": 27.0,
+            "left": 0.86034,
+            "right": 0.85989
+          },
+          {
+            "frame": 28.0,
+            "left": 0.86043,
+            "right": 0.85747
+          },
+          {
+            "frame": 29.0,
+            "left": 0.86049,
+            "right": 0.85591
+          },
+          {
+            "frame": 29.5,
+            "left": 0.86051,
+            "right": 0.8555
+          },
+          {
+            "frame": 30.0,
+            "left": 0.86052,
+            "right": 0.85536
+          }
+        ],
+        "referenceRestSoles": {
+          "Left": {
+            "minZ": 0.0,
+            "p10Z": 0.00262
+          },
+          "Right": {
+            "minZ": -0.0,
+            "p10Z": 0.00087
+          }
+        },
+        "restFootBoneWorld": {
+          "Left": [
+            0.14504311978816986,
+            -0.005920175928622484,
+            0.18535640835762024
+          ],
+          "Right": [
+            -0.1445961445569992,
+            -0.002807541051879525,
+            0.1900297999382019
+          ]
+        },
+        "sourceBaseMatrix": [
+          [
+            0.008700000122189522,
+            -5.9080492234575566e-12,
+            5.350781430024654e-05,
+            0.003734381403774023
+          ],
+          [
+            5.350781430024654e-05,
+            1.6939806224414156e-09,
+            -0.008700000122189522,
+            0.02384297549724579
+          ],
+          [
+            -4.510392927203899e-12,
+            0.008700165897607803,
+            1.6939846192443042e-09,
+            0.9199831485748291
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "status": "BLENDER_IK_BAKE_AND_MOTION_GATES_PASSED_UNAPPROVED",
+        "targetBaseMatrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "withIK": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.0025,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.02117,
+              "maxAbsoluteFootWorldError_m": 0.06311,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.01428,
+              "minSkinnedSoleZ": -0.0434,
+              "soleRange_m": 0.01543,
+              "sourceHipRelativeExcursion_m": 0.24918,
+              "targetHipRelativeExcursion_m": 0.24918,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.00067,
+              "contactFramesWithin8cm": 33,
+              "hipRelativeMotionErrorMax_m": 0.0,
+              "maxAbsoluteFootWorldError_m": 0.06022,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.04834,
+              "minSkinnedSoleZ": -0.03583,
+              "soleRange_m": 0.05672,
+              "sourceHipRelativeExcursion_m": 0.21669,
+              "targetHipRelativeExcursion_m": 0.21669,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.0505,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 25.374,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 31.752,
+            "LeftUpLeg": 55.961,
+            "RightArm": 65.208,
+            "RightFoot": 28.177,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.36,
+            "RightUpLeg": 261.761,
+            "Spine": 14.512,
+            "Spine2": 20.611
+          },
+          "sourceFootSeparationRange_m": [
+            0.87517,
+            0.91518
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 31.386,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 36.031,
+            "LeftUpLeg": 55.609,
+            "RightArm": 65.208,
+            "RightFoot": 30.678,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.823,
+            "RightUpLeg": 304.691,
+            "Spine": 14.511,
+            "Spine2": 20.611
+          },
+          "targetFootSeparationRange_m": [
+            0.83776,
+            0.87898
+          ]
+        },
+        "withoutIKPhysicalFailures": [
+          "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+          "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+          "LIGHT1_STANDING_FEET_NOT_PLANTED"
+        ]
+      }
+    },
+    "diagnostics": {
+      "Light1": {
+        "baked": {
+          "foot": {
+            "Left": {
+              "bestSoleContactDistance_m": 0.92306,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.02086,
+              "maxAbsoluteFootWorldError_m": 0.06329,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.86288,
+              "soleRange_m": 0.01579,
+              "sourceHipRelativeExcursion_m": 0.24918,
+              "targetHipRelativeExcursion_m": 0.24915,
+              "totalFrames": 33
+            },
+            "Right": {
+              "bestSoleContactDistance_m": 0.92049,
+              "contactFramesWithin8cm": 0,
+              "hipRelativeMotionErrorMax_m": 0.00046,
+              "maxAbsoluteFootWorldError_m": 0.06061,
+              "maxConsecutiveContactFootHorizontalDrift_m": 0.0,
+              "minSkinnedSoleZ": 0.86076,
+              "soleRange_m": 0.024,
+              "sourceHipRelativeExcursion_m": 0.21669,
+              "targetHipRelativeExcursion_m": 0.21669,
+              "totalFrames": 33
+            }
+          },
+          "maxAbsoluteFootSeparationMismatch_m": 0.05129,
+          "referenceSoleFloorZ": 0.00087,
+          "sourceExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 25.374,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 31.752,
+            "LeftUpLeg": 55.961,
+            "RightArm": 65.208,
+            "RightFoot": 28.177,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.36,
+            "RightUpLeg": 261.761,
+            "Spine": 14.512,
+            "Spine2": 20.611
+          },
+          "sourceFootSeparationRange_m": [
+            0.87517,
+            0.91518
+          ],
+          "targetExcursionDegrees": {
+            "LeftArm": 18.158,
+            "LeftFoot": 31.301,
+            "LeftForeArm": 0.0,
+            "LeftLeg": 36.209,
+            "LeftUpLeg": 55.58,
+            "RightArm": 65.208,
+            "RightFoot": 30.676,
+            "RightForeArm": 89.835,
+            "RightLeg": 42.845,
+            "RightUpLeg": 262.378,
+            "Spine": 14.511,
+            "Spine2": 20.611
+          },
+          "targetFootSeparationRange_m": [
+            0.83683,
+            0.87871
+          ]
+        },
+        "clip": "Light1",
+        "failures": [
+          "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+          "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+          "LIGHT1_STANDING_FEET_NOT_PLANTED"
+        ],
+        "outputGLB": {
+          "bytes": 14757404,
+          "path": "/mnt/obs-work/Light1/diagnostic/MWNI147_Light1_REJECTED_DIAGNOSTIC.glb",
+          "sha256": "34d532656239cd2ecbf12b229062b77c92ecefa7af7f742131631fc4fa701d70"
+        },
+        "status": "REJECTED_PHYSICAL_GATE_DIAGNOSTIC_NOT_ACCEPTED"
+      }
+    },
+    "mappedBones": [
+      "mixamorig:Hips",
+      "mixamorig:Spine",
+      "mixamorig:Spine1",
+      "mixamorig:Spine2",
+      "mixamorig:Neck",
+      "mixamorig:Head",
+      "mixamorig:LeftShoulder",
+      "mixamorig:LeftArm",
+      "mixamorig:LeftForeArm",
+      "mixamorig:LeftHand",
+      "mixamorig:RightShoulder",
+      "mixamorig:RightArm",
+      "mixamorig:RightForeArm",
+      "mixamorig:RightHand",
+      "mixamorig:LeftUpLeg",
+      "mixamorig:LeftLeg",
+      "mixamorig:LeftFoot",
+      "mixamorig:LeftToeBase",
+      "mixamorig:RightUpLeg",
+      "mixamorig:RightLeg",
+      "mixamorig:RightFoot",
+      "mixamorig:RightToeBase"
+    ],
+    "pluginVendorSha": "8c91ff4f4d898bab835b3587f17585487056b60b",
+    "scenePreflight": {
+      "sourceLegLengths": {
+        "Left": 0.8406595077540759,
+        "Right": 0.8418954690195216
+      },
+      "sourceScaleFactor": 0.8700165898859603,
+      "targetLegLengths": {
+        "Left": 0.73350842767549,
+        "Right": 0.7303423155127267
+      },
+      "targetUnitScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "yawRadians": 0.006150303197963132
+    },
+    "schema": "obsidianti-mwni-documented-retarget-v1.4.7",
+    "sourceSetup": {
+      "alignmentReference": "REST_POSE_BOTH_ARMATURES",
+      "targetActionCleared": true,
+      "targetIdleExactLookupSkipped": true,
+      "targetIdlePolicy": "GLTF_IMPORTER_NAME_NOT_REQUIRED"
+    },
+    "sourceSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+    "status": "BLENDER_VALIDATED_CANDIDATES_UNAPPROVED",
+    "targetSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+    "unmappedSourceBones": [
+      "Root",
+      "mixamorig:HeadTop_End",
+      "Weapon.L",
+      "Weapon.R",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightToe_End",
+      "LeftFoot.IK",
+      "LeftKnee.IK",
+      "RightFoot.IK",
+      "RightKnee.IK"
+    ],
+    "unmappedTargetBones": [
+      "mixamorig:HeadTop_End",
+      "headfront",
+      "mixamorig:HeadCrest.001",
+      "mixamorig:HeadCrest.002",
+      "mixamorig:HeadCrest.003",
+      "mixamorig:HeadCrest.005",
+      "mixamorig:LeftHandThumb1",
+      "mixamorig:LeftHandThumb2",
+      "mixamorig:LeftHandThumb3",
+      "mixamorig:LeftHandThumb4",
+      "mixamorig:LeftHandPinky1",
+      "mixamorig:LeftHandPinky2",
+      "mixamorig:LeftHandPinky3",
+      "mixamorig:LeftHandPinky4",
+      "mixamorig:LeftHandRing1",
+      "mixamorig:LeftHandRing2",
+      "mixamorig:LeftHandRing3",
+      "mixamorig:LeftHandRing4",
+      "mixamorig:LeftHandMiddle1",
+      "mixamorig:LeftHandMiddle2",
+      "mixamorig:LeftHandMiddle3",
+      "mixamorig:LeftHandMiddle4",
+      "mixamorig:LeftHandIndex1",
+      "mixamorig:LeftHandIndex2",
+      "mixamorig:LeftHandIndex3",
+      "mixamorig:LeftHandIndex4",
+      "mixamorig:LeftWeapon.L",
+      "mixamorig:RightHandThumb1",
+      "mixamorig:RightHandThumb2",
+      "mixamorig:RightHandThumb3",
+      "mixamorig:RightHandThumb4",
+      "mixamorig:RightHandPinky1",
+      "mixamorig:RightHandPinky2",
+      "mixamorig:RightHandPinky3",
+      "mixamorig:RightHandPinky4",
+      "mixamorig:RightHandRing1",
+      "mixamorig:RightHandRing2",
+      "mixamorig:RightHandRing3",
+      "mixamorig:RightHandRing4",
+      "mixamorig:RightHandIndex1",
+      "mixamorig:RightHandIndex2",
+      "mixamorig:RightHandIndex3",
+      "mixamorig:RightHandIndex4",
+      "mixamorig:RightHandMiddle1",
+      "mixamorig:RightHandMiddle2",
+      "mixamorig:RightHandMiddle3",
+      "mixamorig:RightHandMiddle4",
+      "mixamorig:RightWeapon.R",
+      "mixamorig:LeftToe_End",
+      "mixamorig:RightToe_End",
+      "neutral_bone"
+    ],
+    "weaponAuxiliaryMappings": []
+  },
+  "reimportVerified": {},
+  "reimportFailures": {
+    "Kick": "REIMPORT_PHYSICAL_GATE_FAIL_Kick REIMPORT_LOST_ANIMATION_['GLB_REIMPORT_SHOE_PENETRATION_Left', 'GLB_REIMPORT_FLOATING_SHOE_Left', 'GLB_EXPORT_SKIN_SOLE_MOTION_DIFFERENT_Left', 'GLB_REIMPORT_SHOE_PENETRATION_Right', 'GLB_REIMPORT_FLOATING_SHOE_Right', 'GLB_EXPORT_SKIN_SOLE_MOTION_DIFFERENT_Right', 'GLB_REIMPORT_SUPPORT_FOOT_MISSING', 'LeftUpLeg prior=88.978 reimport=0.0', 'LeftLeg prior=57.07 reimport=0.0', 'LeftFoot prior=63.19 reimport=0.0', 'RightUpLeg prior=311.357 reimport=0.0', 'RightLeg prior=62.161 reimport=0.0', 'RightFoot prior=71.938 reimport=0.0', 'LeftArm prior=40.435 reimport=0.0', 'Spine2 prior=11.841 reimport=0.0', 'REIMPORT_HIP_ONLY_KICK']",
+    "Light1": "REIMPORT_PHYSICAL_GATE_FAIL_Light1 REIMPORT_LOST_ANIMATION_['GLB_REIMPORT_SHOE_PENETRATION_Left', 'GLB_REIMPORT_FLOATING_SHOE_Left', 'GLB_EXPORT_SKIN_SOLE_MOTION_DIFFERENT_Left', 'GLB_REIMPORT_SHOE_PENETRATION_Right', 'GLB_REIMPORT_FLOATING_SHOE_Right', 'GLB_EXPORT_SKIN_SOLE_MOTION_DIFFERENT_Right', 'GLB_REIMPORT_STANDING_FEET_NOT_GROUNDED', 'LeftUpLeg prior=55.608 reimport=0.0', 'LeftLeg prior=36.031 reimport=0.0', 'LeftFoot prior=31.386 reimport=0.0', 'RightUpLeg prior=304.691 reimport=0.0', 'RightLeg prior=42.823 reimport=0.0', 'RightFoot prior=30.678 reimport=0.0', 'LeftArm prior=18.158 reimport=0.0', 'RightArm prior=65.208 reimport=0.0', 'RightForeArm prior=89.835 reimport=0.0', 'Spine2 prior=20.611 reimport=0.0', 'REIMPORT_HIP_ONLY_LIGHT1']"
+  },
+  "diagnosticPreviews": {
+    "Light1": {
+      "sha256": "34d532656239cd2ecbf12b229062b77c92ecefa7af7f742131631fc4fa701d70",
+      "failed": [
+        "SHOE_NEVER_NEAR_REST_FLOOR_Left",
+        "SHOE_NEVER_NEAR_REST_FLOOR_Right",
+        "LIGHT1_STANDING_FEET_NOT_PLANTED"
+      ],
+      "actualExportedGLB": "/data/data/com.termux/files/home/.local/state/OBSIDIANTI_MWNI_DOCUMENTED_RETARGET_v1.4.7/20261106T205439Z-97230b05/work/Light1/diagnostic/MWNI147_Light1_REJECTED_DIAGNOSTIC.glb"
+    }
+  },
+  "canonicalModified": false,
+  "ownerVisualVerdict": "PENDING",
+  "launcherSHA256": "b02ed78768c2e991dad1e615364308b1e280327bf1e591e1734b6617f53a2569",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "documentation": "upstream README target unit scale, one-to-one mapping, rest alignment, driver and IK setup, visual-keyed bake",
+  "preflightActionInventory": {
+    "allActions": [
+      "Ares_AxeKick_Full_SmartRigArmature",
+      "Ares_StepBackLeft_Lower_SmartRigArmature",
+      "Ares_StepBackRight_Lower_SmartRigArmature",
+      "Ares_StepBack_Lower_SmartRigArmature",
+      "Ares_StepForwardLeft_Lower_SmartRigArmature",
+      "Ares_StepForwardRight_Lower_SmartRigArmature",
+      "Ares_StepForward_Lower_SmartRigArmature",
+      "Ares_StepLeft_Lower_SmartRigArmature",
+      "Ares_StepRight_Lower_SmartRigArmature",
+      "Cast",
+      "Heavy1",
+      "Heavy2",
+      "Heavy3",
+      "Idle",
+      "Kick",
+      "Light1",
+      "Light2",
+      "Light3",
+      "LionheartIdle_UNREVIEWED_SmartRigArmature",
+      "Lionheart_Cast_SmartRigArmature",
+      "Lionheart_Heavy1_SmartRigArmature",
+      "Lionheart_Heavy2_SmartRigArmature",
+      "Lionheart_Heavy3_SmartRigArmature",
+      "Lionheart_Kick_SmartRigArmature",
+      "Lionheart_Light1_SmartRigArmature",
+      "Lionheart_Light2_SmartRigArmature",
+      "Lionheart_Light3_SmartRigArmature",
+      "Lionheart_SpringAttack_SmartRigArmature",
+      "Lionheart_Stomp_SmartRigArmature",
+      "ObsidiantiIdle_SmartRigArmature",
+      "Running_SmartRigArmature",
+      "SpringAttack",
+      "Stomp",
+      "Walking_SmartRigArmature"
+    ],
+    "sourceInitialAction": "Cast",
+    "sourceRequired": [
+      "Idle",
+      "Kick",
+      "Light1"
+    ],
+    "targetIdleMatches": [],
+    "targetInitialAction": "Running_SmartRigArmature",
+    "targetNLA": [
+      {
+        "name": "Ares_AxeKick_Full",
+        "strips": [
+          "Ares_AxeKick_Full_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBackRight_Lower",
+        "strips": [
+          "Ares_StepBackRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBackLeft_Lower",
+        "strips": [
+          "Ares_StepBackLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForwardRight_Lower",
+        "strips": [
+          "Ares_StepForwardRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForwardLeft_Lower",
+        "strips": [
+          "Ares_StepForwardLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepRight_Lower",
+        "strips": [
+          "Ares_StepRight_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepLeft_Lower",
+        "strips": [
+          "Ares_StepLeft_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepBack_Lower",
+        "strips": [
+          "Ares_StepBack_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Ares_StepForward_Lower",
+        "strips": [
+          "Ares_StepForward_Lower_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Stomp",
+        "strips": [
+          "Lionheart_Stomp_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_SpringAttack",
+        "strips": [
+          "Lionheart_SpringAttack_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light3",
+        "strips": [
+          "Lionheart_Light3_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light2",
+        "strips": [
+          "Lionheart_Light2_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Light1",
+        "strips": [
+          "Lionheart_Light1_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Kick",
+        "strips": [
+          "Lionheart_Kick_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy3",
+        "strips": [
+          "Lionheart_Heavy3_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy2",
+        "strips": [
+          "Lionheart_Heavy2_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Heavy1",
+        "strips": [
+          "Lionheart_Heavy1_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Lionheart_Cast",
+        "strips": [
+          "Lionheart_Cast_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "ObsidiantiIdle",
+        "strips": [
+          "ObsidiantiIdle_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "LionheartIdle_UNREVIEWED",
+        "strips": [
+          "LionheartIdle_UNREVIEWED_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Walking",
+        "strips": [
+          "Walking_SmartRigArmature"
+        ]
+      },
+      {
+        "name": "Running",
+        "strips": [
+          "Running_SmartRigArmature"
+        ]
+      }
+    ]
+  },
+  "sourceSetup": {
+    "alignmentReference": "REST_POSE_BOTH_ARMATURES",
+    "targetActionCleared": true,
+    "targetIdleExactLookupSkipped": true,
+    "targetIdlePolicy": "GLTF_IMPORTER_NAME_NOT_REQUIRED"
+  },
+  "v146ObservedBlocker": "SHOE_ABOUT_0_9_M_ABOVE_REST_FLOOR"
+}
