@@ -1,0 +1,31 @@
+{
+  "campaign": "OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0",
+  "mission": "Download, install and real-test Mwni's open-source Blender animation retargeter on source Lionheart and canonical target Obsidianti with both bilateral foot-IK enabled and plugin-baked candidate animations, verifying physical skinned wedge geometry.",
+  "owner": "Drew Clarke",
+  "executionAuthority": "ANDROID_TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "sourceEvidenceHead": "d07e2adc17186df87a1689e8e2f82f37f4dc972a",
+  "addonRepository": "https://github.com/Mwni/blender-animation-retargeting.git",
+  "pinnedAddonCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "addonVersion": "2.1.1",
+  "addonReason": "The current upstream v2.4.0 requires Blender 4.4+, while the verified existing Termux/proot Debian Blender is 4.3.2; this same project's pinned older revision supports Blender 3.0+ and retains foot IK correction. No system Blender upgrades authorized.",
+  "originalLionheartSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "canonicalObsidiantiSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "agentRulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "mutablePaths": [
+    "campaigns/OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0_driver.py",
+    "tests/OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0_TEST.py",
+    "campaigns/OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0_blender_trial.py",
+    "campaigns/OBSIDIANTI_MWNI_RETARGET_PLUGIN_v1.4.0.contract.json",
+    "diagnostics/obsidianti/mwni-plugin-v1.4.0/REPORT.md",
+    "diagnostics/obsidianti/mwni-plugin-v1.4.0/RESULTS.json",
+    "diagnostics/obsidianti/mwni-plugin-v1.4.0/EVIDENCE_RECEIPT.json"
+  ],
+  "lockedPaths": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb"],
+  "nativeReviewFiles": ["Heavy1/MWNI_Heavy1_UNAPPROVED.glb", "Heavy1/MWNI_Heavy1_UNAPPROVED.blend", "Light2/MWNI_Light2_UNAPPROVED.glb", "Light2/MWNI_Light2_UNAPPROVED.blend"],
+  "comparison": "NoIK versus Mwni bilateral IK versus baked Mwni action using actual source Blender constraints and actual skinned target mesh, same frames; explicit foot-motion RMS and wedge-height range, objective deltas not visual approval.",
+  "noCanonicalOrSourceMutation": true,
+  "stages": ["verify packet, rules, source identity", "source-first Termux Git commit and remote readback", "LFS fetch and verify actual model", "download upstream pinned add-on", "install in version-isolated persistent Blender scripts", "register add-on in Blender", "test Heavy1 and Light2 actual driver FK and bilateral IK", "bake and verify target actions", "export review GLBs and editable Blends", "publish inspected JSON and report via Termux Git", "remote readback and mirror to Android Downloads"],
+  "completion": "Only actual on-device Blender executions and real candidate exports prove install+test. Any exported clip remains unapproved, not canonical. A field failure must not be reported as success."
+}
