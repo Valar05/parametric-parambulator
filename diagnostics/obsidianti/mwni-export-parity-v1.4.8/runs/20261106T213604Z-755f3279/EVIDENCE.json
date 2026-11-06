@@ -1,0 +1,276 @@
+{
+  "schema": "obsidianti-mwni-export-parity-v1.4.8",
+  "runId": "20261106T213604Z-755f3279",
+  "sourceCommit": "632c9280c56cff10209b5bff223134fce1f4d82e",
+  "previousEvidenceCommit": "c7d5137a3014e9cd8c1a847b6f9a8a2f0037e455",
+  "canonicalSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalDonorBlendSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "vendorCommit": "8c91ff4f4d898bab835b3587f17585487056b60b",
+  "priorShaVerified": {
+    "Kick": {
+      "blend": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+      "glb": "7812f8adc9ea7d957e1bdb1486d5da57fa52b026d0deb80c245d0d51afc48601"
+    },
+    "Light1": {
+      "blend": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+      "glb": "1f7852abd5e51c514d4856b91344c23ba8f1364c4366903f45fbd61eb9d51a99"
+    }
+  },
+  "results": {
+    "Light1": {
+      "clip": "Light1",
+      "previousSourceSHA256": {
+        "blend": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+        "glb": "1f7852abd5e51c514d4856b91344c23ba8f1364c4366903f45fbd61eb9d51a99"
+      },
+      "variants": [
+        {
+          "mode": "PRIOR_ACTIVE_ACTIONS",
+          "scan": {
+            "clip": "Light1",
+            "sha256": "1f7852abd5e51c514d4856b91344c23ba8f1364c4366903f45fbd61eb9d51a99",
+            "bytes": 14757432,
+            "animationNames": [
+              "Animation"
+            ],
+            "channels": 219,
+            "rotatingBonesDegrees": {
+              "LeftUpLeg": 0.0,
+              "LeftLeg": 0.0,
+              "LeftFoot": 0.0,
+              "RightUpLeg": 0.0,
+              "RightLeg": 0.0,
+              "RightFoot": 0.0,
+              "LeftArm": 0.0,
+              "LeftForeArm": 0.0,
+              "RightArm": 0.0,
+              "RightForeArm": 0.0,
+              "Spine2": 0.0
+            },
+            "movingBodyParts": {},
+            "movingBodyPartCount": 0,
+            "animatedLimbs": false,
+            "movingJointCount": 0,
+            "meshes": 4,
+            "skins": 1,
+            "skinnedJointCount": 73,
+            "exportVariant": "PRIOR_ACTIVE_ACTIONS"
+          },
+          "status": "SCAN_COMPLETED",
+          "rejection": "GLB_ROTATION_VALUES_STATIC_OR_MISSING"
+        },
+        {
+          "mode": "ACTIONS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Light1",
+            "mode": "ACTIONS",
+            "sourceBlendSHA256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "NLA_TRACKS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Light1",
+            "mode": "NLA_TRACKS",
+            "sourceBlendSHA256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "SCENE",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Light1",
+            "mode": "SCENE",
+            "sourceBlendSHA256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "ACTIVE_ACTIONS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Light1",
+            "mode": "ACTIVE_ACTIONS",
+            "sourceBlendSHA256": "a871f2bbbe5d401012d847edc2c81d1fa0a224876d3d1c0295189601da7a1b19",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        }
+      ],
+      "status": "NO_ANIMATED_AND_GROUNDED_EXPORT_VERIFIED"
+    },
+    "Kick": {
+      "clip": "Kick",
+      "previousSourceSHA256": {
+        "blend": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+        "glb": "7812f8adc9ea7d957e1bdb1486d5da57fa52b026d0deb80c245d0d51afc48601"
+      },
+      "variants": [
+        {
+          "mode": "PRIOR_ACTIVE_ACTIONS",
+          "scan": {
+            "clip": "Kick",
+            "sha256": "7812f8adc9ea7d957e1bdb1486d5da57fa52b026d0deb80c245d0d51afc48601",
+            "bytes": 14705756,
+            "animationNames": [
+              "Animation"
+            ],
+            "channels": 219,
+            "rotatingBonesDegrees": {
+              "LeftUpLeg": 0.0,
+              "LeftLeg": 0.0,
+              "LeftFoot": 0.0,
+              "RightUpLeg": 0.0,
+              "RightLeg": 0.0,
+              "RightFoot": 0.0,
+              "LeftArm": 0.0,
+              "LeftForeArm": 0.0,
+              "RightArm": 0.0,
+              "RightForeArm": 0.0,
+              "Spine2": 0.0
+            },
+            "movingBodyParts": {},
+            "movingBodyPartCount": 0,
+            "animatedLimbs": false,
+            "movingJointCount": 0,
+            "meshes": 4,
+            "skins": 1,
+            "skinnedJointCount": 73,
+            "exportVariant": "PRIOR_ACTIVE_ACTIONS"
+          },
+          "status": "SCAN_COMPLETED",
+          "rejection": "GLB_ROTATION_VALUES_STATIC_OR_MISSING"
+        },
+        {
+          "mode": "ACTIONS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Kick",
+            "mode": "ACTIONS",
+            "sourceBlendSHA256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "NLA_TRACKS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Kick",
+            "mode": "NLA_TRACKS",
+            "sourceBlendSHA256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "SCENE",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Kick",
+            "mode": "SCENE",
+            "sourceBlendSHA256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        },
+        {
+          "mode": "ACTIVE_ACTIONS",
+          "export": {
+            "schema": "obsidianti-mwni-export-variant-v1.4.8",
+            "clip": "Kick",
+            "mode": "ACTIVE_ACTIONS",
+            "sourceBlendSHA256": "1647b546fc3e6f6e907d79ef740200da94b50649834d3fa1dad1df6c19abe81c",
+            "status": "BLOCKED",
+            "error": "WRONG_BLENDER_RUNTIME_4.3.2",
+            "traceback": "Traceback (most recent call last):\n  File \"/mnt/obs-work/export_variants.py\", line 25, in main\n    if 'Blender 4.3' not in bpy.app.version_string:raise RuntimeError('WRONG_BLENDER_RUNTIME_'+bpy.app.version_string)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: WRONG_BLENDER_RUNTIME_4.3.2\n",
+            "exitCode": 0
+          },
+          "rejection": "EXPORT_FAILED"
+        }
+      ],
+      "status": "NO_ANIMATED_AND_GROUNDED_EXPORT_VERIFIED"
+    }
+  },
+  "passingClips": [],
+  "errors": {
+    "Light1": [
+      {
+        "mode": "PRIOR_ACTIVE_ACTIONS",
+        "reason": "GLB_ROTATION_VALUES_STATIC_OR_MISSING"
+      },
+      {
+        "mode": "ACTIONS",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "NLA_TRACKS",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "SCENE",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "ACTIVE_ACTIONS",
+        "reason": "EXPORT_FAILED"
+      }
+    ],
+    "Kick": [
+      {
+        "mode": "PRIOR_ACTIVE_ACTIONS",
+        "reason": "GLB_ROTATION_VALUES_STATIC_OR_MISSING"
+      },
+      {
+        "mode": "ACTIONS",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "NLA_TRACKS",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "SCENE",
+        "reason": "EXPORT_FAILED"
+      },
+      {
+        "mode": "ACTIVE_ACTIONS",
+        "reason": "EXPORT_FAILED"
+      }
+    ]
+  },
+  "canonicalModified": false,
+  "ownerVisualAcceptance": "PENDING",
+  "authorRules": {
+    "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "etiquetteRead": "2026-11-06 live"
+  }
+}
