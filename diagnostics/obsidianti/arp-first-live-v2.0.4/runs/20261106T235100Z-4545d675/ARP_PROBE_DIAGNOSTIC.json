@@ -1,0 +1,32 @@
+{
+  "agentsSha": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "blenderVersion": "4.3.2",
+  "canonicalModified": false,
+  "canonicalSha256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "donorSha256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "error": "ARP_PRIVATE_ADDON_ACTIVATION_FAILED RuntimeError Operator bpy.ops.pose.select_all.poll() failed, context is incorrect",
+  "gitInputHead": "c9ee48bdcf59f2cc9870ec00a0b96a7314cd7059",
+  "registrationContext": {
+    "activeObjectType": "ARMATURE",
+    "boneCollectionsAvailable": true,
+    "placeholder": true,
+    "sceneObjectCount": 1
+  },
+  "runId": "20261106T235100Z-4545d675",
+  "schema": "OBSIDIANTI_ARP_FIRST_LIVE_v2.0.4-headless-registration-failure",
+  "stackSummary": [
+    {
+      "function": "main",
+      "line": 20,
+      "moduleFile": "blender_probe.py"
+    },
+    {
+      "function": "enable_arp",
+      "line": 85,
+      "moduleFile": "blender_trial.py"
+    }
+  ],
+  "status": "BLOCKED_REGISTRATION",
+  "vendorCodeIncluded": false,
+  "vendorZipSha256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28"
+}
