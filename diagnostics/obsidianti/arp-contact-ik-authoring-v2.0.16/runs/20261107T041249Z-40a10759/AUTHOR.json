@@ -1,0 +1,178 @@
+{
+  "IKConstraintInfluence": 1.0,
+  "IKFKTogglePresent": false,
+  "acceptedAxeKickOriginalGLBUnmodified": true,
+  "acceptedAxeKickRetargeted": false,
+  "activeIKConstraints": [
+    "EDITABLE_ALWAYS_ON_Left_FOOT",
+    "EDITABLE_ALWAYS_ON_Right_FOOT"
+  ],
+  "axes": "BLENDER_Z_UP",
+  "blendBytes": 14651840,
+  "blendSHA256": "847748768c2297964091fbb31ca86c332129fd9497a5dc35e143cb31984ad578",
+  "canonicalModified": false,
+  "footIKControls": [
+    "CTRL_LeftFoot_IK",
+    "CTRL_RightFoot_IK"
+  ],
+  "masterBlend": "/mnt/arp-work/authoring/OBSIDIANTI_EDITABLE_ALWAYS_ON_FOOT_IK_UNAPPROVED.blend",
+  "poseParity": {
+    "perAction": {
+      "Ares_Cross": {
+        "keyedFrames": 22,
+        "maxFootHeadDeviationM": 5e-06,
+        "maxKneeHeadDeviationM": 4e-06,
+        "worstFrame": 9
+      },
+      "Ares_Idle": {
+        "keyedFrames": 122,
+        "maxFootHeadDeviationM": 5e-06,
+        "maxKneeHeadDeviationM": 2e-06,
+        "worstFrame": 98
+      },
+      "Ares_StepBack": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 8e-06,
+        "maxKneeHeadDeviationM": 1.6e-05,
+        "worstFrame": 14
+      },
+      "Ares_StepBackLeft": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 8e-06,
+        "maxKneeHeadDeviationM": 1.6e-05,
+        "worstFrame": 14
+      },
+      "Ares_StepBackRight": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 8e-06,
+        "maxKneeHeadDeviationM": 1.6e-05,
+        "worstFrame": 13
+      },
+      "Ares_StepForward": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 7e-06,
+        "maxKneeHeadDeviationM": 2.2e-05,
+        "worstFrame": 6
+      },
+      "Ares_StepForwardLeft": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 7e-06,
+        "maxKneeHeadDeviationM": 2.3e-05,
+        "worstFrame": 7
+      },
+      "Ares_StepForwardRight": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 8e-06,
+        "maxKneeHeadDeviationM": 2.3e-05,
+        "worstFrame": 6
+      },
+      "Ares_StepLeft": {
+        "keyedFrames": 20,
+        "maxFootHeadDeviationM": 5e-06,
+        "maxKneeHeadDeviationM": 4e-06,
+        "worstFrame": 1
+      },
+      "Ares_StepRight": {
+        "keyedFrames": 19,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 4e-06,
+        "worstFrame": 11
+      },
+      "Lionheart_Cast": {
+        "keyedFrames": 24,
+        "maxFootHeadDeviationM": 5e-06,
+        "maxKneeHeadDeviationM": 4e-06,
+        "worstFrame": 21
+      },
+      "Lionheart_Heavy1": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 2e-05,
+        "worstFrame": 13
+      },
+      "Lionheart_Heavy2": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 7e-06,
+        "maxKneeHeadDeviationM": 8e-06,
+        "worstFrame": 8
+      },
+      "Lionheart_Heavy3": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 1e-05,
+        "worstFrame": 0
+      },
+      "Lionheart_Idle": {
+        "keyedFrames": 5,
+        "maxFootHeadDeviationM": 5e-06,
+        "maxKneeHeadDeviationM": 1e-06,
+        "worstFrame": 4
+      },
+      "Lionheart_Kick": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 8e-06,
+        "maxKneeHeadDeviationM": 0.00014,
+        "worstFrame": 1
+      },
+      "Lionheart_Light1": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 1e-05,
+        "worstFrame": 22
+      },
+      "Lionheart_Light2": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 6e-06,
+        "worstFrame": 4
+      },
+      "Lionheart_Light3": {
+        "keyedFrames": 29,
+        "maxFootHeadDeviationM": 6e-06,
+        "maxKneeHeadDeviationM": 1e-05,
+        "worstFrame": 11
+      },
+      "Lionheart_SpringAttack": {
+        "keyedFrames": 27,
+        "maxFootHeadDeviationM": 7e-06,
+        "maxKneeHeadDeviationM": 1.3e-05,
+        "worstFrame": 19
+      },
+      "Lionheart_Stomp": {
+        "keyedFrames": 25,
+        "maxFootHeadDeviationM": 7e-06,
+        "maxKneeHeadDeviationM": 7e-06,
+        "worstFrame": 9
+      }
+    },
+    "worstFootDeviationM": 8.296508372196119e-06,
+    "worstKneeDeviationM": 0.0001402980846827656
+  },
+  "posePreservationPass": true,
+  "sourceActions": [
+    "Ares_Cross",
+    "Ares_Idle",
+    "Ares_StepBack",
+    "Ares_StepBackLeft",
+    "Ares_StepBackRight",
+    "Ares_StepForward",
+    "Ares_StepForwardLeft",
+    "Ares_StepForwardRight",
+    "Ares_StepLeft",
+    "Ares_StepRight",
+    "Lionheart_Cast",
+    "Lionheart_Heavy1",
+    "Lionheart_Heavy2",
+    "Lionheart_Heavy3",
+    "Lionheart_Idle",
+    "Lionheart_Kick",
+    "Lionheart_Light1",
+    "Lionheart_Light2",
+    "Lionheart_Light3",
+    "Lionheart_SpringAttack",
+    "Lionheart_Stomp"
+  ],
+  "sourceGLBSHA256": "e7f60fea731fd9537380868adbb52fee63df34fdf1b6d7694bc39925b440fa1d",
+  "stage": "SAVED",
+  "status": "ALWAYS_ON_FOOT_IK_AUTHORING_BLEND_SAVED_UNAPPROVED"
+}
