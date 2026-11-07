@@ -1,0 +1,51 @@
+{
+  "schema": "OBSIDIANTI_ANIMATION_REUNION_v2.0.30",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "mission": "Create one 30-animation Three.js review GLB retaining canonical Obsidianti shield, lance, original 8 guarded Ares combat steps, full 3-second ObsidiantiIdle, original Running, all 19 Vanguard two-handed retarget animations, exact accepted AxeKick. No other historical Lionheart/ARP iterations in output. Preserve canonical, all prior separate review sources, materials, skin, bones and weapon mounts. No new retarget, no canonical mutation. Owner visual acceptance required.",
+  "pinnedGitBase": "c14a8fbd3a42f3e96f43ed714a39a58da0536c7f",
+  "rulesReadBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "etiquette": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "canonicalPath": "assets/obsidianti/Obsidianti.glb",
+  "vanguardInputSHA256": "3f27fce824c74fbd0a38c1d4f589ef21818a37afc1926459f9abb5739a23f2ce",
+  "vanguardInputPath": "diagnostics/obsidianti/vanguard-rigify-arp-v2.0.17/runs/20261107T044021Z-81e43a05/OBSIDIANTI_VANGUARD_ARP_EXPERIMENT_UNAPPROVED.glb",
+  "acceptedAxeKickSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+  "acceptedAxeKickPath": "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb",
+  "historicalCode": "campaigns/OBSIDIANTI_GLTF_LIBRARY_v1.1.0.py",
+  "historicalCodeGitBlob": "772880dbf4c47c4e79fd9f4f097681a5f7c3bd08",
+  "canonicalModificationAllowed": false,
+  "preserve": [
+    "canonical shield geometry and visibility default ON",
+    "canonical lance geometry and weapon bones",
+    "canonical skinned rig/hierarchy/rest/materials/UVs",
+    "all original authored idle 91 samples",
+    "all eight original guarded Ares step samplers",
+    "accepted AxeKick exactly as v2.0.13 donor",
+    "all 19 v2.0.17 Vanguard action channels",
+    "original Running unchanged",
+    "all excluded historical clips remain in original Git canonical history and old review artifacts"
+  ],
+  "excludedFromOutput": [
+    "Walking",
+    "LionheartIdle_UNREVIEWED static guard standalone",
+    "Lionheart attack versions",
+    "v2.0.14 and v2.0.16 duplicated ARP action passes",
+    "v2.0.29 corrected step copies"
+  ],
+  "expectedOutputClips": 30,
+  "runtime": "Three.js reviewer; independent upper-body idle overlay derived non-destructively in viewer, not additional GLB clip",
+  "shieldHandling": "retained in GLB for 1H and 2H, visible by default, viewer may toggle visibility without mutating GLB",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_driver.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_compose.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_viewer.html",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_server.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.30.contract.json",
+    "tests/OBSIDIANTI_ANIMATION_REUNION_v2.0.30_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/animation-reunion-v2.0.30/runs/",
+  "outcome": "single SHA-identified 30-clip shield/lance review GLB through Termux Git remote readback, Three.js phone viewer, owner acceptance PENDING",
+  "authoringEnvironmentDoesNotProveTermuxExecution": true
+}
