@@ -1,0 +1,50 @@
+{
+  "schema": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35",
+  "repository": "Valar05/parametric-parambulator",
+  "authority": "TERMUX_GIT_ONLY",
+  "pinnedGitBase": "898051da60092002cb39137d0683fbff45118085",
+  "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "requiredEtiquette": "CAMPAIGN_ETIQUETTE \u2014 Git Script Campaign Operating Rules",
+  "canonicalPath": "assets/obsidianti/Obsidianti.glb",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "input42SHA256": "899aa3f7f24fb3b36e80a1c96cff7d032dcacf27f990231203ba5c08f2ee066b",
+  "inputPath": "diagnostics/obsidianti/sword1-sustained-ik-v2.0.33/runs/20261107T213143Z-f1187b82/OBSIDIANTI_SWORD1_SUSTAINED_IK_42_CLIP_REVIEW_UNAPPROVED.glb",
+  "mission": "Add a v2.0.33 SwordAttack1 review variant with left palm (finger-base anatomical) IK throughout attack, right elbow and wrist clearance optimization around torso, and exact right-hand shaft world orientation preservation. Preserve prior 0.23 second transition and 8 percent wrist-shield charm. Review artifact is published with precise warning if unavoidable midframe strict parity is missed, never installed as canonical.",
+  "variantName": "Vanguard_SwordAttack1_TwoHand_PalmIK_Clearance",
+  "newClipCount": 43,
+  "noChanges": [
+    "canonical GLB",
+    "source 42 GLB clips, data, UVs and meshes",
+    "shield mesh/scale/transform authored in the v2.0.33 animation",
+    "full original 0.23 second transition time",
+    "all previous Vanguard and Lionheart animations",
+    "all original AxeKick animations",
+    "running and Ares eight combat steps"
+  ],
+  "allowedChanges": [
+    "one appended 43rd animation only",
+    "left shoulder, elbow and hand rotation and arm stretch in this new action",
+    "right shoulder elbow and hand rotation in this new action to clear chest",
+    "versioned report, diagnostics, viewer and launcher"
+  ],
+  "requirements": [
+    "palm rather than wrist contacts lance shaft",
+    "left hand follows moving lance at all attack samples",
+    "right-arm correction preserves shaft final direction; world tip position need not be fixed",
+    "original clip and original shield retained",
+    "owner visual acceptance required, cannot prove skinned torso clearance solely from proxy",
+    "Adaptive pinpoint time subdivision around contact discontinuities; publish unapproved numerical advisory for visual inspection if strict numeric gates cannot be satisfied"
+  ],
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_driver.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_fix.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_viewer.html",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_server.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35.contract.json",
+    "tests/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.35_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/sword1-palm-clearance-v2.0.35/runs/",
+  "exactTermuxGitRemoteReadbackRequired": true,
+  "ownerVisualApproval": "PENDING"
+}
