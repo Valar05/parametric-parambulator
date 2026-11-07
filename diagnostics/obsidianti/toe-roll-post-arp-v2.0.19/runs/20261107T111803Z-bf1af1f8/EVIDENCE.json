@@ -1,0 +1,101 @@
+{
+  "authority": "TERMUX_GIT_ONLY",
+  "axeKickGroundOffsetM": -0.6597533,
+  "axeKickGroundVerified": 2.151580370158878e-08,
+  "axeKickMeasuredFirstFrame": {
+    "counts": {
+      "Left": 176,
+      "Right": 194
+    },
+    "minY": 0.6597532845124772,
+    "sideMinY": {
+      "Left": 0.6597532845124772,
+      "Right": 0.6691812250016738
+    }
+  },
+  "canonicalModified": false,
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "createdVariantClips": 11,
+  "inputClips": 20,
+  "inputCommit": "40d6f8e4465dec37191623d5a1b083227612c2cc",
+  "originalAcceptedAxeKickSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+  "originalAnimationsPreserved": true,
+  "outGLBBytes": 14673152,
+  "outGLBSHA256": "cd08b7ba92500629e0e553689dcbebdd59955951debeb7ed09d9680fae91b97b",
+  "ownerIntent": "10 LIONHEART TOE ROLL PATCHES AND AXEKICK FLOOR AFTER RETARGET",
+  "ownerVisualAcceptance": "PENDING",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-full-library-v2.0.14/runs/20261107T031757Z-c7c5e4e4/Obsidianti_ARP_FULL_LIBRARY_UNAPPROVED.glb": "4e72b54d7da3f2d89b1b0f53580b4d11e328c23b",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-full-library-v2.0.14/runs/20261107T031757Z-c7c5e4e4/Obsidianti_ARP_FULL_LIBRARY_UNAPPROVED.glb": "4e72b54d7da3f2d89b1b0f53580b4d11e328c23b",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "retargetingRerun": false,
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T111803Z-bf1af1f8",
+  "schema": "OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19",
+  "sourceCommit": "6cf2768d2a39c090273d220c30307190c07ef8dd",
+  "sourceDonorSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "sourceReviewGLBSHA256": "3e9a5b4d0ff2847a05d56a81292881d4a3b6b75a7ebdc90e362f6384b31a9021",
+  "toeRollCorrections": {
+    "Lionheart_Cast": {
+      "correctedSamples": 60,
+      "maxOffsetM": 0.0,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Heavy1": {
+      "correctedSamples": 51,
+      "maxOffsetM": 0.003228,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Heavy2": {
+      "correctedSamples": 61,
+      "maxOffsetM": 0.013377,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Heavy3": {
+      "correctedSamples": 62,
+      "maxOffsetM": 0.01324,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Kick": {
+      "correctedSamples": 50,
+      "maxOffsetM": 0.0,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Light1": {
+      "correctedSamples": 52,
+      "maxOffsetM": 0.017812,
+      "rejectedFrames": 9
+    },
+    "Lionheart_Light2": {
+      "correctedSamples": 52,
+      "maxOffsetM": 0.020968,
+      "rejectedFrames": 10
+    },
+    "Lionheart_Light3": {
+      "correctedSamples": 72,
+      "maxOffsetM": 0.022772,
+      "rejectedFrames": 0
+    },
+    "Lionheart_SpringAttack": {
+      "correctedSamples": 68,
+      "maxOffsetM": 0.006995,
+      "rejectedFrames": 0
+    },
+    "Lionheart_Stomp": {
+      "correctedSamples": 62,
+      "maxOffsetM": 1e-06,
+      "rejectedFrames": 0
+    }
+  },
+  "viewerHTTPVerified": true,
+  "viewerRendered": "OWNER_UNVERIFIED",
+  "viewerURL": "http://127.0.0.1:9204/index.html?run=20261107T111803Z-bf1af1f8&build=88756560f3266ec39c16a8e9"
+}
