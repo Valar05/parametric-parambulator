@@ -1,0 +1,69 @@
+{
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "campaign": "OBSIDIANTI_ARP_RETARGET_FAILURE_FORENSICS_v2.0.7",
+  "canonicalModelSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "canonicalModified": false,
+  "clips": [
+    {
+      "clip": "AxeKick",
+      "editableBlenderExists": false,
+      "frameCount": 0,
+      "logByteCount": 830,
+      "logFlags": {
+        "missingSourceAction": false,
+        "retargetMentioned": false,
+        "segfaultOrFatal": false,
+        "silentExitSuspected": true,
+        "tracebackPresent": false,
+        "warningOrError": true
+      },
+      "logLineCount": 16,
+      "logSHA256": "75ca21b787ef435f8687287b8a9005eb85f2ac4ed199e41cfa7848139a8489c2",
+      "mappedBones": 22,
+      "retargetOutcome": "UNVERIFIED",
+      "sourceAnimatedLimbGroups": {
+        "leftLeg": false,
+        "rightLeg": false,
+        "upper": false
+      },
+      "sourceSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+      "targetAction": null,
+      "trialSHA256": "5686f3820c85d112cc3c84c2bf0fb8dafa1fff424d32e2419e63b8a06574f403",
+      "trialStatus": "BOOT"
+    },
+    {
+      "clip": "Heavy1",
+      "editableBlenderExists": false,
+      "frameCount": 0,
+      "logByteCount": 844,
+      "logFlags": {
+        "missingSourceAction": false,
+        "retargetMentioned": false,
+        "segfaultOrFatal": false,
+        "silentExitSuspected": true,
+        "tracebackPresent": false,
+        "warningOrError": true
+      },
+      "logLineCount": 16,
+      "logSHA256": "c49d56d5c3eac10a845c30e08d5ffe98d88aa7e2274feaead5e6178efc559618",
+      "mappedBones": 22,
+      "retargetOutcome": "UNVERIFIED",
+      "sourceAnimatedLimbGroups": {
+        "leftLeg": true,
+        "rightLeg": true,
+        "upper": true
+      },
+      "sourceSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+      "targetAction": null,
+      "trialSHA256": "000eb69bdabe8d79675d08790303bb82a21593f74fcc8bf3b8b51e04a5ed2a7e",
+      "trialStatus": "BOOT"
+    }
+  ],
+  "ownerAcceptance": "PENDING",
+  "privateVendorZIPSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "runId": "20261107T004441Z-1acbf29b",
+  "sourceCommit": "ccec23b752bd677bbc26e4bb3df73ffd25386944",
+  "sourceTermuxRun": "20261106T235842Z-73d0582a",
+  "status": "ACTUAL_PRIOR_BLENDER_LOGS_CLASSIFIED_RETARGET_UNVERIFIED",
+  "vendorSourcePublished": false
+}
