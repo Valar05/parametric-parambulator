@@ -1,0 +1,63 @@
+{
+  "allSourceActions": {
+    "Ares": [
+      "Idle-Cross",
+      "StepForward",
+      "StepBack",
+      "StepLeft",
+      "StepRight",
+      "StepForwardLeft",
+      "StepForwardRight",
+      "StepBackLeft",
+      "StepBackRight",
+      "AxeKick"
+    ],
+    "Lionheart": [
+      "Idle",
+      "Cast",
+      "Heavy1",
+      "Heavy2",
+      "Heavy3",
+      "Kick",
+      "Light1",
+      "Light2",
+      "Light3",
+      "SpringAttack",
+      "Stomp"
+    ]
+  },
+  "androidDownloads": "/data/data/com.termux/files/home/storage/downloads/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_20261107T031757Z-c7c5e4e4_REVIEW_LIBRARY.glb",
+  "authority": "TERMUX_GIT_ONLY",
+  "browserRendered": "OWNER_UNVERIFIED",
+  "canonicalModelSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "canonicalModified": false,
+  "combinedActionCount": 20,
+  "errors": {
+    "Ares_Idle-Cross": "PURCHASED_ARP_RETARGET_FAILED_Idle-Cross_exit=0 stage=None error=NATIVE_SOURCE_ACTION_MISSING Idle-Cross",
+    "Lionheart_Idle": "PURCHASED_ARP_RETARGET_FAILED_Idle_exit=0 stage=None error=NATIVE_ACTION_FRAME_RANGE_UNEXPECTED"
+  },
+  "expectedNewRetargetCount": 20,
+  "exportedActionCount": 18,
+  "inputGitHead": "3501004150ac2db37a2609872004827427d2b126",
+  "outputBytes": 14377428,
+  "outputSHA256": "3e9a5b4d0ff2847a05d56a81292881d4a3b6b75a7ebdc90e362f6384b31a9021",
+  "ownerAxeKickVerdict": "ACCEPTED_UNCHANGED_SOURCE_GLB",
+  "ownerHeavy1Verdict": "PENDING",
+  "preset": "AUTO_SCALE=ON; Hips set_as_root=ON; Hips location=OFF; other generated map unchanged",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "purchasedARPZipSha256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T031757Z-c7c5e4e4",
+  "schema": "OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14",
+  "sourceCommit": "e210c1e4d93e85de515b0024aacc39b8f5ea659e",
+  "vendorSourcePublished": false,
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9201/index.html?run=20261107T031757Z-c7c5e4e4&build=7c501d6dd030cd38afe09f41"
+}

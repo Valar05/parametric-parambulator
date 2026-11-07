@@ -1,0 +1,1797 @@
+{
+  "canonicalMutation": false,
+  "clips": {
+    "Ares_StepBack": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepBack_remap",
+      "sourceSha256": "891e7de35ec1edb22f2da4fb5955d0168d21e3f0742621f8a02787d667de24d3",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepBackLeft": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepBackLeft_remap",
+      "sourceSha256": "6c019480cd69f891932b16e1640daff96b7f64cc7627e66dc3b7c3afeb22bc30",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepBackRight": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepBackRight_remap",
+      "sourceSha256": "30236c8a0353d9b6dc6f71423e950d59bd4637ff7c53a0bd7f7bc0cd2aeaf567",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepForward": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepForward_remap",
+      "sourceSha256": "220f1185a4a5d48514ba3a292da079af0db440fe5875ad332c21e7c01f03aa0c",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepForwardLeft": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepForwardLeft_remap",
+      "sourceSha256": "2d33324bdf32c17a8727be17186b80326ebf329379edc709a50011676539945d",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepForwardRight": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepForwardRight_remap",
+      "sourceSha256": "f58d902ace04faee02666f84462185b482e87dd5f3e6cfbef7b8e3049bb531bc",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepLeft": {
+      "addedAnimationBytes": 5776,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepLeft_remap",
+      "sourceSha256": "4d7f773b7dea15211413f762617a88d4747044e21e27ceaf7b46db275fc6d698",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Ares_StepRight": {
+      "addedAnimationBytes": 5800,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "StepRight_remap",
+      "sourceSha256": "1c365aef5f62d8c01b063ad5b03570fdb152669e99275e97ec6d579cf94089fa",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "AxeKick": {
+      "addedAnimationBytes": 12064,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 25,
+          "first": [
+            -0.003752,
+            1.574373,
+            -0.017834
+          ],
+          "last": [
+            -0.003752,
+            1.574373,
+            -0.017834
+          ],
+          "max": [
+            0.016668,
+            1.676892,
+            0.053716
+          ],
+          "maxDisplacementFromFirst": 0.183067,
+          "min": [
+            -0.009391,
+            1.485887,
+            -0.194018
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386161,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386161,
+            0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "AxeKick_remap",
+      "sourceSha256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Heavy1_old_ARP": {
+      "addedAnimationBytes": 14088,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 31,
+          "first": [
+            -0.002922,
+            1.520009,
+            -0.008261
+          ],
+          "last": [
+            -0.002922,
+            1.520009,
+            -0.008261
+          ],
+          "max": [
+            -0.002922,
+            1.520009,
+            0.172938
+          ],
+          "maxDisplacementFromFirst": 0.217907,
+          "min": [
+            -0.146435,
+            1.40069,
+            -0.120735
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.386162,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.0,
+            0.386162,
+            0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Heavy1_remap",
+      "sourceSha256": "1738d067cdc3f0f47ceab3cb31320f0f8700f471db74011c2dd0db08d84b2c75",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Cast": {
+      "addedAnimationBytes": 12592,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Cast_remap",
+      "sourceSha256": "20fe38ea560e0020caaca4d2a27ca78d89882fb24667c75da1d5dd102bc42331",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Heavy1": {
+      "addedAnimationBytes": 13788,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Heavy1_remap",
+      "sourceSha256": "c37588866f543963b77f839abc182f62dcdb89609b03c05cf17334f445924ad2",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Heavy2": {
+      "addedAnimationBytes": 13860,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Heavy2_remap",
+      "sourceSha256": "21a63e494f26a45f6027bfcbc2a04009ea8ca08b8f6b5aad85c4872a55f7c63d",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Heavy3": {
+      "addedAnimationBytes": 13812,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Heavy3_remap",
+      "sourceSha256": "ed6594108b46fd9af8c444c67bc3004e38cc4bdbcacc093a5fe8097aa6951e2d",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Kick": {
+      "addedAnimationBytes": 11932,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Kick_remap",
+      "sourceSha256": "0673761460c6ce38b87e5ce2823c0ac34f2bd29d5a2b5e493f45c61f1abcfb0e",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Light1": {
+      "addedAnimationBytes": 14300,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Light1_remap",
+      "sourceSha256": "91bb32842a25d92a8247f7e26c47f1eee3f57eb7d8bdc3d0a5ba9efbb530de97",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Light2": {
+      "addedAnimationBytes": 14228,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Light2_remap",
+      "sourceSha256": "6dd5cf901c5a34a013c7b558c7bd65a42b6024e5180c87d1f15460699d97c4b9",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Light3": {
+      "addedAnimationBytes": 16184,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Light3_remap",
+      "sourceSha256": "63dd89746d42c2273c3dcc2197a9442e1325168d690a500b6370c63d7bea84e0",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_SpringAttack": {
+      "addedAnimationBytes": 16200,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "max": [
+            0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "SpringAttack_remap",
+      "sourceSha256": "9c4b92aabaa7384b3d0d0d5604d2905a3a18d9d11a623ef8bdb5bf4dce7b1c6e",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    },
+    "Lionheart_Stomp": {
+      "addedAnimationBytes": 12812,
+      "channels": 219,
+      "keyTranslations": {
+        "mixamorig:Hips": {
+          "count": 2,
+          "first": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "last": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "max": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            0.00332,
+            1.002573,
+            0.008279
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:LeftFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "last": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386443,
+            0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386443,
+            -0.0
+          ],
+          "type": "VEC3"
+        },
+        "mixamorig:RightFoot": {
+          "count": 2,
+          "first": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "last": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "max": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "maxDisplacementFromFirst": 0.0,
+          "min": [
+            -0.0,
+            0.386162,
+            -0.0
+          ],
+          "type": "VEC3"
+        }
+      },
+      "sourceAnimation": "Stomp_remap",
+      "sourceSha256": "84f78d53213961d33980ba5e6a3cf43ce654a268d42ea7d1326263c60116e98e",
+      "status": "GLTF_SAMPLERS_COPIED_IDENTICAL_SKELETON"
+    }
+  },
+  "inputs": {
+    "Ares_StepBack": {
+      "bytes": 13208096,
+      "sha256": "891e7de35ec1edb22f2da4fb5955d0168d21e3f0742621f8a02787d667de24d3"
+    },
+    "Ares_StepBackLeft": {
+      "bytes": 13208100,
+      "sha256": "6c019480cd69f891932b16e1640daff96b7f64cc7627e66dc3b7c3afeb22bc30"
+    },
+    "Ares_StepBackRight": {
+      "bytes": 13208100,
+      "sha256": "30236c8a0353d9b6dc6f71423e950d59bd4637ff7c53a0bd7f7bc0cd2aeaf567"
+    },
+    "Ares_StepForward": {
+      "bytes": 13208100,
+      "sha256": "220f1185a4a5d48514ba3a292da079af0db440fe5875ad332c21e7c01f03aa0c"
+    },
+    "Ares_StepForwardLeft": {
+      "bytes": 13208104,
+      "sha256": "2d33324bdf32c17a8727be17186b80326ebf329379edc709a50011676539945d"
+    },
+    "Ares_StepForwardRight": {
+      "bytes": 13208104,
+      "sha256": "f58d902ace04faee02666f84462185b482e87dd5f3e6cfbef7b8e3049bb531bc"
+    },
+    "Ares_StepLeft": {
+      "bytes": 13207932,
+      "sha256": "4d7f773b7dea15211413f762617a88d4747044e21e27ceaf7b46db275fc6d698"
+    },
+    "Ares_StepRight": {
+      "bytes": 13208096,
+      "sha256": "1c365aef5f62d8c01b063ad5b03570fdb152669e99275e97ec6d579cf94089fa"
+    },
+    "AxeKick": {
+      "bytes": 13214564,
+      "sha256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da"
+    },
+    "Heavy1_old_ARP": {
+      "bytes": 13216232,
+      "sha256": "1738d067cdc3f0f47ceab3cb31320f0f8700f471db74011c2dd0db08d84b2c75"
+    },
+    "Lionheart_Cast": {
+      "bytes": 13214868,
+      "sha256": "20fe38ea560e0020caaca4d2a27ca78d89882fb24667c75da1d5dd102bc42331"
+    },
+    "Lionheart_Heavy1": {
+      "bytes": 13216160,
+      "sha256": "c37588866f543963b77f839abc182f62dcdb89609b03c05cf17334f445924ad2"
+    },
+    "Lionheart_Heavy2": {
+      "bytes": 13216608,
+      "sha256": "21a63e494f26a45f6027bfcbc2a04009ea8ca08b8f6b5aad85c4872a55f7c63d"
+    },
+    "Lionheart_Heavy3": {
+      "bytes": 13216328,
+      "sha256": "ed6594108b46fd9af8c444c67bc3004e38cc4bdbcacc093a5fe8097aa6951e2d"
+    },
+    "Lionheart_Kick": {
+      "bytes": 13214292,
+      "sha256": "0673761460c6ce38b87e5ce2823c0ac34f2bd29d5a2b5e493f45c61f1abcfb0e"
+    },
+    "Lionheart_Light1": {
+      "bytes": 13216896,
+      "sha256": "91bb32842a25d92a8247f7e26c47f1eee3f57eb7d8bdc3d0a5ba9efbb530de97"
+    },
+    "Lionheart_Light2": {
+      "bytes": 13216488,
+      "sha256": "6dd5cf901c5a34a013c7b558c7bd65a42b6024e5180c87d1f15460699d97c4b9"
+    },
+    "Lionheart_Light3": {
+      "bytes": 13218248,
+      "sha256": "63dd89746d42c2273c3dcc2197a9442e1325168d690a500b6370c63d7bea84e0"
+    },
+    "Lionheart_SpringAttack": {
+      "bytes": 13218908,
+      "sha256": "9c4b92aabaa7384b3d0d0d5604d2905a3a18d9d11a623ef8bdb5bf4dce7b1c6e"
+    },
+    "Lionheart_Stomp": {
+      "bytes": 13214944,
+      "sha256": "84f78d53213961d33980ba5e6a3cf43ce654a268d42ea7d1326263c60116e98e"
+    }
+  },
+  "merged": {
+    "bytes": 14377428,
+    "clips": 20,
+    "names": [
+      "AxeKick",
+      "Heavy1_old_ARP",
+      "Lionheart_Cast",
+      "Lionheart_Heavy1",
+      "Lionheart_Heavy2",
+      "Lionheart_Heavy3",
+      "Lionheart_Kick",
+      "Lionheart_Light1",
+      "Lionheart_Light2",
+      "Lionheart_Light3",
+      "Lionheart_SpringAttack",
+      "Lionheart_Stomp",
+      "Ares_StepForward",
+      "Ares_StepBack",
+      "Ares_StepLeft",
+      "Ares_StepRight",
+      "Ares_StepForwardLeft",
+      "Ares_StepForwardRight",
+      "Ares_StepBackLeft",
+      "Ares_StepBackRight"
+    ],
+    "nodes": 78,
+    "sha256": "3e9a5b4d0ff2847a05d56a81292881d4a3b6b75a7ebdc90e362f6384b31a9021",
+    "skins": 1
+  },
+  "schema": "obsidianti-arp-full-library-v2.0.14"
+}
