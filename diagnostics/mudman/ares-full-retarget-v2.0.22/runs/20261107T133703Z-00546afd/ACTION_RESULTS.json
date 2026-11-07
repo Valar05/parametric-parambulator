@@ -1,0 +1,6629 @@
+{
+  "combinedGLBSHA256": "396e9cf024846ba9e8c5159a9b8660b21a296a73a6e656d4c347dc86780079d6",
+  "errors": {},
+  "expected": 77,
+  "exported": 77,
+  "inputs": {
+    "actions": [
+      {
+        "action": "Cross",
+        "fcurves": 420,
+        "frameEnd": 26.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 96,
+        "name": "Cross-Enemy",
+        "slot": "OBCross-Enemy",
+        "static": false
+      },
+      {
+        "action": "Run",
+        "fcurves": 410,
+        "frameEnd": 19.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 129,
+        "name": "Run",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "Cross",
+        "fcurves": 420,
+        "frameEnd": 26.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 96,
+        "name": "Cross-Player",
+        "slot": "OBCross-Player",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0",
+        "fcurves": 410,
+        "frameEnd": 44.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 85,
+        "name": "Armature.001|mixamo.com|Layer0",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.001",
+        "fcurves": 410,
+        "frameEnd": 49.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 89,
+        "name": "Armature.001|mixamo.com|Layer0.001",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.002",
+        "fcurves": 410,
+        "frameEnd": 77.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 137,
+        "name": "Armature.001|mixamo.com|Layer0.002",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.003",
+        "fcurves": 410,
+        "frameEnd": 58.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 115,
+        "name": "Armature.001|mixamo.com|Layer0.003",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.004",
+        "fcurves": 340,
+        "frameEnd": 46.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 137,
+        "name": "Armature.001|mixamo.com|Layer0.004",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.005",
+        "fcurves": 410,
+        "frameEnd": 49.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 91,
+        "name": "Armature.001|mixamo.com|Layer0.005",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.006",
+        "fcurves": 340,
+        "frameEnd": 26.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 89,
+        "name": "Armature.001|mixamo.com|Layer0.006",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.007",
+        "fcurves": 340,
+        "frameEnd": 66.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 89,
+        "name": "Armature.001|mixamo.com|Layer0.007",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.008",
+        "fcurves": 340,
+        "frameEnd": 67.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 89,
+        "name": "Armature.001|mixamo.com|Layer0.008",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.009",
+        "fcurves": 340,
+        "frameEnd": 62.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 137,
+        "name": "Armature.001|mixamo.com|Layer0.009",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "Armature.001|mixamo.com|Layer0.010",
+        "fcurves": 340,
+        "frameEnd": 49.0,
+        "frameStart": 1.0,
+        "mappedCurves": 340,
+        "movingCurves": 137,
+        "name": "Armature.001|mixamo.com|Layer0.010",
+        "slot": "OBArmature.001|mixamo.com|Layer0",
+        "static": false
+      },
+      {
+        "action": "AxeKick",
+        "fcurves": 362,
+        "frameEnd": 24.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "AxeKick__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "AxeKick",
+        "fcurves": 420,
+        "frameEnd": 24.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 67,
+        "name": "AxeKick__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "AxeKick",
+        "fcurves": 410,
+        "frameEnd": 24.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "AxeKick__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "AxleKick",
+        "fcurves": 420,
+        "frameEnd": 28.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 69,
+        "name": "AxleKick",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "BackImpact",
+        "fcurves": 362,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "BackImpact__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "BackImpact",
+        "fcurves": 420,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 87,
+        "name": "BackImpact__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "BackImpact",
+        "fcurves": 410,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "BackImpact__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "Backfist",
+        "fcurves": 414,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 404,
+        "movingCurves": 119,
+        "name": "Backfist",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "Block",
+        "fcurves": 372,
+        "frameEnd": 30.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 72,
+        "name": "Block",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "CoriPunchMove",
+        "fcurves": 371,
+        "frameEnd": 24.0,
+        "frameStart": 0.0,
+        "mappedCurves": 361,
+        "movingCurves": 40,
+        "name": "CoriPunchMove",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "Cross",
+        "fcurves": 362,
+        "frameEnd": 26.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "Cross__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "CurbStomp",
+        "fcurves": 362,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "CurbStomp__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "CurbStomp",
+        "fcurves": 420,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 70,
+        "name": "CurbStomp__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "CurbStomp",
+        "fcurves": 410,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 137,
+        "name": "CurbStomp__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      },
+      {
+        "action": "Death",
+        "fcurves": 220,
+        "frameEnd": 31.0,
+        "frameStart": 1.0,
+        "mappedCurves": 220,
+        "movingCurves": 89,
+        "name": "Death",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "FrontKick",
+        "fcurves": 372,
+        "frameEnd": 26.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 141,
+        "name": "FrontKick",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "GravityFist",
+        "fcurves": 362,
+        "frameEnd": 30.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "GravityFist__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "GravityFist",
+        "fcurves": 420,
+        "frameEnd": 30.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 78,
+        "name": "GravityFist__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "GravityFist",
+        "fcurves": 410,
+        "frameEnd": 30.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 137,
+        "name": "GravityFist__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      },
+      {
+        "action": "Headbutt",
+        "fcurves": 414,
+        "frameEnd": 23.0,
+        "frameStart": 1.0,
+        "mappedCurves": 404,
+        "movingCurves": 93,
+        "name": "Headbutt",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "HitHeadLeft",
+        "fcurves": 403,
+        "frameEnd": 30.0,
+        "frameStart": -1.0,
+        "mappedCurves": 401,
+        "movingCurves": 85,
+        "name": "HitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "HitHeadLeftPlayer",
+        "fcurves": 403,
+        "frameEnd": 30.0,
+        "frameStart": -1.0,
+        "mappedCurves": 401,
+        "movingCurves": 85,
+        "name": "HitHeadLeftPlayer",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "HitHeadRightBig",
+        "fcurves": 414,
+        "frameEnd": 32.0,
+        "frameStart": 0.0,
+        "mappedCurves": 404,
+        "movingCurves": 91,
+        "name": "HitHeadRightBig",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "Hook",
+        "fcurves": 420,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 94,
+        "name": "Hook",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "Idle",
+        "fcurves": 420,
+        "frameEnd": 151.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 91,
+        "name": "Idle__OBCross",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "Idle",
+        "fcurves": 14,
+        "frameEnd": 151.0,
+        "frameStart": 0.0,
+        "mappedCurves": 10,
+        "movingCurves": 4,
+        "name": "Idle__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      },
+      {
+        "action": "Jab-Enemy",
+        "fcurves": 372,
+        "frameEnd": 34.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 148,
+        "name": "Jab-Enemy__OBCross",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "Jab-Enemy",
+        "fcurves": 372,
+        "frameEnd": 34.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 148,
+        "name": "Jab-Enemy__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "Jab-Enemy",
+        "fcurves": 420,
+        "frameEnd": 34.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 140,
+        "name": "Jab-Enemy__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      },
+      {
+        "action": "Jab",
+        "fcurves": 362,
+        "frameEnd": 23.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 148,
+        "name": "Jab__OBCross",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "Jab",
+        "fcurves": 362,
+        "frameEnd": 23.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 148,
+        "name": "Jab__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "Jab",
+        "fcurves": 410,
+        "frameEnd": 23.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 140,
+        "name": "Jab__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      },
+      {
+        "action": "KnockedBack",
+        "fcurves": 384,
+        "frameEnd": 17.0,
+        "frameStart": 0.0,
+        "mappedCurves": 374,
+        "movingCurves": 73,
+        "name": "KnockedBack",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "KnockedBackward",
+        "fcurves": 384,
+        "frameEnd": 17.0,
+        "frameStart": 0.0,
+        "mappedCurves": 374,
+        "movingCurves": 73,
+        "name": "KnockedBackward",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "LeftUppercut",
+        "fcurves": 420,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 142,
+        "name": "LeftUppercut",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "LowBackKick",
+        "fcurves": 372,
+        "frameEnd": 29.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "LowBackKick__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "LowBackKick",
+        "fcurves": 414,
+        "frameEnd": 29.0,
+        "frameStart": 0.0,
+        "mappedCurves": 404,
+        "movingCurves": 139,
+        "name": "LowBackKick__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "LowBackKick",
+        "fcurves": 372,
+        "frameEnd": 29.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "LowBackKick__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "ProneBack",
+        "fcurves": 420,
+        "frameEnd": 14.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "ProneBack",
+        "slot": "OBHitHeadLeft",
+        "static": true
+      },
+      {
+        "action": "ProneBackDamage",
+        "fcurves": 420,
+        "frameEnd": 14.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 69,
+        "name": "ProneBackDamage",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "ProneBackStandUp",
+        "fcurves": 420,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 84,
+        "name": "ProneBackStandUp",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "ProneFrontDamage",
+        "fcurves": 362,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "ProneFrontDamage__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "ProneFrontDamage",
+        "fcurves": 420,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 67,
+        "name": "ProneFrontDamage__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "ProneFrontDamage",
+        "fcurves": 410,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "ProneFrontDamage__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "ProneFront",
+        "fcurves": 362,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "ProneFront__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "ProneFront",
+        "fcurves": 420,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "ProneFront__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": true
+      },
+      {
+        "action": "ProneFront",
+        "fcurves": 410,
+        "frameEnd": 10.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "ProneFront__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "RightUppercut",
+        "fcurves": 372,
+        "frameEnd": 20.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 85,
+        "name": "RightUppercut",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "SpinningHighKick",
+        "fcurves": 413,
+        "frameEnd": 26.0,
+        "frameStart": 1.0,
+        "mappedCurves": 403,
+        "movingCurves": 117,
+        "name": "SpinningHighKick",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "StandUp",
+        "fcurves": 362,
+        "frameEnd": 30.0,
+        "frameStart": 0.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "StandUp__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "StandUp",
+        "fcurves": 420,
+        "frameEnd": 30.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 123,
+        "name": "StandUp__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "StandUp",
+        "fcurves": 410,
+        "frameEnd": 30.0,
+        "frameStart": 0.0,
+        "mappedCurves": 410,
+        "movingCurves": 0,
+        "name": "StandUp__OBIdle",
+        "slot": "OBIdle",
+        "static": true
+      },
+      {
+        "action": "StepBack",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 82,
+        "name": "StepBack",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepBackLeft",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 82,
+        "name": "StepBackLeft",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepBackRight",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 82,
+        "name": "StepBackRight",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepForward",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 86,
+        "name": "StepForward",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepForwardLeft",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 86,
+        "name": "StepForwardLeft",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepForwardRight",
+        "fcurves": 407,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 407,
+        "movingCurves": 86,
+        "name": "StepForwardRight",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepLeft",
+        "fcurves": 409,
+        "frameEnd": 24.0,
+        "frameStart": 0.0,
+        "mappedCurves": 409,
+        "movingCurves": 88,
+        "name": "StepLeft",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "StepRight",
+        "fcurves": 409,
+        "frameEnd": 23.0,
+        "frameStart": 0.0,
+        "mappedCurves": 409,
+        "movingCurves": 88,
+        "name": "StepRight",
+        "slot": "OBCross",
+        "static": false
+      },
+      {
+        "action": "SupermanPunch",
+        "fcurves": 362,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 0,
+        "name": "SupermanPunch__OBCross",
+        "slot": "OBCross",
+        "static": true
+      },
+      {
+        "action": "SupermanPunch",
+        "fcurves": 372,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 362,
+        "movingCurves": 63,
+        "name": "SupermanPunch__OBHitHeadLeft",
+        "slot": "OBHitHeadLeft",
+        "static": false
+      },
+      {
+        "action": "SupermanPunch",
+        "fcurves": 410,
+        "frameEnd": 21.0,
+        "frameStart": 1.0,
+        "mappedCurves": 410,
+        "movingCurves": 137,
+        "name": "SupermanPunch__OBIdle",
+        "slot": "OBIdle",
+        "static": false
+      }
+    ],
+    "excluded": [
+      {
+        "action": "Jab-Enemy",
+        "reason": "EXPECTED_ENEMY_ATTACK_SLOT_NOT_FOUND_REPORT_NOT_SILENT"
+      }
+    ],
+    "mutates": false,
+    "sourceActionDatablocks": 52,
+    "sourceRig": "Armature",
+    "sourceRigBoneCount": 42,
+    "sourceSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+    "stage": "DONE",
+    "status": "SOURCE_AND_MUDMAN_RIG_AUDITED",
+    "target": {
+      "armature": "SmartRigArmature",
+      "bones": 58,
+      "images": [
+        "Material_0_baseColor.png",
+        "Render Result",
+        "texture_0.png"
+      ],
+      "meshes": [
+        {
+          "materials": [
+            "Material_0"
+          ],
+          "name": "geometry_0",
+          "vertices": 4474
+        }
+      ]
+    },
+    "targetFBXSHA256": "4d4f3c503e33a4eb4ca6039b9dc1b7b83e5c1ce25b371625aee53ba2e1c89ff7",
+    "targetImporter": {
+      "animationImportedFromTarget": false,
+      "args": {
+        "filepath": "/mnt/arp-target/Meshy_AI_Mudstone_Golem_20261107_animated_mixamo_Running.fbx",
+        "use_anim": false
+      },
+      "newArmatures": [
+        "SmartRigArmature"
+      ],
+      "newMeshes": [
+        "geometry_0"
+      ],
+      "operator": "bpy.ops.wm.fbx_import",
+      "result": [
+        "FINISHED"
+      ]
+    },
+    "version": "5.0.1"
+  },
+  "results": {
+    "Armature.001|mixamo.com|Layer0": {
+      "exportBytes": 342348,
+      "mappedBones": 22,
+      "sha256": "f434c5aecc20b3376e611424b9b27f555e91fe60e805faced1fac21e1673f45c",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 68.018,
+          "LeftFoot": 23.363,
+          "LeftForeArm": 104.201,
+          "LeftLeg": 32.94,
+          "LeftUpLeg": 330.331,
+          "RightArm": 68.057,
+          "RightFoot": 19.183,
+          "RightForeArm": 53.435,
+          "RightLeg": 44.455,
+          "RightUpLeg": 56.496,
+          "Spine2": 16.767
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 410,
+        "sourceAction": "Armature.001|mixamo.com|Layer0"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 68.018,
+          "LeftFoot": 23.363,
+          "LeftForeArm": 104.201,
+          "LeftLeg": 32.94,
+          "LeftUpLeg": 315.224,
+          "RightArm": 68.057,
+          "RightFoot": 19.183,
+          "RightForeArm": 53.436,
+          "RightLeg": 44.455,
+          "RightUpLeg": 326.927,
+          "Spine2": 16.767
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.001": {
+      "exportBytes": 344872,
+      "mappedBones": 22,
+      "sha256": "b31f3490b4a7843cc1b2c7703b41223dcf2cc9d7c5a254149fae28d17995e659",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 48.041,
+          "LeftFoot": 33.006,
+          "LeftForeArm": 34.926,
+          "LeftLeg": 10.696,
+          "LeftUpLeg": 323.371,
+          "RightArm": 68.153,
+          "RightFoot": 39.29,
+          "RightForeArm": 40.439,
+          "RightLeg": 28.384,
+          "RightUpLeg": 50.624,
+          "Spine2": 23.428
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 410,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.001"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 48.041,
+          "LeftFoot": 33.006,
+          "LeftForeArm": 34.926,
+          "LeftLeg": 10.696,
+          "LeftUpLeg": 45.521,
+          "RightArm": 68.153,
+          "RightFoot": 39.29,
+          "RightForeArm": 40.439,
+          "RightLeg": 28.384,
+          "RightUpLeg": 320.855,
+          "Spine2": 23.428
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.002": {
+      "exportBytes": 355060,
+      "mappedBones": 22,
+      "sha256": "80d2aee00dc867e20cd74040ba8c3c43025dfec5d57a8dff2b697da3b16c2789",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.312,
+          "LeftFoot": 42.204,
+          "LeftForeArm": 62.161,
+          "LeftLeg": 71.887,
+          "LeftUpLeg": 85.166,
+          "RightArm": 104.895,
+          "RightFoot": 50.02,
+          "RightForeArm": 109.706,
+          "RightLeg": 70.572,
+          "RightUpLeg": 60.384,
+          "Spine2": 15.291
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 410,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.002"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.312,
+          "LeftFoot": 42.204,
+          "LeftForeArm": 62.161,
+          "LeftLeg": 71.887,
+          "LeftUpLeg": 289.197,
+          "RightArm": 104.895,
+          "RightFoot": 50.02,
+          "RightForeArm": 109.706,
+          "RightLeg": 70.572,
+          "RightUpLeg": 60.384,
+          "Spine2": 15.291
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.003": {
+      "exportBytes": 348044,
+      "mappedBones": 22,
+      "sha256": "7a8ad3d276317ad432223bf2fb6e12178af8b3a473af97c71a39e90431d0e92f",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 95.998,
+          "LeftFoot": 33.909,
+          "LeftForeArm": 40.151,
+          "LeftLeg": 35.276,
+          "LeftUpLeg": 316.888,
+          "RightArm": 139.986,
+          "RightFoot": 42.597,
+          "RightForeArm": 57.278,
+          "RightLeg": 46.3,
+          "RightUpLeg": 322.764,
+          "Spine2": 16.63
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 410,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.003"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 95.998,
+          "LeftFoot": 33.909,
+          "LeftForeArm": 40.151,
+          "LeftLeg": 35.275,
+          "LeftUpLeg": 52.285,
+          "RightArm": 139.986,
+          "RightFoot": 42.597,
+          "RightForeArm": 57.278,
+          "RightLeg": 46.3,
+          "RightUpLeg": 61.315,
+          "Spine2": 16.63
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.004": {
+      "exportBytes": 343628,
+      "mappedBones": 22,
+      "sha256": "30ba0a0ac84b15b06c73791dca5ac4ad6e537942c6af16adb287d39787ea2899",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 97.39,
+          "LeftFoot": 36.075,
+          "LeftForeArm": 83.181,
+          "LeftLeg": 19.11,
+          "LeftUpLeg": 28.796,
+          "RightArm": 85.46,
+          "RightFoot": 58.397,
+          "RightForeArm": 94.967,
+          "RightLeg": 72.929,
+          "RightUpLeg": 49.655,
+          "Spine2": 10.301
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.004"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 97.39,
+          "LeftFoot": 36.075,
+          "LeftForeArm": 83.181,
+          "LeftLeg": 19.11,
+          "LeftUpLeg": 28.796,
+          "RightArm": 85.46,
+          "RightFoot": 58.397,
+          "RightForeArm": 94.967,
+          "RightLeg": 72.929,
+          "RightUpLeg": 337.545,
+          "Spine2": 10.301
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.005": {
+      "exportBytes": 344732,
+      "mappedBones": 22,
+      "sha256": "6071f2cbb01a8165774db6484e5869e8582c5e8c3af2a49f289f3fff00d57737",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 34.101,
+          "LeftFoot": 12.566,
+          "LeftForeArm": 27.753,
+          "LeftLeg": 28.479,
+          "LeftUpLeg": 40.427,
+          "RightArm": 31.147,
+          "RightFoot": 24.534,
+          "RightForeArm": 25.139,
+          "RightLeg": 22.875,
+          "RightUpLeg": 18.986,
+          "Spine2": 13.824
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 410,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.005"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 34.101,
+          "LeftFoot": 12.566,
+          "LeftForeArm": 27.753,
+          "LeftLeg": 28.479,
+          "LeftUpLeg": 40.427,
+          "RightArm": 31.147,
+          "RightFoot": 24.534,
+          "RightForeArm": 25.139,
+          "RightLeg": 22.875,
+          "RightUpLeg": 18.986,
+          "Spine2": 13.824
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.006": {
+      "exportBytes": 336404,
+      "mappedBones": 22,
+      "sha256": "794e199bf419f9c84497ae76de8bdfe334e7884046d8814e7176ba9fe072c1aa",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 68.083,
+          "LeftFoot": 37.383,
+          "LeftForeArm": 22.529,
+          "LeftLeg": 25.364,
+          "LeftUpLeg": 17.045,
+          "RightArm": 19.615,
+          "RightFoot": 45.049,
+          "RightForeArm": 12.262,
+          "RightLeg": 30.639,
+          "RightUpLeg": 15.502,
+          "Spine2": 11.513
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.006"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 68.083,
+          "LeftFoot": 37.374,
+          "LeftForeArm": 22.529,
+          "LeftLeg": 25.359,
+          "LeftUpLeg": 17.045,
+          "RightArm": 19.615,
+          "RightFoot": 45.049,
+          "RightForeArm": 12.262,
+          "RightLeg": 30.639,
+          "RightUpLeg": 15.501,
+          "Spine2": 11.513
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.007": {
+      "exportBytes": 351120,
+      "mappedBones": 22,
+      "sha256": "d67054f027b5a63cf12c713a416c5cdde4e2472b47c6455c66e51ad721283d3e",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 34.666,
+          "LeftFoot": 33.547,
+          "LeftForeArm": 5.294,
+          "LeftLeg": 32.165,
+          "LeftUpLeg": 321.289,
+          "RightArm": 69.519,
+          "RightFoot": 29.151,
+          "RightForeArm": 67.857,
+          "RightLeg": 24.062,
+          "RightUpLeg": 23.769,
+          "Spine2": 4.538
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.007"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 34.666,
+          "LeftFoot": 33.547,
+          "LeftForeArm": 5.294,
+          "LeftLeg": 32.165,
+          "LeftUpLeg": 41.105,
+          "RightArm": 69.519,
+          "RightFoot": 29.151,
+          "RightForeArm": 67.857,
+          "RightLeg": 24.062,
+          "RightUpLeg": 338.562,
+          "Spine2": 4.538
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.008": {
+      "exportBytes": 351376,
+      "mappedBones": 22,
+      "sha256": "2cfb1edfa9daa372b471b071c782f1f5e32fc6a0726552ad479014b85edcb52a",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 46.723,
+          "LeftFoot": 18.312,
+          "LeftForeArm": 72.838,
+          "LeftLeg": 49.782,
+          "LeftUpLeg": 21.95,
+          "RightArm": 20.243,
+          "RightFoot": 32.106,
+          "RightForeArm": 12.638,
+          "RightLeg": 17.237,
+          "RightUpLeg": 15.257,
+          "Spine2": 8.219
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.008"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 46.723,
+          "LeftFoot": 18.312,
+          "LeftForeArm": 72.838,
+          "LeftLeg": 49.782,
+          "LeftUpLeg": 21.95,
+          "RightArm": 20.243,
+          "RightFoot": 32.106,
+          "RightForeArm": 12.638,
+          "RightLeg": 17.237,
+          "RightUpLeg": 344.743,
+          "Spine2": 8.219
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.009": {
+      "exportBytes": 349648,
+      "mappedBones": 22,
+      "sha256": "bc27e73ac19ad983e582a7e857ffd63f86f242a460e87cf685e8298482ee67c0",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.452,
+          "LeftFoot": 41.518,
+          "LeftForeArm": 90.444,
+          "LeftLeg": 26.5,
+          "LeftUpLeg": 52.781,
+          "RightArm": 94.393,
+          "RightFoot": 44.977,
+          "RightForeArm": 87.713,
+          "RightLeg": 63.19,
+          "RightUpLeg": 324.051,
+          "Spine2": 14.58
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.009"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.452,
+          "LeftFoot": 41.518,
+          "LeftForeArm": 90.444,
+          "LeftLeg": 26.5,
+          "LeftUpLeg": 52.781,
+          "RightArm": 94.393,
+          "RightFoot": 44.977,
+          "RightForeArm": 87.713,
+          "RightLeg": 63.19,
+          "RightUpLeg": 82.123,
+          "Spine2": 14.58
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Armature.001|mixamo.com|Layer0.010": {
+      "exportBytes": 344864,
+      "mappedBones": 22,
+      "sha256": "307695b2f542d976089407482674935be6de71f1373665aafe132cbfe5b4204d",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.341,
+          "LeftFoot": 43.308,
+          "LeftForeArm": 76.392,
+          "LeftLeg": 87.144,
+          "LeftUpLeg": 324.191,
+          "RightArm": 66.461,
+          "RightFoot": 33.409,
+          "RightForeArm": 37.406,
+          "RightLeg": 20.901,
+          "RightUpLeg": 75.256,
+          "Spine2": 8.159
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 340,
+        "identifier": "OBArmature.001|mixamo.com|Layer0",
+        "mappedCurveCount": 340,
+        "sourceAction": "Armature.001|mixamo.com|Layer0.010"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.341,
+          "LeftFoot": 43.308,
+          "LeftForeArm": 76.392,
+          "LeftLeg": 87.145,
+          "LeftUpLeg": 53.532,
+          "RightArm": 66.461,
+          "RightFoot": 33.409,
+          "RightForeArm": 37.406,
+          "RightLeg": 20.901,
+          "RightUpLeg": 75.256,
+          "Spine2": 8.159
+        },
+        "sampledFrames": 17
+      }
+    },
+    "AxeKick__OBCross": {
+      "exportBytes": 326684,
+      "mappedBones": 22,
+      "sha256": "35fffbcd3b7c5e0fb467e096e12ff2bdbdd7a39cb7d33d25f07b52649b6ca507",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "AxeKick"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "AxeKick__OBHitHeadLeft": {
+      "exportBytes": 333588,
+      "mappedBones": 22,
+      "sha256": "1a77efebe4204ada3d61bf570dec044a8c46689e32acbe513e3935410ba4fe47",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 10.194,
+          "LeftFoot": 33.015,
+          "LeftForeArm": 12.244,
+          "LeftLeg": 41.769,
+          "LeftUpLeg": 320.678,
+          "RightArm": 19.435,
+          "RightFoot": 28.072,
+          "RightForeArm": 46.045,
+          "RightLeg": 25.503,
+          "RightUpLeg": 57.045,
+          "Spine2": 16.721
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "AxeKick"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 10.194,
+          "LeftFoot": 33.015,
+          "LeftForeArm": 12.244,
+          "LeftLeg": 41.769,
+          "LeftUpLeg": 70.645,
+          "RightArm": 19.435,
+          "RightFoot": 28.072,
+          "RightForeArm": 46.045,
+          "RightLeg": 25.504,
+          "RightUpLeg": 321.363,
+          "Spine2": 16.721
+        },
+        "sampledFrames": 17
+      }
+    },
+    "AxeKick__OBIdle": {
+      "exportBytes": 326976,
+      "mappedBones": 22,
+      "sha256": "c7d30a812da23cc031e91c866b85d09963e03a78c61cd1c5f6fbfa37495ee11f",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "AxeKick"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "AxleKick": {
+      "exportBytes": 334060,
+      "mappedBones": 22,
+      "sha256": "003bc1ab962c9c1f86b6da82d95c775e5a5b89538f9e6b9a4f9f6a9e58548a38",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 50.954,
+          "LeftFoot": 34.747,
+          "LeftForeArm": 38.827,
+          "LeftLeg": 50.807,
+          "LeftUpLeg": 42.962,
+          "RightArm": 66.8,
+          "RightFoot": 54.967,
+          "RightForeArm": 64.182,
+          "RightLeg": 31.914,
+          "RightUpLeg": 326.258,
+          "Spine2": 7.56
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "AxleKick"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 50.954,
+          "LeftFoot": 34.743,
+          "LeftForeArm": 38.827,
+          "LeftLeg": 50.797,
+          "LeftUpLeg": 42.956,
+          "RightArm": 66.792,
+          "RightFoot": 54.853,
+          "RightForeArm": 64.18,
+          "RightLeg": 31.576,
+          "RightUpLeg": 322.716,
+          "Spine2": 7.56
+        },
+        "sampledFrames": 17
+      }
+    },
+    "BackImpact__OBCross": {
+      "exportBytes": 326704,
+      "mappedBones": 22,
+      "sha256": "bacb644e5027fe439d1d8ad3943c5f8c401974ca21912da3d6c587b869845962",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "BackImpact"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "BackImpact__OBHitHeadLeft": {
+      "exportBytes": 333168,
+      "mappedBones": 22,
+      "sha256": "a4412d0a7fc08e6682847387e2dbbcee363a4821874652567bbf3eef33ee1176",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 58.562,
+          "LeftFoot": 45.638,
+          "LeftForeArm": 11.604,
+          "LeftLeg": 30.718,
+          "LeftUpLeg": 46.895,
+          "RightArm": 74.114,
+          "RightFoot": 33.779,
+          "RightForeArm": 35.614,
+          "RightLeg": 29.479,
+          "RightUpLeg": 322.763,
+          "Spine2": 4.773
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "BackImpact"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 58.562,
+          "LeftFoot": 45.638,
+          "LeftForeArm": 11.604,
+          "LeftLeg": 30.142,
+          "LeftUpLeg": 46.895,
+          "RightArm": 73.979,
+          "RightFoot": 33.779,
+          "RightForeArm": 35.488,
+          "RightLeg": 28.923,
+          "RightUpLeg": 47.337,
+          "Spine2": 4.773
+        },
+        "sampledFrames": 17
+      }
+    },
+    "BackImpact__OBIdle": {
+      "exportBytes": 326952,
+      "mappedBones": 22,
+      "sha256": "52d43e9e0311fea61ec731059db5c175c5c06cc4c80f984c0ff3aa824a21d05e",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "BackImpact"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Backfist": {
+      "exportBytes": 335600,
+      "mappedBones": 22,
+      "sha256": "d6a644704eb44e4dd9717d720b2691b6f0081f4320ae204cc9e381dfb885aa84",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 76.629,
+          "LeftFoot": 32.949,
+          "LeftForeArm": 62.31,
+          "LeftLeg": 50.657,
+          "LeftUpLeg": 84.146,
+          "RightArm": 99.943,
+          "RightFoot": 34.352,
+          "RightForeArm": 54.851,
+          "RightLeg": 71.836,
+          "RightUpLeg": 59.523,
+          "Spine2": 28.427
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 414,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 404,
+        "sourceAction": "Backfist"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 76.622,
+          "LeftFoot": 32.948,
+          "LeftForeArm": 62.31,
+          "LeftLeg": 50.65,
+          "LeftUpLeg": 84.143,
+          "RightArm": 99.41,
+          "RightFoot": 34.347,
+          "RightForeArm": 54.85,
+          "RightLeg": 71.836,
+          "RightUpLeg": 59.517,
+          "Spine2": 28.427
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Block": {
+      "exportBytes": 336268,
+      "mappedBones": 22,
+      "sha256": "af49c72b1e3a0cb776c5aa4622e6b7903fc7903d59aa7dfc25f05437b2b369fa",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 16.665,
+          "LeftFoot": 16.801,
+          "LeftForeArm": 14.416,
+          "LeftLeg": 22.939,
+          "LeftUpLeg": 9.074,
+          "RightArm": 25.634,
+          "RightFoot": 12.24,
+          "RightForeArm": 20.671,
+          "RightLeg": 35.15,
+          "RightUpLeg": 18.526,
+          "Spine2": 2.743
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "Block"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 16.664,
+          "LeftFoot": 16.801,
+          "LeftForeArm": 14.416,
+          "LeftLeg": 22.939,
+          "LeftUpLeg": 9.074,
+          "RightArm": 25.634,
+          "RightFoot": 12.24,
+          "RightForeArm": 20.671,
+          "RightLeg": 35.15,
+          "RightUpLeg": 341.826,
+          "Spine2": 2.743
+        },
+        "sampledFrames": 17
+      }
+    },
+    "CoriPunchMove": {
+      "exportBytes": 328688,
+      "mappedBones": 22,
+      "sha256": "993ecd0ac9d2dd1f80a398ed0744c369acbfdba4f081f6a9607f2efb8ab3441d",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 57.592,
+          "RightFoot": 0.0,
+          "RightForeArm": 109.448,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 371,
+        "identifier": "OBCross",
+        "mappedCurveCount": 361,
+        "sourceAction": "CoriPunchMove"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 57.592,
+          "RightFoot": 0.0,
+          "RightForeArm": 108.952,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Cross-Enemy": {
+      "exportBytes": 336696,
+      "mappedBones": 22,
+      "sha256": "ad0459d52877b1230e0e21c501f63d54e6afaa0ca2a197e3779af40c2bf62fe8",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 82.683,
+          "LeftFoot": 30.614,
+          "LeftForeArm": 21.648,
+          "LeftLeg": 23.53,
+          "LeftUpLeg": 23.564,
+          "RightArm": 65.143,
+          "RightFoot": 20.532,
+          "RightForeArm": 92.74,
+          "RightLeg": 29.808,
+          "RightUpLeg": 29.757,
+          "Spine2": 5.595
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBCross-Enemy",
+        "mappedCurveCount": 410,
+        "sourceAction": "Cross"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 82.662,
+          "LeftFoot": 30.615,
+          "LeftForeArm": 21.648,
+          "LeftLeg": 23.53,
+          "LeftUpLeg": 23.564,
+          "RightArm": 65.429,
+          "RightFoot": 20.532,
+          "RightForeArm": 97.833,
+          "RightLeg": 29.807,
+          "RightUpLeg": 335.476,
+          "Spine2": 5.595
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Cross-Player": {
+      "exportBytes": 336700,
+      "mappedBones": 22,
+      "sha256": "e5487366af2945e59798d09bb4bab4c25243a1eb8490910d5380e73ded759b64",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 82.683,
+          "LeftFoot": 30.614,
+          "LeftForeArm": 21.648,
+          "LeftLeg": 23.53,
+          "LeftUpLeg": 23.564,
+          "RightArm": 65.143,
+          "RightFoot": 20.532,
+          "RightForeArm": 92.74,
+          "RightLeg": 29.808,
+          "RightUpLeg": 29.757,
+          "Spine2": 5.595
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBCross-Player",
+        "mappedCurveCount": 410,
+        "sourceAction": "Cross"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 82.662,
+          "LeftFoot": 30.615,
+          "LeftForeArm": 21.648,
+          "LeftLeg": 23.53,
+          "LeftUpLeg": 23.564,
+          "RightArm": 65.429,
+          "RightFoot": 20.532,
+          "RightForeArm": 97.833,
+          "RightLeg": 29.807,
+          "RightUpLeg": 335.476,
+          "Spine2": 5.595
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Cross__OBIdle": {
+      "exportBytes": 326404,
+      "mappedBones": 22,
+      "sha256": "e14df13866c3662f399a381431829bcf2887720eec036e07fbaa5c0b3b64e3e2",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 362,
+        "sourceAction": "Cross"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "CurbStomp__OBCross": {
+      "exportBytes": 327128,
+      "mappedBones": 22,
+      "sha256": "f33104d218ea9e05480c86904f561844e0110633622c20b2169b251516c89326",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "CurbStomp"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "CurbStomp__OBHitHeadLeft": {
+      "exportBytes": 333156,
+      "mappedBones": 22,
+      "sha256": "9882008bb034c701229af576c5e431c9b80c4b148efbb0ae46f940592d51ae82",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 95.56,
+          "LeftFoot": 8.422,
+          "LeftForeArm": 38.024,
+          "LeftLeg": 84.553,
+          "LeftUpLeg": 86.901,
+          "RightArm": 92.495,
+          "RightFoot": 23.335,
+          "RightForeArm": 72.398,
+          "RightLeg": 0.0,
+          "RightUpLeg": 331.766,
+          "Spine2": 31.232
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "CurbStomp"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 95.259,
+          "LeftFoot": 13.078,
+          "LeftForeArm": 37.89,
+          "LeftLeg": 92.089,
+          "LeftUpLeg": 87.204,
+          "RightArm": 92.198,
+          "RightFoot": 23.399,
+          "RightForeArm": 72.155,
+          "RightLeg": 4.105,
+          "RightUpLeg": 30.025,
+          "Spine2": 31.232
+        },
+        "sampledFrames": 17
+      }
+    },
+    "CurbStomp__OBIdle": {
+      "exportBytes": 334380,
+      "mappedBones": 22,
+      "sha256": "c66a96a8f47f3dce8f16aeeacb1b862df76c498c537b59fe663aa7ffc06a790c",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.834
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "CurbStomp"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.834
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Death": {
+      "exportBytes": 338216,
+      "mappedBones": 22,
+      "sha256": "5f9e88ed6122c025909f37bc52b72a0a38deaa00a62180e661c90a155e3b1308",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 74.454,
+          "LeftFoot": 41.774,
+          "LeftForeArm": 45.306,
+          "LeftLeg": 79.165,
+          "LeftUpLeg": 105.765,
+          "RightArm": 65.324,
+          "RightFoot": 54.308,
+          "RightForeArm": 69.701,
+          "RightLeg": 48.119,
+          "RightUpLeg": 92.509,
+          "Spine2": 14.469
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 220,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 220,
+        "sourceAction": "Death"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 74.446,
+          "LeftFoot": 41.774,
+          "LeftForeArm": 45.306,
+          "LeftLeg": 79.165,
+          "LeftUpLeg": 281.99,
+          "RightArm": 65.321,
+          "RightFoot": 54.309,
+          "RightForeArm": 69.701,
+          "RightLeg": 48.119,
+          "RightUpLeg": 92.509,
+          "Spine2": 14.469
+        },
+        "sampledFrames": 17
+      }
+    },
+    "FrontKick": {
+      "exportBytes": 336364,
+      "mappedBones": 22,
+      "sha256": "24c941e4b8a3ab8fdb78d32152186ec7de37e4ccef78e8c39ff77d345bc11771",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 87.349,
+          "LeftFoot": 35.024,
+          "LeftForeArm": 61.531,
+          "LeftLeg": 63.449,
+          "LeftUpLeg": 332.087,
+          "RightArm": 69.572,
+          "RightFoot": 29.483,
+          "RightForeArm": 22.44,
+          "RightLeg": 16.179,
+          "RightUpLeg": 77.225,
+          "Spine2": 8.146
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "FrontKick"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 87.352,
+          "LeftFoot": 34.789,
+          "LeftForeArm": 61.531,
+          "LeftLeg": 63.444,
+          "LeftUpLeg": 50.484,
+          "RightArm": 69.572,
+          "RightFoot": 29.482,
+          "RightForeArm": 22.44,
+          "RightLeg": 16.179,
+          "RightUpLeg": 77.225,
+          "Spine2": 8.146
+        },
+        "sampledFrames": 17
+      }
+    },
+    "GravityFist__OBCross": {
+      "exportBytes": 326996,
+      "mappedBones": 22,
+      "sha256": "9465759813ee8caed91f9736c353ce23ff4f8b0c418d082d1b456ef71de4b656",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "GravityFist"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "GravityFist__OBHitHeadLeft": {
+      "exportBytes": 334996,
+      "mappedBones": 22,
+      "sha256": "fbc22d622c4f13af2250768db7b47a79ad1a087c1c4e8d78e8144abb7f054f52",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 38.322,
+          "LeftFoot": 41.575,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 76.525,
+          "LeftUpLeg": 51.147,
+          "RightArm": 99.803,
+          "RightFoot": 60.857,
+          "RightForeArm": 94.789,
+          "RightLeg": 81.657,
+          "RightUpLeg": 62.868,
+          "Spine2": 42.069
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "GravityFist"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 38.17,
+          "LeftFoot": 41.575,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 76.525,
+          "LeftUpLeg": 51.147,
+          "RightArm": 99.872,
+          "RightFoot": 60.857,
+          "RightForeArm": 98.317,
+          "RightLeg": 81.635,
+          "RightUpLeg": 62.845,
+          "Spine2": 42.025
+        },
+        "sampledFrames": 17
+      }
+    },
+    "GravityFist__OBIdle": {
+      "exportBytes": 337828,
+      "mappedBones": 22,
+      "sha256": "4ef91e999147c4a384fafb85e81c1d75e8e6e7ae0b7f10f8107c27515d5bee68",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.834
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "GravityFist"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.833
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Headbutt": {
+      "exportBytes": 335120,
+      "mappedBones": 22,
+      "sha256": "fe15e81d97c24f90c6a808539190e6176bd3ab569a64561280937898426763e5",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 90.31,
+          "LeftFoot": 23.888,
+          "LeftForeArm": 57.563,
+          "LeftLeg": 41.009,
+          "LeftUpLeg": 27.423,
+          "RightArm": 65.707,
+          "RightFoot": 19.235,
+          "RightForeArm": 76.337,
+          "RightLeg": 19.12,
+          "RightUpLeg": 28.811,
+          "Spine2": 14.92
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 414,
+        "identifier": "OBCross",
+        "mappedCurveCount": 404,
+        "sourceAction": "Headbutt"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 90.31,
+          "LeftFoot": 23.888,
+          "LeftForeArm": 57.563,
+          "LeftLeg": 41.009,
+          "LeftUpLeg": 27.423,
+          "RightArm": 65.706,
+          "RightFoot": 19.235,
+          "RightForeArm": 76.337,
+          "RightLeg": 19.12,
+          "RightUpLeg": 28.811,
+          "Spine2": 14.92
+        },
+        "sampledFrames": 17
+      }
+    },
+    "HitHeadLeft": {
+      "exportBytes": 337688,
+      "mappedBones": 22,
+      "sha256": "edea0506fb49761d3ffcf73a96f9ab0aca4c7db4f925004dde8a7214bf493ec7",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 86.683,
+          "LeftFoot": 17.065,
+          "LeftForeArm": 71.331,
+          "LeftLeg": 20.606,
+          "LeftUpLeg": 345.21,
+          "RightArm": 49.41,
+          "RightFoot": 25.853,
+          "RightForeArm": 57.761,
+          "RightLeg": 36.112,
+          "RightUpLeg": 73.264,
+          "Spine2": 15.919
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 403,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 401,
+        "sourceAction": "HitHeadLeft"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 86.684,
+          "LeftFoot": 17.065,
+          "LeftForeArm": 71.331,
+          "LeftLeg": 20.606,
+          "LeftUpLeg": 338.928,
+          "RightArm": 49.399,
+          "RightFoot": 25.853,
+          "RightForeArm": 57.761,
+          "RightLeg": 36.112,
+          "RightUpLeg": 321.795,
+          "Spine2": 15.919
+        },
+        "sampledFrames": 17
+      }
+    },
+    "HitHeadLeftPlayer": {
+      "exportBytes": 337692,
+      "mappedBones": 22,
+      "sha256": "a00fe707ea88e7ca27c7be167b7ed6942659eb2140b5b1b22bb7490f04b8619a",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 86.683,
+          "LeftFoot": 17.065,
+          "LeftForeArm": 71.331,
+          "LeftLeg": 20.606,
+          "LeftUpLeg": 345.21,
+          "RightArm": 49.41,
+          "RightFoot": 25.853,
+          "RightForeArm": 57.761,
+          "RightLeg": 36.112,
+          "RightUpLeg": 73.264,
+          "Spine2": 15.919
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 403,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 401,
+        "sourceAction": "HitHeadLeftPlayer"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 86.684,
+          "LeftFoot": 17.065,
+          "LeftForeArm": 71.331,
+          "LeftLeg": 20.606,
+          "LeftUpLeg": 338.928,
+          "RightArm": 49.399,
+          "RightFoot": 25.853,
+          "RightForeArm": 57.761,
+          "RightLeg": 36.112,
+          "RightUpLeg": 321.795,
+          "Spine2": 15.919
+        },
+        "sampledFrames": 17
+      }
+    },
+    "HitHeadRightBig": {
+      "exportBytes": 338936,
+      "mappedBones": 22,
+      "sha256": "93d1edd113551c8ae7a163fdeace55724238569b33de5a70871a5633c941e524",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 52.365,
+          "LeftFoot": 24.542,
+          "LeftForeArm": 42.27,
+          "LeftLeg": 17.64,
+          "LeftUpLeg": 348.343,
+          "RightArm": 53.439,
+          "RightFoot": 33.413,
+          "RightForeArm": 53.764,
+          "RightLeg": 37.087,
+          "RightUpLeg": 74.4,
+          "Spine2": 19.055
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 414,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 404,
+        "sourceAction": "HitHeadRightBig"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 52.365,
+          "LeftFoot": 24.542,
+          "LeftForeArm": 42.27,
+          "LeftLeg": 17.64,
+          "LeftUpLeg": 41.284,
+          "RightArm": 53.439,
+          "RightFoot": 33.413,
+          "RightForeArm": 53.764,
+          "RightLeg": 37.087,
+          "RightUpLeg": 342.301,
+          "Spine2": 19.055
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Hook": {
+      "exportBytes": 334492,
+      "mappedBones": 22,
+      "sha256": "647cce132b6d24e510f6dc47d7e036e53ffa4b7a1722d405992f421d9eaabbc1",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 81.25,
+          "LeftFoot": 17.117,
+          "LeftForeArm": 18.671,
+          "LeftLeg": 42.473,
+          "LeftUpLeg": 27.126,
+          "RightArm": 37.809,
+          "RightFoot": 32.747,
+          "RightForeArm": 8.007,
+          "RightLeg": 22.246,
+          "RightUpLeg": 23.186,
+          "Spine2": 11.355
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "Hook"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 80.624,
+          "LeftFoot": 17.117,
+          "LeftForeArm": 15.23,
+          "LeftLeg": 42.475,
+          "LeftUpLeg": 27.126,
+          "RightArm": 37.811,
+          "RightFoot": 32.748,
+          "RightForeArm": 8.007,
+          "RightLeg": 22.233,
+          "RightUpLeg": 23.187,
+          "Spine2": 11.355
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Idle__OBCross": {
+      "exportBytes": 382616,
+      "mappedBones": 22,
+      "sha256": "c077cc63777c1e845077ad79f56661e06b9372dbc0b0d1ede2aa82b63cf10c9d",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "RightArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 18.691,
+          "LeftFoot": 9.31,
+          "LeftForeArm": 4.841,
+          "LeftLeg": 10.665,
+          "LeftUpLeg": 8.836,
+          "RightArm": 15.207,
+          "RightFoot": 9.314,
+          "RightForeArm": 3.754,
+          "RightLeg": 13.325,
+          "RightUpLeg": 7.726,
+          "Spine2": 1.526
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBCross",
+        "mappedCurveCount": 410,
+        "sourceAction": "Idle"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "RightArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 18.691,
+          "LeftFoot": 9.31,
+          "LeftForeArm": 4.841,
+          "LeftLeg": 10.665,
+          "LeftUpLeg": 8.836,
+          "RightArm": 15.207,
+          "RightFoot": 9.314,
+          "RightForeArm": 3.754,
+          "RightLeg": 13.325,
+          "RightUpLeg": 7.726,
+          "Spine2": 1.526
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Idle__OBIdle": {
+      "exportBytes": 329684,
+      "mappedBones": 22,
+      "sha256": "a0649fb9d7fbce0e5b1cb867314d2e0cfa3d1bc419c1c2b0f87b9b3da714122a",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 14,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 10,
+        "sourceAction": "Idle"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab-Enemy__OBCross": {
+      "exportBytes": 339316,
+      "mappedBones": 22,
+      "sha256": "9a6d100b1b0ad8c11c4681a00d372fea9f41c5300b6b8c8ac29f3a9eed309be2",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.649,
+          "LeftFoot": 31.338,
+          "LeftForeArm": 28.069,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.112,
+          "RightArm": 30.609,
+          "RightFoot": 32.215,
+          "RightForeArm": 11.73,
+          "RightLeg": 18.122,
+          "RightUpLeg": 32.215,
+          "Spine2": 10.646
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "Jab-Enemy"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.649,
+          "LeftFoot": 31.338,
+          "LeftForeArm": 32.752,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.112,
+          "RightArm": 30.608,
+          "RightFoot": 32.215,
+          "RightForeArm": 11.73,
+          "RightLeg": 18.121,
+          "RightUpLeg": 32.215,
+          "Spine2": 10.646
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab-Enemy__OBHitHeadLeft": {
+      "exportBytes": 339324,
+      "mappedBones": 22,
+      "sha256": "c6b9c7af6feb6890a49979c735c062a1aa2e0390dcef278ed371a4a473d8e4f5",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.649,
+          "LeftFoot": 31.338,
+          "LeftForeArm": 28.069,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.112,
+          "RightArm": 30.609,
+          "RightFoot": 32.215,
+          "RightForeArm": 11.73,
+          "RightLeg": 18.122,
+          "RightUpLeg": 32.215,
+          "Spine2": 51.188
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "Jab-Enemy"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.649,
+          "LeftFoot": 31.338,
+          "LeftForeArm": 32.752,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.112,
+          "RightArm": 30.608,
+          "RightFoot": 32.215,
+          "RightForeArm": 11.73,
+          "RightLeg": 18.121,
+          "RightUpLeg": 32.215,
+          "Spine2": 51.129
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab-Enemy__OBIdle": {
+      "exportBytes": 339316,
+      "mappedBones": 22,
+      "sha256": "b22620e73973178a95ce5fcc1749d4a64c9a35957745f15318e318939ae388f3",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 58.259,
+          "LeftFoot": 31.323,
+          "LeftForeArm": 37.677,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.519,
+          "RightArm": 29.158,
+          "RightFoot": 32.528,
+          "RightForeArm": 11.311,
+          "RightLeg": 16.409,
+          "RightUpLeg": 32.301,
+          "Spine2": 12.5
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "Jab-Enemy"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 58.26,
+          "LeftFoot": 31.323,
+          "LeftForeArm": 37.674,
+          "LeftLeg": 28.304,
+          "LeftUpLeg": 30.519,
+          "RightArm": 29.158,
+          "RightFoot": 32.528,
+          "RightForeArm": 11.311,
+          "RightLeg": 16.409,
+          "RightUpLeg": 32.301,
+          "Spine2": 12.5
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab__OBCross": {
+      "exportBytes": 335124,
+      "mappedBones": 22,
+      "sha256": "52f0684d7078e9be4221cbcb74f49142a022e38bb60d39acce5834b21a3443c8",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.966,
+          "LeftFoot": 31.772,
+          "LeftForeArm": 41.248,
+          "LeftLeg": 28.917,
+          "LeftUpLeg": 30.673,
+          "RightArm": 32.427,
+          "RightFoot": 32.646,
+          "RightForeArm": 12.097,
+          "RightLeg": 14.965,
+          "RightUpLeg": 32.336,
+          "Spine2": 10.705
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "Jab"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.966,
+          "LeftFoot": 31.772,
+          "LeftForeArm": 50.207,
+          "LeftLeg": 28.917,
+          "LeftUpLeg": 30.673,
+          "RightArm": 32.426,
+          "RightFoot": 32.646,
+          "RightForeArm": 12.097,
+          "RightLeg": 14.965,
+          "RightUpLeg": 32.336,
+          "Spine2": 10.705
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab__OBHitHeadLeft": {
+      "exportBytes": 335132,
+      "mappedBones": 22,
+      "sha256": "907850b2e5cf1fd4f6ad4b087be8bbcddb4bb58da3b1a609a0eafeee598d31e7",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.966,
+          "LeftFoot": 31.772,
+          "LeftForeArm": 41.248,
+          "LeftLeg": 28.917,
+          "LeftUpLeg": 30.673,
+          "RightArm": 32.427,
+          "RightFoot": 32.646,
+          "RightForeArm": 12.097,
+          "RightLeg": 14.965,
+          "RightUpLeg": 32.336,
+          "Spine2": 10.705
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "Jab"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.966,
+          "LeftFoot": 31.772,
+          "LeftForeArm": 50.207,
+          "LeftLeg": 28.917,
+          "LeftUpLeg": 30.673,
+          "RightArm": 32.426,
+          "RightFoot": 32.646,
+          "RightForeArm": 12.097,
+          "RightLeg": 14.965,
+          "RightUpLeg": 32.336,
+          "Spine2": 10.705
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Jab__OBIdle": {
+      "exportBytes": 335144,
+      "mappedBones": 22,
+      "sha256": "eccfc3cf51d1dc0bdff0cedeef86331672a8feb980a42c083bf79b83aa122d5f",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 42.598,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 56.674,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 18.226,
+          "RightArm": 26.849,
+          "RightFoot": 43.686,
+          "RightForeArm": 10.359,
+          "RightLeg": 25.909,
+          "RightUpLeg": 29.225,
+          "Spine2": 10.734
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "Jab"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 42.591,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 56.663,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 18.226,
+          "RightArm": 26.848,
+          "RightFoot": 43.686,
+          "RightForeArm": 10.359,
+          "RightLeg": 25.909,
+          "RightUpLeg": 29.225,
+          "Spine2": 10.734
+        },
+        "sampledFrames": 17
+      }
+    },
+    "KnockedBack": {
+      "exportBytes": 331600,
+      "mappedBones": 22,
+      "sha256": "068051a9c484c4fe34c538b4c00e3b6acc0d225b80f064fea8ddcbd8c06e4c14",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.713,
+          "LeftFoot": 29.709,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 60.001,
+          "LeftUpLeg": 32.023,
+          "RightArm": 87.772,
+          "RightFoot": 12.097,
+          "RightForeArm": 109.152,
+          "RightLeg": 59.061,
+          "RightUpLeg": 337.283,
+          "Spine2": 7.501
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 384,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 374,
+        "sourceAction": "KnockedBack"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.713,
+          "LeftFoot": 29.709,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 60.001,
+          "LeftUpLeg": 30.73,
+          "RightArm": 87.741,
+          "RightFoot": 12.097,
+          "RightForeArm": 109.152,
+          "RightLeg": 59.061,
+          "RightUpLeg": 51.055,
+          "Spine2": 7.425
+        },
+        "sampledFrames": 17
+      }
+    },
+    "KnockedBackward": {
+      "exportBytes": 331604,
+      "mappedBones": 22,
+      "sha256": "0f39a7b7f902c76ff0946559b1812b87f625f39858754e579286e0137803fa38",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.713,
+          "LeftFoot": 29.709,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 60.001,
+          "LeftUpLeg": 32.023,
+          "RightArm": 87.772,
+          "RightFoot": 12.097,
+          "RightForeArm": 109.152,
+          "RightLeg": 59.061,
+          "RightUpLeg": 337.283,
+          "Spine2": 7.501
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 384,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 374,
+        "sourceAction": "KnockedBackward"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 61.713,
+          "LeftFoot": 29.709,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 60.001,
+          "LeftUpLeg": 30.73,
+          "RightArm": 87.741,
+          "RightFoot": 12.097,
+          "RightForeArm": 109.152,
+          "RightLeg": 59.061,
+          "RightUpLeg": 51.055,
+          "Spine2": 7.425
+        },
+        "sampledFrames": 17
+      }
+    },
+    "LeftUppercut": {
+      "exportBytes": 334356,
+      "mappedBones": 22,
+      "sha256": "73d063ef6448a7284b7da2784f73512c079d0cfcba800a20a15e8803f2e3d963",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 104.742,
+          "LeftFoot": 28.711,
+          "LeftForeArm": 49.379,
+          "LeftLeg": 36.395,
+          "LeftUpLeg": 26.252,
+          "RightArm": 77.187,
+          "RightFoot": 18.655,
+          "RightForeArm": 25.835,
+          "RightLeg": 39.217,
+          "RightUpLeg": 18.151,
+          "Spine2": 6.357
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "LeftUppercut"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 103.773,
+          "LeftFoot": 28.711,
+          "LeftForeArm": 49.347,
+          "LeftLeg": 36.394,
+          "LeftUpLeg": 26.252,
+          "RightArm": 77.187,
+          "RightFoot": 18.655,
+          "RightForeArm": 25.835,
+          "RightLeg": 39.172,
+          "RightUpLeg": 18.151,
+          "Spine2": 6.357
+        },
+        "sampledFrames": 17
+      }
+    },
+    "LowBackKick__OBCross": {
+      "exportBytes": 327108,
+      "mappedBones": 22,
+      "sha256": "25a65bb847576c936c7f21a515e9238cf2dc419d92c0351f994b12f51c7b1ec9",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "LowBackKick"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "LowBackKick__OBHitHeadLeft": {
+      "exportBytes": 337676,
+      "mappedBones": 22,
+      "sha256": "14117ceb838818dc4a9cfedaf8186b5320a2b1fb4494756f8c658a471ce0fc12",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 79.304,
+          "LeftFoot": 32.823,
+          "LeftForeArm": 72.017,
+          "LeftLeg": 18.342,
+          "LeftUpLeg": 30.678,
+          "RightArm": 87.052,
+          "RightFoot": 59.712,
+          "RightForeArm": 58.702,
+          "RightLeg": 47.371,
+          "RightUpLeg": 323.856,
+          "Spine2": 9.67
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 414,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 404,
+        "sourceAction": "LowBackKick"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 79.304,
+          "LeftFoot": 32.822,
+          "LeftForeArm": 72.017,
+          "LeftLeg": 18.342,
+          "LeftUpLeg": 30.678,
+          "RightArm": 87.053,
+          "RightFoot": 59.712,
+          "RightForeArm": 58.702,
+          "RightLeg": 47.371,
+          "RightUpLeg": 337.127,
+          "Spine2": 9.67
+        },
+        "sampledFrames": 17
+      }
+    },
+    "LowBackKick__OBIdle": {
+      "exportBytes": 327108,
+      "mappedBones": 22,
+      "sha256": "c3ba654af65b57c76cd23f9d72ceb8c92b9e61875ae011787ba7b9a9a5e1dd52",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 362,
+        "sourceAction": "LowBackKick"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneBack": {
+      "exportBytes": 326972,
+      "mappedBones": 22,
+      "sha256": "a41ac6c3c8b0afb7763ba160c2f231a27fa270ece74090695275325d8bf5b69a",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneBack"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneBackDamage": {
+      "exportBytes": 330440,
+      "mappedBones": 22,
+      "sha256": "27331990010458dff9bdefe1c77bcad1f3345a0be4bf66319e9ecab9e51a7585",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "RightUpLeg",
+          "RightLeg",
+          "LeftArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 65.79,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 23.007,
+          "LeftUpLeg": 28.659,
+          "RightArm": 62.901,
+          "RightFoot": 0.0,
+          "RightForeArm": 41.306,
+          "RightLeg": 23.006,
+          "RightUpLeg": 28.659,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneBackDamage"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "RightUpLeg",
+          "RightLeg",
+          "LeftArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 65.51,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 22.664,
+          "LeftUpLeg": 28.604,
+          "RightArm": 62.632,
+          "RightFoot": 0.0,
+          "RightForeArm": 41.125,
+          "RightLeg": 22.663,
+          "RightUpLeg": 28.604,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneBackStandUp": {
+      "exportBytes": 332380,
+      "mappedBones": 22,
+      "sha256": "c7bc6e3f84c6a9dcbe9445b678ff42d2ca31905ffe8e5adcd0f05579bd88a31d",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 150.949,
+          "LeftFoot": 33.418,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 66.156,
+          "LeftUpLeg": 82.234,
+          "RightArm": 144.298,
+          "RightFoot": 44.959,
+          "RightForeArm": 109.152,
+          "RightLeg": 66.123,
+          "RightUpLeg": 82.167,
+          "Spine2": 4.494
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneBackStandUp"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 150.9,
+          "LeftFoot": 33.417,
+          "LeftForeArm": 72.11,
+          "LeftLeg": 65.151,
+          "LeftUpLeg": 81.332,
+          "RightArm": 144.247,
+          "RightFoot": 44.959,
+          "RightForeArm": 109.152,
+          "RightLeg": 65.067,
+          "RightUpLeg": 81.095,
+          "Spine2": 4.494
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFrontDamage__OBCross": {
+      "exportBytes": 326708,
+      "mappedBones": 22,
+      "sha256": "fe6642d5791f030100c7c5b0e8dba2aec55f235e87b4e1896e4f3965554c35cc",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "ProneFrontDamage"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFrontDamage__OBHitHeadLeft": {
+      "exportBytes": 329656,
+      "mappedBones": 22,
+      "sha256": "c6619ccc807fa68624968961913a633759a756bd032de2830ee396c23108ee5c",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 4.541,
+          "LeftFoot": 19.137,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 6.575,
+          "LeftUpLeg": 7.21,
+          "RightArm": 7.205,
+          "RightFoot": 24.823,
+          "RightForeArm": 13.358,
+          "RightLeg": 8.707,
+          "RightUpLeg": 10.137,
+          "Spine2": 8.261
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneFrontDamage"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 4.494,
+          "LeftFoot": 19.055,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 6.507,
+          "LeftUpLeg": 7.135,
+          "RightArm": 7.131,
+          "RightFoot": 24.786,
+          "RightForeArm": 13.22,
+          "RightLeg": 8.617,
+          "RightUpLeg": 10.032,
+          "Spine2": 8.175
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFrontDamage__OBIdle": {
+      "exportBytes": 327144,
+      "mappedBones": 22,
+      "sha256": "6a8f6ffc7fb78030d649be2c56c668ca87681bd98b8d7aaef7cae0c1b12b4661",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneFrontDamage"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFront__OBCross": {
+      "exportBytes": 326700,
+      "mappedBones": 22,
+      "sha256": "c6af95892c89ca81aad07ff0f07c20776deac7cb541d64a9165d6e8953cdce90",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "ProneFront"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFront__OBHitHeadLeft": {
+      "exportBytes": 327008,
+      "mappedBones": 22,
+      "sha256": "3eb4dfa28d377e2ad503e7cd90bfc58f79a9dc1772567420bb7950995d18a5a0",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneFront"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "ProneFront__OBIdle": {
+      "exportBytes": 327136,
+      "mappedBones": 22,
+      "sha256": "074d5cdf35ae8dce7a3fc0ec839303faee082b9fdddce0c88208bc9e36a3d9ba",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "ProneFront"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "RightUppercut": {
+      "exportBytes": 333732,
+      "mappedBones": 22,
+      "sha256": "f2e08e60654384bbaa7261b8e1ce5ae06a8372ec1edbd0250839ca35c2e29e34",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 43.284,
+          "LeftFoot": 16.579,
+          "LeftForeArm": 6.84,
+          "LeftLeg": 16.374,
+          "LeftUpLeg": 9.477,
+          "RightArm": 91.884,
+          "RightFoot": 28.693,
+          "RightForeArm": 66.666,
+          "RightLeg": 26.411,
+          "RightUpLeg": 19.322,
+          "Spine2": 13.305
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "RightUppercut"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 43.284,
+          "LeftFoot": 16.574,
+          "LeftForeArm": 6.84,
+          "LeftLeg": 16.374,
+          "LeftUpLeg": 9.477,
+          "RightArm": 91.881,
+          "RightFoot": 28.693,
+          "RightForeArm": 66.666,
+          "RightLeg": 26.41,
+          "RightUpLeg": 19.322,
+          "Spine2": 13.305
+        },
+        "sampledFrames": 17
+      }
+    },
+    "Run": {
+      "exportBytes": 334120,
+      "mappedBones": 22,
+      "sha256": "efc0814fb2c794a1eb7d4531dd568164642c9b18478bc44d360e186f5c7ef212",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 90.74,
+          "LeftFoot": 44.331,
+          "LeftForeArm": 40.465,
+          "LeftLeg": 106.987,
+          "LeftUpLeg": 94.809,
+          "RightArm": 96.469,
+          "RightFoot": 50.366,
+          "RightForeArm": 40.295,
+          "RightLeg": 82.599,
+          "RightUpLeg": 343.499,
+          "Spine2": 6.987
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBCross",
+        "mappedCurveCount": 410,
+        "sourceAction": "Run"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 90.741,
+          "LeftFoot": 44.331,
+          "LeftForeArm": 40.465,
+          "LeftLeg": 106.987,
+          "LeftUpLeg": 269.663,
+          "RightArm": 96.462,
+          "RightFoot": 50.366,
+          "RightForeArm": 40.295,
+          "RightLeg": 82.599,
+          "RightUpLeg": 319.16,
+          "Spine2": 6.987
+        },
+        "sampledFrames": 17
+      }
+    },
+    "SpinningHighKick": {
+      "exportBytes": 336252,
+      "mappedBones": 22,
+      "sha256": "a443e46f1d7451cf2424bcbef0098942e039d1620b69cd7af205c0ba0af955db",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 72.173,
+          "LeftFoot": 36.464,
+          "LeftForeArm": 72.642,
+          "LeftLeg": 20.891,
+          "LeftUpLeg": 53.759,
+          "RightArm": 112.421,
+          "RightFoot": 38.765,
+          "RightForeArm": 45.646,
+          "RightLeg": 59.271,
+          "RightUpLeg": 337.795,
+          "Spine2": 13.696
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 413,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 403,
+        "sourceAction": "SpinningHighKick"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 72.175,
+          "LeftFoot": 36.464,
+          "LeftForeArm": 72.642,
+          "LeftLeg": 20.89,
+          "LeftUpLeg": 53.759,
+          "RightArm": 112.444,
+          "RightFoot": 38.765,
+          "RightForeArm": 45.646,
+          "RightLeg": 59.271,
+          "RightUpLeg": 84.077,
+          "Spine2": 13.696
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StandUp__OBCross": {
+      "exportBytes": 326544,
+      "mappedBones": 22,
+      "sha256": "3a9b5e89a8d8af6235fe4017341da5b2a772913e009ab337040bdea20f27cdb4",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "StandUp"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StandUp__OBHitHeadLeft": {
+      "exportBytes": 337236,
+      "mappedBones": 22,
+      "sha256": "f4a32e033e42f9066ea2b20a76bb87ea55308ceb4e1e47db1d7b0c45e8101996",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 69.05,
+          "LeftFoot": 78.196,
+          "LeftForeArm": 90.746,
+          "LeftLeg": 111.362,
+          "LeftUpLeg": 139.618,
+          "RightArm": 71.906,
+          "RightFoot": 50.223,
+          "RightForeArm": 97.035,
+          "RightLeg": 64.217,
+          "RightUpLeg": 355.158,
+          "Spine2": 14.797
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 420,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 410,
+        "sourceAction": "StandUp"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 69.05,
+          "LeftFoot": 78.148,
+          "LeftForeArm": 90.746,
+          "LeftLeg": 109.882,
+          "LeftUpLeg": 139.239,
+          "RightArm": 71.906,
+          "RightFoot": 50.223,
+          "RightForeArm": 97.035,
+          "RightLeg": 64.124,
+          "RightUpLeg": 21.568,
+          "Spine2": 14.777
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StandUp__OBIdle": {
+      "exportBytes": 327116,
+      "mappedBones": 22,
+      "sha256": "3d6eb0f4c2db0bb316d136cd1d5d6264f007b0757cbdc1e716332d7866ebed83",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "StandUp"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepBack": {
+      "exportBytes": 334976,
+      "mappedBones": 22,
+      "sha256": "5fbc502e40d8abad1fbe813e5d0b53736ee5b5286ad2c61c49e5457b7bc4b0e5",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.453,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 41.884,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepBack"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.452,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 333.544,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepBackLeft": {
+      "exportBytes": 335256,
+      "mappedBones": 22,
+      "sha256": "f7503b11baafa169912d1d8b45c906d5d9783c693a2b583a4e3d63a49216c5f9",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.453,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 41.884,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepBackLeft"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.452,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 333.544,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepBackRight": {
+      "exportBytes": 335120,
+      "mappedBones": 22,
+      "sha256": "b2070d2c1739934cbdfdd3f38b2f91ce388c3f15b35938a3723ed3357eee49f8",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.453,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 41.884,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepBackRight"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 15.452,
+          "LeftFoot": 40.406,
+          "LeftForeArm": 20.137,
+          "LeftLeg": 38.842,
+          "LeftUpLeg": 9.449,
+          "RightArm": 8.771,
+          "RightFoot": 35.336,
+          "RightForeArm": 5.624,
+          "RightLeg": 18.911,
+          "RightUpLeg": 333.544,
+          "Spine2": 5.228
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepForward": {
+      "exportBytes": 335612,
+      "mappedBones": 22,
+      "sha256": "4688ec848d2ef0468331a03adf52c7ac758f4333bda7048e22219edba3bb41c1",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.206,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.995,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.869,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 63.992,
+          "Spine2": 7.387
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepForward"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.209,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.993,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.864,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 331.881,
+          "Spine2": 7.388
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepForwardLeft": {
+      "exportBytes": 335612,
+      "mappedBones": 22,
+      "sha256": "5d0c1858655ecf30329d2eb2b8ddeb43c1c9156080c4aa19b77f36234ccc5e27",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.206,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.995,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.869,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 63.992,
+          "Spine2": 7.387
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepForwardLeft"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.209,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.993,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.864,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 331.881,
+          "Spine2": 7.387
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepForwardRight": {
+      "exportBytes": 335472,
+      "mappedBones": 22,
+      "sha256": "4afa46d59e9783236adfd9c018610d7cb9801ea0a5f3c54a369c6ce9e6c9c985",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.206,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.995,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.869,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 63.992,
+          "Spine2": 7.387
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 407,
+        "identifier": "OBCross",
+        "mappedCurveCount": 407,
+        "sourceAction": "StepForwardRight"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 14.209,
+          "LeftFoot": 43.264,
+          "LeftForeArm": 6.248,
+          "LeftLeg": 30.993,
+          "LeftUpLeg": 25.293,
+          "RightArm": 18.864,
+          "RightFoot": 57.494,
+          "RightForeArm": 20.565,
+          "RightLeg": 26.023,
+          "RightUpLeg": 331.881,
+          "Spine2": 7.388
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepLeft": {
+      "exportBytes": 335940,
+      "mappedBones": 22,
+      "sha256": "0f5a059c97d66e35bab434bf2a85f11a415a1466fc663894b5ab89009913c081",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 18.793,
+          "LeftFoot": 20.055,
+          "LeftForeArm": 9.026,
+          "LeftLeg": 32.516,
+          "LeftUpLeg": 33.433,
+          "RightArm": 23.03,
+          "RightFoot": 37.847,
+          "RightForeArm": 23.443,
+          "RightLeg": 16.298,
+          "RightUpLeg": 26.371,
+          "Spine2": 4.328
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 409,
+        "identifier": "OBCross",
+        "mappedCurveCount": 409,
+        "sourceAction": "StepLeft"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 18.793,
+          "LeftFoot": 20.055,
+          "LeftForeArm": 9.026,
+          "LeftLeg": 32.516,
+          "LeftUpLeg": 33.433,
+          "RightArm": 23.03,
+          "RightFoot": 37.847,
+          "RightForeArm": 23.443,
+          "RightLeg": 16.298,
+          "RightUpLeg": 26.371,
+          "Spine2": 4.328
+        },
+        "sampledFrames": 17
+      }
+    },
+    "StepRight": {
+      "exportBytes": 335468,
+      "mappedBones": 22,
+      "sha256": "d5db9b3fb2ad6a5275362b9f0b3aaddda59814b8a4bddf86f1a586c803cee870",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 21.89,
+          "LeftFoot": 31.426,
+          "LeftForeArm": 8.453,
+          "LeftLeg": 39.399,
+          "LeftUpLeg": 43.884,
+          "RightArm": 17.306,
+          "RightFoot": 37.594,
+          "RightForeArm": 16.955,
+          "RightLeg": 19.184,
+          "RightUpLeg": 22.892,
+          "Spine2": 3.765
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 409,
+        "identifier": "OBCross",
+        "mappedCurveCount": 409,
+        "sourceAction": "StepRight"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 21.89,
+          "LeftFoot": 31.426,
+          "LeftForeArm": 8.453,
+          "LeftLeg": 39.399,
+          "LeftUpLeg": 317.69,
+          "RightArm": 17.306,
+          "RightFoot": 37.594,
+          "RightForeArm": 16.955,
+          "RightLeg": 19.184,
+          "RightUpLeg": 22.893,
+          "Spine2": 3.765
+        },
+        "sampledFrames": 17
+      }
+    },
+    "SupermanPunch__OBCross": {
+      "exportBytes": 327132,
+      "mappedBones": 22,
+      "sha256": "41ca95b3e3992bb73323fa9efd1bf0b9c273538efbf31526487f49b0efcee3a1",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 362,
+        "identifier": "OBCross",
+        "mappedCurveCount": 362,
+        "sourceAction": "SupermanPunch"
+      },
+      "sourceStatic": true,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      }
+    },
+    "SupermanPunch__OBHitHeadLeft": {
+      "exportBytes": 332388,
+      "mappedBones": 22,
+      "sha256": "f8e6d4a60b7292002e6c151fe1cfc6970468e6a4a936036235c4b8e187b1504b",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 39.665,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 52.137,
+          "LeftUpLeg": 44.303,
+          "RightArm": 102.736,
+          "RightFoot": 57.904,
+          "RightForeArm": 92.671,
+          "RightLeg": 43.556,
+          "RightUpLeg": 57.086,
+          "Spine2": 52.719
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 372,
+        "identifier": "OBHitHeadLeft",
+        "mappedCurveCount": 362,
+        "sourceAction": "SupermanPunch"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 39.665,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 52.137,
+          "LeftUpLeg": 44.303,
+          "RightArm": 102.736,
+          "RightFoot": 57.904,
+          "RightForeArm": 97.581,
+          "RightLeg": 43.552,
+          "RightUpLeg": 333.638,
+          "Spine2": 52.715
+        },
+        "sampledFrames": 17
+      }
+    },
+    "SupermanPunch__OBIdle": {
+      "exportBytes": 334524,
+      "mappedBones": 22,
+      "sha256": "4623be9721f4abdcf7f3acf5c39421ad45111404ed13a91219484a62b20243a6",
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.834
+        },
+        "sampledFrames": 17
+      },
+      "sourceSlot": {
+        "curveCount": 410,
+        "identifier": "OBIdle",
+        "mappedCurveCount": 410,
+        "sourceAction": "SupermanPunch"
+      },
+      "sourceStatic": false,
+      "status": "EXPORTED",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 25.045,
+          "LeftFoot": 24.914,
+          "LeftForeArm": 16.505,
+          "LeftLeg": 18.263,
+          "LeftUpLeg": 14.336,
+          "RightArm": 20.872,
+          "RightFoot": 12.292,
+          "RightForeArm": 10.359,
+          "RightLeg": 18.635,
+          "RightUpLeg": 14.378,
+          "Spine2": 1.834
+        },
+        "sampledFrames": 17
+      }
+    }
+  },
+  "schema": "MUDMAN_ARES_FULL_RETARGET_v2.0.22"
+}

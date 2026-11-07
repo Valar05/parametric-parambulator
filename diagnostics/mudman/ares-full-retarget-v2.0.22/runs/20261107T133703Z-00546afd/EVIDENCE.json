@@ -1,0 +1,52 @@
+{
+  "ARPProfile": "AUTO_SCALE_HIPS_ROOT_AND_LOCATION_ALL_NATIVE_MIXAMO_MAPPING",
+  "authority": "TERMUX_GIT_ONLY",
+  "baseGitHead": "dffeb304ddd1c0e6dd2b867528782784db9622ca",
+  "canonicalModified": false,
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "exportedAnimations": 77,
+  "failures": {},
+  "gitAncestryProof": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "returnCode": 0,
+        "stage": "DEEPEN_16"
+      }
+    ],
+    "base": "09165dc8a47b032e5ef84d93220301e64674efad",
+    "head": "dffeb304ddd1c0e6dd2b867528782784db9622ca",
+    "isAncestor": true,
+    "method": "DEEPEN_16"
+  },
+  "outputBytes": 4291628,
+  "outputPath": "/data/data/com.termux/files/home/storage/downloads/MUDMAN_ARES_FULL_RETARGET_v2.0.22_20261107T133703Z-00546afd_REVIEW_LIBRARY.glb",
+  "outputSHA256": "396e9cf024846ba9e8c5159a9b8660b21a296a73a6e656d4c347dc86780079d6",
+  "ownerVisualAcceptance": "PENDING",
+  "populatedActionSlots": 77,
+  "previousAcceptedAnimationsModified": false,
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "purchasedARPZipSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T133703Z-00546afd",
+  "schema": "MUDMAN_ARES_FULL_RETARGET_v2.0.22",
+  "securityTitanUsed": false,
+  "sourceActionDatablocks": 52,
+  "sourceAresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "sourceCommit": "ffacf2797baf81b6f30b3b7d741ccb60b43ad540",
+  "targetFBXSHA256": "4d4f3c503e33a4eb4ca6039b9dc1b7b83e5c1ce25b371625aee53ba2e1c89ff7",
+  "targetTextureSHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "targetZipSHA256": "fbcb592ac941dbc34ecade66b044b551f5bd55bf5855be50d8af5caba0514f79",
+  "texture": "EXACT_OWNER_MESHY_PNG",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9205/index.html?run=20261107T133703Z-00546afd&build=7d13162bf76e2ccb75064b7e"
+}

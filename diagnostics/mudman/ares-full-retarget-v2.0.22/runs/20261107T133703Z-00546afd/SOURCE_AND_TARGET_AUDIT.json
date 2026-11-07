@@ -1,0 +1,901 @@
+{
+  "actions": [
+    {
+      "action": "Cross",
+      "fcurves": 420,
+      "frameEnd": 26.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 96,
+      "name": "Cross-Enemy",
+      "slot": "OBCross-Enemy",
+      "static": false
+    },
+    {
+      "action": "Run",
+      "fcurves": 410,
+      "frameEnd": 19.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 129,
+      "name": "Run",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "Cross",
+      "fcurves": 420,
+      "frameEnd": 26.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 96,
+      "name": "Cross-Player",
+      "slot": "OBCross-Player",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0",
+      "fcurves": 410,
+      "frameEnd": 44.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 85,
+      "name": "Armature.001|mixamo.com|Layer0",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.001",
+      "fcurves": 410,
+      "frameEnd": 49.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 89,
+      "name": "Armature.001|mixamo.com|Layer0.001",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.002",
+      "fcurves": 410,
+      "frameEnd": 77.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 137,
+      "name": "Armature.001|mixamo.com|Layer0.002",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.003",
+      "fcurves": 410,
+      "frameEnd": 58.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 115,
+      "name": "Armature.001|mixamo.com|Layer0.003",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.004",
+      "fcurves": 340,
+      "frameEnd": 46.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 137,
+      "name": "Armature.001|mixamo.com|Layer0.004",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.005",
+      "fcurves": 410,
+      "frameEnd": 49.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 91,
+      "name": "Armature.001|mixamo.com|Layer0.005",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.006",
+      "fcurves": 340,
+      "frameEnd": 26.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 89,
+      "name": "Armature.001|mixamo.com|Layer0.006",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.007",
+      "fcurves": 340,
+      "frameEnd": 66.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 89,
+      "name": "Armature.001|mixamo.com|Layer0.007",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.008",
+      "fcurves": 340,
+      "frameEnd": 67.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 89,
+      "name": "Armature.001|mixamo.com|Layer0.008",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.009",
+      "fcurves": 340,
+      "frameEnd": 62.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 137,
+      "name": "Armature.001|mixamo.com|Layer0.009",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "Armature.001|mixamo.com|Layer0.010",
+      "fcurves": 340,
+      "frameEnd": 49.0,
+      "frameStart": 1.0,
+      "mappedCurves": 340,
+      "movingCurves": 137,
+      "name": "Armature.001|mixamo.com|Layer0.010",
+      "slot": "OBArmature.001|mixamo.com|Layer0",
+      "static": false
+    },
+    {
+      "action": "AxeKick",
+      "fcurves": 362,
+      "frameEnd": 24.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "AxeKick__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "AxeKick",
+      "fcurves": 420,
+      "frameEnd": 24.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 67,
+      "name": "AxeKick__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "AxeKick",
+      "fcurves": 410,
+      "frameEnd": 24.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "AxeKick__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "AxleKick",
+      "fcurves": 420,
+      "frameEnd": 28.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 69,
+      "name": "AxleKick",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "BackImpact",
+      "fcurves": 362,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "BackImpact__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "BackImpact",
+      "fcurves": 420,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 87,
+      "name": "BackImpact__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "BackImpact",
+      "fcurves": 410,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "BackImpact__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "Backfist",
+      "fcurves": 414,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 404,
+      "movingCurves": 119,
+      "name": "Backfist",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "Block",
+      "fcurves": 372,
+      "frameEnd": 30.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 72,
+      "name": "Block",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "CoriPunchMove",
+      "fcurves": 371,
+      "frameEnd": 24.0,
+      "frameStart": 0.0,
+      "mappedCurves": 361,
+      "movingCurves": 40,
+      "name": "CoriPunchMove",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "Cross",
+      "fcurves": 362,
+      "frameEnd": 26.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "Cross__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "CurbStomp",
+      "fcurves": 362,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "CurbStomp__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "CurbStomp",
+      "fcurves": 420,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 70,
+      "name": "CurbStomp__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "CurbStomp",
+      "fcurves": 410,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 137,
+      "name": "CurbStomp__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    },
+    {
+      "action": "Death",
+      "fcurves": 220,
+      "frameEnd": 31.0,
+      "frameStart": 1.0,
+      "mappedCurves": 220,
+      "movingCurves": 89,
+      "name": "Death",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "FrontKick",
+      "fcurves": 372,
+      "frameEnd": 26.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 141,
+      "name": "FrontKick",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "GravityFist",
+      "fcurves": 362,
+      "frameEnd": 30.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "GravityFist__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "GravityFist",
+      "fcurves": 420,
+      "frameEnd": 30.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 78,
+      "name": "GravityFist__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "GravityFist",
+      "fcurves": 410,
+      "frameEnd": 30.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 137,
+      "name": "GravityFist__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    },
+    {
+      "action": "Headbutt",
+      "fcurves": 414,
+      "frameEnd": 23.0,
+      "frameStart": 1.0,
+      "mappedCurves": 404,
+      "movingCurves": 93,
+      "name": "Headbutt",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "HitHeadLeft",
+      "fcurves": 403,
+      "frameEnd": 30.0,
+      "frameStart": -1.0,
+      "mappedCurves": 401,
+      "movingCurves": 85,
+      "name": "HitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "HitHeadLeftPlayer",
+      "fcurves": 403,
+      "frameEnd": 30.0,
+      "frameStart": -1.0,
+      "mappedCurves": 401,
+      "movingCurves": 85,
+      "name": "HitHeadLeftPlayer",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "HitHeadRightBig",
+      "fcurves": 414,
+      "frameEnd": 32.0,
+      "frameStart": 0.0,
+      "mappedCurves": 404,
+      "movingCurves": 91,
+      "name": "HitHeadRightBig",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "Hook",
+      "fcurves": 420,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 94,
+      "name": "Hook",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "Idle",
+      "fcurves": 420,
+      "frameEnd": 151.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 91,
+      "name": "Idle__OBCross",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "Idle",
+      "fcurves": 14,
+      "frameEnd": 151.0,
+      "frameStart": 0.0,
+      "mappedCurves": 10,
+      "movingCurves": 4,
+      "name": "Idle__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    },
+    {
+      "action": "Jab-Enemy",
+      "fcurves": 372,
+      "frameEnd": 34.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 148,
+      "name": "Jab-Enemy__OBCross",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "Jab-Enemy",
+      "fcurves": 372,
+      "frameEnd": 34.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 148,
+      "name": "Jab-Enemy__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "Jab-Enemy",
+      "fcurves": 420,
+      "frameEnd": 34.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 140,
+      "name": "Jab-Enemy__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    },
+    {
+      "action": "Jab",
+      "fcurves": 362,
+      "frameEnd": 23.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 148,
+      "name": "Jab__OBCross",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "Jab",
+      "fcurves": 362,
+      "frameEnd": 23.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 148,
+      "name": "Jab__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "Jab",
+      "fcurves": 410,
+      "frameEnd": 23.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 140,
+      "name": "Jab__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    },
+    {
+      "action": "KnockedBack",
+      "fcurves": 384,
+      "frameEnd": 17.0,
+      "frameStart": 0.0,
+      "mappedCurves": 374,
+      "movingCurves": 73,
+      "name": "KnockedBack",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "KnockedBackward",
+      "fcurves": 384,
+      "frameEnd": 17.0,
+      "frameStart": 0.0,
+      "mappedCurves": 374,
+      "movingCurves": 73,
+      "name": "KnockedBackward",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "LeftUppercut",
+      "fcurves": 420,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 142,
+      "name": "LeftUppercut",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "LowBackKick",
+      "fcurves": 372,
+      "frameEnd": 29.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "LowBackKick__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "LowBackKick",
+      "fcurves": 414,
+      "frameEnd": 29.0,
+      "frameStart": 0.0,
+      "mappedCurves": 404,
+      "movingCurves": 139,
+      "name": "LowBackKick__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "LowBackKick",
+      "fcurves": 372,
+      "frameEnd": 29.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "LowBackKick__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "ProneBack",
+      "fcurves": 420,
+      "frameEnd": 14.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "ProneBack",
+      "slot": "OBHitHeadLeft",
+      "static": true
+    },
+    {
+      "action": "ProneBackDamage",
+      "fcurves": 420,
+      "frameEnd": 14.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 69,
+      "name": "ProneBackDamage",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "ProneBackStandUp",
+      "fcurves": 420,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 84,
+      "name": "ProneBackStandUp",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "ProneFrontDamage",
+      "fcurves": 362,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "ProneFrontDamage__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "ProneFrontDamage",
+      "fcurves": 420,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 67,
+      "name": "ProneFrontDamage__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "ProneFrontDamage",
+      "fcurves": 410,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "ProneFrontDamage__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "ProneFront",
+      "fcurves": 362,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "ProneFront__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "ProneFront",
+      "fcurves": 420,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "ProneFront__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": true
+    },
+    {
+      "action": "ProneFront",
+      "fcurves": 410,
+      "frameEnd": 10.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "ProneFront__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "RightUppercut",
+      "fcurves": 372,
+      "frameEnd": 20.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 85,
+      "name": "RightUppercut",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "SpinningHighKick",
+      "fcurves": 413,
+      "frameEnd": 26.0,
+      "frameStart": 1.0,
+      "mappedCurves": 403,
+      "movingCurves": 117,
+      "name": "SpinningHighKick",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "StandUp",
+      "fcurves": 362,
+      "frameEnd": 30.0,
+      "frameStart": 0.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "StandUp__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "StandUp",
+      "fcurves": 420,
+      "frameEnd": 30.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 123,
+      "name": "StandUp__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "StandUp",
+      "fcurves": 410,
+      "frameEnd": 30.0,
+      "frameStart": 0.0,
+      "mappedCurves": 410,
+      "movingCurves": 0,
+      "name": "StandUp__OBIdle",
+      "slot": "OBIdle",
+      "static": true
+    },
+    {
+      "action": "StepBack",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 82,
+      "name": "StepBack",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepBackLeft",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 82,
+      "name": "StepBackLeft",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepBackRight",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 82,
+      "name": "StepBackRight",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepForward",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 86,
+      "name": "StepForward",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepForwardLeft",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 86,
+      "name": "StepForwardLeft",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepForwardRight",
+      "fcurves": 407,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 407,
+      "movingCurves": 86,
+      "name": "StepForwardRight",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepLeft",
+      "fcurves": 409,
+      "frameEnd": 24.0,
+      "frameStart": 0.0,
+      "mappedCurves": 409,
+      "movingCurves": 88,
+      "name": "StepLeft",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "StepRight",
+      "fcurves": 409,
+      "frameEnd": 23.0,
+      "frameStart": 0.0,
+      "mappedCurves": 409,
+      "movingCurves": 88,
+      "name": "StepRight",
+      "slot": "OBCross",
+      "static": false
+    },
+    {
+      "action": "SupermanPunch",
+      "fcurves": 362,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 0,
+      "name": "SupermanPunch__OBCross",
+      "slot": "OBCross",
+      "static": true
+    },
+    {
+      "action": "SupermanPunch",
+      "fcurves": 372,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 362,
+      "movingCurves": 63,
+      "name": "SupermanPunch__OBHitHeadLeft",
+      "slot": "OBHitHeadLeft",
+      "static": false
+    },
+    {
+      "action": "SupermanPunch",
+      "fcurves": 410,
+      "frameEnd": 21.0,
+      "frameStart": 1.0,
+      "mappedCurves": 410,
+      "movingCurves": 137,
+      "name": "SupermanPunch__OBIdle",
+      "slot": "OBIdle",
+      "static": false
+    }
+  ],
+  "excluded": [
+    {
+      "action": "Jab-Enemy",
+      "reason": "EXPECTED_ENEMY_ATTACK_SLOT_NOT_FOUND_REPORT_NOT_SILENT"
+    }
+  ],
+  "mutates": false,
+  "sourceActionDatablocks": 52,
+  "sourceRig": "Armature",
+  "sourceRigBoneCount": 42,
+  "sourceSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "stage": "DONE",
+  "status": "SOURCE_AND_MUDMAN_RIG_AUDITED",
+  "target": {
+    "armature": "SmartRigArmature",
+    "bones": 58,
+    "images": [
+      "Material_0_baseColor.png",
+      "Render Result",
+      "texture_0.png"
+    ],
+    "meshes": [
+      {
+        "materials": [
+          "Material_0"
+        ],
+        "name": "geometry_0",
+        "vertices": 4474
+      }
+    ]
+  },
+  "targetFBXSHA256": "4d4f3c503e33a4eb4ca6039b9dc1b7b83e5c1ce25b371625aee53ba2e1c89ff7",
+  "targetImporter": {
+    "animationImportedFromTarget": false,
+    "args": {
+      "filepath": "/mnt/arp-target/Meshy_AI_Mudstone_Golem_20261107_animated_mixamo_Running.fbx",
+      "use_anim": false
+    },
+    "newArmatures": [
+      "SmartRigArmature"
+    ],
+    "newMeshes": [
+      "geometry_0"
+    ],
+    "operator": "bpy.ops.wm.fbx_import",
+    "result": [
+      "FINISHED"
+    ]
+  },
+  "version": "5.0.1"
+}
