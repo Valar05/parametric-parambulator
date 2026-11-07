@@ -1,0 +1,66 @@
+{
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "aresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "authority": "TERMUX_GIT_ONLY",
+  "canonicalModificationAllowed": false,
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "controlAxeKickSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+  "controlHeavy1SHA256": "1738d067cdc3f0f47ceab3cb31320f0f8700f471db74011c2dd0db08d84b2c75",
+  "expectedActions": {
+    "Ares": [
+      "Idle-Cross",
+      "StepForward",
+      "StepBack",
+      "StepLeft",
+      "StepRight",
+      "StepForwardLeft",
+      "StepForwardRight",
+      "StepBackLeft",
+      "StepBackRight",
+      "AxeKick"
+    ],
+    "Lionheart": [
+      "Idle",
+      "Cast",
+      "Heavy1",
+      "Heavy2",
+      "Heavy3",
+      "Kick",
+      "Light1",
+      "Light2",
+      "Light3",
+      "SpringAttack",
+      "Stomp"
+    ]
+  },
+  "lionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "mission": "Retarget every native Lionheart and Ares animation using purchased ARP 3.79.17, test Hips root-only location false with Auto-Scale, preserve exact AxeKick control, compare old Heavy1, publish unified unapproved GLB to phone Downloads, commit whole library key analysis via authorized Termux Git, serve interactive reviewer",
+  "pinnedGitBase": "3501004150ac2db37a2609872004827427d2b126",
+  "protectedCanonicalPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "requiredOutputs": [
+    "Android Downloads combined GLB SHA verified",
+    "KEYS.json actual GLB accessors",
+    "TRAJECTORIES.json source and target joint world samples",
+    "EVIDENCE.json",
+    "REPORT.md",
+    "3D viewer with all clips"
+  ],
+  "resultsPrefix": "diagnostics/obsidianti/arp-full-library-v2.0.14/runs/",
+  "schema": "OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14.contract.json",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_blender_trial.py",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_driver.py",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_merge.py",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_server.py",
+    "campaigns/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_viewer.html",
+    "tests/OBSIDIANTI_ARP_FULL_LIBRARY_v2.0.14_TEST.py"
+  ],
+  "userVisualAcceptanceRequired": true,
+  "vendorPrivateZipSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "vendorSourcePublicationAllowed": false
+}
