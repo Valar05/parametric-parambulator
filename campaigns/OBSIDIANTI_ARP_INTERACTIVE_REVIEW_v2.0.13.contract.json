@@ -1,0 +1,31 @@
+{
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "authority": "TERMUX_GIT_ONLY",
+  "campaignEtiquette": "LIVE_READ_2026_11_06",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94c929c2f63b4",
+  "heavy1OwnerReviewPending": true,
+  "mission": "Export exact saved ARP 3.79.17 Heavy1 and AxeKick Blender Actions, use preexisting 3D Mwni viewer controls for phone live 3D orbit/scrub/compare, no new retarget or renders, preserve accepted AxeKick, Heavy1 only hip/foot visual review, publish via Termux Git only",
+  "ownerAcceptedAxeKick": "Do not modify keyframes or canonical",
+  "ownerVisualAcceptanceRequired": true,
+  "pinnedGitBase": "ebd49a4eafd0b518614033ae7fc9b823e6642f85",
+  "previousCampaign": "OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.12",
+  "previousTermuxRun": "20261107T015728Z-dfe90dc2",
+  "protectedCanonicalPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "rendersForbidden": true,
+  "retargetForbidden": true,
+  "schema": "OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13.contract.json",
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_driver.py",
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_export.py",
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_server.py",
+    "campaigns/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_viewer.html",
+    "tests/OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13_TEST.py"
+  ],
+  "sourceReferenceServer": "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_server.py",
+  "sourceReferenceViewer": "campaigns/OBSIDIANTI_MWNI_VIEWER_v1.4.4_viewer.html"
+}
