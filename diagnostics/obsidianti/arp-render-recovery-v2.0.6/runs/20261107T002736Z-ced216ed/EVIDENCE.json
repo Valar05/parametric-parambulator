@@ -1,0 +1,314 @@
+{
+  "aresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "authority": "TERMUX_GIT_ONLY",
+  "campaignEtiquette": "READ_LIVE_2026_11_06",
+  "canonicalModified": false,
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "clips": {
+    "AxeKick": {
+      "blenderExitCode": 0,
+      "canonicalModelModified": false,
+      "clip": "AxeKick",
+      "donorName": "Ares",
+      "mapping": {
+        "boneCount": 22,
+        "excludedCount": 20,
+        "mapped": [
+          {
+            "source": "mixamorig:Spine2",
+            "target": "mixamorig:Spine2"
+          },
+          {
+            "source": "mixamorig:Spine1",
+            "target": "mixamorig:Spine1"
+          },
+          {
+            "source": "mixamorig:Spine",
+            "target": "mixamorig:Spine"
+          },
+          {
+            "source": "mixamorig:RightUpLeg",
+            "target": "mixamorig:RightUpLeg"
+          },
+          {
+            "source": "mixamorig:RightToeBase",
+            "target": "mixamorig:RightToeBase"
+          },
+          {
+            "source": "mixamorig:RightShoulder",
+            "target": "mixamorig:RightShoulder"
+          },
+          {
+            "source": "mixamorig:RightLeg",
+            "target": "mixamorig:RightLeg"
+          },
+          {
+            "source": "mixamorig:RightHand",
+            "target": "mixamorig:RightHand"
+          },
+          {
+            "source": "mixamorig:RightForeArm",
+            "target": "mixamorig:RightForeArm"
+          },
+          {
+            "source": "mixamorig:RightFoot",
+            "target": "mixamorig:RightFoot"
+          },
+          {
+            "source": "mixamorig:RightArm",
+            "target": "mixamorig:RightArm"
+          },
+          {
+            "source": "mixamorig:Neck",
+            "target": "mixamorig:Neck"
+          },
+          {
+            "source": "mixamorig:LeftUpLeg",
+            "target": "mixamorig:LeftUpLeg"
+          },
+          {
+            "source": "mixamorig:LeftToeBase",
+            "target": "mixamorig:LeftToeBase"
+          },
+          {
+            "source": "mixamorig:LeftShoulder",
+            "target": "mixamorig:LeftShoulder"
+          },
+          {
+            "source": "mixamorig:LeftLeg",
+            "target": "mixamorig:LeftLeg"
+          },
+          {
+            "source": "mixamorig:LeftHand",
+            "target": "mixamorig:LeftHand"
+          },
+          {
+            "source": "mixamorig:LeftForeArm",
+            "target": "mixamorig:LeftForeArm"
+          },
+          {
+            "source": "mixamorig:LeftFoot",
+            "target": "mixamorig:LeftFoot"
+          },
+          {
+            "source": "mixamorig:LeftArm",
+            "target": "mixamorig:LeftArm"
+          },
+          {
+            "source": "mixamorig:Hips",
+            "target": "mixamorig:Hips"
+          },
+          {
+            "source": "mixamorig:Head",
+            "target": "mixamorig:Head"
+          }
+        ]
+      },
+      "motionGate": null,
+      "originalClipSHA": {
+        "source": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+        "target": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4"
+      },
+      "originalError": "",
+      "ownerVisualVerdict": "PENDING",
+      "priorInventory": [
+        {
+          "bytes": 3935,
+          "path": "TRIAL.json"
+        }
+      ],
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": false,
+          "rightLeg": false,
+          "upper": false
+        },
+        "changingBonesOver5Deg": [],
+        "maxRotationDegrees": {
+          "LeftArm": 0.0,
+          "LeftFoot": 0.0,
+          "LeftForeArm": 0.0,
+          "LeftLeg": 0.0,
+          "LeftUpLeg": 0.0,
+          "RightArm": 0.0,
+          "RightFoot": 0.0,
+          "RightForeArm": 0.0,
+          "RightLeg": 0.0,
+          "RightUpLeg": 0.0,
+          "Spine2": 0.0
+        },
+        "sampledFrames": 17
+      },
+      "sourceRig": "Armature",
+      "sourceTrialStatus": "BOOT",
+      "stage": "READ_PREVIOUS",
+      "status": "PRIOR_TRIAL_NOT_COMPLETED",
+      "targetAction": null,
+      "targetMotion": {},
+      "targetRig": "SmartRigArmature"
+    },
+    "Heavy1": {
+      "blenderExitCode": 0,
+      "canonicalModelModified": false,
+      "clip": "Heavy1",
+      "donorName": "Lionheart",
+      "mapping": {
+        "boneCount": 22,
+        "excludedCount": 10,
+        "mapped": [
+          {
+            "source": "mixamorig:Spine2",
+            "target": "mixamorig:Spine2"
+          },
+          {
+            "source": "mixamorig:Spine1",
+            "target": "mixamorig:Spine1"
+          },
+          {
+            "source": "mixamorig:Spine",
+            "target": "mixamorig:Spine"
+          },
+          {
+            "source": "mixamorig:RightUpLeg",
+            "target": "mixamorig:RightUpLeg"
+          },
+          {
+            "source": "mixamorig:RightToeBase",
+            "target": "mixamorig:RightToeBase"
+          },
+          {
+            "source": "mixamorig:RightShoulder",
+            "target": "mixamorig:RightShoulder"
+          },
+          {
+            "source": "mixamorig:RightLeg",
+            "target": "mixamorig:RightLeg"
+          },
+          {
+            "source": "mixamorig:RightHand",
+            "target": "mixamorig:RightHand"
+          },
+          {
+            "source": "mixamorig:RightForeArm",
+            "target": "mixamorig:RightForeArm"
+          },
+          {
+            "source": "mixamorig:RightFoot",
+            "target": "mixamorig:RightFoot"
+          },
+          {
+            "source": "mixamorig:RightArm",
+            "target": "mixamorig:RightArm"
+          },
+          {
+            "source": "mixamorig:Neck",
+            "target": "mixamorig:Neck"
+          },
+          {
+            "source": "mixamorig:LeftUpLeg",
+            "target": "mixamorig:LeftUpLeg"
+          },
+          {
+            "source": "mixamorig:LeftToeBase",
+            "target": "mixamorig:LeftToeBase"
+          },
+          {
+            "source": "mixamorig:LeftShoulder",
+            "target": "mixamorig:LeftShoulder"
+          },
+          {
+            "source": "mixamorig:LeftLeg",
+            "target": "mixamorig:LeftLeg"
+          },
+          {
+            "source": "mixamorig:LeftHand",
+            "target": "mixamorig:LeftHand"
+          },
+          {
+            "source": "mixamorig:LeftForeArm",
+            "target": "mixamorig:LeftForeArm"
+          },
+          {
+            "source": "mixamorig:LeftFoot",
+            "target": "mixamorig:LeftFoot"
+          },
+          {
+            "source": "mixamorig:LeftArm",
+            "target": "mixamorig:LeftArm"
+          },
+          {
+            "source": "mixamorig:Hips",
+            "target": "mixamorig:Hips"
+          },
+          {
+            "source": "mixamorig:Head",
+            "target": "mixamorig:Head"
+          }
+        ]
+      },
+      "motionGate": null,
+      "originalClipSHA": {
+        "source": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+        "target": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4"
+      },
+      "originalError": "",
+      "ownerVisualVerdict": "PENDING",
+      "priorInventory": [
+        {
+          "bytes": 4126,
+          "path": "TRIAL.json"
+        }
+      ],
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 57.834,
+          "LeftFoot": 49.002,
+          "LeftForeArm": 95.266,
+          "LeftLeg": 47.109,
+          "LeftUpLeg": 293.656,
+          "RightArm": 0.0,
+          "RightFoot": 64.966,
+          "RightForeArm": 0.0,
+          "RightLeg": 63.62,
+          "RightUpLeg": 285.029,
+          "Spine2": 33.586
+        },
+        "sampledFrames": 17
+      },
+      "sourceRig": "Armature",
+      "sourceTrialStatus": "BOOT",
+      "stage": "READ_PREVIOUS",
+      "status": "PRIOR_TRIAL_NOT_COMPLETED",
+      "targetAction": null,
+      "targetMotion": {},
+      "targetRig": "SmartRigArmature"
+    }
+  },
+  "donorSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "gitRulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "originalBlenderRegistration": "VERIFIED_PURCHASED_AUTO_RIG_PRO_3.79.17",
+  "ownerVisualAcceptance": "PENDING",
+  "priorEvidenceCommit": "ab13be07fea9d8e289401fde04b7da2f534b9f0d",
+  "priorRunId": "20261106T235842Z-73d0582a",
+  "privateAddonZIPSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "runId": "20261107T002736Z-ced216ed",
+  "schema": "OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6",
+  "sourceCommit": "ee0ccc6e5a190338d9f06f1364d10a6a278d8cd7",
+  "vendorSourcePublished": false
+}
