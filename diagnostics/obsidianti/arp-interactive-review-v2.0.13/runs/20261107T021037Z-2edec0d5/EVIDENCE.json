@@ -1,0 +1,59 @@
+{
+  "canonicalModelSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "canonicalModified": false,
+  "etiquetteRead": "LIVE_2026_11_06",
+  "gitInputHead": "ebd49a4eafd0b518614033ae7fc9b823e6642f85",
+  "gitSourceCommit": "4e1eaa9484820b33876b38aea05a5697d30cf2fa",
+  "models": {
+    "candidateAxeKick": {
+      "animations": [
+        "AxeKick_remap"
+      ],
+      "bytes": 13214564,
+      "channels": 219,
+      "meshes": 4,
+      "role": "Purchased ARP AxeKick unmodified saved action",
+      "sha256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+      "skins": 1,
+      "url": "/models/candidateAxeKick.glb"
+    },
+    "candidateHeavy1": {
+      "animations": [
+        "Heavy1_remap"
+      ],
+      "bytes": 13216232,
+      "channels": 219,
+      "meshes": 4,
+      "role": "Purchased ARP Heavy1 unmodified saved action",
+      "sha256": "1738d067cdc3f0f47ceab3cb31320f0f8700f471db74011c2dd0db08d84b2c75",
+      "skins": 1,
+      "url": "/models/candidateHeavy1.glb"
+    }
+  },
+  "ownerAccepted": {
+    "AxeKick": "ACCEPTED_RENDER_v212",
+    "Heavy1": "UNDER_REVIEW_HIP_FOOT_IK"
+  },
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+  },
+  "rendersExecuted": false,
+  "retargetExecuted": false,
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T021037Z-2edec0d5",
+  "schema": "OBSIDIANTI_ARP_INTERACTIVE_REVIEW_v2.0.13",
+  "sourceBlends": {
+    "AxeKick": "0932892e1c08465189185365d724b8f0fb64068261f9fc0392002d960e3728b9",
+    "Heavy1": "f047dc346ca9059ed6da8f3a52b1375f96c6a6cef6ae2cc04a0b660503f1ee5d"
+  },
+  "sourceV212RunId": "20261107T015728Z-dfe90dc2",
+  "vendorSourcePublished": false,
+  "viewerBrowserRendered": "UNVERIFIED",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9200/index.html?run=20261107T021037Z-2edec0d5&build=0463c25a669d34aeffe1bdbf"
+}
