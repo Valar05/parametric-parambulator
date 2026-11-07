@@ -1,0 +1,34 @@
+{
+  "allOther22ClipsByteIdentical": true,
+  "alternateSHA256": "7e9ad7979bbeb8d28187723a5227d41c81f125d3f23170841ed8a85067d0dcb4",
+  "authority": "TERMUX_GIT_ONLY",
+  "candidateSHA256": "b26769c18288d4abf8b1344429875810653d64c90ee8cd6d5bbe68eacc96aeb3",
+  "canonicalModified": false,
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "etiquetteTitle": "CAMPAIGN_ETIQUETTE \u2014 Git Script Campaign Operating Rules",
+  "inputCommit": "3c05c87b5aa4f428be2602adef10ad387e3af4da",
+  "materialAndSkinPreserved": true,
+  "newAngleDegrees": 90,
+  "originalCuratedSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "ownerVisualAcceptance": "PENDING",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "rejectedV226Angle": 62.38362,
+  "rotationBone": "mixamorig:Hips",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "schema": "MUDMAN_HITHEADLEFT_QUARTERTURN_v2.0.27",
+  "sourceAresBlendUnmodified": true,
+  "sourceCommit": "f98ff13f12a67ed93c4b519d1b54e52d071c7e37",
+  "status": "TWO_EXACT_90_DEGREE_REVIEW_CANDIDATES_PENDING_OWNER_VERDICT",
+  "testReceipt": "PASS_QUARTER_TURN=90.000000_DEGREES\nPASS_X_AND_MEASURED_AXIS_VECTORS\nPASS_NOT_REJECTED_62_38_DEGREES\nPASS_INVALID_INPUT_REJECTS\nPASS_COMPLETE_23_CLIP_GLB_APPLY_AND_READBACK_STUB_90X_AND_90FORENSIC_AXIS\nPASS_NON_TARGET_22_CLIP_PRESERVATION\nPASS_HASH_REJECTION_AND_OUTPUT_COLLISION",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9209/index.html?run=20261107T161136Z-1255dc0a&build=5c97b8940342a2eab40d535d"
+}

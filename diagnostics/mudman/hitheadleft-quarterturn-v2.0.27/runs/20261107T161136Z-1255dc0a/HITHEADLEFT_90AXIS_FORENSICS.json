@@ -1,0 +1,128 @@
+{
+  "axis": [
+    -0.96422,
+    -0.02065,
+    0.2643
+  ],
+  "bone": "mixamorig:Hips",
+  "boneNode": 57,
+  "candidate": "axis",
+  "candidateBytes": 7099352,
+  "candidateSHA256": "7e9ad7979bbeb8d28187723a5227d41c81f125d3f23170841ed8a85067d0dcb4",
+  "meshesMaterialsSkinsPreserved": true,
+  "mutation": {
+    "firstAfter": [
+      -0.6573365397757351,
+      -0.14862457560458245,
+      0.39409995952467797,
+      0.6249036973043673
+    ],
+    "firstBefore": [
+      -0.060765597969293594,
+      -0.2418200820684433,
+      0.07014873623847961,
+      0.965872585773468
+    ],
+    "lastAfter": [
+      -0.5086933356208809,
+      -0.2307013941125579,
+      0.4733077375692279,
+      0.6811664573410255
+    ],
+    "lastBefore": [
+      0.06851869821548462,
+      -0.3808196187019348,
+      0.05751131474971771,
+      0.9203119277954102
+    ],
+    "newAccessor": 13661,
+    "newBufferView": 13662,
+    "newKeyCount": 31,
+    "newSamplerBytesSHA256": "1ff0c977be67ccfb48405d50498834726a9dd44d6d6c95527d08c26fb7f1b3d5",
+    "oldAccessor": 6135
+  },
+  "originalBinaryPrefixIdentical": true,
+  "originalRotationFirst": [
+    -0.060765597969293594,
+    -0.2418200820684433,
+    0.07014873623847961,
+    0.965872585773468
+  ],
+  "other22AnimationsByteIdentical": true,
+  "quaternion": [
+    -0.6818061184375608,
+    -0.01460174684795548,
+    0.18688821752613233,
+    0.7071067811865477
+  ],
+  "realSkinnedBounds": [
+    {
+      "maxY": 1.5968201082788471,
+      "minY": 0.006274448878151661,
+      "time": 0.0,
+      "witnessVertices": 4474
+    },
+    {
+      "maxY": 1.635886683180995,
+      "minY": -0.0490912130804335,
+      "time": 0.5,
+      "witnessVertices": 4474
+    },
+    {
+      "maxY": 1.5285505175765546,
+      "minY": 0.012880772603914046,
+      "time": 1.0,
+      "witnessVertices": 4474
+    }
+  ],
+  "rotationDegrees": 90.0,
+  "rotationKeys": 31,
+  "samples": [
+    {
+      "fraction": 0.0,
+      "originalBodyUpDotIdle": 0.473308,
+      "quarterTurnBodyUpDotIdle": 0.888143,
+      "seconds": 0.0
+    },
+    {
+      "fraction": 0.07,
+      "originalBodyUpDotIdle": 0.651729,
+      "quarterTurnBodyUpDotIdle": 0.77006,
+      "seconds": 0.07
+    },
+    {
+      "fraction": 0.18,
+      "originalBodyUpDotIdle": 0.730795,
+      "quarterTurnBodyUpDotIdle": 0.688628,
+      "seconds": 0.18
+    },
+    {
+      "fraction": 0.32,
+      "originalBodyUpDotIdle": 0.64604,
+      "quarterTurnBodyUpDotIdle": 0.670778,
+      "seconds": 0.32
+    },
+    {
+      "fraction": 0.5,
+      "originalBodyUpDotIdle": 0.328773,
+      "quarterTurnBodyUpDotIdle": 0.664673,
+      "seconds": 0.5
+    },
+    {
+      "fraction": 0.75,
+      "originalBodyUpDotIdle": -0.112819,
+      "quarterTurnBodyUpDotIdle": 0.782371,
+      "seconds": 0.75
+    },
+    {
+      "fraction": 1.0,
+      "originalBodyUpDotIdle": 0.132716,
+      "quarterTurnBodyUpDotIdle": 0.975128,
+      "seconds": 1.0
+    }
+  ],
+  "schema": "MUDMAN_HITHEADLEFT_QUARTERTURN_v2.0.27",
+  "sourceSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "status": "EXACT_90_DEGREE_REVIEW_CANDIDATE_UNAPPROVED",
+  "visualAcceptance": "PENDING"
+}
