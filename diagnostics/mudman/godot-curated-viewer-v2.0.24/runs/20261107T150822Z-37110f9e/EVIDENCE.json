@@ -1,0 +1,61 @@
+{
+  "animationKeyframesModified": false,
+  "authority": "TERMUX_GIT_ONLY",
+  "bugRegression": [
+    "StandUp vs ProneBackStandUp",
+    "all 23 exact names",
+    "missing name",
+    "duplicate name"
+  ],
+  "buildToken": "5afe74dba17d230283eb3bd5",
+  "gitSourceBase": "5ca1ec466ce53871122cc74dc056dd1f3252082f",
+  "inputGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "meshAndTextureModified": false,
+  "modelBytes": 7098720,
+  "modelModified": false,
+  "outputGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "ownerVisualAcceptance": "PENDING",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T150822Z-37110f9e",
+  "schema": "MUDMAN_STANDUP_EXACT_SELECTION_v2.0.24",
+  "serverPID": 8188,
+  "sourceCommit": "6685cb923caca5628fe258d5d65a318ddcb5c5c0",
+  "testedAnimations": [
+    "Cross-Enemy",
+    "Run",
+    "BackImpact",
+    "Death",
+    "HitHeadLeft",
+    "HitHeadRightBig",
+    "Idle-Cross",
+    "Jab-Enemy",
+    "KnockedBack",
+    "ProneBack",
+    "ProneBackDamage",
+    "ProneBackStandUp",
+    "ProneFrontDamage",
+    "ProneFront",
+    "StandUp",
+    "StepBack",
+    "StepBackLeft",
+    "StepBackRight",
+    "StepForward",
+    "StepForwardLeft",
+    "StepForwardRight",
+    "StepLeft",
+    "StepRight"
+  ],
+  "viewerHTTPVerified": true,
+  "viewerSelection": "EXACT_UNIQUE",
+  "viewerURL": "http://127.0.0.1:9207/index.html?run=20261107T150822Z-37110f9e&build=5afe74dba17d230283eb3bd5"
+}
