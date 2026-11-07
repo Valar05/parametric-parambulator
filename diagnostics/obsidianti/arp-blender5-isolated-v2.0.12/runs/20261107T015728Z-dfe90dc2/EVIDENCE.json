@@ -1,0 +1,245 @@
+{
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "arpProbe": {
+    "activation": {
+      "blender": "5.0.1",
+      "moduleName": "auto_rig_pro",
+      "remapOperators": {
+        "auto_scale": true,
+        "build_bones_list": true,
+        "retarget": true
+      }
+    },
+    "blenderVersion": "5.0.1",
+    "status": "REAL_PURCHASED_ARP_REMAP_HEADLESS_OPERATOR_REGISTRATION_PASS"
+  },
+  "authority": "TERMUX_GIT_ONLY",
+  "blenderNumpyProof": "BLENDER5_NUMPY_IMPORT=PASS VERSION=2.3.5 PYTHON=3.14.4",
+  "campaignEtiquette": "READ_LIVE_2026_11_06",
+  "canonicalModelModified": false,
+  "canonicalModelSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "gitSourceCommit": "c282ee07df5a1d1b6a16d73ff6e2238508c9f434",
+  "inputGitHead": "e245689a22b6a83c394c6ea7496568435b1cc55f",
+  "isolatedRuntime": "Blender 5.0.1",
+  "oldDebianBlender43Preserved": true,
+  "ownerVisualAcceptance": "PENDING",
+  "renderingIsIndependentFromRetarget": true,
+  "runId": "20261107T015728Z-dfe90dc2",
+  "schema": "OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.12",
+  "sourceAresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "sourceLionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "trials": {
+    "AxeKick": {
+      "blendSHA256": "0932892e1c08465189185365d724b8f0fb64068261f9fc0392002d960e3728b9",
+      "blenderExit": 0,
+      "clip": "AxeKick",
+      "error": "",
+      "errorType": null,
+      "graphic": {
+        "contactSHA256": "60e0d2cb2ee78822b42730f694aff9d8e23378e353bc08f0e688e404edd3c7a1",
+        "distinctFrames": 16,
+        "frames": 16,
+        "gifBytes": 214975,
+        "gifSHA256": "9bd17ff9a2f9edaf7588888893c9a2cf737f50b45ad8353961c97131df0c5bb0"
+      },
+      "mappingBoneCount": 22,
+      "motionGate": true,
+      "rawLogSHA256": "4acc798c7c3764e460e1ee41ff4546ab601a8cb1676f6ed55904d3d3d6af4424",
+      "renderAttempts": [
+        {
+          "blenderExit": 127,
+          "engine": "WORKBENCH",
+          "error": "",
+          "frameCount": 0,
+          "logSHA256": "f9aabf069f99b88ccc2fe65ba73bef149a801fc176310d70bc5ed6fdce5f5630",
+          "status": "START"
+        },
+        {
+          "blenderExit": 0,
+          "engine": "CYCLES_CPU",
+          "error": "",
+          "frameCount": 16,
+          "logSHA256": "07483d9e8337378c1bcefdc8cbbe5dcb9eff5ede4541feb28fa44a70c1b84799",
+          "status": "RENDERED_SAVED_ARP_ACTION"
+        }
+      ],
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 10.194,
+          "LeftFoot": 33.015,
+          "LeftForeArm": 12.244,
+          "LeftLeg": 41.769,
+          "LeftUpLeg": 320.678,
+          "RightArm": 19.435,
+          "RightFoot": 28.072,
+          "RightForeArm": 46.045,
+          "RightLeg": 25.503,
+          "RightUpLeg": 57.045,
+          "Spine2": 16.721
+        },
+        "sampledFrames": 17
+      },
+      "stage": "SAVED_BLEND",
+      "status": "VISUAL_OWNER_REVIEW_PENDING",
+      "targetAction": "AxeKick_remap",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "RightArm",
+          "RightForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 10.194,
+          "LeftFoot": 33.015,
+          "LeftForeArm": 12.244,
+          "LeftLeg": 41.769,
+          "LeftUpLeg": 70.645,
+          "RightArm": 19.435,
+          "RightFoot": 28.072,
+          "RightForeArm": 46.045,
+          "RightLeg": 25.504,
+          "RightUpLeg": 321.097,
+          "Spine2": 16.721
+        },
+        "sampledFrames": 17
+      },
+      "trialStatus": "ARP_RETARGET_SAVED_PENDING_RENDER"
+    },
+    "Heavy1": {
+      "blendSHA256": "f047dc346ca9059ed6da8f3a52b1375f96c6a6cef6ae2cc04a0b660503f1ee5d",
+      "blenderExit": 0,
+      "clip": "Heavy1",
+      "error": "",
+      "errorType": null,
+      "graphic": {
+        "contactSHA256": "31638ecb17a517848f7c548d788b1aff2c51c41978c9836c952355a1f27e2bdc",
+        "distinctFrames": 16,
+        "frames": 16,
+        "gifBytes": 211124,
+        "gifSHA256": "0bd5083d5d7e9174f63fae8d04bbda6417b2fbb29cbdd312b875b88d26c81ac4"
+      },
+      "mappingBoneCount": 22,
+      "motionGate": true,
+      "rawLogSHA256": "c0b93e70a1888c10b2611c720d32de36cc65846f7692eec0a720a65945d18585",
+      "renderAttempts": [
+        {
+          "blenderExit": 127,
+          "engine": "WORKBENCH",
+          "error": "",
+          "frameCount": 0,
+          "logSHA256": "9076a96e1d927a7ebe3d79e7bb803d98aeccaf080cd0aeaadd1cf949c253dc5a",
+          "status": "START"
+        },
+        {
+          "blenderExit": 0,
+          "engine": "CYCLES_CPU",
+          "error": "",
+          "frameCount": 16,
+          "logSHA256": "c4bbf15d4d8bfe0a6d7174b397947be5105a2d4a18ae1c5bc3d91e53b590d5fd",
+          "status": "RENDERED_SAVED_ARP_ACTION"
+        }
+      ],
+      "sourceMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 57.834,
+          "LeftFoot": 49.002,
+          "LeftForeArm": 95.266,
+          "LeftLeg": 47.109,
+          "LeftUpLeg": 293.656,
+          "RightArm": 0.0,
+          "RightFoot": 64.966,
+          "RightForeArm": 0.0,
+          "RightLeg": 63.62,
+          "RightUpLeg": 285.029,
+          "Spine2": 33.586
+        },
+        "sampledFrames": 17
+      },
+      "stage": "SAVED_BLEND",
+      "status": "VISUAL_OWNER_REVIEW_PENDING",
+      "targetAction": "Heavy1_remap",
+      "targetMotion": {
+        "animatedLimbGroups": {
+          "leftLeg": true,
+          "rightLeg": true,
+          "upper": true
+        },
+        "changingBonesOver5Deg": [
+          "LeftUpLeg",
+          "LeftLeg",
+          "LeftFoot",
+          "RightUpLeg",
+          "RightLeg",
+          "RightFoot",
+          "LeftArm",
+          "LeftForeArm",
+          "Spine2"
+        ],
+        "maxRotationDegrees": {
+          "LeftArm": 57.819,
+          "LeftFoot": 49.158,
+          "LeftForeArm": 95.259,
+          "LeftLeg": 47.107,
+          "LeftUpLeg": 70.138,
+          "RightArm": 0.0,
+          "RightFoot": 64.953,
+          "RightForeArm": 0.0,
+          "RightLeg": 63.621,
+          "RightUpLeg": 289.32,
+          "Spine2": 33.586
+        },
+        "sampledFrames": 17
+      },
+      "trialStatus": "ARP_RETARGET_SAVED_PENDING_RENDER"
+    }
+  },
+  "vendorCodePublished": false,
+  "vendorPrivateSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28"
+}
