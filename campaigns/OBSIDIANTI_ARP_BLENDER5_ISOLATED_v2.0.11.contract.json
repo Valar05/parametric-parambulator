@@ -1,0 +1,42 @@
+{
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "authority": "TERMUX_GIT_ONLY",
+  "campaign": "OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11",
+  "campaignEtiquette": "LIVE_READ_2026_11_06",
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "isolatedContainer": "obs-arp-blender50",
+  "isolatedImage": "ubuntu:26.04",
+  "mission": "Privately install SHA-pinned modern proot-distro CLI, provision isolated Ubuntu 26.04 OCI image and Blender 5.0 on ARM64 without touching existing Debian or replacing global proot-distro; run purchased Auto-Rig Pro on SHA-locked Lionheart Heavy1 and optional Ares AxeKick using unchanged official Remap operators; source and real evidence Git pushed only from Termux. Recover missing NumPy dependency only inside the existing verified isolated Ubuntu container, confirm numpy import under the real Blender 5 interpreter, then attempt purchased ARP retarget and publish exact outcomes.",
+  "numPyInstallScope": "Only isolated obs-arp-blender50 container; existing Debian and global Termux unchanged",
+  "numpyDependency": "Ubuntu 26.04 ARM64 python3-numpy; verified by /usr/bin/blender --background --python-expr before vendor import",
+  "originalDebianMutationAllowed": false,
+  "outputEvidencePrefix": "diagnostics/obsidianti/arp-blender5-isolated-v2.0.11/runs/",
+  "ownerVisualAcceptanceRequired": true,
+  "pinnedInputHead": "43ff4f97e9279efdf05287181d79b22e80c25d3c",
+  "privateAddonNeverPublished": true,
+  "privateOciInstaller": {
+    "installScope": "owner Termux home only, separate from system proot-distro",
+    "package": "proot-distro",
+    "source": "PyPI",
+    "version": "5.10.3",
+    "wheelSha256": "88f1a45f13dc2ae9bfc805693ca0908f16444dd696006a90a12a0faabdb8f1c1"
+  },
+  "protectedCanonicalPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "purchasedZipSha256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "requiredBlender": "5.0.x",
+  "sourceAresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "sourceDerivation": "Exact Git-authored v2.0.5 Blender trial/probe scripts with strict one-occurrence patches for Blender 5 and crash-stage receipts, not vendor source modifications",
+  "sourceLionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11.contract.json",
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_blender_probe.py",
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_blender_trial.py",
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_driver.py",
+    "campaigns/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_gif_writer.py",
+    "tests/OBSIDIANTI_ARP_BLENDER5_ISOLATED_v2.0.11_TEST.py"
+  ]
+}
