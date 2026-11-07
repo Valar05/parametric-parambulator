@@ -1,0 +1,20 @@
+{
+  "version": "OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6",
+  "authority": "TERMUX_GIT_ONLY",
+  "priorRunId": "20261106T235842Z-73d0582a",
+  "priorGitEvidenceCommit": "ab13be07fea9d8e289401fde04b7da2f534b9f0d",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6.contract.json",
+    "campaigns/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6_driver.py",
+    "campaigns/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6_gif_writer.py",
+    "campaigns/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6_saved_render.py",
+    "tests/OBSIDIANTI_ARP_RENDER_RECOVERY_v2.0.6_TEST.py"
+  ],
+  "lockedModelPaths": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb"],
+  "canonicalGLBSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "originalLionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "vendorSourceMustNotPublish": true,
+  "allowedOutcome": "Recover genuine previously produced ARP Blender images and/or rerender saved unapproved Blender action; never retarget anew or modify canonical models",
+  "humanAcceptance": "PENDING"
+}
