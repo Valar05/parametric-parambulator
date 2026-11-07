@@ -1,0 +1,293 @@
+{
+  "acceptedAxeKickImported": true,
+  "acceptedAxeKickSourceSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+  "allVanguard19Imported": true,
+  "arpRerun": false,
+  "campaignEtiquette": "LIVE_READ_AND_CONTRACT_PINNED",
+  "candidateBytes": 18119436,
+  "candidateSHA256": "53339b746023c096c1df7196f3adeb29702f63345d45f8fcec75dde49d500b66",
+  "canonicalModified": false,
+  "clipCount": 30,
+  "guardComposition": {
+    "acceptedAxeKickSourceSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+    "acceptedAxeKickVerified": {
+      "channels": 219,
+      "uniqueTargets": 219
+    },
+    "canonicalMutation": false,
+    "canonicalSourceSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+    "clips": [
+      "Running",
+      "ObsidiantiIdle",
+      "Ares_StepForward_Lower",
+      "Ares_StepForwardLeft_Lower",
+      "Ares_StepLeft_Lower",
+      "Ares_StepBackLeft_Lower",
+      "Ares_StepBack_Lower",
+      "Ares_StepBackRight_Lower",
+      "Ares_StepRight_Lower",
+      "Ares_StepForwardRight_Lower",
+      "Vanguard_0T-Pose",
+      "Vanguard_ClubIdle",
+      "Vanguard_Idle",
+      "Vanguard_Jump",
+      "Vanguard_JumpCrouch",
+      "Vanguard_JumpForward",
+      "Vanguard_Land",
+      "Vanguard_LedgeClimb",
+      "Vanguard_LedgeGrab",
+      "Vanguard_LedgeGrabHang",
+      "Vanguard_Midair",
+      "Vanguard_MidairSwordAttack1",
+      "Vanguard_MidairSwordAttack2",
+      "Vanguard_RunForwardOld",
+      "Vanguard_SpinAttack",
+      "Vanguard_SwordAttack1",
+      "Vanguard_SwordAttack2",
+      "Vanguard_SwordAttack4",
+      "Vanguard_SwordAttack5",
+      "AxeKick"
+    ],
+    "count": 30,
+    "excludedHistoricalLionheartAttackVariants": true,
+    "idleBreathingMotion": [
+      {
+        "bone": "mixamorig:Spine1",
+        "rotationDegrees": 0.57261,
+        "samples": 91
+      },
+      {
+        "bone": "mixamorig:Spine2",
+        "rotationDegrees": 0.80165,
+        "samples": 91
+      },
+      {
+        "bone": "mixamorig:Neck",
+        "rotationDegrees": 0.17178,
+        "samples": 91
+      }
+    ],
+    "idleDurationSeconds": 3.0,
+    "lanceRetained": true,
+    "originalEntireMeshAndRigPreserved": true,
+    "originalGuardedStepWitnesses": {
+      "StepBack": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 3.4e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:Spine",
+          0.1533
+        ]
+      },
+      "StepBackLeft": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 4.2e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:Spine",
+          0.7667
+        ]
+      },
+      "StepBackRight": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 2.4e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:LeftArm",
+          0.46
+        ]
+      },
+      "StepForward": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 3.4e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:LeftArm",
+          0.0383
+        ]
+      },
+      "StepForwardLeft": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 2.4e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:LeftArm",
+          0.23
+        ]
+      },
+      "StepForwardRight": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 4.5e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:Spine",
+          0.1533
+        ]
+      },
+      "StepLeft": {
+        "duration": 0.8,
+        "guardMaxWorldRotationErrorDeg": 3.8e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:LeftWeapon.L",
+          0.0
+        ]
+      },
+      "StepRight": {
+        "duration": 0.766667,
+        "guardMaxWorldRotationErrorDeg": 3e-06,
+        "numericGuardWarning": false,
+        "worstBoneTime": [
+          "mixamorig:LeftArm",
+          0.0
+        ]
+      }
+    },
+    "outBytes": 18119436,
+    "outSHA256": "53339b746023c096c1df7196f3adeb29702f63345d45f8fcec75dde49d500b66",
+    "ownerVisualAcceptance": "PENDING",
+    "recovery": {
+      "method": "SHA_VERIFIED_EXACT_V230_COMPLETED_COMPOSITION",
+      "retargetingRerun": false,
+      "unchangedGLBSHA256": "53339b746023c096c1df7196f3adeb29702f63345d45f8fcec75dde49d500b66",
+      "v230ReceiptStatus": "BLOCKED",
+      "v230RunId": "20261107T175155Z-a2d12810"
+    },
+    "schema": "OBSIDIANTI_ANIMATION_REUNION_v2.0.31",
+    "shieldRetained": true,
+    "sourceCounts": {
+      "acceptedAxeKick": 1,
+      "authoredFullIdle": 1,
+      "historicalAresGuardSteps": 8,
+      "running": 1,
+      "vanguard": 19
+    },
+    "status": "30_CLIP_COMBINED_REVIEW_UNAPPROVED",
+    "twoHandedShieldHandling": "PRESERVE_MESH_ALWAYS; RUNTIME_VISIBILITY_CHOICE_NOT_BAKED",
+    "vanguardShieldlessGeometryWasNotImported": true,
+    "vanguardSourceSHA256": "3f27fce824c74fbd0a38c1d4f589ef21818a37afc1926459f9abb5739a23f2ce",
+    "vanguardVerified": [
+      {
+        "channels": 219,
+        "name": "Vanguard_0T-Pose",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_ClubIdle",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_Idle",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_Jump",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_JumpCrouch",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_JumpForward",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_Land",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_LedgeClimb",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_LedgeGrab",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_LedgeGrabHang",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_Midair",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_MidairSwordAttack1",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_MidairSwordAttack2",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_RunForwardOld",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_SpinAttack",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_SwordAttack1",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_SwordAttack2",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_SwordAttack4",
+        "uniqueTargets": 219
+      },
+      {
+        "channels": 219,
+        "name": "Vanguard_SwordAttack5",
+        "uniqueTargets": 219
+      }
+    ]
+  },
+  "historical8GuardStepsUnmodified": true,
+  "originalAuthoredIdleRecovered": true,
+  "ownerVisualAcceptance": "PENDING",
+  "physicalSchemaTests": "PASS: 30 clips, original guarded Ares steps, 3s animated idle, shield mesh retained, Vanguard 19, accepted AxeKick\nRECOVERED_V230_COMPLETED_GLTF=YES SHA256=b1cbad6c68fdf714a6ea9dca28651281a7b51f672f2b45335c1abd8eb68310e9 CLIPS=30\nPREVIOUS_BINARY_RECOVERY_REJECTED=V230_COMPOSED_BINARY_HASH_MISMATCH; NORMAL_VERIFIED_COMPOSE_FALLBACK=YES\nPASS: real skinned GLB reused from failed v2.0.30; hash corruption rejected\nPASS: wrong SHA, collision, and missing Vanguard action are rejected\nV231_30_CLIP_REAL_RIG_TESTS_OK",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T181326Z-8a265a9b",
+  "schema": "OBSIDIANTI_ANIMATION_REUNION_v2.0.31",
+  "shieldAndLanceRetained": true,
+  "sourceCanonicalIdleSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "sourceCommit": "319a6665e8e5a8e3cd0b0c620400dd3125e716b6",
+  "sourceGitHead": "a72db9e0791fb71574d301864cf8d1926c937c14",
+  "sourceVanguardv217SHA256": "3f27fce824c74fbd0a38c1d4f589ef21818a37afc1926459f9abb5739a23f2ce",
+  "status": "REVIEW_READY_NOT_OWNER_ACCEPTED",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9211/index.html?run=20261107T181326Z-8a265a9b&build=3accadba1b7beb33adba4782"
+}
