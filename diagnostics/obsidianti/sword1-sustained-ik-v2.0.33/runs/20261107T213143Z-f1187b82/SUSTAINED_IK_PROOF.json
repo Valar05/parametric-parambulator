@@ -1,0 +1,908 @@
+{
+  "allTrialAudits": [
+    {
+      "attackFromSeconds": 0.23,
+      "attackUntilSeconds": 0.8550000190734863,
+      "bakeFPS": 90,
+      "framesAndMidframes": 114,
+      "maxContactErrorM": 0.007584763683408621,
+      "meanContactErrorM": 0.0005038940335788396,
+      "sourceSha": "9ff2b5423b4bf5fea1bf67295b52d848803381699fede56164aca9ce65bea9b7"
+    }
+  ],
+  "bakeHz": 90,
+  "bakedFrameAndMidframeAudit": {
+    "attackFromSeconds": 0.23,
+    "attackUntilSeconds": 0.8550000190734863,
+    "framesAndMidframes": 114,
+    "maxContactErrorM": 0.007584763683408621,
+    "meanContactErrorM": 0.0005038940335788396
+  },
+  "baseSHA256": "9ff2b5423b4bf5fea1bf67295b52d848803381699fede56164aca9ce65bea9b7",
+  "canonicalModified": false,
+  "frameDiagnostics": [
+    {
+      "gripErrorM": 0.99635133,
+      "phase": "PREP",
+      "stretchFactor": 1.80114,
+      "time": 0.0,
+      "weaponGripWorld": [
+        -0.252226,
+        0.811166,
+        -0.464417
+      ]
+    },
+    {
+      "gripErrorM": 0.99177413,
+      "phase": "PREP",
+      "stretchFactor": 1.802064,
+      "time": 0.011104,
+      "weaponGripWorld": [
+        -0.256786,
+        0.814195,
+        -0.464741
+      ]
+    },
+    {
+      "gripErrorM": 0.97739082,
+      "phase": "PREP",
+      "stretchFactor": 1.804271,
+      "time": 0.022208,
+      "weaponGripWorld": [
+        -0.26961,
+        0.823128,
+        -0.465488
+      ]
+    },
+    {
+      "gripErrorM": 0.95079824,
+      "phase": "PREP",
+      "stretchFactor": 1.806427,
+      "time": 0.033312,
+      "weaponGripWorld": [
+        -0.289119,
+        0.837956,
+        -0.466117
+      ]
+    },
+    {
+      "gripErrorM": 0.90855349,
+      "phase": "PREP",
+      "stretchFactor": 1.806775,
+      "time": 0.044416,
+      "weaponGripWorld": [
+        -0.31342,
+        0.85874,
+        -0.465896
+      ]
+    },
+    {
+      "gripErrorM": 0.84774106,
+      "phase": "PREP",
+      "stretchFactor": 1.803399,
+      "time": 0.055519,
+      "weaponGripWorld": [
+        -0.340433,
+        0.885339,
+        -0.46401
+      ]
+    },
+    {
+      "gripErrorM": 0.76769426,
+      "phase": "PREP",
+      "stretchFactor": 1.79448,
+      "time": 0.066623,
+      "weaponGripWorld": [
+        -0.368047,
+        0.917201,
+        -0.45967
+      ]
+    },
+    {
+      "gripErrorM": 0.67090591,
+      "phase": "PREP",
+      "stretchFactor": 1.778526,
+      "time": 0.077727,
+      "weaponGripWorld": [
+        -0.394302,
+        0.953266,
+        -0.452227
+      ]
+    },
+    {
+      "gripErrorM": 0.56278238,
+      "phase": "PREP",
+      "stretchFactor": 1.754566,
+      "time": 0.088831,
+      "weaponGripWorld": [
+        -0.417581,
+        0.991986,
+        -0.441281
+      ]
+    },
+    {
+      "gripErrorM": 0.45065959,
+      "phase": "PREP",
+      "stretchFactor": 1.722291,
+      "time": 0.099935,
+      "weaponGripWorld": [
+        -0.436759,
+        1.031474,
+        -0.42677
+      ]
+    },
+    {
+      "gripErrorM": 0.34248503,
+      "phase": "PREP",
+      "stretchFactor": 1.682118,
+      "time": 0.111039,
+      "weaponGripWorld": [
+        -0.451273,
+        1.069743,
+        -0.409005
+      ]
+    },
+    {
+      "gripErrorM": 0.24544185,
+      "phase": "PREP",
+      "stretchFactor": 1.63518,
+      "time": 0.122143,
+      "weaponGripWorld": [
+        -0.461112,
+        1.10497,
+        -0.388656
+      ]
+    },
+    {
+      "gripErrorM": 0.16484598,
+      "phase": "PREP",
+      "stretchFactor": 1.583221,
+      "time": 0.133247,
+      "weaponGripWorld": [
+        -0.466711,
+        1.135739,
+        -0.366667
+      ]
+    },
+    {
+      "gripErrorM": 0.10358568,
+      "phase": "PREP",
+      "stretchFactor": 1.528437,
+      "time": 0.144351,
+      "weaponGripWorld": [
+        -0.468804,
+        1.161186,
+        -0.344137
+      ]
+    },
+    {
+      "gripErrorM": 0.06207889,
+      "phase": "PREP",
+      "stretchFactor": 1.47326,
+      "time": 0.155455,
+      "weaponGripWorld": [
+        -0.468269,
+        1.181049,
+        -0.322169
+      ]
+    },
+    {
+      "gripErrorM": 0.03813014,
+      "phase": "PREP",
+      "stretchFactor": 1.420146,
+      "time": 0.166558,
+      "weaponGripWorld": [
+        -0.465988,
+        1.195604,
+        -0.301752
+      ]
+    },
+    {
+      "gripErrorM": 0.02604576,
+      "phase": "PREP",
+      "stretchFactor": 1.37139,
+      "time": 0.177662,
+      "weaponGripWorld": [
+        -0.462765,
+        1.205534,
+        -0.283676
+      ]
+    },
+    {
+      "gripErrorM": 0.01846404,
+      "phase": "PREP",
+      "stretchFactor": 1.328996,
+      "time": 0.188766,
+      "weaponGripWorld": [
+        -0.459273,
+        1.211762,
+        -0.268503
+      ]
+    },
+    {
+      "gripErrorM": 0.01151774,
+      "phase": "PREP",
+      "stretchFactor": 1.29464,
+      "time": 0.19987,
+      "weaponGripWorld": [
+        -0.456055,
+        1.215288,
+        -0.256593
+      ]
+    },
+    {
+      "gripErrorM": 0.00521614,
+      "phase": "PREP",
+      "stretchFactor": 1.2697,
+      "time": 0.210974,
+      "weaponGripWorld": [
+        -0.453527,
+        1.217034,
+        -0.248174
+      ]
+    },
+    {
+      "gripErrorM": 0.00098582,
+      "phase": "PREP",
+      "stretchFactor": 1.255364,
+      "time": 0.222078,
+      "weaponGripWorld": [
+        -0.452008,
+        1.217739,
+        -0.243421
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.252445,
+      "time": 0.233182,
+      "weaponGripWorld": [
+        -0.44818,
+        1.222338,
+        -0.249363
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.253008,
+      "time": 0.244286,
+      "weaponGripWorld": [
+        -0.434646,
+        1.237858,
+        -0.273076
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.25333,
+      "time": 0.25539,
+      "weaponGripWorld": [
+        -0.419063,
+        1.253207,
+        -0.295709
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.253419,
+      "time": 0.266494,
+      "weaponGripWorld": [
+        -0.401519,
+        1.268358,
+        -0.317092
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.254195,
+      "time": 0.277597,
+      "weaponGripWorld": [
+        -0.37193,
+        1.291623,
+        -0.346825
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.255124,
+      "time": 0.288701,
+      "weaponGripWorld": [
+        -0.327887,
+        1.321311,
+        -0.379818
+      ]
+    },
+    {
+      "gripErrorM": 2.6e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.255344,
+      "time": 0.299805,
+      "weaponGripWorld": [
+        -0.278034,
+        1.349786,
+        -0.405506
+      ]
+    },
+    {
+      "gripErrorM": 2.6e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.254937,
+      "time": 0.310909,
+      "weaponGripWorld": [
+        -0.223592,
+        1.376864,
+        -0.422981
+      ]
+    },
+    {
+      "gripErrorM": 2.6e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.241809,
+      "time": 0.322013,
+      "weaponGripWorld": [
+        -0.245024,
+        1.388716,
+        -0.406157
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.224023,
+      "time": 0.333117,
+      "weaponGripWorld": [
+        -0.283725,
+        1.396213,
+        -0.375577
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.204988,
+      "time": 0.344221,
+      "weaponGripWorld": [
+        -0.316539,
+        1.403288,
+        -0.339515
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.184716,
+      "time": 0.355325,
+      "weaponGripWorld": [
+        -0.345004,
+        1.410408,
+        -0.296551
+      ]
+    },
+    {
+      "gripErrorM": 2.4e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.157145,
+      "time": 0.366429,
+      "weaponGripWorld": [
+        -0.410518,
+        1.434857,
+        -0.152822
+      ]
+    },
+    {
+      "gripErrorM": 2.4e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.12404,
+      "time": 0.377532,
+      "weaponGripWorld": [
+        -0.407132,
+        1.462443,
+        0.000343
+      ]
+    },
+    {
+      "gripErrorM": 2.3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.086766,
+      "time": 0.388636,
+      "weaponGripWorld": [
+        -0.34091,
+        1.492112,
+        0.131386
+      ]
+    },
+    {
+      "gripErrorM": 2.3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.078678,
+      "time": 0.39974,
+      "weaponGripWorld": [
+        -0.2719,
+        1.510927,
+        0.217363
+      ]
+    },
+    {
+      "gripErrorM": 2.5e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.152598,
+      "time": 0.410844,
+      "weaponGripWorld": [
+        -0.29244,
+        1.493451,
+        0.288499
+      ]
+    },
+    {
+      "gripErrorM": 2.7e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.225603,
+      "time": 0.421948,
+      "weaponGripWorld": [
+        -0.304029,
+        1.467315,
+        0.36058
+      ]
+    },
+    {
+      "gripErrorM": 2.8e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.29713,
+      "time": 0.433052,
+      "weaponGripWorld": [
+        -0.306716,
+        1.433625,
+        0.430573
+      ]
+    },
+    {
+      "gripErrorM": 2.9e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.336883,
+      "time": 0.444156,
+      "weaponGripWorld": [
+        -0.227796,
+        1.304067,
+        0.530666
+      ]
+    },
+    {
+      "gripErrorM": 2.9e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.31578,
+      "time": 0.45526,
+      "weaponGripWorld": [
+        -0.061528,
+        1.063416,
+        0.568447
+      ]
+    },
+    {
+      "gripErrorM": 2.8e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.255447,
+      "time": 0.466364,
+      "weaponGripWorld": [
+        0.062538,
+        0.823555,
+        0.476247
+      ]
+    },
+    {
+      "gripErrorM": 2.6e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.164736,
+      "time": 0.477468,
+      "weaponGripWorld": [
+        0.08266,
+        0.639199,
+        0.297978
+      ]
+    },
+    {
+      "gripErrorM": 2.4e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.080245,
+      "time": 0.488571,
+      "weaponGripWorld": [
+        0.070697,
+        0.578805,
+        0.11549
+      ]
+    },
+    {
+      "gripErrorM": 2.3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.001926,
+      "time": 0.499675,
+      "weaponGripWorld": [
+        0.080859,
+        0.612957,
+        -0.060119
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.510779,
+      "weaponGripWorld": [
+        0.101203,
+        0.722571,
+        -0.197442
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.521883,
+      "weaponGripWorld": [
+        0.128532,
+        0.880194,
+        -0.265131
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.532987,
+      "weaponGripWorld": [
+        0.133294,
+        0.879867,
+        -0.265825
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.544091,
+      "weaponGripWorld": [
+        0.138007,
+        0.879608,
+        -0.265957
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.555195,
+      "weaponGripWorld": [
+        0.142644,
+        0.879439,
+        -0.265533
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.566299,
+      "weaponGripWorld": [
+        0.145955,
+        0.87983,
+        -0.265444
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.577403,
+      "weaponGripWorld": [
+        0.145869,
+        0.881465,
+        -0.267601
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.588506,
+      "weaponGripWorld": [
+        0.145781,
+        0.883065,
+        -0.269789
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.59961,
+      "weaponGripWorld": [
+        0.14569,
+        0.884628,
+        -0.272007
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.610714,
+      "weaponGripWorld": [
+        0.145686,
+        0.884894,
+        -0.273742
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.621818,
+      "weaponGripWorld": [
+        0.145766,
+        0.883943,
+        -0.275006
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.632922,
+      "weaponGripWorld": [
+        0.145844,
+        0.882969,
+        -0.276278
+      ]
+    },
+    {
+      "gripErrorM": 2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.644026,
+      "weaponGripWorld": [
+        0.145919,
+        0.881972,
+        -0.277557
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.65513,
+      "weaponGripWorld": [
+        0.14721,
+        0.878411,
+        -0.277154
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.666234,
+      "weaponGripWorld": [
+        0.148867,
+        0.874067,
+        -0.276163
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.677338,
+      "weaponGripWorld": [
+        0.150511,
+        0.869737,
+        -0.275103
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.688442,
+      "weaponGripWorld": [
+        0.152399,
+        0.865136,
+        -0.273721
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.699545,
+      "weaponGripWorld": [
+        0.178134,
+        0.832565,
+        -0.243895
+      ]
+    },
+    {
+      "gripErrorM": 2.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.710649,
+      "weaponGripWorld": [
+        0.198793,
+        0.802463,
+        -0.209195
+      ]
+    },
+    {
+      "gripErrorM": 2.2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.721753,
+      "weaponGripWorld": [
+        0.213911,
+        0.77524,
+        -0.170553
+      ]
+    },
+    {
+      "gripErrorM": 2.2e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.732857,
+      "weaponGripWorld": [
+        0.225171,
+        0.744229,
+        -0.114715
+      ]
+    },
+    {
+      "gripErrorM": 2.3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.743961,
+      "weaponGripWorld": [
+        0.22041,
+        0.704977,
+        -0.014201
+      ]
+    },
+    {
+      "gripErrorM": 2.4e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.0,
+      "time": 0.755065,
+      "weaponGripWorld": [
+        0.186333,
+        0.683875,
+        0.082173
+      ]
+    },
+    {
+      "gripErrorM": 2.6e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.015674,
+      "time": 0.766169,
+      "weaponGripWorld": [
+        0.127986,
+        0.681021,
+        0.164662
+      ]
+    },
+    {
+      "gripErrorM": 2.7e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.060125,
+      "time": 0.777273,
+      "weaponGripWorld": [
+        0.053282,
+        0.694865,
+        0.227185
+      ]
+    },
+    {
+      "gripErrorM": 2.8e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.099514,
+      "time": 0.788377,
+      "weaponGripWorld": [
+        -0.029301,
+        0.722548,
+        0.265759
+      ]
+    },
+    {
+      "gripErrorM": 2.9e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.13247,
+      "time": 0.799481,
+      "weaponGripWorld": [
+        -0.111995,
+        0.760764,
+        0.278362
+      ]
+    },
+    {
+      "gripErrorM": 3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.15832,
+      "time": 0.810584,
+      "weaponGripWorld": [
+        -0.18771,
+        0.805773,
+        0.266553
+      ]
+    },
+    {
+      "gripErrorM": 3e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.168643,
+      "time": 0.821688,
+      "weaponGripWorld": [
+        -0.225127,
+        0.833841,
+        0.251094
+      ]
+    },
+    {
+      "gripErrorM": 3.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.174143,
+      "time": 0.832792,
+      "weaponGripWorld": [
+        -0.249791,
+        0.855551,
+        0.23596
+      ]
+    },
+    {
+      "gripErrorM": 3.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.178403,
+      "time": 0.843896,
+      "weaponGripWorld": [
+        -0.271466,
+        0.877061,
+        0.217716
+      ]
+    },
+    {
+      "gripErrorM": 3.1e-07,
+      "phase": "ATTACK",
+      "stretchFactor": 1.181551,
+      "time": 0.855,
+      "weaponGripWorld": [
+        -0.290011,
+        0.89814,
+        0.196714
+      ]
+    }
+  ],
+  "generatedVariant": "Vanguard_SwordAttack1_TwoHand_GripIK",
+  "gripLocalOnMovingLance": [
+    -0.018,
+    -0.235,
+    0.0
+  ],
+  "initialSpearPose": "Lionheart_Light1",
+  "keyCount": 78,
+  "leadSeconds": 0.23,
+  "leftHandIK": "BLENDED_IN_DURING_PREP__LOCKED_AT_EVERY_ATTACK_SAMPLE",
+  "maxGripErrorAfterPrepM": 3.1e-07,
+  "maxStretchFactor": 1.806775,
+  "outputBytes": 19193384,
+  "outputClipCount": 42,
+  "outputSHA256": "899aa3f7f24fb3b36e80a1c96cff7d032dcacf27f990231203ba5c08f2ee066b",
+  "ownerVisualAcceptance": "PENDING",
+  "schema": "OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33",
+  "shieldScaleAtAttack": 0.08,
+  "shieldTipDirection": "TOWARD_LEFT_ELBOW",
+  "sourceAttackDurationSeconds": 0.625,
+  "sourceClipCount": 41,
+  "sourceSwordAttack": "Vanguard_SwordAttack1",
+  "status": "BAKED_42_CLIPS_SUSTAINED_TWO_HAND_IK_REVIEW",
+  "stretchMode": "EXPLICIT_LENGTHENED_LEFT_ARM_CHAIN_TRANSLATIONS",
+  "variantDurationSeconds": 0.855
+}

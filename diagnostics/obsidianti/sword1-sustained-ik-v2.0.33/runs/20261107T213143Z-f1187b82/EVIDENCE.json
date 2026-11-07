@@ -1,0 +1,36 @@
+{
+  "animationCount": 42,
+  "authority": "TERMUX_GIT_ONLY",
+  "base41SHA256": "9ff2b5423b4bf5fea1bf67295b52d848803381699fede56164aca9ce65bea9b7",
+  "canonicalModified": false,
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "fullAttackIK": true,
+  "inputGitHead": "dbaf788e7ec30e659920c9a02a5ab6a49d5e388a",
+  "maxArmStretchFactor": 1.806775,
+  "maxGripErrorMidframeM": 0.007584763683408621,
+  "newVariant": "Vanguard_SwordAttack1_TwoHand_GripIK",
+  "original41PreservedExact": true,
+  "ownerVisualAcceptance": "PENDING",
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/animation-reunion-v2.0.32/runs/20261107T203838Z-d49615bb/OBSIDIANTI_41_CLIP_SHIELD_LANCE_LIONHEART_ARP_REVIEW_UNAPPROVED.glb": "2b7e9148d3c5a36ce885151ec9ac1e41099ff94f",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98",
+    "diagnostics/obsidianti/vanguard-rigify-arp-v2.0.17/runs/20261107T044021Z-81e43a05/OBSIDIANTI_VANGUARD_ARP_EXPERIMENT_UNAPPROVED.glb": "dea170a18e2f597a061da79fc50cf016639a73d6"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/animation-reunion-v2.0.32/runs/20261107T203838Z-d49615bb/OBSIDIANTI_41_CLIP_SHIELD_LANCE_LIONHEART_ARP_REVIEW_UNAPPROVED.glb": "2b7e9148d3c5a36ce885151ec9ac1e41099ff94f",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98",
+    "diagnostics/obsidianti/vanguard-rigify-arp-v2.0.17/runs/20261107T044021Z-81e43a05/OBSIDIANTI_VANGUARD_ARP_EXPERIMENT_UNAPPROVED.glb": "dea170a18e2f597a061da79fc50cf016639a73d6"
+  },
+  "resultSHA256": "899aa3f7f24fb3b36e80a1c96cff7d032dcacf27f990231203ba5c08f2ee066b",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T213143Z-f1187b82",
+  "schema": "OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33",
+  "shieldOriginalMeshPreserved": true,
+  "sourceCommit": "f8907d676d1d6bce2533831fb0d3184a39d0d51f",
+  "status": "REVIEW_UNAPPROVED",
+  "viewerURL": "http://127.0.0.1:9213/index.html?run=20261107T213143Z-f1187b82&build=7394fdfd241c9cebc44421ba"
+}
