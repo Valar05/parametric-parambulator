@@ -1,0 +1,583 @@
+{
+  "acceptedCount": 3,
+  "allModelGeometryAndTexturePreserved": true,
+  "candidates": [
+    {
+      "angleDegrees": 61.27992,
+      "axis": [
+        -0.99313,
+        -0.0272,
+        0.11382
+      ],
+      "correctedHeight": 1.6915226576045714,
+      "deltaQuaternion": [
+        -0.5061397643462018,
+        -0.013862379906847865,
+        0.05800778863601763,
+        0.8603868140716993
+      ],
+      "geometryAfter": {
+        "maxY": 1.5912712509910263,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": -0.10025140661354523,
+        "witnessVertices": 4474
+      },
+      "geometryBefore": {
+        "maxY": 1.3994970653703465,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": 0.2193281014050453,
+        "witnessVertices": 4474
+      },
+      "idleHeight": 1.6177196211108458,
+      "method": "LOCAL_REFERENCE_DELTA",
+      "mutation": {
+        "firstAfter": [
+          -0.5280933941289101,
+          -0.18946790570033495,
+          0.23793557129089254,
+          0.792846734054832
+        ],
+        "firstBefore": [
+          -0.060765597969293594,
+          -0.2418200820684433,
+          0.07014873623847961,
+          0.965872585773468
+        ],
+        "lastAfter": [
+          -0.38556061951533505,
+          -0.30732651216198376,
+          0.2965650224693265,
+          0.8178891190430821
+        ],
+        "lastBefore": [
+          0.06851869821548462,
+          -0.3808196187019348,
+          0.05751131474971771,
+          0.9203119277954102
+        ],
+        "newAccessor": 13661,
+        "newBufferView": 13662,
+        "newKeyCount": 31,
+        "newSamplerBytesSHA256": "ea1e0fc9e7b6a382a0735ae6117f2e32e33cc8c63ec4e2da011875cdbd9c1027",
+        "oldAccessor": 6135
+      },
+      "node": "mixamorig:Hips",
+      "nodeIndex": 57,
+      "originalHeight": 1.1801689639653012,
+      "qualifies": true,
+      "sampleDots": [
+        {
+          "after": 0.994376,
+          "before": 0.473308,
+          "t": 0.0
+        },
+        {
+          "after": 0.966276,
+          "before": 0.651729,
+          "t": 0.07
+        },
+        {
+          "after": 0.9496,
+          "before": 0.730795,
+          "t": 0.18
+        },
+        {
+          "after": 0.937992,
+          "before": 0.64604,
+          "t": 0.32
+        },
+        {
+          "after": 0.829237,
+          "before": 0.328773,
+          "t": 0.5
+        },
+        {
+          "after": 0.715506,
+          "before": -0.112819,
+          "t": 0.75
+        },
+        {
+          "after": 0.932781,
+          "before": 0.132716,
+          "t": 1.0
+        }
+      ],
+      "score": 2.43848,
+      "sourceLocalAngleToIdle": 61.2799157394401
+    },
+    {
+      "angleDegrees": 61.75075,
+      "axis": [
+        -0.98612,
+        0.08035,
+        0.14528
+      ],
+      "correctedHeight": 1.653944909596561,
+      "deltaQuaternion": [
+        -0.5060508053515053,
+        0.041235197939395465,
+        0.0745530776809435,
+        0.8582855465765988
+      ],
+      "geometryAfter": {
+        "maxY": 1.593518661262809,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": -0.06042624833375202,
+        "witnessVertices": 4474
+      },
+      "geometryBefore": {
+        "maxY": 1.3994970653703465,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": 0.2193281014050453,
+        "witnessVertices": 4474
+      },
+      "idleHeight": 1.6177196211108458,
+      "method": "WORLD_BODY_UP",
+      "mutation": {
+        "firstAfter": [
+          -0.5200137781212318,
+          -0.13675416460514425,
+          0.2570953353105737,
+          0.8029856521686891
+        ],
+        "firstBefore": [
+          -0.060765597969293594,
+          -0.2418200820684433,
+          0.07014873623847961,
+          0.965872585773468
+        ],
+        "lastAfter": [
+          -0.3761532207497686,
+          -0.2546908044034714,
+          0.3078619110884582,
+          0.8359798995028833
+        ],
+        "lastBefore": [
+          0.06851869821548462,
+          -0.3808196187019348,
+          0.05751131474971771,
+          0.9203119277954102
+        ],
+        "newAccessor": 13661,
+        "newBufferView": 13662,
+        "newKeyCount": 31,
+        "newSamplerBytesSHA256": "af772852e0e8acbf4a1f86f7d3bda53f34e98528b2be5602ccedb1664eefbb27",
+        "oldAccessor": 6135
+      },
+      "node": "mixamorig:Hips",
+      "nodeIndex": 57,
+      "originalHeight": 1.1801689639653012,
+      "qualifies": true,
+      "sampleDots": [
+        {
+          "after": 1.0,
+          "before": 0.473308,
+          "t": 0.0
+        },
+        {
+          "after": 0.974929,
+          "before": 0.651729,
+          "t": 0.07
+        },
+        {
+          "after": 0.94463,
+          "before": 0.730795,
+          "t": 0.18
+        },
+        {
+          "after": 0.903427,
+          "before": 0.64604,
+          "t": 0.32
+        },
+        {
+          "after": 0.766477,
+          "before": 0.328773,
+          "t": 0.5
+        },
+        {
+          "after": 0.664988,
+          "before": -0.112819,
+          "t": 0.75
+        },
+        {
+          "after": 0.927407,
+          "before": 0.132716,
+          "t": 1.0
+        }
+      ],
+      "score": 2.457268,
+      "sourceLocalAngleToIdle": 61.2799157394401
+    },
+    {
+      "angleDegrees": 62.38362,
+      "axis": [
+        -0.96422,
+        -0.02065,
+        0.2643
+      ],
+      "correctedHeight": 1.6645887843016065,
+      "deltaQuaternion": [
+        -0.4993731807245996,
+        -0.010695774281147125,
+        0.13688436140046883,
+        0.8554383077636336
+      ],
+      "geometryAfter": {
+        "maxY": 1.5916092308466379,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": -0.07297955345496876,
+        "witnessVertices": 4474
+      },
+      "geometryBefore": {
+        "maxY": 1.3994970653703465,
+        "meshDetails": [
+          {
+            "maxSampleStride": 1,
+            "mesh": "geometry_0",
+            "sampledVertices": 4474,
+            "totalVertices": 4474
+          }
+        ],
+        "minY": 0.2193281014050453,
+        "witnessVertices": 4474
+      },
+      "idleHeight": 1.6177196211108458,
+      "method": "WORLD_TORSO_FRAME",
+      "mutation": {
+        "firstAfter": [
+          -0.5019609662824299,
+          -0.19048036928025566,
+          0.31232928001274235,
+          0.783710940394728
+        ],
+        "firstBefore": [
+          -0.060765597969293594,
+          -0.2418200820684433,
+          0.07014873623847961,
+          0.965872585773468
+        ],
+        "lastAfter": [
+          -0.349452454905917,
+          -0.2975123939333213,
+          0.3660776589702198,
+          0.8095409222634615
+        ],
+        "lastBefore": [
+          0.06851869821548462,
+          -0.3808196187019348,
+          0.05751131474971771,
+          0.9203119277954102
+        ],
+        "newAccessor": 13661,
+        "newBufferView": 13662,
+        "newKeyCount": 31,
+        "newSamplerBytesSHA256": "1a3f0dee2de43bcc9a038b31b83dc0c0627f638caeac9a4b03604a34e01673c2",
+        "oldAccessor": 6135
+      },
+      "node": "mixamorig:Hips",
+      "nodeIndex": 57,
+      "originalHeight": 1.1801689639653012,
+      "qualifies": true,
+      "sampleDots": [
+        {
+          "after": 1.0,
+          "before": 0.473308,
+          "t": 0.0
+        },
+        {
+          "after": 0.974929,
+          "before": 0.651729,
+          "t": 0.07
+        },
+        {
+          "after": 0.94463,
+          "before": 0.730795,
+          "t": 0.18
+        },
+        {
+          "after": 0.903427,
+          "before": 0.64604,
+          "t": 0.32
+        },
+        {
+          "after": 0.766477,
+          "before": 0.328773,
+          "t": 0.5
+        },
+        {
+          "after": 0.664988,
+          "before": -0.112819,
+          "t": 0.75
+        },
+        {
+          "after": 0.927407,
+          "before": 0.132716,
+          "t": 1.0
+        }
+      ],
+      "score": 2.459521,
+      "sourceLocalAngleToIdle": 61.2799157394401
+    }
+  ],
+  "chosen": {
+    "angleDegrees": 62.38362,
+    "axis": [
+      -0.96422,
+      -0.02065,
+      0.2643
+    ],
+    "correctedHeight": 1.6645887843016065,
+    "deltaQuaternion": [
+      -0.4993731807245996,
+      -0.010695774281147125,
+      0.13688436140046883,
+      0.8554383077636336
+    ],
+    "geometryAfter": {
+      "maxY": 1.5916092308466379,
+      "meshDetails": [
+        {
+          "maxSampleStride": 1,
+          "mesh": "geometry_0",
+          "sampledVertices": 4474,
+          "totalVertices": 4474
+        }
+      ],
+      "minY": -0.07297955345496876,
+      "witnessVertices": 4474
+    },
+    "geometryBefore": {
+      "maxY": 1.3994970653703465,
+      "meshDetails": [
+        {
+          "maxSampleStride": 1,
+          "mesh": "geometry_0",
+          "sampledVertices": 4474,
+          "totalVertices": 4474
+        }
+      ],
+      "minY": 0.2193281014050453,
+      "witnessVertices": 4474
+    },
+    "idleHeight": 1.6177196211108458,
+    "method": "WORLD_TORSO_FRAME",
+    "mutation": {
+      "firstAfter": [
+        -0.5019609662824299,
+        -0.19048036928025566,
+        0.31232928001274235,
+        0.783710940394728
+      ],
+      "firstBefore": [
+        -0.060765597969293594,
+        -0.2418200820684433,
+        0.07014873623847961,
+        0.965872585773468
+      ],
+      "lastAfter": [
+        -0.349452454905917,
+        -0.2975123939333213,
+        0.3660776589702198,
+        0.8095409222634615
+      ],
+      "lastBefore": [
+        0.06851869821548462,
+        -0.3808196187019348,
+        0.05751131474971771,
+        0.9203119277954102
+      ],
+      "newAccessor": 13661,
+      "newBufferView": 13662,
+      "newKeyCount": 31,
+      "newSamplerBytesSHA256": "1a3f0dee2de43bcc9a038b31b83dc0c0627f638caeac9a4b03604a34e01673c2",
+      "oldAccessor": 6135
+    },
+    "node": "mixamorig:Hips",
+    "nodeIndex": 57,
+    "originalHeight": 1.1801689639653012,
+    "qualifies": true,
+    "sampleDots": [
+      {
+        "after": 1.0,
+        "before": 0.473308,
+        "t": 0.0
+      },
+      {
+        "after": 0.974929,
+        "before": 0.651729,
+        "t": 0.07
+      },
+      {
+        "after": 0.94463,
+        "before": 0.730795,
+        "t": 0.18
+      },
+      {
+        "after": 0.903427,
+        "before": 0.64604,
+        "t": 0.32
+      },
+      {
+        "after": 0.766477,
+        "before": 0.328773,
+        "t": 0.5
+      },
+      {
+        "after": 0.664988,
+        "before": -0.112819,
+        "t": 0.75
+      },
+      {
+        "after": 0.927407,
+        "before": 0.132716,
+        "t": 1.0
+      }
+    ],
+    "score": 2.459521,
+    "sourceLocalAngleToIdle": 61.2799157394401
+  },
+  "mutatedTrack": {
+    "firstAfter": [
+      -0.5019609662824299,
+      -0.19048036928025566,
+      0.31232928001274235,
+      0.783710940394728
+    ],
+    "firstBefore": [
+      -0.060765597969293594,
+      -0.2418200820684433,
+      0.07014873623847961,
+      0.965872585773468
+    ],
+    "lastAfter": [
+      -0.349452454905917,
+      -0.2975123939333213,
+      0.3660776589702198,
+      0.8095409222634615
+    ],
+    "lastBefore": [
+      0.06851869821548462,
+      -0.3808196187019348,
+      0.05751131474971771,
+      0.9203119277954102
+    ],
+    "newAccessor": 13661,
+    "newBufferView": 13662,
+    "newKeyCount": 31,
+    "newSamplerBytesSHA256": "1a3f0dee2de43bcc9a038b31b83dc0c0627f638caeac9a4b03604a34e01673c2",
+    "oldAccessor": 6135
+  },
+  "otherClipsByteEquivalent": 22,
+  "otherClipsUnchanged": true,
+  "outputBytes": 7099352,
+  "outputSHA256": "3753b68c100e6af406a0a9211579227ce6702d70c13ff2f708d66fbfa6724b16",
+  "ownerVisualAcceptance": "PENDING",
+  "parentChain": [
+    {
+      "index": 57,
+      "name": "mixamorig:Hips"
+    },
+    {
+      "index": 59,
+      "name": "SmartRigArmature"
+    },
+    {
+      "index": 60,
+      "name": "Mudman_Ground_Origin"
+    }
+  ],
+  "schema": "MUDMAN_HITHEADLEFT_FRAME_v2.0.26",
+  "scope": "ONE_TARGET_CLIP_ROTATION_TRACK_ONLY",
+  "sourceOriginalSummary": {
+    "badFrame": {
+      "right": [
+        -0.9462735422814816,
+        0.31164880300561565,
+        -0.08626358886125725
+      ],
+      "up": [
+        0.026434412952554408,
+        0.3404258469741281,
+        0.939899709822171
+      ]
+    },
+    "bodyDotIdle": 0.4733081589245819,
+    "firstTime": 0.0,
+    "idleFrame": {
+      "right": [
+        -0.8430057188455474,
+        -0.029861380345312286,
+        -0.5370750934064754
+      ],
+      "up": [
+        -0.1318690739240509,
+        0.9794621756646827,
+        0.15252669859608003
+      ]
+    },
+    "lastTime": 1.0,
+    "oppositeFrame": {
+      "right": [
+        -0.7045129485534576,
+        0.307331674151086,
+        0.6396942608653011
+      ],
+      "up": [
+        0.1363642522165723,
+        0.9431958077472345,
+        -0.3029628012899546
+      ]
+    },
+    "referenceDot": 0.859632474399592
+  },
+  "sourceSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "status": "WORLD_FRAME_REPAIR_CANDIDATE_UNAPPROVED",
+  "target": "HitHeadLeft",
+  "v225PriorForensic": {
+    "blocker": "RuntimeError:CANNOT_ISOLATE_UNIQUE_90_DEG_ROOT_CHANNEL_0",
+    "oldCandidateAngles": [
+      {
+        "node": "mixamorig:Hips",
+        "offAxisDegrees": 61.27992,
+        "qualifies": false,
+        "referenceRotationsAgreeDegrees": 41.26061
+      }
+    ],
+    "referenceBodyDirectionDot": 0.859632474399592
+  }
+}

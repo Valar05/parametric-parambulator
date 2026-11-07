@@ -1,0 +1,30 @@
+{
+  "allOther22ClipsUnchanged": true,
+  "angleMeasuredDegrees": 62.38362,
+  "authority": "TERMUX_GIT_ONLY",
+  "candidateSHA256": "3753b68c100e6af406a0a9211579227ce6702d70c13ff2f708d66fbfa6724b16",
+  "canonicalAndOthersProtectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "canonicalAndOthersProtectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "noARPRerun": true,
+  "noOriginalGravityFistSourceMutation": true,
+  "originalSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "ownerVisualAcceptance": "PENDING",
+  "rotationNode": "mixamorig:Hips",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T154910Z-52c55251",
+  "schema": "MUDMAN_HITHEADLEFT_FRAME_v2.0.26",
+  "sourceCommit": "808ada43f5819905567cea685245058a4b0a1a92",
+  "status": "REVIEW_READY_NOT_OWNER_ACCEPTED",
+  "testResults": "PASS: REAL_GLB_PARSER_SYNTHETIC_90DEG_ROOT_REPAIR_22_CLIPS_PRESERVED\nPASS: X_AND_Z_TIPPING_WITH_ROTATED_PARENT_WORLD_FRAME\nPASS: YAW_ONLY_NOT_TREATED_AS_90_DEG_SIDEWAYS_TIP\nPASS: NEAR_MISS_15_40_145_DEGREES_BLOCKED_NO_MODEL\nPASS: WRONG_SOURCE_SHA_BLOCKED\nPASS: OUTPUT_COLLISION_NO_OVERWRITE\nV226_TESTS_OK",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9208/index.html?run=20261107T154910Z-52c55251&build=0965326db7149c2807c2643c"
+}
