@@ -1,0 +1,259 @@
+{
+  "animationMap": [
+    {
+      "from": "Mudman_Cross-Enemy",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "Cross-Enemy"
+    },
+    {
+      "from": "Mudman_Run",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "Run"
+    },
+    {
+      "from": "Mudman_BackImpact__OBHitHeadLeft",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "BackImpact"
+    },
+    {
+      "from": "Mudman_Death",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "Death"
+    },
+    {
+      "from": "Mudman_HitHeadLeft",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "HitHeadLeft"
+    },
+    {
+      "from": "Mudman_HitHeadRightBig",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "HitHeadRightBig"
+    },
+    {
+      "from": "Mudman_Idle__OBCross",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "Idle-Cross"
+    },
+    {
+      "from": "Mudman_Jab-Enemy__OBCross",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "Jab-Enemy"
+    },
+    {
+      "from": "Mudman_KnockedBack",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "KnockedBack"
+    },
+    {
+      "from": "Mudman_ProneBack",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "ProneBack"
+    },
+    {
+      "from": "Mudman_ProneBackDamage",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "ProneBackDamage"
+    },
+    {
+      "from": "Mudman_ProneBackStandUp",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "ProneBackStandUp"
+    },
+    {
+      "from": "Mudman_ProneFrontDamage__OBHitHeadLeft",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "ProneFrontDamage"
+    },
+    {
+      "from": "Mudman_ProneFront__OBHitHeadLeft",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "ProneFront"
+    },
+    {
+      "from": "Mudman_StandUp__OBHitHeadLeft",
+      "reason": "EXPLICIT_ALIAS",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StandUp"
+    },
+    {
+      "from": "Mudman_StepBack",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepBack"
+    },
+    {
+      "from": "Mudman_StepBackLeft",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepBackLeft"
+    },
+    {
+      "from": "Mudman_StepBackRight",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepBackRight"
+    },
+    {
+      "from": "Mudman_StepForward",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepForward"
+    },
+    {
+      "from": "Mudman_StepForwardLeft",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepForwardLeft"
+    },
+    {
+      "from": "Mudman_StepForwardRight",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepForwardRight"
+    },
+    {
+      "from": "Mudman_StepLeft",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepLeft"
+    },
+    {
+      "from": "Mudman_StepRight",
+      "reason": "SOURCE_DATA",
+      "source": "Original Ares -> Godot SecurityTitan scene",
+      "to": "StepRight"
+    }
+  ],
+  "animationsAfter": 23,
+  "animationsBefore": 77,
+  "excludedAnimationNames": [
+    "Mudman_Cross-Player",
+    "Mudman_Armature.001|mixamo.com|Layer0",
+    "Mudman_Armature.001|mixamo.com|Layer0.001",
+    "Mudman_Armature.001|mixamo.com|Layer0.002",
+    "Mudman_Armature.001|mixamo.com|Layer0.003",
+    "Mudman_Armature.001|mixamo.com|Layer0.004",
+    "Mudman_Armature.001|mixamo.com|Layer0.005",
+    "Mudman_Armature.001|mixamo.com|Layer0.006",
+    "Mudman_Armature.001|mixamo.com|Layer0.007",
+    "Mudman_Armature.001|mixamo.com|Layer0.008",
+    "Mudman_Armature.001|mixamo.com|Layer0.009",
+    "Mudman_Armature.001|mixamo.com|Layer0.010",
+    "Mudman_AxeKick__OBCross",
+    "Mudman_AxeKick__OBHitHeadLeft",
+    "Mudman_AxeKick__OBIdle",
+    "Mudman_AxleKick",
+    "Mudman_BackImpact__OBCross",
+    "Mudman_BackImpact__OBIdle",
+    "Mudman_Backfist",
+    "Mudman_Block",
+    "Mudman_CoriPunchMove",
+    "Mudman_Cross__OBIdle",
+    "Mudman_CurbStomp__OBCross",
+    "Mudman_CurbStomp__OBHitHeadLeft",
+    "Mudman_CurbStomp__OBIdle",
+    "Mudman_FrontKick",
+    "Mudman_GravityFist__OBCross",
+    "Mudman_GravityFist__OBHitHeadLeft",
+    "Mudman_GravityFist__OBIdle",
+    "Mudman_Headbutt",
+    "Mudman_HitHeadLeftPlayer",
+    "Mudman_Hook",
+    "Mudman_Idle__OBIdle",
+    "Mudman_Jab-Enemy__OBHitHeadLeft",
+    "Mudman_Jab-Enemy__OBIdle",
+    "Mudman_Jab__OBCross",
+    "Mudman_Jab__OBHitHeadLeft",
+    "Mudman_Jab__OBIdle",
+    "Mudman_KnockedBackward",
+    "Mudman_LeftUppercut",
+    "Mudman_LowBackKick__OBCross",
+    "Mudman_LowBackKick__OBHitHeadLeft",
+    "Mudman_LowBackKick__OBIdle",
+    "Mudman_ProneFrontDamage__OBCross",
+    "Mudman_ProneFrontDamage__OBIdle",
+    "Mudman_ProneFront__OBCross",
+    "Mudman_ProneFront__OBIdle",
+    "Mudman_RightUppercut",
+    "Mudman_SpinningHighKick",
+    "Mudman_StandUp__OBCross",
+    "Mudman_StandUp__OBIdle",
+    "Mudman_SupermanPunch__OBCross",
+    "Mudman_SupermanPunch__OBHitHeadLeft",
+    "Mudman_SupermanPunch__OBIdle"
+  ],
+  "godotEvidence": {
+    "SecurityTitanSceneBlobSHA": "4f07c8c2af40038c1f672750b8a155f53f123b6d",
+    "TitanAttackDataBlobSHA": "f2a1036f75cc7c4b7821e700ffa61a6bed7980fc",
+    "missingGodotSpecificSource": [
+      "HitHeadRight",
+      "Idle-Cross exact named Ares source action"
+    ],
+    "retainedStaticHoldStates": [
+      "ProneBack",
+      "ProneFront"
+    ],
+    "source": "Valar05/gravity-fist"
+  },
+  "groundOffsetMeters": -0.7317988194379893,
+  "groundingMethod": "UNANIMATED_PARENT_TRANSLATION_FROM_ACTUAL_SKINNED_IDLE_VERTEX_MINIMUM",
+  "originalAnimationCurvesAndSkinUnchanged": true,
+  "outputBytes": 7098720,
+  "outputGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "ownerVisualAcceptance": "PENDING",
+  "schema": "MUDMAN_GODOT_CURATED_v2.0.23",
+  "skinnedGroundAfter": {
+    "maxY": 1.617719620548835,
+    "meshDetails": [
+      {
+        "maxSampleStride": 1,
+        "mesh": "geometry_0",
+        "sampledVertices": 4474,
+        "totalVertices": 4474
+      }
+    ],
+    "minY": -5.620108638978874e-10,
+    "witnessVertices": 4474
+  },
+  "skinnedOriginalGround": {
+    "maxY": 2.349518440548835,
+    "meshDetails": [
+      {
+        "maxSampleStride": 1,
+        "mesh": "geometry_0",
+        "sampledVertices": 4474,
+        "totalVertices": 4474
+      }
+    ],
+    "minY": 0.7317988194379893,
+    "witnessVertices": 4474
+  },
+  "sourceBinPrefixUnchanged": true,
+  "sourceGLBSHA256": "396e9cf024846ba9e8c5159a9b8660b21a296a73a6e656d4c347dc86780079d6",
+  "status": "CURATED_MUDMAN_REVIEW_PENDING",
+  "textureDimensions": [
+    2048,
+    2048
+  ],
+  "textureEmbeddedSHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "textureOriginalSHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "texturedMaterialIndices": [
+    0
+  ],
+  "texturedMeshPrimitives": 1
+}

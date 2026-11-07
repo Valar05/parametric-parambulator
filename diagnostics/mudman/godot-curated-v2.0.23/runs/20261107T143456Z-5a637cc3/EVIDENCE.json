@@ -1,0 +1,34 @@
+{
+  "animationKeyframesPreserved": true,
+  "authority": "TERMUX_GIT_ONLY",
+  "canonicalModified": false,
+  "curatedClips": 23,
+  "groundOffsetMeters": -0.7317988194379893,
+  "inputAresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "inputGitHead": "95aa8562e2036cd11e3d1063b5b569f92afef53b",
+  "originalMeshAndSkinPreserved": true,
+  "outputBytes": 7098720,
+  "outputGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "ownerMudmanZipSHA256": "fbcb592ac941dbc34ecade66b044b551f5bd55bf5855be50d8af5caba0514f79",
+  "ownerVisualAcceptance": "PENDING",
+  "previousAcceptedActionsModified": false,
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/arp-interactive-review-v2.0.13/runs/20261107T021037Z-2edec0d5/AxeKick/ARP_AxeKick_REVIEW.glb": "44f3f86c52a8cead3d71640fa31be15aff091b98"
+  },
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261107T143456Z-5a637cc3",
+  "schema": "MUDMAN_GODOT_CURATED_v2.0.23",
+  "sourceCommit": "78a29b587564dce26df0a9c1ff7c54d7040ec18a",
+  "sourceReviewGLBSHA256": "396e9cf024846ba9e8c5159a9b8660b21a296a73a6e656d4c347dc86780079d6",
+  "testReceipt": "V2.0.23_PATCH_TESTS_OK synthetic_skin=YES actual_owner_texture_sha=YES filtered=23 preserved=YES bad_uv=BLOCKED bad_sha=BLOCKED collision=BLOCKED",
+  "textureSHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "viewerHTTPVerified": true,
+  "viewerURL": "http://127.0.0.1:9206/index.html?run=20261107T143456Z-5a637cc3&build=3d27648e23b701e5670b1566"
+}
