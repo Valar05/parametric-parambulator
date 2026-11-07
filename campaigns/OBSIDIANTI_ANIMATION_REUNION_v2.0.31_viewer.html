@@ -1,0 +1,148 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Obsidianti | 30-clip shield and lance combat v2.0.31</title>
+<style>
+:root{font-family:system-ui,Arial,sans-serif;color:#eaf1fb;background:#131c2b;color-scheme:dark}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden}body{display:flex;flex-direction:column;min-height:100dvh}
+header{padding:9px 12px;background:#1c293e}h1{font-size:17px;margin:0 0 4px}
+#identity{font:11px/1.5 ui-monospace,monospace;color:#b8cde2;overflow-wrap:anywhere}
+#status{margin:5px 0 0;color:#ffe29e;font-size:12px;min-height:19px}
+main{position:relative;flex:1;min-height:150px;touch-action:none}canvas{display:block;width:100%;height:100%;touch-action:none}
+#overlay{position:absolute;top:10px;left:10px;font-size:12px;background:#131d2ada;border:1px solid #607792;border-radius:7px;padding:8px;max-width:85%;pointer-events:none;overflow-wrap:anywhere}
+#overlay strong{color:#a0f5bf}#dock{background:#1c293e;padding:9px 11px max(12px,env(safe-area-inset-bottom));display:grid;gap:9px;max-height:45dvh;overflow:auto}
+.controls{display:flex;flex-wrap:wrap;align-items:center;gap:8px}select,button{font:inherit;font-size:14px;background:#31465f;color:#fff;border:1px solid #7f97b0;border-radius:7px;padding:8px 10px;min-height:39px}
+select:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #c6edff;outline-offset:2px}
+button:disabled{opacity:.5}label{font-size:13px}#motion{min-width:165px;flex:1}#source{flex:1;min-width:180px}
+#scrub{flex:1;min-width:70px;accent-color:#8bc7fb}#time{font:12px ui-monospace,monospace;min-width:80px;text-align:right}
+#note{font-size:11px;line-height:1.45;color:#b9cfe4;margin:0}
+</style><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.181.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/"}}</script>
+</head><body>
+<header><h1>Obsidianti | 30-clip shield + lance animation library</h1><div id="identity">Verifying Git, script, model and viewer identity</div><div id="status" role="status" aria-live="polite">Reading manifest…</div></header>
+<main id="stage" aria-label="3D animation comparison"><div id="overlay">Loading real GLB…</div></main>
+<section id="dock" aria-label="animation review controls">
+<div class="controls"><label for="motion">Animation</label><select id="motion"></select></div>
+<div class="controls"><label for="source">Model</label><select id="source"><option value="candidate">Combined 30 clips · shield &amp; lance</option><option value="historical">Original canonical · before import</option><option value="vanguard">Vanguard · two-handed donor</option><option value="axekick">Original accepted AxeKick donor</option></select>
+<button id="play" type="button" disabled>Pause</button><button id="restart" type="button" disabled>Restart</button></div>
+<div class="controls"><label for="speed">Speed</label><select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option value="1" selected>1×</option><option value="1.5">1½×</option><option value="2">2×</option></select>
+<button id="front" type="button" disabled>Front</button><button id="side" type="button" disabled>Side</button><button id="back" type="button" disabled>Back</button><button id="recenter" type="button" disabled>Recenter</button></div>
+<div class="controls"><label for="scrub">Time</label><input type="range" id="scrub" min="0" max="1" step="0.001" value="0" disabled><span id="time">0.00 / 0.00s</span></div>
+<div class="controls"><label for="shield">Shield</label><input type="checkbox" id="shield" checked><span id="shieldInfo">Original shield shown</span><label for="breath">Animate upper body over combat steps</label><input type="checkbox" id="breath" checked></div>
+<div class="controls"><label for="floor">Floor guide</label><input type="range" id="floor" min="-0.2" max="0.2" step="0.005" value="0"><span id="floorLabel">0.000 m</span></div>
+<p id="note">Exactly 30 clips: original Running, full animated three-second ObsidiantiIdle, eight original guarded Ares steps, all 19 Vanguard animations, and the separately accepted AxeKick. Original canonical shield and lance geometry preserved. The optional upper-body breathing overlay is composed by the Three.js viewer, not baked into or substituted for any original clip. Shield visibility toggle is visual only. Owner acceptance pending.</p>
+</section>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+const el=id=>document.getElementById(id);const stage=el('stage');
+const scene=new THREE.Scene();scene.background=new THREE.Color('#172233');
+const camera=new THREE.PerspectiveCamera(38,1,.01,200);const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio||1,2));renderer.outputColorSpace=THREE.SRGBColorSpace;stage.appendChild(renderer.domElement);
+const orbit=new OrbitControls(camera,renderer.domElement);orbit.enableDamping=true;orbit.dampingFactor=.09;
+scene.add(new THREE.HemisphereLight(0xd9edff,0x4f4f52,2.25));const key=new THREE.DirectionalLight(0xffffff,3);key.position.set(3,8,5);scene.add(key);const fill=new THREE.DirectionalLight(0x8faed8,1.3);fill.position.set(-5,4,-2);scene.add(fill);
+const floor=new THREE.GridHelper(10,20,0x5a86a4,0x385873);floor.position.y=0;scene.add(floor);
+let spec=null,mixer=null,action=null,upperAction=null,mesh=null,clip=null,bounds=null,playing=true,requestId=0,duration=1,last=performance.now();
+let shieldMeshes=[];
+const controls=['play','restart','front','side','back','recenter','scrub'];const setReady=b=>controls.forEach(x=>el(x).disabled=!b);
+window.__viewerState={loaded:false,renderedFrames:0,build:null,animation:null,modelSHA:null,source:null};
+const fail=e=>{el('status').textContent='VIEWER ERROR: '+String(e);window.__viewerState.error=String(e);console.error(e)};
+const rgba=b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('');
+async function sha(bytes){const dig=await crypto.subtle.digest('SHA-256',bytes);return rgba(dig)}
+function adjust(){const w=Math.max(1,stage.clientWidth),h=Math.max(1,stage.clientHeight);renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
+window.addEventListener('resize',adjust);adjust();
+function cameraFrame(){if(!bounds)return;const center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3()),span=Math.max(.5,size.x,size.y,size.z);orbit.target.copy(center);camera.position.set(center.x+span*.70,center.y+span*.37,center.z+span*1.43);camera.near=Math.max(.003,span/1500);camera.far=200;camera.updateProjectionMatrix();orbit.maxDistance=span*13;orbit.update();floor.scale.setScalar(Math.max(.5,span/3))}
+function view(axis){if(!bounds)return;const center=orbit.target.clone(),span=Math.max(1,...bounds.getSize(new THREE.Vector3()).toArray());if(axis==='side')camera.position.set(center.x+span*1.75,center.y+span*.1,center.z);else if(axis==='back')camera.position.set(center.x,center.y+span*.1,center.z-span*1.75);else camera.position.set(center.x,center.y+span*.1,center.z+span*1.75);orbit.update()}
+function actualClipName(name,which){return which==='axekick'&&name==='AxeKick'?'AxeKick_remap':name;}
+function identifyShieldMeshes(model){
+ const found=[];
+ model.traverse(o=>{
+  if(!o.isSkinnedMesh||!o.skeleton||!o.geometry)return;
+  const index=o.skeleton.bones.findIndex(b=>b.name==='mixamorig:LeftWeapon.L');
+  const ji=o.geometry.getAttribute('skinIndex'),jw=o.geometry.getAttribute('skinWeight');
+  if(index<0||!ji||!jw)return;
+  let sum=0,count=0;
+  for(let i=0,step=Math.max(1,Math.floor(ji.count/512));i<ji.count;i+=step){
+   let w=0;for(let k=0;k<4;k++)if(ji.getComponent(i,k)===index)w+=jw.getComponent(i,k);
+   sum+=w;count++;
+  }
+  if(count&&sum/count>.55)found.push(o);
+ });
+ return found;
+}
+function updateShield(){for(const m of shieldMeshes)m.visible=el('shield').checked;
+ el('shieldInfo').textContent=shieldMeshes.length?shieldMeshes.length+' original shield mesh(es) '+(el('shield').checked?'shown':'hidden'):'Shield mesh identification unavailable';}
+function upperBoneNames(model){
+ const set=new Set();let start=null;
+ model.traverse(o=>{if(o.isBone&&o.name==='mixamorig:Spine1')start=o});
+ if(!start)throw Error('UPPER_SPINE1_BONE_MISSING');
+ start.traverse(o=>{if(o.isBone)set.add(o.name)});
+ return set;
+}
+function trackBoneName(track){
+ const suffixes=['.quaternion','.position','.scale','.morphTargetInfluences'];
+ for(const suffix of suffixes)if(track.name.endsWith(suffix))return track.name.slice(0,-suffix.length);
+ return track.name;
+}
+function sourceCanPlay(mode,name){return spec.models[mode]&&spec.models[mode].animations.includes(actualClipName(name,mode));}
+function updateSourceOptions(){
+ for(const opt of el('source').options)opt.disabled=!sourceCanPlay(opt.value,el('motion').value);
+ if(!sourceCanPlay(el('source').value,el('motion').value))el('source').value='candidate';
+}
+async function load(){const id=++requestId;setReady(false);window.__viewerState.loaded=false;const selected=el('motion').value,mode=el('source').value,meta=spec.models[mode];
+ el('status').textContent='Reading '+mode+' GLB · '+selected;
+ const url=meta.url+'?sha='+meta.sha256+'&build='+encodeURIComponent(spec.buildToken);
+ const res=await fetch(url,{cache:'no-store'});if(!res.ok)throw Error('HTTP '+res.status+' '+url);
+ if(res.headers.get('X-Model-SHA256')!==meta.sha256)throw Error('HEADER_MODEL_SHA_MISMATCH');
+ const binary=await res.arrayBuffer();if(id!==requestId)return;const hash=await sha(binary);if(hash!==meta.sha256)throw Error('ACTUAL_LOADED_MODEL_SHA_MISMATCH '+hash);
+ const gltf=await new Promise((yes,no)=>new GLTFLoader().parse(binary,'',yes,no));if(id!==requestId)return;
+ const requested=actualClipName(selected,mode),matching=gltf.animations.filter(a=>a.name===requested);
+ if(matching.length!==1)throw Error('EXACT_CLIP_MATCH_FAILED '+requested+' count='+matching.length+'; available='+gltf.animations.map(a=>a.name).join(','));
+ if(mixer){mixer.stopAllAction();mixer.uncacheRoot(mesh);}if(mesh){scene.remove(mesh);mesh.traverse(o=>{if(o.geometry)o.geometry.dispose();if(o.material){for(const m of (Array.isArray(o.material)?o.material:[o.material]))m.dispose()}})}
+ upperAction=null;mesh=gltf.scene;mesh.traverse(o=>{if(o.isSkinnedMesh)o.frustumCulled=false});scene.add(mesh);
+ shieldMeshes=identifyShieldMeshes(mesh);updateShield();
+ clip=matching[0];mixer=new THREE.AnimationMixer(mesh);
+ let playback=clip;
+ if(mode==='candidate'&&clip.name.startsWith('Ares_Step')&&clip.name.endsWith('_Lower')&&el('breath').checked){
+  const upper=upperBoneNames(mesh);
+  const oldCount=clip.tracks.length;
+  playback=clip.clone();playback.tracks=clip.tracks.filter(t=>!upper.has(trackBoneName(t)));
+  if(playback.tracks.length>=oldCount)throw Error('COMBAT_STEP_UPPER_TRACKS_NOT_REMOVED');
+  const idle=gltf.animations.filter(a=>a.name==='ObsidiantiIdle');if(idle.length!==1)throw Error('FULL_AUTHORED_IDLE_MISSING');
+  const overlay=idle[0].clone();overlay.tracks=idle[0].tracks.filter(t=>upper.has(trackBoneName(t)));
+  if(overlay.tracks.length<4||overlay.duration<2.9)throw Error('FULL_THREE_SECOND_UPPER_LAYER_MISSING');
+  upperAction=mixer.clipAction(overlay);upperAction.reset().setLoop(THREE.LoopRepeat,Infinity).play();
+ }
+ action=mixer.clipAction(playback);action.reset().setLoop(THREE.LoopRepeat,Infinity).play();mixer.timeScale=Number(el('speed').value);playing=true;el('play').textContent='Pause';
+ duration=Math.max(.001,clip.duration);el('scrub').max=String(duration);el('scrub').value='0';bounds=new THREE.Box3().setFromObject(mesh,true);if(bounds.isEmpty())throw Error('MISSING_VISIBLE_GEOMETRY');cameraFrame();setReady(true);
+ const sourceDescription=mode==='candidate'?'30 CLIPS · SHIELD PRESERVED'+(upperAction?' · ORIGINAL 3s UPPER MOTION LAYER PLAYING':''):mode==='vanguard'?'VANGUARD v2.0.17 · 19 ACTIONS':mode==='axekick'?'EXACT ACCEPTED AXEKICK':'ORIGINAL CANONICAL 23 CLIPS';
+ el('overlay').innerHTML='<strong>REAL GLB SHA VERIFIED</strong><div>'+sourceDescription+'</div><div>Requested: '+selected+'</div><div>Playing: '+clip.name+'</div><div>SHA: '+hash.slice(0,25)+'…</div>';
+ el('status').textContent='PLAYING '+clip.name+' | '+gltf.animations.length+' GLB clips | '+sourceDescription;
+ window.__viewerState={loaded:true,renderedFrames:window.__viewerState.renderedFrames,build:spec.buildToken,animation:clip.name,modelSHA:hash,source:mode,shieldMeshes:shieldMeshes.length,shieldVisible:el('shield').checked,animatedUpperLayer:!!upperAction};}
+async function main(){const qs=new URLSearchParams(location.search);const res=await fetch('/manifest.json?build='+encodeURIComponent(qs.get('build')||''),{cache:'no-store'});if(!res.ok)throw Error('MANIFEST_HTTP_'+res.status);
+ spec=await res.json();if(!spec.sourceCommit||!spec.buildToken||!spec.runId||!spec.launcherSHA256)throw Error('NO_VERIFIED_RUN_IDENTITY');if(qs.get('run')!==spec.runId||qs.get('build')!==spec.buildToken)throw Error('STALE_OR_WRONG_VIEWER_RUN');
+ el('identity').textContent='RUN '+spec.runId+' | BUILD '+spec.buildToken+' | SCRIPT '+spec.launcherSHA256.slice(0,20)+'… | GIT '+spec.sourceCommit.slice(0,20)+'…';
+ function rebuildOptions(){const mode=el('source').value;const available=spec.models[mode].animations;let wanted=el('motion').value;
+  if(!available.includes(wanted)){
+   if(mode==='original'&&wanted.startsWith('CombatStep'))wanted='Ares_'+wanted.slice('Combat'.length);
+   else if(mode==='historical'&&wanted.startsWith('CombatStep'))wanted='Ares_'+wanted.slice('Combat'.length)+'_Lower';
+  }
+  if(!available.includes(wanted))wanted=mode==='vanguard'?'Vanguard_SwordAttack1':mode==='historical'?'ObsidiantiIdle':mode==='original'?'Ares_StepForward':'CombatStepForward';
+  const featured=mode==='candidate'?['ObsidiantiIdle','CombatUpperIdle','CombatStepForward','CombatStepBack','CombatStepLeft','CombatStepRight','Vanguard_SwordAttack1','Vanguard_SwordAttack2','Vanguard_SwordAttack4','Vanguard_SwordAttack5']:
+    mode==='vanguard'?['Vanguard_SwordAttack1','Vanguard_SwordAttack2','Vanguard_SwordAttack4','Vanguard_SwordAttack5','Vanguard_MidairSwordAttack1','Vanguard_MidairSwordAttack2','Vanguard_SpinAttack']:
+    mode==='historical'?['ObsidiantiIdle','LionheartIdle_UNREVIEWED','Ares_StepForward_Lower']:['Ares_StepForward','Lionheart_Idle'];
+  const ordered=[...new Set([...featured,...available])].filter(n=>available.includes(n));
+  el('motion').replaceChildren(...ordered.map(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;return o}));
+  el('motion').value=wanted;
+ }
+ rebuildOptions();
+ el('motion').addEventListener('change',()=>load().catch(fail));
+ el('source').addEventListener('change',()=>{rebuildOptions();load().catch(fail)});
+ el('play').onclick=()=>{if(!action)return;playing=!playing;action.paused=!playing;if(upperAction)upperAction.paused=!playing;el('play').textContent=playing?'Pause':'Play'};
+ el('restart').onclick=()=>{if(!action)return;action.reset().play();action.paused=false;if(upperAction){upperAction.reset().play();upperAction.paused=false;}playing=true;el('play').textContent='Pause';mixer.update(0)};
+ el('scrub').oninput=()=>{if(action){action.time=Number(el('scrub').value);if(upperAction)upperAction.time=(action.time/Math.max(clip.duration,.001))*3.0;mixer.update(0);el('time').textContent=action.time.toFixed(2)+' / '+duration.toFixed(2)+'s'}};
+ el('speed').onchange=()=>{if(mixer)mixer.timeScale=Number(el('speed').value)};
+ el('front').onclick=()=>view('front');el('side').onclick=()=>view('side');el('back').onclick=()=>view('back');el('recenter').onclick=()=>cameraFrame();
+ el('floor').oninput=()=>{floor.position.y=Number(el('floor').value);el('floorLabel').textContent=floor.position.y.toFixed(3)+' m'};
+ updateSourceOptions();await load();}
+function tick(now){requestAnimationFrame(tick);const dt=Math.max(0,Math.min(.05,(now-last)/1000));last=now;if(mixer)mixer.update(dt);if(action){const t=action.time%duration;el('scrub').value=String(t);el('time').textContent=t.toFixed(2)+' / '+duration.toFixed(2)+'s'}orbit.update();renderer.render(scene,camera);window.__viewerState.renderedFrames++;}
+requestAnimationFrame(tick);main().catch(fail);
+</script></body></html>
