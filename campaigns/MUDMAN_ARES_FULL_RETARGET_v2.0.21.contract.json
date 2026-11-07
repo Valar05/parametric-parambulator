@@ -1,0 +1,41 @@
+{
+  "schema": "MUDMAN_ARES_FULL_RETARGET_v2.0.21",
+  "mission": "Transfer EVERY populated Ares (2).blend native action slot, including the distinct Jab-Enemy and Cross Enemy attacks, onto the original owner-uploaded Mudstone Golem Mixamo FBX, using licensed Auto-Rig Pro. Deliver one skinned multi-clip GLB and a phone viewer for owner review. No manual cleanup, no Security Titan donation, no change to accepted character animations.",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "pinnedGitBase": "09165dc8a47b032e5ef84d93220301e64674efad",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "aresSHA256": "63b6e7a7250cfb03e49cf0d335101d808126ae926894d74c1b2a6a49936b8b2a",
+  "targetZipSHA256": "fbcb592ac941dbc34ecade66b044b551f5bd55bf5855be50d8af5caba0514f79",
+  "targetFBXSHA256": "4d4f3c503e33a4eb4ca6039b9dc1b7b83e5c1ce25b371625aee53ba2e1c89ff7",
+  "targetTextureSHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "purchasedARPZipSHA256": "2b377bbc5d81dfcef4209971e332a8bcb402ed44605e5ed0cddc2e90fafebf28",
+  "sourceAuditRule": "Blender 5 original Ares .blend: all source Action datablocks, all OBJECT slots having at least 8 mapped mixamorig pose curves and at least 12 total FCurves. Prioritize enemy Jab/Cross; record exclusions, do not substitute other donors. Ares Cross enemy is an OBJECT slot, not necessarily a standalone Action.",
+  "targetRig": "Actual uploaded Meshy FBX, mixamorig bone naming, original owner PNG texture",
+  "retarget": "Paid Auto-Rig Pro 3.79.17 native operator; auto-scale; Hips set_as_root true and location true; one action per disposable Blender session; no custom IK or post-processing",
+  "protectedCanonicalPaths": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb"
+  ],
+  "canonicalMutationAllowed": false,
+  "securityTitanUsed": false,
+  "ownerVisualAcceptanceRequired": true,
+  "output": "Single multi-clip Mudman review GLB, full action-slot audit, per-action success and failure diagnostics, per-animation key summary, SHA verified copied Android Downloads, live no-cache 3D viewer, Termux Git evidence commit and remote readback",
+  "resultsPrefix": "diagnostics/mudman/ares-full-retarget-v2.0.21/runs/",
+  "sourceMutablePaths": [
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_LAUNCH.sh",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_driver.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_derive.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_audit.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_merge.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_blender_trial.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_export.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_viewer.html",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21_server.py",
+    "campaigns/MUDMAN_ARES_FULL_RETARGET_v2.0.21.contract.json",
+    "tests/MUDMAN_ARES_FULL_RETARGET_v2.0.21_TEST.py"
+  ],
+  "previousFailedVersion": "MUDMAN_ARES_FULL_RETARGET_v2.0.20",
+  "repair": "Correct erroneous 71-character contract Ares hash; preserve verified driver hash and all retargeting inputs; regression test contractual constants before publish"
+}
