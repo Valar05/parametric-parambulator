@@ -1,0 +1,67 @@
+{
+  "schema": "OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19",
+  "mission": "After retargeting, measure original Lionheart donor toe contact on every ten attacks, apply a bounded foot-length toe-roll two-bone IK correction to alternate review animation clips, and vertically ground an alternate AxeKick clip using evaluated skinned foot geometry. Preserve all original 20 animations and protect the canonical asset, accepted AxeKick, Vanguard and Repl. No ARP re-retarget.",
+  "ownerRequestedScope": [
+    "all ten existing moving Lionheart retargets",
+    "AxeKick first-frame weighted shoe floor alignment"
+  ],
+  "ownerExclusions": [
+    "do not change original animation clips",
+    "do not re-retarget or rebuild original AxeKick",
+    "do not change canonical Obsidianti",
+    "do not change Vanguard",
+    "no custom generic cleanup framework"
+  ],
+  "authority": "TERMUX_GIT_ONLY",
+  "pinnedGitBase": "40d6f8e4465dec37191623d5a1b083227612c2cc",
+  "agentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "campaignEtiquette": "LIVE_READ_2026_11_07",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "lionheartSHA256": "81aa915416cd1a742feba5670aad67a6f131da74e0c1837d02d52b57b66998d4",
+  "unmodifiedV214ReviewGLBSHA256": "3e9a5b4d0ff2847a05d56a81292881d4a3b6b75a7ebdc90e362f6384b31a9021",
+  "acceptedAxeKickSourceGLBSHA256": "c6f1d74b2de97e12f2eefc9c44a0404c26ad19e29d481af08e585130ee9103da",
+  "measuredSourceFootFrontM": {
+    "Left": 0.22,
+    "Right": 0.216
+  },
+  "measuredTargetFootFrontM": {
+    "Left": 0.142,
+    "Right": 0.145
+  },
+  "donorContacts": "Actual Blender 5 evaluated native Lionheart source at 65 phase samples per action, compared to original Idle toe heights",
+  "toeCorrection": "One conservative, donor-grounded two-bone analytic IK pass on existing animations; modified tracks only Left/Right UpLeg, Leg and Foot local rotations, no root or toe tracks; adaptively reduce unreachable or excessive corrections to zero and record all skips",
+  "axeKick": "AxeKick_Floor is a new alternate clip: shift only Hips translation by exact first-frame skinned shoe minimum, preserve accepted original AxeKick action exactly, including all rotational sampler data",
+  "originalPreservation": "Original GLB skin, meshes, skeleton, material, input animations, sampler data, and BIN prefix preserved without changes. Only appended accessors and 11 new animation definitions",
+  "canonicalModificationAllowed": false,
+  "resultsPrefix": "diagnostics/obsidianti/toe-roll-post-arp-v2.0.19/runs/",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_driver.py",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_patch.py",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_source_contacts.py",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_viewer.html",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_server.py",
+    "campaigns/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19.contract.json",
+    "tests/OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.19_TEST.py"
+  ],
+  "requiredOutputs": [
+    "SHA-verified 31-clip review GLB in Android Downloads",
+    "native Lionheart donor-foot contact JSON",
+    "per-frame corrected and rejected IK analysis",
+    "first-frame AxeKick skinned-mesh grounding proof",
+    "original animation sampler preservation",
+    "no-cache looping mobile 3D viewer with A/B selection and SHA",
+    "Termux Git committed source and evidence plus exact remote readback",
+    "unapproved owner visual review"
+  ],
+  "mustNotClaim": [
+    "the renderer accepted the correction",
+    "the donor mesh proves every airborne frame",
+    "any canonical GLB was changed",
+    "script creation alone proves device success"
+  ],
+  "priorFailedCampaign": "OBSIDIANTI_TOE_ROLL_POST_ARP_v2.0.18",
+  "priorFailure": "REPO_CHECKOUT_DIRTY caused by Python dynamic import of checked-out v2.0.17 helper creating campaigns/__pycache__",
+  "repair": "For every dynamic checked-out Git Python helper import, temporarily enable sys.dont_write_bytecode, check clean disposable clone before first import and after each import, log status in receipt. No reset/stash/deletion of unexpected user changes.",
+  "originalExperimentUnchanged": true
+}
