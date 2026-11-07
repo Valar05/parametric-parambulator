@@ -1,0 +1,41 @@
+{
+  "schema": "OBSIDIANTI_ANIMATION_REUNION_v2.0.32",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "pinnedGitBase": "386ed52d83828d8f0611860dd66a41ba6ba90d56",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "liveEtiquette": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "mission": "Preserve every one of the v2.0.31 published thirty animations, the full authored three-second ObsidiantiIdle, original eight guarded Ares steps, 19 Vanguard two-handed motions, the approved AxeKick, original Running, and original shield/lance geometry. Append the eleven latest complete Lionheart purchased Auto-Rig Pro v2.0.16 actions without importing superseded iterations or v2.0.19 toe-roll experiment. Repair the Three.js GLTFLoader sanitized bone-name lookup for upper-body overlays and shield identification so Ares combat steps play without viewer failures. Produce a single 41-clip review GLB and visible Three.js viewer. No canonical or other owner asset mutation, no ARP rerun, no Godot implementation.",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "input30SHA256": "53339b746023c096c1df7196f3adeb29702f63345d45f8fcec75dde49d500b66",
+  "lionheartARPv216SHA256": "e7f60fea731fd9537380868adbb52fee63df34fdf1b6d7694bc39925b440fa1d",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_driver.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_compose.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_viewer.html",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_server.py",
+    "campaigns/OBSIDIANTI_ANIMATION_REUNION_v2.0.32.contract.json",
+    "tests/OBSIDIANTI_ANIMATION_REUNION_v2.0.32_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/animation-reunion-v2.0.32/runs/",
+  "lockedAssets": [
+    "assets/obsidianti/Obsidianti.glb",
+    "assets/repl/Repl.glb",
+    "all 30 original clip channels and sample bytes",
+    "all exact 11 ARP v2.0.16 Lionheart animation keyframes/samplers",
+    "all original skinned mesh and material, lance and shield",
+    "accepted original AxeKick and Vanguard donor artifacts"
+  ],
+  "excluded": [
+    "superseded Lionheart iterative imports",
+    "v2.0.19 unapproved post-ARP toe-roll variants",
+    "v2.0.29 motionless step upperbody",
+    "v2.0.16 duplicate Ares steps",
+    "canonical GLB overwrite",
+    "direct GitHub connector writes",
+    "Godot game conversion"
+  ],
+  "acceptance": "41 GLB clips; old 30 exact keys preserved; 11 new Lionheart ARP sampler values identical; original mesh/skin/shield/lance unchanged; Three.js viewer SHA-run identity and normalized bone lookup; Termux Git source and evidence publication and exact remote readback; owner visual acceptance remains pending.",
+  "ownerVisualAcceptance": "PENDING"
+}
