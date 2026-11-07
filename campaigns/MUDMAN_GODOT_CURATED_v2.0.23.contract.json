@@ -1,0 +1,28 @@
+{
+  "schema": "MUDMAN_GODOT_CURATED_v2.0.23",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "mission": "Repair white material by embedding verified original Meshy PNG and linking baseColorTexture on every UV-mapped skinned mesh primitive; ground the existing posed mudman using measured skinned idle mesh minimum without changing any animation curve; reduce 77 source action slots to Godot SecurityTitan enemy state animation contract's 23 mapped states; publish a versioned GLB, numeric evidence and live verified reviewer by owner-operated Termux Git. Do not re-run Auto-Rig Pro.",
+  "pinnedSourceCommit": "95aa8562e2036cd11e3d1063b5b569f92afef53b",
+  "sourceReviewVersion": "MUDMAN_ARES_FULL_RETARGET_v2.0.22",
+  "previousSourceGLBSHA256": "396e9cf024846ba9e8c5159a9b8660b21a296a73a6e656d4c347dc86780079d6",
+  "ownerMudmanZIP_SHA256": "fbcb592ac941dbc34ecade66b044b551f5bd55bf5855be50d8af5caba0514f79",
+  "ownerOriginalPNG_SHA256": "f1a6089742844a6a3b0a4b7c93ce6ca80faf126adf92ec135bb7aa26a478e886",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "liveAgentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "liveEtiquetteRead": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "gravityFistGodotSource": {
+    "repository": "Valar05/gravity-fist",
+    "scene": "scenes/SecurityTitan.tscn",
+    "sceneBlob": "4f07c8c2af40038c1f672750b8a155f53f123b6d",
+    "attackDefinition": "security_titan.json",
+    "attackDefinitionBlob": "f2a1036f75cc7c4b7821e700ffa61a6bed7980fc",
+    "expectedStates": ["Idle-Cross", "Run", "Jab-Enemy", "Cross-Enemy", "HitHeadLeft", "HitHeadRightBig", "BackImpact", "KnockedBack", "ProneBack", "ProneBackDamage", "ProneBackStandUp", "ProneFront", "ProneFrontDamage", "StandUp", "Death", "StepForward", "StepBack", "StepLeft", "StepRight", "StepForwardLeft", "StepForwardRight", "StepBackLeft", "StepBackRight"]
+  },
+  "sourceMutablePaths": ["campaigns/MUDMAN_GODOT_CURATED_v2.0.23_LAUNCH.sh", "campaigns/MUDMAN_GODOT_CURATED_v2.0.23_driver.py", "campaigns/MUDMAN_GODOT_CURATED_v2.0.23_patch_glb.py", "campaigns/MUDMAN_GODOT_CURATED_v2.0.23_viewer.html", "campaigns/MUDMAN_GODOT_CURATED_v2.0.23_server.py", "campaigns/MUDMAN_GODOT_CURATED_v2.0.23.contract.json", "tests/MUDMAN_GODOT_CURATED_v2.0.23_TEST.py"],
+  "mutableEvidencePrefix": "diagnostics/mudman/godot-curated-v2.0.23/runs/",
+  "preserve": ["all original mesh POSITION/UV/JOINT/WEIGHT accessor data", "all original bind matrices and skinning", "all original animated bone keyframes for kept clips", "all approved Obsidianti, Vanguard, AxeKick, Repl character assets"],
+  "canonicalMutationAllowed": false,
+  "ownerVisualAcceptanceRequired": true,
+  "namedAliasWarning": "Ares has moving Idle__OBCross, not an exact Idle-Cross named Ares action. We alias explicitly to match Gravity Fist Godot; HitHeadRightBig must not masquerade as exact HitHeadRight."
+}
