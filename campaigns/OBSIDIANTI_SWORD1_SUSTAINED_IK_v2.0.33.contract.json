@@ -1,0 +1,39 @@
+{
+  "schema": "OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "pinnedGitBase": "dbaf788e7ec30e659920c9a02a5ab6a49d5e388a",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "liveEtiquette": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "input41SHA256": "9ff2b5423b4bf5fea1bf67295b52d848803381699fede56164aca9ce65bea9b7",
+  "donorOriginal": "Vanguard_SwordAttack1",
+  "startPoseFirstFrame": "Lionheart_Light1",
+  "newClip": "Vanguard_SwordAttack1_TwoHand_GripIK",
+  "leadSeconds": 0.23,
+  "offhandIK": "Whole sword attack, fixed moving target attached to RightWeapon.R, with adaptive two-bone left-arm stretch; short pre-attack ramp only",
+  "spearGripLocal": [-0.018, -0.235, 0],
+  "shieldTipOrientation": "Tip toward left elbow, shield top toward left hand after compacting",
+  "shieldCharmFinalScale": 0.08,
+  "expectedOutputClips": 42,
+  "preserve": [
+    "every source animation and sampler of the existing 41-clip review GLB",
+    "entire original GLB binary buffer as unchanged prefix",
+    "canonical geometry, all mesh and skin/material/texture data, shield and lance attachments",
+    "all prior accepted original AxeKick, Vanguard and Lionheart animation donor artifacts",
+    "original Vanguard_SwordAttack1 retained unmodified"
+  ],
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_driver.py",
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_bake.py",
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_viewer.html",
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_server.py",
+    "campaigns/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33.contract.json",
+    "tests/OBSIDIANTI_SWORD1_SUSTAINED_IK_v2.0.33_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/sword1-sustained-ik-v2.0.33/runs/",
+  "outcome": "One additional full-attack sustained-IK two-handed variant in 42-clip review GLB, through verified owner Termux Git lane and Three.js viewer; visual acceptance pending",
+  "canonicalMutationAllowed": false,
+  "ownerVisualAcceptance": "PENDING"
+}
