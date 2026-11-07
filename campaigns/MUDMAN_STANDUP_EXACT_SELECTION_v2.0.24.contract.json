@@ -1,0 +1,16 @@
+{
+  "schema": "MUDMAN_STANDUP_EXACT_SELECTION_v2.0.24",
+  "authority": "TERMUX_GIT_ONLY",
+  "mission": "Repair StandUp vs ProneBackStandUp ambiguous viewer selection with exact names; preserve the published v2.0.23 curated GLB unchanged",
+  "sourceGitBaseCommit": "5ca1ec466ce53871122cc74dc056dd1f3252082f",
+  "sourceGitHead": "5ca1ec466ce53871122cc74dc056dd1f3252082f",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "previousViewerGitBlob": "36c3d670db8fa87f60adb7237bc59bc4399b80b5",
+  "sourceGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "viewerSelection": "STRICT_EXACT_NAME_UNIQUE",
+  "noBlender": true,
+  "noAnimationReexport": true,
+  "modelMutationAllowed": false,
+  "ownerVisualAcceptanceRequired": true
+}
