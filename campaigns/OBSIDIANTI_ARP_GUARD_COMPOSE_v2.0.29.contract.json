@@ -1,0 +1,51 @@
+{
+  "schema": "OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "mission": "Recover the exact historical LionheartIdle_UNREVIEWED guard and separately authored three-second ObsidiantiIdle from the original canonical GLB. Produce eight new CombatStep* clips from the real Ares ARP v2.0.16 lower-body motion while enforcing the original guard upper body and v1.1.0 Hips-to-Spine world-facing compensation. Use a Three.js review viewer and preserve every original clip and canonical asset. No game implementation, Godot runtime, ARP rerun, guessed idle or replaced animation source.",
+  "pinnedGitBase": "a15b5aee199624fa38c3ca4137fb328c5e4a63d5",
+  "rulesReadBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "etiquette": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "canonicalPath": "assets/obsidianti/Obsidianti.glb",
+  "arpInputSHA256": "e7f60fea731fd9537380868adbb52fee63df34fdf1b6d7694bc39925b440fa1d",
+  "arpInputPath": "diagnostics/obsidianti/arp-contact-ik-authoring-v2.0.16/runs/20261107T041249Z-40a10759/Obsidianti_ARP_FULL_LIBRARY_UNAPPROVED.glb",
+  "historicalCode": "campaigns/OBSIDIANTI_GLTF_LIBRARY_v1.1.0.py",
+  "historicalCodeGitBlob": "772880dbf4c47c4e79fd9f4f097681a5f7c3bd08",
+  "preserve": [
+    "All existing 23 v2.0.16 animation samplers and key times",
+    "Both original historical idle animations source channel values, including authored secondary motion",
+    "Original skinned mesh and surface materials, original rest skeleton and hierarchy",
+    "Original Ares hip/leg/knee/foot/toe channels for each of eight directions",
+    "All original canonical Obsidianti/Repl/AxeKick Git pointers",
+    "No ARP rerun, no modification of Ares source or Gravity Fist repository"
+  ],
+  "newActions": [
+    "LionheartIdle_UNREVIEWED",
+    "ObsidiantiIdle",
+    "CombatStepForward",
+    "CombatStepForwardLeft",
+    "CombatStepLeft",
+    "CombatStepBackLeft",
+    "CombatStepBack",
+    "CombatStepBackRight",
+    "CombatStepRight",
+    "CombatStepForwardRight"
+  ],
+  "expectedExistingClips": 23,
+  "expectedNewClips": 10,
+  "expectedOutputClips": 33,
+  "runtime": "Three.js animation viewer, not Godot",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_driver.py",
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_compose.py",
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_viewer.html",
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_server.py",
+    "campaigns/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29.contract.json",
+    "tests/OBSIDIANTI_ARP_GUARD_COMPOSE_v2.0.29_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/arp-guard-compose-v2.0.29/runs/",
+  "outcome": "Publish only a versioned, unapproved review GLB and provenance via Termux Git with exact remote readback, provide three-way historical/ARP/composed viewer, require owner acceptance before any canonical asset changes",
+  "authoringEnvironmentDoesNotProveTermuxExecution": true
+}
