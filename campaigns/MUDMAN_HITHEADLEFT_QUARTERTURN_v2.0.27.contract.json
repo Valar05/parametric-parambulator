@@ -1,0 +1,22 @@
+{
+  "schema": "MUDMAN_HITHEADLEFT_QUARTERTURN_v2.0.27",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "mission": "Replace the user-rejected 62.38362 degree pose-fit with explicit EXACT 90 degree signed hips corrections on original 23-clip textured and grounded Mudman GLB. Verify all other 22 action bytes, texture, mesh, skins, key times, Git publication and live three-way A/B visual review. No edits to other characters or original Gravity Fist Ares sources. Until user accepts, candidates remain experimental.",
+  "pinnedGitBase": "3c05c87b5aa4f428be2602adef10ad387e3af4da",
+  "liveRulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "liveEtiquette": "CAMPAIGN_ETIQUETTE — Git Script Campaign Operating Rules",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "baselineGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "baselineGLB": "diagnostics/mudman/godot-curated-v2.0.23/runs/20261107T143456Z-5a637cc3/MUDMAN_GODOT_CURATED_REVIEW_UNAPPROVED.glb",
+  "rejectedCandidateV226SHA256": "3753b68c100e6af406a0a9211579227ce6702d70c13ff2f708d66fbfa6724b16",
+  "rejectedCandidateRotationDegrees": 62.38362,
+  "allowedMutation": "Exactly one rotation sampler attached to HitHeadLeft mixamorig:Hips, 31 keys. Apply EXACT 90 degree quaternion about -X or published forensic axis, using fresh original 23-clip GLB. No rest pose changes, no parent translation, no other sampler change.",
+  "originalModelMutation": false,
+  "gravityFistSourceMutation": false,
+  "protectedAssets": ["assets/obsidianti/Obsidianti.glb", "assets/repl/Repl.glb", "accepted AxeKick"],
+  "viewer": "SHA-verified HTTP no-cache three-way original, -90 X and -90 measured-axis, all 23 clips; owner selection required",
+  "output": "Versioned source and exact Git remote readback; two versioned LFS review candidates (unapproved), forensic JSON and viewer, single Termux launcher",
+  "mutableSourcePrefix": "campaigns/MUDMAN_HITHEADLEFT_QUARTERTURN_v2.0.27_",
+  "mutableEvidencePrefix": "diagnostics/mudman/hitheadleft-quarterturn-v2.0.27/runs/"
+}
