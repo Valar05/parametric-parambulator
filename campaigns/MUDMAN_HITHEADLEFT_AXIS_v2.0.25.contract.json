@@ -1,0 +1,22 @@
+{
+  "schema": "MUDMAN_HITHEADLEFT_AXIS_v2.0.25",
+  "authority": "TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "mission": "Identify and permanently remove a demonstrated approximately 90-degree unintended hip/root axis error from the already Godot-curated Mudman HitHeadLeft animation, without modifying the other 22 animation curves, mesh, skin, original Meshy texture, grounded origin, or user-approved poses. Preserve before/after viewer and source evidence. No ARP or Blender rerun; do not mutate Ares source file or Gravity Fist repo without separate owner approval.",
+  "pinnedGitBase": "513d5b67566f313697cc5d5b8101a4553e33e278",
+  "pinnedAgentsBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "canonicalObsidiantiSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "sourceReviewGLBPath": "diagnostics/mudman/godot-curated-v2.0.23/runs/20261107T143456Z-5a637cc3/MUDMAN_GODOT_CURATED_REVIEW_UNAPPROVED.glb",
+  "sourceReviewGLBSHA256": "19304bf8007670e36a38b354b5f8d2ea0c39982c97e2a247acdac1190fe2b7ef",
+  "priorExactSelectorViewerBlob": "dacaa916cfba2a3e2e0764083ab629714db28d7b",
+  "priorWorkingViewerServerBlob": "b5fc306e7652fb1cfe12f35b991c06d00800e11f",
+  "priorGLBUtilitiesBlob": "7c83a4f356f57f00b5eb48389cb8f6422abdfb96",
+  "sourceAction": "HitHeadLeft",
+  "comparisonClips": ["Idle-Cross", "HitHeadRightBig"],
+  "acceptableMutation": "Exactly one target HitHeadLeft rotation sampler on the measured offending mixamorig Hips/root ancestor. Preserve all 23 animation names, original buffer binary prefix, glTF geometry, skin and textures. Derive the root correction from actual measured local quaternion reference difference of 65-115 degrees, and independently prove recovery of upright physical body orientation and height. Fail closed with diagnostics if not unique.",
+  "executionLane": "Termux Git only, one SHA-pinned versioned script, automatic source commit, source-verified model read, output and viewer, evidence commit and exact remote readback",
+  "mutableSourcePrefix": "campaigns/MUDMAN_HITHEADLEFT_AXIS_v2.0.25_",
+  "mutableEvidencePrefix": "diagnostics/mudman/hitheadleft-axis-v2.0.25/runs/",
+  "protection": ["No changes to assets/obsidianti/Obsidianti.glb", "No changes to assets/repl/Repl.glb", "No changes to accepted AxeKick", "No edits of Gravity Fist or Ares source", "No source mesh/texture changes", "No changes to non-target animation samplers", "Original curated model remains in Git"],
+  "visualApprovalRequired": true
+}
