@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mudman | HitHeadLeft torso-frame repair 2.0.26</title>
+<meta name="theme-color" content="#151b2a">
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,Roboto,Arial,sans-serif;color:#edf2f8;background:#151b2a}*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden}body{display:flex;flex-direction:column;height:100dvh}
+header{padding:9px 12px 6px;background:#1c2536;box-shadow:0 2px 8px #05091466;z-index:2}
+h1{font-size:16px;font-weight:720;margin:0 0 3px;letter-spacing:.01em}
+#identity{color:#bacde1;font:11px/1.35 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere}
+#status{color:#ffdf95;font-size:12px;line-height:1.4;min-height:17px;margin-top:5px}
+#stage{position:relative;flex:1;min-height:130px;touch-action:none;background:linear-gradient(#202938,#111824)}
+#stage canvas{display:block;width:100%;height:100%;touch-action:none}
+#overlay{position:absolute;top:9px;left:9px;font-size:11px;line-height:1.45;background:#101a27db;border:1px solid #70829770;border-radius:7px;padding:7px 9px;pointer-events:none;max-width:92%;overflow-wrap:anywhere}
+#overlay strong{color:#a7ffc3}
+#dock{padding:8px 10px max(10px,env(safe-area-inset-bottom));display:grid;gap:7px;background:#1c2536;box-shadow:0 -2px 8px #080b156e;max-height:43dvh;overflow-y:auto}
+.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.controls label{font-size:12px;color:#d5e0ee;display:flex;align-items:center;gap:5px}
+select,button,input[type=range]{font:inherit;accent-color:#8bc7fb}
+button,select{background:#31455f;color:#f7fbff;border:1px solid #748ba5;border-radius:6px;padding:8px 10px;min-height:35px}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #d0eeff;outline-offset:1px}
+button:disabled{opacity:.45}.grow{flex:1;min-width:50px}.label{font-size:12px;color:#d1dbea}
+#scrub{width:100%;min-width:80px;flex:1}
+#timeline{display:flex;align-items:center;gap:8px}
+#time{font:12px ui-monospace,SFMono-Regular,monospace;min-width:73px;text-align:right}
+#notice{font-size:11px;line-height:1.35;color:#b8ccdf;margin:0}
+@media(max-width:430px){button,select{padding:7px 9px}#dock{gap:6px}}
+</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.181.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.181.0/examples/jsm/"}}</script>
+</head>
+<body>
+<header>
+<h1>Mudman | Godot-curated clay boxer</h1>
+<div id="identity">RUN / GIT / FILE IDENTITY: waiting for manifest</div>
+<div id="status" role="status" aria-live="polite">Starting model viewer...</div>
+</header>
+<main id="stage" aria-label="Interactive 3D retarget animation viewer"><div id="overlay">LOADING VERIFIED MODEL</div></main>
+<section id="dock" aria-label="Animation controls">
+<div class="controls">
+<label for="move">Animation</label><select id="move"><option value="Jab-Enemy">Jab-Enemy</option></select>
+<label for="version">Source</label><select id="version"><option value="candidate">Corrected HitHeadLeft · review</option><option value="original">Before repair · same animations</option></select>
+<button id="play" type="button" disabled>Pause</button><button id="replay" type="button" disabled>Replay</button>
+<label for="speed">Speed</label><select id="speed"><option value="0.25">¼×</option><option value="0.5">½×</option><option selected value="1">1×</option><option value="1.5">1½×</option><option value="2">2×</option></select>
+</div>
+<div id="timeline"><label for="scrub" class="label">Time</label><input id="scrub" type="range" min="0" max="1" step="0.001" value="0" disabled aria-label="Scrub animation"><output id="time">0.00 / 0.00</output></div>
+<div class="controls"><button id="front" type="button" disabled>Front</button><button id="side" type="button" disabled>Side</button><button id="back" type="button" disabled>Back</button><button id="recenter" type="button" disabled>Recenter</button>
+<label for="ground">Floor guide</label><input id="ground" type="range" min="-0.20" max="0.20" value="0" step="0.005" class="grow" aria-label="Floor guide offset"><output id="groundval">0.000 m</output>
+</div>
+<p id="notice">Swipe to orbit; pinch to zoom. Review the real HitHeadLeft measured world-frame correction against the original GLB. Only HitHeadLeft rotation data may differ; all other 22 clips, UVs, textures, mesh, and ground origin are preserved. Original Meshy clay texture verified and embedded; 77 Ares candidates curated to 23 Godot enemy states. Poses and keyframes unchanged. Floor guide y=0; root translated using actual skinned idle mesh minimum. Owner review pending.</p>
+</section>
+<script>
+window.__viewerState={stage:'INIT',loaded:false,renderedFrames:0,lastChange:Date.now()};
+window.__setStage=(label)=>{window.__viewerState.stage=label;window.__viewerState.lastChange=Date.now();document.getElementById('status').textContent=label};
+window.__viewerFail=(err)=>{const msg='VIEWER ERROR ['+window.__viewerState.stage+']: '+String(err);document.getElementById('status').textContent=msg;document.getElementById('overlay').textContent=msg;console.error(msg)};
+window.onerror=(msg)=>window.__viewerFail(msg);
+window.onunhandledrejection=e=>window.__viewerFail(e.reason);
+setInterval(()=>{if(!window.__viewerState.loaded&&Date.now()-window.__viewerState.lastChange>45000){window.__viewerFail('TIMEOUT loading '+window.__viewerState.stage)}},15000);
+</script>
+<script type="module">
+(async()=>{
+try{
+const el=id=>document.getElementById(id);
+window.__setStage('Loading Three.js viewer modules...');
+const THREE=await import('three');
+const {GLTFLoader}=await import('three/addons/loaders/GLTFLoader.js');
+const {OrbitControls}=await import('three/addons/controls/OrbitControls.js');
+const stage=el('stage'),scene=new THREE.Scene();scene.background=new THREE.Color(0x172131);
+const camera=new THREE.PerspectiveCamera(42,1,0.015,400);
+const renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'high-performance'});
+renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+stage.insertBefore(renderer.domElement,el('overlay'));
+const orbit=new OrbitControls(camera,renderer.domElement);orbit.enableDamping=true;orbit.minDistance=.15;orbit.maxDistance=80;
+scene.add(new THREE.HemisphereLight(0xffffff,0x617f9f,2.3));
+const sun=new THREE.DirectionalLight(0xfff6e4,2.5);sun.position.set(4,8,6);scene.add(sun);
+const rim=new THREE.DirectionalLight(0xa9d5ff,1);rim.position.set(-3,4,-5);scene.add(rim);
+const floor=new THREE.GridHelper(12,32,0x6387a4,0x2e455a);scene.add(floor);
+const resize=()=>{const w=Math.max(1,stage.clientWidth),h=Math.max(1,stage.clientHeight);renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()};
+new ResizeObserver(resize).observe(stage);resize();
+const digest=async data=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data))).map(x=>x.toString(16).padStart(2,'0')).join('');
+let manifest=null,mixer=null,action=null,loadedScene=null,activeClip=null,paused=false,scrubbing=false,duration=1,modelBounds=null,loadGeneration=0,lastFrame=performance.now();
+const controls=['play','replay','scrub','front','side','back','recenter'];
+const setControls=enabled=>{for(const id of controls)el(id).disabled=!enabled};
+function disposeScene(node){if(!node)return;scene.remove(node);node.traverse(x=>{if(x.geometry)x.geometry.dispose();if(x.material){for(const mat of Array.isArray(x.material)?x.material:[x.material]){for(const key of ['map','normalMap','metalnessMap','roughnessMap','emissiveMap','aoMap']){if(mat[key])mat[key].dispose()}mat.dispose()}}})}
+function frameModel(rebuild=true){
+ if(!loadedScene)return;
+ if(rebuild||!modelBounds){modelBounds=new THREE.Box3().setFromObject(loadedScene,true);if(modelBounds.isEmpty())throw Error('MODEL_HAS_NO_VISIBLE_GEOMETRY')}
+ const center=modelBounds.getCenter(new THREE.Vector3()),size=modelBounds.getSize(new THREE.Vector3());
+ const span=Math.max(size.x,size.y,size.z,.5);
+ orbit.target.copy(center);camera.near=Math.max(.005,span/1500);camera.far=Math.max(100,span*150);camera.updateProjectionMatrix();
+ camera.position.set(center.x+span*.70,center.y+span*.38,center.z+span*1.40);orbit.update();
+ floor.scale.setScalar(Math.max(span/3,.3));floor.position.y=Number(el('ground').value);orbit.maxDistance=span*15;
+}
+function view(axis){if(!modelBounds)return;const center=orbit.target.clone(),size=modelBounds.getSize(new THREE.Vector3());const r=Math.max(size.x,size.y,size.z,.5)*1.5;const v=axis==='front'?[0,.15,1]:axis==='side'?[1,.15,0]:[0,.15,-1];camera.position.set(center.x+v[0]*r,center.y+v[1]*r,center.z+v[2]*r);orbit.update()}
+function chooseAnimation(gltf,movement){
+ const matches=gltf.animations.filter(a=>a.name===movement);
+ if(matches.length!==1)throw Error('EXACT_ANIMATION_SELECTION_FAILED_'+movement+' count='+matches.length+'; GLB clips='+JSON.stringify(gltf.animations.map(a=>a.name)));
+ return matches[0];
+}
+async function loadModel(){
+ const generation=++loadGeneration;setControls(false);paused=false;el('play').textContent='Pause';
+ const mode=el('version').value,clip=el('move').value,key=mode==='candidate'?'candidate':'canonical';
+ const asset=manifest.models[key];
+ if(!asset){el('status').textContent='Original comparison unavailable: canonical GLB not staged. Select purchased ARP retarget.';if(mode==='original'){el('version').value='candidate';return await loadModel()}return}
+ window.__viewerState.loaded=false;window.__setStage('Reading '+mode+' '+clip+' GLB ('+(asset.bytes/1048576).toFixed(1)+' MB)...');
+ const url=asset.url+'?sha='+asset.sha256+'&build='+encodeURIComponent(manifest.buildToken);
+ const res=await fetch(url,{cache:'no-store'});if(!res.ok)throw Error('MODEL_HTTP_'+res.status+' URL='+asset.url);
+ if(res.headers.get('X-Model-SHA256')!==asset.sha256)throw Error('SERVER_MODEL_HASH_HEADER_MISMATCH');
+ const buf=await res.arrayBuffer();if(buf.byteLength!==asset.bytes)throw Error('MODEL_BYTE_COUNT_MISMATCH');
+ window.__setStage('SHA-256 checking the real '+clip+' model...');const actual=await digest(buf);if(actual!==asset.sha256)throw Error('MODEL_SHA256_MISMATCH expected '+asset.sha256+' got '+actual);
+ window.__setStage('Parsing verified GLB geometry and animation...');
+ const gltf=await new Promise((resolve,reject)=>new GLTFLoader().parse(buf,'',resolve,reject));
+ if(generation!==loadGeneration)return;
+ const chosen=chooseAnimation(gltf,clip);
+ if(mixer)mixer.stopAllAction();mixer=null;action=null;
+ disposeScene(loadedScene);loadedScene=gltf.scene;scene.add(loadedScene);
+ let physicalMeshes=0, texturedMeshes=0;
+ loadedScene.traverse(obj=>{if(obj.isMesh){physicalMeshes++;
+  const mats=Array.isArray(obj.material)?obj.material:[obj.material];
+  if(mats.length>0&&mats.every(m=>m&&m.map&&m.map.image))texturedMeshes++}});
+ if(physicalMeshes<1||texturedMeshes!==physicalMeshes)throw Error('MUDMAN_TEXTURE_NOT_MAPPED: '+texturedMeshes+'/'+physicalMeshes);
+ const identity=el('identity');identity.textContent=identity.textContent.replace(/(?:\s*\|\s*TEXTURED \d+\/\d+)+$/,'')+' | TEXTURED '+texturedMeshes+'/'+physicalMeshes;
+ // Disable overaggressive frustum culling on skinned materials during attack animation.
+ loadedScene.traverse(o=>{if(o.isSkinnedMesh)o.frustumCulled=false});
+ mixer=new THREE.AnimationMixer(loadedScene);activeClip=chosen;action=mixer.clipAction(chosen);action.reset().setLoop(THREE.LoopRepeat,Infinity).play();mixer.timeScale=Number(el('speed').value);
+ duration=Math.max(chosen.duration,.001);el('scrub').max=String(duration);el('scrub').value='0';el('time').textContent='0.00 / '+duration.toFixed(2)+'s';
+ frameModel(true);setControls(true);window.__viewerState.loaded=true;window.__viewerState.activeModelSHA=actual;window.__viewerState.activeAnimation=chosen.name;
+ el('overlay').innerHTML='<strong>REAL GLB SHA VERIFIED</strong><div>'+mode.toUpperCase()+' | '+clip+'</div><div>Clip: '+chosen.name+'</div><div>SHA: '+actual.slice(0,20)+'…</div>';
+ el('status').textContent='PLAYING '+chosen.name+' | '+gltf.animations.length+' GLB animations | ARP preview | MUDMAN ARES ACTION TRANSFER | UNAPPROVED';
+}
+const urlParams=new URLSearchParams(location.search);
+window.__setStage('Validating viewer manifest and run identity...');
+const mr=await fetch('/manifest.json?build='+encodeURIComponent(urlParams.get('build')||''),{cache:'no-store'});if(!mr.ok)throw Error('MANIFEST_HTTP_'+mr.status);
+manifest=await mr.json();
+const animations=manifest.models.candidate.animations;
+if(!Array.isArray(animations)||!animations.length)throw Error('NO_MUDMAN_ACTIONS_IN_MANIFEST');
+el('move').replaceChildren();
+const featured=['HitHeadLeft','HitHeadRightBig','Jab-Enemy','Cross-Enemy','Idle-Cross','Run'];
+const ordered=[...animations].sort((a,b)=>{
+ const ai=featured.indexOf(a),bi=featured.indexOf(b);
+ return (ai<0?999:ai)-(bi<0?999:bi)||a.localeCompare(b);
+});
+for(const name of ordered){const option=document.createElement('option');option.value=name;option.textContent=name;el('move').appendChild(option)}
+
+if(!manifest.runId||!manifest.buildToken||!manifest.sourceCommit||!manifest.launcherSHA256)throw Error('INVALID_IDENTITY_MANIFEST');
+if(urlParams.get('build')!==manifest.buildToken||urlParams.get('run')!==manifest.runId)throw Error('WRONG_VIEWER_RUN_OR_STALE_TAB');
+el('identity').textContent='RUN '+manifest.runId+' | BUILD '+manifest.buildToken+' | SCRIPT '+manifest.launcherSHA256.slice(0,16)+'… | GIT '+manifest.sourceCommit.slice(0,16)+'…';
+el('move').onchange=()=>loadModel().catch(window.__viewerFail);el('version').onchange=()=>loadModel().catch(window.__viewerFail);
+el('play').onclick=()=>{if(!action)return;paused=!paused;action.paused=paused;el('play').textContent=paused?'Play':'Pause';el('status').textContent=(paused?'PAUSED ':'PLAYING ')+activeClip.name};
+el('replay').onclick=()=>{if(!action)return;action.reset().play();action.paused=false;paused=false;el('play').textContent='Pause';mixer.update(0)};
+el('speed').onchange=()=>{if(mixer)mixer.timeScale=Number(el('speed').value)};
+el('scrub').oninput=()=>{if(!action)return;scrubbing=true;action.time=Number(el('scrub').value);mixer.update(0);el('time').textContent=action.time.toFixed(2)+' / '+duration.toFixed(2)+'s'};
+el('scrub').onchange=()=>{scrubbing=false};
+el('front').onclick=()=>view('front');el('side').onclick=()=>view('side');el('back').onclick=()=>view('back');el('recenter').onclick=()=>frameModel(false);
+el('ground').oninput=()=>{el('groundval').textContent=Number(el('ground').value).toFixed(3)+' m';if(modelBounds)floor.position.y=Number(el('ground').value)};
+function renderLoop(now){requestAnimationFrame(renderLoop);const dt=Math.min(.08,Math.max(0,(now-lastFrame)/1000));lastFrame=now;if(mixer)mixer.update(dt);if(action&&!scrubbing){el('scrub').value=String(action.time%duration);el('time').textContent=(action.time%duration).toFixed(2)+' / '+duration.toFixed(2)+'s'}orbit.update();renderer.render(scene,camera);window.__viewerState.renderedFrames++}
+requestAnimationFrame(renderLoop);
+await loadModel();
+}catch(err){window.__viewerFail(err)}
+})();
+</script>
+</body></html>
