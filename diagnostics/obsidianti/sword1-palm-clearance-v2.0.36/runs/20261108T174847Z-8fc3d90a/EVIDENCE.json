@@ -1,0 +1,85 @@
+{
+  "authority": "TERMUX_GIT_ONLY",
+  "canonicalModified": false,
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "clipCount": 43,
+  "halfFrame": {
+    "badIntervals": 0,
+    "halfFrameSamples": 345,
+    "maxLanceAngleErrorDeg": 0.609072237066176,
+    "maxLanceAngleTimeS": 0.4876820519566536,
+    "maxPalmErrorM": 0.00675688341694144,
+    "maxPalmErrorTimeS": 0.5022087395191193
+  },
+  "input42SHA256": "899aa3f7f24fb3b36e80a1c96cff7d032dcacf27f990231203ba5c08f2ee066b",
+  "inputGitHead": "52044f95e0ee2b293e56cd024e585f29b5046843",
+  "numericMidframeStrictPass": false,
+  "original42Preserved": true,
+  "ownerVisualAcceptance": "PENDING",
+  "palmAndCollision": {
+    "adaptiveTimeGrid": true,
+    "averagePenetrationAfter": 0.00020975180297818808,
+    "averagePenetrationBefore": 0.0014727769799555283,
+    "fps": 120,
+    "frames": 145,
+    "halfFrameVerification": {
+      "badIntervals": 0,
+      "halfFrameSamples": 345,
+      "maxLanceAngleErrorDeg": 0.609072237066176,
+      "maxLanceAngleTimeS": 0.4876820519566536,
+      "maxPalmErrorM": 0.00675688341694144,
+      "maxPalmErrorTimeS": 0.5022087395191193
+    },
+    "inputCount": 42,
+    "inputSHA256": "899aa3f7f24fb3b36e80a1c96cff7d032dcacf27f990231203ba5c08f2ee066b",
+    "leadSecondsPreserved": 0.23,
+    "maxLeftStretchFactor": 1.00455,
+    "maxPalmContactErrorM": 2.9e-07,
+    "maxRightHandTranslationM": 0.065968,
+    "maxWeaponRotationErrorDeg": 0.0,
+    "newVariant": "Vanguard_SwordAttack1_TwoHand_PalmIK_Clearance",
+    "outputBytes": 19835508,
+    "outputCount": 43,
+    "outputSHA256": "ed1f4f34f2f3a261e0c5096a39599980f20868223245455e2be554299d55a5a2",
+    "ownerVisualAcceptance": "PENDING",
+    "palm": {
+      "knuckleCount": 4,
+      "palmLocalM": [
+        -0.005233092904548486,
+        0.05156744075315205,
+        -0.0030608012688772782
+      ],
+      "palmOffsetM": 0.051922583830016036
+    },
+    "qualityState": "ADVISORY_FAILED_MIDFRAME_METRICS__REVIEW_ONLY",
+    "realSkinnedTorsoCollisionVerified": false,
+    "rightArmClearanceAfterMinM": -0.067134,
+    "rightArmClearanceBeforeMinM": -0.110954,
+    "schema": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.36",
+    "sourceVariant": "Vanguard_SwordAttack1_TwoHand_GripIK",
+    "status": "43_CLIP_PALM_AND_RIGHT_ARM_CLEARANCE_REVIEW",
+    "strictMidframeGatePassed": false
+  },
+  "protectedAfter": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/animation-reunion-v2.0.32/runs/20261107T203838Z-d49615bb/OBSIDIANTI_41_CLIP_SHIELD_LANCE_LIONHEART_ARP_REVIEW_UNAPPROVED.glb": "2b7e9148d3c5a36ce885151ec9ac1e41099ff94f",
+    "diagnostics/obsidianti/sword1-sustained-ik-v2.0.33/runs/20261107T213143Z-f1187b82/OBSIDIANTI_SWORD1_SUSTAINED_IK_42_CLIP_REVIEW_UNAPPROVED.glb": "76894ba23cca9c53fed792f4535725cd7c0f0714",
+    "diagnostics/obsidianti/vanguard-rigify-arp-v2.0.17/runs/20261107T044021Z-81e43a05/OBSIDIANTI_VANGUARD_ARP_EXPERIMENT_UNAPPROVED.glb": "dea170a18e2f597a061da79fc50cf016639a73d6"
+  },
+  "protectedBefore": {
+    "assets/obsidianti/Obsidianti.glb": "7e865955e18e55b004420c1ae100e0973b98d191",
+    "assets/repl/Repl.glb": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584",
+    "diagnostics/obsidianti/animation-reunion-v2.0.32/runs/20261107T203838Z-d49615bb/OBSIDIANTI_41_CLIP_SHIELD_LANCE_LIONHEART_ARP_REVIEW_UNAPPROVED.glb": "2b7e9148d3c5a36ce885151ec9ac1e41099ff94f",
+    "diagnostics/obsidianti/sword1-sustained-ik-v2.0.33/runs/20261107T213143Z-f1187b82/OBSIDIANTI_SWORD1_SUSTAINED_IK_42_CLIP_REVIEW_UNAPPROVED.glb": "76894ba23cca9c53fed792f4535725cd7c0f0714",
+    "diagnostics/obsidianti/vanguard-rigify-arp-v2.0.17/runs/20261107T044021Z-81e43a05/OBSIDIANTI_VANGUARD_ARP_EXPERIMENT_UNAPPROVED.glb": "dea170a18e2f597a061da79fc50cf016639a73d6"
+  },
+  "qualityState": "ADVISORY_FAILED_MIDFRAME_METRICS__REVIEW_ONLY",
+  "resultSHA256": "ed1f4f34f2f3a261e0c5096a39599980f20868223245455e2be554299d55a5a2",
+  "rulesBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "runId": "20261108T174847Z-8fc3d90a",
+  "schema": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.36",
+  "sourceCommit": "7f78664ec23f2883addc5d8e34d415d08f07b6c0",
+  "status": "REVIEW_UNAPPROVED_NOT_PHYSICAL_ACCEPTANCE",
+  "viewerURL": "http://127.0.0.1:9214/index.html?run=20261108T174847Z-8fc3d90a&build=01919cc7bb9ccb0c95a1f1a7"
+}
