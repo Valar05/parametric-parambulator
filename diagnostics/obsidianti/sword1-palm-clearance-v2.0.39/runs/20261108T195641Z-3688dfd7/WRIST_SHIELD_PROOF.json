@@ -1,0 +1,86 @@
+{
+  "durationSecondsPreserved": 0.8550000190734863,
+  "frames": 384,
+  "inputCount": 43,
+  "inputSHA256": "ed1f4f34f2f3a261e0c5096a39599980f20868223245455e2be554299d55a5a2",
+  "leadSecondsPreserved": 0.23,
+  "leftWrist": {
+    "maxArmStretchFactor": 1.0,
+    "maxSampleContactErrorM": 1.1938539602862198e-05
+  },
+  "newVariant": "Vanguard_SwordAttack1_TwoHand_PalmIK_WristShield_v239",
+  "originalClipName": "Vanguard_SwordAttack1_TwoHand_PalmIK_Clearance",
+  "outputCount": 44,
+  "outputSHA256": "be7eff1744388fe3c056eecfb602a6c06d09982d34590b2482e0e122b2bbdc0e",
+  "ownerVisualAcceptance": "PENDING",
+  "palm": {
+    "knuckleCount": 4,
+    "palmLocalM": [
+      -0.005233092904548486,
+      0.05156744075315205,
+      -0.0030608012688772782
+    ],
+    "palmOffsetM": 0.051922583830016036
+  },
+  "poseTimingUnchanged": true,
+  "rightArmSourceSamplersReusedExactly": true,
+  "schema": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.39",
+  "shield": {
+    "existingScaleChannel": true,
+    "finalScale": [
+      0.12000001430511474,
+      0.1199999713897705,
+      0.11999998569488525
+    ],
+    "initialScale": [
+      1.0000001192092896,
+      0.9999997615814209,
+      0.9999998807907104
+    ],
+    "newEndSeconds": 0.8550000190734863,
+    "node": 28,
+    "onsetSeconds": 0.23,
+    "originalEndSeconds": 0.017100000381469728,
+    "resolution": {
+      "metrics": [
+        {
+          "averageShieldBoneWeight": 0.0,
+          "node": 73,
+          "primitive": 0,
+          "selected": false,
+          "vertices": 5276
+        },
+        {
+          "averageShieldBoneWeight": 0.0,
+          "node": 74,
+          "primitive": 0,
+          "selected": false,
+          "vertices": 1605
+        },
+        {
+          "averageShieldBoneWeight": 1.0,
+          "node": 75,
+          "primitive": 0,
+          "selected": true,
+          "vertices": 690
+        },
+        {
+          "averageShieldBoneWeight": 0.0,
+          "node": 76,
+          "primitive": 0,
+          "selected": false,
+          "vertices": 1357
+        }
+      ],
+      "node": 28,
+      "purity": 1.0,
+      "shieldPrimitive": [
+        75,
+        0
+      ],
+      "strategy": "verified_skin_weight_joint"
+    },
+    "sourceHadShrinkingScale": true,
+    "targetRatio": 0.12
+  }
+}
