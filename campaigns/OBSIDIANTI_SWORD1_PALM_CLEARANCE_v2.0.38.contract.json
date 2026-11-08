@@ -1,0 +1,42 @@
+{
+  "schema": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38",
+  "repository": "Valar05/parametric-parambulator",
+  "authority": "TERMUX_GIT_ONLY",
+  "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "requiredEtiquette": "CAMPAIGN_ETIQUETTE \u2014 Git Script Campaign Operating Rules",
+  "pinnedGitBase": "898051da60092002cb39137d0683fbff45118085",
+  "canonicalPath": "assets/obsidianti/Obsidianti.glb",
+  "canonicalSHA256": "8036ea2545cd1f32096447649eea1119aeb59769c94af0118bf94c929c2f63b4",
+  "input43SHA256": "ed1f4f34f2f3a261e0c5096a39599980f20868223245455e2be554299d55a5a2",
+  "inputPath": "diagnostics/obsidianti/sword1-palm-clearance-v2.0.36/runs/20261108T174847Z-8fc3d90a/OBSIDIANTI_SWORD1_PALM_CLEARANCE_43_CLIP_UNAPPROVED.glb",
+  "mission": "Preserve visibly improved right arm and existing attack pose timing. Fix left wrist orientation on the lance and slow shield shrink continuously rather than flicker. Append review-only 44th animation to exact published v2.0.36 43-clip source. Repair prior source assumption: shield mesh need not have a scale channel; if absent author smooth positive dedicated shield mesh scale without changing other channels.",
+  "sourceMutablePaths": [
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_LAUNCH.sh",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_driver.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_fix.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_viewer.html",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_server.py",
+    "campaigns/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38.contract.json",
+    "tests/OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.38_TEST.py"
+  ],
+  "mutableEvidencePrefix": "diagnostics/obsidianti/sword1-palm-clearance-v2.0.38/runs/",
+  "allowedChanges": [
+    "one appended 44th animation",
+    "left-arm rotation/translation tracks for palm anchored wrist orientation in new clip",
+    "shield scale channel in new clip",
+    "versioned script/viewer/report"
+  ],
+  "noChanges": [
+    "original 43 animations and their sampler bytes",
+    "right arm channels in new clip",
+    "source rig and canonical model",
+    "mesh and shield geometry",
+    "right lance orientation animation",
+    "attack duration and pose event times",
+    "previous 43-clip review variant"
+  ],
+  "ownerVisualApproval": "PENDING",
+  "qualityGate": "unapproved physical review; numeric contact and right sampler structural gates",
+  "repairFrom": "OBSIDIANTI_SWORD1_PALM_CLEARANCE_v2.0.37",
+  "ownerFeedback": "Right arm better; left wrist incorrect even though left arm looks good. Preserve pose timing; make shield scale down slower and without flickering."
+}
