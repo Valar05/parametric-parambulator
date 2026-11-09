@@ -1,0 +1,16 @@
+{
+  "schema": "OBSIDIANTI_FK_TO_IK_41_v1.0.1",
+  "lane": "TERMUX_GIT_ONLY",
+  "sourceBlend": "assets/obsidianti/source/OBSIDIANTI_FK_FEET_AUTHOR_v1.0.0_UNAPPROVED.blend",
+  "sourceSHA256": "30b00b71333f3d17aa923884381cbed381ac255af6366c83cc5005166e1c4a27",
+  "outputBlend": "assets/obsidianti/source/OBSIDIANTI_IK41_EDITABLE_v1.0.1_UNAPPROVED.blend",
+  "originalActions": 41,
+  "ikActions": 41,
+  "strictPoseParity": {
+    "ankleM": 0.012,
+    "kneeM": 0.025,
+    "footDeg": 3.0
+  },
+  "mutation": "NEW_VERSIONED_ONLY",
+  "ownerVisualAcceptance": "PENDING"
+}
