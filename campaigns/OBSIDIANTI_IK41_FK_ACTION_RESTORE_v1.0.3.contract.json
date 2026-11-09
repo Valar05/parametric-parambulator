@@ -1,0 +1,15 @@
+{
+  "campaign": "OBSIDIANTI_IK41_FK_ACTION_RESTORE_v1.0.3",
+  "authority": "ISOLATED_TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "sourceBlend": "assets/obsidianti/source/OBSIDIANTI_FK_FEET_AUTHOR_v1.0.0_UNAPPROVED.blend",
+  "sourceSHA256": "30b00b71333f3d17aa923884381cbed381ac255af6366c83cc5005166e1c4a27",
+  "oldCandidateSHA256": "f594543e098f553d02f09d7dcbdcd3019bc15181a8d513e64a5d98a0f3ad429a",
+  "output": "assets/obsidianti/source/OBSIDIANTI_IK41_EDITABLE_v1.0.3_UNAPPROVED.blend",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "originalFKActions": 82,
+  "IKEditableActions": 41,
+  "poseLimits": {"ankleM": 0.012, "kneeM": 0.025, "footDeg": 3.0},
+  "mutation": "NEW_VERSIONED_FILES_ONLY",
+  "ownerVisualAcceptance": "PENDING"
+}
