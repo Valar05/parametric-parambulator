@@ -1,0 +1,14 @@
+{
+  "schema": "OBSIDIANTI_IK41_FINALIZE_v1.0.4",
+  "authorizedExecution": "ISOLATED_TERMUX_GIT_ONLY",
+  "source": "assets/obsidianti/source/OBSIDIANTI_FK_FEET_AUTHOR_v1.0.0_UNAPPROVED.blend",
+  "sourceSHA256": "30b00b71333f3d17aa923884381cbed381ac255af6366c83cc5005166e1c4a27",
+  "existingIKCandidateSHA256": "30ad2518a820e6b1770dcced6a46f1f2f91db28af799c60dfa21ab3488cda75e",
+  "output": "assets/obsidianti/source/OBSIDIANTI_IK41_EDITABLE_v1.0.3_UNAPPROVED.blend",
+  "originalFKActions": 82,
+  "IKClips": 41,
+  "expectedReopenPoseSamples": 121,
+  "originalAnimationCurveComparisonRequired": true,
+  "noRebuild": true,
+  "ownerVisualAcceptance": "PENDING"
+}
