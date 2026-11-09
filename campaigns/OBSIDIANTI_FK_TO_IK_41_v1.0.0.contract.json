@@ -1,0 +1,16 @@
+{
+  "campaign": "OBSIDIANTI_FK_TO_IK_41_v1.0.0",
+  "executionLane": "ISOLATED_TERMUX_GIT_ONLY",
+  "repository": "Valar05/parametric-parambulator",
+  "rulesGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "input": "assets/obsidianti/source/OBSIDIANTI_FK_FEET_AUTHOR_v1.0.0_UNAPPROVED.blend",
+  "inputSHA256": "30b00b71333f3d17aa923884381cbed381ac255af6366c83cc5005166e1c4a27",
+  "newOutput": "assets/obsidianti/source/OBSIDIANTI_IK41_EDITABLE_v1.0.0_UNAPPROVED.blend",
+  "originalAnimationCount": 41,
+  "newIKActionsRequired": 41,
+  "footIKConstraintsRequired": 2,
+  "kneePoleControlsRequired": 2,
+  "ownerVisualApproval": "PENDING",
+  "locked": ["canonical models", "source native blend", "41 FK source clips", "original FK actions", "shelved Sword1 work"],
+  "failurePolicy": "STOP_AND_PERSIST_DIAGNOSTICS_NO_UNVERIFIED_BINARY_PUBLICATION"
+}
