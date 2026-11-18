@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "source": "reliquary_duelist.svg",
+  "forward": "-Y",
+  "parts": [
+    {
+      "id": "left_boot",
+      "asset": "boot",
+      "x": -26.1,
+      "y": 4,
+      "rotation": 180,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "torso",
+      "asset": "torso",
+      "x": -0.3,
+      "y": 3.5,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "cloth",
+      "asset": "cloth",
+      "x": 4.1,
+      "y": 8.6,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "left_upper",
+      "asset": "upper",
+      "x": -58,
+      "y": 0,
+      "rotation": 109,
+      "scaleX": -1,
+      "scaleY": 1
+    },
+    {
+      "id": "right_upper",
+      "asset": "upper",
+      "x": 58,
+      "y": 0,
+      "rotation": -60,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "left_forearm",
+      "asset": "forearm",
+      "x": -86.9,
+      "y": -13.2,
+      "rotation": 195,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "right_forearm",
+      "asset": "forearm",
+      "x": 96.8,
+      "y": 20.5,
+      "rotation": 210,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "left_hand",
+      "asset": "open_hand",
+      "x": -63.9,
+      "y": -58.6,
+      "rotation": 30,
+      "scaleX": -0.85,
+      "scaleY": 1
+    },
+    {
+      "id": "sword",
+      "asset": "sword",
+      "x": 119.4,
+      "y": -47.5,
+      "rotation": -33,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "right_hand",
+      "asset": "fist",
+      "x": 124.9,
+      "y": -15.8,
+      "rotation": 32,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "right_boot",
+      "asset": "boot",
+      "x": 26.1,
+      "y": 4,
+      "rotation": 180,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "left_shoulder",
+      "asset": "shoulder",
+      "x": -31,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "id": "right_shoulder",
+      "asset": "shoulder",
+      "x": 31,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": -1,
+      "scaleY": 1
+    },
+    {
+      "id": "helmet",
+      "asset": "helmet",
+      "x": 0,
+      "y": -15,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    }
+  ]
+}

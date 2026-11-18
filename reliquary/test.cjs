@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict'),{solve,P}=require('./motion.js');assert.deepEqual(solve(0,0),P);let a=solve(10,30);assert.equal(a.length,14);assert.notEqual(a.find(p=>p.id==='sword').rotation,P.find(p=>p.id==='sword').rotation);assert.deepEqual(a.filter(p=>p.id.endsWith('boot')),P.filter(p=>p.id.endsWith('boot')));console.log('POSE/FK PASS');

@@ -1,0 +1,19 @@
+{
+  "source": "696198d8a41c4be4758bcd30d89a9195f45330b1",
+  "agents_blob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "etiquette_modified": "2026-11-06T13:37:29.626Z",
+  "repl_declared_sha": "50d26053027296895fd8853e7337a1fcbfba8e77a63aea095680b19b3d113dd4",
+  "files": {
+    "assets/reliquary/reliquary.svg": "960a90778ca29657e14faed3c124bed48e18f56e0060506b656495ebfdaba985",
+    "assets/reliquary/pose.json": "7f4e7901017ed5fff4a69bd1bc2c406e6b89bcfdae1060b71e4066e338e2a8c1",
+    "reliquary/index.html": "bfeca50fdda38255160ad0466132cd47f5f2291c7d1f7bc780afcfd0ea893ff7",
+    "reliquary/motion.js": "797a1f62f68d77d518d407f4b5f12ba2d29bc5b8f74d7cd575b3e898906c2ed2",
+    "reliquary/test.cjs": "dfd25559559a444f8e13836ba9b32c4f9ac4832f9c7e98dd9919ac0813cae6af"
+  },
+  "rig_status": "PROVISIONAL_FK_NOT_MEASURED_IK",
+  "scope": "additive review only",
+  "version": "1.0.3",
+  "repl_integrity": "Exact pinned Git blob byte parity; manifest SHA advisory; no Repl writes",
+  "repl_preservation": "Exact pinned Git blob plus unchanged worktree representation; LFS hydration not required. Owner authorized proceeding after remote object 404.",
+  "repl_expected_git_blob": "0bd659e97ba73feb2cfeef2e58c4ffedee8de584"
+}
