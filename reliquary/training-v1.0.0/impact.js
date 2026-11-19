@@ -1,0 +1,10 @@
+(function(){
+const center=[0,-390], mix=(a,b,t)=>a.map((x,i)=>x+(b[i]-x)*t), sub=(a,b)=>a.map((x,i)=>x-b[i]), norm=a=>Math.hypot(...a);
+function closest(a,b,c){const d=sub(b,a),v=sub(c,a),t=Math.max(0,Math.min(1,(v[0]*d[0]+v[1]*d[1])/(d[0]**2+d[1]**2||1)));return {t,d:norm(sub(mix(a,b,t),c))};}
+function sweep(old,now,c,r,dt){let travel=Math.max(norm(sub(now[0],old[0])),norm(sub(now[1],old[1]))),n=Math.max(1,Math.ceil(travel/3));for(let i=0;i<=n;i++){let a=mix(old[0],now[0],i/n),b=mix(old[1],now[1],i/n),q=closest(a,b,c);if(q.d<=r){let v=sub(mix(now[0],now[1],q.t),mix(old[0],old[1],q.t)).map(x=>x/dt);return {v,speed:norm(v)};}}return null;}
+function spring(s,dt){for(let i=0;i<2;i++){s.v[i]+=(-95*s.x[i]-13*s.v[i])*dt;s.x[i]+=s.v[i]*dt;}}
+if(typeof module==='object'){module.exports={sweep,closest,spring};return;}
+let last=null,armed=true,hits=0,body={x:[0,0],v:[0,0]},head={x:[0,0],v:[0,0]};
+window.trainingFrame=(pose,root,face,dt)=>{let sword=pose.poses.find(p=>p.id==='sword'),a=face*Math.PI/180,world=(x,y)=>[root[0]+x*Math.cos(a)-y*Math.sin(a),root[1]+x*Math.sin(a)+y*Math.cos(a)],b=sword.rotation*Math.PI/180,now=[world(sword.x+5*Math.sin(b),sword.y-5*Math.cos(b)),world(sword.x+204*Math.sin(b),sword.y-204*Math.cos(b))];
+let touching=closest(...now,center).d<65;if(last){let hit=sweep(last,now,center,58,dt);if(armed&&hit&&hit.speed>75){armed=false;hits++;let force=Math.min(150,hit.speed*.15),v=hit.v.map(x=>x/hit.speed*force);for(let i=0;i<2;i++){body.v[i]+=v[i];head.v[i]+=v[i]*1.8;}document.getElementById('hits').textContent=`${hits} hits | ${Math.round(hit.speed)} u/s`; }else if(!touching&&!hit)armed=true;}last=now;
+for(let i=0;i<2;i++){spring(body,dt*.5);spring(head,dt*.5);}let [x,y]=body.x;let w=Math.abs(x)/(Math.abs(x)+Math.abs(y)+.001),skew=Math.max(-12,Math.min(12,x*1.5*w)),sy=Math.max(.75,Math.min(1.25,1+y*.018*(1-w)));document.getElementById('dummy-body-motion').setAttribute('transform',`translate(${x} ${y}) skewX(${skew}) scale(1 ${sy})`);document.getElementById('dummy-head-motion').setAttribute('transform',`translate(${x+head.x[0]} ${y+head.x[1]})`);};})();

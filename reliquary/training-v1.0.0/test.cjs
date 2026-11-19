@@ -1,0 +1,1 @@
+const a=require('node:assert/strict'),{sweep,spring}=require('./impact');a(sweep([[-100,-80],[-100,80]],[[100,-80],[100,80]],[0,0],20,.016));a.equal(sweep([[-100,-80],[-100,80]],[[-90,-80],[-90,80]],[0,0],20,.016),null);let s={x:[0,0],v:[100,100]};for(let i=0;i<240;i++)spring(s,1/120);a(Math.hypot(...s.x)<.01);console.log('collision and spring PASS');
