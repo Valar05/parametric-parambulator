@@ -1,0 +1,17 @@
+{
+  "campaign": "hareworks-forward-woman-proof-v0.1.3",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "429cef2c1d26f81d58bcb6196eb80dd065b51168",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "executionLane": "Android Termux Git only",
+  "sourceClip": "Walking_Woman",
+  "ownerRejected": "v0.1.2 generated feet and knees snap; preserve hips",
+  "goal": "Forward-only Woman walking, 74-joint real-skinned reference versus continuous reach-safe procedural feet and knee pole; 30/60/120fps gate and atomic rollback",
+  "immutablePaths": ["AGENTS.md", "assets/repl/Repl.glb", "assets/hareworks/Hareworks.glb", "assets/hareworks/Hareworks-nine-clips.glb", "tools/hareworks-forward-woman/v0.1.1", "tools/hareworks-forward-woman/v0.1.2"],
+  "newOutputs": ["tools/hareworks-forward-woman/v0.1.3/index.html", "tools/hareworks-forward-woman/v0.1.3/viewer.mjs", "tools/hareworks-forward-woman/v0.1.3/foot-kernel.mjs", "tools/hareworks-forward-woman/v0.1.3/foot-kernel-test.mjs", "tools/hareworks-forward-woman/v0.1.3/foot-profile.json", "tools/hareworks-forward-woman/v0.1.3/reference-leg-witnesses.json", "tools/hareworks-forward-woman/v0.1.3/README.md", "tools/hareworks-forward-woman/v0.1.3/contract.json", "campaigns/hareworks-forward-woman-proof-v0.1.3.sh"],
+  "immutableV012Pelvis": "tools/hareworks-forward-woman/v0.1.2/motion-profile.json",
+  "successGates": ["script SHA guarded", "exact LFS source SHA and GLB rig verified", "30 held-out raw source ankle and knee witnesses", "30/60/120/240fps path and reach offline tests", "isolated Termux Git commit and exact remote readback", "real GLB browser loaded and real-rig 30/60/120fps continuity gate", "real-body foot and knee visual evaluation by owner"],
+  "nonclaims": ["not approved animation", "not world-root walking", "not 3D physics", "not force/ground validated", "not demonstrated on phone until owner's actual run"]
+}
