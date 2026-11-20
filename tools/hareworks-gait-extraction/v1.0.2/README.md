@@ -1,0 +1,3 @@
+# Hareworks gait extraction v1.0.2
+
+Read-only browser-side extraction from `assets/hareworks/Hareworks.glb`. It samples all seven animation clips at >=60 Hz through Three.js AnimationMixer, records world-space hip/knee/ankle/toe and pelvis trajectories, knee angle, and preliminary toe contact candidates. Use the **Export all trajectory JSON** button to save measurements. Contact estimates are explicitly heuristic, not skinned-sole validated. Does not implement IK or modify any GLB. The CDN requires internet on first viewer load. The viewer is served from the repository root so its relative GLB path resolves correctly.
