@@ -1,0 +1,26 @@
+{
+  "campaign": "hareworks-gait-extraction-v1.0.8",
+  "sourceCommit": "9b77c19d2f542706d5e04319068345f32583be2a",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "repo": "Valar05/parametric-parambulator",
+  "ownerLane": "Android Termux Git only",
+  "immutable": [
+    "assets/repl/Repl.glb",
+    "assets/hareworks/Hareworks.glb",
+    "AGENTS.md"
+  ],
+  "newOutputs": [
+    "assets/hareworks/Hareworks-nine-clips.glb",
+    "tools/hareworks-gait-extraction/v1.0.8/*",
+    "campaigns/hareworks-gait-extraction-v1.0.8.sh"
+  ],
+  "turnClips": [
+    "Idle_Turn_Left",
+    "Idle_Turn_Right"
+  ],
+  "acceptance": [
+    "remote readback",
+    "browser JSON export",
+    "owner visual verdict"
+  ]
+}

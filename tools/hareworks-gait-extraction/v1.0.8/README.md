@@ -1,0 +1,5 @@
+# Hareworks nine-clip gait and idle-turn archaeology v1.0.8
+
+Reads the *unchanged* 6,784,896-byte Hareworks nine-clip source. Browser samples nine clips, including `Idle_Turn_Left` and `Idle_Turn_Right`, at ~60 Hz, with precise skeletal chains and bounded skinned-foot vertex witnesses. Reports pelvis world yaw unwrapped across 360°, pelvis displacement (not falsely named root motion), upper/chest turn relative to pelvis, ankle yaw, approximate ground-near intervals, foot-ground travel and exportable tracks. Uses separate clip-action reset for each pass. All contact labels remain **heuristic**. No IK or aim controller is claimed to be implemented; report includes proposed idle aiming turn-and-step behavior requiring visual calibration.
+
+The animated viewer is served by local Termux HTTP from the isolated checkout and requires internet to load Three.js from its pinned CDN version. Browser export must be tapped to persist analysis JSON on Android. Viewer HTTP success does not prove browser WebGL or extraction success; owner visual and JSON review are separate gates. Do not confuse v1.0.7's interrupted local LFS copy with a GitHub asset.
