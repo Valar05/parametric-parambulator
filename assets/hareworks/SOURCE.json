@@ -1,0 +1,19 @@
+{
+  "name": "Hareworks Field Engineer",
+  "origin": "Meshy/Mixamo user-provided GLB",
+  "source_filename": "Meshy_AI_Hareworks_Field_Engineer_20261120_animated_mixamo_All_animation (2).glb",
+  "canonical_path": "assets/hareworks/Hareworks.glb",
+  "sha256": "4ee555a0e416e3b2d03290fea85fa5306f894b9b4a5e8feb3f41078d5eb7d828",
+  "bytes": 6484280,
+  "skin_joint_count": 74,
+  "animation_names": [
+    "Running",
+    "Walking",
+    "Cautious_Crouch_Walk_Left",
+    "Cautious_Crouch_Walk_Left_inplace",
+    "Walk_Backward",
+    "Walking_Woman",
+    "slide_right"
+  ],
+  "source_status": "original unmodified; no procedural motion applied"
+}
