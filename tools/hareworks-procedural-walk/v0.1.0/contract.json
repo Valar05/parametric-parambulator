@@ -1,0 +1,29 @@
+{
+  "schema": "hareworks-procedural-walk-campaign-v0.1.0",
+  "owner": "Valar05",
+  "repo": "Valar05/parametric-parambulator",
+  "sourceCommit": "31d8799d8cc4d4be449615cc6d5771d87c792a07",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "lanes": {"mutation":"Termux Git only", "execution":"Android Termux local server and browser"},
+  "writeAllowlist": [
+    "campaigns/hareworks-procedural-walk-v0.1.0.sh",
+    "tools/hareworks-procedural-walk/v0.1.0/index.html",
+    "tools/hareworks-procedural-walk/v0.1.0/walker.mjs",
+    "tools/hareworks-procedural-walk/v0.1.0/gait-core.mjs",
+    "tools/hareworks-procedural-walk/v0.1.0/core-test.mjs",
+    "tools/hareworks-procedural-walk/v0.1.0/contract.json",
+    "tools/hareworks-procedural-walk/v0.1.0/reference-summary.json",
+    "tools/hareworks-procedural-walk/v0.1.0/README.md"
+  ],
+  "protected": ["AGENTS.md", "assets/repl/Repl.glb", "assets/hareworks/Hareworks.glb", "assets/hareworks/Hareworks-nine-clips.glb", "assets/hareworks/.gitattributes", "tools/hareworks-gait-extraction/v1.0.8"],
+  "requiredBehavior": ["real-bone IK, no runtime Mixamo playback", "world-space stance ankle anchors", "independent actor movement and aim headings", "directional stepping", "stationary twist budget and pivot step", "visual and measured diagnostics", "on-device real-rig smoke and test export"],
+  "evidenceBoundaries": ["git committed", "remote fetched/read back", "HTTP browser assets served", "runtime loaded GLB and solved bones", "owner visual acceptance"],
+  "sourceDoctrine": [
+    "https://docs.google.com/document/d/1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI/edit",
+    "https://docs.google.com/document/d/1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU/edit",
+    "https://docs.google.com/document/d/1BYhmuH21oX1_4SAmuNjCin0A6BJhQi4axQe9quaSs5o/edit",
+    "https://docs.google.com/document/d/1BVoKaIG-ivp7Vl39SmrcEbfdAg-CAePjrd6IoRgEyQA/edit"
+  ]
+}

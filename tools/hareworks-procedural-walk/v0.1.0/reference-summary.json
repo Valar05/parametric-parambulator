@@ -1,0 +1,172 @@
+{
+  "schema": "hareworks-procedural-walk-reference-summary-v0.1.0",
+  "evidenceSource": "Owner-uploaded browser export hareworks-nine-clip-gait-and-idle-turn-v1.0.8.json, 2026-11-20",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rigJointCount": 74,
+  "measurementStatus": "HEURISTIC_REFERENCE_NOT_GROUND_TRUTH",
+  "ownerCorrections": [
+    "Walk_Backward contains root motion",
+    "slide_right contains root motion"
+  ],
+  "knownFlaws": [
+    "pelvis world displacement must not be called actual root motion",
+    "large idle turn yaw paths disagree with net change; do not calibrate turn limit from paths",
+    "sole witnesses are partial skinned-vertex estimates and not support-force data",
+    "contact candidates not accepted stance labels"
+  ],
+  "clips": [
+    {
+      "name": "Running",
+      "durationSeconds": 0.633333,
+      "samples": 61,
+      "pelvisDeltaXYZ": [
+        -0.006488,
+        0.022055,
+        -0.03143
+      ],
+      "pelvisNetYawDegrees": 5.273678,
+      "pelvisYawPathDegrees": 33.352989,
+      "groundNearCandidateFractions": {
+        "left": 0.409836,
+        "right": 0.245902
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Walking",
+      "durationSeconds": 1.033333,
+      "samples": 63,
+      "pelvisDeltaXYZ": [
+        -0.003491,
+        -0.044852,
+        -0.027961
+      ],
+      "pelvisNetYawDegrees": -1.917529,
+      "pelvisYawPathDegrees": 22.674214,
+      "groundNearCandidateFractions": {
+        "left": 0.492063,
+        "right": 0.539683
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Cautious_Crouch_Walk_Left",
+      "durationSeconds": 1.166667,
+      "samples": 71,
+      "pelvisDeltaXYZ": [
+        -0.00293,
+        0.13541,
+        -0.012971
+      ],
+      "pelvisNetYawDegrees": 34.746351,
+      "pelvisYawPathDegrees": 57.811213,
+      "groundNearCandidateFractions": {
+        "left": 0.366197,
+        "right": 0.774648
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Cautious_Crouch_Walk_Left_inplace",
+      "durationSeconds": 1.166667,
+      "samples": 71,
+      "pelvisDeltaXYZ": [
+        -0.00293,
+        0.131456,
+        -0.012971
+      ],
+      "pelvisNetYawDegrees": 34.746351,
+      "pelvisYawPathDegrees": 57.611959,
+      "groundNearCandidateFractions": {
+        "left": 0.380282,
+        "right": 0.774648
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Idle_Turn_Left",
+      "durationSeconds": 0.933333,
+      "samples": 61,
+      "pelvisDeltaXYZ": [
+        -0.005347,
+        -0.013193,
+        -0.04997
+      ],
+      "pelvisNetYawDegrees": 5.754528,
+      "pelvisYawPathDegrees": 226.744839,
+      "groundNearCandidateFractions": {
+        "left": 0.114754,
+        "right": 0.52459
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Idle_Turn_Right",
+      "durationSeconds": 1.1,
+      "samples": 67,
+      "pelvisDeltaXYZ": [
+        -0.00265,
+        -0.002658,
+        -0.05172
+      ],
+      "pelvisNetYawDegrees": -2.627017,
+      "pelvisYawPathDegrees": 202.892668,
+      "groundNearCandidateFractions": {
+        "left": 0.701493,
+        "right": 0.208955
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "Walk_Backward",
+      "durationSeconds": 0.866667,
+      "samples": 61,
+      "pelvisDeltaXYZ": [
+        -0.003088,
+        0.015885,
+        -0.016852
+      ],
+      "pelvisNetYawDegrees": 2.310725,
+      "pelvisYawPathDegrees": 18.752462,
+      "groundNearCandidateFractions": {
+        "left": 0.245902,
+        "right": 0.229508
+      },
+      "sourceRootMotion": "CONFIRMED_BY_OWNER"
+    },
+    {
+      "name": "Walking_Woman",
+      "durationSeconds": 0.966667,
+      "samples": 61,
+      "pelvisDeltaXYZ": [
+        -0.008843,
+        -0.038906,
+        -0.024889
+      ],
+      "pelvisNetYawDegrees": -10.612163,
+      "pelvisYawPathDegrees": 42.328962,
+      "groundNearCandidateFractions": {
+        "left": 0.491803,
+        "right": 0.442623
+      },
+      "sourceRootMotion": "UNVERIFIED"
+    },
+    {
+      "name": "slide_right",
+      "durationSeconds": 1.733333,
+      "samples": 105,
+      "pelvisDeltaXYZ": [
+        -0.002708,
+        0.001717,
+        -0.014684
+      ],
+      "pelvisNetYawDegrees": -3.498292,
+      "pelvisYawPathDegrees": 183.06142,
+      "groundNearCandidateFractions": {
+        "left": 0.171429,
+        "right": 0.133333
+      },
+      "sourceRootMotion": "CONFIRMED_BY_OWNER"
+    }
+  ]
+}
