@@ -1,0 +1,38 @@
+{
+  "campaign": "hareworks-forward-woman-proof-v0.1.2",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "f322307c46e561443c3e0177ef309332fb51834d",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "executionLane": "Android Termux Git only",
+  "sourceClip": "Walking_Woman",
+  "goal": "Reference-versus-generated skinned forward-walk proof with independent pelvis and ankle orientation, orbit camera, 30fps review; no locomotion expansion",
+  "immutablePaths": [
+    "AGENTS.md",
+    "assets/repl/Repl.glb",
+    "assets/hareworks/Hareworks.glb",
+    "assets/hareworks/Hareworks-nine-clips.glb",
+    "tools/hareworks-forward-woman/v0.1.1"
+  ],
+  "newOutputs": [
+    "tools/hareworks-forward-woman/v0.1.2/index.html",
+    "tools/hareworks-forward-woman/v0.1.2/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.1.2/pose-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.1.2/pose-kernel-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.2/motion-profile.json",
+    "tools/hareworks-forward-woman/v0.1.2/reference-samples.json",
+    "tools/hareworks-forward-woman/v0.1.2/README.md",
+    "tools/hareworks-forward-woman/v0.1.2/contract.json",
+    "campaigns/hareworks-forward-woman-proof-v0.1.2.sh"
+  ],
+  "successGates": [
+    "exact source SHA and GLB structure",
+    "60-frame reference profile and 30-sample holdout verified",
+    "30fps generated forward ankle reach and continuous joints check in actual browser",
+    "source hip/root and leg tracks explicitly excluded from generated mixer",
+    "Git publication through Termux Git with exact remote readback",
+    "interactive orbit camera and skinned visual owner review"
+  ],
+  "nonclaims": ["world-space planted walk", "full independent upper body", "strafing", "turning", "owner visual acceptance"]
+}

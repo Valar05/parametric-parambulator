@@ -1,0 +1,257 @@
+{
+  "schema": "hareworks-forward-woman-independent-pelvis-foot-v0.1.2",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceSchema": "hareworks-gait-and-idle-turn-v1.0.8",
+  "clip": "Walking_Woman",
+  "duration": 0.966667,
+  "fitMethod": "four sine and four (cos-1) harmonics, fit to 30 alternating frames, 30 held-out frames; anchored at t=0 with periodic continuity; misleading discontinuous endpoint excluded",
+  "coordinateFrame": "GLTF world +Y up, +Z forward; source reference model origin, independent of side-by-side display offsets",
+  "pelvis": {
+    "x": {
+      "start": 0.012163,
+      "sin": [
+        0.001475575,
+        0.000155142,
+        0.001759443,
+        -3.5367e-05
+      ],
+      "cosMinusOne": [
+        -0.01921953,
+        0.00093039,
+        -0.000521192,
+        0.000239871
+      ]
+    },
+    "y": {
+      "start": 1.005117,
+      "sin": [
+        -0.000109938,
+        0.00889427,
+        -0.000196938,
+        0.000930304
+      ],
+      "cosMinusOne": [
+        -0.000526119,
+        0.01685711,
+        0.000959503,
+        -0.001330693
+      ]
+    },
+    "z": {
+      "start": 0.114537,
+      "sin": [
+        -0.003670381,
+        -0.011920402,
+        3.1591e-05,
+        -0.000146197
+      ],
+      "cosMinusOne": [
+        -0.007734078,
+        -0.004222579,
+        -0.001298296,
+        -0.002522193
+      ]
+    },
+    "yaw": {
+      "start": 0.185217187,
+      "sin": [
+        -0.098827339,
+        -0.00151022,
+        0.014212,
+        0.00107556
+      ],
+      "cosMinusOne": [
+        0.098433407,
+        0.014129334,
+        0.023549355,
+        0.005990104
+      ]
+    }
+  },
+  "feet": {
+    "left": {
+      "toeVectorX": {
+        "start": 0.029435,
+        "sin": [
+          0.0043825,
+          0.006334657,
+          0.004487507,
+          -6.512e-06
+        ],
+        "cosMinusOne": [
+          -0.002765975,
+          0.002125371,
+          0.002745245,
+          0.002462342
+        ]
+      },
+      "toeVectorY": {
+        "start": -0.09285,
+        "sin": [
+          0.004774215,
+          -0.004748215,
+          -0.010368439,
+          -0.005216561
+        ],
+        "cosMinusOne": [
+          0.005918738,
+          -0.002996904,
+          -0.004937331,
+          -0.001544144
+        ]
+      },
+      "toeVectorZ": {
+        "start": -0.040536,
+        "sin": [
+          0.042517921,
+          0.0292223,
+          0.004106118,
+          -0.001871619
+        ],
+        "cosMinusOne": [
+          -0.037909216,
+          -0.017890218,
+          -0.001812765,
+          0.004543984
+        ]
+      },
+      "ankleYaw": {
+        "start": 2.69436898,
+        "sin": [
+          0.031504547,
+          0.022889011,
+          0.035204745,
+          0.011015732
+        ],
+        "cosMinusOne": [
+          0.03254269,
+          0.048905346,
+          0.029024304,
+          0.000415883
+        ]
+      }
+    },
+    "right": {
+      "toeVectorX": {
+        "start": -0.039464,
+        "sin": [
+          0.000353886,
+          -0.005097988,
+          0.00475305,
+          -0.000144409
+        ],
+        "cosMinusOne": [
+          -0.006217314,
+          -0.003777912,
+          0.003483705,
+          -0.001187136
+        ]
+      },
+      "toeVectorY": {
+        "start": -0.097577,
+        "sin": [
+          -0.004668954,
+          -0.003138845,
+          0.010599704,
+          -0.007008285
+        ],
+        "cosMinusOne": [
+          -0.005044143,
+          -0.001858262,
+          0.004404747,
+          -0.001159044
+        ]
+      },
+      "toeVectorZ": {
+        "start": 0.040789,
+        "sin": [
+          -0.041547867,
+          0.032274259,
+          -0.005623962,
+          -0.003365206
+        ],
+        "cosMinusOne": [
+          0.040112697,
+          -0.022292211,
+          0.003785121,
+          0.004127944
+        ]
+      },
+      "ankleYaw": {
+        "start": -2.542201418,
+        "sin": [
+          0.016821225,
+          -0.056965558,
+          0.071218309,
+          -0.040098851
+        ],
+        "cosMinusOne": [
+          0.004317916,
+          -0.009739354,
+          0.014453558,
+          -0.016060594
+        ]
+      }
+    }
+  },
+  "holdoutErrors": {
+    "pelvisx": {
+      "rmse": 0.0003251,
+      "worst": 0.0006912
+    },
+    "pelvisy": {
+      "rmse": 0.0014499,
+      "worst": 0.0029979
+    },
+    "pelvisz": {
+      "rmse": 0.0010311,
+      "worst": 0.0030034
+    },
+    "pelvisYaw": {
+      "rmse": 0.0057872,
+      "worst": 0.0105819
+    },
+    "leftToex": {
+      "rmse": 0.0020791,
+      "worst": 0.004478
+    },
+    "leftToey": {
+      "rmse": 0.0015998,
+      "worst": 0.0033382
+    },
+    "leftToez": {
+      "rmse": 0.0012333,
+      "worst": 0.0035204
+    },
+    "leftAnkleYaw": {
+      "rmse": 0.0173458,
+      "worst": 0.0577148
+    },
+    "rightToex": {
+      "rmse": 0.0017442,
+      "worst": 0.0040354
+    },
+    "rightToey": {
+      "rmse": 0.0020263,
+      "worst": 0.0075262
+    },
+    "rightToez": {
+      "rmse": 0.0023703,
+      "worst": 0.0058638
+    },
+    "rightAnkleYaw": {
+      "rmse": 0.0252032,
+      "worst": 0.0819964
+    }
+  },
+  "validation": {
+    "referenceSampleCount": 60,
+    "discardedResetEndpoint": true,
+    "holdoutSampleCount": 30,
+    "maxAllowedPelvisPositionHoldoutError": 0.035,
+    "maxAllowedPelvisYawHoldoutErrorRad": 0.18,
+    "maxAllowedToeVectorHoldoutError": 0.04,
+    "maxAllowedAnkleYawHoldoutErrorRad": 0.2,
+    "ownerVisualAcceptance": false
+  }
+}
