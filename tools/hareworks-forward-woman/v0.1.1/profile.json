@@ -1,0 +1,66 @@
+{
+  "schema": "hareworks-woman-forward-proof-v0.1.1",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "clip": "Walking_Woman",
+  "clipDuration": 0.966667,
+  "beta": 0.5450263949523612,
+  "methods": "C1 periodic stance/swing foot-forward model with cubic-Hermite swing matched to stance velocity, low-order sinusoidal ankle height/lateral movement, anatomically fixed-pole 3D two-link knee IK",
+  "scope": "forward-only in-place leg reconstruction, original woman reference hips; not real-skin, no full rooted locomotion",
+  "calibration": "offline reference fit, NOT skinned acceptance",
+  "left": {
+    "phaseOffset": 0.26349253919859394,
+    "front": 0.37182881416846864,
+    "rear": -0.2580721893467686,
+    "yFourier": [
+      0.22509998798918085,
+      -0.03522277091703029,
+      0.019448162298900284,
+      0.010006862810507531,
+      -0.0005350439781932797,
+      -0.009751997049610274,
+      0.015756535841922905
+    ],
+    "xFourier": [
+      0.028394521525500573,
+      -0.04103614012582482,
+      -0.01745184754566487,
+      0.012529099177870652,
+      0.015775597948693307
+    ],
+    "upperLength": 0.35676898841949994,
+    "lowerLength": 0.38032414500319417,
+    "pole": [
+      -0.2593787162639453,
+      -0.059392742416757106,
+      0.9639477079683756
+    ]
+  },
+  "right": {
+    "phaseOffset": 0.754171779630934,
+    "front": 0.37759839953016017,
+    "rear": -0.28752168229932656,
+    "yFourier": [
+      0.224462720113572,
+      -0.03497510372706922,
+      0.02082298395983054,
+      0.0020614899616770575,
+      0.0017283505131568627,
+      -0.010236171796325173,
+      0.011910246395294376
+    ],
+    "xFourier": [
+      -0.012316014403698287,
+      0.042256605481880274,
+      -0.0056043785493931,
+      -0.009632050782018384,
+      -0.01318883563090366
+    ],
+    "upperLength": 0.3479932042491327,
+    "lowerLength": 0.39037758997519456,
+    "pole": [
+      0.14220938316980694,
+      0.0016930416084295448,
+      0.9898351503904956
+    ]
+  }
+}
