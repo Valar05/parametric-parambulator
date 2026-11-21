@@ -1,0 +1,22 @@
+{
+  "campaign": "hareworks-walking-style-research-v0.2.3",
+  "repository": "Valar05/parametric-parambulator",
+  "parentCommit": "3e298e9c9d99c6cb372bc5c8b2f9c8cb77d46ab6",
+  "sourceModel": "assets/hareworks/Hareworks-nine-clips.glb",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceModelBytes": 6784896,
+  "sourceClips": ["Walking", "Walking_Woman"],
+  "sourceBoneCount": 74,
+  "sourcePoseSamplesPerClip": 360,
+  "phaseAlignment": "measured global phase offset using hip-frame left and right feet, no force-contact claim",
+  "terminalResetPolicy": "exclude last seven percent of each clip in matched-source research",
+  "measurements": ["initial local rotation offset", "dynamic local orientation difference after source-specific zero anchoring", "source body motion amplitudes", "pelvis-frame 3D landmark paths", "all 74 bone metrics", "regional aggregation", "phase of peak motion difference"],
+  "output": ["browser summary", "JSON", "CSV", "automatic Termux research-report.json and research-report.csv", "measurement-receipt.json"],
+  "motionMutation": false,
+  "generatedAnimation": false,
+  "preserveAcceptedForward": "tools/hareworks-forward-woman/v0.1.9 unchanged",
+  "preserveAcceptedBackward": "tools/hareworks-forward-woman/v0.2.2 unchanged",
+  "ownerAcceptance": "already accepted forward v0.1.9 and backward v0.2.2; research only",
+  "executionLane": "Android Termux Git ONLY",
+  "rules": {"AGENTS.mdBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca", "campaignEtiquetteHomeCenterId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI", "topDownEtiquetteHomeCenterId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"}
+}
