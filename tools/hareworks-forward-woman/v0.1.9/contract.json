@@ -1,0 +1,67 @@
+{
+  "campaign": "hareworks-forward-woman-pelvis-tilt-v0.1.9",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "95ca01f38e2f68cd10185fa54b7228e3f8053d6a",
+  "sourceModelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceClip": "Walking_Woman",
+  "sourceModelBytes": 6784896,
+  "scope": "pelvis pitch/roll source fit with automatic non-regression gated A/B against v0.1.8",
+  "executionLane": "Android Termux Git only",
+  "rulesRead": {
+    "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "topDownEtiquetteId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"
+  },
+  "newOutputs": [
+    "tools/hareworks-forward-woman/v0.1.9/index.html",
+    "tools/hareworks-forward-woman/v0.1.9/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/parity-math.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/parity-math-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/parity-presets.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/parity-presets-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/upper-anchor.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/upper-anchor-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/pelvis-tilt.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/pelvis-tilt-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.9/README.md",
+    "tools/hareworks-forward-woman/v0.1.9/contract.json",
+    "campaigns/hareworks-forward-woman-pelvis-tilt-v0.1.9.sh"
+  ],
+  "protected": [
+    "tools/hareworks-forward-woman/v0.1.2",
+    "assets/repl/Repl.glb",
+    "assets/hareworks/Hareworks-nine-clips.glb",
+    "tools/hareworks-forward-woman/v0.1.7",
+    "tools/hareworks-forward-woman/v0.1.3",
+    "tools/hareworks-forward-woman/v0.1.8"
+  ],
+  "thresholds": {
+    "upperLocalRotationRmsDegrees": 2,
+    "upperLocalRotationMaxDegrees": 5,
+    "upperWorldJointPositionRms": 0.01,
+    "lowerWorldJointPositionRms": 0.01
+  },
+  "presets": [
+    {
+      "strength": 0.7,
+      "harmonics": 3
+    },
+    {
+      "strength": 1,
+      "harmonics": 4
+    },
+    {
+      "strength": 1,
+      "harmonics": 12
+    }
+  ],
+  "ownerAccepted": false,
+  "ownerAcceptance": "pending, v0.1.8 owner likes improvement but rejects persistent leftward cycle hitch",
+  "newModules": [
+    "pelvis-tilt.mjs",
+    "pelvis-tilt-test.mjs"
+  ],
+  "uncorrectedBaseline": "v0.1.8 source-anchored upper + v0.1.2 pelvis XYZ/yaw + v0.1.3 leg kernel",
+  "modeSelection": "auto safety gate from 30/60/120Hz real skinned comparison, else off"
+}
