@@ -1,0 +1,11 @@
+# Hareworks `Walking_Woman` real-rig parity gate v0.1.6
+
+Purpose: independently audit the existing v0.1.5 mathematical reconstruction against the original `Walking_Woman` animated skeleton at identical timestamps, using the exact 74-bone skinned Hareworks source. User found upper-body motion visually worse than source. Preserve v0.1.3 leg IK, v0.1.2 pelvis and v0.1.5 upper solver; do not author new motion curves.
+
+The original on left plays source clip. Generated on right has source-fitted pelvis, feet, and upper body, with NO animated source tracks running on generated after calibration. The diagnostic measures each fitted upper joint's local quaternion angular error, world quaternion angular error, local translation difference, and world position error after removing the side-by-side display offset. Both ankles and knees are measured from the real posed rig. Sample rates are 30/60/120Hz with midframes and near-boundary.
+
+Compare default 0.70 amplitude/3 harmonics (the prior candidate) against 1.00 amplitude/4 harmonics (the highest fidelity allowed by the existing controller), no retuning or silent switch during a result. The viewer displays 1.00/4 by default for review. The exported JSON includes every fitted upper bone's RMS/max/worst timestamp and explicit failure reasons, with provisional hard thresholds: upper local rotation <=2 degrees RMS and <=5 degrees max, upper and lower world joint position <=0.01 model units RMS. Any exceedance is REJECTED_PARITY_OUTSIDE_TOLERANCE; do not call it matched or accepted. Real visual approval remains distinct.
+
+The original GLB, all previous proof files and animation tracks are immutable. The versioned campaign is authored with live AGENTS / Campaign Etiquette / Top-down Etiquette read and pins Git parent 2397fd17b4a20bf99116f5eef28f69a52a00238b, known source LFS SHA a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6. Publication and proof viewer startup via owner-operated, SHA-verified Android Termux Git only.
+
+The operator script must pass JS syntax, parity math fixtures (including injected wrong bone), original lower/upper regression tests, GLB byte/rig preflight, exact Git commit/readback, fresh HTTP no-cache resource checks; then Android browser carries the final actual-rig numerical gate and owner visual review. It prints the actual URL, not an invented port.

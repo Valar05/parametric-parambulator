@@ -1,0 +1,34 @@
+{
+  "campaign": "hareworks-forward-woman-reference-parity-v0.1.6",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "2397fd17b4a20bf99116f5eef28f69a52a00238b",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceModelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "sourceClip": "Walking_Woman",
+  "ownerAcceptance": "pending, v0.1.5 visually rejected upper body",
+  "scope": "verification of reference vs generated upper and lower real-rig joints, no algorithm modification",
+  "executionLane": "Android Termux Git only",
+  "newOutputs": [
+    "tools/hareworks-forward-woman/v0.1.6/index.html",
+    "tools/hareworks-forward-woman/v0.1.6/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.1.6/parity-math.mjs",
+    "tools/hareworks-forward-woman/v0.1.6/parity-math-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.6/README.md",
+    "tools/hareworks-forward-woman/v0.1.6/contract.json",
+    "campaigns/hareworks-forward-woman-reference-parity-v0.1.6.sh"
+  ],
+  "thresholds": {
+    "localRotationRmsDeg": 2,
+    "localRotationMaxDeg": 5,
+    "jointWorldPositionRms": 0.01
+  },
+  "protected": [
+    "AGENTS.md",
+    "assets/hareworks/Hareworks-nine-clips.glb",
+    "tools/hareworks-forward-woman/v0.1.2",
+    "tools/hareworks-forward-woman/v0.1.3",
+    "tools/hareworks-forward-woman/v0.1.4",
+    "tools/hareworks-forward-woman/v0.1.5"
+  ],
+  "review": "rendered model and human visual inspection still required"
+}
