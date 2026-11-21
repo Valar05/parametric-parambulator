@@ -1,0 +1,40 @@
+{
+  "campaign": "hareworks-backward-inplace-parity-v0.2.1",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "e66cc6f727e609f141dd0f6fd890b50529b4ccf8",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "sourceClip": "Walk_Backward",
+  "sourceDurationSeconds": 0.866667,
+  "sourceJoints": 74,
+  "sourceClips": 9,
+  "sourceCalibrationSamples": 720,
+  "generatedRuntimeSourceAnimationMixerCount": 0,
+  "styleTransfer": false,
+  "sourceTrackCalibrationOnly": true,
+  "inPlace": "automatically detect and remove horizontal cycle trend from hips, preserve vertical bounce, repair terminal reset via C1 seam",
+  "acceptance": "30 60 120 hz and midframes all 74 bones local rotation/translation/scale and world position plus cyclic step checks and owner visual verdict",
+  "ownerApprovedForwardViewerBlob": "a17f8109766dcfa39fbb75b6b2ff335c358733cb",
+  "mutatedGlb": false,
+  "preservedForwardGait": true,
+  "executionLane": "Android Termux Git only",
+  "rulesRead": {
+    "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "topDownEtiquetteId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"
+  },
+  "ownerAcceptedBackward": false,
+  "files": [
+    "tools/hareworks-forward-woman/v0.2.1/index.html",
+    "tools/hareworks-forward-woman/v0.2.1/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.2.1/inplace-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.2.1/inplace-kernel-test.mjs",
+    "tools/hareworks-forward-woman/v0.2.1/inplace-witness-test.mjs",
+    "tools/hareworks-forward-woman/v0.2.1/source-witness.json",
+    "tools/hareworks-forward-woman/v0.2.1/README.md",
+    "tools/hareworks-forward-woman/v0.2.1/contract.json",
+    "campaigns/hareworks-backward-inplace-parity-v0.2.1.sh"
+  ],
+  "adaptiveSeamSearch": "start at 93%; extend to 92, 90.5, 89, 87.5, or 86 percent if full 30/60/120 Hz joint-step gates fail; never hide lack of valid seam"
+}
