@@ -1,0 +1,41 @@
+{
+  "campaign": "hareworks-backward-inplace-startup-repair-v0.2.2",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "2d1f6c2d3bcd385666c04e50f5e7134d37d79f26",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "sourceClip": "Walk_Backward",
+  "sourceDurationSeconds": 0.866667,
+  "sourceJoints": 74,
+  "sourceClips": 9,
+  "sourceCalibrationSamples": 720,
+  "generatedRuntimeSourceAnimationMixerCount": 0,
+  "styleTransfer": false,
+  "sourceTrackCalibrationOnly": true,
+  "inPlace": "automatically detect and remove horizontal cycle trend from hips, preserve vertical bounce, repair terminal reset via C1 seam",
+  "acceptance": "30 60 120 hz and midframes all 74 bones local rotation/translation/scale and world position plus cyclic step checks and owner visual verdict",
+  "ownerApprovedForwardViewerBlob": "a17f8109766dcfa39fbb75b6b2ff335c358733cb",
+  "mutatedGlb": false,
+  "preservedForwardGait": true,
+  "executionLane": "Android Termux Git only",
+  "rulesRead": {
+    "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "topDownEtiquetteId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"
+  },
+  "ownerAcceptedBackward": false,
+  "files": [
+    "tools/hareworks-forward-woman/v0.2.2/index.html",
+    "tools/hareworks-forward-woman/v0.2.2/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.2.2/inplace-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.2.2/inplace-kernel-test.mjs",
+    "tools/hareworks-forward-woman/v0.2.2/inplace-witness-test.mjs",
+    "tools/hareworks-forward-woman/v0.2.2/source-witness.json",
+    "tools/hareworks-forward-woman/v0.2.2/README.md",
+    "tools/hareworks-forward-woman/v0.2.2/contract.json",
+    "campaigns/hareworks-backward-inplace-startup-repair-v0.2.2.sh"
+  ],
+  "adaptiveSeamSearch": "based on actual clean source samples; sampled terminal reset NOT required; 30/60/120Hz continuity remains measured",
+  "startupRepair": "detect endpoint-only reset in raw root track or accept source root trend without sampled reset; initialize both sides from time-zero source pose; reference remains playable on procedural-calibration failure"
+}
