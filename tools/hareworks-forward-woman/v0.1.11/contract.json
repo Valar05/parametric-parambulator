@@ -1,0 +1,52 @@
+{
+  "schema": "hareworks-woman-world-pinned-ik-campaign-v0.1.11",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "25a1430dc33b52ed37598a039cf52c1e95b4e919",
+  "ownerGoal": "One Walking_Woman character moving through world, world-space sole pinning, true realtime two-bone IK and fixed-follow camera, exactly like Repl behavior",
+  "executionLane": "Android Termux Git only",
+  "originalModel": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSHA256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "referenceClip": "Walking_Woman",
+  "sourceAnimatedAtRuntimeOnGenerated": false,
+  "sourceAnimationUsedForStartupCalibrationOnly": true,
+  "visibleCharacters": 1,
+  "worldMovement": true,
+  "cameraFixedFollow": true,
+  "worldAnchorsPersistDuringStance": true,
+  "actualSkinnedFootPatchAudited": true,
+  "ik": "Two-bone world hip-knee-ankle plus iterative true skinned sole correction, per 120Hz step",
+  "armIK": "reserved for future, not implemented",
+  "acceptedVersionsUntouched": [
+    "v0.1.9 Walking_Woman visual",
+    "v0.2.2 backward",
+    "v0.2.7 left",
+    "v0.2.6 pelvis style lab"
+  ],
+  "maxSkinnedStanceDrift": 0.025,
+  "worldTravelAt3CyclesMin": 0.9,
+  "cameraRelativeDriftMax": 1e-06,
+  "physicsRateHz": 120,
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquette": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopDownEtiquette": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "state": "script prepared, real skinned phone runtime and owner visual acceptance pending",
+  "recoveryOf": "v0.1.10 oversized swing-foot clearance and inconsistent landing travel at changed speeds",
+  "defaultStrideCycle": 0.66,
+  "defaultSwingFootLift": 0.055,
+  "strideControlRange": [
+    0.48,
+    0.76
+  ],
+  "footClearanceRange": [
+    0.025,
+    0.12
+  ],
+  "cadenceEquation": "cyclesPerSecond = speedUnitsPerSecond / strideUnitsPerCycle",
+  "predictionEquation": "futureRootWorldTravel = strideUnitsPerCycle * remainingPhaseToLanding",
+  "sourceCalibrationFootForeAftRangesApprox": [
+    0.662,
+    0.703
+  ],
+  "ownerVisualAcceptance": false
+}
