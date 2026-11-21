@@ -1,0 +1,36 @@
+{
+  "schema": "hareworks-woman-accepted-v019-shoe-recovery-v0.1.14",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "480780cf2c6c78227d8c27e227a31204e303666d",
+  "executionLane": "Android Termux Git only, persistent Documents/GodotProjects normal checkout",
+  "authoritativeReference": "v0.1.9 accepted procedural Walking_Woman pelvis/ankle/knee pole",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceClip": "Walking_Woman",
+  "rigBones": 74,
+  "worldRootMethod": "negative phase-derivative of v0.1.9 stance ankle path, double-support weighted",
+  "contactMethod": "phase velocity hypothesis + independent real skinned heel, sole, toe patches; actual browser contact gate",
+  "camera": "orbitable and zoomable fixed-follow tracking, retain yaw/pitch/zoom",
+  "visibleActors": 1,
+  "animatedSourceClipOnGeneratedActor": false,
+  "acceptedVersionsUntouched": [
+    "v0.1.9",
+    "v0.1.11",
+    "v0.1.12",
+    "v0.2.2",
+    "v0.2.6",
+    "v0.2.7"
+  ],
+  "modelModified": false,
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.14/"
+  ],
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquette": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopDownEtiquette": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "ownerRejectedEarlier": "v0.1.12 visually rejected: popping, excessive forward foot, missing trailing extension and camera orbit",
+  "physicalGate": "real 74-joint skinned shoe audit at 120 Hz for 3 cycles; contact drift, floor intrusion, reachable IK and trailing extension",
+  "styleGate": "owner approval of the actual rendered gait versus accepted v0.1.9",
+  "ownerVisualAcceptance": false,
+  "witnessMethod": "whole skinned shoe vertices, skin-weight preference, horizontal PCA, three distinct low-surface longitudinal bands",
+  "calibrationErrorBehavior": "source model remains visible but static, audit not passed"
+}
