@@ -1,0 +1,43 @@
+{
+  "campaign": "hareworks-forward-woman-reference-parity-v0.1.7",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "4fd719375d50a510f594119575fd3399e3e2c04b",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "sourceClip": "Walking_Woman",
+  "mission": "Correct verifier preset activation; establish distinct generated poses; named atomic rollback diagnostics; preserve all motion equations",
+  "executionLane": "user Termux Git only",
+  "newOutputs": [
+    "tools/hareworks-forward-woman/v0.1.7/index.html",
+    "tools/hareworks-forward-woman/v0.1.7/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.1.7/parity-math.mjs",
+    "tools/hareworks-forward-woman/v0.1.7/parity-math-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.7/README.md",
+    "tools/hareworks-forward-woman/v0.1.7/contract.json",
+    "tools/hareworks-forward-woman/v0.1.7/parity-presets.mjs",
+    "tools/hareworks-forward-woman/v0.1.7/parity-presets-test.mjs",
+    "campaigns/hareworks-forward-woman-reference-parity-v0.1.7.sh"
+  ],
+  "lockedAlgorithmPaths": [
+    "tools/hareworks-forward-woman/v0.1.5/upper-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.1.3/foot-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.1.3/foot-profile.json",
+    "tools/hareworks-forward-woman/v0.1.2/pose-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.1.2/motion-profile.json"
+  ],
+  "thresholds": {
+    "upperLocalRotationRmsDeg": 2,
+    "upperLocalRotationMaxDeg": 5,
+    "upperWorldPositionRms": 0.01,
+    "lowerWorldPositionRms": 0.01
+  },
+  "runtimeGates": [
+    "distinct real-skinned upper snapshots for 70%/3 and 100%/4 presets",
+    "distinct full parity measurement results",
+    "30/60/120Hz and half-frames",
+    "bone-specific injected unreachable rollback",
+    "owner visual acceptance pending"
+  ],
+  "ownerVisualAcceptance": false
+}
