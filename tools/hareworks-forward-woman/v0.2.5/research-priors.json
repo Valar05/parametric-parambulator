@@ -1,0 +1,2540 @@
+{
+  "schema": "hareworks-forward-style-research-v0.2.3",
+  "sourceClipNames": [
+    "Walking",
+    "Walking_Woman"
+  ],
+  "sourceModelSHA256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelJoints": 74,
+  "analysisOnly": true,
+  "createdNewAnimation": false,
+  "sourceClipsUnchanged": true,
+  "ownerApprovedForwardUntouched": true,
+  "ownerApprovedBackwardUntouched": true,
+  "samplingPhaseCount": 360,
+  "clips": {
+    "Walking": {
+      "durationSeconds": 1.0333333015441895,
+      "sceneRootDetrendingDisplayOnly": [
+        -0.011431504755532562,
+        0,
+        0.030019483402264357
+      ],
+      "originalClipTracks": 192
+    },
+    "Walking_Woman": {
+      "durationSeconds": 0.9666666388511658,
+      "sceneRootDetrendingDisplayOnly": [
+        0.0012616406115126737,
+        0,
+        0.03027439403536359
+      ],
+      "originalClipTracks": 192
+    }
+  },
+  "gaitTraits": {
+    "Walking": {
+      "durationSeconds": 1.0333333015441895,
+      "pelvisYawRangeDeg": 10.37083329183052,
+      "pelvisPitchRangeDeg": 4.754184173622339,
+      "pelvisRollRangeDeg": 7.507395022352715,
+      "pelvisVerticalBounceUnits": 0.06948432298058849,
+      "pelvisLateralSwayDetrendedUnits": 0.05191074379875212,
+      "headSideToSideRelativeToHipsUnits": 0.04926221663392606,
+      "headOrientationRelativeToChestRmsChangeDeg": 7.373006220047882,
+      "leftFootForeAftHipFrameUnits": 0.8084459784772968,
+      "rightFootForeAftHipFrameUnits": 0.7464233469423216,
+      "leftFootLateralHipFrameUnits": 0.13345764788477096,
+      "rightFootLateralHipFrameUnits": 0.14815403243851735,
+      "footLowPointCandidates": {
+        "left": {
+          "lowestFootPhase": 0.6333333333333333,
+          "sourceFootHeight": 0.17645132589392948,
+          "interpretation": "lowest-foot candidate, not proven foot contact"
+        },
+        "right": {
+          "lowestFootPhase": 0.18611111111111112,
+          "sourceFootHeight": 0.17276004495102174,
+          "interpretation": "lowest-foot candidate, not proven foot contact"
+        }
+      }
+    },
+    "Walking_Woman": {
+      "durationSeconds": 0.9666666388511658,
+      "pelvisYawRangeDeg": 15.305942720111956,
+      "pelvisPitchRangeDeg": 3.2390449326612325,
+      "pelvisRollRangeDeg": 11.40392832094795,
+      "pelvisVerticalBounceUnits": 0.03894539690473242,
+      "pelvisLateralSwayDetrendedUnits": 0.0413741530018067,
+      "headSideToSideRelativeToHipsUnits": 0.056179359613852245,
+      "headOrientationRelativeToChestRmsChangeDeg": 5.233907585249608,
+      "leftFootForeAftHipFrameUnits": 0.6866728255582664,
+      "rightFootForeAftHipFrameUnits": 0.7000297280442989,
+      "leftFootLateralHipFrameUnits": 0.23770975129206456,
+      "rightFootLateralHipFrameUnits": 0.22120638950382962,
+      "footLowPointCandidates": {
+        "left": {
+          "lowestFootPhase": 0.6888888888888889,
+          "sourceFootHeight": 0.1736683846407089,
+          "interpretation": "lowest-foot candidate, not proven foot contact"
+        },
+        "right": {
+          "lowestFootPhase": 0.18611111111111112,
+          "sourceFootHeight": 0.17493716758628283,
+          "interpretation": "lowest-foot candidate, not proven foot contact"
+        }
+      }
+    }
+  },
+  "alignment": {
+    "womanPhaseOffset": 0.9777777777777777,
+    "normalPhaseOffset": 0,
+    "method": "global offset minimizing normalized hip-relative left/right foot X/Z trajectory differences",
+    "cost": 0.3593764765620052,
+    "samplePairs": 656,
+    "distinctAlternativeCost": 0.6429603409834487,
+    "ambiguityRatio": 1.7890996849163976,
+    "sourceTerminalWindowExcluded": [
+      0.93,
+      1
+    ]
+  },
+  "sourceMeasuredPhaseWindow": "0 <= phase < 0.93 for BOTH clips, aligned by pair of pelvis-relative ankle trajectories; excludes terminal reset",
+  "caveats": [
+    "This compares these two authored animations, not sexes in general",
+    "All 74 joints share exactly the same skeleton",
+    "A source static offset is not evidence of dynamic movement style",
+    "Measured foot phase fit is descriptive, not force-contact evidence",
+    "No backward gait is modified by this research",
+    "No candidate style transfer is applied"
+  ],
+  "sampledMatchedPhases": 218,
+  "perBone": [
+    {
+      "bone": "mixamorigLeftHand",
+      "group": "hands",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 31.924402246571628,
+      "meanRawPoseDifferenceDeg": 32.2257447654008,
+      "motionDeltaRmsDeg": 29.759619395096983,
+      "motionDeltaMaxDeg": 49.94374197581139,
+      "phaseOfMaxDynamicDifference": 0.1625,
+      "normalMotionFromAnchorRmsDeg": 16.515792502060492,
+      "womanMotionFromAnchorRmsDeg": 28.640879970751314,
+      "motionFromAnchorRmsRatio": 1.7341511142851975,
+      "hipRelativePositionDifferenceRmsUnits": 0.1322393172041144,
+      "localTranslationMotionDeltaRmsUnits": 1.4459650257077488e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.20612285066838884,
+          "woman": 0.046830196655110956,
+          "difference": -0.15929265401327788
+        },
+        "y": {
+          "normal": 0.11902186498958944,
+          "woman": 0.11202705062136831,
+          "difference": -0.006994814368221136
+        },
+        "z": {
+          "normal": 0.44176711046596406,
+          "woman": 0.3904807801489878,
+          "difference": -0.05128633031697627
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightArm",
+      "group": "upper-arms",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 48.13732525585488,
+      "meanRawPoseDifferenceDeg": 33.727139279059806,
+      "motionDeltaRmsDeg": 26.701571465291412,
+      "motionDeltaMaxDeg": 36.68520616066363,
+      "phaseOfMaxDynamicDifference": 0.5416666666666666,
+      "normalMotionFromAnchorRmsDeg": 17.11811794046296,
+      "womanMotionFromAnchorRmsDeg": 20.353683182641134,
+      "motionFromAnchorRmsRatio": 1.1890140758132124,
+      "hipRelativePositionDifferenceRmsUnits": 0.04267319189629913,
+      "localTranslationMotionDeltaRmsUnits": 6.655704092445982e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.02903580520603624,
+          "woman": 0.036606947227911024,
+          "difference": 0.007571142021874783
+        },
+        "y": {
+          "normal": 0.016289486964486566,
+          "woman": 0.030804218426445013,
+          "difference": 0.014514731461958447
+        },
+        "z": {
+          "normal": 0.0872834627989833,
+          "woman": 0.06751526312609848,
+          "difference": -0.019768199672884817
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftLeg",
+      "group": "legs",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 19.977962902453932,
+      "meanRawPoseDifferenceDeg": 16.295814800868293,
+      "motionDeltaRmsDeg": 24.915074164939103,
+      "motionDeltaMaxDeg": 37.83303837701305,
+      "phaseOfMaxDynamicDifference": 0.38333333333333336,
+      "normalMotionFromAnchorRmsDeg": 28.91153990972157,
+      "womanMotionFromAnchorRmsDeg": 38.54100957302968,
+      "motionFromAnchorRmsRatio": 1.3330666472065082,
+      "hipRelativePositionDifferenceRmsUnits": 0.050901149022277964,
+      "localTranslationMotionDeltaRmsUnits": 1.45612150833364e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.06610533606972366,
+          "woman": 0.09922484699841731,
+          "difference": 0.033119510928693655
+        },
+        "y": {
+          "normal": 0.06660666529547471,
+          "woman": 0.06036920902534082,
+          "difference": -0.00623745627013389
+        },
+        "z": {
+          "normal": 0.3676840935700536,
+          "woman": 0.2918807255632857,
+          "difference": -0.0758033680067679
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftForeArm",
+      "group": "forearms",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 24.98513127779229,
+      "meanRawPoseDifferenceDeg": 16.318201436185173,
+      "motionDeltaRmsDeg": 20.179976455807456,
+      "motionDeltaMaxDeg": 40.59058869722167,
+      "phaseOfMaxDynamicDifference": 0.6458333333333334,
+      "normalMotionFromAnchorRmsDeg": 24.915760036957224,
+      "womanMotionFromAnchorRmsDeg": 14.666114505594761,
+      "motionFromAnchorRmsRatio": 0.5886280203309353,
+      "hipRelativePositionDifferenceRmsUnits": 0.0798101090414511,
+      "localTranslationMotionDeltaRmsUnits": 2.8708043526888945e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.03897572594340315,
+          "woman": 0.05304074374342768,
+          "difference": 0.014065017800024532
+        },
+        "y": {
+          "normal": 0.0365126998456263,
+          "woman": 0.048837028966469256,
+          "difference": 0.012324329120842956
+        },
+        "z": {
+          "normal": 0.24601523506766892,
+          "woman": 0.19568480360831364,
+          "difference": -0.050330431459355285
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHand",
+      "group": "hands",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 28.36387325816957,
+      "meanRawPoseDifferenceDeg": 28.318381033545325,
+      "motionDeltaRmsDeg": 19.42634933999286,
+      "motionDeltaMaxDeg": 30.259038809364394,
+      "phaseOfMaxDynamicDifference": 0.6083333333333333,
+      "normalMotionFromAnchorRmsDeg": 13.650456784698171,
+      "womanMotionFromAnchorRmsDeg": 17.85035226039487,
+      "motionFromAnchorRmsRatio": 1.3076743541948486,
+      "hipRelativePositionDifferenceRmsUnits": 0.14153759538722893,
+      "localTranslationMotionDeltaRmsUnits": 1.3001423543807094e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.0685973563382706,
+          "woman": 0.06390246088833718,
+          "difference": -0.004694895449933428
+        },
+        "y": {
+          "normal": 0.07336052026914086,
+          "woman": 0.07672723377677458,
+          "difference": 0.00336671350763372
+        },
+        "z": {
+          "normal": 0.44556615258245397,
+          "woman": 0.39987627114546775,
+          "difference": -0.04568988143698621
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightForeArm",
+      "group": "forearms",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 7.221542196617063,
+      "meanRawPoseDifferenceDeg": 19.975798971780595,
+      "motionDeltaRmsDeg": 17.376466624419148,
+      "motionDeltaMaxDeg": 30.83708918341644,
+      "phaseOfMaxDynamicDifference": 0.4708333333333333,
+      "normalMotionFromAnchorRmsDeg": 11.581560468341772,
+      "womanMotionFromAnchorRmsDeg": 8.2853117931002,
+      "motionFromAnchorRmsRatio": 0.7153882083289315,
+      "hipRelativePositionDifferenceRmsUnits": 0.07126036647051642,
+      "localTranslationMotionDeltaRmsUnits": 1.2337038771404167e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.04467739616381086,
+          "woman": 0.05357825307635583,
+          "difference": 0.008900856912544969
+        },
+        "y": {
+          "normal": 0.030677591366181457,
+          "woman": 0.03981115015852127,
+          "difference": 0.009133558792339812
+        },
+        "z": {
+          "normal": 0.25028162885491156,
+          "woman": 0.22339241161615403,
+          "difference": -0.026889217238757535
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftArm",
+      "group": "upper-arms",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 32.50616024163296,
+      "meanRawPoseDifferenceDeg": 38.094183239639705,
+      "motionDeltaRmsDeg": 15.516024717874284,
+      "motionDeltaMaxDeg": 22.128438418712765,
+      "phaseOfMaxDynamicDifference": 0.36666666666666664,
+      "normalMotionFromAnchorRmsDeg": 17.773460272116424,
+      "womanMotionFromAnchorRmsDeg": 17.684427089238522,
+      "motionFromAnchorRmsRatio": 0.9949906668980165,
+      "hipRelativePositionDifferenceRmsUnits": 0.028828956139328562,
+      "localTranslationMotionDeltaRmsUnits": 1.3009936570923607e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.05147495068390129,
+          "woman": 0.04998496559993995,
+          "difference": -0.0014899850839613371
+        },
+        "y": {
+          "normal": 0.01724830654461132,
+          "woman": 0.03703713602110492,
+          "difference": 0.019788829476493602
+        },
+        "z": {
+          "normal": 0.07794807309661794,
+          "woman": 0.08071792787309352,
+          "difference": 0.0027698547764755804
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightLeg",
+      "group": "legs",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 4.70628700423902,
+      "meanRawPoseDifferenceDeg": 11.706304712233816,
+      "motionDeltaRmsDeg": 15.291274799526443,
+      "motionDeltaMaxDeg": 27.377937570780325,
+      "phaseOfMaxDynamicDifference": 0.3875,
+      "normalMotionFromAnchorRmsDeg": 29.99169777482377,
+      "womanMotionFromAnchorRmsDeg": 21.424152142262244,
+      "motionFromAnchorRmsRatio": 0.7143360907112946,
+      "hipRelativePositionDifferenceRmsUnits": 0.04988145475294716,
+      "localTranslationMotionDeltaRmsUnits": 6.11171878462189e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.07100535570120509,
+          "woman": 0.11585522505609414,
+          "difference": 0.04484986935488905
+        },
+        "y": {
+          "normal": 0.07520970583305864,
+          "woman": 0.05890536277933178,
+          "difference": -0.016304343053726855
+        },
+        "z": {
+          "normal": 0.3508250121861779,
+          "woman": 0.31340826444477354,
+          "difference": -0.037416747741404355
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftUpLeg",
+      "group": "legs",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 12.47691393394967,
+      "meanRawPoseDifferenceDeg": 9.011302069575224,
+      "motionDeltaRmsDeg": 13.028967071085209,
+      "motionDeltaMaxDeg": 22.068416942191107,
+      "phaseOfMaxDynamicDifference": 0.7416666666666667,
+      "normalMotionFromAnchorRmsDeg": 25.754619504790497,
+      "womanMotionFromAnchorRmsDeg": 20.598688229174453,
+      "motionFromAnchorRmsRatio": 0.799805573727967,
+      "hipRelativePositionDifferenceRmsUnits": 2.539452257495632e-11,
+      "localTranslationMotionDeltaRmsUnits": 5.306609042589377e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 2.911332286359425e-11,
+          "woman": 4.6674705767024705e-11,
+          "difference": 1.7561382903430456e-11
+        },
+        "y": {
+          "normal": 3.9319519862246466e-11,
+          "woman": 9.141587486993785e-11,
+          "difference": 5.2096355007691386e-11
+        },
+        "z": {
+          "normal": 1.9511690874107757e-11,
+          "woman": 6.231882371254827e-11,
+          "difference": 4.280713283844051e-11
+        }
+      }
+    },
+    {
+      "bone": "mixamorigHips",
+      "group": "pelvis",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.055778796472365,
+      "meanRawPoseDifferenceDeg": 5.371908189038303,
+      "motionDeltaRmsDeg": 11.9465884868175,
+      "motionDeltaMaxDeg": 18.004726860967708,
+      "phaseOfMaxDynamicDifference": 0.5041666666666667,
+      "normalMotionFromAnchorRmsDeg": 4.3910877740177865,
+      "womanMotionFromAnchorRmsDeg": 11.874475557192335,
+      "motionFromAnchorRmsRatio": 2.70422186216682,
+      "hipRelativePositionDifferenceRmsUnits": 0,
+      "localTranslationMotionDeltaRmsUnits": 0.027564969379547714,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0,
+          "woman": 0,
+          "difference": 0
+        },
+        "y": {
+          "normal": 0,
+          "woman": 0,
+          "difference": 0
+        },
+        "z": {
+          "normal": 0,
+          "woman": 0,
+          "difference": 0
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightFoot",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 7.580250151438332,
+      "meanRawPoseDifferenceDeg": 11.807374069245537,
+      "motionDeltaRmsDeg": 11.56690833481478,
+      "motionDeltaMaxDeg": 23.893212995428186,
+      "phaseOfMaxDynamicDifference": 0.75,
+      "normalMotionFromAnchorRmsDeg": 13.437618796730227,
+      "womanMotionFromAnchorRmsDeg": 16.948792082252723,
+      "motionFromAnchorRmsRatio": 1.2612943065758695,
+      "hipRelativePositionDifferenceRmsUnits": 0.07934044956613209,
+      "localTranslationMotionDeltaRmsUnits": 1.4316471348755705e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.14798692959647614,
+          "woman": 0.2201089810385515,
+          "difference": 0.07212205144207537
+        },
+        "y": {
+          "normal": 0.1870706578855379,
+          "woman": 0.14818162255436917,
+          "difference": -0.03888903533116872
+        },
+        "z": {
+          "normal": 0.7457879539000626,
+          "woman": 0.6994655792144072,
+          "difference": -0.046322374685655365
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightUpLeg",
+      "group": "legs",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 9.083451100079353,
+      "meanRawPoseDifferenceDeg": 8.370062856054512,
+      "motionDeltaRmsDeg": 11.414474086813089,
+      "motionDeltaMaxDeg": 19.5379028023449,
+      "phaseOfMaxDynamicDifference": 0.5458333333333333,
+      "normalMotionFromAnchorRmsDeg": 24.07489053392344,
+      "womanMotionFromAnchorRmsDeg": 22.85799970036594,
+      "motionFromAnchorRmsRatio": 0.9494539411573729,
+      "hipRelativePositionDifferenceRmsUnits": 3.8393122742892965e-11,
+      "localTranslationMotionDeltaRmsUnits": 3.938992597442499e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 7.559183834437988e-11,
+          "woman": 1.5556821109097285e-10,
+          "difference": 7.997637274659297e-11
+        },
+        "y": {
+          "normal": 6.724638901278723e-11,
+          "woman": 1.2988360387211628e-10,
+          "difference": 6.263721485932905e-11
+        },
+        "z": {
+          "normal": 1.49225458379032e-11,
+          "woman": 6.89741180837089e-11,
+          "difference": 5.40515722458057e-11
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandThumb1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 27.170745845045374,
+      "meanRawPoseDifferenceDeg": 31.148235151018813,
+      "motionDeltaRmsDeg": 10.56541794867301,
+      "motionDeltaMaxDeg": 14.607679712307698,
+      "phaseOfMaxDynamicDifference": 0.2625,
+      "normalMotionFromAnchorRmsDeg": 0.0000024148365394514633,
+      "womanMotionFromAnchorRmsDeg": 10.565417948673062,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.13883122111799212,
+      "localTranslationMotionDeltaRmsUnits": 4.848213961982248e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.23137986576756464,
+          "woman": 0.051511480620971245,
+          "difference": -0.1798683851465934
+        },
+        "y": {
+          "normal": 0.16238403008397911,
+          "woman": 0.14966661833723854,
+          "difference": -0.01271741174674057
+        },
+        "z": {
+          "normal": 0.44617775101767476,
+          "woman": 0.3953476499950113,
+          "difference": -0.05083010102266344
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandIndex1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 22.36456328051426,
+      "meanRawPoseDifferenceDeg": 21.07952701252074,
+      "motionDeltaRmsDeg": 10.43285666383042,
+      "motionDeltaMaxDeg": 15.677474563403925,
+      "phaseOfMaxDynamicDifference": 0.4708333333333333,
+      "normalMotionFromAnchorRmsDeg": 5.521593750768924,
+      "womanMotionFromAnchorRmsDeg": 10.640376217988825,
+      "motionFromAnchorRmsRatio": 1.9270480043025753,
+      "hipRelativePositionDifferenceRmsUnits": 0.15667472622677192,
+      "localTranslationMotionDeltaRmsUnits": 7.77271395931232e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.26310824385206416,
+          "woman": 0.05636081966358958,
+          "difference": -0.20674742418847458
+        },
+        "y": {
+          "normal": 0.19666116794368627,
+          "woman": 0.185272915817211,
+          "difference": -0.011388252126475262
+        },
+        "z": {
+          "normal": 0.5370862762296572,
+          "woman": 0.47636366104807093,
+          "difference": -0.06072261518158628
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftFoot",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 1.4599914756971268,
+      "meanRawPoseDifferenceDeg": 9.477003385772374,
+      "motionDeltaRmsDeg": 10.425928684397004,
+      "motionDeltaMaxDeg": 24.81747029755502,
+      "phaseOfMaxDynamicDifference": 0.26666666666666666,
+      "normalMotionFromAnchorRmsDeg": 14.597681808635791,
+      "womanMotionFromAnchorRmsDeg": 12.731538673979541,
+      "motionFromAnchorRmsRatio": 0.8721616788802545,
+      "hipRelativePositionDifferenceRmsUnits": 0.11519700129541247,
+      "localTranslationMotionDeltaRmsUnits": 3.9274782517061444e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.13335862733067105,
+          "woman": 0.2323471237224528,
+          "difference": 0.09898849639178176
+        },
+        "y": {
+          "normal": 0.1600984549321689,
+          "woman": 0.15650227873291056,
+          "difference": -0.0035961761992583385
+        },
+        "z": {
+          "normal": 0.8084459784772968,
+          "woman": 0.6864829621431275,
+          "difference": -0.12196301633416928
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandThumb3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 22.119676530007354,
+      "meanRawPoseDifferenceDeg": 21.277052237166142,
+      "motionDeltaRmsDeg": 9.453096711130765,
+      "motionDeltaMaxDeg": 16.36552741738697,
+      "phaseOfMaxDynamicDifference": 0.8166666666666667,
+      "normalMotionFromAnchorRmsDeg": 2.2328183113536184,
+      "womanMotionFromAnchorRmsDeg": 10.122755606338247,
+      "motionFromAnchorRmsRatio": 4.533622621628113,
+      "hipRelativePositionDifferenceRmsUnits": 0.14750998301194784,
+      "localTranslationMotionDeltaRmsUnits": 1.9457453042298294e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.25134872775360545,
+          "woman": 0.05593478323842151,
+          "difference": -0.19541394451518396
+        },
+        "y": {
+          "normal": 0.18904617838484472,
+          "woman": 0.17118956663673263,
+          "difference": -0.017856611748112095
+        },
+        "z": {
+          "normal": 0.47595021318384373,
+          "woman": 0.43086224839346293,
+          "difference": -0.0450879647903808
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandMiddle1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 8.05466137473268,
+      "meanRawPoseDifferenceDeg": 8.698964400429459,
+      "motionDeltaRmsDeg": 9.119193875793657,
+      "motionDeltaMaxDeg": 15.187321244934783,
+      "phaseOfMaxDynamicDifference": 0.3,
+      "normalMotionFromAnchorRmsDeg": 2.611403888203684,
+      "womanMotionFromAnchorRmsDeg": 8.755555194799012,
+      "motionFromAnchorRmsRatio": 3.352815408734697,
+      "hipRelativePositionDifferenceRmsUnits": 0.19551103874585454,
+      "localTranslationMotionDeltaRmsUnits": 4.16845374827431e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.09510320400960903,
+          "woman": 0.10275269434836051,
+          "difference": 0.00764949033875148
+        },
+        "y": {
+          "normal": 0.09368410432912178,
+          "woman": 0.12899449375394512,
+          "difference": 0.03531038942482334
+        },
+        "z": {
+          "normal": 0.5471641860693816,
+          "woman": 0.5051234491355477,
+          "difference": -0.04204073693383381
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftShoulder",
+      "group": "shoulders",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 21.153851161880347,
+      "meanRawPoseDifferenceDeg": 15.423064604749458,
+      "motionDeltaRmsDeg": 8.907683702234866,
+      "motionDeltaMaxDeg": 14.052655706042227,
+      "phaseOfMaxDynamicDifference": 0.4,
+      "normalMotionFromAnchorRmsDeg": 2.084093298796992,
+      "womanMotionFromAnchorRmsDeg": 9.953443075403536,
+      "motionFromAnchorRmsRatio": 4.775910503214513,
+      "hipRelativePositionDifferenceRmsUnits": 0.014123191735261525,
+      "localTranslationMotionDeltaRmsUnits": 4.0970267213759504e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.026903351856850437,
+          "woman": 0.030655245994666472,
+          "difference": 0.003751894137816035
+        },
+        "y": {
+          "normal": 0.0032807578896451584,
+          "woman": 0.00541722668606226,
+          "difference": 0.0021364687964171014
+        },
+        "z": {
+          "normal": 0.01713180320878581,
+          "woman": 0.015752388078117865,
+          "difference": -0.0013794151306679436
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandThumb2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 27.880801011207236,
+      "meanRawPoseDifferenceDeg": 27.68363049472072,
+      "motionDeltaRmsDeg": 8.77129782510965,
+      "motionDeltaMaxDeg": 13.606915598952328,
+      "phaseOfMaxDynamicDifference": 0.09166666666666666,
+      "normalMotionFromAnchorRmsDeg": 5.029997249039559,
+      "womanMotionFromAnchorRmsDeg": 10.480155831776983,
+      "motionFromAnchorRmsRatio": 2.0835311259420854,
+      "hipRelativePositionDifferenceRmsUnits": 0.1420170118030776,
+      "localTranslationMotionDeltaRmsUnits": 1.0239002610473255e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2401137429787795,
+          "woman": 0.054181586807537,
+          "difference": -0.18593215617124248
+        },
+        "y": {
+          "normal": 0.1753247540170085,
+          "woman": 0.16163856303324714,
+          "difference": -0.013686190983761365
+        },
+        "z": {
+          "normal": 0.45756980990058743,
+          "woman": 0.4097488320043958,
+          "difference": -0.04782097789619161
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandIndex1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.839678722836219,
+      "meanRawPoseDifferenceDeg": 11.757059139769165,
+      "motionDeltaRmsDeg": 8.253027408677774,
+      "motionDeltaMaxDeg": 16.776378068288295,
+      "phaseOfMaxDynamicDifference": 0.85,
+      "normalMotionFromAnchorRmsDeg": 3.1244022593986163,
+      "womanMotionFromAnchorRmsDeg": 7.166153487868667,
+      "motionFromAnchorRmsRatio": 2.2936078305256395,
+      "hipRelativePositionDifferenceRmsUnits": 0.19212742196251342,
+      "localTranslationMotionDeltaRmsUnits": 4.148221164021642e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10208897100013326,
+          "woman": 0.1044217812822179,
+          "difference": 0.002332810282084638
+        },
+        "y": {
+          "normal": 0.10452128968439348,
+          "woman": 0.1400983858669845,
+          "difference": 0.03557709618259103
+        },
+        "z": {
+          "normal": 0.5362317582797194,
+          "woman": 0.48936549019036024,
+          "difference": -0.04686626808935912
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandThumb1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 14.335567629361524,
+      "meanRawPoseDifferenceDeg": 13.11223996485648,
+      "motionDeltaRmsDeg": 7.021693922111912,
+      "motionDeltaMaxDeg": 12.51198806538933,
+      "phaseOfMaxDynamicDifference": 0.26666666666666666,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 7.021693922111849,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.15590402529240793,
+      "localTranslationMotionDeltaRmsUnits": 4.21544675609552e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.08767294052404945,
+          "woman": 0.08003133680617283,
+          "difference": -0.007641603717876616
+        },
+        "y": {
+          "normal": 0.09523948820313424,
+          "woman": 0.10660321024287822,
+          "difference": 0.011363722039743979
+        },
+        "z": {
+          "normal": 0.4612982765108674,
+          "woman": 0.4141140199769201,
+          "difference": -0.04718425653394731
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandRing1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 17.508445900388356,
+      "meanRawPoseDifferenceDeg": 17.177628629829314,
+      "motionDeltaRmsDeg": 6.757921883340554,
+      "motionDeltaMaxDeg": 13.490753912025195,
+      "phaseOfMaxDynamicDifference": 0.85,
+      "normalMotionFromAnchorRmsDeg": 2.1251730885196194,
+      "womanMotionFromAnchorRmsDeg": 6.3098275981114735,
+      "motionFromAnchorRmsRatio": 2.969088791966049,
+      "hipRelativePositionDifferenceRmsUnits": 0.19882974781891433,
+      "localTranslationMotionDeltaRmsUnits": 5.2837873634206055e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.1025464315704592,
+          "woman": 0.10022508055044826,
+          "difference": -0.0023213510200109366
+        },
+        "y": {
+          "normal": 0.07732255917654687,
+          "woman": 0.11102479828780558,
+          "difference": 0.033702239111258706
+        },
+        "z": {
+          "normal": 0.5505329562181186,
+          "woman": 0.5190935331851803,
+          "difference": -0.03143942303293834
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandThumb2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 14.574359244005052,
+      "meanRawPoseDifferenceDeg": 15.915215028636755,
+      "motionDeltaRmsDeg": 6.538280154275792,
+      "motionDeltaMaxDeg": 10.083919854353391,
+      "phaseOfMaxDynamicDifference": 0.85,
+      "normalMotionFromAnchorRmsDeg": 2.585871854077748,
+      "womanMotionFromAnchorRmsDeg": 5.2517602337667055,
+      "motionFromAnchorRmsRatio": 2.030943731989282,
+      "hipRelativePositionDifferenceRmsUnits": 0.161434839138383,
+      "localTranslationMotionDeltaRmsUnits": 1.191532438748257e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.08988138993220093,
+          "woman": 0.08846310318991894,
+          "difference": -0.0014182867422819906
+        },
+        "y": {
+          "normal": 0.0968477557586547,
+          "woman": 0.11422703624009362,
+          "difference": 0.017379280481438913
+        },
+        "z": {
+          "normal": 0.4655554494573716,
+          "woman": 0.42642477189473815,
+          "difference": -0.03913067756263344
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandRing1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 8.130460906241144,
+      "meanRawPoseDifferenceDeg": 3.391061007452839,
+      "motionDeltaRmsDeg": 6.358484435233846,
+      "motionDeltaMaxDeg": 10.716738106001863,
+      "phaseOfMaxDynamicDifference": 0.9208333333333333,
+      "normalMotionFromAnchorRmsDeg": 3.8082811952659967,
+      "womanMotionFromAnchorRmsDeg": 2.8910920153210755,
+      "motionFromAnchorRmsRatio": 0.7591592813353536,
+      "hipRelativePositionDifferenceRmsUnits": 0.15734679102102453,
+      "localTranslationMotionDeltaRmsUnits": 8.254284971827759e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.24334189706676557,
+          "woman": 0.05363983815725776,
+          "difference": -0.1897020589095078
+        },
+        "y": {
+          "normal": 0.15416817131076233,
+          "woman": 0.14934307357302476,
+          "difference": -0.004825097737737566
+        },
+        "z": {
+          "normal": 0.5719011100920153,
+          "woman": 0.5100352955304883,
+          "difference": -0.061865814561526955
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftToeBase",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 5.458919508214819,
+      "meanRawPoseDifferenceDeg": 4.330067207740959,
+      "motionDeltaRmsDeg": 6.251687111873954,
+      "motionDeltaMaxDeg": 16.86844882691939,
+      "phaseOfMaxDynamicDifference": 0.85,
+      "normalMotionFromAnchorRmsDeg": 6.171875250599709,
+      "womanMotionFromAnchorRmsDeg": 10.797188920552697,
+      "motionFromAnchorRmsRatio": 1.7494178806520038,
+      "hipRelativePositionDifferenceRmsUnits": 0.1346065967398153,
+      "localTranslationMotionDeltaRmsUnits": 4.097026721377853e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.14864585429575966,
+          "woman": 0.24081736348260135,
+          "difference": 0.0921715091868417
+        },
+        "y": {
+          "normal": 0.20306959938743852,
+          "woman": 0.20363777826502738,
+          "difference": 0.0005681788775888652
+        },
+        "z": {
+          "normal": 0.9619045225482992,
+          "woman": 0.8347925305353192,
+          "difference": -0.12711199201297996
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandMiddle1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.053019266611544,
+      "meanRawPoseDifferenceDeg": 14.630296515479499,
+      "motionDeltaRmsDeg": 5.9411266623896,
+      "motionDeltaMaxDeg": 10.223879700400028,
+      "phaseOfMaxDynamicDifference": 0.9208333333333333,
+      "normalMotionFromAnchorRmsDeg": 3.20456398704619,
+      "womanMotionFromAnchorRmsDeg": 3.2059242703529947,
+      "motionFromAnchorRmsRatio": 1.0004244831160505,
+      "hipRelativePositionDifferenceRmsUnits": 0.1576566546290283,
+      "localTranslationMotionDeltaRmsUnits": 7.029182689669468e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2564517501222721,
+          "woman": 0.053646833436809066,
+          "difference": -0.20280491668546305
+        },
+        "y": {
+          "normal": 0.17999542798984186,
+          "woman": 0.1713821949146136,
+          "difference": -0.008613233075228266
+        },
+        "z": {
+          "normal": 0.5577198969838693,
+          "woman": 0.49553335456250414,
+          "difference": -0.06218654242136512
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandPinky1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 17.151940581100018,
+      "meanRawPoseDifferenceDeg": 18.237709015415373,
+      "motionDeltaRmsDeg": 5.840984394540944,
+      "motionDeltaMaxDeg": 10.622407652640131,
+      "phaseOfMaxDynamicDifference": 0.29583333333333334,
+      "normalMotionFromAnchorRmsDeg": 2.329240879309291,
+      "womanMotionFromAnchorRmsDeg": 5.512950058158633,
+      "motionFromAnchorRmsRatio": 2.3668441109420306,
+      "hipRelativePositionDifferenceRmsUnits": 0.196161619549017,
+      "localTranslationMotionDeltaRmsUnits": 7.74745971702012e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.11569588501550446,
+          "woman": 0.10824114964931039,
+          "difference": -0.007454735366194065
+        },
+        "y": {
+          "normal": 0.06898338349981853,
+          "woman": 0.0878393419173176,
+          "difference": 0.01885595841749907
+        },
+        "z": {
+          "normal": 0.5413492389388347,
+          "woman": 0.5183352580820296,
+          "difference": -0.02301398085680506
+        }
+      }
+    },
+    {
+      "bone": "mixamorigHead",
+      "group": "head-and-neck",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 7.960887092937182,
+      "meanRawPoseDifferenceDeg": 8.11110198604559,
+      "motionDeltaRmsDeg": 4.776513517903233,
+      "motionDeltaMaxDeg": 9.324144691437676,
+      "phaseOfMaxDynamicDifference": 0.3333333333333333,
+      "normalMotionFromAnchorRmsDeg": 5.881386001965556,
+      "womanMotionFromAnchorRmsDeg": 3.6795211436104167,
+      "motionFromAnchorRmsRatio": 0.6256214338560202,
+      "hipRelativePositionDifferenceRmsUnits": 0.03400012826251581,
+      "localTranslationMotionDeltaRmsUnits": 1.846050692583186e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.049209702587463294,
+          "woman": 0.05352439296412209,
+          "difference": 0.004314690376658797
+        },
+        "y": {
+          "normal": 0.00628332779870322,
+          "woman": 0.00444381010396222,
+          "difference": -0.0018395176947409997
+        },
+        "z": {
+          "normal": 0.017444308949264575,
+          "woman": 0.019015046295708722,
+          "difference": 0.0015707373464441468
+        }
+      }
+    },
+    {
+      "bone": "mixamorigSpine",
+      "group": "torso",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 4.8152729349241294,
+      "meanRawPoseDifferenceDeg": 4.7678838806794985,
+      "motionDeltaRmsDeg": 4.745770513918641,
+      "motionDeltaMaxDeg": 7.007045811877159,
+      "phaseOfMaxDynamicDifference": 0.6458333333333334,
+      "normalMotionFromAnchorRmsDeg": 5.51629592935333,
+      "womanMotionFromAnchorRmsDeg": 3.6616130755598117,
+      "motionFromAnchorRmsRatio": 0.663781117339196,
+      "hipRelativePositionDifferenceRmsUnits": 2.2737298807691657e-11,
+      "localTranslationMotionDeltaRmsUnits": 1.1419302281572682e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 3.357556710584855e-11,
+          "woman": 7.217037045902813e-11,
+          "difference": 3.859480335317958e-11
+        },
+        "y": {
+          "normal": 4.097919226175861e-11,
+          "woman": 7.679684665973241e-11,
+          "difference": 3.58176543979738e-11
+        },
+        "z": {
+          "normal": 1.5561632305026787e-11,
+          "woman": 3.2263432471978624e-11,
+          "difference": 1.6701800166951837e-11
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightShoulder",
+      "group": "shoulders",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.36554228536511,
+      "meanRawPoseDifferenceDeg": 12.90050108287735,
+      "motionDeltaRmsDeg": 4.397517133172642,
+      "motionDeltaMaxDeg": 6.883919945710318,
+      "phaseOfMaxDynamicDifference": 0.2625,
+      "normalMotionFromAnchorRmsDeg": 2.5233239300260615,
+      "womanMotionFromAnchorRmsDeg": 6.467713479349292,
+      "motionFromAnchorRmsRatio": 2.563172093121826,
+      "hipRelativePositionDifferenceRmsUnits": 0.013420344955618412,
+      "localTranslationMotionDeltaRmsUnits": 7.5120324030617e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.02815732763141993,
+          "woman": 0.03278109019146031,
+          "difference": 0.004623762560040382
+        },
+        "y": {
+          "normal": 0.0050307065456298705,
+          "woman": 0.005608711528678811,
+          "difference": 0.0005780049830489409
+        },
+        "z": {
+          "normal": 0.021475659550189548,
+          "woman": 0.01537108504668424,
+          "difference": -0.006104574503505308
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandPinky1",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 5.3504659376640165,
+      "meanRawPoseDifferenceDeg": 8.683144894561718,
+      "motionDeltaRmsDeg": 4.309420331480017,
+      "motionDeltaMaxDeg": 6.891973112327449,
+      "phaseOfMaxDynamicDifference": 0.19583333333333333,
+      "normalMotionFromAnchorRmsDeg": 3.3882796251473746,
+      "womanMotionFromAnchorRmsDeg": 2.7814103910695636,
+      "motionFromAnchorRmsRatio": 0.8208916319734341,
+      "hipRelativePositionDifferenceRmsUnits": 0.15609224805011987,
+      "localTranslationMotionDeltaRmsUnits": 1.0161322751735387e-8,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2269734328929669,
+          "woman": 0.06601758162584176,
+          "difference": -0.16095585126712514
+        },
+        "y": {
+          "normal": 0.1267955006519035,
+          "woman": 0.1248066810584173,
+          "difference": -0.0019888195934862074
+        },
+        "z": {
+          "normal": 0.5760202143288876,
+          "woman": 0.5163131441706851,
+          "difference": -0.059707070158202535
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightToeBase",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 2.051090224057257,
+      "meanRawPoseDifferenceDeg": 4.1627791299647185,
+      "motionDeltaRmsDeg": 4.0266988944855635,
+      "motionDeltaMaxDeg": 10.307865410705327,
+      "phaseOfMaxDynamicDifference": 0.4041666666666667,
+      "normalMotionFromAnchorRmsDeg": 7.4179365141386535,
+      "womanMotionFromAnchorRmsDeg": 7.777995913242932,
+      "motionFromAnchorRmsRatio": 1.0485390240827759,
+      "hipRelativePositionDifferenceRmsUnits": 0.09683922141982204,
+      "localTranslationMotionDeltaRmsUnits": 1.4036034516677892e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.1624629805735643,
+          "woman": 0.22220417430448916,
+          "difference": 0.059741193730924874
+        },
+        "y": {
+          "normal": 0.22953606328602305,
+          "woman": 0.19389787157839955,
+          "difference": -0.0356381917076235
+        },
+        "z": {
+          "normal": 0.9045921506904192,
+          "woman": 0.8530784983391557,
+          "difference": -0.051513652351263484
+        }
+      }
+    },
+    {
+      "bone": "mixamorigSpine2",
+      "group": "torso",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 5.249439941300714,
+      "meanRawPoseDifferenceDeg": 5.664506626491348,
+      "motionDeltaRmsDeg": 3.2609666643112294,
+      "motionDeltaMaxDeg": 5.2916717078359445,
+      "phaseOfMaxDynamicDifference": 0.6458333333333334,
+      "normalMotionFromAnchorRmsDeg": 4.242218740109088,
+      "womanMotionFromAnchorRmsDeg": 3.6133036850519997,
+      "motionFromAnchorRmsRatio": 0.851748555747289,
+      "hipRelativePositionDifferenceRmsUnits": 0.011611510799089966,
+      "localTranslationMotionDeltaRmsUnits": 7.902587596809076e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.03182721169612387,
+          "woman": 0.01756220075056713,
+          "difference": -0.014265010945556739
+        },
+        "y": {
+          "normal": 0.0010274717198465733,
+          "woman": 0.0007873377821405181,
+          "difference": -0.00024013393770605518
+        },
+        "z": {
+          "normal": 0.009188128963450271,
+          "woman": 0.011695748174996322,
+          "difference": 0.0025076192115460506
+        }
+      }
+    },
+    {
+      "bone": "mixamorigSpine1",
+      "group": "torso",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.7013589212279807,
+      "meanRawPoseDifferenceDeg": 2.584998123237395,
+      "motionDeltaRmsDeg": 3.1830851633051793,
+      "motionDeltaMaxDeg": 5.174771515321554,
+      "phaseOfMaxDynamicDifference": 0.6458333333333334,
+      "normalMotionFromAnchorRmsDeg": 4.223292804794934,
+      "womanMotionFromAnchorRmsDeg": 3.611163046709463,
+      "motionFromAnchorRmsRatio": 0.8550586505888281,
+      "hipRelativePositionDifferenceRmsUnits": 0.006658224623428734,
+      "localTranslationMotionDeltaRmsUnits": 1.7306577029593806e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.01994458766375576,
+          "woman": 0.00840374334939781,
+          "difference": -0.01154084431435795
+        },
+        "y": {
+          "normal": 0.000875957202134986,
+          "woman": 0.0008071828695006555,
+          "difference": -0.00006877433263433042
+        },
+        "z": {
+          "normal": 0.003999677921271951,
+          "woman": 0.006445379115627255,
+          "difference": 0.002445701194355304
+        }
+      }
+    },
+    {
+      "bone": "mixamorigNeck",
+      "group": "head-and-neck",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 4.289934580102375,
+      "meanRawPoseDifferenceDeg": 5.699367526389514,
+      "motionDeltaRmsDeg": 2.9802917170413363,
+      "motionDeltaMaxDeg": 4.64937933947253,
+      "phaseOfMaxDynamicDifference": 0.225,
+      "normalMotionFromAnchorRmsDeg": 2.5956212916950867,
+      "womanMotionFromAnchorRmsDeg": 2.299145162589859,
+      "motionFromAnchorRmsRatio": 0.885778356783469,
+      "hipRelativePositionDifferenceRmsUnits": 0.012627814039757648,
+      "localTranslationMotionDeltaRmsUnits": 1.952317830353061e-17,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.020181472277051006,
+          "woman": 0.025602931876353277,
+          "difference": 0.005421459599302271
+        },
+        "y": {
+          "normal": 0.002020233436886454,
+          "woman": 0.0018575969392365388,
+          "difference": -0.00016263649764991506
+        },
+        "z": {
+          "normal": 0.01066638098933129,
+          "woman": 0.012889831624751172,
+          "difference": 0.0022234506354198817
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftToe_End",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.8595891063221213,
+      "meanRawPoseDifferenceDeg": 0.8375646548928072,
+      "motionDeltaRmsDeg": 1.3575999731416215,
+      "motionDeltaMaxDeg": 4.7184373749964585,
+      "phaseOfMaxDynamicDifference": 0.85,
+      "normalMotionFromAnchorRmsDeg": 1.2411960652926413,
+      "womanMotionFromAnchorRmsDeg": 2.3263607416354026,
+      "motionFromAnchorRmsRatio": 1.8742894911505446,
+      "hipRelativePositionDifferenceRmsUnits": 0.13919385278320387,
+      "localTranslationMotionDeltaRmsUnits": 2.6585019886095545e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.1607790340933648,
+          "woman": 0.24518753921478528,
+          "difference": 0.08440850512142048
+        },
+        "y": {
+          "normal": 0.23651357439873522,
+          "woman": 0.15616076905980014,
+          "difference": -0.08035280533893507
+        },
+        "z": {
+          "normal": 0.9930903351967927,
+          "woman": 0.8917213944346971,
+          "difference": -0.10136894076209557
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandThumb3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 23.25199742071768,
+      "meanRawPoseDifferenceDeg": 23.33029285012117,
+      "motionDeltaRmsDeg": 1.1711879508607856,
+      "motionDeltaMaxDeg": 1.8850617637927947,
+      "phaseOfMaxDynamicDifference": 0.29583333333333334,
+      "normalMotionFromAnchorRmsDeg": 0.16983538264880438,
+      "womanMotionFromAnchorRmsDeg": 1.166322231227157,
+      "motionFromAnchorRmsRatio": 6.867368937125116,
+      "hipRelativePositionDifferenceRmsUnits": 0.17081640368383588,
+      "localTranslationMotionDeltaRmsUnits": 1.4253630953072748e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.09348607370064127,
+          "woman": 0.09589235526420854,
+          "difference": 0.0024062815635672724
+        },
+        "y": {
+          "normal": 0.097576465831062,
+          "woman": 0.1239022061194171,
+          "difference": 0.026325740288355104
+        },
+        "z": {
+          "normal": 0.47737115956184384,
+          "woman": 0.4408615775492256,
+          "difference": -0.036509582012618225
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightToe_End",
+      "group": "feet",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.39278740701229037,
+      "meanRawPoseDifferenceDeg": 0.9410253075310369,
+      "motionDeltaRmsDeg": 1.0293245457956295,
+      "motionDeltaMaxDeg": 3.215719212163811,
+      "phaseOfMaxDynamicDifference": 0.3333333333333333,
+      "normalMotionFromAnchorRmsDeg": 1.7197772105328533,
+      "womanMotionFromAnchorRmsDeg": 2.0542354904637414,
+      "motionFromAnchorRmsRatio": 1.1944776787844864,
+      "hipRelativePositionDifferenceRmsUnits": 0.10279450703316545,
+      "localTranslationMotionDeltaRmsUnits": 2.6585019886098515e-18,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.17279951760104695,
+          "woman": 0.22285723321283674,
+          "difference": 0.05005771561178979
+        },
+        "y": {
+          "normal": 0.18188585170845717,
+          "woman": 0.15137693291296428,
+          "difference": -0.03050891879549289
+        },
+        "z": {
+          "normal": 0.9552074582502526,
+          "woman": 0.9190580852842785,
+          "difference": -0.03614937296597409
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandPinky3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 27.406142245935914,
+      "meanRawPoseDifferenceDeg": 27.71294942021976,
+      "motionDeltaRmsDeg": 0.9998123118836979,
+      "motionDeltaMaxDeg": 2.303790491036642,
+      "phaseOfMaxDynamicDifference": 0.775,
+      "normalMotionFromAnchorRmsDeg": 0.2323290182535705,
+      "womanMotionFromAnchorRmsDeg": 0.8330231924002136,
+      "motionFromAnchorRmsRatio": 3.585532270837681,
+      "hipRelativePositionDifferenceRmsUnits": 0.20218751507463825,
+      "localTranslationMotionDeltaRmsUnits": 8.888124268664826e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.12939972930300242,
+          "woman": 0.12024438618162513,
+          "difference": -0.009155343121377293
+        },
+        "y": {
+          "normal": 0.07911100151285672,
+          "woman": 0.07850947582702311,
+          "difference": -0.0006015256858336038
+        },
+        "z": {
+          "normal": 0.5486637266483188,
+          "woman": 0.5211414843445188,
+          "difference": -0.02752224230379996
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandPinky2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 20.5108635869063,
+      "meanRawPoseDifferenceDeg": 20.815899422105467,
+      "motionDeltaRmsDeg": 0.9946191787125833,
+      "motionDeltaMaxDeg": 2.3065015029153924,
+      "phaseOfMaxDynamicDifference": 0.775,
+      "normalMotionFromAnchorRmsDeg": 0.24167341298539502,
+      "womanMotionFromAnchorRmsDeg": 0.8309593977744929,
+      "motionFromAnchorRmsRatio": 3.438356695962704,
+      "hipRelativePositionDifferenceRmsUnits": 0.20165475011049583,
+      "localTranslationMotionDeltaRmsUnits": 9.85141132675829e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.12259645641827371,
+          "woman": 0.11460786105823959,
+          "difference": -0.007988595360034129
+        },
+        "y": {
+          "normal": 0.07327293626988884,
+          "woman": 0.08694499082400087,
+          "difference": 0.013672054554112023
+        },
+        "z": {
+          "normal": 0.5498919447740236,
+          "woman": 0.5268173443463383,
+          "difference": -0.023074600427685277
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandPinky3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.99680584468336,
+      "meanRawPoseDifferenceDeg": 10.54649890739666,
+      "motionDeltaRmsDeg": 0.5851484776391211,
+      "motionDeltaMaxDeg": 1.0441614594541395,
+      "phaseOfMaxDynamicDifference": 0.35,
+      "normalMotionFromAnchorRmsDeg": 0.2793923804591894,
+      "womanMotionFromAnchorRmsDeg": 0.3302507576711275,
+      "motionFromAnchorRmsRatio": 1.1820320837968126,
+      "hipRelativePositionDifferenceRmsUnits": 0.1639363731486086,
+      "localTranslationMotionDeltaRmsUnits": 3.349203767432608e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.23453986758812073,
+          "woman": 0.07975253595046727,
+          "difference": -0.15478733163765346
+        },
+        "y": {
+          "normal": 0.12800837563952347,
+          "woman": 0.12514598728632395,
+          "difference": -0.0028623883531995187
+        },
+        "z": {
+          "normal": 0.6014279190232181,
+          "woman": 0.5443998110177821,
+          "difference": -0.05702810800543601
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandPinky2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 11.407589876277108,
+      "meanRawPoseDifferenceDeg": 11.858988213861888,
+      "motionDeltaRmsDeg": 0.5849817217031078,
+      "motionDeltaMaxDeg": 1.0436237024023542,
+      "phaseOfMaxDynamicDifference": 0.35,
+      "normalMotionFromAnchorRmsDeg": 0.2791939779176317,
+      "womanMotionFromAnchorRmsDeg": 0.33025684417692824,
+      "motionFromAnchorRmsRatio": 1.1828938669814764,
+      "hipRelativePositionDifferenceRmsUnits": 0.16054854606794242,
+      "localTranslationMotionDeltaRmsUnits": 1.6001164391991687e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.23166208479943,
+          "woman": 0.07039708379443133,
+          "difference": -0.1612650010049987
+        },
+        "y": {
+          "normal": 0.12907458194428995,
+          "woman": 0.12810131758822688,
+          "difference": -0.0009732643560630694
+        },
+        "z": {
+          "normal": 0.5918263724781775,
+          "woman": 0.5348011504080243,
+          "difference": -0.05702522207015315
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandMiddle2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 3.1600495045968358,
+      "meanRawPoseDifferenceDeg": 3.373360470920887,
+      "motionDeltaRmsDeg": 0.4549492572379184,
+      "motionDeltaMaxDeg": 1.2044144638069252,
+      "phaseOfMaxDynamicDifference": 0.325,
+      "normalMotionFromAnchorRmsDeg": 0.1685355810894189,
+      "womanMotionFromAnchorRmsDeg": 0.41391939787198556,
+      "motionFromAnchorRmsRatio": 2.4559763297245514,
+      "hipRelativePositionDifferenceRmsUnits": 0.20561089843913213,
+      "localTranslationMotionDeltaRmsUnits": 1.1431383369876664e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.09913518311906563,
+          "woman": 0.11444005368576575,
+          "difference": 0.015304870566700116
+        },
+        "y": {
+          "normal": 0.0939541673601354,
+          "woman": 0.13562744016662878,
+          "difference": 0.04167327280649338
+        },
+        "z": {
+          "normal": 0.5614967572262263,
+          "woman": 0.5223474133926758,
+          "difference": -0.03914934383355051
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandIndex3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 11.321284623302816,
+      "meanRawPoseDifferenceDeg": 10.970883129677201,
+      "motionDeltaRmsDeg": 0.4418574839033261,
+      "motionDeltaMaxDeg": 0.8298549729166262,
+      "phaseOfMaxDynamicDifference": 0.36666666666666664,
+      "normalMotionFromAnchorRmsDeg": 0.11434045732651628,
+      "womanMotionFromAnchorRmsDeg": 0.4246274049848587,
+      "motionFromAnchorRmsRatio": 3.7137109201187783,
+      "hipRelativePositionDifferenceRmsUnits": 0.16809773451316923,
+      "localTranslationMotionDeltaRmsUnits": 1.9267127950918315e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.27472565521034154,
+          "woman": 0.06059890817100283,
+          "difference": -0.2141267470393387
+        },
+        "y": {
+          "normal": 0.20859182535983717,
+          "woman": 0.2070370561755236,
+          "difference": -0.0015547691843135758
+        },
+        "z": {
+          "normal": 0.5728799598994141,
+          "woman": 0.5252389398454016,
+          "difference": -0.047641020054012495
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandIndex2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 1.96090190946746,
+      "meanRawPoseDifferenceDeg": 2.2883264555730456,
+      "motionDeltaRmsDeg": 0.44112109187028475,
+      "motionDeltaMaxDeg": 0.8295803480082585,
+      "phaseOfMaxDynamicDifference": 0.36666666666666664,
+      "normalMotionFromAnchorRmsDeg": 0.11433438115139877,
+      "womanMotionFromAnchorRmsDeg": 0.42418571805045263,
+      "motionFromAnchorRmsRatio": 3.7100451655810893,
+      "hipRelativePositionDifferenceRmsUnits": 0.16271125297191485,
+      "localTranslationMotionDeltaRmsUnits": 1.8309224378318184e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.270610249597079,
+          "woman": 0.05910663702082604,
+          "difference": -0.211503612576253
+        },
+        "y": {
+          "normal": 0.20530637910421712,
+          "woman": 0.19928950637605913,
+          "difference": -0.006016872728157985
+        },
+        "z": {
+          "normal": 0.5573725104608184,
+          "woman": 0.5011280460529728,
+          "difference": -0.056244464407845585
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandMiddle3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 10.619279444227406,
+      "meanRawPoseDifferenceDeg": 10.829549236965253,
+      "motionDeltaRmsDeg": 0.43676348915905827,
+      "motionDeltaMaxDeg": 1.1705128888770377,
+      "phaseOfMaxDynamicDifference": 0.325,
+      "normalMotionFromAnchorRmsDeg": 0.16765920370572998,
+      "womanMotionFromAnchorRmsDeg": 0.3983197473791682,
+      "motionFromAnchorRmsRatio": 2.3757702444912367,
+      "hipRelativePositionDifferenceRmsUnits": 0.20920357651406638,
+      "localTranslationMotionDeltaRmsUnits": 1.7902770473289027e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10176314614425264,
+          "woman": 0.11862984209954365,
+          "difference": 0.016866695955291014
+        },
+        "y": {
+          "normal": 0.08786989888039978,
+          "woman": 0.12969303963139775,
+          "difference": 0.04182314075099797
+        },
+        "z": {
+          "normal": 0.559320853325049,
+          "woman": 0.52688156014574,
+          "difference": -0.03243929317930905
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandIndex2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 3.360383747567269,
+      "meanRawPoseDifferenceDeg": 3.5377829446797615,
+      "motionDeltaRmsDeg": 0.42405800383710107,
+      "motionDeltaMaxDeg": 0.8490128986742185,
+      "phaseOfMaxDynamicDifference": 0.7791666666666667,
+      "normalMotionFromAnchorRmsDeg": 0.10092925045519312,
+      "womanMotionFromAnchorRmsDeg": 0.3880868404996229,
+      "motionFromAnchorRmsRatio": 3.845137447760117,
+      "hipRelativePositionDifferenceRmsUnits": 0.20119999020792304,
+      "localTranslationMotionDeltaRmsUnits": 7.959792764302376e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10657411638492703,
+          "woman": 0.11515517086232543,
+          "difference": 0.008581054477398403
+        },
+        "y": {
+          "normal": 0.10527148101554931,
+          "woman": 0.14948115522713143,
+          "difference": 0.04420967421158212
+        },
+        "z": {
+          "normal": 0.547452043684707,
+          "woman": 0.5044943861883822,
+          "difference": -0.04295765749632485
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandIndex3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 6.962523015751631,
+      "meanRawPoseDifferenceDeg": 7.147893182030999,
+      "motionDeltaRmsDeg": 0.423949717961882,
+      "motionDeltaMaxDeg": 0.8490433530366284,
+      "phaseOfMaxDynamicDifference": 0.7791666666666667,
+      "normalMotionFromAnchorRmsDeg": 0.10117693357192115,
+      "womanMotionFromAnchorRmsDeg": 0.38809814266618947,
+      "motionFromAnchorRmsRatio": 3.8358361828618945,
+      "hipRelativePositionDifferenceRmsUnits": 0.20673225658714384,
+      "localTranslationMotionDeltaRmsUnits": 7.379223881269775e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10728446920648807,
+          "woman": 0.12239079187776791,
+          "difference": 0.015106322671279843
+        },
+        "y": {
+          "normal": 0.10231446583188439,
+          "woman": 0.15121451152570287,
+          "difference": 0.04890004569381848
+        },
+        "z": {
+          "normal": 0.5496486913151553,
+          "woman": 0.5140665618900329,
+          "difference": -0.0355821294251224
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandRing2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 23.59883687263299,
+      "meanRawPoseDifferenceDeg": 23.360523823290393,
+      "motionDeltaRmsDeg": 0.38315216882462355,
+      "motionDeltaMaxDeg": 1.0192733476870146,
+      "phaseOfMaxDynamicDifference": 0.8125,
+      "normalMotionFromAnchorRmsDeg": 0.13208765267975042,
+      "womanMotionFromAnchorRmsDeg": 0.31354351666912356,
+      "motionFromAnchorRmsRatio": 2.373753415312157,
+      "hipRelativePositionDifferenceRmsUnits": 0.2058915756299395,
+      "localTranslationMotionDeltaRmsUnits": 8.24992205121383e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.11066071317956744,
+          "woman": 0.10714120915610179,
+          "difference": -0.0035195040234656527
+        },
+        "y": {
+          "normal": 0.07684239483829505,
+          "woman": 0.11141741733011837,
+          "difference": 0.034575022491823315
+        },
+        "z": {
+          "normal": 0.5624625027342782,
+          "woman": 0.5305540504178227,
+          "difference": -0.03190845231645556
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandRing3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 3.360790359442466,
+      "meanRawPoseDifferenceDeg": 3.1488966647761645,
+      "motionDeltaRmsDeg": 0.3828220684501822,
+      "motionDeltaMaxDeg": 1.0200724565299304,
+      "phaseOfMaxDynamicDifference": 0.8125,
+      "normalMotionFromAnchorRmsDeg": 0.13252222853234494,
+      "womanMotionFromAnchorRmsDeg": 0.3128479277359437,
+      "motionFromAnchorRmsRatio": 2.3607203953681353,
+      "hipRelativePositionDifferenceRmsUnits": 0.20811764815469086,
+      "localTranslationMotionDeltaRmsUnits": 1.3112395295324278e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.11780091344285487,
+          "woman": 0.11157731250599255,
+          "difference": -0.00622360093686232
+        },
+        "y": {
+          "normal": 0.06967576331797179,
+          "woman": 0.10567298410634057,
+          "difference": 0.03599722078836878
+        },
+        "z": {
+          "normal": 0.5547276440645934,
+          "woman": 0.5340536236408753,
+          "difference": -0.02067402042371813
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandRing3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 8.790389818176456,
+      "meanRawPoseDifferenceDeg": 8.811407120271976,
+      "motionDeltaRmsDeg": 0.33642643365718927,
+      "motionDeltaMaxDeg": 0.7632605309291743,
+      "phaseOfMaxDynamicDifference": 0.8458333333333333,
+      "normalMotionFromAnchorRmsDeg": 0.12025086795753123,
+      "womanMotionFromAnchorRmsDeg": 0.31813545843590046,
+      "motionFromAnchorRmsRatio": 2.6455980221968605,
+      "hipRelativePositionDifferenceRmsUnits": 0.16489523316820154,
+      "localTranslationMotionDeltaRmsUnits": 1.8811518774009406e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2480248936413048,
+          "woman": 0.06399137132035129,
+          "difference": -0.18403352232095352
+        },
+        "y": {
+          "normal": 0.15415683472162242,
+          "woman": 0.151131170001214,
+          "difference": -0.003025664720408411
+        },
+        "z": {
+          "normal": 0.6041806402699856,
+          "woman": 0.5438477190526141,
+          "difference": -0.06033292121737155
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandRing2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 2.1741621789283805,
+      "meanRawPoseDifferenceDeg": 2.1952185195519953,
+      "motionDeltaRmsDeg": 0.3356693682162265,
+      "motionDeltaMaxDeg": 0.7632098153851054,
+      "phaseOfMaxDynamicDifference": 0.8458333333333333,
+      "normalMotionFromAnchorRmsDeg": 0.1196190485169152,
+      "womanMotionFromAnchorRmsDeg": 0.3178519275338742,
+      "motionFromAnchorRmsRatio": 2.657201603546672,
+      "hipRelativePositionDifferenceRmsUnits": 0.16197230500393267,
+      "localTranslationMotionDeltaRmsUnits": 1.6198653349379082e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2480452614929216,
+          "woman": 0.057896636912653704,
+          "difference": -0.1901486245802679
+        },
+        "y": {
+          "normal": 0.15746322413420288,
+          "woman": 0.15282900726961868,
+          "difference": -0.004634216864584206
+        },
+        "z": {
+          "normal": 0.5919663141985696,
+          "woman": 0.5298887654224813,
+          "difference": -0.06207754877608829
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandMiddle2",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 15.347803771123996,
+      "meanRawPoseDifferenceDeg": 15.331203062533273,
+      "motionDeltaRmsDeg": 0.17689020814685186,
+      "motionDeltaMaxDeg": 0.4120374985989609,
+      "phaseOfMaxDynamicDifference": 0.8166666666666667,
+      "normalMotionFromAnchorRmsDeg": 0.06186313774441963,
+      "womanMotionFromAnchorRmsDeg": 0.17964954990272372,
+      "motionFromAnchorRmsRatio": 2.903983801224648,
+      "hipRelativePositionDifferenceRmsUnits": 0.16296063001328526,
+      "localTranslationMotionDeltaRmsUnits": 1.9551563154819943e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.26215962193197717,
+          "woman": 0.05521250063840763,
+          "difference": -0.20694712129356954
+        },
+        "y": {
+          "normal": 0.18495702991304752,
+          "woman": 0.18134924701320637,
+          "difference": -0.00360778289984115
+        },
+        "z": {
+          "normal": 0.580687066597628,
+          "woman": 0.5234406729323337,
+          "difference": -0.05724639366529438
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandMiddle3",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 2.1363906398347683,
+      "meanRawPoseDifferenceDeg": 2.12207918360529,
+      "motionDeltaRmsDeg": 0.17478512504810262,
+      "motionDeltaMaxDeg": 0.4088929540926405,
+      "phaseOfMaxDynamicDifference": 0.8166666666666667,
+      "normalMotionFromAnchorRmsDeg": 0.06185723204951471,
+      "womanMotionFromAnchorRmsDeg": 0.1774582306939959,
+      "motionFromAnchorRmsRatio": 2.8688356205778227,
+      "hipRelativePositionDifferenceRmsUnits": 0.16773516844098496,
+      "localTranslationMotionDeltaRmsUnits": 2.1231554752170375e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.26463944573591663,
+          "woman": 0.054444938236858614,
+          "difference": -0.21019450749905802
+        },
+        "y": {
+          "normal": 0.18509990922776376,
+          "woman": 0.1812882342315274,
+          "difference": -0.0038116749962363583
+        },
+        "z": {
+          "normal": 0.5986924308080874,
+          "woman": 0.5437496281332219,
+          "difference": -0.05494280267486551
+        }
+      }
+    },
+    {
+      "bone": "mixamorigHeadTop_End",
+      "group": "head-and-neck",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000017075472925031877,
+      "meanRawPoseDifferenceDeg": 0.0000017075472925031892,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "womanMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.09172672006458855,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.06576972377137934,
+          "woman": 0.1258469861489473,
+          "difference": 0.060077262377567955
+        },
+        "y": {
+          "normal": 0.00998400097408736,
+          "woman": 0.007129523983608332,
+          "difference": -0.002854476990479027
+        },
+        "z": {
+          "normal": 0.053608903080637385,
+          "woman": 0.038310038278291124,
+          "difference": -0.015298864802346261
+        }
+      }
+    },
+    {
+      "bone": "headfront",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.04159335994223327,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.0643034886856945,
+          "woman": 0.07305366265841969,
+          "difference": 0.008750173972725192
+        },
+        "y": {
+          "normal": 0.01403091264722639,
+          "woman": 0.008640976447671977,
+          "difference": -0.005389936199554413
+        },
+        "z": {
+          "normal": 0.017574537078575758,
+          "woman": 0.01973030832597547,
+          "difference": 0.0021557712473997126
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandThumb4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.15403343265797778,
+      "localTranslationMotionDeltaRmsUnits": 1.0855481781457682e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2640875937673553,
+          "woman": 0.05503059709854968,
+          "difference": -0.20905699666880562
+        },
+        "y": {
+          "normal": 0.207984178627922,
+          "woman": 0.1836424014591929,
+          "difference": -0.024341777168729123
+        },
+        "z": {
+          "normal": 0.4931039100339349,
+          "woman": 0.4493281845237859,
+          "difference": -0.043775725510148966
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandPinky4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.1656383853993287,
+      "localTranslationMotionDeltaRmsUnits": 2.943099993013902e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2339262377159702,
+          "woman": 0.08973193780797187,
+          "difference": -0.14419429990799834
+        },
+        "y": {
+          "normal": 0.12469987427030427,
+          "woman": 0.12138649539408441,
+          "difference": -0.0033133788762198524
+        },
+        "z": {
+          "normal": 0.6039863817860844,
+          "woman": 0.5514230138467601,
+          "difference": -0.05256336793932437
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandRing4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000017075472925031877,
+      "meanRawPoseDifferenceDeg": 0.0000017075472925031892,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "womanMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.16546413027216372,
+      "localTranslationMotionDeltaRmsUnits": 1.4212056282751494e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.24492381254619422,
+          "woman": 0.07509266716081556,
+          "difference": -0.16983114538537866
+        },
+        "y": {
+          "normal": 0.14578499489248498,
+          "woman": 0.14689156773293602,
+          "difference": 0.0011065728404510422
+        },
+        "z": {
+          "normal": 0.6063363477766037,
+          "woman": 0.5528134567287556,
+          "difference": -0.05352289104784813
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandIndex4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.17238793392592036,
+      "localTranslationMotionDeltaRmsUnits": 1.5420305467745437e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.27515440067122854,
+          "woman": 0.06182161937032936,
+          "difference": -0.21333278130089917
+        },
+        "y": {
+          "normal": 0.20629095771083433,
+          "woman": 0.21386064436690078,
+          "difference": 0.007569686656066443
+        },
+        "z": {
+          "normal": 0.5825694822816678,
+          "woman": 0.5488723360697128,
+          "difference": -0.033697146211955076
+        }
+      }
+    },
+    {
+      "bone": "mixamorigLeftHandMiddle4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.17113042057882835,
+      "localTranslationMotionDeltaRmsUnits": 2.181276374393845e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.2632272021886516,
+          "woman": 0.0590095051760155,
+          "difference": -0.2042176970126361
+        },
+        "y": {
+          "normal": 0.17975792971611104,
+          "woman": 0.1758806703748962,
+          "difference": -0.003877259341214856
+        },
+        "z": {
+          "normal": 0.6098631791882878,
+          "woman": 0.5571173974538824,
+          "difference": -0.05274578173440536
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandThumb4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.18051677889455783,
+      "localTranslationMotionDeltaRmsUnits": 4.959917212205507e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.09997684869623306,
+          "woman": 0.10295333796547557,
+          "difference": 0.002976489269242502
+        },
+        "y": {
+          "normal": 0.10193205038789069,
+          "woman": 0.1338636050508782,
+          "difference": 0.0319315546629875
+        },
+        "z": {
+          "normal": 0.492996881744271,
+          "woman": 0.4511754441603672,
+          "difference": -0.041821437583903776
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandPinky4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000024148365394514667,
+      "meanRawPoseDifferenceDeg": 0.000002414836539451475,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000024148365394514633,
+      "womanMotionFromAnchorRmsDeg": 0.0000024148365394514633,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.20069527390596353,
+      "localTranslationMotionDeltaRmsUnits": 8.883030572067204e-10,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.13551275025948523,
+          "woman": 0.12145160547883063,
+          "difference": -0.014061144780654594
+        },
+        "y": {
+          "normal": 0.08596371937939745,
+          "woman": 0.07872010771939142,
+          "difference": -0.007243611660006033
+        },
+        "z": {
+          "normal": 0.5421903460683714,
+          "woman": 0.5055445752733525,
+          "difference": -0.03664577079501885
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandIndex4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.2100646844657408,
+      "localTranslationMotionDeltaRmsUnits": 1.2235512872071946e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10631901676855313,
+          "woman": 0.12653689668478188,
+          "difference": 0.020217879916228754
+        },
+        "y": {
+          "normal": 0.09774611321372423,
+          "woman": 0.14816149959232355,
+          "difference": 0.050415386378599325
+        },
+        "z": {
+          "normal": 0.547683726322253,
+          "woman": 0.5184667989294235,
+          "difference": -0.02921692739282955
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandRing4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000024148365394514667,
+      "meanRawPoseDifferenceDeg": 0.000002414836539451475,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000024148365394514633,
+      "womanMotionFromAnchorRmsDeg": 0.0000024148365394514633,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.20693703492147966,
+      "localTranslationMotionDeltaRmsUnits": 1.5667488192740048e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.12319830460629624,
+          "woman": 0.11853777616754607,
+          "difference": -0.004660528438750172
+        },
+        "y": {
+          "normal": 0.07217921308676678,
+          "woman": 0.09574922840414118,
+          "difference": 0.023570015317374404
+        },
+        "z": {
+          "normal": 0.538220070177068,
+          "woman": 0.5299497077762607,
+          "difference": -0.008270362400807252
+        }
+      }
+    },
+    {
+      "bone": "mixamorigRightHandMiddle4",
+      "group": "fingers",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.20767478736014988,
+      "localTranslationMotionDeltaRmsUnits": 1.6634935877325518e-9,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.10875173760415305,
+          "woman": 0.11507166036284182,
+          "difference": 0.00631992275868877
+        },
+        "y": {
+          "normal": 0.07907428875552253,
+          "woman": 0.11584513637128926,
+          "difference": 0.03677084761576674
+        },
+        "z": {
+          "normal": 0.5475025692304298,
+          "woman": 0.5192002200248511,
+          "difference": -0.028302349205578725
+        }
+      }
+    },
+    {
+      "bone": "Bone_017",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000017075472925031877,
+      "meanRawPoseDifferenceDeg": 0.0000017075472925031892,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "womanMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.13728082696925162,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.13156964779668423,
+          "woman": 0.2544268500435435,
+          "difference": 0.12285720224685925
+        },
+        "y": {
+          "normal": 0.2627304927589641,
+          "woman": 0.25152048467749644,
+          "difference": -0.01121000808146766
+        },
+        "z": {
+          "normal": 0.8874752586604684,
+          "woman": 0.7410592788799559,
+          "difference": -0.14641597978051246
+        }
+      }
+    },
+    {
+      "bone": "Bone_013",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 0.09262835474085018,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 0.16819231368051524,
+          "woman": 0.24704090804456635,
+          "difference": 0.07884859436405112
+        },
+        "y": {
+          "normal": 0.28923440395628064,
+          "woman": 0.23175875193207995,
+          "difference": -0.057475652024200685
+        },
+        "z": {
+          "normal": 0.821048318413694,
+          "woman": 0.7546728459318198,
+          "difference": -0.06637547248187414
+        }
+      }
+    },
+    {
+      "bone": "Bone_008",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 4.570842084173735e-11,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 4.634124640555567e-11,
+          "woman": 5.36270006808344e-11,
+          "difference": 7.285754275278728e-12
+        },
+        "y": {
+          "normal": 2.910872931582986e-11,
+          "woman": 9.442670256820662e-11,
+          "difference": 6.531797325237676e-11
+        },
+        "z": {
+          "normal": 8.79591399716162e-11,
+          "woman": 2.2754237383182385e-10,
+          "difference": 1.3958323386020766e-10
+        }
+      }
+    },
+    {
+      "bone": "Bone_007",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 8.614084431695747e-11,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 1.2080522492725525e-10,
+          "woman": 1.9891649042985332e-10,
+          "difference": 7.811126550259807e-11
+        },
+        "y": {
+          "normal": 1.0688813723014334e-10,
+          "woman": 2.605495263985347e-10,
+          "difference": 1.5366138916839134e-10
+        },
+        "z": {
+          "normal": 8.977463217263448e-11,
+          "woman": 3.2848701536636327e-10,
+          "difference": 2.387123831937288e-10
+        }
+      }
+    },
+    {
+      "bone": "Bone_006",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 1.1219859545658031e-10,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 1.6336443395964517e-10,
+          "woman": 2.8758058955025145e-10,
+          "difference": 1.2421615559060628e-10
+        },
+        "y": {
+          "normal": 1.5979650935804557e-10,
+          "woman": 3.632979472811826e-10,
+          "difference": 2.0350143792313702e-10
+        },
+        "z": {
+          "normal": 7.878186991661096e-11,
+          "woman": 3.670066472949429e-10,
+          "difference": 2.8822477737833196e-10
+        }
+      }
+    },
+    {
+      "bone": "Bone_011",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0.0000017075472925031877,
+      "meanRawPoseDifferenceDeg": 0.0000017075472925031892,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "womanMotionFromAnchorRmsDeg": 0.0000017075472925031856,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 3.9959860558037244e-11,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 3.1044858971409585e-11,
+          "woman": 1.0451342756864648e-10,
+          "difference": 7.34685685972369e-11
+        },
+        "y": {
+          "normal": 7.163079851491005e-11,
+          "woman": 9.115022625572067e-11,
+          "difference": 1.9519427740810613e-11
+        },
+        "z": {
+          "normal": 8.653419647508542e-11,
+          "woman": 1.4074112708595266e-10,
+          "difference": 5.420693061086723e-11
+        }
+      }
+    },
+    {
+      "bone": "Bone_010",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 7.502153918795241e-11,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 9.825503549611038e-11,
+          "woman": 2.3497459436771747e-10,
+          "difference": 1.367195588716071e-10
+        },
+        "y": {
+          "normal": 1.44917244870868e-10,
+          "woman": 2.386232877960026e-10,
+          "difference": 9.370604292513462e-11
+        },
+        "z": {
+          "normal": 9.551825996823027e-11,
+          "woman": 1.0498236308054132e-10,
+          "difference": 9.464103112311051e-12
+        }
+      }
+    },
+    {
+      "bone": "Bone_009",
+      "group": "other",
+      "sampledAlignedPhases": 218,
+      "staticPoseOffsetDeg": 0,
+      "meanRawPoseDifferenceDeg": 0,
+      "motionDeltaRmsDeg": 0,
+      "motionDeltaMaxDeg": 0,
+      "phaseOfMaxDynamicDifference": 0,
+      "normalMotionFromAnchorRmsDeg": 0,
+      "womanMotionFromAnchorRmsDeg": 0,
+      "motionFromAnchorRmsRatio": null,
+      "hipRelativePositionDifferenceRmsUnits": 1.0273998059224291e-10,
+      "localTranslationMotionDeltaRmsUnits": 0,
+      "hipFramePositionRange": {
+        "x": {
+          "normal": 1.4641935939792347e-10,
+          "woman": 3.275098226201543e-10,
+          "difference": 1.8109046322223084e-10
+        },
+        "y": {
+          "normal": 1.920389403053946e-10,
+          "woman": 3.41015604643502e-10,
+          "difference": 1.489766643381074e-10
+        },
+        "z": {
+          "normal": 9.202311135325658e-11,
+          "woman": 1.0639752967556149e-10,
+          "difference": 1.4374418322304905e-11
+        }
+      }
+    }
+  ],
+  "groups": {
+    "hands": {
+      "boneCount": 2,
+      "meanBoneMotionDeltaRmsDeg": 24.592984367544922,
+      "meanBoneStaticPoseOffsetDeg": 30.144137752370597
+    },
+    "upper-arms": {
+      "boneCount": 2,
+      "meanBoneMotionDeltaRmsDeg": 21.108798091582848,
+      "meanBoneStaticPoseOffsetDeg": 40.32174274874392
+    },
+    "legs": {
+      "boneCount": 4,
+      "meanBoneMotionDeltaRmsDeg": 16.16244753059096,
+      "meanBoneStaticPoseOffsetDeg": 11.561153735180493
+    },
+    "forearms": {
+      "boneCount": 2,
+      "meanBoneMotionDeltaRmsDeg": 18.7782215401133,
+      "meanBoneStaticPoseOffsetDeg": 16.10333673720468
+    },
+    "pelvis": {
+      "boneCount": 1,
+      "meanBoneMotionDeltaRmsDeg": 11.9465884868175,
+      "meanBoneStaticPoseOffsetDeg": 10.055778796472365
+    },
+    "feet": {
+      "boneCount": 6,
+      "meanBoneMotionDeltaRmsDeg": 5.77635792408476,
+      "meanBoneStaticPoseOffsetDeg": 2.9671046454569914
+    },
+    "fingers": {
+      "boneCount": 40,
+      "meanBoneMotionDeltaRmsDeg": 2.7027749068424995,
+      "meanBoneStaticPoseOffsetDeg": 9.7975146906627
+    },
+    "shoulders": {
+      "boneCount": 2,
+      "meanBoneMotionDeltaRmsDeg": 6.652600417703754,
+      "meanBoneStaticPoseOffsetDeg": 15.759696723622728
+    },
+    "head-and-neck": {
+      "boneCount": 3,
+      "meanBoneMotionDeltaRmsDeg": 2.5856017449815227,
+      "meanBoneStaticPoseOffsetDeg": 4.08360779352895
+    },
+    "torso": {
+      "boneCount": 3,
+      "meanBoneMotionDeltaRmsDeg": 3.7299407805116833,
+      "meanBoneStaticPoseOffsetDeg": 3.5886905991509406
+    },
+    "other": {
+      "boneCount": 9,
+      "meanBoneMotionDeltaRmsDeg": 0,
+      "meanBoneStaticPoseOffsetDeg": 3.794549538895973e-7
+    }
+  },
+  "persistence": "SAVED /data/data/com.termux/files/home/.local/state/hareworks/hareworks-walking-style-research-v0.2.3/research-report.json (d0416d8bfa6b)"
+}
