@@ -1,0 +1,59 @@
+{
+  "schema": "hareworks-backward-style-lab-v0.2.6",
+  "recoveryOf": "hareworks-backward-style-lab-v0.2.5",
+  "recoveryReason": "style safety gate falsely counted 2.8 scene display offset as skinned foot and head differences; corrected by each root inverse world transform",
+  "ownerGoal": "Controlled layered transfer of measured dynamic Walking -> Walking_Woman style onto approved v0.2.2 backward in-place gait",
+  "repository": "Valar05/parametric-parambulator",
+  "baseCommit": "7756e163b4861d998642b4c3dee80c99a4205b8f",
+  "canonicalGLB": "assets/hareworks/Hareworks-nine-clips.glb",
+  "canonicalModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "canonicalModelBytes": 6784896,
+  "sourceClips": [
+    "Walk_Backward",
+    "Walking",
+    "Walking_Woman"
+  ],
+  "jointCount": 74,
+  "researchVersion": "v0.2.3",
+  "originalOwnerExportResearchReportSHA256": "f631eaf0bb48bb81afa9b451cf2191aa4c98b07bd768f2574caaaa28938ffebe",
+  "measuredForwardStylePhaseOffset": 0.9777777777777777,
+  "protectedForwardViewerBlob": "a17f8109766dcfa39fbb75b6b2ff335c358733cb",
+  "protectedBackwardViewerBlob": "61c9bea2aa3c5da5f331c45e2df41077670c3603",
+  "protectedBackwardKernelBlob": "4be7594e2fe43522c807b3fe59eb2ed965d95367",
+  "sourceModelMutation": false,
+  "acceptedGaitsMutation": false,
+  "styleTransferStaticPoseOffsets": false,
+  "backwardRootZInvariant": true,
+  "styleLayers": [
+    "pelvis",
+    "legs",
+    "torso",
+    "arms"
+  ],
+  "sourceCapturePoses": {
+    "backward": 720,
+    "normal": 360,
+    "woman": 360
+  },
+  "halfFrameRatesHz": [
+    30,
+    60,
+    120
+  ],
+  "lowFootContact": "height-based candidate witness, not force measurement",
+  "unapprovedStyleDefault": "all OFF; tested and attenuated before enabled",
+  "executionLane": "Android Termux Git ONLY",
+  "rulesRead": {
+    "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "topDownEtiquetteId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"
+  },
+  "ownerStyleAcceptance": false,
+  "measureSpace": "model-local, root.worldToLocal, renderer separation excluded",
+  "zeroStrengthGate": "mandatory 30/60/120 Hz full-rig zero gain, exact foot and head displacement, cannot apply styles if this fails",
+  "safetyThresholdsUnchanged": true,
+  "newTests": [
+    "comparison-space-test.mjs",
+    "zero-gain browser gate with 30/60/120 Hz half-frame sampling"
+  ]
+}
