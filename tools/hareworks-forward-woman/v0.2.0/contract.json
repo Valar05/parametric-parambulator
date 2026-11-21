@@ -1,0 +1,30 @@
+{
+  "campaign": "hareworks-backward-style-transfer-v0.2.0",
+  "repository": "Valar05/parametric-parambulator",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "sourceClips": ["Walking", "Walking_Woman", "Walk_Backward"],
+  "sourceDurationsSeconds": [1.033333, 0.966667, 0.866667],
+  "sourceRigBoneCount": 74,
+  "phaseAlignment": "two-event contact-marker piecewise phase warp from exact GLB extraction, heuristic",
+  "formula": "q_new_backward = q_backward * slerp(I, inverse(q_normal_forward) * q_woman_forward, strength)",
+  "positionFormula": "p_new_backward = p_backward + strength * (p_woman_forward - p_normal_forward)",
+  "protectedTranslation": "mixamorigHips.position.z is always sampled from Walk_Backward; no forward travel transplant",
+  "acceptedForward": "v0.1.9 visually owner-approved, completely unchanged",
+  "mutatedModel": false,
+  "createdNewGLB": false,
+  "generatedClipPlayback": false,
+  "executionLane": "Android Termux Git ONLY",
+  "requiredRealRigReview": "30/60/120Hz and half-frames, nonzero style signature, joint deviations and cyclic continuity, backwards foot contact visual owner acceptance",
+  "newFiles": [
+    "tools/hareworks-forward-woman/v0.2.0/index.html",
+    "tools/hareworks-forward-woman/v0.2.0/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.2.0/transfer-kernel.mjs",
+    "tools/hareworks-forward-woman/v0.2.0/transfer-kernel-test.mjs",
+    "tools/hareworks-forward-woman/v0.2.0/README.md",
+    "tools/hareworks-forward-woman/v0.2.0/contract.json",
+    "campaigns/hareworks-backward-style-transfer-v0.2.0.sh"
+  ],
+  "ownerAcceptedBackward": false
+}
