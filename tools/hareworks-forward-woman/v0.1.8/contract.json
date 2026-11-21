@@ -1,0 +1,56 @@
+{
+  "campaign": "hareworks-forward-woman-upper-anchor-v0.1.8",
+  "repository": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "2735267ab41a199949f83af26e1db2b6a529ab05",
+  "sourceModelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceClip": "Walking_Woman",
+  "sourceModelBytes": 6784896,
+  "scope": "source time-zero anchored upper Fourier curves and strict real-rig parity only; no pelvis or leg changes",
+  "executionLane": "Android Termux Git only",
+  "rulesRead": {
+    "agentsGitBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+    "campaignEtiquetteId": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+    "topDownEtiquetteId": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU"
+  },
+  "newOutputs": [
+    "tools/hareworks-forward-woman/v0.1.8/index.html",
+    "tools/hareworks-forward-woman/v0.1.8/viewer.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/parity-math.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/parity-math-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/parity-presets.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/parity-presets-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/upper-anchor.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/upper-anchor-test.mjs",
+    "tools/hareworks-forward-woman/v0.1.8/README.md",
+    "tools/hareworks-forward-woman/v0.1.8/contract.json",
+    "campaigns/hareworks-forward-woman-upper-anchor-v0.1.8.sh"
+  ],
+  "protected": [
+    "assets/hareworks/Hareworks-nine-clips.glb",
+    "tools/hareworks-forward-woman/v0.1.2",
+    "tools/hareworks-forward-woman/v0.1.3",
+    "tools/hareworks-forward-woman/v0.1.7"
+  ],
+  "thresholds": {
+    "upperLocalRotationRmsDegrees": 2,
+    "upperLocalRotationMaxDegrees": 5,
+    "upperWorldJointPositionRms": 0.01,
+    "lowerWorldJointPositionRms": 0.01
+  },
+  "presets": [
+    {
+      "strength": 0.7,
+      "harmonics": 3
+    },
+    {
+      "strength": 1,
+      "harmonics": 4
+    },
+    {
+      "strength": 1,
+      "harmonics": 12
+    }
+  ],
+  "ownerAccepted": false
+}
