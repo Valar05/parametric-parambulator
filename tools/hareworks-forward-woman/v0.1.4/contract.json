@@ -1,0 +1,16 @@
+{
+  "campaign": "hareworks-forward-woman-proof-v0.1.4",
+  "repo": "Valar05/parametric-parambulator",
+  "auditedParentCommit": "e7794120d5875aa1a56a4bc23bef46c4002fccfd",
+  "immutableModelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "immutableModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "immutableModelBytes": 6784896,
+  "sourceClip": "Walking_Woman",
+  "newOutputs": ["tools/hareworks-forward-woman/v0.1.4/index.html", "tools/hareworks-forward-woman/v0.1.4/viewer.mjs", "tools/hareworks-forward-woman/v0.1.4/upper-kernel.mjs", "tools/hareworks-forward-woman/v0.1.4/upper-kernel-test.mjs", "tools/hareworks-forward-woman/v0.1.4/README.md", "tools/hareworks-forward-woman/v0.1.4/contract.json", "campaigns/hareworks-forward-woman-proof-v0.1.4.sh"],
+  "protected": ["AGENTS.md", "assets/repl/Repl.glb", "assets/hareworks/Hareworks.glb", "assets/hareworks/Hareworks-nine-clips.glb", "tools/hareworks-forward-woman/v0.1.2", "tools/hareworks-forward-woman/v0.1.3"],
+  "unchangedLegAndPelvis": ["tools/hareworks-forward-woman/v0.1.3/foot-kernel.mjs", "tools/hareworks-forward-woman/v0.1.3/foot-profile.json", "tools/hareworks-forward-woman/v0.1.2/pose-kernel.mjs", "tools/hareworks-forward-woman/v0.1.2/motion-profile.json"],
+  "mission": "forward Woman upper-body continuity only, preserve lower body, procedural phase fit from source bone measurements",
+  "runLane": "Android Termux Git only",
+  "requiredBrowserEvidence": "actual source-skinned GLB upper continuity at 30/60/120Hz, rollback injection and full visual comparison",
+  "accepted": false
+}
