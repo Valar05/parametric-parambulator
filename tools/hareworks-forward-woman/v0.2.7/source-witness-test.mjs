@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {CLIPS} from './sidestep-core.mjs';
+const w=JSON.parse(fs.readFileSync(new URL('./source-witness.json',import.meta.url),'utf8'));
+assert.equal(w.sourceSHA256,'a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6');
+assert.deepEqual(w.clips.map(c=>c.name),CLIPS);
+assert.equal(w.clips[0].duration,w.clips[1].duration);
+assert.ok(w.clips[0].pelvisXMaxClean>1.4&&w.clips[0].pelvisXMaxClean<1.5);
+assert.ok(w.clips[1].pelvisXMaxClean>.1&&w.clips[1].pelvisXMaxClean<.14);
+assert.ok(w.clips[0].pelvisTerminal[0]<.01&&w.clips[0].pelvisLastClean[0]>1.4);
+assert.ok(w.clips[0].pelvisLastClean[1]>.8&&w.clips[0].pelvisLastClean[1]<.86);
+console.log('LEFT_WALK_REAL_SOURCE_WITNESS_PASS: 1.43-unit traveling left vs cyclic authored in-place; no slide_right');
