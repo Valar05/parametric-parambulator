@@ -1,0 +1,23 @@
+{
+  "schema": "hareworks-v0.1.20-original-knee-pole-restoration",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "af2aed9e58c9679d841c7b954e3ebe368e52a183",
+  "sourceController": "tools/hareworks-forward-woman/v0.1.19/viewer.mjs",
+  "sourceControllerBlob": "0b3a884c2799059f04fd95bef1c11a089f2d1321",
+  "sourceArchiveBlob": "f6e8940b5eaeaf154a126eaa5221dcfcab0d94d1",
+  "sourceFootProfileBlob": "6febeaa8ff461806b590748dfca6461f4d8df1db",
+  "canonicalModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopdownDoc": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "executionLane": "Android Termux Git only",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.20/"
+  ],
+  "ownerApproved": "stable pole projection far in front of model, original v0.1.9 knee resemblance, v0.1.18 foot headings, world movement, OrbitControls",
+  "ownerRejected": "v0.1.19 severe knee wobble visible at 120 fps, history-dependent knee plane, hard centerline projection",
+  "physicalMechanic": "stateless 2-bone fixed forward character-local knee poles; source knee geometry constrains world contact ankle target; no iterative sole-patch error feedback",
+  "priorityWhenConflicting": "owner source-knee silhouette first, physical contact gate reports a warning rather than exaggerating the knee",
+  "modelModified": false,
+  "ownerVisualAcceptance": false
+}
