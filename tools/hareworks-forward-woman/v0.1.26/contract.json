@@ -1,0 +1,21 @@
+{
+  "schema": "hareworks-v0.1.26-procedural-real-left-clip",
+  "goal": "Replace visually rejected v0.1.25 forward-source fake left strafe with real Cautious_Crouch_Walk_Left source-derived procedurally generated left gait",
+  "ownerVerdict": "v0.1.25 rejected, video 8019.mp4: BACKWARD_UNKNOWN_DIRECTION_left => unrelated unpinned forward preview",
+  "repo": "Valar05/parametric-parambulator",
+  "baseCommit": "6342bb2a9b40c3d6911a1d58d6e384a7ddc24916",
+  "modelPath": "assets/hareworks/Hareworks-nine-clips.glb",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelBytes": 6784896,
+  "requiredSourceClips": ["Cautious_Crouch_Walk_Left", "Cautious_Crouch_Walk_Left_inplace"],
+  "forbiddenReferenceAsLateralSource": ["Walking_Woman", "slide_right"],
+  "sourceCalibration": "720 phases per clip; 74 joint periodic mathematical reconstruction, original clip source-only; generated has zero animation mixers",
+  "worldTravel": "original GLB named left direction, positive world X, measured traveling clip displacement",
+  "contact": "source-measured stance, bounded two-link world ankle pin, real browser audit required; no skinned sole contact certification",
+  "protected": ["tools/hareworks-forward-woman/v0.1.9/", "tools/hareworks-forward-woman/v0.1.24/", "tools/hareworks-forward-woman/v0.1.25/", "tools/hareworks-forward-woman/v0.2.7/", "assets/hareworks/Hareworks-nine-clips.glb"],
+  "mutable": ["tools/hareworks-forward-woman/v0.1.26/"],
+  "publication": "Android Termux Git ONLY, no force, exact pinned remote readback",
+  "requiredAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "campaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "ownerLeftVisualAcceptance": false
+}

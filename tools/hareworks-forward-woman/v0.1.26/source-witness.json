@@ -1,0 +1,54 @@
+{
+  "schema": "hareworks-left-step-source-witness-v0.2.7",
+  "sourceSHA256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceReportSchema": "hareworks-gait-and-idle-turn-v1.0.8",
+  "clips": [
+    {
+      "name": "Cautious_Crouch_Walk_Left",
+      "duration": 1.166667,
+      "samples": 71,
+      "pelvisStart": [
+        0.00625,
+        0.830801,
+        0.102619
+      ],
+      "pelvisLastClean": [
+        1.434964,
+        0.83128,
+        0.10348
+      ],
+      "pelvisTerminal": [
+        0.00332,
+        0.966211,
+        0.089648
+      ],
+      "pelvisXMaxClean": 1.434964,
+      "pelvisXMinClean": 0.00625,
+      "sourceClassification": "LOCOMOTION_REFERENCE"
+    },
+    {
+      "name": "Cautious_Crouch_Walk_Left_inplace",
+      "duration": 1.166667,
+      "samples": 71,
+      "pelvisStart": [
+        0.00625,
+        0.834755,
+        0.102619
+      ],
+      "pelvisLastClean": [
+        0.011267,
+        0.835211,
+        0.103619
+      ],
+      "pelvisTerminal": [
+        0.00332,
+        0.966211,
+        0.089648
+      ],
+      "pelvisXMaxClean": 0.125896,
+      "pelvisXMinClean": -0.006524,
+      "sourceClassification": "LOCOMOTION_REFERENCE"
+    }
+  ],
+  "sourceFrame": "GLTF world space, +Y up, +Z heading convention; root translation cannot be inferred from pelvis alone"
+}
