@@ -1,0 +1,38 @@
+{
+  "schema": "hareworks-v0.1.22-width-invariant-terrain-ik-stress-test",
+  "repo": "Valar05/parametric-parambulator",
+  "sourceCommit": "6b5843132ed6e896c7dd928b8a43fd5bf7805ad6",
+  "sourceController": "tools/hareworks-forward-woman/v0.1.21/viewer.mjs",
+  "sourceControllerBlob": "4b05c9af000e0c30919d4bb7fc47cb183fed425f",
+  "sourceTerrainBlob": "d6c6c846579787ffc4f24c52047f5a0028b8a97a",
+  "sourceFootGaitBlob": "ecc036c99f92dfa02b17a9457e76b0998a127c04",
+  "sourceKneeGovernorBlob": "eefc2b0b867778bb384eafe95af4e63d7caa2f6b",
+  "sourceFootHeadingBlob": "39108d51fcd6f1d0133e8ebdb79c665350bc1a4b",
+  "canonicalModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "executionLane": "Android Termux Git only",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.22/"
+  ],
+  "ownerVisualVerdict": "v0.1.21 roughly acceptable, but too little terrain stress and x-varying rough heights obscure profile foot contact",
+  "protectedMath": "exact v0.1.21 foot-gait, original source knee-governor, v0.1.18 foot heading, root, camera orbit; terrain-only new version",
+  "profileModes": [
+    "profile-ridges",
+    "profile-steps",
+    "profile-ramp"
+  ],
+  "stressIntensityRange": [
+    0,
+    3
+  ],
+  "worldHeightProperty": "for profile modes, terrainHeight(x,z) is EXACTLY independent of x, identical for both feet at same z",
+  "diagnostics": [
+    "analytic side profile lines",
+    "skinned heel/sole/toe terrain projection dots",
+    "real 120Hz foot-contact audit"
+  ],
+  "stressAuditResult": "actual browser audit pending, no synthetic PASS claim",
+  "modelModified": false,
+  "ownerVisualAcceptance": false
+}
