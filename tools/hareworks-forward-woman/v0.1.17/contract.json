@@ -1,0 +1,19 @@
+{
+  "schema":"hareworks-v0.1.17-anatomical-world-footfall",
+  "repo":"Valar05/parametric-parambulator",
+  "parent":"57f3e2dae16a6eb3b6614039da7fc158542e3c52",
+  "sourceController":"tools/hareworks-forward-woman/v0.1.17/viewer.mjs",
+  "sourceControllerBlob":"42d83baf72c4a2cf87b025863a8ac017df0b0d9f",
+  "modelSha256":"a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob":"547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc":"1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopDownEtiquetteDoc":"1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "executionLane":"Android Termux Git only",
+  "mutablePaths":["tools/hareworks-forward-woman/v0.1.17/"],
+  "userApproved":"v0.1.17 foot toe direction / yaw, v0.1.9 runway movement baseline, orbit camera",
+  "userRejected":"v0.1.17 overbent knees and speed slider not truly adaptive",
+  "physicalMechanic":"world space stance anchors, measured source ankle trajectory, adaptive root travel and cadence; no ankle-Z compression",
+  "review":"real 120Hz GLB leg, sole, heel, toe and footfall audits at speeds .30/.52/.80; visual acceptance pending",
+  "canonicalModelModified":false,
+  "ownerVisualAcceptance":false
+}
