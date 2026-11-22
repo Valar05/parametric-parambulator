@@ -1,0 +1,33 @@
+{
+  "schema": "hareworks-v0.1.25-directional-left-third-slot",
+  "recoveryRevision": "r2-archived-knee-envelope",
+  "newLeftLocalKneePole": [1.4, -0.02, 0.95],
+  "rightLocalKneePoleUnchanged": [-0.7, -0.02, 0.95],
+  "archivedKneeGate": "120 source poses + 720 source-interpolated yaw-aware leg solves; minSide>=0.015; original v1 pole must fail",
+  "mission": "one true procedural left strafe -X while facing +Z; preserve backward and forward",
+  "baseCommit": "1d2281ab5f7d69b7abb19f27c33c550c66d4e30d",
+  "baseController": "tools/hareworks-forward-woman/v0.1.24",
+  "newController": "tools/hareworks-forward-woman/v0.1.25",
+  "sourceModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceModelSize": 6784896,
+  "sourceClip": "Walking_Woman",
+  "directions": [
+    "forward",
+    "backward",
+    "left"
+  ],
+  "implementedCount": 3,
+  "totalPlanned": 8,
+  "realBLENDTREE": false,
+  "rightAndDiagonalsImplemented": false,
+  "locked": [
+    "all files outside v0.1.25",
+    "canonical GLB",
+    "v0.1.24 forward/backward",
+    "approved foot-heading",
+    "OrbitControls"
+  ],
+  "authorizedWriteLane": "single Android Termux Git campaign, no direct connector writes",
+  "physicalAudit": "PENDING_REAL_SKINNED_BROWSER",
+  "ownerVisualAcceptance": false
+}

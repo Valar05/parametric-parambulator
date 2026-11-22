@@ -1,0 +1,14 @@
+# Hareworks v0.1.25: procedural left (-world X), direction 3 of 8
+
+The user reported that v0.1.24 backward WALK WORKS and requested a new procedurally generated LEFT walk. Preserve all v0.1.24 forward/backward sources in their immutable versioned path; this campaign copies that exact published state into NEW v0.1.25 only.
+
+- The actor faces +Z in all modes. Left moves −world X without actor yaw or lateral displacement masquerading as a walk.
+- r2 corrective archive gate: v1's separate left lateral knee pole failed 11 out of 120 archived leg checks at yaw 0. The actual stateless left pole is recalibrated from +0.70 to +1.40 character-local X, at unchanged +0.95 anterior Z. The right pole and the v0.1.24 forward/backward pole implementation are unchanged. BOTH the original 120 zero-yaw source checks and a new 720-solve interpolated source check with actual pelvis yaw must pass, with >=.015 unit centerline margin and <=.020 unit knee step. The old pole is deliberately injected and must fail the guard. No numeric gate is relaxed; no contact shift or source clip mutation is introduced.
+- The left slot converts source-calibrated ankle excursions into true left/right foot X trajectories with fixed world-space planted anchors, newly calculated 2-bone knee IK with stationary far-forward direction-local poles, source hip bounce, independent swing paths, and a measured root-X integral. The source clip is calibration ONLY: no animation mixer runs on the visible actor.
+- Left/X contact baseline is an opt-in extension to SourceFootContact; forward/backward fall back to exactly worldX=0, preserving the existing path. Left and backward/forward are selectable in the same phone viewer, with reload/new anchor initialization when direction changes.
+- Left defaults to FLAT for readable visual judgment. Existing terrain/hip diagnostics and camera are retained as provisional; aggressive terrain is not a claimed passed contact audit.
+- Root-X travel, world-Z drift, both feet's world stance anchor positions, skinned heel/sole/toe and shin collision evidence are measured by the browser 120Hz audit. Left conditional gates use physical lateral reach rather than incorrectly requiring forward archive knee/stride parity.
+- v0.1.24 source model, right-foot heading, source stationary anterior pole solver, gait/archive versions and OrbitControls remain unchanged. Lateral uses a separate, stationary anatomical pole pair and does not alter original source pole positions.
+- The four other diagonal/cardinal directions, right strafe and continuous blend tree are UNIMPLEMENTED; only left is commissioned now.
+
+Evidence stages are separate: author-script checks; 6,784,896-byte GLB and 9 clips verified by Termux; new v0.1.25 commit and exact remote readback; real 3D IK in phone browser; owner visual acceptance. Numeric code checks do not imply visually acceptable walking.
