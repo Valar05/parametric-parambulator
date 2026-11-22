@@ -1,0 +1,7 @@
+# Hareworks v0.1.23: actual terrain hip-height IK and hillside collision measurement
+
+Owner video 7739.mp4 showed **UNPINNED DYNAMIC GEOMETRY PREVIEW**, not physical IK; this is a failure of the physical initialization/runtime gate, not terrain IK success. Owner asks for hips that lower as needed to reach the ground, and visible hillside mesh collision prevention.
+
+This campaign is a bounded incremental physical attempt. Contact targets are captured once in world space. At each 120Hz physical step, solve the intersection of the two true world-space leg-reach intervals and ground samples under both actual ankle targets. Move the pelvis within the common interval and bounded velocity; retain planted foot anchors and anterior knee-pole source shape. Measure the actual shin-to-terrain segment intrusion in addition to heel/sole/toe; a positive collision is reported and disqualifies a physical-contact PASS. Preserve all source and styling modules unchanged except the v0.1.23 viewer and immutable new pelvis solver. The actual uphill toe-to-rock collision response and full adaptive stepping planner are subsequent improvements; this is not claimed to solve arbitrary high obstacles.
+
+The original game GLB and all existing gait versions remain untouched. This is a single versioned Android Termux Git campaign, exact upstream SHA, scoped new path, required tests, remote readback and visible cache-busted browser build. If physical startup fails, the preview is explicitly UNPINNED with the actual stage/error; no PASS or gait-owner approval is implied.

@@ -1,0 +1,17 @@
+{
+  "schema":"hareworks-v0.1.23-ground-hip-reach-hill-obstruction",
+  "repo":"Valar05/parametric-parambulator",
+  "sourceCommit":"2e653d892cefcb8f100322cf5a6e8eb8aeaed4ee",
+  "sourceControllerBlob":"0a32d8c49749e8678eed248054d2bca48f833f1d",
+  "modelSha256":"a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "AGENTSBlob":"547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc":"1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "executionLane":"Android Termux Git only",
+  "mutablePaths":["tools/hareworks-forward-woman/v0.1.23/"],
+  "ownerVerdict":"v0.1.22 hills clip and actual run is labeled UNPINNED: cannot claim physical terrain IK",
+  "physicalImprovement":"joint reachable pelvis height against both actual ankle world targets; unchanged knee pole, ankle yaw and stance contact anchors",
+  "hillCollision":"actual skinned shin segment terrain probe; report intrusion rather than false physical PASS",
+  "preserve":"v0.1.20 anterior knee pole and original stride, v0.1.18 foot orientation, terrain geometry, speed controls and OrbitControls",
+  "noGuarantee":"browser source startup may still block at high stress, full step planner is not implemented",
+  "ownerVisualAcceptance":false
+}
