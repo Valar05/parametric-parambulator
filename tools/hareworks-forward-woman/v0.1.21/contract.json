@@ -1,0 +1,32 @@
+{
+  "schema": "hareworks-v0.1.21-true-terrain-surface-ik-test",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "f19caf72ded2226889a50f2824c9895b7b914a2f",
+  "sourceController": "tools/hareworks-forward-woman/v0.1.20/viewer.mjs",
+  "sourceControllerBlob": "978577d4b4d219af2c40e235a91a90586f3604b4",
+  "sourceFootContactBlob": "d896cf21146873ab968c73e21ab63b8fe50799e9",
+  "sourceKneeGovernorBlob": "eefc2b0b867778bb384eafe95af4e63d7caa2f6b",
+  "sourceFootHeadingBlob": "39108d51fcd6f1d0133e8ebdb79c665350bc1a4b",
+  "canonicalModelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopdownDoc": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "executionLane": "Android Termux Git only",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.21/"
+  ],
+  "ownerVisualVerdict": "v0.1.20 good enough for terrain experiment, not final runway/catwalk approval",
+  "protectedGait": "v0.1.20 stateless forward knee poles, source ankle/pelvis, speed gait, foot heading, camera and world root are unchanged",
+  "terrainModes": [
+    "flat",
+    "uphill",
+    "downhill",
+    "cross-slope",
+    "rough"
+  ],
+  "sharedPhysicalSurface": "terrain-core.mjs terrainHeight(x,z) drives rendered ground, stance anchor y, swing targets, body lift and heel/toe intrusion audit",
+  "terrainChangePolicy": "explicit full review reload and reset; never mutate the terrain under planted anchors",
+  "realGLBAudit": "browser control/button, not author-side synthesized PASS",
+  "modelModified": false,
+  "ownerVisualAcceptance": false
+}
