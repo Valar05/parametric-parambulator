@@ -1,0 +1,29 @@
+{
+  "schema": "hareworks-v0.1.16-dynamic-runway-world-pin",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "683b80a86f54e4d86f946acbd71ab71906a4dd18",
+  "ownerMission": "genuine world-pinned dynamic speed, source-faithful runway foot placement, knees/feet alignment and orbit camera",
+  "executionLane": "Android Termux Git only",
+  "checkout": "~/storage/documents/GodotProjects/parametric-parambulator",
+  "sourceModel": "assets/hareworks/Hareworks-nine-clips.glb",
+  "sourceSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "acceptedReference": "Walking_Woman v0.1.9 original four/six-harmonic procedural source",
+  "sourceController": "tools/hareworks-forward-woman/v0.1.15/viewer.mjs",
+  "sourceControllerBlob": "90b4bfec0f572a9700dee5bc7369d02c65f46695",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.16/"
+  ],
+  "previousVersionsUntouched": true,
+  "canonicalModelModified": false,
+  "rootAdvance": "phase-dependent accepted support-root displacement, scaled by continuously smoothed actual speed-dependent stride",
+  "speed": "v = cadence * full-cycle stride; both stride and cadence change, with no stance-anchor replacement on slider changes",
+  "runway": "source-generated leading-foot lateral crossover and partial accepted v0.1.9 toe-vector/yaw orientation; clinical anatomy not asserted",
+  "contact": "physical skinned heel/sole/toe anchors solved against world positions and audited at 120 Hz",
+  "camera": "retained OrbitControls + pinch + tracking",
+  "knownFaultRepaired": "cadenceFor rejected verified 1.2245-unit full cycle because legacy maximum was 1.0",
+  "ownerVisualAcceptance": false,
+  "physicalContactGate": "must pass on the actual phone browser; synthetic source tests do not count",
+  "visualReview": "owner specifically requests runway crossover and feet more aligned with inward knees, avoids still-foot animation speed-up"
+}
