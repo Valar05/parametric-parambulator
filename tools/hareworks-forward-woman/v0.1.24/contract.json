@@ -1,0 +1,37 @@
+{
+  "schema": "hareworks-v0.1.24-directional-backward-second-slot",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "ed4bae4ffbe713fc3170f4028708ff8a9992bbab",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "modelSize": 6784896,
+  "sourceViewerBlob": "55d4073a74ad7d26a8ded6d68288f1f8555f9e58",
+  "sourceWalk": "Walking_Woman",
+  "implementedSlots": [
+    "forward",
+    "backward"
+  ],
+  "unimplementedSlots": [
+    "left",
+    "right",
+    "forward-left",
+    "forward-right",
+    "back-left",
+    "back-right"
+  ],
+  "executionLane": "Android Termux Git only",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.24/"
+  ],
+  "originalSourceModified": false,
+  "ownerVisualAcceptance": false,
+  "physicalContactVerified": false,
+  "explicitExclusions": [
+    "model mutation",
+    "new animation clip",
+    "root reorientation",
+    "forward gait rewrite",
+    "silent blend tree generalization"
+  ],
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI"
+}
