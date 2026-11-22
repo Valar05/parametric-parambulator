@@ -1,0 +1,24 @@
+{
+  "schema": "hareworks-v0.1.19-source-locked-knee-centerline",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "3318468ea1f76b264b61e319c988caab2a1870c9",
+  "sourceController": "tools/hareworks-forward-woman/v0.1.18/viewer.mjs",
+  "sourceControllerBlob": "d5146f8559c5bbc2c026fe02d4e7829216c09cfa",
+  "sourceArchiveBlob": "f6e8940b5eaeaf154a126eaa5221dcfcab0d94d1",
+  "sourceFootProfileBlob": "6febeaa8ff461806b590748dfca6461f4d8df1db",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopdownDoc": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "executionLane": "Android Termux Git only",
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.19/"
+  ],
+  "ownerApproved": "v0.1.18 left/right foot headings unchanged; v0.1.9 source leg shape, root world contact and orbit camera",
+  "ownerRejected": "v0.1.18 knees visibly wobble and cross pelvis centerline, visual result unchanged",
+  "physicalMechanic": "source real 60-frame knee direction projected onto actual anatomical two-link circle with enforced same-side pelvis boundary; planted ankle anchors and distal heading preserved",
+  "clearanceFromMidHipCenter": 0.018,
+  "modelModified": false,
+  "ownerVisualAcceptance": false,
+  "acceptance": "actual 120Hz GLB knee centerline, temporal consistency, sole/pivot drift and owner video"
+}
