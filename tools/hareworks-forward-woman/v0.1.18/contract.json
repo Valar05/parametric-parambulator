@@ -1,0 +1,19 @@
+{
+  "schema":"hareworks-v0.1.18-independent-foot-yaw-knee-ik",
+  "repo":"Valar05/parametric-parambulator",
+  "parent":"63a1fe19badfb5de7726d07b872df8e0e7120102",
+  "sourceController":"tools/hareworks-forward-woman/v0.1.17/viewer.mjs",
+  "sourceControllerBlob":"ca3db271efaf7ce0f8bd2479d5b8ac1d1643e89e",
+  "modelSha256":"a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "rulesAGENTSBlob":"547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquetteDoc":"1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopDownEtiquetteDoc":"1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "executionLane":"Android Termux Git only",
+  "mutablePaths":["tools/hareworks-forward-woman/v0.1.18/"],
+  "ownerApproved":"source v0.1.9 pelvis/ankle/knee pose, current left foot orientation, camera orbit",
+  "ownerRejected":"right foot rotated outward relative to left and coupled distal heading into knee IK",
+  "physicalMechanic":"world-space skinned contact anchors, knee IK first under source orientation, symmetric distal foot styling AFTER knee solve",
+  "kneeIKIndependentOfFootYaw":true,
+  "modelModified":false,
+  "ownerVisualAcceptance":false
+}
