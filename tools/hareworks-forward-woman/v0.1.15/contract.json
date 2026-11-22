@@ -1,0 +1,37 @@
+{
+  "schema": "hareworks-woman-accepted-v019-startup-recovery-v0.1.15",
+  "repo": "Valar05/parametric-parambulator",
+  "parent": "7a3690fa99c52f70636fa49be851e521a793838c",
+  "executionLane": "Android Termux Git only, persistent Documents/GodotProjects normal checkout",
+  "authoritativeReference": "v0.1.9 accepted procedural Walking_Woman pelvis/ankle/knee pole",
+  "modelSha256": "a0e0c7575c366a6967fbcaefb875b47ca956292f3b3975e7d1a7afb2b3d2aec6",
+  "sourceClip": "Walking_Woman",
+  "rigBones": 74,
+  "worldRootMethod": "negative phase-derivative of v0.1.9 stance ankle path, double-support weighted",
+  "contactMethod": "phase velocity hypothesis + independent real skinned heel, sole, toe patches; actual browser contact gate",
+  "camera": "orbitable and zoomable fixed-follow tracking, retain yaw/pitch/zoom",
+  "visibleActors": 1,
+  "animatedSourceClipOnGeneratedActor": false,
+  "acceptedVersionsUntouched": [
+    "v0.1.9",
+    "v0.1.11",
+    "v0.1.12",
+    "v0.2.2",
+    "v0.2.6",
+    "v0.2.7"
+  ],
+  "modelModified": false,
+  "mutablePaths": [
+    "tools/hareworks-forward-woman/v0.1.15/"
+  ],
+  "rulesAGENTSBlob": "547c2af52303f4efb718bbf8f82a698110c7bfca",
+  "rulesCampaignEtiquette": "1wntegQjw7238dmGqbvs9TQmlsp4uXdXw7_wPciNx6sI",
+  "rulesTopDownEtiquette": "1qdMR0g3hGWhC2L8Uw-1FVoZQSQuqEr4JwC5J3uog8hU",
+  "ownerRejectedEarlier": "v0.1.12 visually rejected: popping, excessive forward foot, missing trailing extension and camera orbit",
+  "physicalGate": "real 74-joint skinned footwear audit 120Hz x 3 cycles; preview cannot substitute",
+  "styleGate": "owner approval of the actual rendered gait versus accepted v0.1.9",
+  "ownerVisualAcceptance": false,
+  "witnessMethod": "whole skinned shoe vertices, skin-weight preference, horizontal PCA, three distinct low-surface longitudinal bands",
+  "calibrationErrorBehavior": "accepted v0.1.9 procedural reference preview continues moving but is clearly labeled UNPINNED; exact failure preserved",
+  "realSourceMotion": "single generated actor; 32 step real world IK startup smoke or explicit unpinned preview"
+}
